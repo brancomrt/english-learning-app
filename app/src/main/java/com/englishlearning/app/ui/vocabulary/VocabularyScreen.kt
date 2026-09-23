@@ -52,6 +52,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
+import com.englishlearning.app.ui.components.TtsButton
+import com.englishlearning.app.ui.components.TtsState
+import com.englishlearning.app.ui.components.TtsManager
+import com.englishlearning.app.ui.components.rememberTtsManager
 import coil.compose.SubcomposeAsyncImage
 import com.englishlearning.app.data.database.entity.VocabularyCardEntity
 import com.englishlearning.app.domain.model.Category
@@ -64,6 +68,8 @@ fun VocabularyScreen(
     viewModel: VocabularyViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+
+    val (ttsManager, ttsState) = rememberTtsManager()
 
     Scaffold(
         topBar = {
@@ -134,7 +140,9 @@ fun VocabularyScreen(
                             VocabularyCard(
                                 card = card,
                                 isFlipped = uiState.flippedCardId == card.id,
-                                onClick = { viewModel.flipCard(card.id) }
+                                onClick = { viewModel.flipCard(card.id) },
+                                ttsManager = ttsManager,
+                                ttsState = ttsState
                             )
                         }
                     }
@@ -214,7 +222,9 @@ private fun CategoryFilterRow(
 private fun VocabularyCard(
     card: VocabularyCardEntity,
     isFlipped: Boolean,
-    onClick: () -> Unit
+    onClick: () -> Unit,
+    ttsManager: TtsManager? = null,
+    ttsState: TtsState = TtsState.IDLE
 ) {
     val rotation by animateFloatAsState(
         targetValue = if (isFlipped) 180f else 0f,
@@ -243,7 +253,7 @@ private fun VocabularyCard(
                     .fillMaxSize()
                     .graphicsLayer { rotationY = 180f }
             ) {
-                CardBack(card = card)
+                CardBack(card = card, ttsManager = ttsManager, ttsState = ttsState)
             }
         }
     }
@@ -335,7 +345,11 @@ private fun CardFront(card: VocabularyCardEntity) {
 }
 
 @Composable
-private fun CardBack(card: VocabularyCardEntity) {
+private fun CardBack(
+    card: VocabularyCardEntity,
+    ttsManager: TtsManager? = null,
+    ttsState: TtsState = TtsState.IDLE
+) {
     Card(
         modifier = Modifier.fillMaxSize(),
         shape = RoundedCornerShape(12.dp),
@@ -351,13 +365,26 @@ private fun CardBack(card: VocabularyCardEntity) {
             verticalArrangement = Arrangement.SpaceEvenly,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Palavra em inglês
-            Text(
-                text = card.word,
-                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                color = MaterialTheme.colorScheme.onPrimaryContainer,
-                textAlign = TextAlign.Center
-            )
+            // Palavra em inglês + botão TTS
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = card.word,
+                    style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                    color = MaterialTheme.colorScheme.onPrimaryContainer,
+                    textAlign = TextAlign.Center
+                )
+                if (ttsManager != null) {
+                    TtsButton(
+                        text = card.word,
+                        manager = ttsManager,
+                        state = ttsState,
+                        size = 20.dp
+                    )
+                }
+            }
 
             // Definição em PT-BR
             Text(
@@ -369,7 +396,26 @@ private fun CardBack(card: VocabularyCardEntity) {
                 overflow = TextOverflow.Ellipsis
             )
 
-            // Exemplo em inglês
+            // Exemplo em inglês + botão TTS
+            if (ttsManager != null) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    TtsButton(
+                        text = card.exampleSentence,
+                        manager = ttsManager,
+                        state = ttsState,
+                        slow = true,
+                        size = 16.dp
+                    )
+                    Text(
+                        text = "ouvir exemplo",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f)
+                    )
+                }
+            }
             Text(
                 text = "\"${card.exampleSentence}\"",
                 style = MaterialTheme.typography.labelSmall.copy(fontStyle = FontStyle.Italic),

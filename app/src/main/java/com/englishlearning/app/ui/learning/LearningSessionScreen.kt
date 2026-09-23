@@ -61,6 +61,8 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavController
 import com.englishlearning.app.domain.model.Achievement
 import com.englishlearning.app.domain.model.ExerciseMode
+import com.englishlearning.app.ui.components.TtsButton
+import com.englishlearning.app.ui.components.rememberTtsManager
 import com.englishlearning.app.domain.model.Hint
 import com.englishlearning.app.domain.model.HintType
 import com.englishlearning.app.domain.model.QuestionType
@@ -156,6 +158,9 @@ private fun ExerciseContent(
     val hasResult = state.lastValidationResult != null
     val canRequestMoreHints = state.revealedHints.size < exercise.hints.size
 
+    // TTS para reprodução de áudio
+    val (ttsManager, ttsState) = rememberTtsManager()
+
     // Controla exibição do bottom sheet de teoria gramatical
     var showTheorySheet by rememberSaveable { mutableStateOf(false) }
 
@@ -214,7 +219,10 @@ private fun ExerciseContent(
 
                 AnswerCard(
                     displayText = exercise.displayText,
-                    label = if (isAnswerMode) "Pergunta" else "Resposta"
+                    label = if (isAnswerMode) "Pergunta" else "Resposta",
+                    onSpeak = { ttsManager.speak(exercise.displayText) },
+                    ttsManager = ttsManager,
+                    ttsState = ttsState
                 )
 
                 // Botão de teoria gramatical
@@ -377,7 +385,13 @@ private fun ContextCard(contextText: String) {
 }
 
 @Composable
-private fun AnswerCard(displayText: String, label: String = "Resposta") {
+private fun AnswerCard(
+    displayText: String,
+    label: String = "Resposta",
+    onSpeak: (() -> Unit)? = null,
+    ttsManager: com.englishlearning.app.ui.components.TtsManager? = null,
+    ttsState: com.englishlearning.app.ui.components.TtsState = com.englishlearning.app.ui.components.TtsState.IDLE
+) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
@@ -387,7 +401,22 @@ private fun AnswerCard(displayText: String, label: String = "Resposta") {
             modifier = Modifier.fillMaxWidth().padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text(text = label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(text = label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+                if (ttsManager != null) {
+                    Spacer(modifier = Modifier.width(4.dp))
+                    TtsButton(
+                        text = displayText,
+                        manager = ttsManager,
+                        state = ttsState,
+                        size = 18.dp
+                    )
+                }
+            }
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = displayText,
