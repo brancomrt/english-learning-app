@@ -191,6 +191,118 @@
       "level_id": 2,
       "category_id": 6,
       "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ticket",
+      "definition": "chamado de suporte",
+      "example_sentence": "Please open a ticket so we can track the issue.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "outage",
+      "definition": "interrupção de serviço",
+      "example_sentence": "The outage lasted for two hours last night.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "patch",
+      "definition": "atualização de segurança",
+      "example_sentence": "Apply the security patch before the end of the day.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "uptime",
+      "definition": "disponibilidade do sistema",
+      "example_sentence": "Our system has 99.9% uptime this quarter.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "workaround",
+      "definition": "solução alternativa provisória",
+      "example_sentence": "We found a workaround for the issue.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SSD",
+      "definition": "disco de estado sólido",
+      "example_sentence": "The SSD is much faster than a traditional hard drive.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "GPU",
+      "definition": "unidade de processamento gráfico",
+      "example_sentence": "Machine learning workloads need a powerful GPU.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "USB",
+      "definition": "porta USB / cabo USB",
+      "example_sentence": "Connect the device using the USB cable.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "wireless",
+      "definition": "sem fio",
+      "example_sentence": "We switched to a wireless keyboard and mouse.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DNS",
+      "definition": "sistema de nomes de domínio",
+      "example_sentence": "The DNS record needs to be updated.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "subnet",
+      "definition": "sub-rede",
+      "example_sentence": "Each department has its own subnet.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "proxy",
+      "definition": "servidor proxy",
+      "example_sentence": "Configure the proxy settings in your browser.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "throughput",
+      "definition": "taxa de transferência de dados",
+      "example_sentence": "The network throughput dropped during the backup.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "VLAN",
+      "definition": "rede local virtual",
+      "example_sentence": "Separate the IoT devices on a different VLAN.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

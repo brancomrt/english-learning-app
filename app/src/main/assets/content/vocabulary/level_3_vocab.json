@@ -159,6 +159,102 @@
       "level_id": 3,
       "category_id": 9,
       "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API",
+      "definition": "interface de programação de aplicações",
+      "example_sentence": "The frontend communicates with the backend through an API.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "framework",
+      "definition": "estrutura de desenvolvimento",
+      "example_sentence": "We chose this framework for its performance.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "library",
+      "definition": "biblioteca de código",
+      "example_sentence": "Import the library before using its functions.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "test",
+      "definition": "teste automatizado",
+      "example_sentence": "Run the unit tests before merging the pull request.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "deployment",
+      "definition": "implantação em produção",
+      "example_sentence": "The deployment was rolled back due to errors.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1601933470096-0e34634ffcde?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "table",
+      "definition": "tabela (banco de dados)",
+      "example_sentence": "The users table has over ten million records.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "foreign key",
+      "definition": "chave estrangeira",
+      "example_sentence": "The foreign key links orders to the customers table.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "backup",
+      "definition": "backup do banco de dados",
+      "example_sentence": "Run a full backup before applying the migration.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "replica",
+      "definition": "réplica de banco de dados",
+      "example_sentence": "Read queries are routed to the replica to reduce load.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "serverless",
+      "definition": "sem servidor / arquitetura serverless",
+      "example_sentence": "We moved the image processing to a serverless function.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CDN",
+      "definition": "rede de distribuição de conteúdo",
+      "example_sentence": "Use a CDN to serve static files closer to the user.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "load balancer",
+      "definition": "balanceador de carga",
+      "example_sentence": "The load balancer distributes traffic across all servers.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

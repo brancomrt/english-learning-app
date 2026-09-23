@@ -111,6 +111,70 @@
       "level_id": 5,
       "category_id": 15,
       "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "OKR",
+      "definition": "objetivo e resultado-chave",
+      "example_sentence": "Each team defines its OKRs at the start of the quarter.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "retrospective",
+      "definition": "retrospectiva (cerimônia ágil)",
+      "example_sentence": "We hold a retrospective at the end of every sprint.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "throughput",
+      "definition": "quantidade entregue por período",
+      "example_sentence": "Team throughput increased after removing blockers.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "error budget",
+      "definition": "orçamento de erro / tolerância a falhas",
+      "example_sentence": "We have consumed 80% of our error budget this month.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SLA",
+      "definition": "acordo de nível de serviço",
+      "example_sentence": "The SLA guarantees 99.5% uptime per month.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "distributed tracing",
+      "definition": "rastreamento distribuído",
+      "example_sentence": "Distributed tracing helps identify where latency occurs.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sidecar",
+      "definition": "padrão sidecar (container auxiliar)",
+      "example_sentence": "The service mesh uses a sidecar proxy for each pod.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "saga pattern",
+      "definition": "padrão saga para transações distribuídas",
+      "example_sentence": "Use the saga pattern to manage distributed transactions.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

@@ -127,6 +127,70 @@
       "level_id": 4,
       "category_id": 12,
       "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "monitoring",
+      "definition": "monitoramento",
+      "example_sentence": "Set up monitoring alerts for CPU and memory usage.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "helm chart",
+      "definition": "pacote de configuração Kubernetes",
+      "example_sentence": "Deploy the application using the Helm chart.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "secret",
+      "definition": "secret / credencial segura",
+      "example_sentence": "Store the API key as a Kubernetes secret.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "RBAC",
+      "definition": "controle de acesso baseado em funções",
+      "example_sentence": "Configure RBAC to limit who can access production.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pentest",
+      "definition": "teste de penetração / invasão autorizada",
+      "example_sentence": "We hire an external team to run a pentest every year.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "monolith",
+      "definition": "monólito / aplicação única",
+      "example_sentence": "We are migrating from a monolith to microservices.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "event-driven",
+      "definition": "orientado a eventos",
+      "example_sentence": "The system uses an event-driven architecture with Kafka.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CQRS",
+      "definition": "separação de comandos e consultas",
+      "example_sentence": "CQRS helps separate read and write models.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }
