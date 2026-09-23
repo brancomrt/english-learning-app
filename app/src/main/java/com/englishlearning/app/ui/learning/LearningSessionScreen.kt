@@ -22,6 +22,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LightbulbCircle
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Mic
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -35,6 +36,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -121,6 +123,7 @@ fun LearningSessionScreen(
                 onHint = { viewModel.requestHint() },
                 onNext = { viewModel.moveToNext() },
                 onClearResult = { viewModel.clearLastResult() },
+                onAbandon = { navController.popBackStack() },
                 modifier = Modifier.padding(innerPadding)
             )
 
@@ -150,6 +153,7 @@ private fun ExerciseContent(
     onHint: () -> Unit,
     onNext: () -> Unit,
     onClearResult: () -> Unit,
+    onAbandon: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val exercise = state.exercise
@@ -160,6 +164,29 @@ private fun ExerciseContent(
 
     // TTS para reprodução de áudio
     val (ttsManager, ttsState) = rememberTtsManager()
+
+    // Controla exibição do diálogo de abandono
+    var showAbandonDialog by rememberSaveable { mutableStateOf(false) }
+
+    // Diálogo de confirmação de abandono
+    if (showAbandonDialog) {
+        AlertDialog(
+            onDismissRequest = { showAbandonDialog = false },
+            title = { Text("Abandonar sessão?") },
+            text = { Text("Seu progresso nesta sessão será perdido. Tem certeza que deseja sair?") },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        showAbandonDialog = false
+                        onAbandon()
+                    }
+                ) { Text("Abandonar", color = MaterialTheme.colorScheme.error) }
+            },
+            dismissButton = {
+                TextButton(onClick = { showAbandonDialog = false }) { Text("Continuar") }
+            }
+        )
+    }
 
     // Controla exibição do bottom sheet de teoria gramatical
     var showTheorySheet by rememberSaveable { mutableStateOf(false) }
@@ -191,7 +218,8 @@ private fun ExerciseContent(
         topBar = {
             ExerciseTopBar(
                 currentIndex = state.currentIndex + 1,
-                totalExercises = state.totalExercises
+                totalExercises = state.totalExercises,
+                onAbandon = { showAbandonDialog = true }
             )
         }
     ) { innerPadding ->
@@ -332,7 +360,11 @@ private fun ExerciseContent(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun ExerciseTopBar(currentIndex: Int, totalExercises: Int) {
+private fun ExerciseTopBar(
+    currentIndex: Int,
+    totalExercises: Int,
+    onAbandon: () -> Unit = {}
+) {
     TopAppBar(
         title = {
             Text(
@@ -340,9 +372,18 @@ private fun ExerciseTopBar(currentIndex: Int, totalExercises: Int) {
                 style = MaterialTheme.typography.titleMedium
             )
         },
+        navigationIcon = {
+            IconButton(onClick = onAbandon) {
+                Icon(
+                    imageVector = Icons.Filled.Close,
+                    contentDescription = "Abandonar sessão"
+                )
+            }
+        },
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = MaterialTheme.colorScheme.primaryContainer,
-            titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer
+            titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer,
+            navigationIconContentColor = MaterialTheme.colorScheme.onPrimaryContainer
         )
     )
 }
