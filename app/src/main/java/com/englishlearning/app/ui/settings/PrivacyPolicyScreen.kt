@@ -156,7 +156,7 @@ fun PrivacyPolicyScreen(navController: NavController) {
             Spacer(modifier = Modifier.height(24.dp))
 
             Text(
-                text = "Desenvolvido por Alex Martins em colaboração com Kiro (Amazon).\n\n" +
+                text = "Desenvolvido por Alex Martins — Amazon Kiro AI.\n\n" +
                     "Este aplicativo foi desenvolvido com respeito à sua privacidade. " +
                     "Nenhum dado seu sai do seu dispositivo.",
                 style = MaterialTheme.typography.bodySmall,

@@ -802,4 +802,4 @@ https://github.com/brancomrt/english-learning-app*
 
 ## Créditos
 
-Desenvolvido por **Alex Martins** em colaboração com **Kiro** (Amazon).
+**Desenvolvido por Alex Martins — Amazon Kiro AI**.
