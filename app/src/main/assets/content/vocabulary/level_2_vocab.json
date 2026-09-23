@@ -1,28 +1,196 @@
 {
   "cards": [
-    { "word": "server", "definition": "servidor", "example_sentence": "The server crashed because of a memory leak.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "password", "definition": "senha", "example_sentence": "You must change your password every ninety days.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop" },
-    { "word": "backup", "definition": "cópia de segurança", "example_sentence": "Always run a backup before applying system updates.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" },
-    { "word": "helpdesk", "definition": "suporte técnico", "example_sentence": "Call the helpdesk if you cannot log in.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop" },
-    { "word": "reboot", "definition": "reinicializar", "example_sentence": "Try to reboot the machine and see if it works.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" },
-    { "word": "troubleshoot", "definition": "diagnosticar / resolver problema", "example_sentence": "Can you troubleshoot the network issue for me?", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" },
-    { "word": "log", "definition": "registro de eventos / log", "example_sentence": "Check the log file to find out what went wrong.", "level_id": 2, "category_id": 4, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "keyboard", "definition": "teclado", "example_sentence": "The keyboard stopped working after the coffee spill.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop" },
-    { "word": "monitor", "definition": "monitor", "example_sentence": "She uses a dual-monitor setup to boost her productivity.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1593640408182-31c228b30c71?w=400&h=300&fit=crop" },
-    { "word": "driver", "definition": "driver / controlador", "example_sentence": "Install the latest driver to fix the display issue.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" },
-    { "word": "RAM", "definition": "memória RAM", "example_sentence": "This laptop has eight gigabytes of RAM.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" },
-    { "word": "storage", "definition": "armazenamento", "example_sentence": "The SSD provides faster storage than an HDD.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" },
-    { "word": "processor", "definition": "processador / CPU", "example_sentence": "A faster processor improves overall performance.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" },
-    { "word": "software", "definition": "software / programa", "example_sentence": "The software update takes about twenty minutes to install.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" },
-    { "word": "hardware", "definition": "hardware / equipamento físico", "example_sentence": "We need to replace the hardware in the old workstations.", "level_id": 2, "category_id": 5, "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" },
-    { "word": "firewall", "definition": "firewall / barreira de segurança", "example_sentence": "The firewall is blocking port 443 on the production server.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop" },
-    { "word": "network", "definition": "rede", "example_sentence": "The network is down because the router lost its configuration.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "bandwidth", "definition": "largura de banda", "example_sentence": "We need more bandwidth to support video conferencing.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" },
-    { "word": "VPN", "definition": "rede virtual privada", "example_sentence": "Always connect to the VPN before accessing internal systems.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop" },
-    { "word": "router", "definition": "roteador", "example_sentence": "Restart the router to restore the network connection.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "IP address", "definition": "endereço IP", "example_sentence": "What is the IP address of this machine?", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop" },
-    { "word": "protocol", "definition": "protocolo", "example_sentence": "The VPN connection uses the OpenVPN protocol.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "port", "definition": "porta (rede)", "example_sentence": "Make sure port 443 is open on the firewall.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop" },
-    { "word": "latency", "definition": "latência / atraso", "example_sentence": "High latency makes the video call lag.", "level_id": 2, "category_id": 6, "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop" }
+    {
+      "word": "server",
+      "definition": "servidor",
+      "example_sentence": "The server crashed because of a memory leak.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?server+datacenter"
+    },
+    {
+      "word": "password",
+      "definition": "senha",
+      "example_sentence": "You must change your password every ninety days.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?security+lock"
+    },
+    {
+      "word": "backup",
+      "definition": "cópia de segurança",
+      "example_sentence": "Always run a backup before applying system updates.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?data+backup"
+    },
+    {
+      "word": "helpdesk",
+      "definition": "suporte técnico",
+      "example_sentence": "Call the helpdesk if you cannot log in.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?customer+support"
+    },
+    {
+      "word": "reboot",
+      "definition": "reinicializar",
+      "example_sentence": "Try to reboot the machine and see if it works.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?computer+restart"
+    },
+    {
+      "word": "troubleshoot",
+      "definition": "diagnosticar / resolver problema",
+      "example_sentence": "Can you troubleshoot the network issue for me?",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?technical+fix"
+    },
+    {
+      "word": "log",
+      "definition": "registro de eventos / log",
+      "example_sentence": "Check the log file to find out what went wrong.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://source.unsplash.com/400x300/?code+terminal"
+    },
+    {
+      "word": "keyboard",
+      "definition": "teclado",
+      "example_sentence": "The keyboard stopped working after the coffee spill.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?keyboard+typing"
+    },
+    {
+      "word": "monitor",
+      "definition": "monitor",
+      "example_sentence": "She uses a dual-monitor setup to boost her productivity.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?computer+monitor"
+    },
+    {
+      "word": "driver",
+      "definition": "driver / controlador",
+      "example_sentence": "Install the latest driver to fix the display issue.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?computer+hardware"
+    },
+    {
+      "word": "RAM",
+      "definition": "memória RAM",
+      "example_sentence": "This laptop has eight gigabytes of RAM.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?computer+memory"
+    },
+    {
+      "word": "storage",
+      "definition": "armazenamento",
+      "example_sentence": "The SSD provides faster storage than an HDD.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?hard+drive"
+    },
+    {
+      "word": "processor",
+      "definition": "processador / CPU",
+      "example_sentence": "A faster processor improves overall performance.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?cpu+processor"
+    },
+    {
+      "word": "software",
+      "definition": "software / programa",
+      "example_sentence": "The software update takes about twenty minutes to install.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?software+code"
+    },
+    {
+      "word": "hardware",
+      "definition": "hardware / equipamento físico",
+      "example_sentence": "We need to replace the hardware in the old workstations.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://source.unsplash.com/400x300/?computer+hardware"
+    },
+    {
+      "word": "firewall",
+      "definition": "firewall / barreira de segurança",
+      "example_sentence": "The firewall is blocking port 443 on the production server.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+security"
+    },
+    {
+      "word": "network",
+      "definition": "rede",
+      "example_sentence": "The network is down because the router lost its configuration.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+cables"
+    },
+    {
+      "word": "bandwidth",
+      "definition": "largura de banda",
+      "example_sentence": "We need more bandwidth to support video conferencing.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?internet+speed"
+    },
+    {
+      "word": "VPN",
+      "definition": "rede virtual privada",
+      "example_sentence": "Always connect to the VPN before accessing internal systems.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?vpn+security"
+    },
+    {
+      "word": "router",
+      "definition": "roteador",
+      "example_sentence": "Restart the router to restore the network connection.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?router+wifi"
+    },
+    {
+      "word": "IP address",
+      "definition": "endereço IP",
+      "example_sentence": "What is the IP address of this machine?",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+ip"
+    },
+    {
+      "word": "protocol",
+      "definition": "protocolo",
+      "example_sentence": "The VPN connection uses the OpenVPN protocol.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+protocol"
+    },
+    {
+      "word": "port",
+      "definition": "porta (rede)",
+      "example_sentence": "Make sure port 443 is open on the firewall.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+port"
+    },
+    {
+      "word": "latency",
+      "definition": "latência / atraso",
+      "example_sentence": "High latency makes the video call lag.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://source.unsplash.com/400x300/?network+latency"
+    }
   ]
 }

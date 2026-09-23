@@ -1,18 +1,116 @@
 {
   "cards": [
-    { "word": "sprint", "definition": "ciclo curto de desenvolvimento ágil", "example_sentence": "The team commits to a set of tasks at the beginning of each sprint.", "level_id": 5, "category_id": 13, "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" },
-    { "word": "velocity", "definition": "velocidade / quantidade entregue por sprint", "example_sentence": "The sprint velocity dropped because two developers are on leave.", "level_id": 5, "category_id": 13, "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" },
-    { "word": "backlog", "definition": "lista priorizada de tarefas", "example_sentence": "We refine the backlog every Wednesday afternoon.", "level_id": 5, "category_id": 13, "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop" },
-    { "word": "epic", "definition": "épico / grande funcionalidade dividida em histórias", "example_sentence": "We should have completed the epic by the end of Q3.", "level_id": 5, "category_id": 13, "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" },
-    { "word": "stakeholder", "definition": "parte interessada / envolvido no projeto", "example_sentence": "Present the demo to all stakeholders before the release.", "level_id": 5, "category_id": 13, "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" },
-    { "word": "SLO", "definition": "objetivo de nível de serviço", "example_sentence": "The SLO for that service is 99.9% uptime per month.", "level_id": 5, "category_id": 14, "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" },
-    { "word": "incident", "definition": "incidente / falha de serviço", "example_sentence": "The incident was caused by a misconfigured load balancer.", "level_id": 5, "category_id": 14, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" },
-    { "word": "observability", "definition": "observabilidade do sistema", "example_sentence": "Good observability means having logs, metrics, and traces.", "level_id": 5, "category_id": 14, "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" },
-    { "word": "on-call", "definition": "plantão / disponibilidade de suporte", "example_sentence": "The on-call engineer was paged when the alert fired.", "level_id": 5, "category_id": 14, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" },
-    { "word": "runbook", "definition": "runbook / manual de procedimentos operacionais", "example_sentence": "Follow the runbook to restore the service after an incident.", "level_id": 5, "category_id": 14, "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop" },
-    { "word": "Kafka", "definition": "plataforma de streaming de mensagens", "example_sentence": "Services communicate asynchronously through a Kafka message broker.", "level_id": 5, "category_id": 15, "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" },
-    { "word": "service mesh", "definition": "malha de serviços para microsserviços", "example_sentence": "The service mesh handles load balancing and service discovery.", "level_id": 5, "category_id": 15, "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop" },
-    { "word": "idempotent", "definition": "idempotente / seguro de executar múltiplas vezes", "example_sentence": "API endpoints should be idempotent to handle retries safely.", "level_id": 5, "category_id": 15, "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" },
-    { "word": "circuit breaker", "definition": "disjuntor / padrão de resiliência", "example_sentence": "The circuit breaker opens when the downstream service fails repeatedly.", "level_id": 5, "category_id": 15, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" }
+    {
+      "word": "sprint",
+      "definition": "ciclo curto de desenvolvimento ágil",
+      "example_sentence": "The team commits to a set of tasks at the beginning of each sprint.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://source.unsplash.com/400x300/?agile+sprint"
+    },
+    {
+      "word": "velocity",
+      "definition": "velocidade / quantidade entregue por sprint",
+      "example_sentence": "The sprint velocity dropped because two developers are on leave.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://source.unsplash.com/400x300/?speed+performance"
+    },
+    {
+      "word": "backlog",
+      "definition": "lista priorizada de tarefas",
+      "example_sentence": "We refine the backlog every Wednesday afternoon.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://source.unsplash.com/400x300/?task+list"
+    },
+    {
+      "word": "epic",
+      "definition": "épico / grande funcionalidade dividida em histórias",
+      "example_sentence": "We should have completed the epic by the end of Q3.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://source.unsplash.com/400x300/?project+management"
+    },
+    {
+      "word": "stakeholder",
+      "definition": "parte interessada / envolvido no projeto",
+      "example_sentence": "Present the demo to all stakeholders before the release.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://source.unsplash.com/400x300/?business+meeting"
+    },
+    {
+      "word": "SLO",
+      "definition": "objetivo de nível de serviço",
+      "example_sentence": "The SLO for that service is 99.9% uptime per month.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://source.unsplash.com/400x300/?metrics+dashboard"
+    },
+    {
+      "word": "incident",
+      "definition": "incidente / falha de serviço",
+      "example_sentence": "The incident was caused by a misconfigured load balancer.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://source.unsplash.com/400x300/?incident+alert"
+    },
+    {
+      "word": "observability",
+      "definition": "observabilidade do sistema",
+      "example_sentence": "Good observability means having logs, metrics, and traces.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://source.unsplash.com/400x300/?monitoring+dashboard"
+    },
+    {
+      "word": "on-call",
+      "definition": "plantão / disponibilidade de suporte",
+      "example_sentence": "The on-call engineer was paged when the alert fired.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://source.unsplash.com/400x300/?oncall+alert"
+    },
+    {
+      "word": "runbook",
+      "definition": "runbook / manual de procedimentos operacionais",
+      "example_sentence": "Follow the runbook to restore the service after an incident.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://source.unsplash.com/400x300/?documentation+ops"
+    },
+    {
+      "word": "Kafka",
+      "definition": "plataforma de streaming de mensagens",
+      "example_sentence": "Services communicate asynchronously through a Kafka message broker.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://source.unsplash.com/400x300/?kafka+streaming"
+    },
+    {
+      "word": "service mesh",
+      "definition": "malha de serviços para microsserviços",
+      "example_sentence": "The service mesh handles load balancing and service discovery.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://source.unsplash.com/400x300/?microservices+mesh"
+    },
+    {
+      "word": "idempotent",
+      "definition": "idempotente / seguro de executar múltiplas vezes",
+      "example_sentence": "API endpoints should be idempotent to handle retries safely.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://source.unsplash.com/400x300/?api+design"
+    },
+    {
+      "word": "circuit breaker",
+      "definition": "disjuntor / padrão de resiliência",
+      "example_sentence": "The circuit breaker opens when the downstream service fails repeatedly.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://source.unsplash.com/400x300/?resilience+pattern"
+    }
   ]
 }

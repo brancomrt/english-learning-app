@@ -1,15 +1,92 @@
 {
   "cards": [
-    { "word": "technical debt", "definition": "dívida técnica", "example_sentence": "The team has been struggling with technical debt for six months.", "level_id": 6, "category_id": 16, "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop" },
-    { "word": "mentoring", "definition": "mentoria / orientação profissional", "example_sentence": "She was promoted to tech lead because of her strong mentoring skills.", "level_id": 6, "category_id": 16, "image_url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop" },
-    { "word": "roadmap", "definition": "roadmap / planejamento estratégico", "example_sentence": "The product roadmap defines priorities for the next two quarters.", "level_id": 6, "category_id": 16, "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" },
-    { "word": "trade-off", "definition": "compensação / equilíbrio entre vantagens e desvantagens", "example_sentence": "Every architectural decision involves a trade-off.", "level_id": 6, "category_id": 17, "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" },
-    { "word": "scalability", "definition": "escalabilidade", "example_sentence": "Horizontal scaling improves throughput but doesn't always reduce latency.", "level_id": 6, "category_id": 17, "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop" },
-    { "word": "resilience", "definition": "resiliência / capacidade de se recuperar de falhas", "example_sentence": "Build resilience into the system by adding redundancy.", "level_id": 6, "category_id": 17, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" },
-    { "word": "bottleneck", "definition": "gargalo / ponto de limitação de desempenho", "example_sentence": "The database is the main bottleneck in this architecture.", "level_id": 6, "category_id": 17, "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" },
-    { "word": "RFC", "definition": "RFC / documento de proposta técnica", "example_sentence": "The RFC should clearly state the problem, solution, and trade-offs.", "level_id": 6, "category_id": 18, "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop" },
-    { "word": "post-mortem", "definition": "post-mortem / análise pós-incidente", "example_sentence": "The post-mortem documents what went wrong and how to prevent recurrence.", "level_id": 6, "category_id": 18, "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop" },
-    { "word": "ADR", "definition": "ADR / registro de decisão arquitetural", "example_sentence": "We document every major decision in an ADR.", "level_id": 6, "category_id": 18, "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop" },
-    { "word": "stakeholders", "definition": "partes interessadas", "example_sentence": "Communicate the post-mortem findings to all stakeholders.", "level_id": 6, "category_id": 18, "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" }
+    {
+      "word": "technical debt",
+      "definition": "dívida técnica",
+      "example_sentence": "The team has been struggling with technical debt for six months.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://source.unsplash.com/400x300/?code+debt"
+    },
+    {
+      "word": "mentoring",
+      "definition": "mentoria / orientação profissional",
+      "example_sentence": "She was promoted to tech lead because of her strong mentoring skills.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://source.unsplash.com/400x300/?mentoring+coaching"
+    },
+    {
+      "word": "roadmap",
+      "definition": "roadmap / planejamento estratégico",
+      "example_sentence": "The product roadmap defines priorities for the next two quarters.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://source.unsplash.com/400x300/?roadmap+planning"
+    },
+    {
+      "word": "trade-off",
+      "definition": "compensação / equilíbrio entre vantagens e desvantagens",
+      "example_sentence": "Every architectural decision involves a trade-off.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://source.unsplash.com/400x300/?decision+balance"
+    },
+    {
+      "word": "scalability",
+      "definition": "escalabilidade",
+      "example_sentence": "Horizontal scaling improves throughput but doesn't always reduce latency.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://source.unsplash.com/400x300/?scale+growth"
+    },
+    {
+      "word": "resilience",
+      "definition": "resiliência / capacidade de se recuperar de falhas",
+      "example_sentence": "Build resilience into the system by adding redundancy.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://source.unsplash.com/400x300/?resilience+strong"
+    },
+    {
+      "word": "bottleneck",
+      "definition": "gargalo / ponto de limitação de desempenho",
+      "example_sentence": "The database is the main bottleneck in this architecture.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://source.unsplash.com/400x300/?bottleneck+traffic"
+    },
+    {
+      "word": "RFC",
+      "definition": "RFC / documento de proposta técnica",
+      "example_sentence": "The RFC should clearly state the problem, solution, and trade-offs.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://source.unsplash.com/400x300/?document+proposal"
+    },
+    {
+      "word": "post-mortem",
+      "definition": "post-mortem / análise pós-incidente",
+      "example_sentence": "The post-mortem documents what went wrong and how to prevent recurrence.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://source.unsplash.com/400x300/?analysis+report"
+    },
+    {
+      "word": "ADR",
+      "definition": "ADR / registro de decisão arquitetural",
+      "example_sentence": "We document every major decision in an ADR.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://source.unsplash.com/400x300/?decision+document"
+    },
+    {
+      "word": "stakeholders",
+      "definition": "partes interessadas",
+      "example_sentence": "Communicate the post-mortem findings to all stakeholders.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://source.unsplash.com/400x300/?stakeholders+meeting"
+    }
   ]
 }

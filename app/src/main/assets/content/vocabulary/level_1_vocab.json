@@ -1,36 +1,260 @@
 {
   "cards": [
-    { "word": "breakfast", "definition": "café da manhã", "example_sentence": "I have breakfast at seven o'clock every morning.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop" },
-    { "word": "friend", "definition": "amigo(a)", "example_sentence": "My best friend lives next door to me.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop" },
-    { "word": "family", "definition": "família", "example_sentence": "My family eats dinner together every Sunday.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop" },
-    { "word": "house", "definition": "casa", "example_sentence": "They live in a small house near the park.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop" },
-    { "word": "coffee", "definition": "café (bebida)", "example_sentence": "I drink two cups of coffee every morning.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop" },
-    { "word": "water", "definition": "água", "example_sentence": "You should drink at least eight glasses of water a day.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=300&fit=crop" },
-    { "word": "food", "definition": "comida, alimento", "example_sentence": "Healthy food is important for a good lifestyle.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop" },
-    { "word": "lunch", "definition": "almoço", "example_sentence": "We usually have lunch at noon.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" },
-    { "word": "dinner", "definition": "jantar", "example_sentence": "She cooks dinner for the whole family.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop" },
-    { "word": "brother", "definition": "irmão", "example_sentence": "My brother is an engineer.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop" },
-    { "word": "sister", "definition": "irmã", "example_sentence": "My sister lives in São Paulo.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop" },
-    { "word": "mother", "definition": "mãe", "example_sentence": "She is my mother — her name is Ana.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop" },
-    { "word": "father", "definition": "pai", "example_sentence": "My father wakes up at six every morning.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop" },
-    { "word": "name", "definition": "nome", "example_sentence": "What is your name?", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop" },
-    { "word": "age", "definition": "idade", "example_sentence": "How old are you? What is your age?", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=400&h=300&fit=crop" },
-    { "word": "color", "definition": "cor", "example_sentence": "My favorite color is blue.", "level_id": 1, "category_id": 1, "image_url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=400&h=300&fit=crop" },
-    { "word": "work", "definition": "trabalho / trabalhar", "example_sentence": "She works at a tech company downtown.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop" },
-    { "word": "meeting", "definition": "reunião", "example_sentence": "We have a team meeting every Monday morning.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" },
-    { "word": "office", "definition": "escritório", "example_sentence": "The office is on the fifth floor.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop" },
-    { "word": "boss", "definition": "chefe, gerente", "example_sentence": "My boss is very friendly and supportive.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" },
-    { "word": "salary", "definition": "salário", "example_sentence": "My salary is paid on the last Friday of the month.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop" },
-    { "word": "schedule", "definition": "agenda, horário", "example_sentence": "My work schedule starts at nine in the morning.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop" },
-    { "word": "colleague", "definition": "colega de trabalho", "example_sentence": "My colleague helped me fix the bug.", "level_id": 1, "category_id": 2, "image_url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop" },
-    { "word": "passport", "definition": "passaporte", "example_sentence": "Don't forget to bring your passport to the airport.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop" },
-    { "word": "flight", "definition": "voo", "example_sentence": "The flight to Paris departs at six in the morning.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=300&fit=crop" },
-    { "word": "hotel", "definition": "hotel", "example_sentence": "The hotel is near the beach and has a great view.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=300&fit=crop" },
-    { "word": "train", "definition": "trem", "example_sentence": "We usually travel by train when visiting other cities.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=400&h=300&fit=crop" },
-    { "word": "airport", "definition": "aeroporto", "example_sentence": "We arrived at the airport two hours before the flight.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=300&fit=crop" },
-    { "word": "ticket", "definition": "passagem, ingresso", "example_sentence": "I bought a round-trip ticket to London.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop" },
-    { "word": "visa", "definition": "visto", "example_sentence": "You need a visa to visit Japan.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop" },
-    { "word": "luggage", "definition": "bagagem", "example_sentence": "Please don't leave your luggage unattended.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1553267751-1c148a7280a1?w=400&h=300&fit=crop" },
-    { "word": "trip", "definition": "viagem, excursão", "example_sentence": "The trip takes about three hours by train.", "level_id": 1, "category_id": 3, "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop" }
+    {
+      "word": "breakfast",
+      "definition": "café da manhã",
+      "example_sentence": "I have breakfast at seven o'clock every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?breakfast+food"
+    },
+    {
+      "word": "friend",
+      "definition": "amigo(a)",
+      "example_sentence": "My best friend lives next door to me.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?friendship+people"
+    },
+    {
+      "word": "family",
+      "definition": "família",
+      "example_sentence": "My family eats dinner together every Sunday.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?family+together"
+    },
+    {
+      "word": "house",
+      "definition": "casa",
+      "example_sentence": "They live in a small house near the park.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?house+home"
+    },
+    {
+      "word": "coffee",
+      "definition": "café (bebida)",
+      "example_sentence": "I drink two cups of coffee every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?coffee+cup"
+    },
+    {
+      "word": "water",
+      "definition": "água",
+      "example_sentence": "You should drink at least eight glasses of water a day.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?water+glass"
+    },
+    {
+      "word": "food",
+      "definition": "comida, alimento",
+      "example_sentence": "Healthy food is important for a good lifestyle.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?healthy+food"
+    },
+    {
+      "word": "lunch",
+      "definition": "almoço",
+      "example_sentence": "We usually have lunch at noon.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?lunch+meal"
+    },
+    {
+      "word": "dinner",
+      "definition": "jantar",
+      "example_sentence": "She cooks dinner for the whole family.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?dinner+table"
+    },
+    {
+      "word": "brother",
+      "definition": "irmão",
+      "example_sentence": "My brother is an engineer.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?siblings+people"
+    },
+    {
+      "word": "sister",
+      "definition": "irmã",
+      "example_sentence": "My sister lives in São Paulo.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?siblings+people"
+    },
+    {
+      "word": "mother",
+      "definition": "mãe",
+      "example_sentence": "She is my mother — her name is Ana.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?mother+family"
+    },
+    {
+      "word": "father",
+      "definition": "pai",
+      "example_sentence": "My father wakes up at six every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?father+family"
+    },
+    {
+      "word": "name",
+      "definition": "nome",
+      "example_sentence": "What is your name?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?writing+name"
+    },
+    {
+      "word": "age",
+      "definition": "idade",
+      "example_sentence": "How old are you? What is your age?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?birthday+celebration"
+    },
+    {
+      "word": "color",
+      "definition": "cor",
+      "example_sentence": "My favorite color is blue.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://source.unsplash.com/400x300/?colorful+paint"
+    },
+    {
+      "word": "work",
+      "definition": "trabalho / trabalhar",
+      "example_sentence": "She works at a tech company downtown.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?office+work"
+    },
+    {
+      "word": "meeting",
+      "definition": "reunião",
+      "example_sentence": "We have a team meeting every Monday morning.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?business+meeting"
+    },
+    {
+      "word": "office",
+      "definition": "escritório",
+      "example_sentence": "The office is on the fifth floor.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?modern+office"
+    },
+    {
+      "word": "boss",
+      "definition": "chefe, gerente",
+      "example_sentence": "My boss is very friendly and supportive.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?leader+business"
+    },
+    {
+      "word": "salary",
+      "definition": "salário",
+      "example_sentence": "My salary is paid on the last Friday of the month.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?money+finance"
+    },
+    {
+      "word": "schedule",
+      "definition": "agenda, horário",
+      "example_sentence": "My work schedule starts at nine in the morning.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?calendar+planning"
+    },
+    {
+      "word": "colleague",
+      "definition": "colega de trabalho",
+      "example_sentence": "My colleague helped me fix the bug.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://source.unsplash.com/400x300/?coworkers+team"
+    },
+    {
+      "word": "passport",
+      "definition": "passaporte",
+      "example_sentence": "Don't forget to bring your passport to the airport.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?passport+travel"
+    },
+    {
+      "word": "flight",
+      "definition": "voo",
+      "example_sentence": "The flight to Paris departs at six in the morning.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?airplane+sky"
+    },
+    {
+      "word": "hotel",
+      "definition": "hotel",
+      "example_sentence": "The hotel is near the beach and has a great view.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?hotel+room"
+    },
+    {
+      "word": "train",
+      "definition": "trem",
+      "example_sentence": "We usually travel by train when visiting other cities.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?train+station"
+    },
+    {
+      "word": "airport",
+      "definition": "aeroporto",
+      "example_sentence": "We arrived at the airport two hours before the flight.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?airport+terminal"
+    },
+    {
+      "word": "ticket",
+      "definition": "passagem, ingresso",
+      "example_sentence": "I bought a round-trip ticket to London.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?travel+ticket"
+    },
+    {
+      "word": "visa",
+      "definition": "visto",
+      "example_sentence": "You need a visa to visit Japan.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?passport+document"
+    },
+    {
+      "word": "luggage",
+      "definition": "bagagem",
+      "example_sentence": "Please don't leave your luggage unattended.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?suitcase+travel"
+    },
+    {
+      "word": "trip",
+      "definition": "viagem, excursão",
+      "example_sentence": "The trip takes about three hours by train.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://source.unsplash.com/400x300/?travel+adventure"
+    }
   ]
 }

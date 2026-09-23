@@ -1,6 +1,10 @@
 package com.englishlearning.app
 
 import android.app.Application
+import coil.Coil
+import coil.ImageLoader
+import coil.disk.DiskCache
+import coil.memory.MemoryCache
 import com.englishlearning.app.data.seeder.DatabaseSeeder
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.CoroutineScope
@@ -32,6 +36,30 @@ class EnglishLearningApp : Application() {
     override fun onCreate() {
         super.onCreate()
         seedDatabaseAsync()
+        setupCoil()
+    }
+
+    /**
+     * Configura o Coil com OkHttpClient tolerante a redirects e cache em disco.
+     * Necessário para carregar imagens do Unsplash (source.unsplash.com faz redirect).
+     */
+    private fun setupCoil() {
+        val imageLoader = ImageLoader.Builder(this)
+            .memoryCache {
+                MemoryCache.Builder(this)
+                    .maxSizePercent(0.20)
+                    .build()
+            }
+            .diskCache {
+                DiskCache.Builder()
+                    .directory(cacheDir.resolve("image_cache"))
+                    .maxSizePercent(0.02)
+                    .build()
+            }
+            .crossfade(true)
+            .build()
+
+        Coil.setImageLoader(imageLoader)
     }
 
     /**
