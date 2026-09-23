@@ -6,7 +6,7 @@
       "example_sentence": "The server crashed because of a memory leak.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🖥️"
     },
     {
       "word": "password",
@@ -14,7 +14,7 @@
       "example_sentence": "You must change your password every ninety days.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔑"
     },
     {
       "word": "backup",
@@ -22,7 +22,7 @@
       "example_sentence": "Always run a backup before applying system updates.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💾"
     },
     {
       "word": "helpdesk",
@@ -30,7 +30,7 @@
       "example_sentence": "Call the helpdesk if you cannot log in.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎧"
     },
     {
       "word": "reboot",
@@ -38,7 +38,7 @@
       "example_sentence": "Try to reboot the machine and see if it works.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔄"
     },
     {
       "word": "troubleshoot",
@@ -46,7 +46,7 @@
       "example_sentence": "Can you troubleshoot the network issue for me?",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔧"
     },
     {
       "word": "log",
@@ -54,7 +54,7 @@
       "example_sentence": "Check the log file to find out what went wrong.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "keyboard",
@@ -62,7 +62,7 @@
       "example_sentence": "The keyboard stopped working after the coffee spill.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⌨️"
     },
     {
       "word": "monitor",
@@ -70,7 +70,7 @@
       "example_sentence": "She uses a dual-monitor setup to boost her productivity.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🖥️"
     },
     {
       "word": "driver",
@@ -78,7 +78,7 @@
       "example_sentence": "Install the latest driver to fix the display issue.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2588757/pexels-photo-2588757.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚙️"
     },
     {
       "word": "RAM",
@@ -86,7 +86,7 @@
       "example_sentence": "This laptop has eight gigabytes of RAM.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💾"
     },
     {
       "word": "storage",
@@ -94,7 +94,7 @@
       "example_sentence": "The SSD provides faster storage than an HDD.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🗄️"
     },
     {
       "word": "processor",
@@ -102,7 +102,7 @@
       "example_sentence": "A faster processor improves overall performance.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🖥️"
     },
     {
       "word": "software",
@@ -110,7 +110,7 @@
       "example_sentence": "The software update takes about twenty minutes to install.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💻"
     },
     {
       "word": "hardware",
@@ -118,7 +118,7 @@
       "example_sentence": "We need to replace the hardware in the old workstations.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2588757/pexels-photo-2588757.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🖥️"
     },
     {
       "word": "firewall",
@@ -126,7 +126,7 @@
       "example_sentence": "The firewall is blocking port 443 on the production server.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🧱"
     },
     {
       "word": "network",
@@ -134,7 +134,7 @@
       "example_sentence": "The network is down because the router lost its configuration.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "bandwidth",
@@ -142,7 +142,7 @@
       "example_sentence": "We need more bandwidth to support video conferencing.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📡"
     },
     {
       "word": "VPN",
@@ -150,7 +150,7 @@
       "example_sentence": "Always connect to the VPN before accessing internal systems.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔒"
     },
     {
       "word": "router",
@@ -158,7 +158,7 @@
       "example_sentence": "Restart the router to restore the network connection.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📡"
     },
     {
       "word": "IP address",
@@ -166,7 +166,7 @@
       "example_sentence": "What is the IP address of this machine?",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "protocol",
@@ -174,7 +174,7 @@
       "example_sentence": "The VPN connection uses the OpenVPN protocol.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📡"
     },
     {
       "word": "port",
@@ -182,7 +182,7 @@
       "example_sentence": "Make sure port 443 is open on the firewall.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔌"
     },
     {
       "word": "latency",
@@ -190,7 +190,7 @@
       "example_sentence": "High latency makes the video call lag.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⏱️"
     },
     {
       "word": "ticket",
@@ -198,7 +198,7 @@
       "example_sentence": "Please open a ticket so we can track the issue.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎫"
     },
     {
       "word": "outage",
@@ -206,7 +206,7 @@
       "example_sentence": "The outage lasted for two hours last night.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🚨"
     },
     {
       "word": "patch",
@@ -214,7 +214,7 @@
       "example_sentence": "Apply the security patch before the end of the day.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🩹"
     },
     {
       "word": "uptime",
@@ -222,7 +222,7 @@
       "example_sentence": "Our system has 99.9% uptime this quarter.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📡"
     },
     {
       "word": "workaround",
@@ -230,7 +230,7 @@
       "example_sentence": "We found a workaround for the issue.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔧"
     },
     {
       "word": "SSD",
@@ -238,7 +238,7 @@
       "example_sentence": "The SSD is much faster than a traditional hard drive.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💽"
     },
     {
       "word": "GPU",
@@ -246,7 +246,7 @@
       "example_sentence": "Machine learning workloads need a powerful GPU.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎮"
     },
     {
       "word": "USB",
@@ -254,7 +254,7 @@
       "example_sentence": "Connect the device using the USB cable.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔌"
     },
     {
       "word": "wireless",
@@ -262,7 +262,7 @@
       "example_sentence": "We switched to a wireless keyboard and mouse.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📶"
     },
     {
       "word": "DNS",
@@ -270,7 +270,7 @@
       "example_sentence": "The DNS record needs to be updated.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "subnet",
@@ -278,7 +278,7 @@
       "example_sentence": "Each department has its own subnet.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "proxy",
@@ -286,7 +286,7 @@
       "example_sentence": "Configure the proxy settings in your browser.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔀"
     },
     {
       "word": "throughput",
@@ -294,7 +294,7 @@
       "example_sentence": "The network throughput dropped during the backup.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "VLAN",
@@ -302,7 +302,7 @@
       "example_sentence": "Separate the IoT devices on a different VLAN.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "incident",
@@ -310,7 +310,7 @@
       "example_sentence": "The incident was resolved in 30 minutes.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📝"
     },
     {
       "word": "cable",
@@ -318,7 +318,7 @@
       "example_sentence": "The cable connecting the monitor is loose.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2588757/pexels-photo-2588757.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔌"
     },
     {
       "word": "screen resolution",
@@ -326,7 +326,7 @@
       "example_sentence": "Increase the screen resolution for better clarity.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "🖥️"
     },
     {
       "word": "operating system",
@@ -334,7 +334,7 @@
       "example_sentence": "Which operating system do you prefer?",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "💻"
     },
     {
       "word": "browser",
@@ -342,7 +342,7 @@
       "example_sentence": "Which browser do you use at work?",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "🌐"
     },
     {
       "word": "shortcut",
@@ -350,7 +350,7 @@
       "example_sentence": "Use Ctrl+C as a shortcut to copy.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "⌨️"
     },
     {
       "word": "task manager",
@@ -358,7 +358,7 @@
       "example_sentence": "Open the task manager to check CPU usage.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📊"
     },
     {
       "word": "ping",
@@ -366,7 +366,7 @@
       "example_sentence": "Ping the server to check if it's reachable.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📡"
     },
     {
       "word": "traceroute",
@@ -374,7 +374,7 @@
       "example_sentence": "Use traceroute to find where the packet is lost.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "switch",
@@ -382,7 +382,7 @@
       "example_sentence": "The switch connects all devices on the floor.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔀"
     },
     {
       "word": "SSID",
@@ -390,7 +390,7 @@
       "example_sentence": "What is the SSID of the office Wi-Fi?",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "MAC address",
@@ -398,7 +398,7 @@
       "example_sentence": "Find the MAC address in the network settings.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "DHCP",
@@ -406,7 +406,7 @@
       "example_sentence": "DHCP assigns IP addresses automatically.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "HTTP",
@@ -414,7 +414,7 @@
       "example_sentence": "The API uses HTTPS for secure communication.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "SSL",
@@ -422,7 +422,7 @@
       "example_sentence": "The SSL certificate expired yesterday.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔒"
     },
     {
       "word": "certificate",
@@ -430,7 +430,7 @@
       "example_sentence": "Install the SSL certificate on the server.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📜"
     },
     {
       "word": "antivirus",
@@ -438,7 +438,7 @@
       "example_sentence": "Run the antivirus scan every week.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "spam",
@@ -446,7 +446,7 @@
       "example_sentence": "Mark it as spam to block the sender.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📧"
     },
     {
       "word": "phishing",
@@ -454,7 +454,7 @@
       "example_sentence": "Never click links in phishing emails.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎣"
     },
     {
       "word": "ransomware",
@@ -462,7 +462,7 @@
       "example_sentence": "The ransomware attack encrypted all files.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💀"
     },
     {
       "word": "two-factor authentication",
@@ -470,7 +470,7 @@
       "example_sentence": "Enable two-factor authentication on all accounts.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔐"
     },
     {
       "word": "token",
@@ -478,7 +478,7 @@
       "example_sentence": "The API token expires after 24 hours.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔑"
     },
     {
       "word": "hash",
@@ -486,7 +486,7 @@
       "example_sentence": "Passwords are stored as hashes.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔐"
     },
     {
       "word": "admin",
@@ -494,7 +494,7 @@
       "example_sentence": "Only the admin can change system settings.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "👑"
     },
     {
       "word": "root",
@@ -502,7 +502,7 @@
       "example_sentence": "Do not run applications as root.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "👑"
     },
     {
       "word": "sudo",
@@ -510,7 +510,7 @@
       "example_sentence": "Use sudo to run the command as admin.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "👑"
     },
     {
       "word": "terminal",
@@ -518,7 +518,7 @@
       "example_sentence": "Open the terminal and run the command.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⬛"
     },
     {
       "word": "command",
@@ -526,7 +526,7 @@
       "example_sentence": "Run this command to restart the service.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⬛"
     },
     {
       "word": "script",
@@ -534,7 +534,7 @@
       "example_sentence": "Write a script to automate the backup.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📜"
     },
     {
       "word": "directory",
@@ -542,7 +542,7 @@
       "example_sentence": "Navigate to the correct directory first.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📁"
     },
     {
       "word": "path",
@@ -550,7 +550,7 @@
       "example_sentence": "Check the file path in the config.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📁"
     },
     {
       "word": "error",
@@ -558,7 +558,7 @@
       "example_sentence": "An error occurred during the update.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "❌"
     },
     {
       "word": "warning",
@@ -566,7 +566,7 @@
       "example_sentence": "There is a warning in the log file.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚠️"
     },
     {
       "word": "debug",
@@ -574,7 +574,7 @@
       "example_sentence": "Enable debug mode to see more details.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🐛"
     },
     {
       "word": "process",
@@ -582,7 +582,7 @@
       "example_sentence": "Kill the process that is using port 80.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚙️"
     },
     {
       "word": "memory",
@@ -590,7 +590,7 @@
       "example_sentence": "The application is using too much memory.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💾"
     },
     {
       "word": "disk",
@@ -598,7 +598,7 @@
       "example_sentence": "The disk is almost full — free up some space.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💿"
     },
     {
       "word": "CPU",
@@ -606,7 +606,7 @@
       "example_sentence": "CPU usage is at 95% — something is wrong.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💻"
     },
     {
       "word": "core",
@@ -614,7 +614,7 @@
       "example_sentence": "This server has 32 cores.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💻"
     },
     {
       "word": "thread",
@@ -622,7 +622,7 @@
       "example_sentence": "The application runs on multiple threads.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🧵"
     },
     {
       "word": "queue",
@@ -630,7 +630,7 @@
       "example_sentence": "Messages are processed from the queue.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "cache",
@@ -638,7 +638,7 @@
       "example_sentence": "Clear the browser cache and try again.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚡"
     },
     {
       "word": "cookie",
@@ -646,7 +646,7 @@
       "example_sentence": "Accept the cookies to continue.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🍪"
     },
     {
       "word": "session",
@@ -654,7 +654,7 @@
       "example_sentence": "Your session has expired — please log in again.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔐"
     },
     {
       "word": "token refresh",
@@ -662,7 +662,7 @@
       "example_sentence": "The token refresh happens every hour.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "API key",
@@ -670,7 +670,7 @@
       "example_sentence": "Store the API key in an environment variable.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔑"
     },
     {
       "word": "endpoint",
@@ -678,7 +678,7 @@
       "example_sentence": "This endpoint accepts POST requests.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔌"
     },
     {
       "word": "request",
@@ -686,7 +686,7 @@
       "example_sentence": "The request returned a 404 error.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📤"
     },
     {
       "word": "response",
@@ -694,7 +694,7 @@
       "example_sentence": "The response time is above 500ms.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📥"
     },
     {
       "word": "status code",
@@ -702,7 +702,7 @@
       "example_sentence": "A 200 status code means success.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "payload",
@@ -710,7 +710,7 @@
       "example_sentence": "Check the request payload for missing fields.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📦"
     },
     {
       "word": "JSON",
@@ -718,7 +718,7 @@
       "example_sentence": "The API returns data in JSON format.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "REST",
@@ -726,7 +726,7 @@
       "example_sentence": "We follow REST conventions for all endpoints.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔌"
     },
     {
       "word": "webhook",
@@ -734,7 +734,7 @@
       "example_sentence": "Configure a webhook to receive event notifications.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔗"
     },
     {
       "word": "timeout",
@@ -742,7 +742,7 @@
       "example_sentence": "The request timed out after 30 seconds.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⏰"
     },
     {
       "word": "retry",
@@ -750,7 +750,7 @@
       "example_sentence": "The client retries the request three times.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "load",
@@ -758,7 +758,7 @@
       "example_sentence": "The server load is too high during peak hours.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "scalable",
@@ -766,7 +766,7 @@
       "example_sentence": "The architecture must be scalable.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "elastic",
@@ -774,7 +774,7 @@
       "example_sentence": "Use elastic compute to handle traffic spikes.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "region",
@@ -782,7 +782,7 @@
       "example_sentence": "Choose a region close to your users.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌍"
     },
     {
       "word": "zone",
@@ -790,7 +790,7 @@
       "example_sentence": "Deploy across two availability zones.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "snapshot",
@@ -798,7 +798,7 @@
       "example_sentence": "Take a snapshot before the upgrade.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📸"
     },
     {
       "word": "image",
@@ -806,7 +806,7 @@
       "example_sentence": "Create a machine image before upgrading.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "template",
@@ -814,7 +814,7 @@
       "example_sentence": "Use a CloudFormation template to provision resources.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "environment",
@@ -822,7 +822,7 @@
       "example_sentence": "Do not test directly in the production environment.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "staging",
@@ -830,7 +830,7 @@
       "example_sentence": "Deploy to staging before production.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "production",
@@ -838,7 +838,7 @@
       "example_sentence": "Be careful — this runs in production.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "release",
@@ -846,7 +846,7 @@
       "example_sentence": "The next release is scheduled for Friday.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "changelog",
@@ -854,7 +854,7 @@
       "example_sentence": "Read the changelog before upgrading.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "dependency",
@@ -862,7 +862,7 @@
       "example_sentence": "Update all project dependencies.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "package",
@@ -870,7 +870,7 @@
       "example_sentence": "Install the package with pip install.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "module",
@@ -878,7 +878,7 @@
       "example_sentence": "Import the module at the top of the file.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "import",
@@ -886,7 +886,7 @@
       "example_sentence": "Import the library to use its functions.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "export",
@@ -894,7 +894,7 @@
       "example_sentence": "Export the function so it can be reused.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "class",
@@ -902,7 +902,7 @@
       "example_sentence": "Define a class for the user entity.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "object",
@@ -910,7 +910,7 @@
       "example_sentence": "Create an object from the User class.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "method",
@@ -918,7 +918,7 @@
       "example_sentence": "Call the method with the correct parameters.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "parameter",
@@ -926,7 +926,7 @@
       "example_sentence": "Pass the userId as a parameter.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "return",
@@ -934,7 +934,7 @@
       "example_sentence": "The function returns a boolean value.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "null",
@@ -942,7 +942,7 @@
       "example_sentence": "Check if the value is null before using it.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "boolean",
@@ -950,7 +950,7 @@
       "example_sentence": "The flag is a boolean — true or false.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "string",
@@ -958,7 +958,7 @@
       "example_sentence": "Store the name as a string.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "integer",
@@ -966,7 +966,7 @@
       "example_sentence": "The age field should be an integer.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "array",
@@ -974,7 +974,7 @@
       "example_sentence": "Iterate over the array of results.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "loop",
@@ -982,7 +982,7 @@
       "example_sentence": "Use a loop to process each item.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "condition",
@@ -990,7 +990,7 @@
       "example_sentence": "Add a condition to check the user's role.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "exception",
@@ -998,7 +998,7 @@
       "example_sentence": "Catch the exception and log the error.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "stack trace",
@@ -1006,7 +1006,7 @@
       "example_sentence": "Read the stack trace to find the root cause.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "compile",
@@ -1014,7 +1014,7 @@
       "example_sentence": "Compile the code before running.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚙️"
     },
     {
       "word": "syntax",
@@ -1022,7 +1022,7 @@
       "example_sentence": "There is a syntax error on line 42.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📝"
     },
     {
       "word": "comment",
@@ -1030,7 +1030,7 @@
       "example_sentence": "Add a comment to explain this logic.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "💬"
     },
     {
       "word": "documentation",
@@ -1038,7 +1038,7 @@
       "example_sentence": "Read the documentation before starting.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📚"
     },
     {
       "word": "README",
@@ -1046,7 +1046,7 @@
       "example_sentence": "Update the README after every major change.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "review",
@@ -1054,7 +1054,7 @@
       "example_sentence": "The code review is scheduled for tomorrow.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔍"
     },
     {
       "word": "approve",
@@ -1062,7 +1062,7 @@
       "example_sentence": "Approve the pull request after reviewing.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "✅"
     },
     {
       "word": "merge conflict",
@@ -1070,7 +1070,7 @@
       "example_sentence": "Resolve the merge conflict before merging.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚔️"
     },
     {
       "word": "stash",
@@ -1078,7 +1078,7 @@
       "example_sentence": "Stash your changes before switching branches.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "💾"
     },
     {
       "word": "rebase",
@@ -1086,7 +1086,7 @@
       "example_sentence": "Rebase your branch on top of main.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "🔀"
     },
     {
       "word": "tag",
@@ -1094,7 +1094,7 @@
       "example_sentence": "Tag the release commit with the version number.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "🏷️"
     },
     {
       "word": "issue",
@@ -1102,7 +1102,7 @@
       "example_sentence": "Open an issue to track the bug.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🐛"
     },
     {
       "word": "sprint planning",
@@ -1110,7 +1110,7 @@
       "example_sentence": "Sprint planning happens every two weeks.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "standup",
@@ -1118,7 +1118,7 @@
       "example_sentence": "The standup is at nine every morning.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🧍"
     },
     {
       "word": "blocker",
@@ -1126,7 +1126,7 @@
       "example_sentence": "There is a blocker — the API is down.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🚧"
     },
     {
       "word": "estimate",
@@ -1134,7 +1134,7 @@
       "example_sentence": "What is your estimate for this task?",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "acceptance criteria",
@@ -1142,7 +1142,7 @@
       "example_sentence": "Define the acceptance criteria before starting.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "📝"
     },
     {
       "word": "user story",
@@ -1150,7 +1150,7 @@
       "example_sentence": "Write a user story for each feature.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📖"
     },
     {
       "word": "definition of done",
@@ -1158,7 +1158,7 @@
       "example_sentence": "The task meets the definition of done.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "✅"
     },
     {
       "word": "service level",
@@ -1166,7 +1166,7 @@
       "example_sentence": "Define the service level for each API.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎯"
     },
     {
       "word": "escalation path",
@@ -1174,7 +1174,7 @@
       "example_sentence": "The escalation path goes to the on-call manager.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⬆️"
     },
     {
       "word": "impact analysis",
@@ -1182,7 +1182,7 @@
       "example_sentence": "Run an impact analysis before the change.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📊"
     },
     {
       "word": "change window",
@@ -1190,7 +1190,7 @@
       "example_sentence": "Schedule maintenance in the change window.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⏰"
     },
     {
       "word": "rollout plan",
@@ -1198,7 +1198,7 @@
       "example_sentence": "Document the rollout plan before deploying.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "post-implementation review",
@@ -1206,7 +1206,7 @@
       "example_sentence": "Hold a post-implementation review after the release.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔍"
     },
     {
       "word": "network topology",
@@ -1214,7 +1214,7 @@
       "example_sentence": "Draw the network topology diagram.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "packet loss",
@@ -1222,7 +1222,7 @@
       "example_sentence": "High packet loss degrades call quality.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📉"
     },
     {
       "word": "jitter",
@@ -1230,7 +1230,7 @@
       "example_sentence": "Jitter causes audio distortion in calls.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "〰️"
     },
     {
       "word": "QoS",
@@ -1238,7 +1238,7 @@
       "example_sentence": "Configure QoS to prioritise voice traffic.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⚖️"
     },
     {
       "word": "NAT",
@@ -1246,7 +1246,7 @@
       "example_sentence": "The NAT translates private to public IPs.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔀"
     },
     {
       "word": "DMZ",
@@ -1254,7 +1254,7 @@
       "example_sentence": "Place public-facing servers in the DMZ.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "IDS",
@@ -1262,7 +1262,7 @@
       "example_sentence": "The IDS flagged unusual traffic.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "👁️"
     },
     {
       "word": "IPS",
@@ -1270,7 +1270,7 @@
       "example_sentence": "The IPS blocked the attack automatically.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "SIEM",
@@ -1278,7 +1278,7 @@
       "example_sentence": "The SIEM correlates events from all systems.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📊"
     },
     {
       "word": "SOC",
@@ -1286,7 +1286,7 @@
       "example_sentence": "The SOC monitors threats 24/7.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "threat model",
@@ -1294,7 +1294,7 @@
       "example_sentence": "Create a threat model for every new feature.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎯"
     },
     {
       "word": "attack surface",
@@ -1302,7 +1302,7 @@
       "example_sentence": "Reduce the attack surface by disabling unused services.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎯"
     },
     {
       "word": "hardening",
@@ -1310,7 +1310,7 @@
       "example_sentence": "Apply server hardening before going live.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "baseline",
@@ -1318,7 +1318,7 @@
       "example_sentence": "Establish a security baseline for all servers.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📏"
     },
     {
       "word": "software bill of materials",
@@ -1326,7 +1326,7 @@
       "example_sentence": "Generate an SBOM for compliance.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📋"
     },
     {
       "word": "open source",
@@ -1334,7 +1334,7 @@
       "example_sentence": "We rely heavily on open source libraries.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌐"
     },
     {
       "word": "license",
@@ -1342,7 +1342,7 @@
       "example_sentence": "Check the license before using the library.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📜"
     },
     {
       "word": "fork",
@@ -1350,7 +1350,7 @@
       "example_sentence": "Fork the repository to add your changes.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🍴"
     },
     {
       "word": "upstream",
@@ -1358,7 +1358,7 @@
       "example_sentence": "Submit the fix upstream.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⬆️"
     },
     {
       "word": "downstream",
@@ -1366,7 +1366,7 @@
       "example_sentence": "Notify downstream consumers of the API change.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "⬇️"
     },
     {
       "word": "monorepo",
@@ -1374,7 +1374,7 @@
       "example_sentence": "We store all services in a monorepo.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📦"
     },
     {
       "word": "polyrepo",
@@ -1382,7 +1382,7 @@
       "example_sentence": "The polyrepo approach gives teams autonomy.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📦"
     },
     {
       "word": "semantic versioning",
@@ -1390,7 +1390,7 @@
       "example_sentence": "Follow semantic versioning: MAJOR.MINOR.PATCH.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🏷️"
     },
     {
       "word": "hotfix",
@@ -1398,7 +1398,7 @@
       "example_sentence": "Deploy the hotfix to production immediately.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🩹"
     },
     {
       "word": "LTS",
@@ -1406,7 +1406,7 @@
       "example_sentence": "Choose the LTS version for stability.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🛡️"
     },
     {
       "word": "EOL",
@@ -1414,7 +1414,7 @@
       "example_sentence": "This library has reached EOL — upgrade now.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🪦"
     },
     {
       "word": "regression",
@@ -1422,7 +1422,7 @@
       "example_sentence": "The fix introduced a regression in payments.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔙"
     },
     {
       "word": "flaky test",
@@ -1430,7 +1430,7 @@
       "example_sentence": "Fix the flaky test before merging.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🎲"
     },
     {
       "word": "test pyramid",
@@ -1438,7 +1438,7 @@
       "example_sentence": "The test pyramid has more unit tests at the base.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔺"
     },
     {
       "word": "mutation testing",
@@ -1446,7 +1446,7 @@
       "example_sentence": "Mutation testing checks if tests catch bugs.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🧬"
     },
     {
       "word": "snapshot test",
@@ -1454,7 +1454,7 @@
       "example_sentence": "Snapshot tests catch unexpected UI changes.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📸"
     },
     {
       "word": "end-to-end test",
@@ -1462,7 +1462,7 @@
       "example_sentence": "E2E tests simulate real user flows.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔄"
     },
     {
       "word": "smoke test",
@@ -1470,7 +1470,7 @@
       "example_sentence": "Run a smoke test after every deploy.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔥"
     },
     {
       "word": "regression test",
@@ -1478,7 +1478,7 @@
       "example_sentence": "Add a regression test to prevent the bug from returning.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🔙"
     },
     {
       "word": "knowledge transfer",
@@ -1486,7 +1486,7 @@
       "example_sentence": "Schedule a knowledge transfer session.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📚"
     },
     {
       "word": "handover",
@@ -1494,7 +1494,7 @@
       "example_sentence": "Document everything for a smooth handover.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🤝"
     },
     {
       "word": "out of the box",
@@ -1502,7 +1502,7 @@
       "example_sentence": "The solution works out of the box.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "📦"
     },
     {
       "word": "proof of value",
@@ -1510,7 +1510,7 @@
       "example_sentence": "Show a proof of value before full investment.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "✅"
     },
     {
       "word": "pilot",
@@ -1518,7 +1518,7 @@
       "example_sentence": "Run a pilot with ten customers first.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🧪"
     },
     {
       "word": "rollout",
@@ -1526,7 +1526,7 @@
       "example_sentence": "The rollout starts with internal users.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🚀"
     },
     {
       "word": "sunset",
@@ -1534,7 +1534,7 @@
       "example_sentence": "We plan to sunset the v1 API in Q4.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🌅"
     },
     {
       "word": "deprecate",
@@ -1542,7 +1542,7 @@
       "example_sentence": "Deprecate the old endpoint and add a migration guide.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      "image_url": "🪦"
     }
   ]
 }

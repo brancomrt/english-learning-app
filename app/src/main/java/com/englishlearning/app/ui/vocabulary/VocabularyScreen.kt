@@ -23,7 +23,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.BrokenImage
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -42,9 +41,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -53,7 +50,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import coil.compose.SubcomposeAsyncImage
 import com.englishlearning.app.data.database.entity.VocabularyCardEntity
 import com.englishlearning.app.domain.model.Category
 import com.englishlearning.app.domain.model.Level
@@ -268,71 +264,35 @@ private fun VocabularyCard(
 
 @Composable
 private fun CardFront(card: VocabularyCardEntity) {
+    // image_url agora contém um emoji (ex: "☕", "🐛", "☁️")
+    val emoji = card.imageUrl?.takeIf { it.isNotBlank() } ?: "❓"
+
     Card(
         modifier = Modifier.fillMaxSize(),
         shape = RoundedCornerShape(12.dp),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primaryContainer
+        )
     ) {
         Box(modifier = Modifier.fillMaxSize()) {
-            if (!card.imageUrl.isNullOrBlank()) {
-                SubcomposeAsyncImage(
-                    model = card.imageUrl,
-                    contentDescription = "Adivinhe a palavra",
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxSize(),
-                    loading = {
-                        Box(
-                            Modifier.fillMaxSize()
-                                .background(MaterialTheme.colorScheme.surfaceVariant),
-                            contentAlignment = Alignment.Center
-                        ) { CircularProgressIndicator(modifier = Modifier.size(28.dp)) }
-                    },
-                    error = {
-                        Box(
-                            Modifier.fillMaxSize()
-                                .background(MaterialTheme.colorScheme.primaryContainer),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                                Icon(
-                                    Icons.Filled.BrokenImage,
-                                    contentDescription = null,
-                                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                                    modifier = Modifier.size(32.dp)
-                                )
-                                Text(
-                                    text = "?",
-                                    style = MaterialTheme.typography.displayMedium,
-                                    color = MaterialTheme.colorScheme.primary,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            }
-                        }
-                    }
-                )
-            } else {
-                // Sem imagem: fundo colorido com "?"
-                Box(
-                    Modifier.fillMaxSize()
-                        .background(MaterialTheme.colorScheme.primaryContainer),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Text(
-                        text = "?",
-                        style = MaterialTheme.typography.displayLarge,
-                        color = MaterialTheme.colorScheme.primary,
-                        fontWeight = FontWeight.Bold
-                    )
-                }
-            }
+            // Emoji centralizado — grande e legível
+            Text(
+                text = emoji,
+                style = MaterialTheme.typography.displayLarge.copy(
+                    fontSize = androidx.compose.ui.unit.TextUnit(72f, androidx.compose.ui.unit.TextUnitType.Sp)
+                ),
+                modifier = Modifier.align(Alignment.Center),
+                textAlign = TextAlign.Center
+            )
 
-            // Dica discreta no canto inferior
+            // Dica discreta no rodapé
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .align(Alignment.BottomCenter)
-                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f))
-                    .padding(horizontal = 8.dp, vertical = 5.dp)
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.45f))
+                    .padding(horizontal = 8.dp, vertical = 6.dp)
             ) {
                 Text(
                     text = "Que palavra é essa? Toque para revelar",
