@@ -6,7 +6,7 @@
       "example_sentence": "Clone the repository before making any changes.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "commit",
@@ -14,7 +14,7 @@
       "example_sentence": "Please write a clear message with each commit.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "branch",
@@ -22,7 +22,7 @@
       "example_sentence": "Create a new branch for each feature you develop.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "merge",
@@ -30,7 +30,7 @@
       "example_sentence": "Merge the feature branch into main after approval.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pull request",
@@ -38,7 +38,7 @@
       "example_sentence": "The pull request has been open for three days.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bug",
@@ -46,7 +46,7 @@
       "example_sentence": "The bug was introduced in the last commit.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "refactor",
@@ -54,7 +54,7 @@
       "example_sentence": "We need to refactor this module before adding new features.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "function",
@@ -62,7 +62,7 @@
       "example_sentence": "The function returns a list of user objects.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "variable",
@@ -70,7 +70,7 @@
       "example_sentence": "Always use descriptive variable names in your code.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "query",
@@ -78,7 +78,7 @@
       "example_sentence": "This query runs slowly because there is no index on that column.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "index",
@@ -86,7 +86,7 @@
       "example_sentence": "Adding an index reduced the query time by 90%.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "migration",
@@ -94,7 +94,7 @@
       "example_sentence": "The migration was rolled back because it broke a constraint.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "schema",
@@ -102,7 +102,7 @@
       "example_sentence": "The schema needs to be updated to support the new feature.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "transaction",
@@ -110,7 +110,7 @@
       "example_sentence": "Always wrap critical operations in a database transaction.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cloud",
@@ -118,7 +118,7 @@
       "example_sentence": "We store all backups in the cloud using AWS S3.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "instance",
@@ -126,7 +126,7 @@
       "example_sentence": "The cloud instance will be scaled up during peak hours.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Terraform",
@@ -134,7 +134,7 @@
       "example_sentence": "We use Terraform to provision all our cloud infrastructure.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bucket",
@@ -142,7 +142,7 @@
       "example_sentence": "Upload the file to the S3 bucket.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "region",
@@ -150,7 +150,7 @@
       "example_sentence": "Choose the region closest to your users to reduce latency.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "autoscaling",
@@ -158,7 +158,7 @@
       "example_sentence": "Autoscaling adds more servers when traffic increases.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "API",
@@ -166,7 +166,7 @@
       "example_sentence": "The frontend communicates with the backend through an API.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "framework",
@@ -174,7 +174,7 @@
       "example_sentence": "We chose this framework for its performance.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "library",
@@ -182,7 +182,7 @@
       "example_sentence": "Import the library before using its functions.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "test",
@@ -198,7 +198,7 @@
       "example_sentence": "The deployment was rolled back due to errors.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1601933470096-0e34634ffcde?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "table",
@@ -206,7 +206,7 @@
       "example_sentence": "The users table has over ten million records.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "foreign key",
@@ -214,7 +214,7 @@
       "example_sentence": "The foreign key links orders to the customers table.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "backup",
@@ -222,7 +222,7 @@
       "example_sentence": "Run a full backup before applying the migration.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "replica",
@@ -238,7 +238,7 @@
       "example_sentence": "We moved the image processing to a serverless function.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "CDN",
@@ -246,7 +246,7 @@
       "example_sentence": "Use a CDN to serve static files closer to the user.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "load balancer",
@@ -254,7 +254,7 @@
       "example_sentence": "The load balancer distributes traffic across all servers.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "unit test",
@@ -262,7 +262,7 @@
       "example_sentence": "Write unit tests for every new function.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "integration test",
@@ -278,7 +278,7 @@
       "example_sentence": "Maintain at least 80% test coverage.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mock",
@@ -286,7 +286,7 @@
       "example_sentence": "Use a mock to simulate the database in tests.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "stub",
@@ -302,7 +302,7 @@
       "example_sentence": "Define an interface before implementing the class.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "abstract class",
@@ -310,7 +310,7 @@
       "example_sentence": "Use an abstract class to share common logic.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "inheritance",
@@ -318,7 +318,7 @@
       "example_sentence": "Inheritance allows reusing code across classes.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "polymorphism",
@@ -326,7 +326,7 @@
       "example_sentence": "Polymorphism enables flexible code design.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "encapsulation",
@@ -334,7 +334,7 @@
       "example_sentence": "Encapsulation hides internal implementation details.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SOLID",
@@ -342,7 +342,7 @@
       "example_sentence": "Follow SOLID principles for clean architecture.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "DRY",
@@ -350,7 +350,7 @@
       "example_sentence": "DRY: Don't Repeat Yourself.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "KISS",
@@ -358,7 +358,7 @@
       "example_sentence": "KISS: Keep It Simple, Stupid.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "design pattern",
@@ -366,7 +366,7 @@
       "example_sentence": "Use the factory design pattern here.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "singleton",
@@ -374,7 +374,7 @@
       "example_sentence": "The logger is implemented as a singleton.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "observer",
@@ -382,7 +382,7 @@
       "example_sentence": "The observer pattern is used for event handling.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "factory",
@@ -390,7 +390,7 @@
       "example_sentence": "A factory creates objects without exposing the creation logic.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "dependency injection",
@@ -398,7 +398,7 @@
       "example_sentence": "Use dependency injection for testability.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "constructor",
@@ -406,7 +406,7 @@
       "example_sentence": "The constructor initialises the object's properties.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "getter",
@@ -414,7 +414,7 @@
       "example_sentence": "Use a getter to read private properties.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "setter",
@@ -422,7 +422,7 @@
       "example_sentence": "Use a setter to update private properties.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "async",
@@ -430,7 +430,7 @@
       "example_sentence": "The API call is async — await the response.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "await",
@@ -446,7 +446,7 @@
       "example_sentence": "The function returns a promise.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "callback",
@@ -454,7 +454,7 @@
       "example_sentence": "Pass a callback to handle the response.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "event",
@@ -462,7 +462,7 @@
       "example_sentence": "Listen for the click event on the button.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "listener",
@@ -470,7 +470,7 @@
       "example_sentence": "Add an event listener to the button.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "trigger",
@@ -478,7 +478,7 @@
       "example_sentence": "The alert was triggered by the threshold breach.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "payload size",
@@ -486,7 +486,7 @@
       "example_sentence": "Reduce the payload size to improve performance.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pagination",
@@ -494,7 +494,7 @@
       "example_sentence": "Implement pagination to handle large datasets.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "filter",
@@ -502,7 +502,7 @@
       "example_sentence": "Apply a filter to narrow down the results.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sort",
@@ -510,7 +510,7 @@
       "example_sentence": "Sort the results by creation date.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "search query",
@@ -518,7 +518,7 @@
       "example_sentence": "Optimise the search query for speed.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "primary key",
@@ -526,7 +526,7 @@
       "example_sentence": "The id field is the primary key.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "join",
@@ -534,7 +534,7 @@
       "example_sentence": "Use a JOIN to combine the two tables.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "aggregate",
@@ -550,7 +550,7 @@
       "example_sentence": "Create a view to simplify complex queries.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "stored procedure",
@@ -558,7 +558,7 @@
       "example_sentence": "Use a stored procedure for this operation.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "trigger (DB)",
@@ -566,7 +566,7 @@
       "example_sentence": "A trigger fires automatically on insert.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ORM",
@@ -574,7 +574,7 @@
       "example_sentence": "Use an ORM to avoid raw SQL queries.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "connection pool",
@@ -582,7 +582,7 @@
       "example_sentence": "Configure the connection pool size properly.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "deadlock",
@@ -590,7 +590,7 @@
       "example_sentence": "The deadlock was caused by two competing transactions.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "shard",
@@ -598,7 +598,7 @@
       "example_sentence": "Shard the database by user region.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "replication",
@@ -606,7 +606,7 @@
       "example_sentence": "Database replication improves read performance.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "consistency",
@@ -622,7 +622,7 @@
       "example_sentence": "Normalisation reduces data redundancy.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "denormalization",
@@ -630,7 +630,7 @@
       "example_sentence": "Denormalization can improve query performance.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cold storage",
@@ -638,7 +638,7 @@
       "example_sentence": "Archive old data to cold storage.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "blob storage",
@@ -646,7 +646,7 @@
       "example_sentence": "Store images in blob storage.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "object storage",
@@ -654,7 +654,7 @@
       "example_sentence": "S3 is a popular object storage service.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "IAM",
@@ -662,7 +662,7 @@
       "example_sentence": "Configure IAM roles for each service.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "VPC",
@@ -670,7 +670,7 @@
       "example_sentence": "Deploy resources inside a VPC for security.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "subnet (cloud)",
@@ -686,7 +686,7 @@
       "example_sentence": "Update the security group to allow port 443.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "auto scaling group",
@@ -702,7 +702,7 @@
       "example_sentence": "Assign an elastic IP to the NAT gateway.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "CloudWatch",
@@ -710,7 +710,7 @@
       "example_sentence": "Set up CloudWatch alarms for error rates.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Lambda",
@@ -718,7 +718,7 @@
       "example_sentence": "Use a Lambda function to process S3 events.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ECR",
@@ -726,7 +726,7 @@
       "example_sentence": "Push the Docker image to ECR.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ECS",
@@ -734,7 +734,7 @@
       "example_sentence": "Deploy the container using ECS Fargate.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "GCP",
@@ -742,7 +742,7 @@
       "example_sentence": "We are migrating from AWS to GCP.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Azure",
@@ -750,7 +750,7 @@
       "example_sentence": "The company uses Azure for most workloads.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "multi-cloud",
@@ -758,7 +758,7 @@
       "example_sentence": "A multi-cloud strategy reduces vendor lock-in.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cost optimisation",
@@ -766,7 +766,7 @@
       "example_sentence": "Reserved instances help with cloud cost optimisation.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tagging",
@@ -774,7 +774,7 @@
       "example_sentence": "Tag all resources with the project and environment.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "infrastructure",
@@ -782,7 +782,7 @@
       "example_sentence": "The infrastructure is managed with Terraform.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "provisioning",
@@ -790,7 +790,7 @@
       "example_sentence": "Automated provisioning speeds up onboarding.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "configuration management",
@@ -798,7 +798,7 @@
       "example_sentence": "Ansible handles configuration management.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "immutable infrastructure",
@@ -806,7 +806,7 @@
       "example_sentence": "Immutable infrastructure prevents configuration drift.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "golden image",
@@ -814,7 +814,7 @@
       "example_sentence": "All VMs are based on the golden image.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "drift",
@@ -822,7 +822,7 @@
       "example_sentence": "Detect and fix configuration drift automatically.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "network policy",
@@ -830,7 +830,7 @@
       "example_sentence": "Apply network policies to isolate namespaces.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "namespace",
@@ -838,7 +838,7 @@
       "example_sentence": "Each team has its own Kubernetes namespace.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pod",
@@ -846,7 +846,7 @@
       "example_sentence": "The pod restarted three times today.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "node",
@@ -862,7 +862,7 @@
       "example_sentence": "The production cluster has 20 nodes.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "workload",
@@ -870,7 +870,7 @@
       "example_sentence": "Schedule the workload on the appropriate node.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "container image",
@@ -878,7 +878,7 @@
       "example_sentence": "Build and push the container image to the registry.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Dockerfile",
@@ -886,7 +886,7 @@
       "example_sentence": "Write a Dockerfile to containerise the app.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "docker-compose",
@@ -894,7 +894,7 @@
       "example_sentence": "Use docker-compose for local development.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "entrypoint",
@@ -902,7 +902,7 @@
       "example_sentence": "Define the entrypoint in the Dockerfile.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "volume",
@@ -910,7 +910,7 @@
       "example_sentence": "Mount a volume to persist data.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "network bridge",
@@ -918,7 +918,7 @@
       "example_sentence": "Containers on the same bridge can communicate.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "health check",
@@ -926,7 +926,7 @@
       "example_sentence": "Add a health check endpoint to the service.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "readiness probe",
@@ -934,7 +934,7 @@
       "example_sentence": "The readiness probe prevents premature traffic.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "liveness probe",
@@ -942,7 +942,7 @@
       "example_sentence": "A failed liveness probe restarts the container.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "resource limits",
@@ -950,7 +950,7 @@
       "example_sentence": "Set CPU and memory resource limits.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "horizontal scaling",
@@ -958,7 +958,7 @@
       "example_sentence": "Add more instances — horizontal scaling.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "vertical scaling",
@@ -966,7 +966,7 @@
       "example_sentence": "Increase the instance size — vertical scaling.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "rate limiting",
@@ -974,7 +974,7 @@
       "example_sentence": "Rate limiting prevents API abuse.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "throttling",
@@ -982,7 +982,7 @@
       "example_sentence": "Throttling protects the backend from overload.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "circuit breaker",
@@ -990,7 +990,7 @@
       "example_sentence": "The circuit breaker opens after five failures.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "retry logic",
@@ -998,7 +998,7 @@
       "example_sentence": "Implement retry logic with exponential backoff.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "exponential backoff",
@@ -1006,7 +1006,7 @@
       "example_sentence": "Use exponential backoff to avoid thundering herd.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bulkhead",
@@ -1014,7 +1014,7 @@
       "example_sentence": "Bulkhead isolation prevents cascading failures.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "graceful shutdown",
@@ -1022,7 +1022,7 @@
       "example_sentence": "Handle SIGTERM for a graceful shutdown.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "blue-green deployment",
@@ -1030,7 +1030,7 @@
       "example_sentence": "Blue-green deployment minimises downtime.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "canary release",
@@ -1038,7 +1038,7 @@
       "example_sentence": "A canary release exposes a small percentage to the new version.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "feature flag",
@@ -1046,7 +1046,7 @@
       "example_sentence": "Use a feature flag to enable the feature gradually.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "A/B testing",
@@ -1070,7 +1070,7 @@
       "example_sentence": "We run a game day once a quarter.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "blameless postmortem",
@@ -1078,7 +1078,7 @@
       "example_sentence": "Write a blameless post-mortem after every incident.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "root cause analysis",
@@ -1086,7 +1086,7 @@
       "example_sentence": "The root cause analysis revealed a race condition.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "MTTR",
@@ -1094,7 +1094,7 @@
       "example_sentence": "Reduce MTTR by improving runbooks.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "MTTD",
@@ -1118,7 +1118,7 @@
       "example_sentence": "The on-call rotation changes every week.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "escalation",
@@ -1126,7 +1126,7 @@
       "example_sentence": "Escalate the incident if unresolved in 15 minutes.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "severity",
@@ -1134,7 +1134,7 @@
       "example_sentence": "This is a severity-1 incident — all hands on deck.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "war room",
@@ -1142,7 +1142,7 @@
       "example_sentence": "We opened a war room to tackle the outage.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "status page",
@@ -1150,7 +1150,7 @@
       "example_sentence": "Update the status page during incidents.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SRE",
@@ -1158,7 +1158,7 @@
       "example_sentence": "The SRE team owns reliability.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "platform team",
@@ -1166,7 +1166,7 @@
       "example_sentence": "The platform team maintains the CI/CD tooling.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "developer experience",
@@ -1174,7 +1174,7 @@
       "example_sentence": "Improve developer experience with better tooling.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "inner loop",
@@ -1182,7 +1182,7 @@
       "example_sentence": "Optimise the inner loop to speed up iterations.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "GitOps",
@@ -1190,7 +1190,7 @@
       "example_sentence": "GitOps uses Git as the source of truth.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ArgoCD",
@@ -1198,7 +1198,7 @@
       "example_sentence": "ArgoCD syncs Kubernetes with the Git repo.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "FluxCD",
@@ -1206,7 +1206,7 @@
       "example_sentence": "FluxCD is a GitOps operator for Kubernetes.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Prometheus",
@@ -1214,7 +1214,7 @@
       "example_sentence": "Prometheus scrapes metrics from all services.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Grafana",
@@ -1222,7 +1222,7 @@
       "example_sentence": "Grafana visualises Prometheus metrics.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Jaeger",
@@ -1230,7 +1230,7 @@
       "example_sentence": "Jaeger provides distributed tracing.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ELK stack",
@@ -1238,7 +1238,7 @@
       "example_sentence": "The ELK stack centralises application logs.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "OpenTelemetry",
@@ -1246,7 +1246,7 @@
       "example_sentence": "Instrument the app with OpenTelemetry.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "idempotent",
@@ -1254,7 +1254,7 @@
       "example_sentence": "An idempotent operation produces the same result when repeated.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pure function",
@@ -1262,7 +1262,7 @@
       "example_sentence": "A pure function has no side effects.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "side effect",
@@ -1270,7 +1270,7 @@
       "example_sentence": "Avoid side effects in pure functions.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "immutable",
@@ -1278,7 +1278,7 @@
       "example_sentence": "Use immutable data structures for concurrency.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mutable",
@@ -1286,7 +1286,7 @@
       "example_sentence": "Mutable state is a common source of bugs.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "thread-safe",
@@ -1294,7 +1294,7 @@
       "example_sentence": "Make sure the singleton is thread-safe.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "race condition",
@@ -1302,7 +1302,7 @@
       "example_sentence": "The race condition caused intermittent failures.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mutex",
@@ -1310,7 +1310,7 @@
       "example_sentence": "Use a mutex to protect the shared resource.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "semaphore",
@@ -1318,7 +1318,7 @@
       "example_sentence": "A semaphore controls access to a pool of resources.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "garbage collection",
@@ -1326,7 +1326,7 @@
       "example_sentence": "GC pauses can cause latency spikes.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "memory leak",
@@ -1334,7 +1334,7 @@
       "example_sentence": "The memory leak caused the process to crash.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "heap",
@@ -1342,7 +1342,7 @@
       "example_sentence": "The object is allocated on the heap.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "stack (memory)",
@@ -1350,7 +1350,7 @@
       "example_sentence": "Local variables are stored on the stack.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "profiler",
@@ -1358,7 +1358,7 @@
       "example_sentence": "Use a profiler to find the hot path.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "benchmark",
@@ -1366,7 +1366,7 @@
       "example_sentence": "Run a benchmark before and after the change.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "byte",
@@ -1374,7 +1374,7 @@
       "example_sentence": "The payload size is 512 bytes.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "encoding",
@@ -1382,7 +1382,7 @@
       "example_sentence": "Use UTF-8 encoding for all text fields.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "serialisation",
@@ -1390,7 +1390,7 @@
       "example_sentence": "Serialise the object to JSON before sending.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "deserialisation",
@@ -1398,7 +1398,7 @@
       "example_sentence": "Deserialise the response into a typed object.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "compression",
@@ -1406,7 +1406,7 @@
       "example_sentence": "Enable gzip compression to reduce payload size.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "legacy code",
@@ -1414,7 +1414,7 @@
       "example_sentence": "The legacy code is hard to maintain.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "technical spike",
@@ -1422,7 +1422,7 @@
       "example_sentence": "Do a technical spike to evaluate the library.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hard requirement",
@@ -1430,7 +1430,7 @@
       "example_sentence": "HTTPS is a hard requirement.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "soft requirement",
@@ -1438,7 +1438,7 @@
       "example_sentence": "Dark mode is a soft requirement.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "workaround",
@@ -1446,7 +1446,7 @@
       "example_sentence": "Apply the workaround until the real fix is ready.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hotspot",
@@ -1454,7 +1454,7 @@
       "example_sentence": "Refactor the hotspot to reduce complexity.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tech debt backlog",
@@ -1462,7 +1462,7 @@
       "example_sentence": "Add it to the tech debt backlog.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pair programming",
@@ -1470,7 +1470,7 @@
       "example_sentence": "We use pair programming for complex tasks.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mob programming",
@@ -1478,7 +1478,7 @@
       "example_sentence": "The team did mob programming to solve the problem.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "code kata",
@@ -1486,7 +1486,7 @@
       "example_sentence": "Practice code katas to improve skills.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     }
   ]
 }

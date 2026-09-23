@@ -6,7 +6,7 @@
       "example_sentence": "I have breakfast at seven o'clock every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "friend",
@@ -14,7 +14,7 @@
       "example_sentence": "My best friend lives next door to me.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1162703/pexels-photo-1162703.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "family",
@@ -22,7 +22,7 @@
       "example_sentence": "My family eats dinner together every Sunday.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "house",
@@ -30,7 +30,7 @@
       "example_sentence": "They live in a small house near the park.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "coffee",
@@ -38,7 +38,7 @@
       "example_sentence": "I drink two cups of coffee every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "water",
@@ -46,7 +46,7 @@
       "example_sentence": "You should drink at least eight glasses of water a day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "food",
@@ -54,7 +54,7 @@
       "example_sentence": "Healthy food is important for a good lifestyle.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "lunch",
@@ -62,7 +62,7 @@
       "example_sentence": "We usually have lunch at noon.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/弁当/pexels-photo-弁当.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "dinner",
@@ -70,7 +70,7 @@
       "example_sentence": "She cooks dinner for the whole family.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "brother",
@@ -78,7 +78,7 @@
       "example_sentence": "My brother is an engineer.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1486977/pexels-photo-1486977.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sister",
@@ -86,7 +86,7 @@
       "example_sentence": "My sister lives in São Paulo.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1486977/pexels-photo-1486977.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mother",
@@ -94,7 +94,7 @@
       "example_sentence": "She is my mother — her name is Ana.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "father",
@@ -102,7 +102,7 @@
       "example_sentence": "My father wakes up at six every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "name",
@@ -110,7 +110,7 @@
       "example_sentence": "What is your name?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "age",
@@ -118,7 +118,7 @@
       "example_sentence": "How old are you? What is your age?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3823487/pexels-photo-3823487.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "color",
@@ -126,7 +126,7 @@
       "example_sentence": "My favorite color is blue.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1174952/pexels-photo-1174952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "work",
@@ -134,7 +134,7 @@
       "example_sentence": "She works at a tech company downtown.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "meeting",
@@ -142,7 +142,7 @@
       "example_sentence": "We have a team meeting every Monday morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "office",
@@ -150,7 +150,7 @@
       "example_sentence": "The office is on the fifth floor.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "boss",
@@ -158,7 +158,7 @@
       "example_sentence": "My boss is very friendly and supportive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "salary",
@@ -166,7 +166,7 @@
       "example_sentence": "My salary is paid on the last Friday of the month.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "schedule",
@@ -174,7 +174,7 @@
       "example_sentence": "My work schedule starts at nine in the morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "colleague",
@@ -182,7 +182,7 @@
       "example_sentence": "My colleague helped me fix the bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "passport",
@@ -190,7 +190,7 @@
       "example_sentence": "Don't forget to bring your passport to the airport.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "flight",
@@ -198,7 +198,7 @@
       "example_sentence": "The flight to Paris departs at six in the morning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/62623/pexels-photo-62623.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hotel",
@@ -206,7 +206,7 @@
       "example_sentence": "The hotel is near the beach and has a great view.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "train",
@@ -214,7 +214,7 @@
       "example_sentence": "We usually travel by train when visiting other cities.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/16948/pexels-photo-16948.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "airport",
@@ -222,7 +222,7 @@
       "example_sentence": "We arrived at the airport two hours before the flight.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ticket",
@@ -230,7 +230,7 @@
       "example_sentence": "I bought a round-trip ticket to London.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "visa",
@@ -238,7 +238,7 @@
       "example_sentence": "You need a visa to visit Japan.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "luggage",
@@ -246,7 +246,7 @@
       "example_sentence": "Please don't leave your luggage unattended.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1553267751-1c148a7280a1?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/2249084/pexels-photo-2249084.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "trip",
@@ -254,7 +254,7 @@
       "example_sentence": "The trip takes about three hours by train.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "book",
@@ -262,7 +262,7 @@
       "example_sentence": "I read a book every night before sleeping.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1512820537401-b42ef3dab2e8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/159711/pexels-photo-159711.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "music",
@@ -270,7 +270,7 @@
       "example_sentence": "She listens to music while working out.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1870977/pexels-photo-1870977.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sport",
@@ -278,7 +278,7 @@
       "example_sentence": "My favorite sport is football.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "car",
@@ -286,7 +286,7 @@
       "example_sentence": "He drives his car to work every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "dog",
@@ -294,7 +294,7 @@
       "example_sentence": "My dog wakes me up at six every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1543466835-00a7b08efb4f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "phone",
@@ -302,7 +302,7 @@
       "example_sentence": "I forgot my phone at home today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1542252/pexels-photo-1542252.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "money",
@@ -310,7 +310,7 @@
       "example_sentence": "Do you have enough money for the trip?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "city",
@@ -318,7 +318,7 @@
       "example_sentence": "São Paulo is a very busy city.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "country",
@@ -326,7 +326,7 @@
       "example_sentence": "Brazil is the largest country in South America.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "language",
@@ -334,7 +334,7 @@
       "example_sentence": "English is the most spoken language in business.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "time",
@@ -342,7 +342,7 @@
       "example_sentence": "What time do you finish work today?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1501139083538-0139b397231c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "week",
@@ -350,7 +350,7 @@
       "example_sentence": "I have meetings three times a week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "year",
@@ -358,7 +358,7 @@
       "example_sentence": "She has been working there for five years.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3823487/pexels-photo-3823487.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "email",
@@ -366,7 +366,7 @@
       "example_sentence": "Please send me an email with the details.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1557200134-90327676a1a3?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "computer",
@@ -374,7 +374,7 @@
       "example_sentence": "I use my computer for about ten hours a day.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1593640408182-31c228b30c71?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "problem",
@@ -382,7 +382,7 @@
       "example_sentence": "We need to solve this problem before Friday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "question",
@@ -390,7 +390,7 @@
       "example_sentence": "Do you have any questions about the project?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "answer",
@@ -398,7 +398,7 @@
       "example_sentence": "I don't know the answer to that question.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "apple",
@@ -406,7 +406,7 @@
       "example_sentence": "I eat an apple every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bread",
@@ -414,7 +414,7 @@
       "example_sentence": "She buys fresh bread every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "milk",
@@ -422,7 +422,7 @@
       "example_sentence": "Do you drink milk for breakfast?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "rice",
@@ -430,7 +430,7 @@
       "example_sentence": "Rice and beans is a classic Brazilian dish.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "chicken",
@@ -438,7 +438,7 @@
       "example_sentence": "I had grilled chicken for lunch.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1432580/pexels-photo-1432580.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "salad",
@@ -446,7 +446,7 @@
       "example_sentence": "He always orders a salad at restaurants.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fruit",
@@ -454,7 +454,7 @@
       "example_sentence": "Eating fruit every day is healthy.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sugar",
@@ -462,7 +462,7 @@
       "example_sentence": "Do you take sugar in your coffee?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/65882/pexels-photo-65882.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "egg",
@@ -470,7 +470,7 @@
       "example_sentence": "She cooks two eggs every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/566466/pexels-photo-566466.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "juice",
@@ -478,7 +478,7 @@
       "example_sentence": "I prefer orange juice for breakfast.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tea",
@@ -486,7 +486,7 @@
       "example_sentence": "Would you like a cup of tea?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "soup",
@@ -494,7 +494,7 @@
       "example_sentence": "She makes delicious tomato soup.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pizza",
@@ -502,7 +502,7 @@
       "example_sentence": "We order pizza every Friday night.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cake",
@@ -510,7 +510,7 @@
       "example_sentence": "They baked a cake for the birthday.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cheese",
@@ -518,7 +518,7 @@
       "example_sentence": "This sandwich has ham and cheese.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "wine",
@@ -526,7 +526,7 @@
       "example_sentence": "Would you like a glass of wine?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bedroom",
@@ -534,7 +534,7 @@
       "example_sentence": "My bedroom is on the second floor.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "kitchen",
@@ -542,7 +542,7 @@
       "example_sentence": "She spends a lot of time in the kitchen.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bathroom",
@@ -550,7 +550,7 @@
       "example_sentence": "The bathroom is at the end of the hall.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "garden",
@@ -558,7 +558,7 @@
       "example_sentence": "We have a small garden behind the house.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "window",
@@ -566,7 +566,7 @@
       "example_sentence": "Open the window — it's too hot in here.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "door",
@@ -574,7 +574,7 @@
       "example_sentence": "Please close the door when you leave.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/277559/pexels-photo-277559.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "chair",
@@ -582,7 +582,7 @@
       "example_sentence": "There are six chairs around the table.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bed",
@@ -590,7 +590,7 @@
       "example_sentence": "She goes to bed at ten o'clock.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sofa",
@@ -598,7 +598,7 @@
       "example_sentence": "He fell asleep on the sofa.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "key",
@@ -606,7 +606,7 @@
       "example_sentence": "I lost my keys this morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1422408/pexels-photo-1422408.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "street",
@@ -614,7 +614,7 @@
       "example_sentence": "They live on a quiet street.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1004409/pexels-photo-1004409.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bank",
@@ -622,7 +622,7 @@
       "example_sentence": "I need to go to the bank this afternoon.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "school",
@@ -630,7 +630,7 @@
       "example_sentence": "She walks to school every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hospital",
@@ -638,7 +638,7 @@
       "example_sentence": "The nearest hospital is five km away.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "restaurant",
@@ -646,7 +646,7 @@
       "example_sentence": "Let's go to that new restaurant downtown.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "shop",
@@ -654,7 +654,7 @@
       "example_sentence": "I need to shop for groceries today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "supermarket",
@@ -662,7 +662,7 @@
       "example_sentence": "The supermarket closes at ten.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "park",
@@ -670,7 +670,7 @@
       "example_sentence": "We take the dog to the park on Sundays.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1127119/pexels-photo-1127119.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bus",
@@ -678,7 +678,7 @@
       "example_sentence": "I take the bus to work every day.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1178448/pexels-photo-1178448.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "taxi",
@@ -686,7 +686,7 @@
       "example_sentence": "Let's get a taxi — it's raining.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/2085634/pexels-photo-2085634.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "map",
@@ -694,7 +694,7 @@
       "example_sentence": "Do you have a map of the city?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "left",
@@ -702,7 +702,7 @@
       "example_sentence": "Turn left at the traffic light.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807458/pexels-photo-3807458.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "right",
@@ -710,7 +710,7 @@
       "example_sentence": "The office is on the right side.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807458/pexels-photo-3807458.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "near",
@@ -718,7 +718,7 @@
       "example_sentence": "The hotel is near the airport.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "far",
@@ -726,7 +726,7 @@
       "example_sentence": "Is the station far from here?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "morning",
@@ -734,7 +734,7 @@
       "example_sentence": "I exercise every morning before work.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "afternoon",
@@ -742,7 +742,7 @@
       "example_sentence": "We have a meeting this afternoon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "evening",
@@ -750,7 +750,7 @@
       "example_sentence": "She reads in the evening.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "today",
@@ -758,7 +758,7 @@
       "example_sentence": "I have a lot of meetings today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tomorrow",
@@ -766,7 +766,7 @@
       "example_sentence": "The report is due tomorrow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "yesterday",
@@ -774,7 +774,7 @@
       "example_sentence": "Yesterday's meeting was very productive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "month",
@@ -782,7 +782,7 @@
       "example_sentence": "We release a new version every month.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "holiday",
@@ -790,7 +790,7 @@
       "example_sentence": "We have a holiday next Monday.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "birthday",
@@ -798,7 +798,7 @@
       "example_sentence": "Happy birthday! How old are you?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "weather",
@@ -806,7 +806,7 @@
       "example_sentence": "What is the weather like today?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sun",
@@ -814,7 +814,7 @@
       "example_sentence": "It's sunny and warm today.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "rain",
@@ -822,7 +822,7 @@
       "example_sentence": "Don't forget your umbrella — it might rain.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cold",
@@ -830,7 +830,7 @@
       "example_sentence": "It's very cold this morning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1853982/pexels-photo-1853982.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hot",
@@ -838,7 +838,7 @@
       "example_sentence": "It's too hot without air conditioning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "umbrella",
@@ -846,7 +846,7 @@
       "example_sentence": "I always carry an umbrella in winter.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "clothes",
@@ -854,7 +854,7 @@
       "example_sentence": "I need new clothes for the conference.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "shirt",
@@ -862,7 +862,7 @@
       "example_sentence": "He always wears a white shirt to work.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "shoes",
@@ -870,7 +870,7 @@
       "example_sentence": "She bought new shoes for the presentation.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bag",
@@ -878,7 +878,7 @@
       "example_sentence": "I carry my laptop in my bag.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "wallet",
@@ -886,7 +886,7 @@
       "example_sentence": "I left my wallet at home.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "idea",
@@ -894,7 +894,7 @@
       "example_sentence": "She had a great idea in the meeting.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "help",
@@ -902,7 +902,7 @@
       "example_sentence": "Can you help me with this task?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "team",
@@ -910,7 +910,7 @@
       "example_sentence": "Our team has ten developers.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "task",
@@ -918,7 +918,7 @@
       "example_sentence": "Assign the task to the right person.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "report",
@@ -926,7 +926,7 @@
       "example_sentence": "Send the weekly report by Friday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "company",
@@ -934,7 +934,7 @@
       "example_sentence": "She works for a large tech company.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "manager",
@@ -942,7 +942,7 @@
       "example_sentence": "My manager approved the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "customer",
@@ -950,7 +950,7 @@
       "example_sentence": "The customer is always right.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "product",
@@ -958,7 +958,7 @@
       "example_sentence": "We launched a new product last week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "price",
@@ -966,7 +966,7 @@
       "example_sentence": "What is the price of this service?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cost",
@@ -974,7 +974,7 @@
       "example_sentence": "The cost exceeded the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "budget",
@@ -982,7 +982,7 @@
       "example_sentence": "We need to stay within the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "invoice",
@@ -990,7 +990,7 @@
       "example_sentence": "Please send the invoice by email.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "contract",
@@ -998,7 +998,7 @@
       "example_sentence": "The contract was signed last week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "deadline",
@@ -1006,7 +1006,7 @@
       "example_sentence": "The deadline is tomorrow at noon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "goal",
@@ -1014,7 +1014,7 @@
       "example_sentence": "Set a clear goal for the quarter.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "result",
@@ -1022,7 +1022,7 @@
       "example_sentence": "The test results were positive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "success",
@@ -1030,7 +1030,7 @@
       "example_sentence": "The launch was a great success.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3756083/pexels-photo-3756083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mistake",
@@ -1038,7 +1038,7 @@
       "example_sentence": "I made a mistake in the report.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "change",
@@ -1046,7 +1046,7 @@
       "example_sentence": "This change will improve performance.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "update",
@@ -1054,7 +1054,7 @@
       "example_sentence": "Please update your software.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "version",
@@ -1062,7 +1062,7 @@
       "example_sentence": "Which version are you running?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "feature",
@@ -1070,7 +1070,7 @@
       "example_sentence": "We shipped a new feature today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "user",
@@ -1078,7 +1078,7 @@
       "example_sentence": "The user interface needs improvement.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "data",
@@ -1086,7 +1086,7 @@
       "example_sentence": "Analyse the data before deciding.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "file",
@@ -1094,7 +1094,7 @@
       "example_sentence": "Attach the file to the email.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "folder",
@@ -1102,7 +1102,7 @@
       "example_sentence": "Save it in the shared folder.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "link",
@@ -1110,7 +1110,7 @@
       "example_sentence": "Share the link in the chat.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "website",
@@ -1118,7 +1118,7 @@
       "example_sentence": "Check the company website for updates.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "internet",
@@ -1126,7 +1126,7 @@
       "example_sentence": "Is the internet connection stable?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "search",
@@ -1134,7 +1134,7 @@
       "example_sentence": "Search for the error message online.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "download",
@@ -1142,7 +1142,7 @@
       "example_sentence": "Download the installer from the website.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "upload",
@@ -1150,7 +1150,7 @@
       "example_sentence": "Upload the file to the server.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "message",
@@ -1158,7 +1158,7 @@
       "example_sentence": "Did you receive my message?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "screen",
@@ -1166,7 +1166,7 @@
       "example_sentence": "Share your screen during the presentation.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "click",
@@ -1174,7 +1174,7 @@
       "example_sentence": "Click the button to confirm.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "save",
@@ -1182,7 +1182,7 @@
       "example_sentence": "Remember to save your work.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "open",
@@ -1190,7 +1190,7 @@
       "example_sentence": "Open the file in a text editor.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "close",
@@ -1198,7 +1198,7 @@
       "example_sentence": "Close all unused applications.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "delete",
@@ -1206,7 +1206,7 @@
       "example_sentence": "Delete the temporary files.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "learn",
@@ -1214,7 +1214,7 @@
       "example_sentence": "I learn something new every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "understand",
@@ -1222,7 +1222,7 @@
       "example_sentence": "Do you understand the requirements?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "explain",
@@ -1230,7 +1230,7 @@
       "example_sentence": "Can you explain how this works?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "find",
@@ -1238,7 +1238,7 @@
       "example_sentence": "I can't find the configuration file.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "check",
@@ -1246,7 +1246,7 @@
       "example_sentence": "Check the logs for errors.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fix",
@@ -1254,7 +1254,7 @@
       "example_sentence": "Fix the bug before the release.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "run",
@@ -1262,7 +1262,7 @@
       "example_sentence": "Run the script with admin privileges.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "stop",
@@ -1270,7 +1270,7 @@
       "example_sentence": "Stop the service before updating.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "start",
@@ -1278,7 +1278,7 @@
       "example_sentence": "Start the server and check the logs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "install",
@@ -1286,7 +1286,7 @@
       "example_sentence": "Install the dependencies with npm install.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "configure",
@@ -1294,7 +1294,7 @@
       "example_sentence": "Configure the environment variables first.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "connect",
@@ -1302,7 +1302,7 @@
       "example_sentence": "Connect the device to the network.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "enable",
@@ -1310,7 +1310,7 @@
       "example_sentence": "Enable two-factor authentication.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "disable",
@@ -1318,7 +1318,7 @@
       "example_sentence": "Disable the old endpoint after migration.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "allow",
@@ -1326,7 +1326,7 @@
       "example_sentence": "Allow the application through the firewall.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "block",
@@ -1334,7 +1334,7 @@
       "example_sentence": "Block traffic from unknown IPs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "access",
@@ -1342,7 +1342,7 @@
       "example_sentence": "Only admins have access to this server.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "permission",
@@ -1350,7 +1350,7 @@
       "example_sentence": "You don't have permission to do that.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "role",
@@ -1358,7 +1358,7 @@
       "example_sentence": "Assign the correct role to the new user.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "number",
@@ -1366,7 +1366,7 @@
       "example_sentence": "What is your phone number?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "address",
@@ -1374,7 +1374,7 @@
       "example_sentence": "What is your home address?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1586280/pexels-photo-1586280.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "neighbour",
@@ -1382,7 +1382,7 @@
       "example_sentence": "My neighbour is very friendly.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1260302/pexels-photo-1260302.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "happy",
@@ -1390,7 +1390,7 @@
       "example_sentence": "I'm happy with the results.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sad",
@@ -1398,7 +1398,7 @@
       "example_sentence": "She looked sad after the meeting.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1542252/pexels-photo-1542252.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tired",
@@ -1406,7 +1406,7 @@
       "example_sentence": "I'm tired — I worked twelve hours today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "busy",
@@ -1414,7 +1414,7 @@
       "example_sentence": "I'm too busy to answer right now.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ready",
@@ -1422,7 +1422,7 @@
       "example_sentence": "Are you ready for the presentation?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "easy",
@@ -1430,7 +1430,7 @@
       "example_sentence": "This task is easier than I expected.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hard",
@@ -1438,7 +1438,7 @@
       "example_sentence": "This bug is hard to reproduce.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fast",
@@ -1446,7 +1446,7 @@
       "example_sentence": "The new server is much faster.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "slow",
@@ -1454,7 +1454,7 @@
       "example_sentence": "The query is running slow today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "new",
@@ -1462,7 +1462,7 @@
       "example_sentence": "We hired a new developer this week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "old",
@@ -1470,7 +1470,7 @@
       "example_sentence": "The old system is no longer supported.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "big",
@@ -1478,7 +1478,7 @@
       "example_sentence": "This is a big release — lots of features.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "small",
@@ -1486,7 +1486,7 @@
       "example_sentence": "This is a small fix — five lines of code.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "important",
@@ -1494,7 +1494,7 @@
       "example_sentence": "This meeting is very important.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "urgent",
@@ -1502,7 +1502,7 @@
       "example_sentence": "The client marked this ticket as urgent.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "free",
@@ -1510,7 +1510,7 @@
       "example_sentence": "The tool is free and open source.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "available",
@@ -1518,7 +1518,7 @@
       "example_sentence": "Is the server available for maintenance?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "required",
@@ -1526,7 +1526,7 @@
       "example_sentence": "A valid email is required.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "optional",
@@ -1534,7 +1534,7 @@
       "example_sentence": "Adding a photo is optional.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "default",
@@ -1542,7 +1542,7 @@
       "example_sentence": "The default timeout is 30 seconds.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "current",
@@ -1550,7 +1550,7 @@
       "example_sentence": "What is the current version?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "previous",
@@ -1558,7 +1558,7 @@
       "example_sentence": "The previous release had a critical bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "next",
@@ -1566,7 +1566,7 @@
       "example_sentence": "The next meeting is on Wednesday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "last",
@@ -1574,7 +1574,7 @@
       "example_sentence": "The last deploy was yesterday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "first",
@@ -1582,7 +1582,7 @@
       "example_sentence": "This is the first version of the API.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "second",
@@ -1590,7 +1590,7 @@
       "example_sentence": "The second option is more reliable.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "similar",
@@ -1598,7 +1598,7 @@
       "example_sentence": "The behavior is similar to the old system.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "different",
@@ -1606,7 +1606,7 @@
       "example_sentence": "This approach is completely different.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "correct",
@@ -1614,7 +1614,7 @@
       "example_sentence": "Your answer is correct.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "wrong",
@@ -1622,7 +1622,7 @@
       "example_sentence": "Something is wrong with the configuration.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "possible",
@@ -1630,7 +1630,7 @@
       "example_sentence": "Is it possible to finish by Friday?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "impossible",
@@ -1638,7 +1638,7 @@
       "example_sentence": "This deadline is impossible.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "enough",
@@ -1646,7 +1646,7 @@
       "example_sentence": "We don't have enough time.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "too much",
@@ -1654,7 +1654,7 @@
       "example_sentence": "There is too much traffic on this endpoint.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "both",
@@ -1662,7 +1662,7 @@
       "example_sentence": "Both options have pros and cons.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "each",
@@ -1670,7 +1670,7 @@
       "example_sentence": "Each developer owns their module.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "some",
@@ -1678,7 +1678,7 @@
       "example_sentence": "Some tests are failing.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "many",
@@ -1686,7 +1686,7 @@
       "example_sentence": "There are many open issues.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "few",
@@ -1694,7 +1694,7 @@
       "example_sentence": "Only a few users are affected.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "most",
@@ -1702,7 +1702,7 @@
       "example_sentence": "Most of the work is done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "all",
@@ -1710,7 +1710,7 @@
       "example_sentence": "All tests passed.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "none",
@@ -1718,7 +1718,7 @@
       "example_sentence": "None of the logs show an error.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "any",
@@ -1726,7 +1726,7 @@
       "example_sentence": "Any developer can pick this task.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "still",
@@ -1734,7 +1734,7 @@
       "example_sentence": "The issue is still not resolved.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "already",
@@ -1742,7 +1742,7 @@
       "example_sentence": "I've already reviewed the PR.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "yet",
@@ -1750,7 +1750,7 @@
       "example_sentence": "Has the deploy finished yet?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "soon",
@@ -1758,7 +1758,7 @@
       "example_sentence": "The fix will be deployed soon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "later",
@@ -1766,7 +1766,7 @@
       "example_sentence": "Let's discuss this later.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "again",
@@ -1774,7 +1774,7 @@
       "example_sentence": "The test failed again.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "always",
@@ -1782,7 +1782,7 @@
       "example_sentence": "Always write tests for new features.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "never",
@@ -1790,7 +1790,7 @@
       "example_sentence": "Never store passwords in plain text.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sometimes",
@@ -1798,7 +1798,7 @@
       "example_sentence": "The bug sometimes appears under load.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "usually",
@@ -1806,7 +1806,7 @@
       "example_sentence": "We usually deploy on Thursdays.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "often",
@@ -1814,7 +1814,7 @@
       "example_sentence": "This error occurs often during peak hours.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "together",
@@ -1822,7 +1822,7 @@
       "example_sentence": "Let's work on this together.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "alone",
@@ -1830,7 +1830,7 @@
       "example_sentence": "She solved the problem alone.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1542252/pexels-photo-1542252.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "ago",
@@ -1838,7 +1838,7 @@
       "example_sentence": "The server went down two hours ago.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "since",
@@ -1846,7 +1846,7 @@
       "example_sentence": "We haven't had an outage since January.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "until",
@@ -1854,7 +1854,7 @@
       "example_sentence": "Work on this until it's done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "while",
@@ -1862,7 +1862,7 @@
       "example_sentence": "Monitor the logs while the migration runs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "because",
@@ -1870,7 +1870,7 @@
       "example_sentence": "The test failed because of a null pointer.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "so",
@@ -1878,7 +1878,7 @@
       "example_sentence": "The API is down, so we need to investigate.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "but",
@@ -1886,7 +1886,7 @@
       "example_sentence": "The feature works, but it's too slow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "or",
@@ -1894,7 +1894,7 @@
       "example_sentence": "Use Redis or Memcached for caching.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "and",
@@ -1902,7 +1902,7 @@
       "example_sentence": "Read and write operations use different paths.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "if",
@@ -1910,7 +1910,7 @@
       "example_sentence": "If the test fails, block the merge.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "when",
@@ -1918,7 +1918,7 @@
       "example_sentence": "Notify the team when the deploy is done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "how",
@@ -1926,7 +1926,7 @@
       "example_sentence": "How does this feature work?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "why",
@@ -1934,7 +1934,7 @@
       "example_sentence": "Why did the service restart?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "who",
@@ -1942,7 +1942,7 @@
       "example_sentence": "Who is responsible for this service?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "what",
@@ -1950,7 +1950,7 @@
       "example_sentence": "What caused the latency spike?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "where",
@@ -1958,7 +1958,7 @@
       "example_sentence": "Where are the logs stored?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "which",
@@ -1966,7 +1966,7 @@
       "example_sentence": "Which environment are you testing in?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "whether",
@@ -1974,7 +1974,7 @@
       "example_sentence": "Check whether the flag is enabled.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "issue",
@@ -1982,7 +1982,7 @@
       "example_sentence": "Open an issue to track this bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "solution",
@@ -1990,7 +1990,7 @@
       "example_sentence": "We found a solution to the problem.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "approach",
@@ -1998,7 +1998,7 @@
       "example_sentence": "What approach would you recommend?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "option",
@@ -2006,7 +2006,7 @@
       "example_sentence": "We have three options to consider.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "decision",
@@ -2014,7 +2014,7 @@
       "example_sentence": "The team made a decision yesterday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "priority",
@@ -2022,7 +2022,7 @@
       "example_sentence": "What is the priority of this task?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "effort",
@@ -2038,7 +2038,7 @@
       "example_sentence": "What is the impact of this change?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "risk",
@@ -2046,7 +2046,7 @@
       "example_sentence": "This approach carries a high risk.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "requirement",
@@ -2054,7 +2054,7 @@
       "example_sentence": "The requirement was not well defined.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "constraint",
@@ -2094,7 +2094,7 @@
       "example_sentence": "This PR includes several improvements.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "performance",
@@ -2102,7 +2102,7 @@
       "example_sentence": "The performance improved after caching.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "reliability",
@@ -2110,7 +2110,7 @@
       "example_sentence": "Reliability is our top priority.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "scalability",
@@ -2118,7 +2118,7 @@
       "example_sentence": "Design for scalability from the start.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "security",
@@ -2126,7 +2126,7 @@
       "example_sentence": "Security is everyone's responsibility.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "availability",
@@ -2134,7 +2134,7 @@
       "example_sentence": "High availability requires redundancy.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "maintainability",
@@ -2166,7 +2166,7 @@
       "example_sentence": "Favour simplicity over complexity.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "complexity",
@@ -2174,7 +2174,7 @@
       "example_sentence": "Reduce complexity where possible.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "interview",
@@ -2182,7 +2182,7 @@
       "example_sentence": "She has a technical interview tomorrow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "internship",
@@ -2190,7 +2190,7 @@
       "example_sentence": "He got an internship at a big tech company.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "remote work",
@@ -2198,7 +2198,7 @@
       "example_sentence": "Remote work is now the norm.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hybrid work",
@@ -2206,7 +2206,7 @@
       "example_sentence": "We follow a hybrid work model.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "commute",
@@ -2214,7 +2214,7 @@
       "example_sentence": "My commute is just ten minutes.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1448735/pexels-photo-1448735.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "onsite",
@@ -2222,7 +2222,7 @@
       "example_sentence": "The client meeting is onsite.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "async communication",
@@ -2230,7 +2230,7 @@
       "example_sentence": "Use async communication across time zones.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "sync",
@@ -2238,7 +2238,7 @@
       "example_sentence": "Let's sync up before the demo.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "alignment",
@@ -2246,7 +2246,7 @@
       "example_sentence": "We need alignment between product and engineering.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "bandwidth (personal)",
@@ -2254,7 +2254,7 @@
       "example_sentence": "I don't have the bandwidth for this right now.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     }
   ]
 }

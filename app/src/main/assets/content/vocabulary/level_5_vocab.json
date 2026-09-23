@@ -6,7 +6,7 @@
       "example_sentence": "The team commits to a set of tasks at the beginning of each sprint.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "velocity",
@@ -14,7 +14,7 @@
       "example_sentence": "The sprint velocity dropped because two developers are on leave.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "backlog",
@@ -22,7 +22,7 @@
       "example_sentence": "We refine the backlog every Wednesday afternoon.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "epic",
@@ -38,7 +38,7 @@
       "example_sentence": "Present the demo to all stakeholders before the release.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SLO",
@@ -46,7 +46,7 @@
       "example_sentence": "The SLO for that service is 99.9% uptime per month.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "incident",
@@ -54,7 +54,7 @@
       "example_sentence": "The incident was caused by a misconfigured load balancer.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "observability",
@@ -62,7 +62,7 @@
       "example_sentence": "Good observability means having logs, metrics, and traces.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "on-call",
@@ -70,7 +70,7 @@
       "example_sentence": "The on-call engineer was paged when the alert fired.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "runbook",
@@ -78,7 +78,7 @@
       "example_sentence": "Follow the runbook to restore the service after an incident.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Kafka",
@@ -86,7 +86,7 @@
       "example_sentence": "Services communicate asynchronously through a Kafka message broker.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "service mesh",
@@ -94,7 +94,7 @@
       "example_sentence": "The service mesh handles load balancing and service discovery.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "idempotent",
@@ -102,7 +102,7 @@
       "example_sentence": "API endpoints should be idempotent to handle retries safely.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "circuit breaker",
@@ -110,7 +110,7 @@
       "example_sentence": "The circuit breaker opens when the downstream service fails repeatedly.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "OKR",
@@ -118,7 +118,7 @@
       "example_sentence": "Each team defines its OKRs at the start of the quarter.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "retrospective",
@@ -126,7 +126,7 @@
       "example_sentence": "We hold a retrospective at the end of every sprint.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "throughput",
@@ -142,7 +142,7 @@
       "example_sentence": "We have consumed 80% of our error budget this month.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SLA",
@@ -150,7 +150,7 @@
       "example_sentence": "The SLA guarantees 99.5% uptime per month.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "distributed tracing",
@@ -182,7 +182,7 @@
       "example_sentence": "A story is ready when it meets the definition of ready.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "throughput (agile)",
@@ -190,7 +190,7 @@
       "example_sentence": "Team throughput increased after removing blockers.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "lead time",
@@ -198,7 +198,7 @@
       "example_sentence": "Reduce lead time by removing handoffs.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cycle time",
@@ -206,7 +206,7 @@
       "example_sentence": "Cycle time measures time from start to done.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "WIP limit",
@@ -214,7 +214,7 @@
       "example_sentence": "Set a WIP limit of three tasks per developer.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Kanban",
@@ -222,7 +222,7 @@
       "example_sentence": "The team switched from Scrum to Kanban.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Scrum master",
@@ -230,7 +230,7 @@
       "example_sentence": "The Scrum master facilitates the ceremonies.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "product owner",
@@ -238,7 +238,7 @@
       "example_sentence": "The product owner prioritises the backlog.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "squad",
@@ -246,7 +246,7 @@
       "example_sentence": "Each squad owns a product domain.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "tribe",
@@ -254,7 +254,7 @@
       "example_sentence": "Multiple squads form a tribe.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "chapter",
@@ -262,7 +262,7 @@
       "example_sentence": "The backend chapter shares practices.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SAFe",
@@ -270,7 +270,7 @@
       "example_sentence": "The enterprise adopted SAFe for scaling agile.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "PI planning",
@@ -278,7 +278,7 @@
       "example_sentence": "PI planning aligns teams for the next quarter.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "error budget policy",
@@ -286,7 +286,7 @@
       "example_sentence": "Define the error budget policy with the product team.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "toil reduction",
@@ -294,7 +294,7 @@
       "example_sentence": "Automate deployments to achieve toil reduction.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "chaos monkey",
@@ -302,7 +302,7 @@
       "example_sentence": "Chaos monkey randomly terminates instances in production.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "game day (SRE)",
@@ -310,7 +310,7 @@
       "example_sentence": "Run a game day to test incident response.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "load test",
@@ -318,7 +318,7 @@
       "example_sentence": "Run a load test before every major release.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "stress test",
@@ -326,7 +326,7 @@
       "example_sentence": "A stress test finds the breaking point.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "soak test",
@@ -334,7 +334,7 @@
       "example_sentence": "A soak test runs for hours to detect memory leaks.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fire drill",
@@ -342,7 +342,7 @@
       "example_sentence": "Do a fire drill to practise the runbook.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mean time between failures",
@@ -350,7 +350,7 @@
       "example_sentence": "MTBF measures system reliability.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "availability zone",
@@ -358,7 +358,7 @@
       "example_sentence": "Deploy across three availability zones.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "multi-region",
@@ -366,7 +366,7 @@
       "example_sentence": "Multi-region architecture improves resilience.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "disaster recovery",
@@ -374,7 +374,7 @@
       "example_sentence": "Test the disaster recovery plan every year.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "RTO",
@@ -382,7 +382,7 @@
       "example_sentence": "Our RTO is one hour for critical services.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "RPO",
@@ -390,7 +390,7 @@
       "example_sentence": "Our RPO is 15 minutes — backups every 15 minutes.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "hot standby",
@@ -398,7 +398,7 @@
       "example_sentence": "A hot standby is ready to take over instantly.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "warm standby",
@@ -406,7 +406,7 @@
       "example_sentence": "A warm standby takes a few minutes to activate.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "cold standby",
@@ -414,7 +414,7 @@
       "example_sentence": "A cold standby requires manual intervention.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "event mesh",
@@ -422,7 +422,7 @@
       "example_sentence": "An event mesh routes events across services.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "event broker",
@@ -430,7 +430,7 @@
       "example_sentence": "Kafka acts as the event broker.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "consumer group",
@@ -438,7 +438,7 @@
       "example_sentence": "Each service has its own consumer group.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "topic",
@@ -446,7 +446,7 @@
       "example_sentence": "Publish messages to the orders topic.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "partition",
@@ -454,7 +454,7 @@
       "example_sentence": "Increase partitions to improve throughput.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "offset",
@@ -470,7 +470,7 @@
       "example_sentence": "Failed messages are sent to the dead letter queue.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "message schema",
@@ -478,7 +478,7 @@
       "example_sentence": "Define the message schema with Avro.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "schema registry",
@@ -486,7 +486,7 @@
       "example_sentence": "The schema registry enforces message compatibility.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "idempotency key",
@@ -494,7 +494,7 @@
       "example_sentence": "Use an idempotency key to prevent duplicate processing.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "distributed lock",
@@ -502,7 +502,7 @@
       "example_sentence": "Use Redis for a distributed lock.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "two-phase locking",
@@ -510,7 +510,7 @@
       "example_sentence": "Two-phase locking prevents dirty reads.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "optimistic locking",
@@ -518,7 +518,7 @@
       "example_sentence": "Optimistic locking uses version numbers.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "pessimistic locking",
@@ -526,7 +526,7 @@
       "example_sentence": "Pessimistic locking blocks concurrent access.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "read-your-writes",
@@ -534,7 +534,7 @@
       "example_sentence": "Implement read-your-writes for session consistency.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "vector clock",
@@ -542,7 +542,7 @@
       "example_sentence": "Vector clocks track causality in distributed systems.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Lamport timestamp",
@@ -550,7 +550,7 @@
       "example_sentence": "Lamport timestamps order events in distributed systems.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "gossip protocol",
@@ -558,7 +558,7 @@
       "example_sentence": "Cassandra uses gossip protocol for node discovery.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "replication factor",
@@ -566,7 +566,7 @@
       "example_sentence": "Set the replication factor to 3 for durability.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "quorum",
@@ -574,7 +574,7 @@
       "example_sentence": "A write quorum of 2 out of 3 ensures consistency.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "consensus",
@@ -582,7 +582,7 @@
       "example_sentence": "Raft is a consensus algorithm.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Raft",
@@ -590,7 +590,7 @@
       "example_sentence": "Etcd uses Raft for leader election.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "Paxos",
@@ -598,7 +598,7 @@
       "example_sentence": "Paxos guarantees agreement among distributed nodes.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "leader election",
@@ -606,7 +606,7 @@
       "example_sentence": "Leader election picks the primary node automatically.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "split brain",
@@ -614,7 +614,7 @@
       "example_sentence": "Network partitions can cause a split brain.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fencing",
@@ -622,7 +622,7 @@
       "example_sentence": "Use fencing tokens to prevent split brain writes.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "service contract",
@@ -630,7 +630,7 @@
       "example_sentence": "Agree on the service contract before development.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "API gateway pattern",
@@ -638,7 +638,7 @@
       "example_sentence": "The API gateway pattern centralises cross-cutting concerns.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "strangler fig",
@@ -646,7 +646,7 @@
       "example_sentence": "Use the strangler fig pattern to replace the monolith.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "anti-corruption layer",
@@ -654,7 +654,7 @@
       "example_sentence": "An anti-corruption layer translates between models.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "reactive systems",
@@ -662,7 +662,7 @@
       "example_sentence": "Reactive systems are responsive, resilient, elastic.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "backpressure",
@@ -670,7 +670,7 @@
       "example_sentence": "Implement backpressure to prevent consumer overload.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "non-blocking I/O",
@@ -678,7 +678,7 @@
       "example_sentence": "Use non-blocking I/O for high-throughput services.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "SLO burn rate",
@@ -686,7 +686,7 @@
       "example_sentence": "Alert when the SLO burn rate is too high.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "error rate",
@@ -694,7 +694,7 @@
       "example_sentence": "The error rate crossed the 1% threshold.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "alert threshold",
@@ -702,7 +702,7 @@
       "example_sentence": "Set the alert threshold based on historical data.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "page",
@@ -710,7 +710,7 @@
       "example_sentence": "Page the on-call engineer immediately.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "incident commander",
@@ -718,7 +718,7 @@
       "example_sentence": "The incident commander coordinates the response.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "status update",
@@ -726,7 +726,7 @@
       "example_sentence": "Post a status update every 30 minutes.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "timeline",
@@ -734,7 +734,7 @@
       "example_sentence": "Build a timeline of events for the post-mortem.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "mitigating action",
@@ -742,7 +742,7 @@
       "example_sentence": "Implement the mitigating action right away.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "long-term fix",
@@ -750,7 +750,7 @@
       "example_sentence": "Schedule the long-term fix in the next sprint.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "monitoring gap",
@@ -758,7 +758,7 @@
       "example_sentence": "Identify monitoring gaps from the post-mortem.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1551234/pexels-photo-1551234.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "publish-subscribe",
@@ -766,7 +766,7 @@
       "example_sentence": "The publish-subscribe model decouples producers from consumers.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "topic partition",
@@ -774,7 +774,7 @@
       "example_sentence": "Increase topic partitions for higher throughput.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "consumer lag",
@@ -782,7 +782,7 @@
       "example_sentence": "Alert when consumer lag exceeds 10,000 messages.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "exactly-once delivery",
@@ -790,7 +790,7 @@
       "example_sentence": "Kafka supports exactly-once delivery semantics.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "at-least-once delivery",
@@ -798,7 +798,7 @@
       "example_sentence": "At-least-once delivery may produce duplicates.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "at-most-once delivery",
@@ -806,7 +806,7 @@
       "example_sentence": "At-most-once delivery may lose messages.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "fan-out",
@@ -814,7 +814,7 @@
       "example_sentence": "A fan-out sends one message to many queues.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "competing consumers",
@@ -822,7 +822,7 @@
       "example_sentence": "Multiple competing consumers process tasks faster.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "back-pressure",
@@ -830,7 +830,7 @@
       "example_sentence": "Implement back-pressure to slow down producers.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "message ordering",
@@ -838,7 +838,7 @@
       "example_sentence": "Message ordering is guaranteed within a partition.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "platform as a service",
@@ -846,7 +846,7 @@
       "example_sentence": "Use a PaaS to reduce infrastructure overhead.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "infrastructure as a service",
@@ -854,7 +854,7 @@
       "example_sentence": "AWS EC2 is an IaaS offering.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     },
     {
       "word": "software as a service",
@@ -862,7 +862,7 @@
       "example_sentence": "Salesforce is a SaaS product.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+      "image_url": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
     }
   ]
 }
