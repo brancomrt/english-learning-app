@@ -1,0 +1,126 @@
+[
+  {
+    "id": 401, "level_id": 5, "category_id": 13,
+    "answer_text": "The sprint velocity has dropped because two developers are on leave.",
+    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "present perfect - agile metrics",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 401, "question_text": "Why has the sprint velocity dropped?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 402, "question_text": "Why did the sprint velocity drop?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 401, "hint_order": 1, "hint_text": "Ask why a metric has changed.", "hint_type": "structural" },
+      { "id": 402, "hint_order": 2, "hint_text": "Use 'Why has the sprint velocity dropped?'", "hint_type": "vocabulary" },
+      { "id": 403, "hint_order": 3, "hint_text": "Why has the sprint velocity dropped?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 402, "level_id": 5, "category_id": 13,
+    "answer_text": "The backlog refinement meeting is held every Wednesday afternoon.",
+    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "present simple passive - recurring meetings",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 403, "question_text": "When is the backlog refinement meeting held?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 404, "question_text": "When does the backlog refinement happen?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 404, "hint_order": 1, "hint_text": "Ask about when a recurring event takes place.", "hint_type": "structural" },
+      { "id": 405, "hint_order": 2, "hint_text": "Use 'When is ... held?' (passive) or 'When does ... happen?'", "hint_type": "vocabulary" },
+      { "id": 406, "hint_order": 3, "hint_text": "When is the backlog refinement meeting held?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 403, "level_id": 5, "category_id": 13,
+    "answer_text": "We should have completed the epic by the end of Q3.",
+    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "modal perfect - project management",
+    "difficulty_score": 7, "xp_reward": 40, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 405, "question_text": "When should we have completed the epic?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 406, "question_text": "By when should the epic have been completed?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 407, "hint_order": 1, "hint_text": "Ask about a deadline using modal perfect.", "hint_type": "structural" },
+      { "id": 408, "hint_order": 2, "hint_text": "Use 'When should we have completed...?'", "hint_type": "vocabulary" },
+      { "id": 409, "hint_order": 3, "hint_text": "When should we have completed the epic?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 404, "level_id": 5, "category_id": 14,
+    "answer_text": "The SLO for that service is 99.9% uptime per month.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - SRE terminology",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 407, "question_text": "What is the SLO for that service?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 408, "question_text": "What's the SLO for that service?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 410, "hint_order": 1, "hint_text": "Ask about a service level objective.", "hint_type": "structural" },
+      { "id": 411, "hint_order": 2, "hint_text": "Use 'What is/What's the SLO for...?'", "hint_type": "vocabulary" },
+      { "id": 412, "hint_order": 3, "hint_text": "What is the SLO for that service?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 405, "level_id": 5, "category_id": 14,
+    "answer_text": "The incident was caused by a misconfigured load balancer.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "past simple passive - incident management",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 409, "question_text": "What caused the incident?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 410, "question_text": "What was the incident caused by?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 413, "hint_order": 1, "hint_text": "Ask about the cause of an incident.", "hint_type": "structural" },
+      { "id": 414, "hint_order": 2, "hint_text": "Use 'What caused the incident?' or 'What was it caused by?'", "hint_type": "vocabulary" },
+      { "id": 415, "hint_order": 3, "hint_text": "What caused the incident?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 406, "level_id": 5, "category_id": 15,
+    "answer_text": "Services communicate asynchronously via a message broker like Kafka.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present simple - async messaging",
+    "difficulty_score": 7, "xp_reward": 40, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 411, "question_text": "How do the services communicate?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 412, "question_text": "How do microservices communicate with each other?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 416, "hint_order": 1, "hint_text": "Ask about the communication method.", "hint_type": "structural" },
+      { "id": 417, "hint_order": 2, "hint_text": "Use 'How do the services communicate?'", "hint_type": "vocabulary" },
+      { "id": 418, "hint_order": 3, "hint_text": "How do the services communicate?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 407, "level_id": 5, "category_id": 15,
+    "answer_text": "The service mesh handles service discovery, load balancing, and observability.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - service mesh",
+    "difficulty_score": 7, "xp_reward": 40, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 413, "question_text": "What does the service mesh handle?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 414, "question_text": "What is the service mesh responsible for?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 419, "hint_order": 1, "hint_text": "Ask about responsibilities of a component.", "hint_type": "structural" },
+      { "id": 420, "hint_order": 2, "hint_text": "Use 'What does the service mesh handle?'", "hint_type": "vocabulary" },
+      { "id": 421, "hint_order": 3, "hint_text": "What does the service mesh handle?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 408, "level_id": 5, "category_id": 13,
+    "answer_text": "It depends on the team's capacity and the priority of the items.",
+    "context_text": "A: How many story points can we commit to this sprint?",
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "prompt_text": "What does the sprint commitment depend on?",
+    "grammar_focus": "present simple - explaining dependencies in agile",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 4,
+    "accepted_answers": [
+      { "id": 415, "question_text": "It depends on the team's capacity and priorities.", "is_primary": true, "match_threshold": 0.75 },
+      { "id": 416, "question_text": "It depends on capacity and item priority.", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 422, "hint_order": 1, "hint_text": "Use 'It depends on...' to explain factors.", "hint_type": "structural" },
+      { "id": 423, "hint_order": 2, "hint_text": "Mention team capacity and priority.", "hint_type": "vocabulary" },
+      { "id": 424, "hint_order": 3, "hint_text": "It depends on the team's capacity and the priority.", "hint_type": "answer" }
+    ]
+  }
+]

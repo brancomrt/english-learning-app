@@ -1,0 +1,25 @@
+[
+  { "id": 1,  "level_id": 1, "name_key": "category_daily_life",          "description_key": "category_daily_life_desc",          "icon_key": "ic_home",     "color_key": "color_green",  "sort_order": 1 },
+  { "id": 2,  "level_id": 1, "name_key": "category_work",                "description_key": "category_work_desc",                "icon_key": "ic_work",     "color_key": "color_blue",   "sort_order": 2 },
+  { "id": 3,  "level_id": 1, "name_key": "category_travel",              "description_key": "category_travel_desc",              "icon_key": "ic_travel",   "color_key": "color_orange", "sort_order": 3 },
+
+  { "id": 4,  "level_id": 2, "name_key": "category_it_support",          "description_key": "category_it_support_desc",          "icon_key": "ic_tech",     "color_key": "color_blue",   "sort_order": 1 },
+  { "id": 5,  "level_id": 2, "name_key": "category_hardware_software",   "description_key": "category_hardware_software_desc",   "icon_key": "ic_tech",     "color_key": "color_teal",   "sort_order": 2 },
+  { "id": 6,  "level_id": 2, "name_key": "category_networking_basics",   "description_key": "category_networking_basics_desc",   "icon_key": "ic_tech",     "color_key": "color_purple", "sort_order": 3 },
+
+  { "id": 7,  "level_id": 3, "name_key": "category_software_dev",        "description_key": "category_software_dev_desc",        "icon_key": "ic_tech",     "color_key": "color_blue",   "sort_order": 1 },
+  { "id": 8,  "level_id": 3, "name_key": "category_databases",           "description_key": "category_databases_desc",           "icon_key": "ic_business", "color_key": "color_orange", "sort_order": 2 },
+  { "id": 9,  "level_id": 3, "name_key": "category_cloud_basics",        "description_key": "category_cloud_basics_desc",        "icon_key": "ic_tech",     "color_key": "color_teal",   "sort_order": 3 },
+
+  { "id": 10, "level_id": 4, "name_key": "category_devops",              "description_key": "category_devops_desc",              "icon_key": "ic_tech",     "color_key": "color_green",  "sort_order": 1 },
+  { "id": 11, "level_id": 4, "name_key": "category_security",            "description_key": "category_security_desc",            "icon_key": "ic_tech",     "color_key": "color_red",    "sort_order": 2 },
+  { "id": 12, "level_id": 4, "name_key": "category_architecture",        "description_key": "category_architecture_desc",        "icon_key": "ic_business", "color_key": "color_purple", "sort_order": 3 },
+
+  { "id": 13, "level_id": 5, "name_key": "category_agile_pm",            "description_key": "category_agile_pm_desc",            "icon_key": "ic_business", "color_key": "color_blue",   "sort_order": 1 },
+  { "id": 14, "level_id": 5, "name_key": "category_sre_reliability",     "description_key": "category_sre_reliability_desc",     "icon_key": "ic_tech",     "color_key": "color_orange", "sort_order": 2 },
+  { "id": 15, "level_id": 5, "name_key": "category_microservices",       "description_key": "category_microservices_desc",       "icon_key": "ic_tech",     "color_key": "color_teal",   "sort_order": 3 },
+
+  { "id": 16, "level_id": 6, "name_key": "category_tech_leadership",     "description_key": "category_tech_leadership_desc",     "icon_key": "ic_business", "color_key": "color_purple", "sort_order": 1 },
+  { "id": 17, "level_id": 6, "name_key": "category_system_design",       "description_key": "category_system_design_desc",       "icon_key": "ic_tech",     "color_key": "color_red",    "sort_order": 2 },
+  { "id": 18, "level_id": 6, "name_key": "category_tech_writing",        "description_key": "category_tech_writing_desc",        "icon_key": "ic_travel",   "color_key": "color_green",  "sort_order": 3 }
+]

@@ -1,0 +1,1554 @@
+[
+  {
+    "id": 1,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "My name is Maria.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - to be",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 1,
+    "accepted_answers": [
+      {
+        "id": 1,
+        "question_text": "What is your name?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 2,
+        "question_text": "What's your name?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 1,
+        "hint_order": 1,
+        "hint_text": "Use a Wh-question.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 2,
+        "hint_order": 2,
+        "hint_text": "Start with 'What'. You can use 'What's' too.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 3,
+        "hint_order": 3,
+        "hint_text": "What is / What's your...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I live in São Paulo.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - live",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 2,
+    "accepted_answers": [
+      {
+        "id": 3,
+        "question_text": "Where do you live?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 4,
+        "question_text": "Where are you from?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 4,
+        "hint_order": 1,
+        "hint_text": "Use a Wh-question about a place.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 5,
+        "hint_order": 2,
+        "hint_text": "Start with 'Where'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 6,
+        "hint_order": 3,
+        "hint_text": "Where do you...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I am 28 years old.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - to be + age",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 3,
+    "accepted_answers": [
+      {
+        "id": 5,
+        "question_text": "How old are you?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 6,
+        "question_text": "What is your age?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 7,
+        "question_text": "What's your age?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 7,
+        "hint_order": 1,
+        "hint_text": "Ask about someone's age.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 8,
+        "hint_order": 2,
+        "hint_text": "Use 'How old' or 'What's your age'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 9,
+        "hint_order": 3,
+        "hint_text": "How old are...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "Yes, I have a brother.",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "present simple - have",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 10,
+        "question_text": "Do you have a brother?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 11,
+        "question_text": "Have you got a brother?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 10,
+        "hint_order": 1,
+        "hint_text": "This is a Yes/No question.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 11,
+        "hint_order": 2,
+        "hint_text": "Use 'Do you have' or 'Have you got'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 12,
+        "hint_order": 3,
+        "hint_text": "Do you have a...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "She is my mother.",
+    "context_text": null,
+    "question_type": "WH_WHO",
+    "grammar_focus": "present simple - to be + family",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 12,
+        "question_text": "Who is she?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 13,
+        "question_text": "Who's she?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 14,
+        "question_text": "Who is that woman?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 13,
+        "hint_order": 1,
+        "hint_text": "Ask about a person's identity.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 14,
+        "hint_order": 2,
+        "hint_text": "Start with 'Who'. 'Who's' is also correct.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 15,
+        "hint_order": 3,
+        "hint_text": "Who is / Who's...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "No, I don't like coffee.",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "present simple - like",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 15,
+        "question_text": "Do you like coffee?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 16,
+        "question_text": "Do you drink coffee?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 16,
+        "hint_order": 1,
+        "hint_text": "Yes/No question.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 17,
+        "hint_order": 2,
+        "hint_text": "Start with 'Do you...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 18,
+        "hint_order": 3,
+        "hint_text": "Do you like...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "My favorite color is blue.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - favorites",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 17,
+        "question_text": "What is your favorite color?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 18,
+        "question_text": "What's your favorite color?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 19,
+        "hint_order": 1,
+        "hint_text": "Ask about a preference.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 20,
+        "hint_order": 2,
+        "hint_text": "'What is' and 'What's' are both correct.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 21,
+        "hint_order": 3,
+        "hint_text": "What's your favorite...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I wake up at seven o'clock.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - daily routines",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 19,
+        "question_text": "What time do you wake up?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 20,
+        "question_text": "What time do you get up?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 22,
+        "hint_order": 1,
+        "hint_text": "Ask about the time of a daily activity.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 23,
+        "hint_order": 2,
+        "hint_text": "Use 'What time'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 24,
+        "hint_order": 3,
+        "hint_text": "What time do you...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I am a software engineer.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - occupations",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 1,
+    "accepted_answers": [
+      {
+        "id": 21,
+        "question_text": "What do you do?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 22,
+        "question_text": "What is your job?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 23,
+        "question_text": "What's your job?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 25,
+        "hint_order": 1,
+        "hint_text": "Ask about someone's profession.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 26,
+        "hint_order": 2,
+        "hint_text": "Use 'What do you do' or 'What's your job'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 27,
+        "hint_order": 3,
+        "hint_text": "What do you do for...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I start work at nine in the morning.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - work schedule",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 2,
+    "accepted_answers": [
+      {
+        "id": 24,
+        "question_text": "When do you start work?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 25,
+        "question_text": "When does your workday begin?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 28,
+        "hint_order": 1,
+        "hint_text": "Ask about the time of an event.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 29,
+        "hint_order": 2,
+        "hint_text": "Start with 'When do you...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 30,
+        "hint_order": 3,
+        "hint_text": "When do you start...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "Yes, I work from home.",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "present simple - work arrangements",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 3,
+    "accepted_answers": [
+      {
+        "id": 26,
+        "question_text": "Do you work from home?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 27,
+        "question_text": "Do you work remotely?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 31,
+        "hint_order": 1,
+        "hint_text": "Yes/No question.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 32,
+        "hint_order": 2,
+        "hint_text": "Start with 'Do you work...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 33,
+        "hint_order": 3,
+        "hint_text": "Do you work from...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I get to work by bus.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - transportation",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 28,
+        "question_text": "How do you get to work?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 29,
+        "question_text": "How do you commute?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 34,
+        "hint_order": 1,
+        "hint_text": "Ask about means of getting somewhere.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 35,
+        "hint_order": 2,
+        "hint_text": "Start with 'How do you...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 36,
+        "hint_order": 3,
+        "hint_text": "How do you get to...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I have a meeting every Monday.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - frequency",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 30,
+        "question_text": "When do you have meetings?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 31,
+        "question_text": "When are your meetings?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 37,
+        "hint_order": 1,
+        "hint_text": "Ask about a recurring event.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 38,
+        "hint_order": 2,
+        "hint_text": "Use 'When do you have...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 39,
+        "hint_order": 3,
+        "hint_text": "When do you have...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "My boss is very friendly.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - adjectives",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 32,
+        "question_text": "How is your boss?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 33,
+        "question_text": "What is your boss like?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      },
+      {
+        "id": 34,
+        "question_text": "What's your boss like?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 40,
+        "hint_order": 1,
+        "hint_text": "Ask about personality.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 41,
+        "hint_order": 2,
+        "hint_text": "Use 'How is' or 'What's ... like'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 42,
+        "hint_order": 3,
+        "hint_text": "What's your boss like?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "I'm going to Paris next summer.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present continuous - future plans",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 1,
+    "accepted_answers": [
+      {
+        "id": 35,
+        "question_text": "Where are you going next summer?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 36,
+        "question_text": "Where are you travelling to?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 43,
+        "hint_order": 1,
+        "hint_text": "Ask about a travel destination.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 44,
+        "hint_order": 2,
+        "hint_text": "Use 'Where are you going'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 45,
+        "hint_order": 3,
+        "hint_text": "Where are you going...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The flight departs at six in the morning.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - schedules",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 2,
+    "accepted_answers": [
+      {
+        "id": 37,
+        "question_text": "When does the flight depart?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 38,
+        "question_text": "When does the plane leave?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 46,
+        "hint_order": 1,
+        "hint_text": "Ask about time of a scheduled event.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 47,
+        "hint_order": 2,
+        "hint_text": "Use 'When does ... depart/leave'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 48,
+        "hint_order": 3,
+        "hint_text": "When does the flight...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "We travel by train.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - means of transport",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 3,
+    "accepted_answers": [
+      {
+        "id": 39,
+        "question_text": "How do you travel?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 40,
+        "question_text": "How do you get around?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 49,
+        "hint_order": 1,
+        "hint_text": "Ask about the method of transportation.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 50,
+        "hint_order": 2,
+        "hint_text": "Start with 'How do you...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 51,
+        "hint_order": 3,
+        "hint_text": "How do you travel?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "Yes, I always carry my passport.",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "present simple - travel habits",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 41,
+        "question_text": "Do you always carry your passport?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 42,
+        "question_text": "Do you bring your passport?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 52,
+        "hint_order": 1,
+        "hint_text": "Yes/No question about a habit.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 53,
+        "hint_order": 2,
+        "hint_text": "Start with 'Do you always...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 54,
+        "hint_order": 3,
+        "hint_text": "Do you always carry...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The hotel is near the beach.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - location",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 43,
+        "question_text": "Where is the hotel?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 44,
+        "question_text": "Where is the hotel located?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 55,
+        "hint_order": 1,
+        "hint_text": "Ask about the location of a place.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 56,
+        "hint_order": 2,
+        "hint_text": "Use 'Where is...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 57,
+        "hint_order": 3,
+        "hint_text": "Where is the...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "You need a visa to visit Japan.",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "modal verbs - need",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 45,
+        "question_text": "Do you need a visa to visit Japan?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 46,
+        "question_text": "Do you need a visa for Japan?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 58,
+        "hint_order": 1,
+        "hint_text": "Ask whether something is required.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 59,
+        "hint_order": 2,
+        "hint_text": "Use 'Do you need...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 60,
+        "hint_order": 3,
+        "hint_text": "Do you need a visa...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The trip takes about three hours.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - duration",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 47,
+        "question_text": "How long does the trip take?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 48,
+        "question_text": "How long is the journey?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 61,
+        "hint_order": 1,
+        "hint_text": "Ask about the duration of a trip.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 62,
+        "hint_order": 2,
+        "hint_text": "Use 'How long does ... take'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 63,
+        "hint_order": 3,
+        "hint_text": "How long does the trip...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "It's a lovely city, isn't it?",
+    "context_text": "A: I visited Rome last year. B: ...",
+    "question_type": "TAG",
+    "grammar_focus": "tag questions - to be",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 49,
+        "question_text": "It's a lovely city, isn't it?",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 50,
+        "question_text": "Rome is a lovely city, isn't it?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 64,
+        "hint_order": 1,
+        "hint_text": "Use a tag question to seek agreement.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 65,
+        "hint_order": 2,
+        "hint_text": "Positive statement + negative tag: '...isn't it?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 66,
+        "hint_order": 3,
+        "hint_text": "It's a lovely city, isn't...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I usually have toast and coffee for breakfast.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - meals",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 51,
+        "question_text": "What do you usually have for breakfast?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 52,
+        "question_text": "What do you eat for breakfast?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 67,
+        "hint_order": 1,
+        "hint_text": "Ask about a breakfast habit.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 68,
+        "hint_order": 2,
+        "hint_text": "Use 'What do you have for...'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 69,
+        "hint_order": 3,
+        "hint_text": "What do you usually have for...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "My best friend lives next door.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - location of people",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 53,
+        "question_text": "Where does your best friend live?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 54,
+        "question_text": "Where does your friend live?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 70,
+        "hint_order": 1,
+        "hint_text": "Ask about where someone lives.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 71,
+        "hint_order": 2,
+        "hint_text": "Use 'Where does ... live'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 72,
+        "hint_order": 3,
+        "hint_text": "Where does your friend...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "My salary is paid on the last Friday of the month.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive voice - payment",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 55,
+        "question_text": "When is your salary paid?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 56,
+        "question_text": "When do you get paid?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 73,
+        "hint_order": 1,
+        "hint_text": "Ask about when a payment happens.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 74,
+        "hint_order": 2,
+        "hint_text": "Use 'When is ... paid' or 'When do you get paid'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 75,
+        "hint_order": 3,
+        "hint_text": "When is your salary...?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "Yes, I am. / No, I'm not.",
+    "prompt_text": "Are you married?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - to be, short answers",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 57,
+        "question_text": "Yes, I am.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 58,
+        "question_text": "No, I'm not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 59,
+        "question_text": "No, I am not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 76,
+        "hint_order": 1,
+        "hint_text": "Use uma resposta curta: Yes, I am. ou No, I'm not.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 77,
+        "hint_order": 2,
+        "hint_text": "Resposta positiva: 'Yes, I am.' | Negativa: 'No, I'm not.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 78,
+        "hint_order": 3,
+        "hint_text": "Yes, I am. / No, I'm not.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "Yes, I do. / No, I don't.",
+    "prompt_text": "Do you speak English?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - do, short answers",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 60,
+        "question_text": "Yes, I do.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 61,
+        "question_text": "No, I don't.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 62,
+        "question_text": "No, I do not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 79,
+        "hint_order": 1,
+        "hint_text": "Use uma resposta curta com 'do'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 80,
+        "hint_order": 2,
+        "hint_text": "Positiva: 'Yes, I do.' | Negativa: 'No, I don't.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 81,
+        "hint_order": 3,
+        "hint_text": "Yes, I do. / No, I don't.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I'm from Brazil.",
+    "prompt_text": "Where are you from?",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - to be, origin",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 63,
+        "question_text": "I'm from Brazil.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 64,
+        "question_text": "I am from Brazil.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 65,
+        "question_text": "I'm Brazilian.",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 82,
+        "hint_order": 1,
+        "hint_text": "Responda com 'I'm from...' ou 'I am from...'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 83,
+        "hint_order": 2,
+        "hint_text": "'I'm' é a contração de 'I am'. Ambas são corretas.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 84,
+        "hint_order": 3,
+        "hint_text": "I'm from...",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "Yes, she does. / No, she doesn't.",
+    "prompt_text": "Does she work here?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - does, short answers (3rd person)",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 66,
+        "question_text": "Yes, she does.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 67,
+        "question_text": "No, she doesn't.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 68,
+        "question_text": "No, she does not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 85,
+        "hint_order": 1,
+        "hint_text": "Resposta curta com 'does' (3ª pessoa).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 86,
+        "hint_order": 2,
+        "hint_text": "Positiva: 'Yes, she does.' | Negativa: 'No, she doesn't.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 87,
+        "hint_order": 3,
+        "hint_text": "Yes, she does. / No, she doesn't.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I work from 9 to 5.",
+    "prompt_text": "What are your working hours?",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - work schedule, giving information",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 69,
+        "question_text": "I work from 9 to 5.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 70,
+        "question_text": "I work nine to five.",
+        "is_primary": false,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 71,
+        "question_text": "From 9 to 5.",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 88,
+        "hint_order": 1,
+        "hint_text": "Responda com 'I work from [hora] to [hora].'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 89,
+        "hint_order": 2,
+        "hint_text": "Use 'from ... to ...' para indicar intervalo de tempo.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 90,
+        "hint_order": 3,
+        "hint_text": "I work from ... to ...",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "Yes, I have. / No, I haven't.",
+    "prompt_text": "Have you ever been to Europe?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present perfect - ever, short answers",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 72,
+        "question_text": "Yes, I have.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 73,
+        "question_text": "No, I haven't.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 74,
+        "question_text": "No, I have not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 91,
+        "hint_order": 1,
+        "hint_text": "Use present perfect na resposta curta.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 92,
+        "hint_order": 2,
+        "hint_text": "Positiva: 'Yes, I have.' | Negativa: 'No, I haven't.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 93,
+        "hint_order": 3,
+        "hint_text": "Yes, I have. / No, I haven't.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "It takes about two hours.",
+    "prompt_text": "How long does the flight take?",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - duration, it takes",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 75,
+        "question_text": "It takes about two hours.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 76,
+        "question_text": "About two hours.",
+        "is_primary": false,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 77,
+        "question_text": "Two hours.",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 94,
+        "hint_order": 1,
+        "hint_text": "Responda com 'It takes...'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 95,
+        "hint_order": 2,
+        "hint_text": "Use 'It takes + tempo' para indicar duração.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 96,
+        "hint_order": 3,
+        "hint_text": "It takes about...",
+        "hint_type": "answer"
+      }
+    ]
+  }
+]

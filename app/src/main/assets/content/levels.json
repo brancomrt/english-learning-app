@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name_key": "level_beginner",
+    "description_key": "level_beginner_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": true,
+    "sort_order": 1
+  },
+  {
+    "id": 2,
+    "name_key": "level_elementary",
+    "description_key": "level_elementary_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": false,
+    "sort_order": 2
+  },
+  {
+    "id": 3,
+    "name_key": "level_pre_intermediate",
+    "description_key": "level_pre_intermediate_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": false,
+    "sort_order": 3
+  },
+  {
+    "id": 4,
+    "name_key": "level_intermediate",
+    "description_key": "level_intermediate_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": false,
+    "sort_order": 4
+  },
+  {
+    "id": 5,
+    "name_key": "level_upper_intermediate",
+    "description_key": "level_upper_intermediate_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": false,
+    "sort_order": 5
+  },
+  {
+    "id": 6,
+    "name_key": "level_advanced",
+    "description_key": "level_advanced_desc",
+    "min_score": 0,
+    "max_score": 100,
+    "is_unlocked": false,
+    "sort_order": 6
+  }
+]

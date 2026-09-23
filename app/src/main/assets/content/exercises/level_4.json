@@ -1,0 +1,155 @@
+[
+  {
+    "id": 301, "level_id": 4, "category_id": 10,
+    "answer_text": "The CI/CD pipeline failed because of a failing unit test.",
+    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple - CI/CD",
+    "difficulty_score": 5, "xp_reward": 30, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 301, "question_text": "Why did the CI/CD pipeline fail?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 302, "question_text": "Why did the pipeline fail?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 301, "hint_order": 1, "hint_text": "Ask about the cause of a past failure.", "hint_type": "structural" },
+      { "id": 302, "hint_order": 2, "hint_text": "Use 'Why did the pipeline fail?'", "hint_type": "vocabulary" },
+      { "id": 303, "hint_order": 3, "hint_text": "Why did the CI/CD pipeline fail?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 302, "level_id": 4, "category_id": 10,
+    "answer_text": "We deploy to production every two weeks using a blue-green strategy.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present simple - deployment strategy",
+    "difficulty_score": 5, "xp_reward": 30, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 303, "question_text": "How often do you deploy to production?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 304, "question_text": "How do you deploy to production?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 304, "hint_order": 1, "hint_text": "Ask about frequency or method of deployment.", "hint_type": "structural" },
+      { "id": 305, "hint_order": 2, "hint_text": "Use 'How often do you deploy...' or 'How do you deploy...'", "hint_type": "vocabulary" },
+      { "id": 306, "hint_order": 3, "hint_text": "How often do you deploy to production?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 303, "level_id": 4, "category_id": 10,
+    "answer_text": "The Docker container has been running for forty-eight hours.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present perfect continuous - containers",
+    "difficulty_score": 5, "xp_reward": 30, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 305, "question_text": "How long has the Docker container been running?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 306, "question_text": "How long has the container been running?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 307, "hint_order": 1, "hint_text": "Ask about duration with present perfect continuous.", "hint_type": "structural" },
+      { "id": 308, "hint_order": 2, "hint_text": "Use 'How long has ... been running?'", "hint_type": "vocabulary" },
+      { "id": 309, "hint_order": 3, "hint_text": "How long has the container been running?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 304, "level_id": 4, "category_id": 10,
+    "answer_text": "We use Kubernetes to orchestrate our containers in production.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - container orchestration",
+    "difficulty_score": 5, "xp_reward": 30, "sort_order": 4,
+    "accepted_answers": [
+      { "id": 307, "question_text": "What do you use to orchestrate your containers?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 308, "question_text": "What tool do you use for container orchestration?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 310, "hint_order": 1, "hint_text": "Ask about the orchestration tool.", "hint_type": "structural" },
+      { "id": 311, "hint_order": 2, "hint_text": "Use 'What do you use to orchestrate...?'", "hint_type": "vocabulary" },
+      { "id": 312, "hint_order": 3, "hint_text": "What do you use to orchestrate your containers?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 305, "level_id": 4, "category_id": 11,
+    "answer_text": "The vulnerability was found during the penetration test.",
+    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "past simple passive - security",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 309, "question_text": "When was the vulnerability found?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 310, "question_text": "When was the vulnerability discovered?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 313, "hint_order": 1, "hint_text": "Ask about when something was found (passive).", "hint_type": "structural" },
+      { "id": 314, "hint_order": 2, "hint_text": "Use 'When was the vulnerability found?'", "hint_type": "vocabulary" },
+      { "id": 315, "hint_order": 3, "hint_text": "When was the vulnerability found?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 306, "level_id": 4, "category_id": 11,
+    "answer_text": "The attacker gained access through a SQL injection exploit.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "past simple - attack vectors",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 311, "question_text": "How did the attacker gain access?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 312, "question_text": "How did the attacker get in?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 316, "hint_order": 1, "hint_text": "Ask about the method of attack.", "hint_type": "structural" },
+      { "id": 317, "hint_order": 2, "hint_text": "Use 'How did the attacker gain access?'", "hint_type": "vocabulary" },
+      { "id": 318, "hint_order": 3, "hint_text": "How did the attacker gain access?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 307, "level_id": 4, "category_id": 11,
+    "answer_text": "All API endpoints should be authenticated with OAuth 2.0.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - should, security policies",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 313, "question_text": "What should all API endpoints be authenticated with?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 314, "question_text": "How should API endpoints be authenticated?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 319, "hint_order": 1, "hint_text": "Ask about authentication requirements.", "hint_type": "structural" },
+      { "id": 320, "hint_order": 2, "hint_text": "Use 'What should ... be authenticated with?'", "hint_type": "vocabulary" },
+      { "id": 321, "hint_order": 3, "hint_text": "What should the endpoints be authenticated with?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 308, "level_id": 4, "category_id": 12,
+    "answer_text": "We chose a microservices architecture because it allows independent scaling.",
+    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple - architectural decisions",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 315, "question_text": "Why did you choose a microservices architecture?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 316, "question_text": "Why did you go with microservices?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 322, "hint_order": 1, "hint_text": "Ask about the reason behind an architectural choice.", "hint_type": "structural" },
+      { "id": 323, "hint_order": 2, "hint_text": "Use 'Why did you choose...' or 'Why did you go with...'", "hint_type": "vocabulary" },
+      { "id": 324, "hint_order": 3, "hint_text": "Why did you choose a microservices architecture?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 309, "level_id": 4, "category_id": 12,
+    "answer_text": "The API gateway handles authentication, rate limiting, and load balancing.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - architecture responsibilities",
+    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 317, "question_text": "What does the API gateway handle?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 318, "question_text": "What is the API gateway responsible for?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 325, "hint_order": 1, "hint_text": "Ask about the responsibilities of a component.", "hint_type": "structural" },
+      { "id": 326, "hint_order": 2, "hint_text": "Use 'What does the API gateway handle?'", "hint_type": "vocabulary" },
+      { "id": 327, "hint_order": 3, "hint_text": "What does the API gateway handle?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 310, "level_id": 4, "category_id": 10,
+    "answer_text": "Yes, the rollback was successful.",
+    "context_text": null, "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "prompt_text": "Was the rollback successful?",
+    "grammar_focus": "past simple passive - short answers",
+    "difficulty_score": 5, "xp_reward": 30, "sort_order": 5,
+    "accepted_answers": [
+      { "id": 319, "question_text": "Yes, it was.", "is_primary": true, "match_threshold": 0.90 },
+      { "id": 320, "question_text": "Yes, the rollback was successful.", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 328, "hint_order": 1, "hint_text": "Short answer with 'was' (past simple passive).", "hint_type": "structural" },
+      { "id": 329, "hint_order": 2, "hint_text": "Positive: 'Yes, it was.'", "hint_type": "vocabulary" },
+      { "id": 330, "hint_order": 3, "hint_text": "Yes, it was.", "hint_type": "answer" }
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 101, "level_id": 2, "category_id": 4,
+    "answer_text": "The computer won't turn on.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - tech support",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 101, "question_text": "What is the problem with the computer?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 102, "question_text": "What's wrong with the computer?", "is_primary": false, "match_threshold": 0.80 },
+      { "id": 103, "question_text": "What is wrong with the computer?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 101, "hint_order": 1, "hint_text": "Ask about the problem using 'What'.", "hint_type": "structural" },
+      { "id": 102, "hint_order": 2, "hint_text": "Use 'What is wrong with...' or 'What's wrong with...'", "hint_type": "vocabulary" },
+      { "id": 103, "hint_order": 3, "hint_text": "What is the problem with...?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 102, "level_id": 2, "category_id": 4,
+    "answer_text": "You should restart the server.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - should",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 104, "question_text": "What should I do?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 105, "question_text": "What should we do?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 104, "hint_order": 1, "hint_text": "Ask for a recommendation using 'should'.", "hint_type": "structural" },
+      { "id": 105, "hint_order": 2, "hint_text": "Use 'What should I/we do?'", "hint_type": "vocabulary" },
+      { "id": 106, "hint_order": 3, "hint_text": "What should I do?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 103, "level_id": 2, "category_id": 4,
+    "answer_text": "The ticket was assigned to the infrastructure team.",
+    "context_text": null, "question_type": "WH_WHO", "grammar_focus": "passive voice - past simple",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 106, "question_text": "Who was the ticket assigned to?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 107, "question_text": "Who received the ticket?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 107, "hint_order": 1, "hint_text": "Ask about who received the assignment.", "hint_type": "structural" },
+      { "id": 108, "hint_order": 2, "hint_text": "Use 'Who was ... assigned to?'", "hint_type": "vocabulary" },
+      { "id": 109, "hint_order": 3, "hint_text": "Who was the ticket assigned to?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 104, "level_id": 2, "category_id": 4,
+    "answer_text": "The issue has been resolved.",
+    "context_text": null, "question_type": "YES_NO", "grammar_focus": "present perfect passive",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 4,
+    "accepted_answers": [
+      { "id": 108, "question_text": "Has the issue been resolved?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 109, "question_text": "Has the problem been fixed?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 110, "hint_order": 1, "hint_text": "Yes/No question in present perfect passive.", "hint_type": "structural" },
+      { "id": 111, "hint_order": 2, "hint_text": "Use 'Has the issue been...'", "hint_type": "vocabulary" },
+      { "id": 112, "hint_order": 3, "hint_text": "Has the issue been resolved?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 105, "level_id": 2, "category_id": 4,
+    "answer_text": "The user's password expired last week.",
+    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "past simple - tech events",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 5,
+    "accepted_answers": [
+      { "id": 110, "question_text": "When did the user's password expire?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 111, "question_text": "When did the password expire?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 113, "hint_order": 1, "hint_text": "Ask about timing in the past.", "hint_type": "structural" },
+      { "id": 114, "hint_order": 2, "hint_text": "Use 'When did ... expire?'", "hint_type": "vocabulary" },
+      { "id": 115, "hint_order": 3, "hint_text": "When did the password expire?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 106, "level_id": 2, "category_id": 4,
+    "answer_text": "Yes, I can reset your password remotely.",
+    "context_text": null, "question_type": "YES_NO", "grammar_focus": "modal verbs - can",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 6,
+    "accepted_answers": [
+      { "id": 112, "question_text": "Can you reset my password remotely?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 113, "question_text": "Can you reset the password from there?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 116, "hint_order": 1, "hint_text": "Yes/No question with 'can'.", "hint_type": "structural" },
+      { "id": 117, "hint_order": 2, "hint_text": "Use 'Can you reset...'", "hint_type": "vocabulary" },
+      { "id": 118, "hint_order": 3, "hint_text": "Can you reset my password?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 107, "level_id": 2, "category_id": 5,
+    "answer_text": "The RAM has eight gigabytes.",
+    "context_text": null, "question_type": "WH_HOW_MUCH", "grammar_focus": "how much - specifications",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 114, "question_text": "How much RAM does it have?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 115, "question_text": "How much memory does the computer have?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 119, "hint_order": 1, "hint_text": "Ask about quantity using 'How much'.", "hint_type": "structural" },
+      { "id": 120, "hint_order": 2, "hint_text": "Use 'How much RAM does it have?'", "hint_type": "vocabulary" },
+      { "id": 121, "hint_order": 3, "hint_text": "How much RAM does it have?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 108, "level_id": 2, "category_id": 5,
+    "answer_text": "The operating system is Windows 11.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - tech specs",
+    "difficulty_score": 2, "xp_reward": 15, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 116, "question_text": "What operating system is it running?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 117, "question_text": "What OS does it use?", "is_primary": false, "match_threshold": 0.80 },
+      { "id": 118, "question_text": "What is the operating system?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 122, "hint_order": 1, "hint_text": "Ask about the OS with 'What'.", "hint_type": "structural" },
+      { "id": 123, "hint_order": 2, "hint_text": "Use 'What OS' or 'What operating system'.", "hint_type": "vocabulary" },
+      { "id": 124, "hint_order": 3, "hint_text": "What OS does it use?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 109, "level_id": 2, "category_id": 5,
+    "answer_text": "The software update takes about twenty minutes to install.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present simple - duration",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 119, "question_text": "How long does the software update take to install?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 120, "question_text": "How long does the update take?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 125, "hint_order": 1, "hint_text": "Ask about duration with 'How long'.", "hint_type": "structural" },
+      { "id": 126, "hint_order": 2, "hint_text": "Use 'How long does ... take?'", "hint_type": "vocabulary" },
+      { "id": 127, "hint_order": 3, "hint_text": "How long does the update take?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 110, "level_id": 2, "category_id": 5,
+    "answer_text": "The SSD is faster than the HDD.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "comparatives - tech comparison",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 4,
+    "accepted_answers": [
+      { "id": 121, "question_text": "Which storage device is faster?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 122, "question_text": "What is faster, the SSD or the HDD?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 128, "hint_order": 1, "hint_text": "Ask about a comparison.", "hint_type": "structural" },
+      { "id": 129, "hint_order": 2, "hint_text": "Use 'Which ... is faster?' or 'What is faster?'", "hint_type": "vocabulary" },
+      { "id": 130, "hint_order": 3, "hint_text": "Which storage device is faster?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 111, "level_id": 2, "category_id": 5,
+    "answer_text": "You need to uninstall the old driver before installing the new one.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - need to",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 5,
+    "accepted_answers": [
+      { "id": 123, "question_text": "What do I need to do before installing the new driver?", "is_primary": true, "match_threshold": 0.75 },
+      { "id": 124, "question_text": "What should I do first?", "is_primary": false, "match_threshold": 0.70 }
+    ],
+    "hints": [
+      { "id": 131, "hint_order": 1, "hint_text": "Ask what needs to be done first.", "hint_type": "structural" },
+      { "id": 132, "hint_order": 2, "hint_text": "Use 'What do I need to do before...'", "hint_type": "vocabulary" },
+      { "id": 133, "hint_order": 3, "hint_text": "What do I need to do before...?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 112, "level_id": 2, "category_id": 6,
+    "answer_text": "The IP address of this machine is 192.168.1.100.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - networking",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 125, "question_text": "What is the IP address of this machine?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 126, "question_text": "What's the IP address of this machine?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 134, "hint_order": 1, "hint_text": "Ask for the IP address.", "hint_type": "structural" },
+      { "id": 135, "hint_order": 2, "hint_text": "Use 'What is/What's the IP address of...'", "hint_type": "vocabulary" },
+      { "id": 136, "hint_order": 3, "hint_text": "What is the IP address?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 113, "level_id": 2, "category_id": 6,
+    "answer_text": "The network is down because the router lost its configuration.",
+    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple - cause/effect",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 127, "question_text": "Why is the network down?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 128, "question_text": "Why did the network go down?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 137, "hint_order": 1, "hint_text": "Ask for the cause using 'Why'.", "hint_type": "structural" },
+      { "id": 138, "hint_order": 2, "hint_text": "Use 'Why is the network down?'", "hint_type": "vocabulary" },
+      { "id": 139, "hint_order": 3, "hint_text": "Why is the network down?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 114, "level_id": 2, "category_id": 6,
+    "answer_text": "The firewall is blocking port 443.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present continuous - tech issues",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 129, "question_text": "What is the firewall blocking?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 130, "question_text": "What port is the firewall blocking?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 140, "hint_order": 1, "hint_text": "Ask what is being blocked.", "hint_type": "structural" },
+      { "id": 141, "hint_order": 2, "hint_text": "Use 'What is the firewall blocking?'", "hint_type": "vocabulary" },
+      { "id": 142, "hint_order": 3, "hint_text": "What is the firewall blocking?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 115, "level_id": 2, "category_id": 6,
+    "answer_text": "There are two hundred and fifty-six devices connected to the network.",
+    "context_text": null, "question_type": "WH_HOW_MANY", "grammar_focus": "how many - network",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 4,
+    "accepted_answers": [
+      { "id": 131, "question_text": "How many devices are connected to the network?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 132, "question_text": "How many devices does the network have?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 143, "hint_order": 1, "hint_text": "Ask about quantity using 'How many'.", "hint_type": "structural" },
+      { "id": 144, "hint_order": 2, "hint_text": "Use 'How many devices are connected...'", "hint_type": "vocabulary" },
+      { "id": 145, "hint_order": 3, "hint_text": "How many devices are connected?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 116, "level_id": 2, "category_id": 6,
+    "answer_text": "The VPN connection uses the OpenVPN protocol.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - protocols",
+    "difficulty_score": 4, "xp_reward": 25, "sort_order": 5,
+    "accepted_answers": [
+      { "id": 133, "question_text": "What protocol does the VPN connection use?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 134, "question_text": "Which protocol does the VPN use?", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 146, "hint_order": 1, "hint_text": "Ask about the protocol used.", "hint_type": "structural" },
+      { "id": 147, "hint_order": 2, "hint_text": "Use 'What protocol does ... use?'", "hint_type": "vocabulary" },
+      { "id": 148, "hint_order": 3, "hint_text": "What protocol does the VPN use?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 117, "level_id": 2, "category_id": 4,
+    "answer_text": "No, I haven't backed up the data yet.",
+    "context_text": null, "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "prompt_text": "Have you backed up the data?",
+    "grammar_focus": "present perfect - backup, short answers",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 7,
+    "accepted_answers": [
+      { "id": 135, "question_text": "No, I haven't.", "is_primary": true, "match_threshold": 0.90 },
+      { "id": 136, "question_text": "No, I have not.", "is_primary": false, "match_threshold": 0.90 },
+      { "id": 137, "question_text": "No, I haven't backed up the data yet.", "is_primary": false, "match_threshold": 0.85 }
+    ],
+    "hints": [
+      { "id": 149, "hint_order": 1, "hint_text": "Use a short negative answer in present perfect.", "hint_type": "structural" },
+      { "id": 150, "hint_order": 2, "hint_text": "Negative: 'No, I haven't.' ('haven't' = 'have not')", "hint_type": "vocabulary" },
+      { "id": 151, "hint_order": 3, "hint_text": "No, I haven't.", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 118, "level_id": 2, "category_id": 5,
+    "answer_text": "Yes, it does. / No, it doesn't.",
+    "context_text": null, "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "prompt_text": "Does this laptop support dual monitors?",
+    "grammar_focus": "present simple - does, short answers",
+    "difficulty_score": 3, "xp_reward": 20, "sort_order": 6,
+    "accepted_answers": [
+      { "id": 138, "question_text": "Yes, it does.", "is_primary": true, "match_threshold": 0.90 },
+      { "id": 139, "question_text": "No, it doesn't.", "is_primary": false, "match_threshold": 0.90 },
+      { "id": 140, "question_text": "No, it does not.", "is_primary": false, "match_threshold": 0.90 }
+    ],
+    "hints": [
+      { "id": 152, "hint_order": 1, "hint_text": "Short answer with 'does' (3rd person, thing).", "hint_type": "structural" },
+      { "id": 153, "hint_order": 2, "hint_text": "Positive: 'Yes, it does.' | Negative: 'No, it doesn't.'", "hint_type": "vocabulary" },
+      { "id": 154, "hint_order": 3, "hint_text": "Yes, it does. / No, it doesn't.", "hint_type": "answer" }
+    ]
+  }
+]

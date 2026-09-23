@@ -1,0 +1,97 @@
+package com.englishlearning.app.di
+
+import android.content.Context
+import androidx.room.Room
+import com.englishlearning.app.data.database.EnglishLearningDatabase
+import com.englishlearning.app.data.database.dao.AcceptedAnswerDao
+import com.englishlearning.app.data.database.dao.AchievementDao
+import com.englishlearning.app.data.database.dao.CategoryDao
+import com.englishlearning.app.data.database.dao.ExerciseDao
+import com.englishlearning.app.data.database.dao.HintDao
+import com.englishlearning.app.data.database.dao.LevelDao
+import com.englishlearning.app.data.database.dao.ProgressDao
+import com.englishlearning.app.data.database.dao.SrsDao
+import com.englishlearning.app.data.database.dao.StreakDao
+import com.englishlearning.app.data.database.dao.UserProfileDao
+import com.englishlearning.app.data.database.dao.VocabularyDao
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
+
+/**
+ * Hilt module que provê o [EnglishLearningDatabase] e todos os seus DAOs
+ * no escopo Singleton da aplicação.
+ *
+ * Inclui a migration [EnglishLearningDatabase.MIGRATION_1_2] que adiciona as
+ * tabelas `srs_cards` e `vocabulary_cards` sem destruir dados existentes.
+ *
+ * Requisito 9.2: banco de dados Room inicializado como Singleton com
+ * DatabaseSeeder chamado de forma assíncrona na inicialização.
+ * Requisito 16.2, 18.6: migration para versão 2 com suporte a SRS.
+ */
+@Module
+@InstallIn(SingletonComponent::class)
+object DatabaseModule {
+
+    /**
+     * Cria e fornece o banco de dados Room como Singleton.
+     *
+     * A migration [EnglishLearningDatabase.MIGRATION_1_2] é registrada explicitamente
+     * para preservar dados de usuários ao adicionar as novas tabelas SRS.
+     * [fallbackToDestructiveMigration] cobre quaisquer outras transições de esquema
+     * não mapeadas durante o desenvolvimento.
+     *
+     * Requisito 9.2: banco Room configurado como fonte de dados local única.
+     */
+    @Provides
+    @Singleton
+    fun provideDatabase(@ApplicationContext context: Context): EnglishLearningDatabase {
+        return Room.databaseBuilder(
+            context,
+            EnglishLearningDatabase::class.java,
+            EnglishLearningDatabase.DATABASE_NAME
+        )
+            .addMigrations(EnglishLearningDatabase.MIGRATION_1_2, EnglishLearningDatabase.MIGRATION_2_3, EnglishLearningDatabase.MIGRATION_3_4)
+            .fallbackToDestructiveMigration()
+            .build()
+    }
+
+    @Provides
+    fun provideLevelDao(db: EnglishLearningDatabase): LevelDao = db.levelDao()
+
+    @Provides
+    fun provideCategoryDao(db: EnglishLearningDatabase): CategoryDao = db.categoryDao()
+
+    @Provides
+    fun provideExerciseDao(db: EnglishLearningDatabase): ExerciseDao = db.exerciseDao()
+
+    @Provides
+    fun provideAcceptedAnswerDao(db: EnglishLearningDatabase): AcceptedAnswerDao =
+        db.acceptedAnswerDao()
+
+    @Provides
+    fun provideHintDao(db: EnglishLearningDatabase): HintDao = db.hintDao()
+
+    @Provides
+    fun provideProgressDao(db: EnglishLearningDatabase): ProgressDao = db.progressDao()
+
+    @Provides
+    fun provideStreakDao(db: EnglishLearningDatabase): StreakDao = db.streakDao()
+
+    @Provides
+    fun provideAchievementDao(db: EnglishLearningDatabase): AchievementDao = db.achievementDao()
+
+    @Provides
+    fun provideUserProfileDao(db: EnglishLearningDatabase): UserProfileDao = db.userProfileDao()
+
+    /** Provê [SrsDao] para operações com SRS cards. Requisito 16.2. */
+    @Provides
+    fun provideSrsDao(db: EnglishLearningDatabase): SrsDao = db.srsDao()
+
+    /** Provê [VocabularyDao] para operações com vocabulary cards. Requisito 16.9. */
+    @Provides
+    fun provideVocabularyDao(db: EnglishLearningDatabase): VocabularyDao = db.vocabularyDao()
+}

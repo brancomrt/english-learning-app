@@ -1,0 +1,111 @@
+[
+  {
+    "id": 501, "level_id": 6, "category_id": 16,
+    "answer_text": "I'd recommend promoting the senior engineer to tech lead given her strong mentoring skills.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "conditional - recommendations",
+    "difficulty_score": 8, "xp_reward": 50, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 501, "question_text": "What would you recommend for the tech lead position?", "is_primary": true, "match_threshold": 0.75 },
+      { "id": 502, "question_text": "Who would you recommend as tech lead?", "is_primary": false, "match_threshold": 0.75 }
+    ],
+    "hints": [
+      { "id": 501, "hint_order": 1, "hint_text": "Ask for a recommendation using 'would'.", "hint_type": "structural" },
+      { "id": 502, "hint_order": 2, "hint_text": "Use 'What would you recommend?' or 'Who would you recommend?'", "hint_type": "vocabulary" },
+      { "id": 503, "hint_order": 3, "hint_text": "What would you recommend for the position?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 502, "level_id": 6, "category_id": 16,
+    "answer_text": "The team has been struggling with technical debt for the past six months.",
+    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present perfect continuous - tech debt",
+    "difficulty_score": 7, "xp_reward": 45, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 503, "question_text": "How long has the team been struggling with technical debt?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 504, "question_text": "How long has the team been dealing with technical debt?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 504, "hint_order": 1, "hint_text": "Ask about duration with present perfect continuous.", "hint_type": "structural" },
+      { "id": 505, "hint_order": 2, "hint_text": "Use 'How long has the team been struggling with...?'", "hint_type": "vocabulary" },
+      { "id": 506, "hint_order": 3, "hint_text": "How long has the team been struggling with...?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 503, "level_id": 6, "category_id": 17,
+    "answer_text": "If we had implemented proper monitoring earlier, we would have detected the issue sooner.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "third conditional - retrospective",
+    "difficulty_score": 8, "xp_reward": 50, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 505, "question_text": "What would have happened if we had implemented monitoring earlier?", "is_primary": true, "match_threshold": 0.75 },
+      { "id": 506, "question_text": "What could we have done differently to detect the issue sooner?", "is_primary": false, "match_threshold": 0.70 }
+    ],
+    "hints": [
+      { "id": 507, "hint_order": 1, "hint_text": "Use the third conditional: 'If we had... we would have...'", "hint_type": "structural" },
+      { "id": 508, "hint_order": 2, "hint_text": "Ask about a past hypothetical outcome.", "hint_type": "vocabulary" },
+      { "id": 509, "hint_order": 3, "hint_text": "What would have happened if we had...?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 504, "level_id": 6, "category_id": 17,
+    "answer_text": "While scaling horizontally improves throughput, it doesn't necessarily reduce latency.",
+    "context_text": null, "question_type": "YES_NO", "grammar_focus": "concession clauses - while/although",
+    "difficulty_score": 8, "xp_reward": 50, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 507, "question_text": "Does horizontal scaling always reduce latency?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 508, "question_text": "Does scaling horizontally necessarily reduce latency?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 510, "hint_order": 1, "hint_text": "Ask a Yes/No question about a technical trade-off.", "hint_type": "structural" },
+      { "id": 511, "hint_order": 2, "hint_text": "Use 'Does horizontal scaling always/necessarily...?'", "hint_type": "vocabulary" },
+      { "id": 512, "hint_order": 3, "hint_text": "Does horizontal scaling always reduce latency?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 505, "level_id": 6, "category_id": 18,
+    "answer_text": "The RFC should clearly state the problem, the proposed solution, and the trade-offs.",
+    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - should, technical writing",
+    "difficulty_score": 7, "xp_reward": 45, "sort_order": 1,
+    "accepted_answers": [
+      { "id": 509, "question_text": "What should the RFC clearly state?", "is_primary": true, "match_threshold": 0.80 },
+      { "id": 510, "question_text": "What should be included in the RFC?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 513, "hint_order": 1, "hint_text": "Ask what a document should contain.", "hint_type": "structural" },
+      { "id": 514, "hint_order": 2, "hint_text": "Use 'What should the RFC clearly state?'", "hint_type": "vocabulary" },
+      { "id": 515, "hint_order": 3, "hint_text": "What should the RFC clearly state?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 506, "level_id": 6, "category_id": 18,
+    "answer_text": "The post-mortem was written to document what went wrong and prevent recurrence.",
+    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple passive - documentation purpose",
+    "difficulty_score": 7, "xp_reward": 45, "sort_order": 2,
+    "accepted_answers": [
+      { "id": 511, "question_text": "Why was the post-mortem written?", "is_primary": true, "match_threshold": 0.85 },
+      { "id": 512, "question_text": "What was the purpose of the post-mortem?", "is_primary": false, "match_threshold": 0.80 }
+    ],
+    "hints": [
+      { "id": 516, "hint_order": 1, "hint_text": "Ask about the purpose of a document.", "hint_type": "structural" },
+      { "id": 517, "hint_order": 2, "hint_text": "Use 'Why was the post-mortem written?'", "hint_type": "vocabulary" },
+      { "id": 518, "hint_order": 3, "hint_text": "Why was the post-mortem written?", "hint_type": "answer" }
+    ]
+  },
+  {
+    "id": 507, "level_id": 6, "category_id": 16,
+    "answer_text": "I would suggest allocating at least twenty percent of each sprint to addressing technical debt.",
+    "context_text": "A: Our codebase is getting harder to maintain. What should we do?",
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "prompt_text": "How would you address the growing technical debt?",
+    "grammar_focus": "conditional - giving recommendations",
+    "difficulty_score": 8, "xp_reward": 50, "sort_order": 3,
+    "accepted_answers": [
+      { "id": 513, "question_text": "I would suggest allocating time in each sprint to address technical debt.", "is_primary": true, "match_threshold": 0.70 },
+      { "id": 514, "question_text": "I'd suggest dedicating sprint capacity to reducing technical debt.", "is_primary": false, "match_threshold": 0.70 }
+    ],
+    "hints": [
+      { "id": 519, "hint_order": 1, "hint_text": "Use 'I would suggest...' or 'I'd suggest...' to make a recommendation.", "hint_type": "structural" },
+      { "id": 520, "hint_order": 2, "hint_text": "'I'd' is the contraction of 'I would'. Both are correct.", "hint_type": "vocabulary" },
+      { "id": 521, "hint_order": 3, "hint_text": "I would suggest / I'd suggest...", "hint_type": "answer" }
+    ]
+  }
+]
