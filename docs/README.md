@@ -797,3 +797,9 @@ Arquivo principal: `domain/validation/QuestionValidationEngineImpl.kt`
 
 *Documentação gerada em setembro de 2026. Para dúvidas, consultar o repositório:
 https://github.com/brancomrt/english-learning-app*
+
+---
+
+## Créditos
+
+Desenvolvido por **Alex Martins** em colaboração com **Kiro** (Amazon).

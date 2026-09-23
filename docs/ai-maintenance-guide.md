@@ -178,3 +178,9 @@ adb shell pm clear com.englishlearning.app
 
 `https://github.com/brancomrt/english-learning-app`
 Branch principal: `feature/english-learning-app`
+
+---
+
+## Créditos
+
+Desenvolvido por **Alex Martins** em colaboração com **Kiro** (Amazon).
