@@ -20,6 +20,7 @@ import com.englishlearning.app.ui.learning.LearningSessionScreen
 import com.englishlearning.app.ui.lesson.LessonScreen
 import com.englishlearning.app.ui.levelselect.LevelSelectScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
+import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
 import com.englishlearning.app.ui.vocabulary.VocabularyScreen
 import com.englishlearning.app.ui.progress.ProgressScreen
@@ -50,6 +51,7 @@ sealed class Screen(val route: String) {
     object Progress       : Screen("progress")
     object Settings       : Screen("settings")
     object SrsReview      : Screen("srs_review")
+    object PrivacyPolicy  : Screen("privacy_policy")
     object Vocabulary     : Screen("vocabulary")
 }
 
@@ -197,6 +199,11 @@ fun AppNavGraph(
         // Vocabulary
         composable(Screen.Vocabulary.route) {
             VocabularyScreen(navController = navController)
+        }
+
+        // Privacy Policy
+        composable(Screen.PrivacyPolicy.route) {
+            PrivacyPolicyScreen(navController = navController)
         }
 
         // SRS Review

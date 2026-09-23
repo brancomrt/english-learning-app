@@ -42,6 +42,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material.icons.filled.Policy
+import androidx.compose.material3.TextButton
 import androidx.navigation.NavController
 import com.englishlearning.app.data.repository.SessionSettingsRepository
 import kotlin.math.roundToInt
@@ -152,6 +155,17 @@ fun SettingsScreen(
                             modifier = Modifier.padding(end = 8.dp)
                         )
                         Text("Restaurar padrões (${SessionSettingsRepository.DEFAULT_QUESTIONS} questões)")
+                    }
+                    Spacer(modifier = Modifier.height(8.dp))
+                    TextButton(
+                        onClick = { navController.navigate("privacy_policy") },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(
+                            text = "🔒 Política de Privacidade",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     }
                     Spacer(modifier = Modifier.height(16.dp))
                 }
