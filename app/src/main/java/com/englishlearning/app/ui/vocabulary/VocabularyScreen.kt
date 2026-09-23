@@ -313,10 +313,13 @@ private fun ReviewScreen(
         Spacer(Modifier.height(16.dp))
 
         // Card com flip
+        Spacer(Modifier.weight(1f))
+
+        // Card estilo baralho — tamanho fixo centralizado
         Box(
             modifier = Modifier
-                .weight(1f)
-                .fillMaxWidth()
+                .width(280.dp)
+                .height(380.dp)
                 .graphicsLayer {
                     rotationY = rotation
                     cameraDistance = 12f * density
@@ -335,6 +338,8 @@ private fun ReviewScreen(
                 }
             }
         }
+
+        Spacer(Modifier.weight(1f))
     }
 }
 
@@ -355,7 +360,7 @@ private fun VocabCardFront(card: VocabularyCardEntity, onReveal: () -> Unit) {
                 // Imagem Fluent Emoji ou emoji do sistema
                 VocabImage(
                     imageUrl = card.imageUrl,
-                    size = 120.dp
+                    size = 140.dp
                 )
                 Spacer(Modifier.height(16.dp))
                 Text(
