@@ -6,7 +6,7 @@
       "example_sentence": "Clone the repository before making any changes.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "📦"
+      "image_url": "fluent:card_file_box_3d.png"
     },
     {
       "word": "commit",
@@ -14,7 +14,7 @@
       "example_sentence": "Please write a clear message with each commit.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "💾"
+      "image_url": "fluent:floppy_disk_3d.png"
     },
     {
       "word": "branch",
@@ -22,7 +22,7 @@
       "example_sentence": "Create a new branch for each feature you develop.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "🌿"
+      "image_url": "fluent:deciduous_tree_3d.png"
     },
     {
       "word": "merge",
@@ -30,7 +30,7 @@
       "example_sentence": "Merge the feature branch into main after approval.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "🔀"
+      "image_url": "fluent:counterclockwise_arrows_button_3d.png"
     },
     {
       "word": "pull request",
@@ -38,7 +38,7 @@
       "example_sentence": "The pull request has been open for three days.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "📬"
+      "image_url": "fluent:inbox_tray_3d.png"
     },
     {
       "word": "bug",
@@ -46,7 +46,7 @@
       "example_sentence": "The bug was introduced in the last commit.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "🐛"
+      "image_url": "fluent:bug_3d.png"
     },
     {
       "word": "refactor",
@@ -118,7 +118,7 @@
       "example_sentence": "We store all backups in the cloud using AWS S3.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "☁️"
+      "image_url": "fluent:cloud_3d.png"
     },
     {
       "word": "instance",
@@ -126,7 +126,7 @@
       "example_sentence": "The cloud instance will be scaled up during peak hours.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "☁️"
+      "image_url": "fluent:desktop_computer_3d.png"
     },
     {
       "word": "Terraform",
@@ -134,7 +134,7 @@
       "example_sentence": "We use Terraform to provision all our cloud infrastructure.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "🏗️"
+      "image_url": "fluent:building_construction_3d.png"
     },
     {
       "word": "bucket",
@@ -142,7 +142,7 @@
       "example_sentence": "Upload the file to the S3 bucket.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "🪣"
+      "image_url": "fluent:bucket_3d.png"
     },
     {
       "word": "region",
@@ -150,7 +150,7 @@
       "example_sentence": "Choose the region closest to your users to reduce latency.",
       "level_id": 3,
       "category_id": 9,
-      "image_url": "🌍"
+      "image_url": "fluent:globe_with_meridians_3d.png"
     },
     {
       "word": "autoscaling",
@@ -190,7 +190,7 @@
       "example_sentence": "Run the unit tests before merging the pull request.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "🧪"
+      "image_url": "fluent:alembic_3d.png"
     },
     {
       "word": "deployment",
@@ -198,7 +198,7 @@
       "example_sentence": "The deployment was rolled back due to errors.",
       "level_id": 3,
       "category_id": 7,
-      "image_url": "🚀"
+      "image_url": "fluent:rocket_3d.png"
     },
     {
       "word": "table",
@@ -206,7 +206,7 @@
       "example_sentence": "The users table has over ten million records.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "📊"
+      "image_url": "fluent:chair_3d.png"
     },
     {
       "word": "foreign key",
@@ -222,7 +222,7 @@
       "example_sentence": "Run a full backup before applying the migration.",
       "level_id": 3,
       "category_id": 8,
-      "image_url": "💾"
+      "image_url": "fluent:floppy_disk_3d.png"
     },
     {
       "word": "replica",

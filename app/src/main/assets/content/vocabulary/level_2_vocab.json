@@ -6,7 +6,7 @@
       "example_sentence": "The server crashed because of a memory leak.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🖥️"
+      "image_url": "fluent:desktop_computer_3d.png"
     },
     {
       "word": "password",
@@ -14,7 +14,7 @@
       "example_sentence": "You must change your password every ninety days.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🔑"
+      "image_url": "fluent:locked_3d.png"
     },
     {
       "word": "backup",
@@ -22,7 +22,7 @@
       "example_sentence": "Always run a backup before applying system updates.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "💾"
+      "image_url": "fluent:floppy_disk_3d.png"
     },
     {
       "word": "helpdesk",
@@ -30,7 +30,7 @@
       "example_sentence": "Call the helpdesk if you cannot log in.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🎧"
+      "image_url": "fluent:headphone_3d.png"
     },
     {
       "word": "reboot",
@@ -38,7 +38,7 @@
       "example_sentence": "Try to reboot the machine and see if it works.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🔄"
+      "image_url": "fluent:counterclockwise_arrows_button_3d.png"
     },
     {
       "word": "troubleshoot",
@@ -46,7 +46,7 @@
       "example_sentence": "Can you troubleshoot the network issue for me?",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🔧"
+      "image_url": "fluent:hammer_and_wrench_3d.png"
     },
     {
       "word": "log",
@@ -54,7 +54,7 @@
       "example_sentence": "Check the log file to find out what went wrong.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "📋"
+      "image_url": "fluent:notebook_3d.png"
     },
     {
       "word": "keyboard",
@@ -62,7 +62,7 @@
       "example_sentence": "The keyboard stopped working after the coffee spill.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "⌨️"
+      "image_url": "fluent:keyboard_3d.png"
     },
     {
       "word": "monitor",
@@ -70,7 +70,7 @@
       "example_sentence": "She uses a dual-monitor setup to boost her productivity.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "🖥️"
+      "image_url": "fluent:desktop_computer_3d.png"
     },
     {
       "word": "driver",
@@ -126,7 +126,7 @@
       "example_sentence": "The firewall is blocking port 443 on the production server.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🧱"
+      "image_url": "fluent:brick_3d.png"
     },
     {
       "word": "network",
@@ -134,7 +134,7 @@
       "example_sentence": "The network is down because the router lost its configuration.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🌐"
+      "image_url": "fluent:globe_with_meridians_3d.png"
     },
     {
       "word": "bandwidth",
@@ -150,7 +150,7 @@
       "example_sentence": "Always connect to the VPN before accessing internal systems.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🔒"
+      "image_url": "fluent:locked_3d.png"
     },
     {
       "word": "router",
@@ -158,7 +158,7 @@
       "example_sentence": "Restart the router to restore the network connection.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "📡"
+      "image_url": "fluent:antenna_bars_3d.png"
     },
     {
       "word": "IP address",
@@ -198,7 +198,7 @@
       "example_sentence": "Please open a ticket so we can track the issue.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🎫"
+      "image_url": "fluent:admission_tickets_3d.png"
     },
     {
       "word": "outage",
@@ -422,7 +422,7 @@
       "example_sentence": "The SSL certificate expired yesterday.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🔒"
+      "image_url": "fluent:locked_3d.png"
     },
     {
       "word": "certificate",
@@ -430,7 +430,7 @@
       "example_sentence": "Install the SSL certificate on the server.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "📜"
+      "image_url": "fluent:memo_3d.png"
     },
     {
       "word": "antivirus",
@@ -438,7 +438,7 @@
       "example_sentence": "Run the antivirus scan every week.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🛡️"
+      "image_url": "fluent:locked_3d.png"
     },
     {
       "word": "spam",
@@ -454,7 +454,7 @@
       "example_sentence": "Never click links in phishing emails.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "🎣"
+      "image_url": "fluent:fishing_pole_3d.png"
     },
     {
       "word": "ransomware",
@@ -462,7 +462,7 @@
       "example_sentence": "The ransomware attack encrypted all files.",
       "level_id": 2,
       "category_id": 6,
-      "image_url": "💀"
+      "image_url": "fluent:skull_3d.png"
     },
     {
       "word": "two-factor authentication",
@@ -518,7 +518,7 @@
       "example_sentence": "Open the terminal and run the command.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "⬛"
+      "image_url": "fluent:black_square_button_3d.png"
     },
     {
       "word": "command",
@@ -558,7 +558,7 @@
       "example_sentence": "An error occurred during the update.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "❌"
+      "image_url": "fluent:cross_mark_3d.png"
     },
     {
       "word": "warning",
@@ -566,7 +566,7 @@
       "example_sentence": "There is a warning in the log file.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "⚠️"
+      "image_url": "fluent:warning_3d.png"
     },
     {
       "word": "debug",
@@ -590,7 +590,7 @@
       "example_sentence": "The application is using too much memory.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "💾"
+      "image_url": "fluent:floppy_disk_3d.png"
     },
     {
       "word": "disk",
@@ -598,7 +598,7 @@
       "example_sentence": "The disk is almost full — free up some space.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "💿"
+      "image_url": "fluent:floppy_disk_3d.png"
     },
     {
       "word": "CPU",
@@ -606,7 +606,7 @@
       "example_sentence": "CPU usage is at 95% — something is wrong.",
       "level_id": 2,
       "category_id": 5,
-      "image_url": "💻"
+      "image_url": "fluent:laptop_3d.png"
     },
     {
       "word": "core",
@@ -782,7 +782,7 @@
       "example_sentence": "Choose a region close to your users.",
       "level_id": 2,
       "category_id": 4,
-      "image_url": "🌍"
+      "image_url": "fluent:globe_with_meridians_3d.png"
     },
     {
       "word": "zone",

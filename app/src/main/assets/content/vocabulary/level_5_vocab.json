@@ -6,7 +6,7 @@
       "example_sentence": "The team commits to a set of tasks at the beginning of each sprint.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "🏃"
+      "image_url": "fluent:running_shoe_3d.png"
     },
     {
       "word": "velocity",
@@ -22,7 +22,7 @@
       "example_sentence": "We refine the backlog every Wednesday afternoon.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "📋"
+      "image_url": "fluent:clipboard_3d.png"
     },
     {
       "word": "epic",
@@ -38,7 +38,7 @@
       "example_sentence": "Present the demo to all stakeholders before the release.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "🤝"
+      "image_url": "fluent:handshake_3d.png"
     },
     {
       "word": "SLO",
@@ -126,7 +126,7 @@
       "example_sentence": "We hold a retrospective at the end of every sprint.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "🔄"
+      "image_url": "fluent:counterclockwise_arrows_button_3d.png"
     },
     {
       "word": "throughput",

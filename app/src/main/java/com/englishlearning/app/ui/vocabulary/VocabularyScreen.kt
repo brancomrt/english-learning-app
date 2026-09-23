@@ -49,9 +49,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -349,11 +352,10 @@ private fun VocabCardFront(card: VocabularyCardEntity, onReveal: () -> Unit) {
                 modifier = Modifier.align(Alignment.Center),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Emoji grande
-                Text(
-                    text = card.imageUrl?.takeIf { it.isNotBlank() } ?: "❓",
-                    fontSize = 96.sp,
-                    textAlign = TextAlign.Center
+                // Imagem Fluent Emoji ou emoji do sistema
+                VocabImage(
+                    imageUrl = card.imageUrl,
+                    size = 120.dp
                 )
                 Spacer(Modifier.height(16.dp))
                 Text(
@@ -396,10 +398,7 @@ private fun VocabCardBack(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 // Emoji + palavra + botão TTS
-                Text(
-                    text = card.imageUrl?.takeIf { it.isNotBlank() } ?: "❓",
-                    fontSize = 48.sp
-                )
+                VocabImage(imageUrl = card.imageUrl, size = 56.dp)
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
                         text = card.word,
@@ -566,4 +565,45 @@ private fun DoneScreen(
             Text("Revisar mais")
         }
     }
+}
+
+// ─── Helper: renderiza Fluent Emoji (asset local) ou emoji do sistema ─────────
+
+@Composable
+fun VocabImage(
+    imageUrl: String?,
+    size: androidx.compose.ui.unit.Dp = 80.dp,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+
+    if (imageUrl != null && imageUrl.startsWith("fluent:")) {
+        val filename = imageUrl.removePrefix("fluent:")
+        val bitmap = androidx.compose.runtime.remember(filename) {
+            runCatching {
+                context.assets.open("vocab_images/$filename").use { stream ->
+                    android.graphics.BitmapFactory.decodeStream(stream)
+                }
+            }.getOrNull()
+        }
+        if (bitmap != null) {
+            androidx.compose.foundation.Image(
+                bitmap = bitmap.asImageBitmap(),
+                contentDescription = null,
+                modifier = modifier.size(size),
+                contentScale = androidx.compose.ui.layout.ContentScale.Fit
+            )
+            return
+        }
+    }
+
+    // Fallback: emoji do sistema
+    val emoji = if (imageUrl != null && !imageUrl.startsWith("fluent:") && imageUrl.isNotBlank())
+        imageUrl else "❓"
+    Text(
+        text = emoji,
+        fontSize = with(androidx.compose.ui.platform.LocalDensity.current) { size.toSp() * 0.75f },
+        textAlign = TextAlign.Center,
+        modifier = modifier
+    )
 }
