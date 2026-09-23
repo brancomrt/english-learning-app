@@ -6,7 +6,7 @@
       "example_sentence": "The team has been struggling with technical debt for six months.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://picsum.photos/id/160/400/300"
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "mentoring",
@@ -14,7 +14,7 @@
       "example_sentence": "She was promoted to tech lead because of her strong mentoring skills.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://picsum.photos/id/1065/400/300"
+      "image_url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "roadmap",
@@ -22,7 +22,7 @@
       "example_sentence": "The product roadmap defines priorities for the next two quarters.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://picsum.photos/id/1040/400/300"
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "trade-off",
@@ -30,7 +30,7 @@
       "example_sentence": "Every architectural decision involves a trade-off.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://picsum.photos/id/1037/400/300"
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "scalability",
@@ -38,7 +38,7 @@
       "example_sentence": "Horizontal scaling improves throughput but doesn't always reduce latency.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://picsum.photos/id/349/400/300"
+      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "resilience",
@@ -46,7 +46,7 @@
       "example_sentence": "Build resilience into the system by adding redundancy.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://picsum.photos/id/1080/400/300"
+      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "bottleneck",
@@ -54,7 +54,7 @@
       "example_sentence": "The database is the main bottleneck in this architecture.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://picsum.photos/id/1099/400/300"
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "RFC",
@@ -62,7 +62,7 @@
       "example_sentence": "The RFC should clearly state the problem, solution, and trade-offs.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://picsum.photos/id/373/400/300"
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "post-mortem",
@@ -70,7 +70,7 @@
       "example_sentence": "The post-mortem documents what went wrong and how to prevent recurrence.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://picsum.photos/id/373/400/300"
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "ADR",
@@ -78,7 +78,7 @@
       "example_sentence": "We document every major decision in an ADR.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://picsum.photos/id/373/400/300"
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
     },
     {
       "word": "stakeholders",
@@ -86,7 +86,7 @@
       "example_sentence": "Communicate the post-mortem findings to all stakeholders.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://picsum.photos/id/1037/400/300"
+      "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }
