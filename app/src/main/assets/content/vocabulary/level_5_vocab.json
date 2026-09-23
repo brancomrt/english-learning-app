@@ -6,7 +6,7 @@
       "example_sentence": "The team commits to a set of tasks at the beginning of each sprint.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://source.unsplash.com/400x300/?agile+sprint"
+      "image_url": "https://picsum.photos/id/3153/400/300"
     },
     {
       "word": "velocity",
@@ -14,7 +14,7 @@
       "example_sentence": "The sprint velocity dropped because two developers are on leave.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://source.unsplash.com/400x300/?speed+performance"
+      "image_url": "https://picsum.photos/id/1080/400/300"
     },
     {
       "word": "backlog",
@@ -22,7 +22,7 @@
       "example_sentence": "We refine the backlog every Wednesday afternoon.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://source.unsplash.com/400x300/?task+list"
+      "image_url": "https://picsum.photos/id/160/400/300"
     },
     {
       "word": "epic",
@@ -30,7 +30,7 @@
       "example_sentence": "We should have completed the epic by the end of Q3.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://source.unsplash.com/400x300/?project+management"
+      "image_url": "https://picsum.photos/id/3205/400/300"
     },
     {
       "word": "stakeholder",
@@ -38,7 +38,7 @@
       "example_sentence": "Present the demo to all stakeholders before the release.",
       "level_id": 5,
       "category_id": 13,
-      "image_url": "https://source.unsplash.com/400x300/?business+meeting"
+      "image_url": "https://picsum.photos/id/1037/400/300"
     },
     {
       "word": "SLO",
@@ -46,7 +46,7 @@
       "example_sentence": "The SLO for that service is 99.9% uptime per month.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://source.unsplash.com/400x300/?metrics+dashboard"
+      "image_url": "https://picsum.photos/id/349/400/300"
     },
     {
       "word": "incident",
@@ -54,7 +54,7 @@
       "example_sentence": "The incident was caused by a misconfigured load balancer.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://source.unsplash.com/400x300/?incident+alert"
+      "image_url": "https://picsum.photos/id/1099/400/300"
     },
     {
       "word": "observability",
@@ -62,7 +62,7 @@
       "example_sentence": "Good observability means having logs, metrics, and traces.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://source.unsplash.com/400x300/?monitoring+dashboard"
+      "image_url": "https://picsum.photos/id/1080/400/300"
     },
     {
       "word": "on-call",
@@ -70,7 +70,7 @@
       "example_sentence": "The on-call engineer was paged when the alert fired.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://source.unsplash.com/400x300/?oncall+alert"
+      "image_url": "https://picsum.photos/id/239/400/300"
     },
     {
       "word": "runbook",
@@ -78,7 +78,7 @@
       "example_sentence": "Follow the runbook to restore the service after an incident.",
       "level_id": 5,
       "category_id": 14,
-      "image_url": "https://source.unsplash.com/400x300/?documentation+ops"
+      "image_url": "https://picsum.photos/id/373/400/300"
     },
     {
       "word": "Kafka",
@@ -86,7 +86,7 @@
       "example_sentence": "Services communicate asynchronously through a Kafka message broker.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://source.unsplash.com/400x300/?kafka+streaming"
+      "image_url": "https://picsum.photos/id/1148/400/300"
     },
     {
       "word": "service mesh",
@@ -94,7 +94,7 @@
       "example_sentence": "The service mesh handles load balancing and service discovery.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://source.unsplash.com/400x300/?microservices+mesh"
+      "image_url": "https://picsum.photos/id/1093/400/300"
     },
     {
       "word": "idempotent",
@@ -102,7 +102,7 @@
       "example_sentence": "API endpoints should be idempotent to handle retries safely.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://source.unsplash.com/400x300/?api+design"
+      "image_url": "https://picsum.photos/id/202/400/300"
     },
     {
       "word": "circuit breaker",
@@ -110,7 +110,7 @@
       "example_sentence": "The circuit breaker opens when the downstream service fails repeatedly.",
       "level_id": 5,
       "category_id": 15,
-      "image_url": "https://source.unsplash.com/400x300/?resilience+pattern"
+      "image_url": "https://picsum.photos/id/60/400/300"
     }
   ]
 }

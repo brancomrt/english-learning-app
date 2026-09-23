@@ -6,7 +6,7 @@
       "example_sentence": "I have breakfast at seven o'clock every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?breakfast+food"
+      "image_url": "https://picsum.photos/id/431/400/300"
     },
     {
       "word": "friend",
@@ -14,7 +14,7 @@
       "example_sentence": "My best friend lives next door to me.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?friendship+people"
+      "image_url": "https://picsum.photos/id/1065/400/300"
     },
     {
       "word": "family",
@@ -22,7 +22,7 @@
       "example_sentence": "My family eats dinner together every Sunday.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?family+together"
+      "image_url": "https://picsum.photos/id/1128/400/300"
     },
     {
       "word": "house",
@@ -30,7 +30,7 @@
       "example_sentence": "They live in a small house near the park.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?house+home"
+      "image_url": "https://picsum.photos/id/164/400/300"
     },
     {
       "word": "coffee",
@@ -38,7 +38,7 @@
       "example_sentence": "I drink two cups of coffee every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?coffee+cup"
+      "image_url": "https://picsum.photos/id/766/400/300"
     },
     {
       "word": "water",
@@ -46,7 +46,7 @@
       "example_sentence": "You should drink at least eight glasses of water a day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?water+glass"
+      "image_url": "https://picsum.photos/id/1029/400/300"
     },
     {
       "word": "food",
@@ -54,7 +54,7 @@
       "example_sentence": "Healthy food is important for a good lifestyle.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?healthy+food"
+      "image_url": "https://picsum.photos/id/292/400/300"
     },
     {
       "word": "lunch",
@@ -62,7 +62,7 @@
       "example_sentence": "We usually have lunch at noon.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?lunch+meal"
+      "image_url": "https://picsum.photos/id/139/400/300"
     },
     {
       "word": "dinner",
@@ -70,7 +70,7 @@
       "example_sentence": "She cooks dinner for the whole family.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?dinner+table"
+      "image_url": "https://picsum.photos/id/825/400/300"
     },
     {
       "word": "brother",
@@ -78,7 +78,7 @@
       "example_sentence": "My brother is an engineer.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?siblings+people"
+      "image_url": "https://picsum.photos/id/91/400/300"
     },
     {
       "word": "sister",
@@ -86,7 +86,7 @@
       "example_sentence": "My sister lives in São Paulo.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?siblings+people"
+      "image_url": "https://picsum.photos/id/91/400/300"
     },
     {
       "word": "mother",
@@ -94,7 +94,7 @@
       "example_sentence": "She is my mother — her name is Ana.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?mother+family"
+      "image_url": "https://picsum.photos/id/1005/400/300"
     },
     {
       "word": "father",
@@ -102,7 +102,7 @@
       "example_sentence": "My father wakes up at six every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?father+family"
+      "image_url": "https://picsum.photos/id/1076/400/300"
     },
     {
       "word": "name",
@@ -110,7 +110,7 @@
       "example_sentence": "What is your name?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?writing+name"
+      "image_url": "https://picsum.photos/id/373/400/300"
     },
     {
       "word": "age",
@@ -118,7 +118,7 @@
       "example_sentence": "How old are you? What is your age?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?birthday+celebration"
+      "image_url": "https://picsum.photos/id/355/400/300"
     },
     {
       "word": "color",
@@ -126,7 +126,7 @@
       "example_sentence": "My favorite color is blue.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "https://source.unsplash.com/400x300/?colorful+paint"
+      "image_url": "https://picsum.photos/id/326/400/300"
     },
     {
       "word": "work",
@@ -134,7 +134,7 @@
       "example_sentence": "She works at a tech company downtown.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?office+work"
+      "image_url": "https://picsum.photos/id/3205/400/300"
     },
     {
       "word": "meeting",
@@ -142,7 +142,7 @@
       "example_sentence": "We have a team meeting every Monday morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?business+meeting"
+      "image_url": "https://picsum.photos/id/3153/400/300"
     },
     {
       "word": "office",
@@ -150,7 +150,7 @@
       "example_sentence": "The office is on the fifth floor.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?modern+office"
+      "image_url": "https://picsum.photos/id/260/400/300"
     },
     {
       "word": "boss",
@@ -158,7 +158,7 @@
       "example_sentence": "My boss is very friendly and supportive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?leader+business"
+      "image_url": "https://picsum.photos/id/1037/400/300"
     },
     {
       "word": "salary",
@@ -166,7 +166,7 @@
       "example_sentence": "My salary is paid on the last Friday of the month.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?money+finance"
+      "image_url": "https://picsum.photos/id/1127/400/300"
     },
     {
       "word": "schedule",
@@ -174,7 +174,7 @@
       "example_sentence": "My work schedule starts at nine in the morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?calendar+planning"
+      "image_url": "https://picsum.photos/id/160/400/300"
     },
     {
       "word": "colleague",
@@ -182,7 +182,7 @@
       "example_sentence": "My colleague helped me fix the bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "https://source.unsplash.com/400x300/?coworkers+team"
+      "image_url": "https://picsum.photos/id/1081/400/300"
     },
     {
       "word": "passport",
@@ -190,7 +190,7 @@
       "example_sentence": "Don't forget to bring your passport to the airport.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?passport+travel"
+      "image_url": "https://picsum.photos/id/208/400/300"
     },
     {
       "word": "flight",
@@ -198,7 +198,7 @@
       "example_sentence": "The flight to Paris departs at six in the morning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?airplane+sky"
+      "image_url": "https://picsum.photos/id/106/400/300"
     },
     {
       "word": "hotel",
@@ -206,7 +206,7 @@
       "example_sentence": "The hotel is near the beach and has a great view.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?hotel+room"
+      "image_url": "https://picsum.photos/id/381/400/300"
     },
     {
       "word": "train",
@@ -214,7 +214,7 @@
       "example_sentence": "We usually travel by train when visiting other cities.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?train+station"
+      "image_url": "https://picsum.photos/id/255/400/300"
     },
     {
       "word": "airport",
@@ -222,7 +222,7 @@
       "example_sentence": "We arrived at the airport two hours before the flight.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?airport+terminal"
+      "image_url": "https://picsum.photos/id/119/400/300"
     },
     {
       "word": "ticket",
@@ -230,7 +230,7 @@
       "example_sentence": "I bought a round-trip ticket to London.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?travel+ticket"
+      "image_url": "https://picsum.photos/id/248/400/300"
     },
     {
       "word": "visa",
@@ -238,7 +238,7 @@
       "example_sentence": "You need a visa to visit Japan.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?passport+document"
+      "image_url": "https://picsum.photos/id/208/400/300"
     },
     {
       "word": "luggage",
@@ -246,7 +246,7 @@
       "example_sentence": "Please don't leave your luggage unattended.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?suitcase+travel"
+      "image_url": "https://picsum.photos/id/584/400/300"
     },
     {
       "word": "trip",
@@ -254,7 +254,7 @@
       "example_sentence": "The trip takes about three hours by train.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "https://source.unsplash.com/400x300/?travel+adventure"
+      "image_url": "https://picsum.photos/id/325/400/300"
     }
   ]
 }

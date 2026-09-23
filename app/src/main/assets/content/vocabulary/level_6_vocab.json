@@ -6,7 +6,7 @@
       "example_sentence": "The team has been struggling with technical debt for six months.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://source.unsplash.com/400x300/?code+debt"
+      "image_url": "https://picsum.photos/id/160/400/300"
     },
     {
       "word": "mentoring",
@@ -14,7 +14,7 @@
       "example_sentence": "She was promoted to tech lead because of her strong mentoring skills.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://source.unsplash.com/400x300/?mentoring+coaching"
+      "image_url": "https://picsum.photos/id/1065/400/300"
     },
     {
       "word": "roadmap",
@@ -22,7 +22,7 @@
       "example_sentence": "The product roadmap defines priorities for the next two quarters.",
       "level_id": 6,
       "category_id": 16,
-      "image_url": "https://source.unsplash.com/400x300/?roadmap+planning"
+      "image_url": "https://picsum.photos/id/1040/400/300"
     },
     {
       "word": "trade-off",
@@ -30,7 +30,7 @@
       "example_sentence": "Every architectural decision involves a trade-off.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://source.unsplash.com/400x300/?decision+balance"
+      "image_url": "https://picsum.photos/id/1037/400/300"
     },
     {
       "word": "scalability",
@@ -38,7 +38,7 @@
       "example_sentence": "Horizontal scaling improves throughput but doesn't always reduce latency.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://source.unsplash.com/400x300/?scale+growth"
+      "image_url": "https://picsum.photos/id/349/400/300"
     },
     {
       "word": "resilience",
@@ -46,7 +46,7 @@
       "example_sentence": "Build resilience into the system by adding redundancy.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://source.unsplash.com/400x300/?resilience+strong"
+      "image_url": "https://picsum.photos/id/1080/400/300"
     },
     {
       "word": "bottleneck",
@@ -54,7 +54,7 @@
       "example_sentence": "The database is the main bottleneck in this architecture.",
       "level_id": 6,
       "category_id": 17,
-      "image_url": "https://source.unsplash.com/400x300/?bottleneck+traffic"
+      "image_url": "https://picsum.photos/id/1099/400/300"
     },
     {
       "word": "RFC",
@@ -62,7 +62,7 @@
       "example_sentence": "The RFC should clearly state the problem, solution, and trade-offs.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://source.unsplash.com/400x300/?document+proposal"
+      "image_url": "https://picsum.photos/id/373/400/300"
     },
     {
       "word": "post-mortem",
@@ -70,7 +70,7 @@
       "example_sentence": "The post-mortem documents what went wrong and how to prevent recurrence.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://source.unsplash.com/400x300/?analysis+report"
+      "image_url": "https://picsum.photos/id/373/400/300"
     },
     {
       "word": "ADR",
@@ -78,7 +78,7 @@
       "example_sentence": "We document every major decision in an ADR.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://source.unsplash.com/400x300/?decision+document"
+      "image_url": "https://picsum.photos/id/373/400/300"
     },
     {
       "word": "stakeholders",
@@ -86,7 +86,7 @@
       "example_sentence": "Communicate the post-mortem findings to all stakeholders.",
       "level_id": 6,
       "category_id": 18,
-      "image_url": "https://source.unsplash.com/400x300/?stakeholders+meeting"
+      "image_url": "https://picsum.photos/id/1037/400/300"
     }
   ]
 }
