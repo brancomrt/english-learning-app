@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Livro aberto (páginas esquerda e direita) -->
+    <!-- Página esquerda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,36 C22,34 24,32 26,32 L52,32 L52,76 L26,76 C24,76 22,74 22,72 Z" />
+    <!-- Sombra/divisor central -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M52,32 L56,32 L56,76 L52,76 Z" />
+    <!-- Página direita -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,32 L82,32 C84,32 86,34 86,36 L86,72 C86,74 84,76 82,76 L56,76 Z" />
+
+    <!-- Linhas na página esquerda -->
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M28,42 L50,42" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M28,49 L50,49" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M28,56 L50,56" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M28,63 L44,63" />
+
+    <!-- Linhas na página direita -->
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M58,42 L80,42" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M58,49 L80,49" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M58,56 L80,56" />
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M58,63 L72,63" />
+
+    <!-- Balão de fala (speech bubble) no canto superior direito -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M68,18 C62,18 58,22 58,27 C58,32 62,36 68,36 C70,36 72,35 74,34 L78,37 L77,33 C79,31 80,29 80,27 C80,22 76,18 68,18 Z" />
+
+    <!-- Letras "EN" no balão -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,24 L62,30 L63.5,30 L63.5,27.5 L66,30 L67.5,30 L67.5,24 L66,24 L66,26.5 L63.5,24 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M69,24 L69,30 L70.5,30 L70.5,24 Z
+                          M70.5,24 L74,24 L74,25.2 L70.5,25.2 Z
+                          M70.5,26.5 L73.5,26.5 L73.5,27.7 L70.5,27.7 Z
+                          M70.5,28.8 L74,28.8 L74,30 L70.5,30 Z" />
+
+</vector>
