@@ -175,6 +175,694 @@
       "level_id": 5,
       "category_id": 15,
       "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "definition of ready",
+      "definition": "definição de pronto para início",
+      "example_sentence": "A story is ready when it meets the definition of ready.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "throughput (agile)",
+      "definition": "quantidade entregue por período",
+      "example_sentence": "Team throughput increased after removing blockers.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "lead time",
+      "definition": "tempo de entrega",
+      "example_sentence": "Reduce lead time by removing handoffs.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cycle time",
+      "definition": "tempo de ciclo",
+      "example_sentence": "Cycle time measures time from start to done.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "WIP limit",
+      "definition": "limite de trabalho em andamento",
+      "example_sentence": "Set a WIP limit of three tasks per developer.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Kanban",
+      "definition": "método Kanban",
+      "example_sentence": "The team switched from Scrum to Kanban.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Scrum master",
+      "definition": "Scrum master",
+      "example_sentence": "The Scrum master facilitates the ceremonies.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "product owner",
+      "definition": "dono do produto",
+      "example_sentence": "The product owner prioritises the backlog.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "squad",
+      "definition": "squad / célula autônoma",
+      "example_sentence": "Each squad owns a product domain.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tribe",
+      "definition": "tribo (escala ágil)",
+      "example_sentence": "Multiple squads form a tribe.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "chapter",
+      "definition": "capítulo (escala ágil)",
+      "example_sentence": "The backend chapter shares practices.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SAFe",
+      "definition": "Scaled Agile Framework",
+      "example_sentence": "The enterprise adopted SAFe for scaling agile.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "PI planning",
+      "definition": "planejamento de incremento de programa",
+      "example_sentence": "PI planning aligns teams for the next quarter.",
+      "level_id": 5,
+      "category_id": 13,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "error budget policy",
+      "definition": "política de orçamento de erros",
+      "example_sentence": "Define the error budget policy with the product team.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "toil reduction",
+      "definition": "redução de trabalho manual",
+      "example_sentence": "Automate deployments to achieve toil reduction.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "chaos monkey",
+      "definition": "chaos monkey (Netflix)",
+      "example_sentence": "Chaos monkey randomly terminates instances in production.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "game day (SRE)",
+      "definition": "simulação de falhas",
+      "example_sentence": "Run a game day to test incident response.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "load test",
+      "definition": "teste de carga",
+      "example_sentence": "Run a load test before every major release.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stress test",
+      "definition": "teste de estresse",
+      "example_sentence": "A stress test finds the breaking point.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "soak test",
+      "definition": "teste de resistência",
+      "example_sentence": "A soak test runs for hours to detect memory leaks.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fire drill",
+      "definition": "simulacro de incidente",
+      "example_sentence": "Do a fire drill to practise the runbook.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mean time between failures",
+      "definition": "tempo médio entre falhas",
+      "example_sentence": "MTBF measures system reliability.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "availability zone",
+      "definition": "zona de disponibilidade",
+      "example_sentence": "Deploy across three availability zones.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "multi-region",
+      "definition": "múltiplas regiões",
+      "example_sentence": "Multi-region architecture improves resilience.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "disaster recovery",
+      "definition": "recuperação de desastres",
+      "example_sentence": "Test the disaster recovery plan every year.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "RTO",
+      "definition": "objetivo de tempo de recuperação",
+      "example_sentence": "Our RTO is one hour for critical services.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "RPO",
+      "definition": "objetivo de ponto de recuperação",
+      "example_sentence": "Our RPO is 15 minutes — backups every 15 minutes.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hot standby",
+      "definition": "standby quente",
+      "example_sentence": "A hot standby is ready to take over instantly.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "warm standby",
+      "definition": "standby morno",
+      "example_sentence": "A warm standby takes a few minutes to activate.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cold standby",
+      "definition": "standby frio",
+      "example_sentence": "A cold standby requires manual intervention.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "event mesh",
+      "definition": "malha de eventos",
+      "example_sentence": "An event mesh routes events across services.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "event broker",
+      "definition": "broker de eventos",
+      "example_sentence": "Kafka acts as the event broker.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "consumer group",
+      "definition": "grupo de consumidores",
+      "example_sentence": "Each service has its own consumer group.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "topic",
+      "definition": "tópico (Kafka)",
+      "example_sentence": "Publish messages to the orders topic.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "partition",
+      "definition": "partição (Kafka)",
+      "example_sentence": "Increase partitions to improve throughput.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "offset",
+      "definition": "offset (Kafka)",
+      "example_sentence": "The consumer reads from the last committed offset.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dead letter queue",
+      "definition": "fila de mensagens falhas",
+      "example_sentence": "Failed messages are sent to the dead letter queue.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "message schema",
+      "definition": "esquema de mensagem",
+      "example_sentence": "Define the message schema with Avro.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "schema registry",
+      "definition": "registro de esquemas",
+      "example_sentence": "The schema registry enforces message compatibility.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "idempotency key",
+      "definition": "chave de idempotência",
+      "example_sentence": "Use an idempotency key to prevent duplicate processing.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "distributed lock",
+      "definition": "lock distribuído",
+      "example_sentence": "Use Redis for a distributed lock.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "two-phase locking",
+      "definition": "bloqueio em duas fases",
+      "example_sentence": "Two-phase locking prevents dirty reads.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "optimistic locking",
+      "definition": "bloqueio otimista",
+      "example_sentence": "Optimistic locking uses version numbers.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pessimistic locking",
+      "definition": "bloqueio pessimista",
+      "example_sentence": "Pessimistic locking blocks concurrent access.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "read-your-writes",
+      "definition": "leitura dos próprios escritos",
+      "example_sentence": "Implement read-your-writes for session consistency.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "vector clock",
+      "definition": "relógio vetorial",
+      "example_sentence": "Vector clocks track causality in distributed systems.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Lamport timestamp",
+      "definition": "timestamp de Lamport",
+      "example_sentence": "Lamport timestamps order events in distributed systems.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "gossip protocol",
+      "definition": "protocolo de fofoca",
+      "example_sentence": "Cassandra uses gossip protocol for node discovery.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "replication factor",
+      "definition": "fator de replicação",
+      "example_sentence": "Set the replication factor to 3 for durability.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "quorum",
+      "definition": "quórum",
+      "example_sentence": "A write quorum of 2 out of 3 ensures consistency.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "consensus",
+      "definition": "consenso",
+      "example_sentence": "Raft is a consensus algorithm.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Raft",
+      "definition": "algoritmo de consenso Raft",
+      "example_sentence": "Etcd uses Raft for leader election.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Paxos",
+      "definition": "algoritmo de consenso Paxos",
+      "example_sentence": "Paxos guarantees agreement among distributed nodes.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "leader election",
+      "definition": "eleição de líder",
+      "example_sentence": "Leader election picks the primary node automatically.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "split brain",
+      "definition": "split brain / cérebro dividido",
+      "example_sentence": "Network partitions can cause a split brain.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fencing",
+      "definition": "fencing / isolamento",
+      "example_sentence": "Use fencing tokens to prevent split brain writes.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "service contract",
+      "definition": "contrato de serviço",
+      "example_sentence": "Agree on the service contract before development.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API gateway pattern",
+      "definition": "padrão de API gateway",
+      "example_sentence": "The API gateway pattern centralises cross-cutting concerns.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "strangler fig",
+      "definition": "padrão strangler fig",
+      "example_sentence": "Use the strangler fig pattern to replace the monolith.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "anti-corruption layer",
+      "definition": "camada anticorrupção",
+      "example_sentence": "An anti-corruption layer translates between models.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "reactive systems",
+      "definition": "sistemas reativos",
+      "example_sentence": "Reactive systems are responsive, resilient, elastic.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "backpressure",
+      "definition": "contrapressão",
+      "example_sentence": "Implement backpressure to prevent consumer overload.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "non-blocking I/O",
+      "definition": "I/O não bloqueante",
+      "example_sentence": "Use non-blocking I/O for high-throughput services.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SLO burn rate",
+      "definition": "taxa de consumo do SLO",
+      "example_sentence": "Alert when the SLO burn rate is too high.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "error rate",
+      "definition": "taxa de erros",
+      "example_sentence": "The error rate crossed the 1% threshold.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alert threshold",
+      "definition": "limiar de alerta",
+      "example_sentence": "Set the alert threshold based on historical data.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "page",
+      "definition": "pager / chamar de plantão",
+      "example_sentence": "Page the on-call engineer immediately.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "incident commander",
+      "definition": "comandante de incidente",
+      "example_sentence": "The incident commander coordinates the response.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "status update",
+      "definition": "atualização de status",
+      "example_sentence": "Post a status update every 30 minutes.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "timeline",
+      "definition": "linha do tempo",
+      "example_sentence": "Build a timeline of events for the post-mortem.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mitigating action",
+      "definition": "ação mitigadora",
+      "example_sentence": "Implement the mitigating action right away.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "long-term fix",
+      "definition": "correção de longo prazo",
+      "example_sentence": "Schedule the long-term fix in the next sprint.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "monitoring gap",
+      "definition": "lacuna de monitoramento",
+      "example_sentence": "Identify monitoring gaps from the post-mortem.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "publish-subscribe",
+      "definition": "publicar-subscrever",
+      "example_sentence": "The publish-subscribe model decouples producers from consumers.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "topic partition",
+      "definition": "partição de tópico",
+      "example_sentence": "Increase topic partitions for higher throughput.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "consumer lag",
+      "definition": "atraso do consumidor",
+      "example_sentence": "Alert when consumer lag exceeds 10,000 messages.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "exactly-once delivery",
+      "definition": "entrega exatamente uma vez",
+      "example_sentence": "Kafka supports exactly-once delivery semantics.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "at-least-once delivery",
+      "definition": "entrega ao menos uma vez",
+      "example_sentence": "At-least-once delivery may produce duplicates.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "at-most-once delivery",
+      "definition": "entrega no máximo uma vez",
+      "example_sentence": "At-most-once delivery may lose messages.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fan-out",
+      "definition": "fan-out / propagação para múltiplos",
+      "example_sentence": "A fan-out sends one message to many queues.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "competing consumers",
+      "definition": "consumidores concorrentes",
+      "example_sentence": "Multiple competing consumers process tasks faster.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "back-pressure",
+      "definition": "contrapressão",
+      "example_sentence": "Implement back-pressure to slow down producers.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "message ordering",
+      "definition": "ordenação de mensagens",
+      "example_sentence": "Message ordering is guaranteed within a partition.",
+      "level_id": 5,
+      "category_id": 15,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "platform as a service",
+      "definition": "plataforma como serviço",
+      "example_sentence": "Use a PaaS to reduce infrastructure overhead.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "infrastructure as a service",
+      "definition": "infraestrutura como serviço",
+      "example_sentence": "AWS EC2 is an IaaS offering.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "software as a service",
+      "definition": "software como serviço",
+      "example_sentence": "Salesforce is a SaaS product.",
+      "level_id": 5,
+      "category_id": 14,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

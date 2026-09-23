@@ -303,6 +303,1246 @@
       "level_id": 2,
       "category_id": 6,
       "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "incident",
+      "definition": "incidente",
+      "example_sentence": "The incident was resolved in 30 minutes.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cable",
+      "definition": "cabo",
+      "example_sentence": "The cable connecting the monitor is loose.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "screen resolution",
+      "definition": "resolução de tela",
+      "example_sentence": "Increase the screen resolution for better clarity.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "operating system",
+      "definition": "sistema operacional",
+      "example_sentence": "Which operating system do you prefer?",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "browser",
+      "definition": "navegador",
+      "example_sentence": "Which browser do you use at work?",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shortcut",
+      "definition": "atalho (teclado)",
+      "example_sentence": "Use Ctrl+C as a shortcut to copy.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "task manager",
+      "definition": "gerenciador de tarefas",
+      "example_sentence": "Open the task manager to check CPU usage.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ping",
+      "definition": "ping / teste de conectividade",
+      "example_sentence": "Ping the server to check if it's reachable.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "traceroute",
+      "definition": "rastreamento de rota",
+      "example_sentence": "Use traceroute to find where the packet is lost.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "switch",
+      "definition": "switch de rede",
+      "example_sentence": "The switch connects all devices on the floor.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SSID",
+      "definition": "nome da rede Wi-Fi",
+      "example_sentence": "What is the SSID of the office Wi-Fi?",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "MAC address",
+      "definition": "endereço físico do dispositivo",
+      "example_sentence": "Find the MAC address in the network settings.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DHCP",
+      "definition": "protocolo de configuração dinâmica",
+      "example_sentence": "DHCP assigns IP addresses automatically.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "HTTP",
+      "definition": "protocolo de transferência",
+      "example_sentence": "The API uses HTTPS for secure communication.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SSL",
+      "definition": "camada de conexão segura",
+      "example_sentence": "The SSL certificate expired yesterday.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "certificate",
+      "definition": "certificado digital",
+      "example_sentence": "Install the SSL certificate on the server.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "antivirus",
+      "definition": "antivírus",
+      "example_sentence": "Run the antivirus scan every week.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "spam",
+      "definition": "spam / lixo eletrônico",
+      "example_sentence": "Mark it as spam to block the sender.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "phishing",
+      "definition": "phishing / e-mail falso",
+      "example_sentence": "Never click links in phishing emails.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ransomware",
+      "definition": "ransomware / sequestro de dados",
+      "example_sentence": "The ransomware attack encrypted all files.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "two-factor authentication",
+      "definition": "autenticação de dois fatores",
+      "example_sentence": "Enable two-factor authentication on all accounts.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "token",
+      "definition": "token de acesso",
+      "example_sentence": "The API token expires after 24 hours.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hash",
+      "definition": "hash / função de dispersão",
+      "example_sentence": "Passwords are stored as hashes.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "admin",
+      "definition": "administrador",
+      "example_sentence": "Only the admin can change system settings.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "root",
+      "definition": "superusuário / raiz",
+      "example_sentence": "Do not run applications as root.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sudo",
+      "definition": "executar como superusuário",
+      "example_sentence": "Use sudo to run the command as admin.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "terminal",
+      "definition": "terminal / linha de comando",
+      "example_sentence": "Open the terminal and run the command.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "command",
+      "definition": "comando",
+      "example_sentence": "Run this command to restart the service.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "script",
+      "definition": "script / programa",
+      "example_sentence": "Write a script to automate the backup.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "directory",
+      "definition": "diretório",
+      "example_sentence": "Navigate to the correct directory first.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "path",
+      "definition": "caminho",
+      "example_sentence": "Check the file path in the config.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "error",
+      "definition": "erro",
+      "example_sentence": "An error occurred during the update.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "warning",
+      "definition": "aviso",
+      "example_sentence": "There is a warning in the log file.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "debug",
+      "definition": "depurar / modo debug",
+      "example_sentence": "Enable debug mode to see more details.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "process",
+      "definition": "processo",
+      "example_sentence": "Kill the process that is using port 80.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "memory",
+      "definition": "memória",
+      "example_sentence": "The application is using too much memory.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "disk",
+      "definition": "disco",
+      "example_sentence": "The disk is almost full — free up some space.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CPU",
+      "definition": "processador / CPU",
+      "example_sentence": "CPU usage is at 95% — something is wrong.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "core",
+      "definition": "núcleo (processador)",
+      "example_sentence": "This server has 32 cores.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "thread",
+      "definition": "thread / linha de execução",
+      "example_sentence": "The application runs on multiple threads.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "queue",
+      "definition": "fila",
+      "example_sentence": "Messages are processed from the queue.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cache",
+      "definition": "cache",
+      "example_sentence": "Clear the browser cache and try again.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cookie",
+      "definition": "cookie",
+      "example_sentence": "Accept the cookies to continue.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "session",
+      "definition": "sessão",
+      "example_sentence": "Your session has expired — please log in again.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "token refresh",
+      "definition": "renovação de token",
+      "example_sentence": "The token refresh happens every hour.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API key",
+      "definition": "chave de API",
+      "example_sentence": "Store the API key in an environment variable.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "endpoint",
+      "definition": "endpoint / ponto de acesso",
+      "example_sentence": "This endpoint accepts POST requests.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "request",
+      "definition": "requisição",
+      "example_sentence": "The request returned a 404 error.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "response",
+      "definition": "resposta",
+      "example_sentence": "The response time is above 500ms.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "status code",
+      "definition": "código de status HTTP",
+      "example_sentence": "A 200 status code means success.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "payload",
+      "definition": "payload / dados enviados",
+      "example_sentence": "Check the request payload for missing fields.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "JSON",
+      "definition": "JSON (formato de dados)",
+      "example_sentence": "The API returns data in JSON format.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "REST",
+      "definition": "REST (padrão de API)",
+      "example_sentence": "We follow REST conventions for all endpoints.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "webhook",
+      "definition": "webhook",
+      "example_sentence": "Configure a webhook to receive event notifications.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "timeout",
+      "definition": "timeout / tempo limite",
+      "example_sentence": "The request timed out after 30 seconds.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "retry",
+      "definition": "tentar novamente",
+      "example_sentence": "The client retries the request three times.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "load",
+      "definition": "carga / carregar",
+      "example_sentence": "The server load is too high during peak hours.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "scalable",
+      "definition": "escalável",
+      "example_sentence": "The architecture must be scalable.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "elastic",
+      "definition": "elástico / flexível",
+      "example_sentence": "Use elastic compute to handle traffic spikes.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "region",
+      "definition": "região (nuvem)",
+      "example_sentence": "Choose a region close to your users.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "zone",
+      "definition": "zona de disponibilidade",
+      "example_sentence": "Deploy across two availability zones.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "snapshot",
+      "definition": "snapshot / instantâneo",
+      "example_sentence": "Take a snapshot before the upgrade.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "image",
+      "definition": "imagem (disco / container)",
+      "example_sentence": "Create a machine image before upgrading.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "template",
+      "definition": "template / modelo",
+      "example_sentence": "Use a CloudFormation template to provision resources.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "environment",
+      "definition": "ambiente (dev/prod)",
+      "example_sentence": "Do not test directly in the production environment.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "staging",
+      "definition": "ambiente de staging",
+      "example_sentence": "Deploy to staging before production.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "production",
+      "definition": "produção",
+      "example_sentence": "Be careful — this runs in production.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "release",
+      "definition": "versão / lançamento",
+      "example_sentence": "The next release is scheduled for Friday.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "changelog",
+      "definition": "registro de mudanças",
+      "example_sentence": "Read the changelog before upgrading.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dependency",
+      "definition": "dependência",
+      "example_sentence": "Update all project dependencies.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "package",
+      "definition": "pacote",
+      "example_sentence": "Install the package with pip install.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "module",
+      "definition": "módulo",
+      "example_sentence": "Import the module at the top of the file.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "import",
+      "definition": "importar",
+      "example_sentence": "Import the library to use its functions.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "export",
+      "definition": "exportar",
+      "example_sentence": "Export the function so it can be reused.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "class",
+      "definition": "classe (POO)",
+      "example_sentence": "Define a class for the user entity.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "object",
+      "definition": "objeto (POO)",
+      "example_sentence": "Create an object from the User class.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "method",
+      "definition": "método",
+      "example_sentence": "Call the method with the correct parameters.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "parameter",
+      "definition": "parâmetro",
+      "example_sentence": "Pass the userId as a parameter.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "return",
+      "definition": "retornar / retorno",
+      "example_sentence": "The function returns a boolean value.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "null",
+      "definition": "nulo / vazio",
+      "example_sentence": "Check if the value is null before using it.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "boolean",
+      "definition": "booleano (verdadeiro/falso)",
+      "example_sentence": "The flag is a boolean — true or false.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "string",
+      "definition": "string / texto",
+      "example_sentence": "Store the name as a string.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "integer",
+      "definition": "inteiro (número)",
+      "example_sentence": "The age field should be an integer.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "array",
+      "definition": "array / lista",
+      "example_sentence": "Iterate over the array of results.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "loop",
+      "definition": "laço de repetição",
+      "example_sentence": "Use a loop to process each item.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "condition",
+      "definition": "condição",
+      "example_sentence": "Add a condition to check the user's role.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "exception",
+      "definition": "exceção",
+      "example_sentence": "Catch the exception and log the error.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stack trace",
+      "definition": "rastreamento de pilha",
+      "example_sentence": "Read the stack trace to find the root cause.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "compile",
+      "definition": "compilar",
+      "example_sentence": "Compile the code before running.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "syntax",
+      "definition": "sintaxe",
+      "example_sentence": "There is a syntax error on line 42.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "comment",
+      "definition": "comentário (código)",
+      "example_sentence": "Add a comment to explain this logic.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "documentation",
+      "definition": "documentação",
+      "example_sentence": "Read the documentation before starting.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "README",
+      "definition": "README / leiame",
+      "example_sentence": "Update the README after every major change.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "review",
+      "definition": "revisão",
+      "example_sentence": "The code review is scheduled for tomorrow.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "approve",
+      "definition": "aprovar",
+      "example_sentence": "Approve the pull request after reviewing.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "merge conflict",
+      "definition": "conflito de merge",
+      "example_sentence": "Resolve the merge conflict before merging.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stash",
+      "definition": "stash (Git)",
+      "example_sentence": "Stash your changes before switching branches.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rebase",
+      "definition": "rebase (Git)",
+      "example_sentence": "Rebase your branch on top of main.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tag",
+      "definition": "tag (Git / label)",
+      "example_sentence": "Tag the release commit with the version number.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "issue",
+      "definition": "issue / problema registrado",
+      "example_sentence": "Open an issue to track the bug.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sprint planning",
+      "definition": "planejamento de sprint",
+      "example_sentence": "Sprint planning happens every two weeks.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "standup",
+      "definition": "daily standup",
+      "example_sentence": "The standup is at nine every morning.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "blocker",
+      "definition": "impedimento",
+      "example_sentence": "There is a blocker — the API is down.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "estimate",
+      "definition": "estimativa",
+      "example_sentence": "What is your estimate for this task?",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "acceptance criteria",
+      "definition": "critérios de aceitação",
+      "example_sentence": "Define the acceptance criteria before starting.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "user story",
+      "definition": "história de usuário",
+      "example_sentence": "Write a user story for each feature.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "definition of done",
+      "definition": "definição de pronto",
+      "example_sentence": "The task meets the definition of done.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "service level",
+      "definition": "nível de serviço",
+      "example_sentence": "Define the service level for each API.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "escalation path",
+      "definition": "caminho de escalonamento",
+      "example_sentence": "The escalation path goes to the on-call manager.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "impact analysis",
+      "definition": "análise de impacto",
+      "example_sentence": "Run an impact analysis before the change.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "change window",
+      "definition": "janela de mudança",
+      "example_sentence": "Schedule maintenance in the change window.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rollout plan",
+      "definition": "plano de implantação",
+      "example_sentence": "Document the rollout plan before deploying.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "post-implementation review",
+      "definition": "revisão pós-implementação",
+      "example_sentence": "Hold a post-implementation review after the release.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "network topology",
+      "definition": "topologia de rede",
+      "example_sentence": "Draw the network topology diagram.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "packet loss",
+      "definition": "perda de pacotes",
+      "example_sentence": "High packet loss degrades call quality.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "jitter",
+      "definition": "variação de latência",
+      "example_sentence": "Jitter causes audio distortion in calls.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "QoS",
+      "definition": "qualidade de serviço",
+      "example_sentence": "Configure QoS to prioritise voice traffic.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "NAT",
+      "definition": "tradução de endereço de rede",
+      "example_sentence": "The NAT translates private to public IPs.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DMZ",
+      "definition": "zona desmilitarizada",
+      "example_sentence": "Place public-facing servers in the DMZ.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "IDS",
+      "definition": "sistema de detecção de intrusão",
+      "example_sentence": "The IDS flagged unusual traffic.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "IPS",
+      "definition": "sistema de prevenção de intrusão",
+      "example_sentence": "The IPS blocked the attack automatically.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SIEM",
+      "definition": "gerenciamento de eventos de segurança",
+      "example_sentence": "The SIEM correlates events from all systems.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SOC",
+      "definition": "centro de operações de segurança",
+      "example_sentence": "The SOC monitors threats 24/7.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "threat model",
+      "definition": "modelo de ameaças",
+      "example_sentence": "Create a threat model for every new feature.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "attack surface",
+      "definition": "superfície de ataque",
+      "example_sentence": "Reduce the attack surface by disabling unused services.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hardening",
+      "definition": "endurecimento de sistema",
+      "example_sentence": "Apply server hardening before going live.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "baseline",
+      "definition": "linha de base",
+      "example_sentence": "Establish a security baseline for all servers.",
+      "level_id": 2,
+      "category_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "software bill of materials",
+      "definition": "lista de materiais do software",
+      "example_sentence": "Generate an SBOM for compliance.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "open source",
+      "definition": "código aberto",
+      "example_sentence": "We rely heavily on open source libraries.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "license",
+      "definition": "licença de software",
+      "example_sentence": "Check the license before using the library.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fork",
+      "definition": "fork / bifurcação",
+      "example_sentence": "Fork the repository to add your changes.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "upstream",
+      "definition": "upstream / origem",
+      "example_sentence": "Submit the fix upstream.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "downstream",
+      "definition": "downstream / dependente",
+      "example_sentence": "Notify downstream consumers of the API change.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "monorepo",
+      "definition": "monorepo / repositório único",
+      "example_sentence": "We store all services in a monorepo.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "polyrepo",
+      "definition": "polyrepo / múltiplos repositórios",
+      "example_sentence": "The polyrepo approach gives teams autonomy.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "semantic versioning",
+      "definition": "versionamento semântico",
+      "example_sentence": "Follow semantic versioning: MAJOR.MINOR.PATCH.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hotfix",
+      "definition": "hotfix / correção emergencial",
+      "example_sentence": "Deploy the hotfix to production immediately.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "LTS",
+      "definition": "versão de suporte de longo prazo",
+      "example_sentence": "Choose the LTS version for stability.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "EOL",
+      "definition": "fim de vida (suporte)",
+      "example_sentence": "This library has reached EOL — upgrade now.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "regression",
+      "definition": "regressão (bug)",
+      "example_sentence": "The fix introduced a regression in payments.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "flaky test",
+      "definition": "teste instável",
+      "example_sentence": "Fix the flaky test before merging.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "test pyramid",
+      "definition": "pirâmide de testes",
+      "example_sentence": "The test pyramid has more unit tests at the base.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mutation testing",
+      "definition": "teste de mutação",
+      "example_sentence": "Mutation testing checks if tests catch bugs.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "snapshot test",
+      "definition": "teste de snapshot",
+      "example_sentence": "Snapshot tests catch unexpected UI changes.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "end-to-end test",
+      "definition": "teste end-to-end",
+      "example_sentence": "E2E tests simulate real user flows.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "smoke test",
+      "definition": "teste de fumaça",
+      "example_sentence": "Run a smoke test after every deploy.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "regression test",
+      "definition": "teste de regressão",
+      "example_sentence": "Add a regression test to prevent the bug from returning.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "knowledge transfer",
+      "definition": "transferência de conhecimento",
+      "example_sentence": "Schedule a knowledge transfer session.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "handover",
+      "definition": "passagem de bastão",
+      "example_sentence": "Document everything for a smooth handover.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "out of the box",
+      "definition": "pronto para usar",
+      "example_sentence": "The solution works out of the box.",
+      "level_id": 2,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "proof of value",
+      "definition": "prova de valor",
+      "example_sentence": "Show a proof of value before full investment.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pilot",
+      "definition": "piloto / fase de teste",
+      "example_sentence": "Run a pilot with ten customers first.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rollout",
+      "definition": "implantação gradual",
+      "example_sentence": "The rollout starts with internal users.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sunset",
+      "definition": "descontinuar / encerrar",
+      "example_sentence": "We plan to sunset the v1 API in Q4.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "deprecate",
+      "definition": "deprecar / marcar como obsoleto",
+      "example_sentence": "Deprecate the old endpoint and add a migration guide.",
+      "level_id": 2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

@@ -159,6 +159,742 @@
       "level_id": 6,
       "category_id": 18,
       "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "engineering manager",
+      "definition": "gerente de engenharia",
+      "example_sentence": "The engineering manager oversees three squads.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "staff engineer",
+      "definition": "engenheiro sênior de impacto amplo",
+      "example_sentence": "The staff engineer drives cross-team technical decisions.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "principal engineer",
+      "definition": "engenheiro principal",
+      "example_sentence": "The principal engineer sets long-term technical direction.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CTO",
+      "definition": "diretor de tecnologia",
+      "example_sentence": "The CTO presented the technology strategy.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "VP of Engineering",
+      "definition": "vice-presidente de engenharia",
+      "example_sentence": "The VP of Engineering manages all engineering teams.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical strategy",
+      "definition": "estratégia técnica",
+      "example_sentence": "The technical strategy aligns with business goals.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "architecture review board",
+      "definition": "comitê de revisão de arquitetura",
+      "example_sentence": "The architecture review board approves major changes.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "RFC process",
+      "definition": "processo de RFC",
+      "example_sentence": "Submit an RFC before implementing significant changes.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "decision log",
+      "definition": "registro de decisões",
+      "example_sentence": "Keep a decision log for future reference.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical vision",
+      "definition": "visão técnica",
+      "example_sentence": "The technical vision defines the desired state.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "north star",
+      "definition": "métrica estrela guia",
+      "example_sentence": "Identify the north star metric for the product.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "platform strategy",
+      "definition": "estratégia de plataforma",
+      "example_sentence": "The platform strategy enables other teams.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "inner source",
+      "definition": "código aberto interno",
+      "example_sentence": "Inner source encourages code reuse across teams.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "developer portal",
+      "definition": "portal do desenvolvedor",
+      "example_sentence": "The developer portal hosts all internal APIs.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "golden path (eng)",
+      "definition": "caminho padrão de engenharia",
+      "example_sentence": "The golden path provides opinionated defaults.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cognitive load",
+      "definition": "carga cognitiva",
+      "example_sentence": "Reduce cognitive load with good abstractions.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "team topologies",
+      "definition": "topologias de equipe",
+      "example_sentence": "Team Topologies defines four team types.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stream-aligned team",
+      "definition": "time alinhado ao fluxo",
+      "example_sentence": "A stream-aligned team delivers end-to-end.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "enabling team",
+      "definition": "time habilitador",
+      "example_sentence": "An enabling team helps others adopt new practices.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "complicated subsystem team",
+      "definition": "time de subsistema complexo",
+      "example_sentence": "The ML team is a complicated subsystem team.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Conway's law",
+      "definition": "lei de Conway",
+      "example_sentence": "Conway's law: systems mirror the organisation.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "inverse Conway manoeuvre",
+      "definition": "manobra inversa de Conway",
+      "example_sentence": "Design the org to produce the desired architecture.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical due diligence",
+      "definition": "due diligence técnica",
+      "example_sentence": "Conduct technical due diligence before the acquisition.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "build vs buy",
+      "definition": "construir vs comprar",
+      "example_sentence": "The build vs buy decision depends on strategic fit.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "make vs buy",
+      "definition": "fazer vs comprar",
+      "example_sentence": "Consider total cost of ownership in make vs buy.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "total cost of ownership",
+      "definition": "custo total de propriedade",
+      "example_sentence": "Include operational costs in the TCO analysis.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "lock-in",
+      "definition": "dependência de fornecedor",
+      "example_sentence": "Avoid vendor lock-in with open standards.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "interoperability",
+      "definition": "interoperabilidade",
+      "example_sentence": "Interoperability allows different systems to work together.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "standardisation",
+      "definition": "padronização",
+      "example_sentence": "Standardisation reduces complexity.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "modular architecture",
+      "definition": "arquitetura modular",
+      "example_sentence": "A modular architecture is easier to evolve.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hexagonal architecture",
+      "definition": "arquitetura hexagonal",
+      "example_sentence": "Hexagonal architecture separates business logic from infrastructure.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "clean architecture",
+      "definition": "arquitetura limpa",
+      "example_sentence": "Clean architecture keeps dependencies pointing inward.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "layered architecture",
+      "definition": "arquitetura em camadas",
+      "example_sentence": "A layered architecture separates concerns vertically.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "serverless architecture",
+      "definition": "arquitetura serverless",
+      "example_sentence": "Serverless architecture eliminates server management.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data mesh",
+      "definition": "malha de dados",
+      "example_sentence": "Data mesh decentralises data ownership.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data lake",
+      "definition": "lago de dados",
+      "example_sentence": "Store raw data in the data lake for analysis.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data warehouse",
+      "definition": "armazém de dados",
+      "example_sentence": "The data warehouse powers business intelligence.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ETL",
+      "definition": "extração, transformação e carga",
+      "example_sentence": "Run the ETL pipeline every night.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data pipeline",
+      "definition": "pipeline de dados",
+      "example_sentence": "The data pipeline processes millions of events per day.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stream processing",
+      "definition": "processamento de fluxo",
+      "example_sentence": "Stream processing enables real-time analytics.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "batch processing",
+      "definition": "processamento em lote",
+      "example_sentence": "Batch processing runs overnight for large datasets.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ML pipeline",
+      "definition": "pipeline de machine learning",
+      "example_sentence": "The ML pipeline trains and deploys models automatically.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "feature store",
+      "definition": "armazenamento de features ML",
+      "example_sentence": "The feature store shares ML features across teams.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "model registry",
+      "definition": "registro de modelos ML",
+      "example_sentence": "Store trained models in the model registry.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical writing",
+      "definition": "escrita técnica",
+      "example_sentence": "Good technical writing improves onboarding.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "architecture diagram",
+      "definition": "diagrama de arquitetura",
+      "example_sentence": "Keep the architecture diagram up to date.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sequence diagram",
+      "definition": "diagrama de sequência",
+      "example_sentence": "A sequence diagram shows the order of interactions.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "C4 model",
+      "definition": "modelo C4 de diagramas",
+      "example_sentence": "Use the C4 model to document the architecture.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API documentation",
+      "definition": "documentação de API",
+      "example_sentence": "Write API documentation in OpenAPI format.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "developer guide",
+      "definition": "guia do desenvolvedor",
+      "example_sentence": "The developer guide explains how to contribute.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "style guide",
+      "definition": "guia de estilo",
+      "example_sentence": "Follow the code style guide for consistency.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "architecture decision record",
+      "definition": "registro de decisão arquitetural",
+      "example_sentence": "Write an ADR for every significant decision.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "knowledge base",
+      "definition": "base de conhecimento",
+      "example_sentence": "Update the knowledge base after every incident.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "wiki",
+      "definition": "wiki interno",
+      "example_sentence": "Document procedures in the team wiki.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "on-call handbook",
+      "definition": "manual de plantão",
+      "example_sentence": "Read the on-call handbook before your first shift.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "RFC template",
+      "definition": "template de RFC",
+      "example_sentence": "Use the RFC template for consistency.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "peer review",
+      "definition": "revisão por pares",
+      "example_sentence": "Every design must go through peer review.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stakeholder communication",
+      "definition": "comunicação com partes interessadas",
+      "example_sentence": "Regular stakeholder communication builds trust.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "executive summary",
+      "definition": "sumário executivo",
+      "example_sentence": "Write a one-page executive summary.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "proof of concept",
+      "definition": "prova de conceito",
+      "example_sentence": "Build a proof of concept before committing.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "spike",
+      "definition": "spike (exploração técnica)",
+      "example_sentence": "Do a spike to evaluate the new framework.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "prototyping",
+      "definition": "prototipagem",
+      "example_sentence": "Use prototyping to validate ideas quickly.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "iterative development",
+      "definition": "desenvolvimento iterativo",
+      "example_sentence": "Iterative development delivers value continuously.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "continuous improvement",
+      "definition": "melhoria contínua",
+      "example_sentence": "Kaizen — continuous improvement never stops.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "feedback loop",
+      "definition": "ciclo de feedback",
+      "example_sentence": "Shorten the feedback loop to improve quality.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "psychological safety",
+      "definition": "segurança psicológica",
+      "example_sentence": "Psychological safety enables honest retrospectives.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "engineering culture",
+      "definition": "cultura de engenharia",
+      "example_sentence": "A strong engineering culture attracts top talent.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hiring bar",
+      "definition": "padrão de contratação",
+      "example_sentence": "Maintain a high hiring bar to preserve quality.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "levelling",
+      "definition": "nivelamento de carreira",
+      "example_sentence": "The engineering levelling framework defines expectations.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "performance review",
+      "definition": "avaliação de desempenho",
+      "example_sentence": "Conduct performance reviews twice a year.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "promotion criteria",
+      "definition": "critérios de promoção",
+      "example_sentence": "Document the promotion criteria clearly.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "succession planning",
+      "definition": "planejamento de sucessão",
+      "example_sentence": "Succession planning ensures leadership continuity.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cross-functional team",
+      "definition": "time multifuncional",
+      "example_sentence": "A cross-functional team includes engineering, design, and product.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "value stream",
+      "definition": "fluxo de valor",
+      "example_sentence": "Map the value stream to identify waste.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "lean",
+      "definition": "lean / enxuto",
+      "example_sentence": "Apply lean principles to eliminate waste.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DevSecOps",
+      "definition": "DevOps com segurança integrada",
+      "example_sentence": "DevSecOps shifts security left.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shift left",
+      "definition": "mover para mais cedo no ciclo",
+      "example_sentence": "Shift security and quality checks left.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "innersource",
+      "definition": "contribuição interna aberta",
+      "example_sentence": "Innersource promotes internal open collaboration.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "paved road",
+      "definition": "caminho pavimentado",
+      "example_sentence": "The paved road provides the easiest path to production.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "capability model",
+      "definition": "modelo de capacidades",
+      "example_sentence": "The capability model maps team skills.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "maturity model",
+      "definition": "modelo de maturidade",
+      "example_sentence": "Use a maturity model to assess current state.",
+      "level_id": 6,
+      "category_id": 16,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fitness function",
+      "definition": "função de aptidão",
+      "example_sentence": "A fitness function measures architectural quality.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "evolutionary architecture",
+      "definition": "arquitetura evolutiva",
+      "example_sentence": "Evolutionary architecture supports incremental change.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "strangler pattern",
+      "definition": "padrão strangler",
+      "example_sentence": "Use the strangler pattern to replace legacy code.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data contract",
+      "definition": "contrato de dados",
+      "example_sentence": "Define a data contract between producer and consumer.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "schema evolution",
+      "definition": "evolução de esquema",
+      "example_sentence": "Handle schema evolution with backward compatibility.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data quality",
+      "definition": "qualidade de dados",
+      "example_sentence": "Monitor data quality with automated checks.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data lineage",
+      "definition": "linhagem de dados",
+      "example_sentence": "Data lineage tracks the origin of each field.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "observability maturity",
+      "definition": "maturidade de observabilidade",
+      "example_sentence": "Assess the observability maturity of each service.",
+      "level_id": 6,
+      "category_id": 17,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical charter",
+      "definition": "carta técnica",
+      "example_sentence": "The technical charter defines team responsibilities.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "engineering principles",
+      "definition": "princípios de engenharia",
+      "example_sentence": "Document your engineering principles.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "contribution guide",
+      "definition": "guia de contribuição",
+      "example_sentence": "Write a contribution guide for new joiners.",
+      "level_id": 6,
+      "category_id": 18,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

@@ -399,6 +399,1862 @@
       "level_id": 1,
       "category_id": 2,
       "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "apple",
+      "definition": "maçã",
+      "example_sentence": "I eat an apple every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bread",
+      "definition": "pão",
+      "example_sentence": "She buys fresh bread every day.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "milk",
+      "definition": "leite",
+      "example_sentence": "Do you drink milk for breakfast?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rice",
+      "definition": "arroz",
+      "example_sentence": "Rice and beans is a classic Brazilian dish.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "chicken",
+      "definition": "frango",
+      "example_sentence": "I had grilled chicken for lunch.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "salad",
+      "definition": "salada",
+      "example_sentence": "He always orders a salad at restaurants.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fruit",
+      "definition": "fruta",
+      "example_sentence": "Eating fruit every day is healthy.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sugar",
+      "definition": "açúcar",
+      "example_sentence": "Do you take sugar in your coffee?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "egg",
+      "definition": "ovo",
+      "example_sentence": "She cooks two eggs every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "juice",
+      "definition": "suco",
+      "example_sentence": "I prefer orange juice for breakfast.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tea",
+      "definition": "chá",
+      "example_sentence": "Would you like a cup of tea?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "soup",
+      "definition": "sopa",
+      "example_sentence": "She makes delicious tomato soup.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pizza",
+      "definition": "pizza",
+      "example_sentence": "We order pizza every Friday night.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cake",
+      "definition": "bolo",
+      "example_sentence": "They baked a cake for the birthday.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cheese",
+      "definition": "queijo",
+      "example_sentence": "This sandwich has ham and cheese.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "wine",
+      "definition": "vinho",
+      "example_sentence": "Would you like a glass of wine?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bedroom",
+      "definition": "quarto",
+      "example_sentence": "My bedroom is on the second floor.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "kitchen",
+      "definition": "cozinha",
+      "example_sentence": "She spends a lot of time in the kitchen.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bathroom",
+      "definition": "banheiro",
+      "example_sentence": "The bathroom is at the end of the hall.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "garden",
+      "definition": "jardim",
+      "example_sentence": "We have a small garden behind the house.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "window",
+      "definition": "janela",
+      "example_sentence": "Open the window — it's too hot in here.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "door",
+      "definition": "porta",
+      "example_sentence": "Please close the door when you leave.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "chair",
+      "definition": "cadeira",
+      "example_sentence": "There are six chairs around the table.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bed",
+      "definition": "cama",
+      "example_sentence": "She goes to bed at ten o'clock.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sofa",
+      "definition": "sofá",
+      "example_sentence": "He fell asleep on the sofa.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "key",
+      "definition": "chave",
+      "example_sentence": "I lost my keys this morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "street",
+      "definition": "rua",
+      "example_sentence": "They live on a quiet street.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bank",
+      "definition": "banco (financeiro)",
+      "example_sentence": "I need to go to the bank this afternoon.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "school",
+      "definition": "escola",
+      "example_sentence": "She walks to school every morning.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hospital",
+      "definition": "hospital",
+      "example_sentence": "The nearest hospital is five km away.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "restaurant",
+      "definition": "restaurante",
+      "example_sentence": "Let's go to that new restaurant downtown.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shop",
+      "definition": "loja",
+      "example_sentence": "I need to shop for groceries today.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "supermarket",
+      "definition": "supermercado",
+      "example_sentence": "The supermarket closes at ten.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "park",
+      "definition": "parque",
+      "example_sentence": "We take the dog to the park on Sundays.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bus",
+      "definition": "ônibus",
+      "example_sentence": "I take the bus to work every day.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "taxi",
+      "definition": "táxi",
+      "example_sentence": "Let's get a taxi — it's raining.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "map",
+      "definition": "mapa",
+      "example_sentence": "Do you have a map of the city?",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "left",
+      "definition": "esquerda",
+      "example_sentence": "Turn left at the traffic light.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "right",
+      "definition": "direita",
+      "example_sentence": "The office is on the right side.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "near",
+      "definition": "perto",
+      "example_sentence": "The hotel is near the airport.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "far",
+      "definition": "longe",
+      "example_sentence": "Is the station far from here?",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "morning",
+      "definition": "manhã",
+      "example_sentence": "I exercise every morning before work.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "afternoon",
+      "definition": "tarde",
+      "example_sentence": "We have a meeting this afternoon.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "evening",
+      "definition": "início da noite",
+      "example_sentence": "She reads in the evening.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "today",
+      "definition": "hoje",
+      "example_sentence": "I have a lot of meetings today.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tomorrow",
+      "definition": "amanhã",
+      "example_sentence": "The report is due tomorrow.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "yesterday",
+      "definition": "ontem",
+      "example_sentence": "Yesterday's meeting was very productive.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "month",
+      "definition": "mês",
+      "example_sentence": "We release a new version every month.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "holiday",
+      "definition": "feriado",
+      "example_sentence": "We have a holiday next Monday.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "birthday",
+      "definition": "aniversário",
+      "example_sentence": "Happy birthday! How old are you?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "weather",
+      "definition": "clima / tempo",
+      "example_sentence": "What is the weather like today?",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sun",
+      "definition": "sol",
+      "example_sentence": "It's sunny and warm today.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rain",
+      "definition": "chuva",
+      "example_sentence": "Don't forget your umbrella — it might rain.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cold",
+      "definition": "frio",
+      "example_sentence": "It's very cold this morning.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hot",
+      "definition": "quente",
+      "example_sentence": "It's too hot without air conditioning.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "umbrella",
+      "definition": "guarda-chuva",
+      "example_sentence": "I always carry an umbrella in winter.",
+      "level_id": 1,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "clothes",
+      "definition": "roupas",
+      "example_sentence": "I need new clothes for the conference.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shirt",
+      "definition": "camisa",
+      "example_sentence": "He always wears a white shirt to work.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shoes",
+      "definition": "sapatos",
+      "example_sentence": "She bought new shoes for the presentation.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bag",
+      "definition": "bolsa / mochila",
+      "example_sentence": "I carry my laptop in my bag.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "wallet",
+      "definition": "carteira",
+      "example_sentence": "I left my wallet at home.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "idea",
+      "definition": "ideia",
+      "example_sentence": "She had a great idea in the meeting.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "help",
+      "definition": "ajuda / ajudar",
+      "example_sentence": "Can you help me with this task?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "team",
+      "definition": "equipe",
+      "example_sentence": "Our team has ten developers.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "task",
+      "definition": "tarefa",
+      "example_sentence": "Assign the task to the right person.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "report",
+      "definition": "relatório",
+      "example_sentence": "Send the weekly report by Friday.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "company",
+      "definition": "empresa",
+      "example_sentence": "She works for a large tech company.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "manager",
+      "definition": "gerente",
+      "example_sentence": "My manager approved the budget.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "customer",
+      "definition": "cliente",
+      "example_sentence": "The customer is always right.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "product",
+      "definition": "produto",
+      "example_sentence": "We launched a new product last week.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "price",
+      "definition": "preço",
+      "example_sentence": "What is the price of this service?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cost",
+      "definition": "custo",
+      "example_sentence": "The cost exceeded the budget.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "budget",
+      "definition": "orçamento",
+      "example_sentence": "We need to stay within the budget.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "invoice",
+      "definition": "fatura",
+      "example_sentence": "Please send the invoice by email.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "contract",
+      "definition": "contrato",
+      "example_sentence": "The contract was signed last week.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "deadline",
+      "definition": "prazo",
+      "example_sentence": "The deadline is tomorrow at noon.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "goal",
+      "definition": "meta / objetivo",
+      "example_sentence": "Set a clear goal for the quarter.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "result",
+      "definition": "resultado",
+      "example_sentence": "The test results were positive.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "success",
+      "definition": "sucesso",
+      "example_sentence": "The launch was a great success.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mistake",
+      "definition": "erro / engano",
+      "example_sentence": "I made a mistake in the report.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "change",
+      "definition": "mudança / alterar",
+      "example_sentence": "This change will improve performance.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "update",
+      "definition": "atualização",
+      "example_sentence": "Please update your software.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "version",
+      "definition": "versão",
+      "example_sentence": "Which version are you running?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "feature",
+      "definition": "funcionalidade",
+      "example_sentence": "We shipped a new feature today.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "user",
+      "definition": "usuário",
+      "example_sentence": "The user interface needs improvement.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data",
+      "definition": "dados",
+      "example_sentence": "Analyse the data before deciding.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "file",
+      "definition": "arquivo",
+      "example_sentence": "Attach the file to the email.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "folder",
+      "definition": "pasta",
+      "example_sentence": "Save it in the shared folder.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "link",
+      "definition": "link / endereço web",
+      "example_sentence": "Share the link in the chat.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "website",
+      "definition": "site",
+      "example_sentence": "Check the company website for updates.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "internet",
+      "definition": "internet",
+      "example_sentence": "Is the internet connection stable?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "search",
+      "definition": "buscar",
+      "example_sentence": "Search for the error message online.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "download",
+      "definition": "baixar",
+      "example_sentence": "Download the installer from the website.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "upload",
+      "definition": "enviar / upload",
+      "example_sentence": "Upload the file to the server.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "message",
+      "definition": "mensagem",
+      "example_sentence": "Did you receive my message?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "screen",
+      "definition": "tela",
+      "example_sentence": "Share your screen during the presentation.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "click",
+      "definition": "clicar",
+      "example_sentence": "Click the button to confirm.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "save",
+      "definition": "salvar",
+      "example_sentence": "Remember to save your work.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "open",
+      "definition": "abrir",
+      "example_sentence": "Open the file in a text editor.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "close",
+      "definition": "fechar",
+      "example_sentence": "Close all unused applications.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "delete",
+      "definition": "excluir",
+      "example_sentence": "Delete the temporary files.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "learn",
+      "definition": "aprender",
+      "example_sentence": "I learn something new every day.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "understand",
+      "definition": "entender",
+      "example_sentence": "Do you understand the requirements?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "explain",
+      "definition": "explicar",
+      "example_sentence": "Can you explain how this works?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "find",
+      "definition": "encontrar",
+      "example_sentence": "I can't find the configuration file.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "check",
+      "definition": "verificar",
+      "example_sentence": "Check the logs for errors.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fix",
+      "definition": "corrigir",
+      "example_sentence": "Fix the bug before the release.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "run",
+      "definition": "executar",
+      "example_sentence": "Run the script with admin privileges.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stop",
+      "definition": "parar",
+      "example_sentence": "Stop the service before updating.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "start",
+      "definition": "iniciar",
+      "example_sentence": "Start the server and check the logs.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "install",
+      "definition": "instalar",
+      "example_sentence": "Install the dependencies with npm install.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "configure",
+      "definition": "configurar",
+      "example_sentence": "Configure the environment variables first.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "connect",
+      "definition": "conectar",
+      "example_sentence": "Connect the device to the network.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "enable",
+      "definition": "ativar",
+      "example_sentence": "Enable two-factor authentication.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "disable",
+      "definition": "desativar",
+      "example_sentence": "Disable the old endpoint after migration.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "allow",
+      "definition": "permitir",
+      "example_sentence": "Allow the application through the firewall.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "block",
+      "definition": "bloquear",
+      "example_sentence": "Block traffic from unknown IPs.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "access",
+      "definition": "acesso",
+      "example_sentence": "Only admins have access to this server.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "permission",
+      "definition": "permissão",
+      "example_sentence": "You don't have permission to do that.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "role",
+      "definition": "função / cargo",
+      "example_sentence": "Assign the correct role to the new user.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "number",
+      "definition": "número",
+      "example_sentence": "What is your phone number?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "address",
+      "definition": "endereço",
+      "example_sentence": "What is your home address?",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "neighbour",
+      "definition": "vizinho",
+      "example_sentence": "My neighbour is very friendly.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "happy",
+      "definition": "feliz",
+      "example_sentence": "I'm happy with the results.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sad",
+      "definition": "triste",
+      "example_sentence": "She looked sad after the meeting.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tired",
+      "definition": "cansado",
+      "example_sentence": "I'm tired — I worked twelve hours today.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "busy",
+      "definition": "ocupado",
+      "example_sentence": "I'm too busy to answer right now.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ready",
+      "definition": "pronto",
+      "example_sentence": "Are you ready for the presentation?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "easy",
+      "definition": "fácil",
+      "example_sentence": "This task is easier than I expected.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hard",
+      "definition": "difícil / duro",
+      "example_sentence": "This bug is hard to reproduce.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fast",
+      "definition": "rápido",
+      "example_sentence": "The new server is much faster.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "slow",
+      "definition": "lento",
+      "example_sentence": "The query is running slow today.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "new",
+      "definition": "novo",
+      "example_sentence": "We hired a new developer this week.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "old",
+      "definition": "velho / antigo",
+      "example_sentence": "The old system is no longer supported.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "big",
+      "definition": "grande",
+      "example_sentence": "This is a big release — lots of features.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "small",
+      "definition": "pequeno",
+      "example_sentence": "This is a small fix — five lines of code.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "important",
+      "definition": "importante",
+      "example_sentence": "This meeting is very important.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "urgent",
+      "definition": "urgente",
+      "example_sentence": "The client marked this ticket as urgent.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "free",
+      "definition": "gratuito / livre",
+      "example_sentence": "The tool is free and open source.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "available",
+      "definition": "disponível",
+      "example_sentence": "Is the server available for maintenance?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "required",
+      "definition": "obrigatório / necessário",
+      "example_sentence": "A valid email is required.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "optional",
+      "definition": "opcional",
+      "example_sentence": "Adding a photo is optional.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "default",
+      "definition": "padrão / valor padrão",
+      "example_sentence": "The default timeout is 30 seconds.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "current",
+      "definition": "atual",
+      "example_sentence": "What is the current version?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "previous",
+      "definition": "anterior",
+      "example_sentence": "The previous release had a critical bug.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "next",
+      "definition": "próximo",
+      "example_sentence": "The next meeting is on Wednesday.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "last",
+      "definition": "último",
+      "example_sentence": "The last deploy was yesterday.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "first",
+      "definition": "primeiro",
+      "example_sentence": "This is the first version of the API.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "second",
+      "definition": "segundo",
+      "example_sentence": "The second option is more reliable.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "similar",
+      "definition": "semelhante",
+      "example_sentence": "The behavior is similar to the old system.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "different",
+      "definition": "diferente",
+      "example_sentence": "This approach is completely different.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "correct",
+      "definition": "correto",
+      "example_sentence": "Your answer is correct.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "wrong",
+      "definition": "errado",
+      "example_sentence": "Something is wrong with the configuration.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "possible",
+      "definition": "possível",
+      "example_sentence": "Is it possible to finish by Friday?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "impossible",
+      "definition": "impossível",
+      "example_sentence": "This deadline is impossible.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "enough",
+      "definition": "suficiente",
+      "example_sentence": "We don't have enough time.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "too much",
+      "definition": "demais / excessivo",
+      "example_sentence": "There is too much traffic on this endpoint.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "both",
+      "definition": "ambos",
+      "example_sentence": "Both options have pros and cons.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "each",
+      "definition": "cada",
+      "example_sentence": "Each developer owns their module.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "some",
+      "definition": "alguns / algum",
+      "example_sentence": "Some tests are failing.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "many",
+      "definition": "muitos",
+      "example_sentence": "There are many open issues.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "few",
+      "definition": "poucos",
+      "example_sentence": "Only a few users are affected.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "most",
+      "definition": "a maioria",
+      "example_sentence": "Most of the work is done.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "all",
+      "definition": "todos",
+      "example_sentence": "All tests passed.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "none",
+      "definition": "nenhum",
+      "example_sentence": "None of the logs show an error.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "any",
+      "definition": "qualquer / algum",
+      "example_sentence": "Any developer can pick this task.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "still",
+      "definition": "ainda",
+      "example_sentence": "The issue is still not resolved.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "already",
+      "definition": "já",
+      "example_sentence": "I've already reviewed the PR.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "yet",
+      "definition": "ainda (negativo/pergunta)",
+      "example_sentence": "Has the deploy finished yet?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "soon",
+      "definition": "em breve",
+      "example_sentence": "The fix will be deployed soon.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "later",
+      "definition": "mais tarde",
+      "example_sentence": "Let's discuss this later.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "again",
+      "definition": "novamente",
+      "example_sentence": "The test failed again.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "always",
+      "definition": "sempre",
+      "example_sentence": "Always write tests for new features.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "never",
+      "definition": "nunca",
+      "example_sentence": "Never store passwords in plain text.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sometimes",
+      "definition": "às vezes",
+      "example_sentence": "The bug sometimes appears under load.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "usually",
+      "definition": "geralmente",
+      "example_sentence": "We usually deploy on Thursdays.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "often",
+      "definition": "frequentemente",
+      "example_sentence": "This error occurs often during peak hours.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "together",
+      "definition": "juntos",
+      "example_sentence": "Let's work on this together.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alone",
+      "definition": "sozinho",
+      "example_sentence": "She solved the problem alone.",
+      "level_id": 1,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ago",
+      "definition": "atrás (tempo)",
+      "example_sentence": "The server went down two hours ago.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "since",
+      "definition": "desde",
+      "example_sentence": "We haven't had an outage since January.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "until",
+      "definition": "até",
+      "example_sentence": "Work on this until it's done.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "while",
+      "definition": "enquanto",
+      "example_sentence": "Monitor the logs while the migration runs.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "because",
+      "definition": "porque",
+      "example_sentence": "The test failed because of a null pointer.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "so",
+      "definition": "então / portanto",
+      "example_sentence": "The API is down, so we need to investigate.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "but",
+      "definition": "mas",
+      "example_sentence": "The feature works, but it's too slow.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "or",
+      "definition": "ou",
+      "example_sentence": "Use Redis or Memcached for caching.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "and",
+      "definition": "e",
+      "example_sentence": "Read and write operations use different paths.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "if",
+      "definition": "se",
+      "example_sentence": "If the test fails, block the merge.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "when",
+      "definition": "quando",
+      "example_sentence": "Notify the team when the deploy is done.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "how",
+      "definition": "como",
+      "example_sentence": "How does this feature work?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "why",
+      "definition": "por quê",
+      "example_sentence": "Why did the service restart?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "who",
+      "definition": "quem",
+      "example_sentence": "Who is responsible for this service?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "what",
+      "definition": "o quê",
+      "example_sentence": "What caused the latency spike?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "where",
+      "definition": "onde",
+      "example_sentence": "Where are the logs stored?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "which",
+      "definition": "qual",
+      "example_sentence": "Which environment are you testing in?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "whether",
+      "definition": "se (condicional)",
+      "example_sentence": "Check whether the flag is enabled.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "issue",
+      "definition": "problema / issue",
+      "example_sentence": "Open an issue to track this bug.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "solution",
+      "definition": "solução",
+      "example_sentence": "We found a solution to the problem.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "approach",
+      "definition": "abordagem",
+      "example_sentence": "What approach would you recommend?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "option",
+      "definition": "opção",
+      "example_sentence": "We have three options to consider.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "decision",
+      "definition": "decisão",
+      "example_sentence": "The team made a decision yesterday.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "priority",
+      "definition": "prioridade",
+      "example_sentence": "What is the priority of this task?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "effort",
+      "definition": "esforço",
+      "example_sentence": "How much effort is required?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "impact",
+      "definition": "impacto",
+      "example_sentence": "What is the impact of this change?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "risk",
+      "definition": "risco",
+      "example_sentence": "This approach carries a high risk.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "requirement",
+      "definition": "requisito",
+      "example_sentence": "The requirement was not well defined.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "constraint",
+      "definition": "restrição",
+      "example_sentence": "The main constraint is time.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "assumption",
+      "definition": "suposição",
+      "example_sentence": "List all assumptions in the RFC.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tradeoff",
+      "definition": "troca / compensação",
+      "example_sentence": "Every design has tradeoffs.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alternative",
+      "definition": "alternativa",
+      "example_sentence": "Is there an alternative approach?",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "improvement",
+      "definition": "melhoria",
+      "example_sentence": "This PR includes several improvements.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "performance",
+      "definition": "desempenho",
+      "example_sentence": "The performance improved after caching.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "reliability",
+      "definition": "confiabilidade",
+      "example_sentence": "Reliability is our top priority.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "scalability",
+      "definition": "escalabilidade",
+      "example_sentence": "Design for scalability from the start.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "security",
+      "definition": "segurança",
+      "example_sentence": "Security is everyone's responsibility.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "availability",
+      "definition": "disponibilidade",
+      "example_sentence": "High availability requires redundancy.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "maintainability",
+      "definition": "manutenibilidade",
+      "example_sentence": "Write code for maintainability.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "readability",
+      "definition": "legibilidade",
+      "example_sentence": "Readability reduces onboarding time.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "testability",
+      "definition": "testabilidade",
+      "example_sentence": "Good design improves testability.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "simplicity",
+      "definition": "simplicidade",
+      "example_sentence": "Favour simplicity over complexity.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "complexity",
+      "definition": "complexidade",
+      "example_sentence": "Reduce complexity where possible.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "interview",
+      "definition": "entrevista",
+      "example_sentence": "She has a technical interview tomorrow.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "internship",
+      "definition": "estágio",
+      "example_sentence": "He got an internship at a big tech company.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "remote work",
+      "definition": "trabalho remoto",
+      "example_sentence": "Remote work is now the norm.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hybrid work",
+      "definition": "trabalho híbrido",
+      "example_sentence": "We follow a hybrid work model.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "commute",
+      "definition": "deslocamento para o trabalho",
+      "example_sentence": "My commute is just ten minutes.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "onsite",
+      "definition": "presencial / no local",
+      "example_sentence": "The client meeting is onsite.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "async communication",
+      "definition": "comunicação assíncrona",
+      "example_sentence": "Use async communication across time zones.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sync",
+      "definition": "sincronizar / síncrono",
+      "example_sentence": "Let's sync up before the demo.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alignment",
+      "definition": "alinhamento",
+      "example_sentence": "We need alignment between product and engineering.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bandwidth (personal)",
+      "definition": "capacidade pessoal disponível",
+      "example_sentence": "I don't have the bandwidth for this right now.",
+      "level_id": 1,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

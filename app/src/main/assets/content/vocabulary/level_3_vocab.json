@@ -255,6 +255,1238 @@
       "level_id": 3,
       "category_id": 9,
       "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "unit test",
+      "definition": "teste unitário",
+      "example_sentence": "Write unit tests for every new function.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "integration test",
+      "definition": "teste de integração",
+      "example_sentence": "Integration tests check that components work together.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "coverage",
+      "definition": "cobertura de testes",
+      "example_sentence": "Maintain at least 80% test coverage.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mock",
+      "definition": "mock / objeto simulado",
+      "example_sentence": "Use a mock to simulate the database in tests.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stub",
+      "definition": "stub / simulação",
+      "example_sentence": "A stub returns a fixed response for testing.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "interface",
+      "definition": "interface / contrato",
+      "example_sentence": "Define an interface before implementing the class.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "abstract class",
+      "definition": "classe abstrata",
+      "example_sentence": "Use an abstract class to share common logic.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "inheritance",
+      "definition": "herança (POO)",
+      "example_sentence": "Inheritance allows reusing code across classes.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "polymorphism",
+      "definition": "polimorfismo",
+      "example_sentence": "Polymorphism enables flexible code design.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "encapsulation",
+      "definition": "encapsulamento",
+      "example_sentence": "Encapsulation hides internal implementation details.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SOLID",
+      "definition": "princípios SOLID",
+      "example_sentence": "Follow SOLID principles for clean architecture.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DRY",
+      "definition": "não se repita (DRY)",
+      "example_sentence": "DRY: Don't Repeat Yourself.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "KISS",
+      "definition": "mantenha simples",
+      "example_sentence": "KISS: Keep It Simple, Stupid.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "design pattern",
+      "definition": "padrão de projeto",
+      "example_sentence": "Use the factory design pattern here.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "singleton",
+      "definition": "singleton (padrão)",
+      "example_sentence": "The logger is implemented as a singleton.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "observer",
+      "definition": "observer (padrão)",
+      "example_sentence": "The observer pattern is used for event handling.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "factory",
+      "definition": "factory (padrão)",
+      "example_sentence": "A factory creates objects without exposing the creation logic.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dependency injection",
+      "definition": "injeção de dependência",
+      "example_sentence": "Use dependency injection for testability.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "constructor",
+      "definition": "construtor",
+      "example_sentence": "The constructor initialises the object's properties.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "getter",
+      "definition": "getter / acessor",
+      "example_sentence": "Use a getter to read private properties.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "setter",
+      "definition": "setter / modificador",
+      "example_sentence": "Use a setter to update private properties.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "async",
+      "definition": "assíncrono",
+      "example_sentence": "The API call is async — await the response.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "await",
+      "definition": "aguardar (async)",
+      "example_sentence": "Await the promise before proceeding.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "promise",
+      "definition": "promise / promessa",
+      "example_sentence": "The function returns a promise.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "callback",
+      "definition": "callback / função de retorno",
+      "example_sentence": "Pass a callback to handle the response.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "event",
+      "definition": "evento",
+      "example_sentence": "Listen for the click event on the button.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "listener",
+      "definition": "ouvinte de evento",
+      "example_sentence": "Add an event listener to the button.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "trigger",
+      "definition": "disparar / gatilho",
+      "example_sentence": "The alert was triggered by the threshold breach.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "payload size",
+      "definition": "tamanho do payload",
+      "example_sentence": "Reduce the payload size to improve performance.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pagination",
+      "definition": "paginação",
+      "example_sentence": "Implement pagination to handle large datasets.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "filter",
+      "definition": "filtro",
+      "example_sentence": "Apply a filter to narrow down the results.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sort",
+      "definition": "ordenar",
+      "example_sentence": "Sort the results by creation date.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "search query",
+      "definition": "consulta de busca",
+      "example_sentence": "Optimise the search query for speed.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "primary key",
+      "definition": "chave primária",
+      "example_sentence": "The id field is the primary key.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "join",
+      "definition": "join (SQL)",
+      "example_sentence": "Use a JOIN to combine the two tables.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "aggregate",
+      "definition": "agregação (SQL)",
+      "example_sentence": "Use COUNT and SUM to aggregate data.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "view",
+      "definition": "view (banco de dados)",
+      "example_sentence": "Create a view to simplify complex queries.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stored procedure",
+      "definition": "procedimento armazenado",
+      "example_sentence": "Use a stored procedure for this operation.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "trigger (DB)",
+      "definition": "trigger de banco de dados",
+      "example_sentence": "A trigger fires automatically on insert.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ORM",
+      "definition": "mapeamento objeto-relacional",
+      "example_sentence": "Use an ORM to avoid raw SQL queries.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "connection pool",
+      "definition": "pool de conexões",
+      "example_sentence": "Configure the connection pool size properly.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "deadlock",
+      "definition": "deadlock / impasse",
+      "example_sentence": "The deadlock was caused by two competing transactions.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "shard",
+      "definition": "shard / fragmento de banco",
+      "example_sentence": "Shard the database by user region.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "replication",
+      "definition": "replicação",
+      "example_sentence": "Database replication improves read performance.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "consistency",
+      "definition": "consistência de dados",
+      "example_sentence": "Strong consistency means all reads see the latest write.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "normalization",
+      "definition": "normalização",
+      "example_sentence": "Normalisation reduces data redundancy.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "denormalization",
+      "definition": "desnormalização",
+      "example_sentence": "Denormalization can improve query performance.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cold storage",
+      "definition": "armazenamento frio",
+      "example_sentence": "Archive old data to cold storage.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "blob storage",
+      "definition": "armazenamento de blobs",
+      "example_sentence": "Store images in blob storage.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "object storage",
+      "definition": "armazenamento de objetos",
+      "example_sentence": "S3 is a popular object storage service.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "IAM",
+      "definition": "gerenciamento de identidade e acesso",
+      "example_sentence": "Configure IAM roles for each service.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "VPC",
+      "definition": "nuvem privada virtual",
+      "example_sentence": "Deploy resources inside a VPC for security.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "subnet (cloud)",
+      "definition": "sub-rede na nuvem",
+      "example_sentence": "Use private subnets for database servers.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "security group",
+      "definition": "grupo de segurança",
+      "example_sentence": "Update the security group to allow port 443.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "auto scaling group",
+      "definition": "grupo de escalonamento automático",
+      "example_sentence": "The auto scaling group adds nodes under load.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "elastic IP",
+      "definition": "IP elástico",
+      "example_sentence": "Assign an elastic IP to the NAT gateway.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CloudWatch",
+      "definition": "monitoramento AWS",
+      "example_sentence": "Set up CloudWatch alarms for error rates.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Lambda",
+      "definition": "função serverless (AWS)",
+      "example_sentence": "Use a Lambda function to process S3 events.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ECR",
+      "definition": "registro de containers AWS",
+      "example_sentence": "Push the Docker image to ECR.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ECS",
+      "definition": "serviço de containers AWS",
+      "example_sentence": "Deploy the container using ECS Fargate.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "GCP",
+      "definition": "Google Cloud Platform",
+      "example_sentence": "We are migrating from AWS to GCP.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Azure",
+      "definition": "Microsoft Azure",
+      "example_sentence": "The company uses Azure for most workloads.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "multi-cloud",
+      "definition": "múltiplas nuvens",
+      "example_sentence": "A multi-cloud strategy reduces vendor lock-in.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cost optimisation",
+      "definition": "otimização de custos",
+      "example_sentence": "Reserved instances help with cloud cost optimisation.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tagging",
+      "definition": "marcação de recursos",
+      "example_sentence": "Tag all resources with the project and environment.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "infrastructure",
+      "definition": "infraestrutura",
+      "example_sentence": "The infrastructure is managed with Terraform.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "provisioning",
+      "definition": "provisionamento",
+      "example_sentence": "Automated provisioning speeds up onboarding.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "configuration management",
+      "definition": "gerenciamento de configuração",
+      "example_sentence": "Ansible handles configuration management.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "immutable infrastructure",
+      "definition": "infraestrutura imutável",
+      "example_sentence": "Immutable infrastructure prevents configuration drift.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "golden image",
+      "definition": "imagem base padronizada",
+      "example_sentence": "All VMs are based on the golden image.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "drift",
+      "definition": "desvio de configuração",
+      "example_sentence": "Detect and fix configuration drift automatically.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "network policy",
+      "definition": "política de rede",
+      "example_sentence": "Apply network policies to isolate namespaces.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "namespace",
+      "definition": "namespace / espaço de nomes",
+      "example_sentence": "Each team has its own Kubernetes namespace.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pod",
+      "definition": "pod (Kubernetes)",
+      "example_sentence": "The pod restarted three times today.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "node",
+      "definition": "nó (cluster)",
+      "example_sentence": "Add a node to increase cluster capacity.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cluster",
+      "definition": "cluster / agrupamento",
+      "example_sentence": "The production cluster has 20 nodes.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "workload",
+      "definition": "carga de trabalho",
+      "example_sentence": "Schedule the workload on the appropriate node.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "container image",
+      "definition": "imagem de container",
+      "example_sentence": "Build and push the container image to the registry.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Dockerfile",
+      "definition": "arquivo de build Docker",
+      "example_sentence": "Write a Dockerfile to containerise the app.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "docker-compose",
+      "definition": "orquestração local Docker",
+      "example_sentence": "Use docker-compose for local development.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "entrypoint",
+      "definition": "ponto de entrada do container",
+      "example_sentence": "Define the entrypoint in the Dockerfile.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "volume",
+      "definition": "volume (container)",
+      "example_sentence": "Mount a volume to persist data.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "network bridge",
+      "definition": "bridge de rede Docker",
+      "example_sentence": "Containers on the same bridge can communicate.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "health check",
+      "definition": "verificação de saúde",
+      "example_sentence": "Add a health check endpoint to the service.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "readiness probe",
+      "definition": "sonda de prontidão",
+      "example_sentence": "The readiness probe prevents premature traffic.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "liveness probe",
+      "definition": "sonda de vivacidade",
+      "example_sentence": "A failed liveness probe restarts the container.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "resource limits",
+      "definition": "limites de recursos",
+      "example_sentence": "Set CPU and memory resource limits.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "horizontal scaling",
+      "definition": "escalonamento horizontal",
+      "example_sentence": "Add more instances — horizontal scaling.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "vertical scaling",
+      "definition": "escalonamento vertical",
+      "example_sentence": "Increase the instance size — vertical scaling.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "rate limiting",
+      "definition": "limitação de taxa",
+      "example_sentence": "Rate limiting prevents API abuse.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "throttling",
+      "definition": "limitação de velocidade",
+      "example_sentence": "Throttling protects the backend from overload.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "circuit breaker",
+      "definition": "disjuntor de circuito",
+      "example_sentence": "The circuit breaker opens after five failures.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "retry logic",
+      "definition": "lógica de tentativas",
+      "example_sentence": "Implement retry logic with exponential backoff.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "exponential backoff",
+      "definition": "espera exponencial",
+      "example_sentence": "Use exponential backoff to avoid thundering herd.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bulkhead",
+      "definition": "padrão bulkhead",
+      "example_sentence": "Bulkhead isolation prevents cascading failures.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "graceful shutdown",
+      "definition": "desligamento elegante",
+      "example_sentence": "Handle SIGTERM for a graceful shutdown.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "blue-green deployment",
+      "definition": "deploy blue-green",
+      "example_sentence": "Blue-green deployment minimises downtime.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "canary release",
+      "definition": "release canário",
+      "example_sentence": "A canary release exposes a small percentage to the new version.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "feature flag",
+      "definition": "flag de funcionalidade",
+      "example_sentence": "Use a feature flag to enable the feature gradually.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "A/B testing",
+      "definition": "teste A/B",
+      "example_sentence": "Run an A/B test to compare two designs.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "chaos engineering",
+      "definition": "engenharia de caos",
+      "example_sentence": "Chaos engineering tests system resilience.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "game day",
+      "definition": "dia de simulação de falhas",
+      "example_sentence": "We run a game day once a quarter.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "blameless postmortem",
+      "definition": "post-mortem sem culpas",
+      "example_sentence": "Write a blameless post-mortem after every incident.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "root cause analysis",
+      "definition": "análise de causa raiz",
+      "example_sentence": "The root cause analysis revealed a race condition.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "MTTR",
+      "definition": "tempo médio de recuperação",
+      "example_sentence": "Reduce MTTR by improving runbooks.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "MTTD",
+      "definition": "tempo médio de detecção",
+      "example_sentence": "Lower MTTD by adding better alerting.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alert fatigue",
+      "definition": "fadiga de alertas",
+      "example_sentence": "Too many alerts cause alert fatigue.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "on-call rotation",
+      "definition": "escala de plantão",
+      "example_sentence": "The on-call rotation changes every week.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "escalation",
+      "definition": "escalonamento de incidente",
+      "example_sentence": "Escalate the incident if unresolved in 15 minutes.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "severity",
+      "definition": "severidade",
+      "example_sentence": "This is a severity-1 incident — all hands on deck.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "war room",
+      "definition": "sala de crise",
+      "example_sentence": "We opened a war room to tackle the outage.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "status page",
+      "definition": "página de status",
+      "example_sentence": "Update the status page during incidents.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SRE",
+      "definition": "engenheiro de confiabilidade",
+      "example_sentence": "The SRE team owns reliability.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "platform team",
+      "definition": "time de plataforma",
+      "example_sentence": "The platform team maintains the CI/CD tooling.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "developer experience",
+      "definition": "experiência do desenvolvedor",
+      "example_sentence": "Improve developer experience with better tooling.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "inner loop",
+      "definition": "loop de desenvolvimento local",
+      "example_sentence": "Optimise the inner loop to speed up iterations.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "GitOps",
+      "definition": "operações baseadas em Git",
+      "example_sentence": "GitOps uses Git as the source of truth.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ArgoCD",
+      "definition": "ferramenta de deploy GitOps",
+      "example_sentence": "ArgoCD syncs Kubernetes with the Git repo.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "FluxCD",
+      "definition": "ferramenta de deploy GitOps",
+      "example_sentence": "FluxCD is a GitOps operator for Kubernetes.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Prometheus",
+      "definition": "sistema de monitoramento",
+      "example_sentence": "Prometheus scrapes metrics from all services.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Grafana",
+      "definition": "plataforma de dashboards",
+      "example_sentence": "Grafana visualises Prometheus metrics.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "Jaeger",
+      "definition": "ferramenta de tracing",
+      "example_sentence": "Jaeger provides distributed tracing.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "ELK stack",
+      "definition": "stack de logs Elasticsearch",
+      "example_sentence": "The ELK stack centralises application logs.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "OpenTelemetry",
+      "definition": "observabilidade padronizada",
+      "example_sentence": "Instrument the app with OpenTelemetry.",
+      "level_id": 3,
+      "category_id": 9,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "idempotent",
+      "definition": "idempotente",
+      "example_sentence": "An idempotent operation produces the same result when repeated.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pure function",
+      "definition": "função pura",
+      "example_sentence": "A pure function has no side effects.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "side effect",
+      "definition": "efeito colateral",
+      "example_sentence": "Avoid side effects in pure functions.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "immutable",
+      "definition": "imutável",
+      "example_sentence": "Use immutable data structures for concurrency.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mutable",
+      "definition": "mutável",
+      "example_sentence": "Mutable state is a common source of bugs.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "thread-safe",
+      "definition": "seguro para threads",
+      "example_sentence": "Make sure the singleton is thread-safe.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "race condition",
+      "definition": "condição de corrida",
+      "example_sentence": "The race condition caused intermittent failures.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mutex",
+      "definition": "mutex / exclusão mútua",
+      "example_sentence": "Use a mutex to protect the shared resource.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "semaphore",
+      "definition": "semáforo",
+      "example_sentence": "A semaphore controls access to a pool of resources.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "garbage collection",
+      "definition": "coleta de lixo",
+      "example_sentence": "GC pauses can cause latency spikes.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "memory leak",
+      "definition": "vazamento de memória",
+      "example_sentence": "The memory leak caused the process to crash.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "heap",
+      "definition": "heap (memória)",
+      "example_sentence": "The object is allocated on the heap.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "stack (memory)",
+      "definition": "pilha (memória)",
+      "example_sentence": "Local variables are stored on the stack.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "profiler",
+      "definition": "perfilador",
+      "example_sentence": "Use a profiler to find the hot path.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "benchmark",
+      "definition": "benchmark / medição de desempenho",
+      "example_sentence": "Run a benchmark before and after the change.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "byte",
+      "definition": "byte",
+      "example_sentence": "The payload size is 512 bytes.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "encoding",
+      "definition": "codificação",
+      "example_sentence": "Use UTF-8 encoding for all text fields.",
+      "level_id": 3,
+      "category_id": 8,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "serialisation",
+      "definition": "serialização",
+      "example_sentence": "Serialise the object to JSON before sending.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "deserialisation",
+      "definition": "desserialização",
+      "example_sentence": "Deserialise the response into a typed object.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "compression",
+      "definition": "compressão",
+      "example_sentence": "Enable gzip compression to reduce payload size.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "legacy code",
+      "definition": "código legado",
+      "example_sentence": "The legacy code is hard to maintain.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "technical spike",
+      "definition": "spike técnico",
+      "example_sentence": "Do a technical spike to evaluate the library.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hard requirement",
+      "definition": "requisito obrigatório",
+      "example_sentence": "HTTPS is a hard requirement.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "soft requirement",
+      "definition": "requisito desejável",
+      "example_sentence": "Dark mode is a soft requirement.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "workaround",
+      "definition": "solução temporária",
+      "example_sentence": "Apply the workaround until the real fix is ready.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "hotspot",
+      "definition": "ponto crítico de código",
+      "example_sentence": "Refactor the hotspot to reduce complexity.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tech debt backlog",
+      "definition": "backlog de dívida técnica",
+      "example_sentence": "Add it to the tech debt backlog.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pair programming",
+      "definition": "programação em par",
+      "example_sentence": "We use pair programming for complex tasks.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mob programming",
+      "definition": "programação em grupo",
+      "example_sentence": "The team did mob programming to solve the problem.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "code kata",
+      "definition": "exercício de programação",
+      "example_sentence": "Practice code katas to improve skills.",
+      "level_id": 3,
+      "category_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }

@@ -191,6 +191,774 @@
       "level_id": 4,
       "category_id": 12,
       "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SRE",
+      "definition": "engenheiro de confiabilidade de site",
+      "example_sentence": "The SRE team owns the production environment.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "error budget",
+      "definition": "orçamento de erros",
+      "example_sentence": "We have used 60% of our error budget.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SLA",
+      "definition": "acordo de nível de serviço",
+      "example_sentence": "The SLA guarantees 99.5% uptime.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SLI",
+      "definition": "indicador de nível de serviço",
+      "example_sentence": "Define SLIs before setting SLOs.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "toil",
+      "definition": "trabalho manual repetitivo",
+      "example_sentence": "Automate toil to free up engineering time.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "immutable deployment",
+      "definition": "deploy imutável",
+      "example_sentence": "Immutable deployments never modify running instances.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "progressive delivery",
+      "definition": "entrega progressiva",
+      "example_sentence": "Progressive delivery reduces deployment risk.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "feature toggle",
+      "definition": "toggle de funcionalidade",
+      "example_sentence": "Use a feature toggle to control rollout.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "gitflow",
+      "definition": "fluxo de trabalho Git",
+      "example_sentence": "The team follows Gitflow for releases.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "trunk-based development",
+      "definition": "desenvolvimento baseado no trunk",
+      "example_sentence": "Trunk-based development reduces merge conflicts.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "static analysis",
+      "definition": "análise estática",
+      "example_sentence": "Run static analysis to catch bugs early.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SAST",
+      "definition": "teste de segurança estático",
+      "example_sentence": "SAST scans the code for vulnerabilities.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DAST",
+      "definition": "teste de segurança dinâmico",
+      "example_sentence": "DAST tests the running application.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "supply chain security",
+      "definition": "segurança da cadeia de suprimentos",
+      "example_sentence": "Verify dependency integrity for supply chain security.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "CVE",
+      "definition": "vulnerabilidade e exposição comum",
+      "example_sentence": "This CVE affects OpenSSL below 3.0.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "zero trust",
+      "definition": "confiança zero",
+      "example_sentence": "Zero trust means never trust, always verify.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "least privilege",
+      "definition": "privilégio mínimo",
+      "example_sentence": "Apply the principle of least privilege.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "secret rotation",
+      "definition": "rotação de segredos",
+      "example_sentence": "Rotate secrets automatically every 30 days.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "mTLS",
+      "definition": "TLS mútuo",
+      "example_sentence": "Use mTLS for service-to-service authentication.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "WAF",
+      "definition": "firewall de aplicação web",
+      "example_sentence": "The WAF blocks common web attacks.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "DDoS protection",
+      "definition": "proteção contra DDoS",
+      "example_sentence": "Enable DDoS protection at the edge.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "compliance",
+      "definition": "conformidade",
+      "example_sentence": "We must achieve SOC 2 compliance.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "audit log",
+      "definition": "log de auditoria",
+      "example_sentence": "All admin actions are recorded in the audit log.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "data residency",
+      "definition": "residência de dados",
+      "example_sentence": "GDPR requires data residency in the EU.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "domain-driven design",
+      "definition": "design orientado ao domínio",
+      "example_sentence": "We use domain-driven design for the core modules.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "bounded context",
+      "definition": "contexto delimitado",
+      "example_sentence": "Each microservice owns its bounded context.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "aggregate root",
+      "definition": "raiz de agregado",
+      "example_sentence": "The Order aggregate root manages order items.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "event sourcing",
+      "definition": "sourcing de eventos",
+      "example_sentence": "Event sourcing stores all state changes as events.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "eventual consistency",
+      "definition": "consistência eventual",
+      "example_sentence": "Eventual consistency is acceptable for this use case.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "two-phase commit",
+      "definition": "commit em duas fases",
+      "example_sentence": "Two-phase commit ensures distributed transaction atomicity.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "saga",
+      "definition": "padrão saga",
+      "example_sentence": "Use the saga pattern for long-running transactions.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "outbox pattern",
+      "definition": "padrão outbox",
+      "example_sentence": "The outbox pattern ensures reliable event publishing.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API versioning",
+      "definition": "versionamento de API",
+      "example_sentence": "Use URL versioning: /api/v1 and /api/v2.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "backward compatibility",
+      "definition": "compatibilidade retroativa",
+      "example_sentence": "Maintain backward compatibility when changing APIs.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "contract testing",
+      "definition": "teste de contrato",
+      "example_sentence": "Pact is a contract testing framework.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "consumer-driven contract",
+      "definition": "contrato orientado ao consumidor",
+      "example_sentence": "Consumer-driven contracts prevent breaking changes.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API deprecation",
+      "definition": "depreciação de API",
+      "example_sentence": "Announce API deprecation at least six months ahead.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "GraphQL",
+      "definition": "linguagem de consulta de API",
+      "example_sentence": "GraphQL lets clients request exactly the data they need.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "gRPC",
+      "definition": "protocolo de chamada remota",
+      "example_sentence": "gRPC is faster than REST for internal services.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "protocol buffer",
+      "definition": "buffer de protocolo",
+      "example_sentence": "Define the schema using a protocol buffer.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "service discovery",
+      "definition": "descoberta de serviços",
+      "example_sentence": "Consul handles service discovery in our cluster.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "configuration drift",
+      "definition": "desvio de configuração",
+      "example_sentence": "Prevent configuration drift with GitOps.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "runbook automation",
+      "definition": "automação de runbook",
+      "example_sentence": "Automate runbooks to reduce manual toil.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "playbook",
+      "definition": "playbook / manual",
+      "example_sentence": "Follow the incident playbook step by step.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "capacity planning",
+      "definition": "planejamento de capacidade",
+      "example_sentence": "Capacity planning prevents resource shortages.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "cost allocation",
+      "definition": "alocação de custos",
+      "example_sentence": "Tag resources for accurate cost allocation.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "FinOps",
+      "definition": "gestão financeira de nuvem",
+      "example_sentence": "FinOps aligns cloud spending with business value.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "reserved instance",
+      "definition": "instância reservada",
+      "example_sentence": "Buy reserved instances for predictable workloads.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "spot instance",
+      "definition": "instância spot",
+      "example_sentence": "Use spot instances for fault-tolerant batch jobs.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "egress cost",
+      "definition": "custo de saída de dados",
+      "example_sentence": "Egress cost increases with cross-region traffic.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "observability platform",
+      "definition": "plataforma de observabilidade",
+      "example_sentence": "The observability platform unifies logs, metrics, traces.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "golden signals",
+      "definition": "sinais dourados (SRE)",
+      "example_sentence": "Monitor the four golden signals: latency, traffic, errors, saturation.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "saturation",
+      "definition": "saturação de recurso",
+      "example_sentence": "CPU saturation causes increased latency.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "p99 latency",
+      "definition": "latência no percentil 99",
+      "example_sentence": "Optimise p99 latency to improve user experience.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "histogram",
+      "definition": "histograma",
+      "example_sentence": "Use a histogram to understand latency distribution.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "counter",
+      "definition": "contador (métrica)",
+      "example_sentence": "A counter only increments — use it for request counts.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "gauge",
+      "definition": "medidor (métrica)",
+      "example_sentence": "A gauge can increase or decrease — use it for queue size.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "span",
+      "definition": "span (tracing)",
+      "example_sentence": "Each span represents a single operation in a trace.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "context propagation",
+      "definition": "propagação de contexto",
+      "example_sentence": "Context propagation passes trace IDs across services.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "sampling",
+      "definition": "amostragem de traces",
+      "example_sentence": "Use head-based sampling to reduce trace volume.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "log aggregation",
+      "definition": "agregação de logs",
+      "example_sentence": "Log aggregation centralises all service logs.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "structured logging",
+      "definition": "logging estruturado",
+      "example_sentence": "Structured logging makes logs machine-readable.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "correlation ID",
+      "definition": "ID de correlação",
+      "example_sentence": "Add a correlation ID to every log entry.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "APM",
+      "definition": "monitoramento de desempenho de app",
+      "example_sentence": "APM tools show slow transactions and errors.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "real user monitoring",
+      "definition": "monitoramento de usuário real",
+      "example_sentence": "RUM captures page load times from real users.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "synthetic monitoring",
+      "definition": "monitoramento sintético",
+      "example_sentence": "Synthetic monitoring simulates user journeys.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "golden signal",
+      "definition": "sinal dourado",
+      "example_sentence": "Monitor the four golden signals.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "noise ratio",
+      "definition": "razão sinal-ruído",
+      "example_sentence": "Improve the signal-to-noise ratio of alerts.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "trace",
+      "definition": "rastreamento",
+      "example_sentence": "Each request generates a distributed trace.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "flame graph",
+      "definition": "gráfico de chama",
+      "example_sentence": "Use a flame graph to visualise CPU usage.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "profiling",
+      "definition": "perfilamento",
+      "example_sentence": "Profile the application to find bottlenecks.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "pod disruption budget",
+      "definition": "orçamento de disrupção de pod",
+      "example_sentence": "Set a pod disruption budget for zero-downtime updates.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "network policy",
+      "definition": "política de rede",
+      "example_sentence": "Apply a network policy to restrict traffic.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "image scanning",
+      "definition": "varredura de imagem",
+      "example_sentence": "Scan container images for vulnerabilities.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "SBOM",
+      "definition": "lista de materiais de software",
+      "example_sentence": "Generate an SBOM as part of the release.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "code signing",
+      "definition": "assinatura de código",
+      "example_sentence": "Sign the artifact to verify its integrity.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "supply chain attack",
+      "definition": "ataque à cadeia de suprimentos",
+      "example_sentence": "A supply chain attack targets dependencies.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dependency confusion",
+      "definition": "confusão de dependência",
+      "example_sentence": "Dependency confusion tricks the package manager.",
+      "level_id": 4,
+      "category_id": 11,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API contract",
+      "definition": "contrato de API",
+      "example_sentence": "Validate the API contract with Pact tests.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "service interface",
+      "definition": "interface de serviço",
+      "example_sentence": "Define the service interface in a proto file.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "distributed system",
+      "definition": "sistema distribuído",
+      "example_sentence": "Distributed systems are hard to debug.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "fallback",
+      "definition": "fallback / plano B",
+      "example_sentence": "Implement a fallback for when the service is down.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "timeout policy",
+      "definition": "política de timeout",
+      "example_sentence": "Set a timeout policy on all outbound calls.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dead code",
+      "definition": "código morto",
+      "example_sentence": "Remove dead code to reduce maintenance burden.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "tech radar",
+      "definition": "radar de tecnologia",
+      "example_sentence": "Add the tool to the tech radar.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "proof of work",
+      "definition": "prova de trabalho",
+      "example_sentence": "Submit a proof of work spike.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "continuous feedback",
+      "definition": "feedback contínuo",
+      "example_sentence": "Continuous feedback accelerates learning.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "blameless culture",
+      "definition": "cultura sem culpas",
+      "example_sentence": "A blameless culture improves incident response.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "psychological safety",
+      "definition": "segurança psicológica",
+      "example_sentence": "Psychological safety enables honest conversations.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "engineering excellence",
+      "definition": "excelência em engenharia",
+      "example_sentence": "Engineering excellence is a core value.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "documentation as code",
+      "definition": "documentação como código",
+      "example_sentence": "Treat documentation as code — version it.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "runbook (ops)",
+      "definition": "runbook operacional",
+      "example_sentence": "Keep the runbook updated after every incident.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "alert routing",
+      "definition": "roteamento de alertas",
+      "example_sentence": "Configure alert routing to the correct team.",
+      "level_id": 4,
+      "category_id": 10,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "dependency graph",
+      "definition": "grafo de dependências",
+      "example_sentence": "Visualise the dependency graph to find risks.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "service catalogue",
+      "definition": "catálogo de serviços",
+      "example_sentence": "Register the service in the service catalogue.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&auto=format&q=80"
+    },
+    {
+      "word": "API mesh",
+      "definition": "malha de APIs",
+      "example_sentence": "An API mesh connects multiple API gateways.",
+      "level_id": 4,
+      "category_id": 12,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop&auto=format&q=80"
     }
   ]
 }
