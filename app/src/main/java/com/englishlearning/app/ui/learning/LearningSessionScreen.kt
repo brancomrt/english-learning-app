@@ -20,6 +20,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.HelpOutline
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LightbulbCircle
+import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -155,6 +156,9 @@ private fun ExerciseContent(
     val hasResult = state.lastValidationResult != null
     val canRequestMoreHints = state.revealedHints.size < exercise.hints.size
 
+    // Controla exibição do bottom sheet de teoria gramatical
+    var showTheorySheet by rememberSaveable { mutableStateOf(false) }
+
     // Lança o reconhecedor de voz do sistema em inglês
     val launchSpeech = rememberSpeechLauncher { transcribed ->
         questionInput = transcribed
@@ -168,6 +172,14 @@ private fun ExerciseContent(
     val primaryAnswer = remember(exercise.id) {
         exercise.acceptedAnswers.firstOrNull { it.isPrimary }
             ?: exercise.acceptedAnswers.firstOrNull()
+    }
+
+    // Bottom sheet de teoria gramatical
+    if (showTheorySheet) {
+        GrammarTheorySheet(
+            grammarFocus = exercise.grammarFocus,
+            onDismiss = { showTheorySheet = false }
+        )
     }
 
     Scaffold(
@@ -204,6 +216,25 @@ private fun ExerciseContent(
                     displayText = exercise.displayText,
                     label = if (isAnswerMode) "Pergunta" else "Resposta"
                 )
+
+                // Botão de teoria gramatical
+                if (!hasResult) {
+                    androidx.compose.material3.TextButton(
+                        onClick = { showTheorySheet = true },
+                        modifier = Modifier.align(Alignment.End)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Filled.MenuBook,
+                            contentDescription = null,
+                            modifier = Modifier.size(16.dp)
+                        )
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text(
+                            text = "📖 Ver teoria",
+                            style = MaterialTheme.typography.labelMedium
+                        )
+                    }
+                }
 
                 // Campo de texto + botão de microfone lado a lado
                 Row(
