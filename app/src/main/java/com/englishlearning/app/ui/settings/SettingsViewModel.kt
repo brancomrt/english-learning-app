@@ -27,7 +27,9 @@ data class SettingsUiState(
     val isLoading: Boolean = true,
     val levelSettings: List<LevelQuestionSetting> = emptyList(),
     /** ID do nível para o qual o diálogo de confirmação de desbloqueio está aberto. */
-    val confirmUnlockLevelId: Int? = null
+    val confirmUnlockLevelId: Int? = null,
+    /** Limite de cards de vocabulário por sessão. -1 = sem limite. */
+    val vocabLimit: Int = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT
 )
 
 @HiltViewModel
@@ -54,7 +56,11 @@ class SettingsViewModel @Inject constructor(
                     isUnlocked = level.isUnlocked
                 )
             }
-            _uiState.value = SettingsUiState(isLoading = false, levelSettings = settings)
+            _uiState.value = SettingsUiState(
+                isLoading = false,
+                levelSettings = settings,
+                vocabLimit = settingsRepository.getVocabLimit()
+            )
         }
     }
 
@@ -67,12 +73,19 @@ class SettingsViewModel @Inject constructor(
         )
     }
 
+    fun updateVocabLimit(limit: Int) {
+        settingsRepository.setVocabLimit(limit)
+        _uiState.value = _uiState.value.copy(vocabLimit = limit)
+    }
+
     fun resetAllToDefault() {
         _uiState.value.levelSettings.forEach { s ->
             settingsRepository.setQuestionsLimit(s.levelId, DEFAULT_QUESTIONS)
         }
+        settingsRepository.setVocabLimit(com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT)
         _uiState.value = _uiState.value.copy(
-            levelSettings = _uiState.value.levelSettings.map { it.copy(currentLimit = DEFAULT_QUESTIONS) }
+            levelSettings = _uiState.value.levelSettings.map { it.copy(currentLimit = DEFAULT_QUESTIONS) },
+            vocabLimit = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT
         )
     }
 

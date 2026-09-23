@@ -123,7 +123,23 @@ fun SettingsScreen(
                 item {
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
-                        text = "Questões por sessão",
+                        text = "Vocabulário — cards por sessão",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = "Quantos cards de vocabulário aparecem em cada sessão de revisão.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    VocabLimitCard(
+                        currentLimit = uiState.vocabLimit,
+                        onLimitChange = { viewModel.updateVocabLimit(it) }
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "Exercícios — questões por sessão",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold
                     )
@@ -169,6 +185,72 @@ fun SettingsScreen(
                     }
                     Spacer(modifier = Modifier.height(16.dp))
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun VocabLimitCard(
+    currentLimit: Int,
+    onLimitChange: (Int) -> Unit
+) {
+    val isUnlimited = currentLimit <= 0
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
+    ) {
+        Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = "📚 Vocabulário",
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    Text(
+                        text = "Todos os níveis e categorias",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                Text(
+                    text = if (isUnlimited) "Sem limite" else "$currentLimit cards",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+            Spacer(modifier = Modifier.height(12.dp))
+            Slider(
+                value = currentLimit.toFloat(),
+                onValueChange = { onLimitChange(it.roundToInt()) },
+                valueRange = com.englishlearning.app.data.repository.SessionSettingsRepository.MIN_VOCAB.toFloat()..
+                             com.englishlearning.app.data.repository.SessionSettingsRepository.MAX_VOCAB.toFloat(),
+                steps = ((com.englishlearning.app.data.repository.SessionSettingsRepository.MAX_VOCAB -
+                         com.englishlearning.app.data.repository.SessionSettingsRepository.MIN_VOCAB) / 5) - 1,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = "${com.englishlearning.app.data.repository.SessionSettingsRepository.MIN_VOCAB}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Text(
+                    text = "${com.englishlearning.app.data.repository.SessionSettingsRepository.MAX_VOCAB}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
             }
         }
     }

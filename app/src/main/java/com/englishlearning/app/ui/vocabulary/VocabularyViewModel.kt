@@ -8,6 +8,7 @@ import com.englishlearning.app.domain.gamification.SrsRating
 import com.englishlearning.app.domain.model.Category
 import com.englishlearning.app.domain.model.Level
 import com.englishlearning.app.domain.model.SrsCardType
+import com.englishlearning.app.data.repository.SessionSettingsRepository
 import com.englishlearning.app.domain.repository.ContentRepository
 import com.englishlearning.app.domain.repository.SrsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -57,7 +58,8 @@ sealed class VocabularyUiState {
 class VocabularyViewModel @Inject constructor(
     private val contentRepository: ContentRepository,
     private val srsRepository: SrsRepository,
-    private val vocabularyDao: VocabularyDao
+    private val vocabularyDao: VocabularyDao,
+    private val settingsRepository: SessionSettingsRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<VocabularyUiState>(VocabularyUiState.Loading)
@@ -124,9 +126,11 @@ class VocabularyViewModel @Inject constructor(
             .filter { it.cardType == SrsCardType.VOCABULARY }
             .map { it.refId }
             .toSet()
-        val dueIds = allCards.filter { it.id in srsCards }.size
-        val newIds = allCards.filter { it.id !in getAllSrsRefIds() }.size
-        return Pair(dueIds, newIds)
+        val dueCount = allCards.filter { it.id in srsCards }.size
+        val vocabLimit = settingsRepository.getVocabLimit()
+        val allNew = allCards.filter { it.id !in getAllSrsRefIds() }
+        val newCount = allNew.take((vocabLimit - dueCount).coerceAtLeast(0)).size
+        return Pair(dueCount, newCount)
     }
 
     private suspend fun getAllSrsRefIds(): Set<Long> {
@@ -153,7 +157,9 @@ class VocabularyViewModel @Inject constructor(
 
             // Ordem: cards devidos primeiro, depois novos (máx 20 por sessão)
             val due = allCards.filter { it.id in dueIds }
-            val new = allCards.filter { it.id !in allSrsIds }.take((20 - due.size).coerceAtLeast(0))
+            val vocabLimit = settingsRepository.getVocabLimit()
+            val newLimit = (vocabLimit - due.size).coerceAtLeast(0)
+            val new = allCards.filter { it.id !in allSrsIds }.take(newLimit)
 
             sessionQueue.clear()
             sessionQueue.addAll(due.shuffled() + new)

@@ -49,10 +49,31 @@ class SessionSettingsRepository @Inject constructor(
 
     private fun keyFor(levelId: Int) = "questions_limit_level_$levelId"
 
+    // ── Vocabulário ─────────────────────────────────────────────────────────
+
+    /**
+     * Retorna o limite de cards de vocabulário por sessão.
+     * -1 = sem limite (todos os cards disponíveis).
+     */
+    fun getVocabLimit(): Int =
+        prefs.getInt(KEY_VOCAB_LIMIT, DEFAULT_VOCAB_LIMIT)
+
+    /**
+     * Salva o limite de cards de vocabulário por sessão.
+     * -1 = sem limite.
+     */
+    fun setVocabLimit(limit: Int) {
+        prefs.edit().putInt(KEY_VOCAB_LIMIT, limit).apply()
+    }
+
     companion object {
         private const val PREFS_NAME = "app_prefs"
         const val MIN_QUESTIONS = 5
         const val MAX_QUESTIONS = 50
         const val DEFAULT_QUESTIONS = 10
+        const val KEY_VOCAB_LIMIT = "vocab_session_limit"
+        const val DEFAULT_VOCAB_LIMIT = 20
+        const val MIN_VOCAB = 5
+        const val MAX_VOCAB = 100
     }
 }
