@@ -1550,5 +1550,623 @@
         "hint_type": "answer"
       }
     ]
+  },
+  {
+    "id": 33,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "Yes, it is. It's a book.",
+    "prompt_text": "Is this a book?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - to be, short answers with confirmation",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 78,
+        "question_text": "Yes, it is.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 79,
+        "question_text": "Yes, it is. It's a book.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 97,
+        "hint_order": 1,
+        "hint_text": "Callan tip: always answer with a full sentence.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 98,
+        "hint_order": 2,
+        "hint_text": "'Yes, it is.' confirms. Add: 'It's a book.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 99,
+        "hint_order": 3,
+        "hint_text": "Yes, it is. It's a book.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "No, it isn't. It's a pen.",
+    "prompt_text": "Is this a book?",
+    "context_text": "Pointing at a pen.",
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - negative short answers",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 80,
+        "question_text": "No, it isn't.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 81,
+        "question_text": "No, it isn't. It's a pen.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 82,
+        "question_text": "No, it is not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 100,
+        "hint_order": 1,
+        "hint_text": "Negative answer first, then correct it.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 101,
+        "hint_order": 2,
+        "hint_text": "'No, it isn't.' + 'It's a...'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 102,
+        "hint_order": 3,
+        "hint_text": "No, it isn't. It's a pen.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "Yes, I am. I'm a student.",
+    "prompt_text": "Are you a student?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - am, full answer Callan style",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 83,
+        "question_text": "Yes, I am.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 84,
+        "question_text": "Yes, I am. I'm a student.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 103,
+        "hint_order": 1,
+        "hint_text": "Short answer + repeat as full sentence.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 104,
+        "hint_order": 2,
+        "hint_text": "'Yes, I am. I'm a [noun].'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 105,
+        "hint_order": 3,
+        "hint_text": "Yes, I am. I'm a student.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "No, I'm not. I'm not a teacher.",
+    "prompt_text": "Are you a teacher?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - I'm not, negative full answer",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 85,
+        "question_text": "No, I'm not.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 86,
+        "question_text": "No, I'm not. I'm not a teacher.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 87,
+        "question_text": "No, I am not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 106,
+        "hint_order": 1,
+        "hint_text": "Use 'No, I'm not.' then deny the statement.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 107,
+        "hint_order": 2,
+        "hint_text": "'I'm not' = 'I am not' contracted.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 108,
+        "hint_order": 3,
+        "hint_text": "No, I'm not. I'm not a teacher.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "That is a table.",
+    "prompt_text": "What is that?",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - demonstratives that/this",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 88,
+        "question_text": "That is a table.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 89,
+        "question_text": "That's a table.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 90,
+        "question_text": "It is a table.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 109,
+        "hint_order": 1,
+        "hint_text": "Use 'That is a...' or 'That's a...' (contraction).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 110,
+        "hint_order": 2,
+        "hint_text": "'That is' = 'That's'. Both correct.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 111,
+        "hint_order": 3,
+        "hint_text": "That is a table. / That's a table.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I'm sitting on a chair.",
+    "prompt_text": "What are you sitting on?",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present continuous - I'm + verb-ing",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 91,
+        "question_text": "I'm sitting on a chair.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 92,
+        "question_text": "I am sitting on a chair.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 112,
+        "hint_order": 1,
+        "hint_text": "Use present continuous: I'm + verb-ing.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 113,
+        "hint_order": 2,
+        "hint_text": "I'm sitting on a...",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 114,
+        "hint_order": 3,
+        "hint_text": "I'm sitting on a chair.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "The book is on the table.",
+    "prompt_text": "Where is the book?",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "prepositions of place - on/in/under",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 93,
+        "question_text": "The book is on the table.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 94,
+        "question_text": "It's on the table.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 95,
+        "question_text": "It is on the table.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 115,
+        "hint_order": 1,
+        "hint_text": "Use 'The [noun] is [preposition] the [place].'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 116,
+        "hint_order": 2,
+        "hint_text": "Prepositions: on, in, under, next to, between.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 117,
+        "hint_order": 3,
+        "hint_text": "The book is on the table.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "It's three o'clock.",
+    "prompt_text": "What time is it?",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "telling the time - it's + time",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 96,
+        "question_text": "It's three o'clock.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 97,
+        "question_text": "It is three o'clock.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 98,
+        "question_text": "It's three.",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 118,
+        "hint_order": 1,
+        "hint_text": "Use 'It's [time] o'clock.'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 119,
+        "hint_order": 2,
+        "hint_text": "'It's' = 'It is'. Always use 'It' for time.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 120,
+        "hint_order": 3,
+        "hint_text": "It's three o'clock.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "There are two windows in this room.",
+    "prompt_text": "How many windows are there in this room?",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "there are - quantities",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 99,
+        "question_text": "There are two windows in this room.",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 100,
+        "question_text": "There are two windows.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 121,
+        "hint_order": 1,
+        "hint_text": "Use 'There are [number] [noun].'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 122,
+        "hint_order": 2,
+        "hint_text": "Callan: repeat the full question structure in the answer.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 123,
+        "hint_order": 3,
+        "hint_text": "There are two windows in this room.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I go to work by bus.",
+    "prompt_text": "How do you go to work?",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - means of transport",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 101,
+        "question_text": "I go to work by bus.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 102,
+        "question_text": "I go by bus.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
+    ],
+    "hints": [
+      {
+        "id": 124,
+        "hint_order": 1,
+        "hint_text": "Use 'I go to work by [transport].'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 125,
+        "hint_order": 2,
+        "hint_text": "by bus / by car / by train / on foot",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 126,
+        "hint_order": 3,
+        "hint_text": "I go to work by bus.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I work from nine to five.",
+    "prompt_text": "What hours do you work?",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - work schedule, from...to",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 103,
+        "question_text": "I work from nine to five.",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 104,
+        "question_text": "I work from 9 to 5.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 105,
+        "question_text": "From nine to five.",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 127,
+        "hint_order": 1,
+        "hint_text": "Use 'I work from [time] to [time].'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 128,
+        "hint_order": 2,
+        "hint_text": "from...to = de...até",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 129,
+        "hint_order": 3,
+        "hint_text": "I work from nine to five.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "No, he isn't. He's at home.",
+    "prompt_text": "Is he at work?",
+    "context_text": null,
+    "question_type": "YES_NO",
+    "exercise_mode": "ANSWER_FROM_QUESTION",
+    "grammar_focus": "present simple - he isn't, location",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 106,
+        "question_text": "No, he isn't.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 107,
+        "question_text": "No, he isn't. He's at home.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 108,
+        "question_text": "No, he is not.",
+        "is_primary": false,
+        "match_threshold": 0.9
+      }
+    ],
+    "hints": [
+      {
+        "id": 130,
+        "hint_order": 1,
+        "hint_text": "Negative: 'No, he isn't.' Then say where he IS.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 131,
+        "hint_order": 2,
+        "hint_text": "'He isn't' = 'He is not'. Contraction is more natural.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 132,
+        "hint_order": 3,
+        "hint_text": "No, he isn't. He's at home.",
+        "hint_type": "answer"
+      }
+    ]
   }
 ]

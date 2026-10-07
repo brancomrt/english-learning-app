@@ -2,6 +2,8 @@ package com.englishlearning.app.ui.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.englishlearning.app.data.repository.AppLanguage
+import com.englishlearning.app.data.repository.LanguageRepository
 import com.englishlearning.app.data.repository.SessionSettingsRepository
 import com.englishlearning.app.data.repository.SessionSettingsRepository.Companion.DEFAULT_QUESTIONS
 import com.englishlearning.app.data.repository.SessionSettingsRepository.Companion.MAX_QUESTIONS
@@ -29,13 +31,15 @@ data class SettingsUiState(
     /** ID do nível para o qual o diálogo de confirmação de desbloqueio está aberto. */
     val confirmUnlockLevelId: Int? = null,
     /** Limite de cards de vocabulário por sessão. -1 = sem limite. */
-    val vocabLimit: Int = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT
+    val vocabLimit: Int = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
+    val appLanguage: AppLanguage = AppLanguage.PT_BR
 )
 
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val contentRepository: ContentRepository,
-    private val settingsRepository: SessionSettingsRepository
+    private val settingsRepository: SessionSettingsRepository,
+    private val languageRepository: LanguageRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(SettingsUiState())
@@ -59,7 +63,8 @@ class SettingsViewModel @Inject constructor(
             _uiState.value = SettingsUiState(
                 isLoading = false,
                 levelSettings = settings,
-                vocabLimit = settingsRepository.getVocabLimit()
+                vocabLimit = settingsRepository.getVocabLimit(),
+                appLanguage = languageRepository.getLanguage()
             )
         }
     }
@@ -71,6 +76,11 @@ class SettingsViewModel @Inject constructor(
                 if (s.levelId == levelId) s.copy(currentLimit = newLimit) else s
             }
         )
+    }
+
+    fun setLanguage(lang: AppLanguage) {
+        languageRepository.setLanguage(lang)
+        _uiState.value = _uiState.value.copy(appLanguage = lang)
     }
 
     fun updateVocabLimit(limit: Int) {

@@ -13,6 +13,7 @@ import com.englishlearning.app.domain.validation.QuestionValidationEngineImpl
 import com.englishlearning.app.domain.validation.SemanticMatcher
 import com.englishlearning.app.domain.validation.TextNormalizer
 import dagger.Binds
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

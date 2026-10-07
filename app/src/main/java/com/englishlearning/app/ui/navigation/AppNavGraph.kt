@@ -20,6 +20,7 @@ import com.englishlearning.app.ui.learning.LearningSessionScreen
 import com.englishlearning.app.ui.lesson.LessonScreen
 import com.englishlearning.app.ui.levelselect.LevelSelectScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
+import com.englishlearning.app.ui.callan.CallanDrillScreen
 import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
 import com.englishlearning.app.ui.vocabulary.VocabularyScreen

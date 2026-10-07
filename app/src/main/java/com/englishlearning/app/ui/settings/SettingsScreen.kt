@@ -46,6 +46,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.filled.Policy
 import androidx.compose.material3.TextButton
 import androidx.navigation.NavController
+import com.englishlearning.app.data.repository.AppLanguage
 import com.englishlearning.app.data.repository.SessionSettingsRepository
 import kotlin.math.roundToInt
 
@@ -161,6 +162,20 @@ fun SettingsScreen(
 
                 item {
                     Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "Idioma da interface / Interface language",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    LanguageSelectorCard(
+                        currentLang = uiState.appLanguage,
+                        onSelect = { viewModel.setLanguage(it) }
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
+                item {
+                    Spacer(modifier = Modifier.height(8.dp))
                     OutlinedButton(
                         onClick = { viewModel.resetAllToDefault() },
                         modifier = Modifier.fillMaxWidth()
@@ -252,6 +267,51 @@ private fun VocabLimitCard(
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
+        }
+    }
+}
+
+@Composable
+private fun LanguageSelectorCard(
+    currentLang: AppLanguage,
+    onSelect: (AppLanguage) -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(8.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Button(
+                onClick = { onSelect(AppLanguage.PT_BR) },
+                modifier = Modifier.weight(1f),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (currentLang == AppLanguage.PT_BR)
+                        MaterialTheme.colorScheme.primary
+                    else
+                        MaterialTheme.colorScheme.surfaceVariant,
+                    contentColor = if (currentLang == AppLanguage.PT_BR)
+                        MaterialTheme.colorScheme.onPrimary
+                    else
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            ) { Text("🇧🇷 Português") }
+            Button(
+                onClick = { onSelect(AppLanguage.EN) },
+                modifier = Modifier.weight(1f),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (currentLang == AppLanguage.EN)
+                        MaterialTheme.colorScheme.primary
+                    else
+                        MaterialTheme.colorScheme.surfaceVariant,
+                    contentColor = if (currentLang == AppLanguage.EN)
+                        MaterialTheme.colorScheme.onPrimary
+                    else
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            ) { Text("🇬🇧 English") }
         }
     }
 }
