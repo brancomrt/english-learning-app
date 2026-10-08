@@ -2,6 +2,7 @@ package com.englishlearning.app.ui.vocabulary
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -21,7 +22,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.BrokenImage
 import androidx.compose.material.icons.filled.Image
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -43,23 +43,22 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import coil.compose.SubcomposeAsyncImage
-import coil.request.ImageRequest
 import com.englishlearning.app.data.database.entity.VocabularyCardEntity
 import com.englishlearning.app.domain.gamification.SrsRating
 import com.englishlearning.app.ui.components.TtsManager
@@ -366,9 +365,10 @@ private fun VocabCardFront(card: VocabularyCardEntity, onReveal: () -> Unit) {
                 modifier = Modifier.fillMaxSize(),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Imagem do Unsplash ocupa a parte superior
-                UnsplashImage(
+                // Imagem local ocupa a parte superior
+                VocabImage(
                     word = card.word,
+                    imageUrl = card.imageUrl,
                     modifier = Modifier
                         .fillMaxWidth()
                         .weight(1f)
@@ -418,8 +418,9 @@ private fun VocabCardBack(
             modifier = Modifier.fillMaxSize()
         ) {
             // Imagem menor no topo
-            UnsplashImage(
+            VocabImage(
                 word = card.word,
+                imageUrl = card.imageUrl,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(100.dp)
@@ -689,59 +690,61 @@ private fun StatChip(label: String, value: String) {
     }
 }
 
-// ─── Componente de imagem Unsplash ────────────────────────────────────────────
+// ─── Componente de imagem local ───────────────────────────────────────────────
 
 /**
- * Carrega uma imagem do Unsplash Source baseada na palavra.
- * Usa URL determinística para cache consistente.
+ * Carrega uma imagem local dos assets baseada na palavra.
+ * As imagens estão em assets/vocab_images/{word}.jpg
  */
 @Composable
-fun UnsplashImage(
+fun VocabImage(
     word: String,
-    modifier: Modifier = Modifier,
-    size: Dp = 300.dp
+    imageUrl: String?,
+    modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
     
-    // URL do Unsplash Source - gratuito, sem API key necessária
-    // Formato: https://source.unsplash.com/300x300/?keyword
-    val imageUrl = "https://source.unsplash.com/${size.value.toInt()}x${size.value.toInt()}/?${word.lowercase()}"
+    // Determinar o nome do arquivo
+    val filename = if (imageUrl != null && imageUrl.startsWith("local:")) {
+        imageUrl.removePrefix("local:")
+    } else {
+        // Gerar nome do arquivo a partir da palavra
+        word.lowercase()
+            .replace(" ", "_")
+            .replace("/", "_")
+            .replace("\\", "_")
+            .filter { it.isLetterOrDigit() || it == '_' }
+            .take(50) + ".jpg"
+    }
     
-    SubcomposeAsyncImage(
-        model = ImageRequest.Builder(context)
-            .data(imageUrl)
-            .crossfade(true)
-            .build(),
-        contentDescription = word,
-        modifier = modifier,
-        contentScale = ContentScale.Crop,
-        loading = {
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.surfaceVariant),
-                contentAlignment = Alignment.Center
-            ) {
-                CircularProgressIndicator(
-                    modifier = Modifier.size(32.dp),
-                    strokeWidth = 2.dp
-                )
+    // Carregar bitmap dos assets
+    val bitmap = remember(filename) {
+        runCatching {
+            context.assets.open("vocab_images/$filename").use { stream ->
+                android.graphics.BitmapFactory.decodeStream(stream)
             }
-        },
-        error = {
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.surfaceVariant),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = Icons.Default.BrokenImage,
-                    contentDescription = "Erro ao carregar imagem",
-                    modifier = Modifier.size(48.dp),
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
-                )
-            }
+        }.getOrNull()
+    }
+    
+    if (bitmap != null) {
+        androidx.compose.foundation.Image(
+            bitmap = bitmap.asImageBitmap(),
+            contentDescription = word,
+            modifier = modifier,
+            contentScale = ContentScale.Crop
+        )
+    } else {
+        // Fallback: placeholder colorido
+        Box(
+            modifier = modifier.background(MaterialTheme.colorScheme.surfaceVariant),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                imageVector = Icons.Default.Image,
+                contentDescription = null,
+                modifier = Modifier.size(48.dp),
+                tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+            )
         }
-    )
+    }
 }

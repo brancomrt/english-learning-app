@@ -6,7 +6,7 @@
       "example_sentence": "I have breakfast at seven o'clock every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:egg_3d.png"
+      "image_url": "local:breakfast.jpg"
     },
     {
       "word": "friend",
@@ -14,7 +14,7 @@
       "example_sentence": "My best friend lives next door to me.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:people_hugging_3d.png"
+      "image_url": "local:friend.jpg"
     },
     {
       "word": "family",
@@ -22,7 +22,7 @@
       "example_sentence": "My family eats dinner together every Sunday.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:people_hugging_3d.png"
+      "image_url": "local:family.jpg"
     },
     {
       "word": "house",
@@ -30,7 +30,7 @@
       "example_sentence": "They live in a small house near the park.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:house_3d.png"
+      "image_url": "local:house.jpg"
     },
     {
       "word": "coffee",
@@ -38,7 +38,7 @@
       "example_sentence": "I drink two cups of coffee every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:hot_beverage_3d.png"
+      "image_url": "local:coffee.jpg"
     },
     {
       "word": "water",
@@ -46,7 +46,7 @@
       "example_sentence": "You should drink at least eight glasses of water a day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:droplet_3d.png"
+      "image_url": "local:water.jpg"
     },
     {
       "word": "food",
@@ -54,7 +54,7 @@
       "example_sentence": "Healthy food is important for a good lifestyle.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:fork_and_knife_3d.png"
+      "image_url": "local:food.jpg"
     },
     {
       "word": "lunch",
@@ -62,7 +62,7 @@
       "example_sentence": "We usually have lunch at noon.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bento_box_3d.png"
+      "image_url": "local:lunch.jpg"
     },
     {
       "word": "dinner",
@@ -70,7 +70,7 @@
       "example_sentence": "She cooks dinner for the whole family.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:fork_and_knife_with_plate_3d.png"
+      "image_url": "local:dinner.jpg"
     },
     {
       "word": "brother",
@@ -78,7 +78,7 @@
       "example_sentence": "My brother is an engineer.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:people_hugging_3d.png"
+      "image_url": "local:brother.jpg"
     },
     {
       "word": "sister",
@@ -86,7 +86,7 @@
       "example_sentence": "My sister lives in São Paulo.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:people_hugging_3d.png"
+      "image_url": "local:sister.jpg"
     },
     {
       "word": "mother",
@@ -94,7 +94,7 @@
       "example_sentence": "She is my mother — her name is Ana.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "👩"
+      "image_url": "local:mother.jpg"
     },
     {
       "word": "father",
@@ -102,7 +102,7 @@
       "example_sentence": "My father wakes up at six every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "👨"
+      "image_url": "local:father.jpg"
     },
     {
       "word": "name",
@@ -110,7 +110,7 @@
       "example_sentence": "What is your name?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "📛"
+      "image_url": "local:name.jpg"
     },
     {
       "word": "age",
@@ -118,7 +118,7 @@
       "example_sentence": "How old are you? What is your age?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🎂"
+      "image_url": "local:age.jpg"
     },
     {
       "word": "color",
@@ -126,7 +126,7 @@
       "example_sentence": "My favorite color is blue.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🎨"
+      "image_url": "local:color.jpg"
     },
     {
       "word": "work",
@@ -134,7 +134,7 @@
       "example_sentence": "She works at a tech company downtown.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:briefcase_3d.png"
+      "image_url": "local:work.jpg"
     },
     {
       "word": "meeting",
@@ -142,7 +142,7 @@
       "example_sentence": "We have a team meeting every Monday morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:busts_in_silhouette_3d.png"
+      "image_url": "local:meeting.jpg"
     },
     {
       "word": "office",
@@ -150,7 +150,7 @@
       "example_sentence": "The office is on the fifth floor.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:office_building_3d.png"
+      "image_url": "local:office.jpg"
     },
     {
       "word": "boss",
@@ -158,7 +158,7 @@
       "example_sentence": "My boss is very friendly and supportive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:necktie_3d.png"
+      "image_url": "local:boss.jpg"
     },
     {
       "word": "salary",
@@ -166,7 +166,7 @@
       "example_sentence": "My salary is paid on the last Friday of the month.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:money_bag_3d.png"
+      "image_url": "local:salary.jpg"
     },
     {
       "word": "schedule",
@@ -174,7 +174,7 @@
       "example_sentence": "My work schedule starts at nine in the morning.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:calendar_3d.png"
+      "image_url": "local:schedule.jpg"
     },
     {
       "word": "colleague",
@@ -182,7 +182,7 @@
       "example_sentence": "My colleague helped me fix the bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:people_hugging_3d.png"
+      "image_url": "local:colleague.jpg"
     },
     {
       "word": "passport",
@@ -190,7 +190,7 @@
       "example_sentence": "Don't forget to bring your passport to the airport.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:passport_control_3d.png"
+      "image_url": "local:passport.jpg"
     },
     {
       "word": "flight",
@@ -198,7 +198,7 @@
       "example_sentence": "The flight to Paris departs at six in the morning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:airplane_3d.png"
+      "image_url": "local:flight.jpg"
     },
     {
       "word": "hotel",
@@ -206,7 +206,7 @@
       "example_sentence": "The hotel is near the beach and has a great view.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:hotel_3d.png"
+      "image_url": "local:hotel.jpg"
     },
     {
       "word": "train",
@@ -214,7 +214,7 @@
       "example_sentence": "We usually travel by train when visiting other cities.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:bullet_train_3d.png"
+      "image_url": "local:train.jpg"
     },
     {
       "word": "airport",
@@ -222,7 +222,7 @@
       "example_sentence": "We arrived at the airport two hours before the flight.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:airplane_3d.png"
+      "image_url": "local:airport.jpg"
     },
     {
       "word": "ticket",
@@ -230,7 +230,7 @@
       "example_sentence": "I bought a round-trip ticket to London.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:admission_tickets_3d.png"
+      "image_url": "local:ticket.jpg"
     },
     {
       "word": "visa",
@@ -238,7 +238,7 @@
       "example_sentence": "You need a visa to visit Japan.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:identification_card_3d.png"
+      "image_url": "local:visa.jpg"
     },
     {
       "word": "luggage",
@@ -246,7 +246,7 @@
       "example_sentence": "Please don't leave your luggage unattended.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:luggage_3d.png"
+      "image_url": "local:luggage.jpg"
     },
     {
       "word": "trip",
@@ -254,7 +254,7 @@
       "example_sentence": "The trip takes about three hours by train.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:compass_3d.png"
+      "image_url": "local:trip.jpg"
     },
     {
       "word": "book",
@@ -262,7 +262,7 @@
       "example_sentence": "I read a book every night before sleeping.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:books_3d.png"
+      "image_url": "local:book.jpg"
     },
     {
       "word": "music",
@@ -270,7 +270,7 @@
       "example_sentence": "She listens to music while working out.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:musical_notes_3d.png"
+      "image_url": "local:music.jpg"
     },
     {
       "word": "sport",
@@ -278,7 +278,7 @@
       "example_sentence": "My favorite sport is football.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:1st_place_medal_3d.png"
+      "image_url": "local:sport.jpg"
     },
     {
       "word": "car",
@@ -286,7 +286,7 @@
       "example_sentence": "He drives his car to work every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:automobile_3d.png"
+      "image_url": "local:car.jpg"
     },
     {
       "word": "dog",
@@ -294,7 +294,7 @@
       "example_sentence": "My dog wakes me up at six every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:dog_face_3d.png"
+      "image_url": "local:dog.jpg"
     },
     {
       "word": "phone",
@@ -302,7 +302,7 @@
       "example_sentence": "I forgot my phone at home today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:mobile_phone_3d.png"
+      "image_url": "local:phone.jpg"
     },
     {
       "word": "money",
@@ -310,7 +310,7 @@
       "example_sentence": "Do you have enough money for the trip?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:money_bag_3d.png"
+      "image_url": "local:money.jpg"
     },
     {
       "word": "city",
@@ -318,7 +318,7 @@
       "example_sentence": "São Paulo is a very busy city.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:cityscape_at_dusk_3d.png"
+      "image_url": "local:city.jpg"
     },
     {
       "word": "country",
@@ -326,7 +326,7 @@
       "example_sentence": "Brazil is the largest country in South America.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "🌍"
+      "image_url": "local:country.jpg"
     },
     {
       "word": "language",
@@ -334,7 +334,7 @@
       "example_sentence": "English is the most spoken language in business.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🗣️"
+      "image_url": "local:language.jpg"
     },
     {
       "word": "time",
@@ -342,7 +342,7 @@
       "example_sentence": "What time do you finish work today?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "⏰"
+      "image_url": "local:time.jpg"
     },
     {
       "word": "week",
@@ -350,7 +350,7 @@
       "example_sentence": "I have meetings three times a week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:week.jpg"
     },
     {
       "word": "year",
@@ -358,7 +358,7 @@
       "example_sentence": "She has been working there for five years.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:year.jpg"
     },
     {
       "word": "email",
@@ -366,7 +366,7 @@
       "example_sentence": "Please send me an email with the details.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:envelope_with_arrow_3d.png"
+      "image_url": "local:email.jpg"
     },
     {
       "word": "computer",
@@ -374,7 +374,7 @@
       "example_sentence": "I use my computer for about ten hours a day.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:laptop_3d.png"
+      "image_url": "local:computer.jpg"
     },
     {
       "word": "problem",
@@ -382,7 +382,7 @@
       "example_sentence": "We need to solve this problem before Friday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚠️"
+      "image_url": "local:problem.jpg"
     },
     {
       "word": "question",
@@ -390,7 +390,7 @@
       "example_sentence": "Do you have any questions about the project?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:question.jpg"
     },
     {
       "word": "answer",
@@ -398,7 +398,7 @@
       "example_sentence": "I don't know the answer to that question.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💡"
+      "image_url": "local:answer.jpg"
     },
     {
       "word": "apple",
@@ -406,7 +406,7 @@
       "example_sentence": "I eat an apple every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:green_apple_3d.png"
+      "image_url": "local:apple.jpg"
     },
     {
       "word": "bread",
@@ -414,7 +414,7 @@
       "example_sentence": "She buys fresh bread every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bread_3d.png"
+      "image_url": "local:bread.jpg"
     },
     {
       "word": "milk",
@@ -422,7 +422,7 @@
       "example_sentence": "Do you drink milk for breakfast?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:glass_of_milk_3d.png"
+      "image_url": "local:milk.jpg"
     },
     {
       "word": "rice",
@@ -430,7 +430,7 @@
       "example_sentence": "Rice and beans is a classic Brazilian dish.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:cooked_rice_3d.png"
+      "image_url": "local:rice.jpg"
     },
     {
       "word": "chicken",
@@ -438,7 +438,7 @@
       "example_sentence": "I had grilled chicken for lunch.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:mechanical_leg_3d.png"
+      "image_url": "local:chicken.jpg"
     },
     {
       "word": "salad",
@@ -446,7 +446,7 @@
       "example_sentence": "He always orders a salad at restaurants.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:green_salad_3d.png"
+      "image_url": "local:salad.jpg"
     },
     {
       "word": "fruit",
@@ -454,7 +454,7 @@
       "example_sentence": "Eating fruit every day is healthy.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:grapes_3d.png"
+      "image_url": "local:fruit.jpg"
     },
     {
       "word": "sugar",
@@ -462,7 +462,7 @@
       "example_sentence": "Do you take sugar in your coffee?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:honey_pot_3d.png"
+      "image_url": "local:sugar.jpg"
     },
     {
       "word": "egg",
@@ -470,7 +470,7 @@
       "example_sentence": "She cooks two eggs every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:egg_3d.png"
+      "image_url": "local:egg.jpg"
     },
     {
       "word": "juice",
@@ -478,7 +478,7 @@
       "example_sentence": "I prefer orange juice for breakfast.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:beverage_box_3d.png"
+      "image_url": "local:juice.jpg"
     },
     {
       "word": "tea",
@@ -486,7 +486,7 @@
       "example_sentence": "Would you like a cup of tea?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:hot_beverage_3d.png"
+      "image_url": "local:tea.jpg"
     },
     {
       "word": "soup",
@@ -494,7 +494,7 @@
       "example_sentence": "She makes delicious tomato soup.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bowl_with_spoon_3d.png"
+      "image_url": "local:soup.jpg"
     },
     {
       "word": "pizza",
@@ -502,7 +502,7 @@
       "example_sentence": "We order pizza every Friday night.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:pizza_3d.png"
+      "image_url": "local:pizza.jpg"
     },
     {
       "word": "cake",
@@ -510,7 +510,7 @@
       "example_sentence": "They baked a cake for the birthday.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:birthday_cake_3d.png"
+      "image_url": "local:cake.jpg"
     },
     {
       "word": "cheese",
@@ -518,7 +518,7 @@
       "example_sentence": "This sandwich has ham and cheese.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:cheese_wedge_3d.png"
+      "image_url": "local:cheese.jpg"
     },
     {
       "word": "wine",
@@ -526,7 +526,7 @@
       "example_sentence": "Would you like a glass of wine?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:clinking_glasses_3d.png"
+      "image_url": "local:wine.jpg"
     },
     {
       "word": "bedroom",
@@ -534,7 +534,7 @@
       "example_sentence": "My bedroom is on the second floor.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bed_3d.png"
+      "image_url": "local:bedroom.jpg"
     },
     {
       "word": "kitchen",
@@ -542,7 +542,7 @@
       "example_sentence": "She spends a lot of time in the kitchen.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:fork_and_knife_3d.png"
+      "image_url": "local:kitchen.jpg"
     },
     {
       "word": "bathroom",
@@ -550,7 +550,7 @@
       "example_sentence": "The bathroom is at the end of the hall.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bathtub_3d.png"
+      "image_url": "local:bathroom.jpg"
     },
     {
       "word": "garden",
@@ -558,7 +558,7 @@
       "example_sentence": "We have a small garden behind the house.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:herb_3d.png"
+      "image_url": "local:garden.jpg"
     },
     {
       "word": "window",
@@ -566,7 +566,7 @@
       "example_sentence": "Open the window — it's too hot in here.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:framed_picture_3d.png"
+      "image_url": "local:window.jpg"
     },
     {
       "word": "door",
@@ -574,7 +574,7 @@
       "example_sentence": "Please close the door when you leave.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:door_3d.png"
+      "image_url": "local:door.jpg"
     },
     {
       "word": "chair",
@@ -582,7 +582,7 @@
       "example_sentence": "There are six chairs around the table.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:chair_3d.png"
+      "image_url": "local:chair.jpg"
     },
     {
       "word": "bed",
@@ -590,7 +590,7 @@
       "example_sentence": "She goes to bed at ten o'clock.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:bed_3d.png"
+      "image_url": "local:bed.jpg"
     },
     {
       "word": "sofa",
@@ -598,7 +598,7 @@
       "example_sentence": "He fell asleep on the sofa.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:couch_and_lamp_3d.png"
+      "image_url": "local:sofa.jpg"
     },
     {
       "word": "key",
@@ -606,7 +606,7 @@
       "example_sentence": "I lost my keys this morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:key_3d.png"
+      "image_url": "local:key.jpg"
     },
     {
       "word": "street",
@@ -614,7 +614,7 @@
       "example_sentence": "They live on a quiet street.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:construction_3d.png"
+      "image_url": "local:street.jpg"
     },
     {
       "word": "bank",
@@ -622,7 +622,7 @@
       "example_sentence": "I need to go to the bank this afternoon.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:dollar_banknote_3d.png"
+      "image_url": "local:bank.jpg"
     },
     {
       "word": "school",
@@ -630,7 +630,7 @@
       "example_sentence": "She walks to school every morning.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:backpack_3d.png"
+      "image_url": "local:school.jpg"
     },
     {
       "word": "hospital",
@@ -638,7 +638,7 @@
       "example_sentence": "The nearest hospital is five km away.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:ambulance_3d.png"
+      "image_url": "local:hospital.jpg"
     },
     {
       "word": "restaurant",
@@ -646,7 +646,7 @@
       "example_sentence": "Let's go to that new restaurant downtown.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:fork_and_knife_3d.png"
+      "image_url": "local:restaurant.jpg"
     },
     {
       "word": "shop",
@@ -654,7 +654,7 @@
       "example_sentence": "I need to shop for groceries today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:convenience_store_3d.png"
+      "image_url": "local:shop.jpg"
     },
     {
       "word": "supermarket",
@@ -662,7 +662,7 @@
       "example_sentence": "The supermarket closes at ten.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:basket_3d.png"
+      "image_url": "local:supermarket.jpg"
     },
     {
       "word": "park",
@@ -670,7 +670,7 @@
       "example_sentence": "We take the dog to the park on Sundays.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:evergreen_tree_3d.png"
+      "image_url": "local:park.jpg"
     },
     {
       "word": "bus",
@@ -678,7 +678,7 @@
       "example_sentence": "I take the bus to work every day.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:bus_3d.png"
+      "image_url": "local:bus.jpg"
     },
     {
       "word": "taxi",
@@ -686,7 +686,7 @@
       "example_sentence": "Let's get a taxi — it's raining.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:oncoming_taxi_3d.png"
+      "image_url": "local:taxi.jpg"
     },
     {
       "word": "map",
@@ -694,7 +694,7 @@
       "example_sentence": "Do you have a map of the city?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:compass_3d.png"
+      "image_url": "local:map.jpg"
     },
     {
       "word": "left",
@@ -702,7 +702,7 @@
       "example_sentence": "Turn left at the traffic light.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "⬅️"
+      "image_url": "local:left.jpg"
     },
     {
       "word": "right",
@@ -710,7 +710,7 @@
       "example_sentence": "The office is on the right side.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "➡️"
+      "image_url": "local:right.jpg"
     },
     {
       "word": "near",
@@ -718,7 +718,7 @@
       "example_sentence": "The hotel is near the airport.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "📍"
+      "image_url": "local:near.jpg"
     },
     {
       "word": "far",
@@ -726,7 +726,7 @@
       "example_sentence": "Is the station far from here?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "🌍"
+      "image_url": "local:far.jpg"
     },
     {
       "word": "morning",
@@ -734,7 +734,7 @@
       "example_sentence": "I exercise every morning before work.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🌅"
+      "image_url": "local:morning.jpg"
     },
     {
       "word": "afternoon",
@@ -742,7 +742,7 @@
       "example_sentence": "We have a meeting this afternoon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🌞"
+      "image_url": "local:afternoon.jpg"
     },
     {
       "word": "evening",
@@ -750,7 +750,7 @@
       "example_sentence": "She reads in the evening.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🌇"
+      "image_url": "local:evening.jpg"
     },
     {
       "word": "today",
@@ -758,7 +758,7 @@
       "example_sentence": "I have a lot of meetings today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:today.jpg"
     },
     {
       "word": "tomorrow",
@@ -766,7 +766,7 @@
       "example_sentence": "The report is due tomorrow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:tomorrow.jpg"
     },
     {
       "word": "yesterday",
@@ -774,7 +774,7 @@
       "example_sentence": "Yesterday's meeting was very productive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:yesterday.jpg"
     },
     {
       "word": "month",
@@ -782,7 +782,7 @@
       "example_sentence": "We release a new version every month.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:month.jpg"
     },
     {
       "word": "holiday",
@@ -790,7 +790,7 @@
       "example_sentence": "We have a holiday next Monday.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:beach_with_umbrella_3d.png"
+      "image_url": "local:holiday.jpg"
     },
     {
       "word": "birthday",
@@ -798,7 +798,7 @@
       "example_sentence": "Happy birthday! How old are you?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🎂"
+      "image_url": "local:birthday.jpg"
     },
     {
       "word": "weather",
@@ -806,7 +806,7 @@
       "example_sentence": "What is the weather like today?",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:cloud_3d.png"
+      "image_url": "local:weather.jpg"
     },
     {
       "word": "sun",
@@ -814,7 +814,7 @@
       "example_sentence": "It's sunny and warm today.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:sun_3d.png"
+      "image_url": "local:sun.jpg"
     },
     {
       "word": "rain",
@@ -822,7 +822,7 @@
       "example_sentence": "Don't forget your umbrella — it might rain.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:cloud_with_rain_3d.png"
+      "image_url": "local:rain.jpg"
     },
     {
       "word": "cold",
@@ -830,7 +830,7 @@
       "example_sentence": "It's very cold this morning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:cold_face_3d.png"
+      "image_url": "local:cold.jpg"
     },
     {
       "word": "hot",
@@ -838,7 +838,7 @@
       "example_sentence": "It's too hot without air conditioning.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:fire_3d.png"
+      "image_url": "local:hot.jpg"
     },
     {
       "word": "umbrella",
@@ -846,7 +846,7 @@
       "example_sentence": "I always carry an umbrella in winter.",
       "level_id": 1,
       "category_id": 3,
-      "image_url": "fluent:closed_umbrella_3d.png"
+      "image_url": "local:umbrella.jpg"
     },
     {
       "word": "clothes",
@@ -854,7 +854,7 @@
       "example_sentence": "I need new clothes for the conference.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:jeans_3d.png"
+      "image_url": "local:clothes.jpg"
     },
     {
       "word": "shirt",
@@ -862,7 +862,7 @@
       "example_sentence": "He always wears a white shirt to work.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:running_shirt_3d.png"
+      "image_url": "local:shirt.jpg"
     },
     {
       "word": "shoes",
@@ -870,7 +870,7 @@
       "example_sentence": "She bought new shoes for the presentation.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:running_shoe_3d.png"
+      "image_url": "local:shoes.jpg"
     },
     {
       "word": "bag",
@@ -878,7 +878,7 @@
       "example_sentence": "I carry my laptop in my bag.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:handbag_3d.png"
+      "image_url": "local:bag.jpg"
     },
     {
       "word": "wallet",
@@ -886,7 +886,7 @@
       "example_sentence": "I left my wallet at home.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "fluent:coin_3d.png"
+      "image_url": "local:wallet.jpg"
     },
     {
       "word": "idea",
@@ -894,7 +894,7 @@
       "example_sentence": "She had a great idea in the meeting.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:light_bulb_3d.png"
+      "image_url": "local:idea.jpg"
     },
     {
       "word": "help",
@@ -902,7 +902,7 @@
       "example_sentence": "Can you help me with this task?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🆘"
+      "image_url": "local:help.jpg"
     },
     {
       "word": "team",
@@ -910,7 +910,7 @@
       "example_sentence": "Our team has ten developers.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:busts_in_silhouette_3d.png"
+      "image_url": "local:team.jpg"
     },
     {
       "word": "task",
@@ -918,7 +918,7 @@
       "example_sentence": "Assign the task to the right person.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:task.jpg"
     },
     {
       "word": "report",
@@ -926,7 +926,7 @@
       "example_sentence": "Send the weekly report by Friday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:memo_3d.png"
+      "image_url": "local:report.jpg"
     },
     {
       "word": "company",
@@ -934,7 +934,7 @@
       "example_sentence": "She works for a large tech company.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:office_building_3d.png"
+      "image_url": "local:company.jpg"
     },
     {
       "word": "manager",
@@ -942,7 +942,7 @@
       "example_sentence": "My manager approved the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:necktie_3d.png"
+      "image_url": "local:manager.jpg"
     },
     {
       "word": "customer",
@@ -950,7 +950,7 @@
       "example_sentence": "The customer is always right.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🙋"
+      "image_url": "local:customer.jpg"
     },
     {
       "word": "product",
@@ -958,7 +958,7 @@
       "example_sentence": "We launched a new product last week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:package_3d.png"
+      "image_url": "local:product.jpg"
     },
     {
       "word": "price",
@@ -966,7 +966,7 @@
       "example_sentence": "What is the price of this service?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:dollar_banknote_3d.png"
+      "image_url": "local:price.jpg"
     },
     {
       "word": "cost",
@@ -974,7 +974,7 @@
       "example_sentence": "The cost exceeded the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:money_bag_3d.png"
+      "image_url": "local:cost.jpg"
     },
     {
       "word": "budget",
@@ -982,7 +982,7 @@
       "example_sentence": "We need to stay within the budget.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:bar_chart_3d.png"
+      "image_url": "local:budget.jpg"
     },
     {
       "word": "invoice",
@@ -990,7 +990,7 @@
       "example_sentence": "Please send the invoice by email.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:memo_3d.png"
+      "image_url": "local:invoice.jpg"
     },
     {
       "word": "contract",
@@ -998,7 +998,7 @@
       "example_sentence": "The contract was signed last week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:memo_3d.png"
+      "image_url": "local:contract.jpg"
     },
     {
       "word": "deadline",
@@ -1006,7 +1006,7 @@
       "example_sentence": "The deadline is tomorrow at noon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:alarm_clock_3d.png"
+      "image_url": "local:deadline.jpg"
     },
     {
       "word": "goal",
@@ -1014,7 +1014,7 @@
       "example_sentence": "Set a clear goal for the quarter.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🎯"
+      "image_url": "local:goal.jpg"
     },
     {
       "word": "result",
@@ -1022,7 +1022,7 @@
       "example_sentence": "The test results were positive.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📊"
+      "image_url": "local:result.jpg"
     },
     {
       "word": "success",
@@ -1030,7 +1030,7 @@
       "example_sentence": "The launch was a great success.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🏆"
+      "image_url": "local:success.jpg"
     },
     {
       "word": "mistake",
@@ -1038,7 +1038,7 @@
       "example_sentence": "I made a mistake in the report.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❌"
+      "image_url": "local:mistake.jpg"
     },
     {
       "word": "change",
@@ -1046,7 +1046,7 @@
       "example_sentence": "This change will improve performance.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔄"
+      "image_url": "local:change.jpg"
     },
     {
       "word": "update",
@@ -1054,7 +1054,7 @@
       "example_sentence": "Please update your software.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:counterclockwise_arrows_button_3d.png"
+      "image_url": "local:update.jpg"
     },
     {
       "word": "version",
@@ -1062,7 +1062,7 @@
       "example_sentence": "Which version are you running?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:label_3d.png"
+      "image_url": "local:version.jpg"
     },
     {
       "word": "feature",
@@ -1070,7 +1070,7 @@
       "example_sentence": "We shipped a new feature today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⭐"
+      "image_url": "local:feature.jpg"
     },
     {
       "word": "user",
@@ -1078,7 +1078,7 @@
       "example_sentence": "The user interface needs improvement.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "👤"
+      "image_url": "local:user.jpg"
     },
     {
       "word": "data",
@@ -1086,7 +1086,7 @@
       "example_sentence": "Analyse the data before deciding.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📊"
+      "image_url": "local:data.jpg"
     },
     {
       "word": "file",
@@ -1094,7 +1094,7 @@
       "example_sentence": "Attach the file to the email.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:page_facing_up_3d.png"
+      "image_url": "local:file.jpg"
     },
     {
       "word": "folder",
@@ -1102,7 +1102,7 @@
       "example_sentence": "Save it in the shared folder.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:file_folder_3d.png"
+      "image_url": "local:folder.jpg"
     },
     {
       "word": "link",
@@ -1110,7 +1110,7 @@
       "example_sentence": "Share the link in the chat.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:link_3d.png"
+      "image_url": "local:link.jpg"
     },
     {
       "word": "website",
@@ -1118,7 +1118,7 @@
       "example_sentence": "Check the company website for updates.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:globe_with_meridians_3d.png"
+      "image_url": "local:website.jpg"
     },
     {
       "word": "internet",
@@ -1126,7 +1126,7 @@
       "example_sentence": "Is the internet connection stable?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:globe_with_meridians_3d.png"
+      "image_url": "local:internet.jpg"
     },
     {
       "word": "search",
@@ -1134,7 +1134,7 @@
       "example_sentence": "Search for the error message online.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:magnifying_glass_tilted_left_3d.png"
+      "image_url": "local:search.jpg"
     },
     {
       "word": "download",
@@ -1142,7 +1142,7 @@
       "example_sentence": "Download the installer from the website.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:inbox_tray_3d.png"
+      "image_url": "local:download.jpg"
     },
     {
       "word": "upload",
@@ -1150,7 +1150,7 @@
       "example_sentence": "Upload the file to the server.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:outbox_tray_3d.png"
+      "image_url": "local:upload.jpg"
     },
     {
       "word": "message",
@@ -1158,7 +1158,7 @@
       "example_sentence": "Did you receive my message?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:envelope_with_arrow_3d.png"
+      "image_url": "local:message.jpg"
     },
     {
       "word": "screen",
@@ -1166,7 +1166,7 @@
       "example_sentence": "Share your screen during the presentation.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🖥️"
+      "image_url": "local:screen.jpg"
     },
     {
       "word": "click",
@@ -1174,7 +1174,7 @@
       "example_sentence": "Click the button to confirm.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🖱️"
+      "image_url": "local:click.jpg"
     },
     {
       "word": "save",
@@ -1182,7 +1182,7 @@
       "example_sentence": "Remember to save your work.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:floppy_disk_3d.png"
+      "image_url": "local:save.jpg"
     },
     {
       "word": "open",
@@ -1190,7 +1190,7 @@
       "example_sentence": "Open the file in a text editor.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📂"
+      "image_url": "local:open.jpg"
     },
     {
       "word": "close",
@@ -1198,7 +1198,7 @@
       "example_sentence": "Close all unused applications.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❌"
+      "image_url": "local:close.jpg"
     },
     {
       "word": "delete",
@@ -1206,7 +1206,7 @@
       "example_sentence": "Delete the temporary files.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:wastebasket_3d.png"
+      "image_url": "local:delete.jpg"
     },
     {
       "word": "learn",
@@ -1214,7 +1214,7 @@
       "example_sentence": "I learn something new every day.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "📖"
+      "image_url": "local:learn.jpg"
     },
     {
       "word": "understand",
@@ -1222,7 +1222,7 @@
       "example_sentence": "Do you understand the requirements?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🤔"
+      "image_url": "local:understand.jpg"
     },
     {
       "word": "explain",
@@ -1230,7 +1230,7 @@
       "example_sentence": "Can you explain how this works?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💬"
+      "image_url": "local:explain.jpg"
     },
     {
       "word": "find",
@@ -1238,7 +1238,7 @@
       "example_sentence": "I can't find the configuration file.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔍"
+      "image_url": "local:find.jpg"
     },
     {
       "word": "check",
@@ -1246,7 +1246,7 @@
       "example_sentence": "Check the logs for errors.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✔️"
+      "image_url": "local:check.jpg"
     },
     {
       "word": "fix",
@@ -1254,7 +1254,7 @@
       "example_sentence": "Fix the bug before the release.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:hammer_and_wrench_3d.png"
+      "image_url": "local:fix.jpg"
     },
     {
       "word": "run",
@@ -1262,7 +1262,7 @@
       "example_sentence": "Run the script with admin privileges.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "▶️"
+      "image_url": "local:run.jpg"
     },
     {
       "word": "stop",
@@ -1270,7 +1270,7 @@
       "example_sentence": "Stop the service before updating.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏹️"
+      "image_url": "local:stop.jpg"
     },
     {
       "word": "start",
@@ -1278,7 +1278,7 @@
       "example_sentence": "Start the server and check the logs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "▶️"
+      "image_url": "local:start.jpg"
     },
     {
       "word": "install",
@@ -1286,7 +1286,7 @@
       "example_sentence": "Install the dependencies with npm install.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:inbox_tray_3d.png"
+      "image_url": "local:install.jpg"
     },
     {
       "word": "configure",
@@ -1294,7 +1294,7 @@
       "example_sentence": "Configure the environment variables first.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚙️"
+      "image_url": "local:configure.jpg"
     },
     {
       "word": "connect",
@@ -1302,7 +1302,7 @@
       "example_sentence": "Connect the device to the network.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔌"
+      "image_url": "local:connect.jpg"
     },
     {
       "word": "enable",
@@ -1310,7 +1310,7 @@
       "example_sentence": "Enable two-factor authentication.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:enable.jpg"
     },
     {
       "word": "disable",
@@ -1318,7 +1318,7 @@
       "example_sentence": "Disable the old endpoint after migration.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚫"
+      "image_url": "local:disable.jpg"
     },
     {
       "word": "allow",
@@ -1326,7 +1326,7 @@
       "example_sentence": "Allow the application through the firewall.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:allow.jpg"
     },
     {
       "word": "block",
@@ -1334,7 +1334,7 @@
       "example_sentence": "Block traffic from unknown IPs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚫"
+      "image_url": "local:block.jpg"
     },
     {
       "word": "access",
@@ -1342,7 +1342,7 @@
       "example_sentence": "Only admins have access to this server.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔓"
+      "image_url": "local:access.jpg"
     },
     {
       "word": "permission",
@@ -1350,7 +1350,7 @@
       "example_sentence": "You don't have permission to do that.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔑"
+      "image_url": "local:permission.jpg"
     },
     {
       "word": "role",
@@ -1358,7 +1358,7 @@
       "example_sentence": "Assign the correct role to the new user.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "👤"
+      "image_url": "local:role.jpg"
     },
     {
       "word": "number",
@@ -1366,7 +1366,7 @@
       "example_sentence": "What is your phone number?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🔢"
+      "image_url": "local:number.jpg"
     },
     {
       "word": "address",
@@ -1374,7 +1374,7 @@
       "example_sentence": "What is your home address?",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "📍"
+      "image_url": "local:address.jpg"
     },
     {
       "word": "neighbour",
@@ -1382,7 +1382,7 @@
       "example_sentence": "My neighbour is very friendly.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "👫"
+      "image_url": "local:neighbour.jpg"
     },
     {
       "word": "happy",
@@ -1390,7 +1390,7 @@
       "example_sentence": "I'm happy with the results.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "😊"
+      "image_url": "local:happy.jpg"
     },
     {
       "word": "sad",
@@ -1398,7 +1398,7 @@
       "example_sentence": "She looked sad after the meeting.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "😢"
+      "image_url": "local:sad.jpg"
     },
     {
       "word": "tired",
@@ -1406,7 +1406,7 @@
       "example_sentence": "I'm tired — I worked twelve hours today.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "😴"
+      "image_url": "local:tired.jpg"
     },
     {
       "word": "busy",
@@ -1414,7 +1414,7 @@
       "example_sentence": "I'm too busy to answer right now.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏰"
+      "image_url": "local:busy.jpg"
     },
     {
       "word": "ready",
@@ -1422,7 +1422,7 @@
       "example_sentence": "Are you ready for the presentation?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:ready.jpg"
     },
     {
       "word": "easy",
@@ -1430,7 +1430,7 @@
       "example_sentence": "This task is easier than I expected.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "😊"
+      "image_url": "local:easy.jpg"
     },
     {
       "word": "hard",
@@ -1438,7 +1438,7 @@
       "example_sentence": "This bug is hard to reproduce.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💪"
+      "image_url": "local:hard.jpg"
     },
     {
       "word": "fast",
@@ -1446,7 +1446,7 @@
       "example_sentence": "The new server is much faster.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚡"
+      "image_url": "local:fast.jpg"
     },
     {
       "word": "slow",
@@ -1454,7 +1454,7 @@
       "example_sentence": "The query is running slow today.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🐌"
+      "image_url": "local:slow.jpg"
     },
     {
       "word": "new",
@@ -1462,7 +1462,7 @@
       "example_sentence": "We hired a new developer this week.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✨"
+      "image_url": "local:new.jpg"
     },
     {
       "word": "old",
@@ -1470,7 +1470,7 @@
       "example_sentence": "The old system is no longer supported.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🕰️"
+      "image_url": "local:old.jpg"
     },
     {
       "word": "big",
@@ -1478,7 +1478,7 @@
       "example_sentence": "This is a big release — lots of features.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📏"
+      "image_url": "local:big.jpg"
     },
     {
       "word": "small",
@@ -1486,7 +1486,7 @@
       "example_sentence": "This is a small fix — five lines of code.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔬"
+      "image_url": "local:small.jpg"
     },
     {
       "word": "important",
@@ -1494,7 +1494,7 @@
       "example_sentence": "This meeting is very important.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❗"
+      "image_url": "local:important.jpg"
     },
     {
       "word": "urgent",
@@ -1502,7 +1502,7 @@
       "example_sentence": "The client marked this ticket as urgent.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚨"
+      "image_url": "local:urgent.jpg"
     },
     {
       "word": "free",
@@ -1510,7 +1510,7 @@
       "example_sentence": "The tool is free and open source.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🆓"
+      "image_url": "local:free.jpg"
     },
     {
       "word": "available",
@@ -1518,7 +1518,7 @@
       "example_sentence": "Is the server available for maintenance?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:available.jpg"
     },
     {
       "word": "required",
@@ -1526,7 +1526,7 @@
       "example_sentence": "A valid email is required.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❗"
+      "image_url": "local:required.jpg"
     },
     {
       "word": "optional",
@@ -1534,7 +1534,7 @@
       "example_sentence": "Adding a photo is optional.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💭"
+      "image_url": "local:optional.jpg"
     },
     {
       "word": "default",
@@ -1542,7 +1542,7 @@
       "example_sentence": "The default timeout is 30 seconds.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚙️"
+      "image_url": "local:default.jpg"
     },
     {
       "word": "current",
@@ -1550,7 +1550,7 @@
       "example_sentence": "What is the current version?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📌"
+      "image_url": "local:current.jpg"
     },
     {
       "word": "previous",
@@ -1558,7 +1558,7 @@
       "example_sentence": "The previous release had a critical bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⬅️"
+      "image_url": "local:previous.jpg"
     },
     {
       "word": "next",
@@ -1566,7 +1566,7 @@
       "example_sentence": "The next meeting is on Wednesday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "➡️"
+      "image_url": "local:next.jpg"
     },
     {
       "word": "last",
@@ -1574,7 +1574,7 @@
       "example_sentence": "The last deploy was yesterday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🏁"
+      "image_url": "local:last.jpg"
     },
     {
       "word": "first",
@@ -1582,7 +1582,7 @@
       "example_sentence": "This is the first version of the API.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🥇"
+      "image_url": "local:first.jpg"
     },
     {
       "word": "second",
@@ -1590,7 +1590,7 @@
       "example_sentence": "The second option is more reliable.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🥈"
+      "image_url": "local:second.jpg"
     },
     {
       "word": "similar",
@@ -1598,7 +1598,7 @@
       "example_sentence": "The behavior is similar to the old system.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔄"
+      "image_url": "local:similar.jpg"
     },
     {
       "word": "different",
@@ -1606,7 +1606,7 @@
       "example_sentence": "This approach is completely different.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:different.jpg"
     },
     {
       "word": "correct",
@@ -1614,7 +1614,7 @@
       "example_sentence": "Your answer is correct.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "✅"
+      "image_url": "local:correct.jpg"
     },
     {
       "word": "wrong",
@@ -1622,7 +1622,7 @@
       "example_sentence": "Something is wrong with the configuration.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❌"
+      "image_url": "local:wrong.jpg"
     },
     {
       "word": "possible",
@@ -1630,7 +1630,7 @@
       "example_sentence": "Is it possible to finish by Friday?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💡"
+      "image_url": "local:possible.jpg"
     },
     {
       "word": "impossible",
@@ -1638,7 +1638,7 @@
       "example_sentence": "This deadline is impossible.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚫"
+      "image_url": "local:impossible.jpg"
     },
     {
       "word": "enough",
@@ -1646,7 +1646,7 @@
       "example_sentence": "We don't have enough time.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✔️"
+      "image_url": "local:enough.jpg"
     },
     {
       "word": "too much",
@@ -1654,7 +1654,7 @@
       "example_sentence": "There is too much traffic on this endpoint.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚠️"
+      "image_url": "local:too_much.jpg"
     },
     {
       "word": "both",
@@ -1662,7 +1662,7 @@
       "example_sentence": "Both options have pros and cons.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚖️"
+      "image_url": "local:both.jpg"
     },
     {
       "word": "each",
@@ -1670,7 +1670,7 @@
       "example_sentence": "Each developer owns their module.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔢"
+      "image_url": "local:each.jpg"
     },
     {
       "word": "some",
@@ -1678,7 +1678,7 @@
       "example_sentence": "Some tests are failing.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔢"
+      "image_url": "local:some.jpg"
     },
     {
       "word": "many",
@@ -1686,7 +1686,7 @@
       "example_sentence": "There are many open issues.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔢"
+      "image_url": "local:many.jpg"
     },
     {
       "word": "few",
@@ -1694,7 +1694,7 @@
       "example_sentence": "Only a few users are affected.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔢"
+      "image_url": "local:few.jpg"
     },
     {
       "word": "most",
@@ -1702,7 +1702,7 @@
       "example_sentence": "Most of the work is done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📊"
+      "image_url": "local:most.jpg"
     },
     {
       "word": "all",
@@ -1710,7 +1710,7 @@
       "example_sentence": "All tests passed.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:all.jpg"
     },
     {
       "word": "none",
@@ -1718,7 +1718,7 @@
       "example_sentence": "None of the logs show an error.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚫"
+      "image_url": "local:none.jpg"
     },
     {
       "word": "any",
@@ -1726,7 +1726,7 @@
       "example_sentence": "Any developer can pick this task.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:any.jpg"
     },
     {
       "word": "still",
@@ -1734,7 +1734,7 @@
       "example_sentence": "The issue is still not resolved.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:still.jpg"
     },
     {
       "word": "already",
@@ -1742,7 +1742,7 @@
       "example_sentence": "I've already reviewed the PR.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:already.jpg"
     },
     {
       "word": "yet",
@@ -1750,7 +1750,7 @@
       "example_sentence": "Has the deploy finished yet?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:yet.jpg"
     },
     {
       "word": "soon",
@@ -1758,7 +1758,7 @@
       "example_sentence": "The fix will be deployed soon.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:soon.jpg"
     },
     {
       "word": "later",
@@ -1766,7 +1766,7 @@
       "example_sentence": "Let's discuss this later.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🕐"
+      "image_url": "local:later.jpg"
     },
     {
       "word": "again",
@@ -1774,7 +1774,7 @@
       "example_sentence": "The test failed again.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔄"
+      "image_url": "local:again.jpg"
     },
     {
       "word": "always",
@@ -1782,7 +1782,7 @@
       "example_sentence": "Always write tests for new features.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "♾️"
+      "image_url": "local:always.jpg"
     },
     {
       "word": "never",
@@ -1790,7 +1790,7 @@
       "example_sentence": "Never store passwords in plain text.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚫"
+      "image_url": "local:never.jpg"
     },
     {
       "word": "sometimes",
@@ -1798,7 +1798,7 @@
       "example_sentence": "The bug sometimes appears under load.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🎲"
+      "image_url": "local:sometimes.jpg"
     },
     {
       "word": "usually",
@@ -1806,7 +1806,7 @@
       "example_sentence": "We usually deploy on Thursdays.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📊"
+      "image_url": "local:usually.jpg"
     },
     {
       "word": "often",
@@ -1814,7 +1814,7 @@
       "example_sentence": "This error occurs often during peak hours.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📊"
+      "image_url": "local:often.jpg"
     },
     {
       "word": "together",
@@ -1822,7 +1822,7 @@
       "example_sentence": "Let's work on this together.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "👥"
+      "image_url": "local:together.jpg"
     },
     {
       "word": "alone",
@@ -1830,7 +1830,7 @@
       "example_sentence": "She solved the problem alone.",
       "level_id": 1,
       "category_id": 1,
-      "image_url": "🧍"
+      "image_url": "local:alone.jpg"
     },
     {
       "word": "ago",
@@ -1838,7 +1838,7 @@
       "example_sentence": "The server went down two hours ago.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏰"
+      "image_url": "local:ago.jpg"
     },
     {
       "word": "since",
@@ -1846,7 +1846,7 @@
       "example_sentence": "We haven't had an outage since January.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📅"
+      "image_url": "local:since.jpg"
     },
     {
       "word": "until",
@@ -1854,7 +1854,7 @@
       "example_sentence": "Work on this until it's done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏰"
+      "image_url": "local:until.jpg"
     },
     {
       "word": "while",
@@ -1862,7 +1862,7 @@
       "example_sentence": "Monitor the logs while the migration runs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:while.jpg"
     },
     {
       "word": "because",
@@ -1870,7 +1870,7 @@
       "example_sentence": "The test failed because of a null pointer.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💡"
+      "image_url": "local:because.jpg"
     },
     {
       "word": "so",
@@ -1878,7 +1878,7 @@
       "example_sentence": "The API is down, so we need to investigate.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "➡️"
+      "image_url": "local:so.jpg"
     },
     {
       "word": "but",
@@ -1886,7 +1886,7 @@
       "example_sentence": "The feature works, but it's too slow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚖️"
+      "image_url": "local:but.jpg"
     },
     {
       "word": "or",
@@ -1894,7 +1894,7 @@
       "example_sentence": "Use Redis or Memcached for caching.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:or.jpg"
     },
     {
       "word": "and",
@@ -1902,7 +1902,7 @@
       "example_sentence": "Read and write operations use different paths.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "➕"
+      "image_url": "local:and.jpg"
     },
     {
       "word": "if",
@@ -1910,7 +1910,7 @@
       "example_sentence": "If the test fails, block the merge.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:if.jpg"
     },
     {
       "word": "when",
@@ -1918,7 +1918,7 @@
       "example_sentence": "Notify the team when the deploy is done.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏰"
+      "image_url": "local:when.jpg"
     },
     {
       "word": "how",
@@ -1926,7 +1926,7 @@
       "example_sentence": "How does this feature work?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:how.jpg"
     },
     {
       "word": "why",
@@ -1934,7 +1934,7 @@
       "example_sentence": "Why did the service restart?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:why.jpg"
     },
     {
       "word": "who",
@@ -1942,7 +1942,7 @@
       "example_sentence": "Who is responsible for this service?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "👤"
+      "image_url": "local:who.jpg"
     },
     {
       "word": "what",
@@ -1950,7 +1950,7 @@
       "example_sentence": "What caused the latency spike?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:what.jpg"
     },
     {
       "word": "where",
@@ -1958,7 +1958,7 @@
       "example_sentence": "Where are the logs stored?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📍"
+      "image_url": "local:where.jpg"
     },
     {
       "word": "which",
@@ -1966,7 +1966,7 @@
       "example_sentence": "Which environment are you testing in?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:which.jpg"
     },
     {
       "word": "whether",
@@ -1974,7 +1974,7 @@
       "example_sentence": "Check whether the flag is enabled.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "❓"
+      "image_url": "local:whether.jpg"
     },
     {
       "word": "issue",
@@ -1982,7 +1982,7 @@
       "example_sentence": "Open an issue to track this bug.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🐛"
+      "image_url": "local:issue.jpg"
     },
     {
       "word": "solution",
@@ -1990,7 +1990,7 @@
       "example_sentence": "We found a solution to the problem.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✅"
+      "image_url": "local:solution.jpg"
     },
     {
       "word": "approach",
@@ -1998,7 +1998,7 @@
       "example_sentence": "What approach would you recommend?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🧭"
+      "image_url": "local:approach.jpg"
     },
     {
       "word": "option",
@@ -2006,7 +2006,7 @@
       "example_sentence": "We have three options to consider.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:option.jpg"
     },
     {
       "word": "decision",
@@ -2014,7 +2014,7 @@
       "example_sentence": "The team made a decision yesterday.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🤔"
+      "image_url": "local:decision.jpg"
     },
     {
       "word": "priority",
@@ -2022,7 +2022,7 @@
       "example_sentence": "What is the priority of this task?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔝"
+      "image_url": "local:priority.jpg"
     },
     {
       "word": "effort",
@@ -2030,7 +2030,7 @@
       "example_sentence": "How much effort is required?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💪"
+      "image_url": "local:effort.jpg"
     },
     {
       "word": "impact",
@@ -2038,7 +2038,7 @@
       "example_sentence": "What is the impact of this change?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "💥"
+      "image_url": "local:impact.jpg"
     },
     {
       "word": "risk",
@@ -2046,7 +2046,7 @@
       "example_sentence": "This approach carries a high risk.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚠️"
+      "image_url": "local:risk.jpg"
     },
     {
       "word": "requirement",
@@ -2054,7 +2054,7 @@
       "example_sentence": "The requirement was not well defined.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📋"
+      "image_url": "local:requirement.jpg"
     },
     {
       "word": "constraint",
@@ -2062,7 +2062,7 @@
       "example_sentence": "The main constraint is time.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⛓️"
+      "image_url": "local:constraint.jpg"
     },
     {
       "word": "assumption",
@@ -2070,7 +2070,7 @@
       "example_sentence": "List all assumptions in the RFC.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🤔"
+      "image_url": "local:assumption.jpg"
     },
     {
       "word": "tradeoff",
@@ -2078,7 +2078,7 @@
       "example_sentence": "Every design has tradeoffs.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚖️"
+      "image_url": "local:tradeoff.jpg"
     },
     {
       "word": "alternative",
@@ -2086,7 +2086,7 @@
       "example_sentence": "Is there an alternative approach?",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔀"
+      "image_url": "local:alternative.jpg"
     },
     {
       "word": "improvement",
@@ -2094,7 +2094,7 @@
       "example_sentence": "This PR includes several improvements.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📈"
+      "image_url": "local:improvement.jpg"
     },
     {
       "word": "performance",
@@ -2102,7 +2102,7 @@
       "example_sentence": "The performance improved after caching.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⚡"
+      "image_url": "local:performance.jpg"
     },
     {
       "word": "reliability",
@@ -2110,7 +2110,7 @@
       "example_sentence": "Reliability is our top priority.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔒"
+      "image_url": "local:reliability.jpg"
     },
     {
       "word": "scalability",
@@ -2118,7 +2118,7 @@
       "example_sentence": "Design for scalability from the start.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📈"
+      "image_url": "local:scalability.jpg"
     },
     {
       "word": "security",
@@ -2126,7 +2126,7 @@
       "example_sentence": "Security is everyone's responsibility.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:locked_3d.png"
+      "image_url": "local:security.jpg"
     },
     {
       "word": "availability",
@@ -2134,7 +2134,7 @@
       "example_sentence": "High availability requires redundancy.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "📡"
+      "image_url": "local:availability.jpg"
     },
     {
       "word": "maintainability",
@@ -2142,7 +2142,7 @@
       "example_sentence": "Write code for maintainability.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔧"
+      "image_url": "local:maintainability.jpg"
     },
     {
       "word": "readability",
@@ -2150,7 +2150,7 @@
       "example_sentence": "Readability reduces onboarding time.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "👁️"
+      "image_url": "local:readability.jpg"
     },
     {
       "word": "testability",
@@ -2158,7 +2158,7 @@
       "example_sentence": "Good design improves testability.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🧪"
+      "image_url": "local:testability.jpg"
     },
     {
       "word": "simplicity",
@@ -2166,7 +2166,7 @@
       "example_sentence": "Favour simplicity over complexity.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "✨"
+      "image_url": "local:simplicity.jpg"
     },
     {
       "word": "complexity",
@@ -2174,7 +2174,7 @@
       "example_sentence": "Reduce complexity where possible.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🌀"
+      "image_url": "local:complexity.jpg"
     },
     {
       "word": "interview",
@@ -2182,7 +2182,7 @@
       "example_sentence": "She has a technical interview tomorrow.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "fluent:microphone_3d.png"
+      "image_url": "local:interview.jpg"
     },
     {
       "word": "internship",
@@ -2190,7 +2190,7 @@
       "example_sentence": "He got an internship at a big tech company.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🎓"
+      "image_url": "local:internship.jpg"
     },
     {
       "word": "remote work",
@@ -2198,7 +2198,7 @@
       "example_sentence": "Remote work is now the norm.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🏠"
+      "image_url": "local:remote_work.jpg"
     },
     {
       "word": "hybrid work",
@@ -2206,7 +2206,7 @@
       "example_sentence": "We follow a hybrid work model.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🏢"
+      "image_url": "local:hybrid_work.jpg"
     },
     {
       "word": "commute",
@@ -2214,7 +2214,7 @@
       "example_sentence": "My commute is just ten minutes.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🚇"
+      "image_url": "local:commute.jpg"
     },
     {
       "word": "onsite",
@@ -2222,7 +2222,7 @@
       "example_sentence": "The client meeting is onsite.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🏢"
+      "image_url": "local:onsite.jpg"
     },
     {
       "word": "async communication",
@@ -2230,7 +2230,7 @@
       "example_sentence": "Use async communication across time zones.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:async_communication.jpg"
     },
     {
       "word": "sync",
@@ -2238,7 +2238,7 @@
       "example_sentence": "Let's sync up before the demo.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🔄"
+      "image_url": "local:sync.jpg"
     },
     {
       "word": "alignment",
@@ -2246,7 +2246,7 @@
       "example_sentence": "We need alignment between product and engineering.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "🎯"
+      "image_url": "local:alignment.jpg"
     },
     {
       "word": "bandwidth (personal)",
@@ -2254,7 +2254,7 @@
       "example_sentence": "I don't have the bandwidth for this right now.",
       "level_id": 1,
       "category_id": 2,
-      "image_url": "⏳"
+      "image_url": "local:bandwidth_personal.jpg"
     }
   ]
 }
