@@ -2,7 +2,6 @@ package com.englishlearning.app.ui.vocabulary
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,7 +21,11 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Image
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.QuestionMark
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -43,14 +46,11 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -78,11 +78,13 @@ fun VocabularyScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(when (uiState) {
-                        is VocabularyUiState.Reviewing -> "Vocabulário"
-                        is VocabularyUiState.Done -> "Sessão concluída"
-                        else -> "Vocabulário"
-                    })
+                    Text(
+                        when (uiState) {
+                            is VocabularyUiState.Reviewing -> "Vocabulário"
+                            is VocabularyUiState.Done -> "Sessão concluída"
+                            else -> "Vocabulário"
+                        }
+                    )
                 },
                 navigationIcon = {
                     IconButton(onClick = {
@@ -156,13 +158,13 @@ private fun SelectionScreen(
         ) {
             items(state.levels) { level ->
                 val name = when (level.nameKey) {
-                    "level_beginner"           -> "A1"
-                    "level_elementary"         -> "A2"
-                    "level_pre_intermediate"   -> "A2+"
-                    "level_intermediate"       -> "B1"
+                    "level_beginner" -> "A1"
+                    "level_elementary" -> "A2"
+                    "level_pre_intermediate" -> "A2+"
+                    "level_intermediate" -> "B1"
                     "level_upper_intermediate" -> "B2"
-                    "level_advanced"           -> "C1"
-                    else -> level.nameKey.replace("level_","")
+                    "level_advanced" -> "C1"
+                    else -> level.nameKey.replace("level_", "")
                 }
                 FilterChip(
                     selected = level.id == state.selectedLevelId,
@@ -203,7 +205,7 @@ private fun SelectionScreen(
             Column(
                 modifier = Modifier.padding(20.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+                verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 Text(
                     "Sessão de hoje",
@@ -217,7 +219,10 @@ private fun SelectionScreen(
                 ) {
                     StatBox(label = "Revisar", value = state.dueCount.toString())
                     StatBox(label = "Novos", value = state.newCount.toString())
-                    StatBox(label = "Total", value = (state.dueCount + state.newCount.coerceAtMost(20)).toString())
+                    StatBox(
+                        label = "Total",
+                        value = (state.dueCount + state.newCount.coerceAtMost(20)).toString()
+                    )
                 }
 
                 val total = state.dueCount + state.newCount.coerceAtMost(20)
@@ -318,26 +323,23 @@ private fun ReviewScreen(
             modifier = Modifier.align(Alignment.End)
         )
 
-        Spacer(Modifier.height(16.dp))
-
-        // Card com flip
         Spacer(Modifier.weight(1f))
 
-        // Card estilo baralho — tamanho fixo centralizado
+        // Card com flip
         Box(
             modifier = Modifier
-                .width(300.dp)
-                .height(420.dp)
+                .width(320.dp)
+                .height(440.dp)
                 .graphicsLayer {
                     rotationY = rotation
                     cameraDistance = 12f * density
                 }
         ) {
             if (isFront) {
-                VocabCardFront(card = state.card, onReveal = onReveal)
+                CardFront(card = state.card, onReveal = onReveal)
             } else {
                 Box(Modifier.fillMaxSize().graphicsLayer { rotationY = 180f }) {
-                    VocabCardBack(
+                    CardBack(
                         card = state.card,
                         ttsManager = ttsManager,
                         ttsState = ttsState,
@@ -352,57 +354,73 @@ private fun ReviewScreen(
 }
 
 @Composable
-private fun VocabCardFront(card: VocabularyCardEntity, onReveal: () -> Unit) {
+private fun CardFront(card: VocabularyCardEntity, onReveal: () -> Unit) {
     Card(
         modifier = Modifier.fillMaxSize(),
-        shape = RoundedCornerShape(20.dp),
+        shape = RoundedCornerShape(24.dp),
         elevation = CardDefaults.cardElevation(8.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
         onClick = onReveal
     ) {
-        Box(Modifier.fillMaxSize()) {
+        Box(
+            modifier = Modifier.fillMaxSize().padding(24.dp),
+            contentAlignment = Alignment.Center
+        ) {
             Column(
-                modifier = Modifier.fillMaxSize(),
-                horizontalAlignment = Alignment.CenterHorizontally
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
             ) {
-                // Imagem local ocupa a parte superior
-                VocabImage(
-                    word = card.word,
-                    imageUrl = card.imageUrl,
+                // Ícone de interrogação
+                Box(
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .weight(1f)
-                        .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
-                )
-                
-                // Área inferior com pergunta
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .background(MaterialTheme.colorScheme.primaryContainer)
-                        .padding(20.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally
+                        .size(80.dp)
+                        .background(
+                            MaterialTheme.colorScheme.primary.copy(alpha = 0.15f),
+                            CircleShape
+                        ),
+                    contentAlignment = Alignment.Center
                 ) {
-                    Text(
-                        "Que palavra é essa?",
-                        style = MaterialTheme.typography.titleMedium,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer,
-                        fontWeight = FontWeight.SemiBold
-                    )
-                    Spacer(Modifier.height(4.dp))
-                    Text(
-                        "Toque para revelar",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
+                    Icon(
+                        imageVector = Icons.Default.QuestionMark,
+                        contentDescription = null,
+                        modifier = Modifier.size(40.dp),
+                        tint = MaterialTheme.colorScheme.primary
                     )
                 }
+
+                Spacer(Modifier.height(32.dp))
+
+                // Definição como dica
+                Text(
+                    text = card.definition,
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Medium,
+                    textAlign = TextAlign.Center,
+                    color = MaterialTheme.colorScheme.onPrimaryContainer
+                )
+
+                Spacer(Modifier.height(48.dp))
+
+                Text(
+                    "Qual é a palavra em inglês?",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
+                )
+
+                Spacer(Modifier.height(8.dp))
+
+                Text(
+                    "Toque para revelar",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.5f)
+                )
             }
         }
     }
 }
 
 @Composable
-private fun VocabCardBack(
+private fun CardBack(
     card: VocabularyCardEntity,
     ttsManager: TtsManager?,
     ttsState: TtsState,
@@ -410,142 +428,140 @@ private fun VocabCardBack(
 ) {
     Card(
         modifier = Modifier.fillMaxSize(),
-        shape = RoundedCornerShape(20.dp),
+        shape = RoundedCornerShape(24.dp),
         elevation = CardDefaults.cardElevation(8.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
         Column(
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize().padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Imagem menor no topo
-            VocabImage(
-                word = card.word,
-                imageUrl = card.imageUrl,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(100.dp)
-                    .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
+            // Palavra principal com áudio
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = card.word,
+                    style = MaterialTheme.typography.headlineLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary
+                )
+                if (ttsManager != null) {
+                    Spacer(Modifier.width(12.dp))
+                    IconButton(
+                        onClick = { ttsManager.speak(card.word) },
+                        modifier = Modifier
+                            .size(40.dp)
+                            .background(
+                                MaterialTheme.colorScheme.primaryContainer,
+                                CircleShape
+                            )
+                    ) {
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Filled.VolumeUp,
+                            contentDescription = "Ouvir pronúncia",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                }
+            }
+
+            Spacer(Modifier.height(8.dp))
+
+            // Definição
+            Text(
+                text = card.definition,
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center
             )
-            
-            // Conteúdo principal
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .weight(1f)
-                    .padding(horizontal = 20.dp, vertical = 16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.SpaceBetween
+
+            Spacer(Modifier.height(24.dp))
+
+            // Frase de exemplo
+            Card(
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                ),
+                shape = RoundedCornerShape(16.dp)
             ) {
                 Column(
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                    modifier = Modifier.padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    // Palavra + TTS
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(
-                            text = card.word,
-                            style = MaterialTheme.typography.headlineMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.primary
-                        )
-                        if (ttsManager != null) {
-                            Spacer(Modifier.width(8.dp))
-                            com.englishlearning.app.ui.components.TtsButton(
-                                text = card.word,
-                                manager = ttsManager,
-                                state = ttsState,
-                                size = 28.dp
-                            )
-                        }
-                    }
-
-                    // Definição
                     Text(
-                        text = card.definition,
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.onSurface,
+                        text = "\"${card.exampleSentence}\"",
+                        style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center,
-                        fontWeight = FontWeight.Medium
+                        lineHeight = 22.sp
                     )
-
-                    Spacer(Modifier.height(8.dp))
-
-                    // Exemplo
-                    Card(
-                        colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.surfaceVariant
-                        ),
-                        shape = RoundedCornerShape(12.dp)
-                    ) {
-                        Column(
-                            modifier = Modifier.padding(12.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally
+                    if (ttsManager != null) {
+                        Spacer(Modifier.height(8.dp))
+                        IconButton(
+                            onClick = { ttsManager.speak(card.exampleSentence, slow = true) },
+                            modifier = Modifier.size(32.dp)
                         ) {
-                            Text(
-                                text = "\"${card.exampleSentence}\"",
-                                style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic),
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                textAlign = TextAlign.Center
+                            Icon(
+                                imageVector = Icons.AutoMirrored.Filled.VolumeUp,
+                                contentDescription = "Ouvir frase",
+                                modifier = Modifier.size(20.dp),
+                                tint = MaterialTheme.colorScheme.primary
                             )
-                            if (ttsManager != null) {
-                                Spacer(Modifier.height(4.dp))
-                                com.englishlearning.app.ui.components.TtsButton(
-                                    text = card.exampleSentence,
-                                    manager = ttsManager,
-                                    state = ttsState,
-                                    slow = true,
-                                    size = 20.dp
-                                )
-                            }
                         }
                     }
                 }
+            }
 
-                // Botões de avaliação FSRS
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    Text(
-                        "Você lembrou?",
-                        style = MaterialTheme.typography.labelMedium,
-                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
-                        modifier = Modifier.align(Alignment.CenterHorizontally)
-                    )
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                    ) {
-                        RatingButton(
-                            label = "Não",
-                            containerColor = MaterialTheme.colorScheme.errorContainer,
-                            contentColor = MaterialTheme.colorScheme.onErrorContainer,
-                            modifier = Modifier.weight(1f),
-                            onClick = { onRate(SrsRating.AGAIN) }
-                        )
-                        RatingButton(
-                            label = "Difícil",
-                            containerColor = MaterialTheme.colorScheme.tertiaryContainer,
-                            contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
-                            modifier = Modifier.weight(1f),
-                            onClick = { onRate(SrsRating.HARD) }
-                        )
-                        RatingButton(
-                            label = "Bom",
-                            containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                            contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                            modifier = Modifier.weight(1f),
-                            onClick = { onRate(SrsRating.GOOD) }
-                        )
-                        RatingButton(
-                            label = "Fácil",
-                            containerColor = MaterialTheme.colorScheme.primary,
-                            contentColor = MaterialTheme.colorScheme.onPrimary,
-                            modifier = Modifier.weight(1f),
-                            onClick = { onRate(SrsRating.EASY) }
-                        )
-                    }
-                }
+            Spacer(Modifier.weight(1f))
+
+            // Pergunta de avaliação
+            Text(
+                "Você lembrou?",
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+            )
+
+            Spacer(Modifier.height(12.dp))
+
+            // Botões de avaliação
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                RatingButton(
+                    icon = Icons.Default.Close,
+                    label = "Não",
+                    containerColor = MaterialTheme.colorScheme.errorContainer,
+                    contentColor = MaterialTheme.colorScheme.onErrorContainer,
+                    modifier = Modifier.weight(1f),
+                    onClick = { onRate(SrsRating.AGAIN) }
+                )
+                RatingButton(
+                    icon = Icons.Default.Refresh,
+                    label = "Difícil",
+                    containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
+                    modifier = Modifier.weight(1f),
+                    onClick = { onRate(SrsRating.HARD) }
+                )
+                RatingButton(
+                    icon = Icons.Default.Check,
+                    label = "Bom",
+                    containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+                    modifier = Modifier.weight(1f),
+                    onClick = { onRate(SrsRating.GOOD) }
+                )
+                RatingButton(
+                    icon = Icons.Default.Check,
+                    label = "Fácil",
+                    containerColor = MaterialTheme.colorScheme.primary,
+                    contentColor = MaterialTheme.colorScheme.onPrimary,
+                    modifier = Modifier.weight(1f),
+                    onClick = { onRate(SrsRating.EASY) }
+                )
             }
         }
     }
@@ -553,6 +569,7 @@ private fun VocabCardBack(
 
 @Composable
 private fun RatingButton(
+    icon: ImageVector,
     label: String,
     containerColor: androidx.compose.ui.graphics.Color,
     contentColor: androidx.compose.ui.graphics.Color,
@@ -561,19 +578,29 @@ private fun RatingButton(
 ) {
     Button(
         onClick = onClick,
-        modifier = modifier.height(48.dp),
-        shape = RoundedCornerShape(12.dp),
+        modifier = modifier.height(56.dp),
+        shape = RoundedCornerShape(16.dp),
         colors = ButtonDefaults.buttonColors(
             containerColor = containerColor,
             contentColor = contentColor
         ),
-        contentPadding = PaddingValues(horizontal = 4.dp, vertical = 8.dp)
+        contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp)
     ) {
-        Text(
-            text = label,
-            style = MaterialTheme.typography.labelMedium,
-            textAlign = TextAlign.Center
-        )
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                modifier = Modifier.size(18.dp)
+            )
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelSmall,
+                fontSize = 10.sp
+            )
+        }
     }
 }
 
@@ -600,59 +627,59 @@ private fun DoneScreen(
                 ),
             contentAlignment = Alignment.Center
         ) {
-            Text(
-                "✓",
-                style = MaterialTheme.typography.displayMedium,
-                color = MaterialTheme.colorScheme.primary,
-                fontWeight = FontWeight.Bold
+            Icon(
+                imageVector = Icons.Default.Check,
+                contentDescription = null,
+                modifier = Modifier.size(48.dp),
+                tint = MaterialTheme.colorScheme.primary
             )
         }
-        
+
         Spacer(Modifier.height(24.dp))
-        
+
         Text(
             "Sessão concluída!",
             style = MaterialTheme.typography.headlineSmall,
             fontWeight = FontWeight.Bold
         )
-        
+
         Spacer(Modifier.height(12.dp))
-        
+
         Text(
             "${state.reviewed} cards revisados",
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
-        
+
         Spacer(Modifier.height(8.dp))
-        
+
         Row(
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             StatChip(label = "Novos", value = state.newCards.toString())
             StatChip(label = "Revisões", value = state.reviewedCards.toString())
         }
-        
+
         Spacer(Modifier.height(16.dp))
-        
+
         Text(
             "O algoritmo FSRS agendou a próxima revisão\nde cada palavra automaticamente.",
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
         )
-        
+
         Spacer(Modifier.height(32.dp))
-        
+
         Button(
             onClick = onBack,
             modifier = Modifier.fillMaxWidth()
         ) {
             Text("Voltar ao início")
         }
-        
+
         Spacer(Modifier.height(12.dp))
-        
+
         OutlinedButton(
             onClick = onRestart,
             modifier = Modifier.fillMaxWidth()
@@ -685,65 +712,6 @@ private fun StatChip(label: String, value: String) {
                 label,
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-        }
-    }
-}
-
-// ─── Componente de imagem local ───────────────────────────────────────────────
-
-/**
- * Carrega uma imagem local dos assets baseada na palavra.
- * As imagens estão em assets/vocab_images/{word}.jpg
- */
-@Composable
-fun VocabImage(
-    word: String,
-    imageUrl: String?,
-    modifier: Modifier = Modifier
-) {
-    val context = LocalContext.current
-    
-    // Determinar o nome do arquivo
-    val filename = if (imageUrl != null && imageUrl.startsWith("local:")) {
-        imageUrl.removePrefix("local:")
-    } else {
-        // Gerar nome do arquivo a partir da palavra
-        word.lowercase()
-            .replace(" ", "_")
-            .replace("/", "_")
-            .replace("\\", "_")
-            .filter { it.isLetterOrDigit() || it == '_' }
-            .take(50) + ".jpg"
-    }
-    
-    // Carregar bitmap dos assets
-    val bitmap = remember(filename) {
-        runCatching {
-            context.assets.open("vocab_images/$filename").use { stream ->
-                android.graphics.BitmapFactory.decodeStream(stream)
-            }
-        }.getOrNull()
-    }
-    
-    if (bitmap != null) {
-        androidx.compose.foundation.Image(
-            bitmap = bitmap.asImageBitmap(),
-            contentDescription = word,
-            modifier = modifier,
-            contentScale = ContentScale.Crop
-        )
-    } else {
-        // Fallback: placeholder colorido
-        Box(
-            modifier = modifier.background(MaterialTheme.colorScheme.surfaceVariant),
-            contentAlignment = Alignment.Center
-        ) {
-            Icon(
-                imageVector = Icons.Default.Image,
-                contentDescription = null,
-                modifier = Modifier.size(48.dp),
-                tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
             )
         }
     }
