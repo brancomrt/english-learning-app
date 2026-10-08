@@ -54,6 +54,7 @@ sealed class Screen(val route: String) {
     object SrsReview      : Screen("srs_review")
     object PrivacyPolicy  : Screen("privacy_policy")
     object Vocabulary     : Screen("vocabulary")
+    object CallanDrill    : Screen("callan_drill")
 }
 
 private const val PREFS_NAME = "app_prefs"
@@ -212,6 +213,11 @@ fun AppNavGraph(
             SrsReviewScreen(
                 onNavigateBack = { navController.popBackStack() }
             )
+        }
+
+        // Callan Drill
+        composable(Screen.CallanDrill.route) {
+            CallanDrillScreen(navController = navController)
         }
     }
 }
