@@ -1,805 +1,1467 @@
 {
-  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas",
+  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas no Stage 1",
+  "source": "Adaptado do padrão Callan Method Stage 1",
   "drills": [
     {
       "id": 1,
       "level": 1,
-      "prompt": "Is this a book?",
-      "answer": "Yes, it's a book.",
-      "alt_answers": ["Yes, it is a book.", "Yes, this is a book."],
-      "grammar": "to be - affirmative"
+      "lesson": 1,
+      "prompt": "What's this?",
+      "context": "pen",
+      "answer": "It's a pen.",
+      "alt_answers": ["It is a pen.", "This is a pen."],
+      "grammar": "what's this - basic objects"
     },
     {
       "id": 2,
       "level": 1,
+      "lesson": 1,
       "prompt": "Is this a pen?",
-      "answer": "No, it isn't a pen, it's a pencil.",
-      "alt_answers": ["No, it is not a pen, it is a pencil.", "No, this isn't a pen, this is a pencil."],
-      "grammar": "to be - negative"
+      "context": "pencil",
+      "answer": "No, it isn't a pen, but it's a pencil.",
+      "alt_answers": ["No, it is not a pen, but it is a pencil."],
+      "grammar": "is this - negative with but"
     },
     {
       "id": 3,
       "level": 1,
-      "prompt": "What's this?",
-      "answer": "It's a table.",
-      "alt_answers": ["This is a table.", "It is a table."],
-      "grammar": "to be - what"
+      "lesson": 1,
+      "prompt": "Is this a pencil?",
+      "context": "book",
+      "answer": "No, it isn't a pencil, but it's a book.",
+      "alt_answers": ["No, it is not a pencil, but it is a book."],
+      "grammar": "is this - negative with but"
     },
     {
       "id": 4,
       "level": 1,
-      "prompt": "What's your name?",
-      "answer": "My name is [name].",
-      "alt_answers": ["I'm [name].", "My name's [name]."],
-      "grammar": "to be - personal info"
+      "lesson": 1,
+      "prompt": "Is this pencil long or short?",
+      "context": "long pencil",
+      "answer": "This pencil isn't short, but it's long.",
+      "alt_answers": ["This pencil is long.", "It's long."],
+      "grammar": "long/short - adjectives"
     },
     {
       "id": 5,
       "level": 1,
-      "prompt": "Where are you from?",
-      "answer": "I'm from Brazil.",
-      "alt_answers": ["I am from Brazil.", "I come from Brazil."],
-      "grammar": "to be - origin"
+      "lesson": 1,
+      "prompt": "Is the table small?",
+      "context": "large table",
+      "answer": "No, the table isn't small, but it's large.",
+      "alt_answers": ["No, the table is not small, but it is large."],
+      "grammar": "large/small - adjectives"
     },
     {
       "id": 6,
       "level": 1,
-      "prompt": "Is the book on the table?",
-      "answer": "Yes, the book is on the table.",
-      "alt_answers": ["Yes, it is on the table.", "Yes, it's on the table."],
-      "grammar": "to be - prepositions"
+      "lesson": 1,
+      "prompt": "Is the box large?",
+      "context": "small box",
+      "answer": "No, the box isn't large, but it's small.",
+      "alt_answers": ["No, the box is not large, but it is small."],
+      "grammar": "large/small - adjectives"
     },
     {
       "id": 7,
       "level": 1,
-      "prompt": "Is the pen under the chair?",
-      "answer": "No, the pen isn't under the chair, it's on the desk.",
-      "alt_answers": ["No, it isn't under the chair, it's on the desk."],
-      "grammar": "to be - prepositions negative"
+      "lesson": 1,
+      "prompt": "Is London a village?",
+      "answer": "No, London isn't a village, but it's a city.",
+      "alt_answers": ["No, London is not a village, but it is a city."],
+      "grammar": "city/town/village"
     },
     {
       "id": 8,
       "level": 1,
-      "prompt": "Are you a student?",
-      "answer": "Yes, I'm a student.",
-      "alt_answers": ["Yes, I am a student.", "Yes, I am."],
-      "grammar": "to be - occupation"
+      "lesson": 1,
+      "prompt": "Is a city large or small?",
+      "answer": "A city's large.",
+      "alt_answers": ["A city is large.", "Cities are large."],
+      "grammar": "or questions"
     },
     {
       "id": 9,
       "level": 1,
-      "prompt": "Is he a teacher?",
-      "answer": "No, he isn't a teacher, he's a doctor.",
-      "alt_answers": ["No, he is not a teacher, he is a doctor."],
-      "grammar": "to be - third person"
+      "lesson": 1,
+      "prompt": "Is this a girl?",
+      "context": "man",
+      "answer": "No, it isn't a girl, but it's a man.",
+      "alt_answers": ["No, it is not a girl, but it is a man."],
+      "grammar": "man/woman/boy/girl"
     },
     {
       "id": 10,
       "level": 1,
-      "prompt": "What color is the pen?",
-      "answer": "The pen is blue.",
-      "alt_answers": ["It's blue.", "It is blue."],
-      "grammar": "to be - colors"
+      "lesson": 1,
+      "prompt": "Is the pen in the book?",
+      "context": "under the book",
+      "answer": "No, the pen isn't in the book, but it's under the book.",
+      "alt_answers": ["No, the pen is not in the book, but it is under the book."],
+      "grammar": "prepositions - in/under/on"
     },
     {
       "id": 11,
       "level": 1,
-      "prompt": "How many books are on the table?",
-      "answer": "There are three books on the table.",
-      "alt_answers": ["Three books are on the table.", "There are 3 books on the table."],
-      "grammar": "there are - counting"
+      "lesson": 1,
+      "prompt": "Is the pen under the book?",
+      "context": "on the book",
+      "answer": "No, the pen isn't under the book, but it's on the book.",
+      "alt_answers": ["No, the pen is not under the book, but it is on the book."],
+      "grammar": "prepositions - in/under/on"
     },
     {
       "id": 12,
       "level": 1,
-      "prompt": "Is there a window in this room?",
-      "answer": "Yes, there is a window in this room.",
-      "alt_answers": ["Yes, there is.", "Yes, there's a window."],
-      "grammar": "there is - affirmative"
+      "lesson": 1,
+      "prompt": "What colour's this pencil?",
+      "context": "black pencil",
+      "answer": "This pencil's black.",
+      "alt_answers": ["This pencil is black.", "It's black."],
+      "grammar": "colours"
     },
     {
       "id": 13,
       "level": 1,
-      "prompt": "Are there any chairs here?",
-      "answer": "Yes, there are some chairs here.",
-      "alt_answers": ["Yes, there are.", "Yes, there are chairs here."],
-      "grammar": "there are - some/any"
+      "lesson": 1,
+      "prompt": "Where's the pen?",
+      "context": "on the book",
+      "answer": "The pen's on the book.",
+      "alt_answers": ["The pen is on the book.", "It's on the book."],
+      "grammar": "where - location"
     },
     {
       "id": 14,
       "level": 1,
-      "prompt": "What time is it?",
-      "answer": "It's three o'clock.",
-      "alt_answers": ["It is three o'clock.", "It's 3 o'clock."],
-      "grammar": "to be - time"
+      "lesson": 1,
+      "prompt": "Where's the picture?",
+      "context": "on the wall",
+      "answer": "The picture's on the wall.",
+      "alt_answers": ["The picture is on the wall.", "It's on the wall."],
+      "grammar": "where - location"
     },
     {
       "id": 15,
       "level": 1,
-      "prompt": "What day is today?",
-      "answer": "Today is Monday.",
-      "alt_answers": ["It's Monday.", "It is Monday."],
-      "grammar": "to be - days"
+      "lesson": 1,
+      "prompt": "Where's the light?",
+      "context": "on the ceiling",
+      "answer": "The light's on the ceiling.",
+      "alt_answers": ["The light is on the ceiling.", "It's on the ceiling."],
+      "grammar": "where - location"
     },
     {
       "id": 16,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Am I Mr Smith?",
+      "context": "teacher named Mr Smith",
+      "answer": "Yes, you're Mr Smith.",
+      "alt_answers": ["Yes, you are Mr Smith."],
+      "grammar": "to be - I/you"
+    },
+    {
+      "id": 17,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Are you Mr Brown?",
+      "context": "student not named Brown",
+      "answer": "No, I'm not Mr Brown, but I'm [name].",
+      "alt_answers": ["No, I am not Mr Brown."],
+      "grammar": "to be - negative I"
+    },
+    {
+      "id": 18,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Is he Mr Brown?",
+      "context": "man named Mr Brown",
+      "answer": "Yes, he's Mr Brown.",
+      "alt_answers": ["Yes, he is Mr Brown."],
+      "grammar": "to be - he"
+    },
+    {
+      "id": 19,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Is she Mrs Brown?",
+      "context": "woman named Mrs Brown",
+      "answer": "Yes, she's Mrs Brown.",
+      "alt_answers": ["Yes, she is Mrs Brown."],
+      "grammar": "to be - she"
+    },
+    {
+      "id": 20,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Where's the table?",
+      "context": "in front of me",
+      "answer": "The table's in front of me.",
+      "alt_answers": ["The table is in front of me."],
+      "grammar": "in front of/behind"
+    },
+    {
+      "id": 21,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Is the wall in front of you?",
+      "context": "behind",
+      "answer": "No, the wall isn't in front of me, but it's behind me.",
+      "alt_answers": ["No, the wall is not in front of me, but it is behind me."],
+      "grammar": "in front of/behind"
+    },
+    {
+      "id": 22,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Where's the house?",
+      "context": "behind him",
+      "answer": "The house is behind him.",
+      "alt_answers": ["The house's behind him.", "It's behind him."],
+      "grammar": "him/her"
+    },
+    {
+      "id": 23,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Are you standing on the floor?",
+      "context": "sitting on chair",
+      "answer": "No, I'm not standing on the floor, but I'm sitting on the chair.",
+      "alt_answers": ["No, I am not standing on the floor, but I am sitting on the chair."],
+      "grammar": "standing/sitting"
+    },
+    {
+      "id": 24,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Am I sitting on the chair?",
+      "context": "standing on floor",
+      "answer": "No, you aren't sitting on the chair, but you're standing on the floor.",
+      "alt_answers": ["No, you are not sitting on the chair, but you are standing on the floor."],
+      "grammar": "standing/sitting"
+    },
+    {
+      "id": 25,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Am I closing the door?",
+      "context": "opening the book",
+      "answer": "No, you aren't closing the door, but you're opening the book.",
+      "alt_answers": ["No, you are not closing the door, but you are opening the book."],
+      "grammar": "opening/closing"
+    },
+    {
+      "id": 26,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "What am I doing?",
+      "context": "taking the book from the table",
+      "answer": "You're taking the book from the table.",
+      "alt_answers": ["You are taking the book from the table."],
+      "grammar": "what am I doing"
+    },
+    {
+      "id": 27,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "What am I doing?",
+      "context": "opening the book",
+      "answer": "You're opening the book.",
+      "alt_answers": ["You are opening the book."],
+      "grammar": "what am I doing"
+    },
+    {
+      "id": 28,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "What am I doing?",
+      "context": "putting the book on the table",
+      "answer": "You're putting the book on the table.",
+      "alt_answers": ["You are putting the book on the table."],
+      "grammar": "what am I doing"
+    },
+    {
+      "id": 29,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Which pencil's black?",
+      "context": "this pencil",
+      "answer": "This pencil's black.",
+      "alt_answers": ["This pencil is black."],
+      "grammar": "which"
+    },
+    {
+      "id": 30,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Which book's open?",
+      "context": "this book",
+      "answer": "This book's open.",
+      "alt_answers": ["This book is open."],
+      "grammar": "open/closed"
+    },
+    {
+      "id": 31,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What colour's this pencil?",
+      "context": "black",
+      "answer": "This pencil's black.",
+      "alt_answers": ["This pencil is black.", "It's black."],
+      "grammar": "this/that - colours"
+    },
+    {
+      "id": 32,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What colour's that pencil?",
+      "context": "white",
+      "answer": "That pencil's white.",
+      "alt_answers": ["That pencil is white.", "It's white."],
+      "grammar": "this/that - colours"
+    },
+    {
+      "id": 33,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Where's this pencil?",
+      "context": "on the chart",
+      "answer": "This pencil's on the chart.",
+      "alt_answers": ["This pencil is on the chart."],
+      "grammar": "this/that - location"
+    },
+    {
+      "id": 34,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Where's that pencil?",
+      "context": "on the wall",
+      "answer": "That pencil's on the wall.",
+      "alt_answers": ["That pencil is on the wall."],
+      "grammar": "this/that - location"
+    },
+    {
+      "id": 35,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What's the plural of 'book'?",
+      "answer": "The plural of 'book' is 'books'.",
+      "alt_answers": ["Books.", "The plural is books."],
+      "grammar": "plurals"
+    },
+    {
+      "id": 36,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What's the plural of 'light'?",
+      "answer": "The plural of 'light' is 'lights'.",
+      "alt_answers": ["Lights.", "The plural is lights."],
+      "grammar": "plurals"
+    },
+    {
+      "id": 37,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Are we sitting?",
+      "context": "sitting",
+      "answer": "Yes, we're sitting.",
+      "alt_answers": ["Yes, we are sitting."],
+      "grammar": "we - present continuous"
+    },
+    {
+      "id": 38,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Where are we sitting?",
+      "context": "on the chairs",
+      "answer": "We're sitting on the chairs.",
+      "alt_answers": ["We are sitting on the chairs."],
+      "grammar": "we - location"
+    },
+    {
+      "id": 39,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Are they standing?",
+      "context": "standing",
+      "answer": "Yes, they're standing.",
+      "alt_answers": ["Yes, they are standing."],
+      "grammar": "they - present continuous"
+    },
+    {
+      "id": 40,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Are we standing?",
+      "context": "sitting",
+      "answer": "No, we aren't standing, but we're sitting.",
+      "alt_answers": ["No, we are not standing, but we are sitting."],
+      "grammar": "we - negative"
+    },
+    {
+      "id": 41,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Are they sitting?",
+      "context": "standing",
+      "answer": "No, they aren't sitting, but they're standing.",
+      "alt_answers": ["No, they are not sitting, but they are standing."],
+      "grammar": "they - negative"
+    },
+    {
+      "id": 42,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What colour are these pencils?",
+      "context": "black and green",
+      "answer": "These pencils are black and green.",
+      "alt_answers": ["They're black and green."],
+      "grammar": "these/those - colours"
+    },
+    {
+      "id": 43,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What colour are those pencils?",
+      "context": "white and brown",
+      "answer": "Those pencils are white and brown.",
+      "alt_answers": ["They're white and brown."],
+      "grammar": "these/those - colours"
+    },
+    {
+      "id": 44,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What's the plural of 'man'?",
+      "answer": "The plural of 'man' is 'men'.",
+      "alt_answers": ["Men.", "The plural is men."],
+      "grammar": "irregular plurals"
+    },
+    {
+      "id": 45,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What's the plural of 'woman'?",
+      "answer": "The plural of 'woman' is 'women'.",
+      "alt_answers": ["Women.", "The plural is women."],
+      "grammar": "irregular plurals"
+    },
+    {
+      "id": 46,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "What are the five vowels?",
+      "answer": "The five vowels are A, E, I, O, U.",
+      "alt_answers": ["A, E, I, O, U.", "The vowels are A, E, I, O, U."],
+      "grammar": "vowels/consonants"
+    },
+    {
+      "id": 47,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the letter 'B' a vowel?",
+      "answer": "No, the letter 'B' isn't a vowel, but it's a consonant.",
+      "alt_answers": ["No, the letter B is not a vowel, but it is a consonant."],
+      "grammar": "vowels/consonants"
+    },
+    {
+      "id": 48,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Which letter's before E?",
+      "answer": "D's before E.",
+      "alt_answers": ["D is before E.", "The letter D."],
+      "grammar": "before/after"
+    },
+    {
+      "id": 49,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Which letter's after G?",
+      "answer": "H's after G.",
+      "alt_answers": ["H is after G.", "The letter H."],
+      "grammar": "before/after"
+    },
+    {
+      "id": 50,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Which letter's between D and F?",
+      "answer": "E's between D and F.",
+      "alt_answers": ["E is between D and F.", "The letter E."],
+      "grammar": "between"
+    },
+    {
+      "id": 51,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Which letter's between H and J?",
+      "answer": "I's between H and J.",
+      "alt_answers": ["I is between H and J.", "The letter I."],
+      "grammar": "between"
+    },
+    {
+      "id": 52,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Where's the table?",
+      "context": "in front of us",
+      "answer": "The table's in front of us.",
+      "alt_answers": ["The table is in front of us."],
+      "grammar": "us/them"
+    },
+    {
+      "id": 53,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Are the walls in front of us?",
+      "context": "behind us",
+      "answer": "No, the walls aren't in front of us, but they're behind us.",
+      "alt_answers": ["No, the walls are not in front of us, but they are behind us."],
+      "grammar": "us/them"
+    },
+    {
+      "id": 54,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Where's the house?",
+      "context": "behind them",
+      "answer": "The house's behind them.",
+      "alt_answers": ["The house is behind them."],
+      "grammar": "them"
+    },
+    {
+      "id": 55,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Am I the pupil?",
+      "context": "teacher",
+      "answer": "No, you aren't the pupil, but you're the teacher.",
+      "alt_answers": ["No, you are not the pupil, but you are the teacher."],
+      "grammar": "pupil/teacher"
+    },
+    {
+      "id": 56,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Are you the teacher?",
+      "context": "pupil",
+      "answer": "No, I'm not the teacher, but I'm the pupil.",
+      "alt_answers": ["No, I am not the teacher, but I am the pupil."],
+      "grammar": "pupil/teacher"
+    },
+    {
+      "id": 57,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "What number's this: 30?",
+      "answer": "It's thirty.",
+      "alt_answers": ["Thirty.", "This number is thirty."],
+      "grammar": "numbers"
+    },
+    {
+      "id": 58,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "How much is 13 plus 5?",
+      "answer": "13 plus 5 equals 18.",
+      "alt_answers": ["Eighteen.", "It equals 18."],
+      "grammar": "plus/equals"
+    },
+    {
+      "id": 59,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "How much is 20 plus 15?",
+      "answer": "20 plus 15 equals 35.",
+      "alt_answers": ["Thirty-five.", "It equals 35."],
+      "grammar": "plus/equals"
+    },
+    {
+      "id": 60,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is there a pen on this book?",
+      "context": "yes",
+      "answer": "Yes, there's a pen on this book.",
+      "alt_answers": ["Yes, there is a pen on this book."],
+      "grammar": "there is"
+    },
+    {
+      "id": 61,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is there a light on the ceiling?",
+      "context": "yes",
+      "answer": "Yes, there's a light on the ceiling.",
+      "alt_answers": ["Yes, there is a light on the ceiling."],
+      "grammar": "there is"
+    },
+    {
+      "id": 62,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Are there two pens on the book now?",
+      "context": "yes",
+      "answer": "Yes, there are two pens on the book now.",
+      "alt_answers": ["Yes, there are."],
+      "grammar": "there are"
+    },
+    {
+      "id": 63,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is there a book on the floor?",
+      "context": "no",
+      "answer": "No, there isn't a book on the floor.",
+      "alt_answers": ["No, there is not a book on the floor."],
+      "grammar": "there isn't"
+    },
+    {
+      "id": 64,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Are there any chairs on the table?",
+      "context": "no",
+      "answer": "No, there aren't any chairs on the table.",
+      "alt_answers": ["No, there are not any chairs on the table."],
+      "grammar": "there aren't"
+    },
+    {
+      "id": 65,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the chair high?",
+      "context": "low",
+      "answer": "No, the chair isn't high, but it's low.",
+      "alt_answers": ["No, the chair is not high, but it is low."],
+      "grammar": "high/low"
+    },
+    {
+      "id": 66,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the wall low?",
+      "context": "high",
+      "answer": "No, the wall isn't low, but it's high.",
+      "alt_answers": ["No, the wall is not low, but it is high."],
+      "grammar": "high/low"
+    },
+    {
+      "id": 67,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Is this a ceiling or a floor?",
+      "context": "table",
+      "answer": "No, it's neither a ceiling nor a floor, but it's a table.",
+      "alt_answers": ["It's neither a ceiling nor a floor, but a table."],
+      "grammar": "neither...nor"
+    },
+    {
+      "id": 68,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What's he doing?",
+      "context": "taking the book",
+      "answer": "He's taking the book.",
+      "alt_answers": ["He is taking the book."],
+      "grammar": "imperative - what's he doing"
+    },
+    {
+      "id": 69,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What's he doing?",
+      "context": "opening the book",
+      "answer": "He's opening the book.",
+      "alt_answers": ["He is opening the book."],
+      "grammar": "imperative - what's he doing"
+    },
+    {
+      "id": 70,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What's he doing?",
+      "context": "closing the book",
+      "answer": "He's closing the book.",
+      "alt_answers": ["He is closing the book."],
+      "grammar": "imperative - what's he doing"
+    },
+    {
+      "id": 71,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Where's the black pencil?",
+      "context": "here in front of me",
+      "answer": "The black pencil's here in front of me.",
+      "alt_answers": ["The black pencil is here in front of me."],
+      "grammar": "here/there"
+    },
+    {
+      "id": 72,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Where's the white pencil?",
+      "context": "there on the wall",
+      "answer": "The white pencil's there on the wall.",
+      "alt_answers": ["The white pencil is there on the wall."],
+      "grammar": "here/there"
+    },
+    {
+      "id": 73,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Are you sitting there?",
+      "context": "here",
+      "answer": "No, I'm not sitting there, but I'm sitting here.",
+      "alt_answers": ["No, I am not sitting there, but I am sitting here."],
+      "grammar": "here/there"
+    },
+    {
+      "id": 74,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What's the capital of England?",
+      "answer": "London's the capital of England.",
+      "alt_answers": ["London is the capital of England.", "The capital of England is London."],
+      "grammar": "capitals"
+    },
+    {
+      "id": 75,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What's the capital of Russia?",
+      "answer": "Moscow's the capital of Russia.",
+      "alt_answers": ["Moscow is the capital of Russia.", "The capital of Russia is Moscow."],
+      "grammar": "capitals"
+    },
+    {
+      "id": 76,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What am I doing?",
+      "context": "reading the book",
+      "answer": "You're reading the book.",
+      "alt_answers": ["You are reading the book."],
+      "grammar": "reading/writing"
+    },
+    {
+      "id": 77,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What am I doing?",
+      "context": "writing in the book",
+      "answer": "You're writing in the book.",
+      "alt_answers": ["You are writing in the book."],
+      "grammar": "reading/writing"
+    },
+    {
+      "id": 78,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I writing in the book?",
+      "context": "reading",
+      "answer": "No, you aren't writing in the book, but you're reading the book.",
+      "alt_answers": ["No, you are not writing in the book, but you are reading the book."],
+      "grammar": "reading/writing"
+    },
+    {
+      "id": 79,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "How many pictures are there on these walls?",
+      "context": "3 pictures",
+      "answer": "There are three pictures on these walls.",
+      "alt_answers": ["There are 3 pictures on these walls.", "Three pictures."],
+      "grammar": "how many"
+    },
+    {
+      "id": 80,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "How many doors are there in this room?",
+      "context": "1 door",
+      "answer": "There's one door in this room.",
+      "alt_answers": ["There is one door in this room.", "One door."],
+      "grammar": "how many"
+    },
+    {
+      "id": 81,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "What am I doing?",
+      "context": "going to the door",
+      "answer": "You're going to the door.",
+      "alt_answers": ["You are going to the door."],
+      "grammar": "going to"
+    },
+    {
+      "id": 82,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Where am I going?",
+      "context": "to the window",
+      "answer": "You're going to the window.",
+      "alt_answers": ["You are going to the window.", "To the window."],
+      "grammar": "going to - where"
+    },
+    {
+      "id": 83,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Is Greece in Asia?",
+      "answer": "No, Greece isn't in Asia, but it's in Europe.",
+      "alt_answers": ["No, Greece is not in Asia, but it is in Europe."],
+      "grammar": "Europe/Asia"
+    },
+    {
+      "id": 84,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Is India in Europe?",
+      "answer": "No, India isn't in Europe, but it's in Asia.",
+      "alt_answers": ["No, India is not in Europe, but it is in Asia."],
+      "grammar": "Europe/Asia"
+    },
+    {
+      "id": 85,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which's the first letter of the alphabet?",
+      "answer": "A's the first letter of the alphabet.",
+      "alt_answers": ["A is the first letter of the alphabet.", "The letter A."],
+      "grammar": "ordinal numbers"
+    },
+    {
+      "id": 86,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which's the third letter of the alphabet?",
+      "answer": "C's the third letter of the alphabet.",
+      "alt_answers": ["C is the third letter of the alphabet.", "The letter C."],
+      "grammar": "ordinal numbers"
+    },
+    {
+      "id": 87,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which's the fifth letter of the alphabet?",
+      "answer": "E's the fifth letter of the alphabet.",
+      "alt_answers": ["E is the fifth letter of the alphabet.", "The letter E."],
+      "grammar": "ordinal numbers"
+    },
+    {
+      "id": 88,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which's the last letter of the alphabet?",
+      "answer": "Z's the last letter of the alphabet.",
+      "alt_answers": ["Z is the last letter of the alphabet.", "The letter Z."],
+      "grammar": "ordinal numbers - last"
+    },
+    {
+      "id": 89,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "What are the cardinal numbers?",
+      "answer": "The cardinal numbers are 1, 2, 3, etc.",
+      "alt_answers": ["One, two, three, etc.", "1, 2, 3, and so on."],
+      "grammar": "cardinal/ordinal"
+    },
+    {
+      "id": 90,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "What are the ordinal numbers?",
+      "answer": "The ordinal numbers are 1st, 2nd, 3rd, etc.",
+      "alt_answers": ["First, second, third, etc.", "1st, 2nd, 3rd, and so on."],
+      "grammar": "cardinal/ordinal"
+    },
+    {
+      "id": 91,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "What's he doing?",
+      "context": "giving you the book",
+      "answer": "He's giving you the book.",
+      "alt_answers": ["He is giving you the book."],
+      "grammar": "give"
+    },
+    {
+      "id": 92,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "What's he doing?",
+      "context": "giving him the book",
+      "answer": "He's giving him the book.",
+      "alt_answers": ["He is giving him the book."],
+      "grammar": "give"
+    },
+    {
+      "id": 93,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Is this your handkerchief?",
+      "context": "teacher's",
+      "answer": "No, it isn't my handkerchief, but it's your handkerchief.",
+      "alt_answers": ["No, it is not my handkerchief, but it is your handkerchief."],
+      "grammar": "my/your"
+    },
+    {
+      "id": 94,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Are these his shoes?",
+      "context": "her shoes",
+      "answer": "No, they aren't his shoes, but they're her shoes.",
+      "alt_answers": ["No, they are not his shoes, but they are her shoes."],
+      "grammar": "his/her"
+    },
+    {
+      "id": 95,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Are these our shoes?",
+      "context": "their shoes",
+      "answer": "No, these aren't our shoes, but they're their shoes.",
+      "alt_answers": ["No, these are not our shoes, but they are their shoes."],
+      "grammar": "our/their"
+    },
+    {
+      "id": 96,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "What colour's his suit?",
+      "context": "black",
+      "answer": "His suit's black.",
+      "alt_answers": ["His suit is black.", "It's black."],
+      "grammar": "possessive - colour"
+    },
+    {
+      "id": 97,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Are all the walls in this room white?",
+      "context": "yes",
+      "answer": "Yes, all the walls in this room are white.",
+      "alt_answers": ["Yes, they are.", "Yes, all the walls are white."],
+      "grammar": "all"
+    },
+    {
+      "id": 98,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What part of the body is this?",
+      "context": "foot",
+      "answer": "This part of the body is the foot.",
+      "alt_answers": ["This is the foot.", "It's the foot."],
+      "grammar": "body parts"
+    },
+    {
+      "id": 99,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What's the plural of 'foot'?",
+      "answer": "The plural of 'foot' is 'feet'.",
+      "alt_answers": ["Feet.", "The plural is feet."],
+      "grammar": "irregular plurals"
+    },
+    {
+      "id": 100,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What's the plural of 'person'?",
+      "answer": "The plural of 'person' is 'people'.",
+      "alt_answers": ["People.", "The plural is people."],
+      "grammar": "irregular plurals"
+    },
+    {
+      "id": 101,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "How many people are there in this room?",
+      "context": "10 people",
+      "answer": "There are ten people in this room.",
+      "alt_answers": ["There are 10 people in this room.", "Ten people."],
+      "grammar": "how many - people"
+    },
+    {
+      "id": 102,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What am I doing?",
+      "context": "coming from the door",
+      "answer": "You're coming from the door.",
+      "alt_answers": ["You are coming from the door."],
+      "grammar": "coming from"
+    },
+    {
+      "id": 103,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "Am I coming from the window?",
+      "context": "going to the window",
+      "answer": "No, you aren't coming from the window, but you're going to the window.",
+      "alt_answers": ["No, you are not coming from the window, but you are going to the window."],
+      "grammar": "coming from/going to"
+    },
+    {
+      "id": 104,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What am I doing?",
+      "context": "touching the wall",
+      "answer": "You're touching the wall.",
+      "alt_answers": ["You are touching the wall."],
+      "grammar": "touch"
+    },
+    {
+      "id": 105,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "How many words are there in this sentence: 'The book is on the table'?",
+      "answer": "There are six words in this sentence.",
+      "alt_answers": ["There are 6 words in this sentence.", "Six words."],
+      "grammar": "words in sentence"
+    },
+    {
+      "id": 106,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "Is 2 + 2 = 7 right?",
+      "answer": "No, it isn't right, but it's wrong.",
+      "alt_answers": ["No, it is not right, but it is wrong.", "No, it's wrong."],
+      "grammar": "right/wrong"
+    },
+    {
+      "id": 107,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "question",
+      "answer": "It's a question.",
+      "alt_answers": ["This is a question."],
+      "grammar": "question/answer"
+    },
+    {
+      "id": 108,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Is this an answer?",
+      "context": "question",
+      "answer": "No, it isn't an answer, but it's a question.",
+      "alt_answers": ["No, it is not an answer, but it is a question."],
+      "grammar": "question/answer"
+    },
+    {
+      "id": 109,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's my name?",
+      "context": "teacher",
+      "answer": "Your name's [teacher's name].",
+      "alt_answers": ["Your name is [teacher's name]."],
+      "grammar": "name"
+    },
+    {
+      "id": 110,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's your name?",
+      "context": "student",
+      "answer": "My name's [student's name].",
+      "alt_answers": ["My name is [student's name]."],
+      "grammar": "name"
+    },
+    {
+      "id": 111,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What am I doing?",
+      "context": "remaining on the chair",
+      "answer": "You're remaining on the chair.",
+      "alt_answers": ["You are remaining on the chair."],
+      "grammar": "remaining"
+    },
+    {
+      "id": 112,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Am I remaining on the chair?",
+      "context": "going to the window",
+      "answer": "No, you aren't remaining on the chair, but you're going to the window.",
+      "alt_answers": ["No, you are not remaining on the chair, but you are going to the window."],
+      "grammar": "remaining"
+    },
+    {
+      "id": 113,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's the name of your country?",
+      "context": "Brazil",
+      "answer": "Brazil is the name of my country.",
+      "alt_answers": ["My country is Brazil.", "Brazil."],
+      "grammar": "country"
+    },
+    {
+      "id": 114,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What am I doing?",
+      "context": "translating a sentence",
+      "answer": "You're translating a sentence from English into Portuguese.",
+      "alt_answers": ["You are translating a sentence."],
+      "grammar": "translate"
+    },
+    {
+      "id": 115,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Who am I?",
+      "context": "teacher",
+      "answer": "You're the teacher.",
+      "alt_answers": ["You are the teacher.", "You're Mr/Mrs [name]."],
+      "grammar": "who"
+    },
+    {
+      "id": 116,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Who are you?",
+      "context": "student",
+      "answer": "I'm the student.",
+      "alt_answers": ["I am the student.", "I'm [name]."],
+      "grammar": "who"
+    },
+    {
+      "id": 117,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "How many things are there on this book?",
+      "context": "3 things",
+      "answer": "There are three things on that book.",
+      "alt_answers": ["There are 3 things on that book.", "Three things."],
+      "grammar": "things"
+    },
+    {
+      "id": 118,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Is Mr Brown short?",
+      "context": "tall",
+      "answer": "No, Mr Brown isn't short, but he's tall.",
+      "alt_answers": ["No, Mr Brown is not short, but he is tall."],
+      "grammar": "tall/short (people)"
+    },
+    {
+      "id": 119,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "Is Miss Brown tall?",
+      "context": "short",
+      "answer": "No, Miss Brown isn't tall, but she's short.",
+      "alt_answers": ["No, Miss Brown is not tall, but she is short."],
+      "grammar": "tall/short (people)"
+    },
+    {
+      "id": 120,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "What am I doing?",
+      "context": "asking him a question",
+      "answer": "You're asking him a question.",
+      "alt_answers": ["You are asking him a question."],
+      "grammar": "asking/answering"
+    },
+    {
+      "id": 121,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "What's he doing?",
+      "context": "answering your question",
+      "answer": "He's answering your question.",
+      "alt_answers": ["He is answering your question."],
+      "grammar": "asking/answering"
+    },
+    {
+      "id": 122,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Have I two eyes?",
+      "answer": "Yes, you've two eyes.",
+      "alt_answers": ["Yes, you have two eyes.", "Yes, you do."],
+      "grammar": "have - body parts"
+    },
+    {
+      "id": 123,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Have you two ears?",
+      "answer": "Yes, I've two ears.",
+      "alt_answers": ["Yes, I have two ears.", "Yes, I do."],
+      "grammar": "have - body parts"
+    },
+    {
+      "id": 124,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Has he two legs?",
+      "answer": "Yes, he's two legs.",
+      "alt_answers": ["Yes, he has two legs.", "Yes, he does."],
+      "grammar": "have/has - body parts"
+    },
+    {
+      "id": 125,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Has she two hands?",
+      "answer": "Yes, she's two hands.",
+      "alt_answers": ["Yes, she has two hands.", "Yes, she does."],
+      "grammar": "have/has - body parts"
+    },
+    {
+      "id": 126,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are there any books on this table?",
+      "context": "yes",
+      "answer": "Yes, there are some books on this table.",
+      "alt_answers": ["Yes, there are."],
+      "grammar": "any/some - affirmative"
+    },
+    {
+      "id": 127,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are there any pictures on these walls?",
+      "context": "yes",
+      "answer": "Yes, there are some pictures on these walls.",
+      "alt_answers": ["Yes, there are."],
+      "grammar": "any/some - affirmative"
+    },
+    {
+      "id": 128,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Have you any shoes on your feet?",
+      "context": "yes",
+      "answer": "Yes, I've some shoes on my feet.",
+      "alt_answers": ["Yes, I have some shoes on my feet.", "Yes, I do."],
+      "grammar": "any/some - have"
+    },
+    {
+      "id": 129,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are there any books on the floor?",
+      "context": "no",
+      "answer": "No, there aren't any books on the floor.",
+      "alt_answers": ["No, there are not any books on the floor."],
+      "grammar": "not any"
+    },
+    {
+      "id": 130,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are there any pictures on that chair?",
+      "context": "no",
+      "answer": "No, there aren't any pictures on that chair.",
+      "alt_answers": ["No, there are not any pictures on that chair."],
+      "grammar": "not any"
+    },
+    {
+      "id": 131,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "How many books are there on the table?",
+      "context": "5 books",
+      "answer": "There are five books on the table.",
+      "alt_answers": ["There are 5 books on the table.", "Five books."],
+      "grammar": "how many - specific"
+    },
+    {
+      "id": 132,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "How many books are there on the floor?",
+      "context": "none",
+      "answer": "There are none.",
+      "alt_answers": ["None.", "There are no books on the floor."],
+      "grammar": "none"
+    },
+    {
+      "id": 133,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "How many pupils are there in this classroom?",
+      "context": "12 pupils",
+      "answer": "There are twelve pupils in this classroom.",
+      "alt_answers": ["There are 12 pupils in this classroom.", "Twelve pupils."],
+      "grammar": "classroom"
+    },
+    {
+      "id": 134,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "How many pupils are there sitting on the floor?",
+      "context": "none",
+      "answer": "There are none.",
+      "alt_answers": ["None.", "There are no pupils sitting on the floor."],
+      "grammar": "none"
+    },
+    {
+      "id": 135,
       "level": 2,
+      "lesson": 10,
       "prompt": "Do you speak English?",
       "answer": "Yes, I speak English.",
       "alt_answers": ["Yes, I do.", "Yes, I do speak English."],
       "grammar": "present simple - do"
     },
     {
-      "id": 17,
+      "id": 136,
       "level": 2,
+      "lesson": 10,
       "prompt": "Does she work here?",
+      "context": "no",
       "answer": "No, she doesn't work here.",
       "alt_answers": ["No, she does not work here.", "No, she doesn't."],
       "grammar": "present simple - does negative"
     },
     {
-      "id": 18,
+      "id": 137,
       "level": 2,
+      "lesson": 10,
       "prompt": "Where do you live?",
+      "context": "São Paulo",
       "answer": "I live in São Paulo.",
-      "alt_answers": ["I live in Sao Paulo.", "In São Paulo."],
+      "alt_answers": ["In São Paulo.", "I live in Sao Paulo."],
       "grammar": "present simple - where"
     },
     {
-      "id": 19,
+      "id": 138,
       "level": 2,
+      "lesson": 10,
       "prompt": "What do you do?",
-      "answer": "I'm a software developer.",
-      "alt_answers": ["I am a software developer.", "I work as a software developer."],
+      "context": "student",
+      "answer": "I'm a student.",
+      "alt_answers": ["I am a student.", "I study."],
       "grammar": "present simple - occupation"
     },
     {
-      "id": 20,
+      "id": 139,
       "level": 2,
-      "prompt": "Do you like coffee?",
-      "answer": "Yes, I like coffee.",
+      "lesson": 10,
+      "prompt": "Do you like English?",
+      "answer": "Yes, I like English.",
       "alt_answers": ["Yes, I do.", "Yes, I like it."],
       "grammar": "present simple - like"
     },
     {
-      "id": 21,
+      "id": 140,
       "level": 2,
-      "prompt": "Does he have a car?",
-      "answer": "Yes, he has a car.",
+      "lesson": 10,
+      "prompt": "Does he have a book?",
+      "context": "yes",
+      "answer": "Yes, he has a book.",
       "alt_answers": ["Yes, he does.", "Yes, he has one."],
       "grammar": "present simple - have/has"
     },
     {
-      "id": 22,
+      "id": 141,
       "level": 2,
-      "prompt": "How often do you exercise?",
-      "answer": "I exercise three times a week.",
-      "alt_answers": ["Three times a week.", "I exercise 3 times a week."],
-      "grammar": "present simple - frequency"
-    },
-    {
-      "id": 23,
-      "level": 2,
-      "prompt": "What time do you wake up?",
-      "answer": "I wake up at seven o'clock.",
-      "alt_answers": ["At seven o'clock.", "I wake up at 7 o'clock."],
-      "grammar": "present simple - daily routine"
-    },
-    {
-      "id": 24,
-      "level": 2,
-      "prompt": "Do they study English every day?",
-      "answer": "Yes, they study English every day.",
-      "alt_answers": ["Yes, they do.", "Yes, they study it every day."],
-      "grammar": "present simple - they"
-    },
-    {
-      "id": 25,
-      "level": 2,
-      "prompt": "Does the class start at nine?",
-      "answer": "No, the class doesn't start at nine, it starts at ten.",
-      "alt_answers": ["No, it doesn't start at nine, it starts at ten."],
-      "grammar": "present simple - correction"
-    },
-    {
-      "id": 26,
-      "level": 2,
+      "lesson": 11,
       "prompt": "Can you swim?",
       "answer": "Yes, I can swim.",
-      "alt_answers": ["Yes, I can.", "Yes, I'm able to swim."],
+      "alt_answers": ["Yes, I can."],
       "grammar": "modal - can"
     },
     {
-      "id": 27,
+      "id": 142,
       "level": 2,
+      "lesson": 11,
       "prompt": "Can she drive a car?",
+      "context": "no",
       "answer": "No, she can't drive a car.",
       "alt_answers": ["No, she cannot drive a car.", "No, she can't."],
       "grammar": "modal - can negative"
     },
     {
-      "id": 28,
+      "id": 143,
       "level": 2,
-      "prompt": "Must I finish this today?",
-      "answer": "Yes, you must finish this today.",
-      "alt_answers": ["Yes, you must.", "Yes, you have to finish this today."],
+      "lesson": 11,
+      "prompt": "Must I study every day?",
+      "answer": "Yes, you must study every day.",
+      "alt_answers": ["Yes, you must."],
       "grammar": "modal - must"
     },
     {
-      "id": 29,
+      "id": 144,
       "level": 2,
-      "prompt": "Should I study more?",
-      "answer": "Yes, you should study more.",
-      "alt_answers": ["Yes, you should.", "Yes, I think you should."],
+      "lesson": 11,
+      "prompt": "Should I speak slowly?",
+      "answer": "Yes, you should speak slowly.",
+      "alt_answers": ["Yes, you should."],
       "grammar": "modal - should"
     },
     {
-      "id": 30,
+      "id": 145,
       "level": 2,
+      "lesson": 11,
       "prompt": "Would you like some water?",
       "answer": "Yes, I would like some water, please.",
       "alt_answers": ["Yes, please.", "Yes, I would."],
       "grammar": "modal - would like"
     },
     {
-      "id": 31,
-      "level": 3,
-      "prompt": "What are you doing now?",
-      "answer": "I'm studying English now.",
-      "alt_answers": ["I am studying English now.", "I'm studying English."],
-      "grammar": "present continuous"
+      "id": 146,
+      "level": 2,
+      "lesson": 12,
+      "prompt": "What time is it?",
+      "context": "3 o'clock",
+      "answer": "It's three o'clock.",
+      "alt_answers": ["It is three o'clock.", "It's 3 o'clock."],
+      "grammar": "time"
     },
     {
-      "id": 32,
-      "level": 3,
-      "prompt": "Is she working at the moment?",
-      "answer": "Yes, she's working at the moment.",
-      "alt_answers": ["Yes, she is working at the moment.", "Yes, she is."],
-      "grammar": "present continuous - she"
+      "id": 147,
+      "level": 2,
+      "lesson": 12,
+      "prompt": "What day is today?",
+      "context": "Monday",
+      "answer": "Today is Monday.",
+      "alt_answers": ["It's Monday.", "It is Monday."],
+      "grammar": "days"
     },
     {
-      "id": 33,
-      "level": 3,
-      "prompt": "Are they watching TV?",
-      "answer": "No, they aren't watching TV, they're reading.",
-      "alt_answers": ["No, they are not watching TV, they are reading."],
-      "grammar": "present continuous - negative"
-    },
-    {
-      "id": 34,
-      "level": 3,
-      "prompt": "What did you do yesterday?",
-      "answer": "I went to the park yesterday.",
-      "alt_answers": ["Yesterday I went to the park.", "I visited the park."],
-      "grammar": "past simple - irregular"
-    },
-    {
-      "id": 35,
-      "level": 3,
-      "prompt": "Did you eat breakfast this morning?",
-      "answer": "Yes, I ate breakfast this morning.",
-      "alt_answers": ["Yes, I did.", "Yes, I had breakfast this morning."],
-      "grammar": "past simple - irregular eat"
-    },
-    {
-      "id": 36,
-      "level": 3,
-      "prompt": "Where did she go last weekend?",
-      "answer": "She went to the beach last weekend.",
-      "alt_answers": ["She went to the beach.", "To the beach."],
-      "grammar": "past simple - where"
-    },
-    {
-      "id": 37,
-      "level": 3,
-      "prompt": "Did they finish the project?",
-      "answer": "No, they didn't finish the project.",
-      "alt_answers": ["No, they did not finish the project.", "No, they didn't."],
-      "grammar": "past simple - negative"
-    },
-    {
-      "id": 38,
-      "level": 3,
-      "prompt": "Was the movie good?",
-      "answer": "Yes, the movie was very good.",
-      "alt_answers": ["Yes, it was very good.", "Yes, it was."],
-      "grammar": "past simple - to be"
-    },
-    {
-      "id": 39,
-      "level": 3,
-      "prompt": "Were you at home last night?",
-      "answer": "No, I wasn't at home last night, I was at work.",
-      "alt_answers": ["No, I was not at home, I was at work."],
-      "grammar": "past simple - to be negative"
-    },
-    {
-      "id": 40,
-      "level": 3,
-      "prompt": "How long have you studied English?",
-      "answer": "I have studied English for two years.",
-      "alt_answers": ["I've studied English for two years.", "For two years."],
-      "grammar": "present perfect - duration"
-    },
-    {
-      "id": 41,
-      "level": 3,
-      "prompt": "Have you ever been to London?",
-      "answer": "No, I have never been to London.",
-      "alt_answers": ["No, I've never been to London.", "No, I haven't."],
-      "grammar": "present perfect - ever/never"
-    },
-    {
-      "id": 42,
-      "level": 3,
-      "prompt": "Has she finished her homework?",
-      "answer": "Yes, she has finished her homework.",
-      "alt_answers": ["Yes, she has.", "Yes, she's finished it."],
-      "grammar": "present perfect - has"
-    },
-    {
-      "id": 43,
-      "level": 3,
-      "prompt": "Have they arrived yet?",
-      "answer": "No, they haven't arrived yet.",
-      "alt_answers": ["No, they have not arrived yet.", "No, not yet."],
-      "grammar": "present perfect - yet"
-    },
-    {
-      "id": 44,
-      "level": 3,
-      "prompt": "I've already eaten. Have you?",
-      "answer": "Yes, I've already eaten too.",
-      "alt_answers": ["Yes, I have already eaten.", "Yes, I have."],
-      "grammar": "present perfect - already"
-    },
-    {
-      "id": 45,
-      "level": 3,
-      "prompt": "What have you been doing today?",
-      "answer": "I've been working all day.",
-      "alt_answers": ["I have been working all day.", "Working all day."],
-      "grammar": "present perfect continuous"
-    },
-    {
-      "id": 46,
-      "level": 4,
-      "prompt": "What will you do tomorrow?",
-      "answer": "I will go to the gym tomorrow.",
-      "alt_answers": ["I'll go to the gym tomorrow.", "Tomorrow I will go to the gym."],
-      "grammar": "future - will"
-    },
-    {
-      "id": 47,
-      "level": 4,
-      "prompt": "Are you going to travel next month?",
-      "answer": "Yes, I'm going to travel next month.",
-      "alt_answers": ["Yes, I am going to travel next month.", "Yes, I am."],
-      "grammar": "future - going to"
-    },
-    {
-      "id": 48,
-      "level": 4,
-      "prompt": "Will she come to the party?",
-      "answer": "No, she won't come to the party.",
-      "alt_answers": ["No, she will not come to the party.", "No, she won't."],
-      "grammar": "future - will negative"
-    },
-    {
-      "id": 49,
-      "level": 4,
-      "prompt": "What would you do if you won the lottery?",
-      "answer": "If I won the lottery, I would travel the world.",
-      "alt_answers": ["I would travel the world.", "I'd travel the world."],
-      "grammar": "conditional - second"
-    },
-    {
-      "id": 50,
-      "level": 4,
-      "prompt": "If it rains tomorrow, what will you do?",
-      "answer": "If it rains tomorrow, I will stay home.",
-      "alt_answers": ["I will stay home.", "I'll stay home."],
-      "grammar": "conditional - first"
-    },
-    {
-      "id": 51,
-      "level": 4,
-      "prompt": "Had you ever seen snow before you went to Canada?",
-      "answer": "No, I had never seen snow before I went to Canada.",
-      "alt_answers": ["No, I hadn't.", "No, I had never seen snow before."],
-      "grammar": "past perfect"
-    },
-    {
-      "id": 52,
-      "level": 4,
-      "prompt": "The book was written by whom?",
-      "answer": "The book was written by Shakespeare.",
-      "alt_answers": ["It was written by Shakespeare.", "Shakespeare wrote it."],
-      "grammar": "passive voice - past"
-    },
-    {
-      "id": 53,
-      "level": 4,
-      "prompt": "Is English spoken in Australia?",
-      "answer": "Yes, English is spoken in Australia.",
-      "alt_answers": ["Yes, it is.", "Yes, it is spoken there."],
-      "grammar": "passive voice - present"
-    },
-    {
-      "id": 54,
-      "level": 4,
-      "prompt": "The letter must be sent today, mustn't it?",
-      "answer": "Yes, the letter must be sent today.",
-      "alt_answers": ["Yes, it must.", "Yes, it must be sent today."],
-      "grammar": "passive voice - modal"
-    },
-    {
-      "id": 55,
-      "level": 4,
-      "prompt": "You like pizza, don't you?",
-      "answer": "Yes, I like pizza very much.",
-      "alt_answers": ["Yes, I do.", "Yes, I love pizza."],
-      "grammar": "tag questions"
-    },
-    {
-      "id": 56,
-      "level": 4,
-      "prompt": "She isn't coming, is she?",
-      "answer": "No, she isn't coming.",
-      "alt_answers": ["No, she isn't.", "No, she's not coming."],
-      "grammar": "tag questions - negative"
-    },
-    {
-      "id": 57,
-      "level": 4,
-      "prompt": "He said he would call, didn't he?",
-      "answer": "Yes, he said he would call.",
-      "alt_answers": ["Yes, he did.", "Yes, that's what he said."],
-      "grammar": "reported speech"
-    },
-    {
-      "id": 58,
-      "level": 4,
-      "prompt": "What did she say?",
-      "answer": "She said that she was tired.",
-      "alt_answers": ["She said she was tired.", "That she was tired."],
-      "grammar": "reported speech - say"
-    },
-    {
-      "id": 59,
-      "level": 4,
-      "prompt": "He asked me where I lived. What did he ask?",
-      "answer": "He asked me where I lived.",
-      "alt_answers": ["He asked where I lived.", "Where I lived."],
-      "grammar": "reported speech - questions"
-    },
-    {
-      "id": 60,
-      "level": 4,
-      "prompt": "I wish I could speak French. Can you speak French?",
-      "answer": "No, I can't speak French, but I wish I could.",
-      "alt_answers": ["No, I can't.", "No, but I wish I could."],
-      "grammar": "wish + could"
-    },
-    {
-      "id": 61,
-      "level": 5,
-      "prompt": "Had you been waiting long before the bus arrived?",
-      "answer": "Yes, I had been waiting for thirty minutes before the bus arrived.",
-      "alt_answers": ["Yes, I had been waiting for a long time.", "Yes, for about thirty minutes."],
-      "grammar": "past perfect continuous"
-    },
-    {
-      "id": 62,
-      "level": 5,
-      "prompt": "By this time next year, what will you have done?",
-      "answer": "By this time next year, I will have finished my course.",
-      "alt_answers": ["I will have finished my course.", "I'll have finished my studies."],
-      "grammar": "future perfect"
-    },
-    {
-      "id": 63,
-      "level": 5,
-      "prompt": "If you had studied harder, would you have passed?",
-      "answer": "Yes, if I had studied harder, I would have passed.",
-      "alt_answers": ["Yes, I would have passed.", "Yes, I would have."],
-      "grammar": "conditional - third"
-    },
-    {
-      "id": 64,
-      "level": 5,
-      "prompt": "What might have happened if you hadn't arrived on time?",
-      "answer": "If I hadn't arrived on time, I might have missed the meeting.",
-      "alt_answers": ["I might have missed the meeting.", "I could have missed it."],
-      "grammar": "conditional - third with might"
-    },
-    {
-      "id": 65,
-      "level": 5,
-      "prompt": "The project should have been completed by now, shouldn't it?",
-      "answer": "Yes, the project should have been completed by now.",
-      "alt_answers": ["Yes, it should have.", "Yes, it should have been."],
-      "grammar": "modal perfect passive"
-    },
-    {
-      "id": 66,
-      "level": 5,
-      "prompt": "It is believed that the company will expand. What is believed?",
-      "answer": "It is believed that the company will expand.",
-      "alt_answers": ["That the company will expand.", "The company is believed to be expanding."],
-      "grammar": "impersonal passive"
-    },
-    {
-      "id": 67,
-      "level": 5,
-      "prompt": "Having finished the work, what did you do?",
-      "answer": "Having finished the work, I went home.",
-      "alt_answers": ["I went home.", "After finishing, I went home."],
-      "grammar": "participle clauses"
-    },
-    {
-      "id": 68,
-      "level": 5,
-      "prompt": "Were it not for your help, what would have happened?",
-      "answer": "Were it not for your help, I would have failed.",
-      "alt_answers": ["I would have failed.", "I couldn't have done it."],
-      "grammar": "inverted conditionals"
-    },
-    {
-      "id": 69,
-      "level": 5,
-      "prompt": "Not only did he arrive late, but what else did he do?",
-      "answer": "Not only did he arrive late, but he also forgot the documents.",
-      "alt_answers": ["He also forgot the documents.", "But he also forgot the documents."],
-      "grammar": "inversion - not only"
-    },
-    {
-      "id": 70,
-      "level": 5,
-      "prompt": "Hardly had I sat down when what happened?",
-      "answer": "Hardly had I sat down when the phone rang.",
-      "alt_answers": ["The phone rang.", "When the phone rang."],
-      "grammar": "inversion - hardly"
-    },
-    {
-      "id": 71,
-      "level": 1,
-      "prompt": "Am I speaking too fast?",
-      "answer": "No, you aren't speaking too fast.",
-      "alt_answers": ["No, you're not.", "No, you are not speaking too fast."],
-      "grammar": "to be - present continuous"
-    },
-    {
-      "id": 72,
-      "level": 1,
-      "prompt": "Is the door open or closed?",
-      "answer": "The door is open.",
-      "alt_answers": ["It's open.", "It is open."],
-      "grammar": "to be - or questions"
-    },
-    {
-      "id": 73,
-      "level": 1,
-      "prompt": "Are we in the classroom?",
-      "answer": "Yes, we are in the classroom.",
-      "alt_answers": ["Yes, we are.", "Yes, we're in the classroom."],
-      "grammar": "to be - we"
-    },
-    {
-      "id": 74,
-      "level": 1,
-      "prompt": "Is it cold or hot today?",
-      "answer": "It's cold today.",
-      "alt_answers": ["It is cold today.", "Today it's cold."],
-      "grammar": "to be - weather"
-    },
-    {
-      "id": 75,
-      "level": 1,
+      "id": 148,
+      "level": 2,
+      "lesson": 12,
       "prompt": "How old are you?",
+      "context": "25",
       "answer": "I'm twenty-five years old.",
       "alt_answers": ["I am 25 years old.", "Twenty-five."],
-      "grammar": "to be - age"
+      "grammar": "age"
     },
     {
-      "id": 76,
+      "id": 149,
       "level": 2,
+      "lesson": 12,
+      "prompt": "Where are you from?",
+      "context": "Brazil",
+      "answer": "I'm from Brazil.",
+      "alt_answers": ["I am from Brazil.", "I come from Brazil."],
+      "grammar": "origin"
+    },
+    {
+      "id": 150,
+      "level": 2,
+      "lesson": 12,
       "prompt": "Do you have any brothers or sisters?",
+      "context": "yes",
       "answer": "Yes, I have one brother and one sister.",
       "alt_answers": ["Yes, I do.", "Yes, I have siblings."],
-      "grammar": "present simple - have"
-    },
-    {
-      "id": 77,
-      "level": 2,
-      "prompt": "Does your father work?",
-      "answer": "Yes, my father works in a hospital.",
-      "alt_answers": ["Yes, he does.", "Yes, he works."],
-      "grammar": "present simple - third person"
-    },
-    {
-      "id": 78,
-      "level": 2,
-      "prompt": "How do you go to work?",
-      "answer": "I go to work by bus.",
-      "alt_answers": ["By bus.", "I take the bus."],
-      "grammar": "present simple - how"
-    },
-    {
-      "id": 79,
-      "level": 2,
-      "prompt": "Why do you study English?",
-      "answer": "I study English because I want to travel.",
-      "alt_answers": ["Because I want to travel.", "To travel."],
-      "grammar": "present simple - why"
-    },
-    {
-      "id": 80,
-      "level": 2,
-      "prompt": "When does the store open?",
-      "answer": "The store opens at nine o'clock.",
-      "alt_answers": ["It opens at nine.", "At nine o'clock."],
-      "grammar": "present simple - when"
-    },
-    {
-      "id": 81,
-      "level": 3,
-      "prompt": "Were you sleeping when I called?",
-      "answer": "Yes, I was sleeping when you called.",
-      "alt_answers": ["Yes, I was.", "Yes, I was sleeping."],
-      "grammar": "past continuous"
-    },
-    {
-      "id": 82,
-      "level": 3,
-      "prompt": "What were you doing at 8 PM yesterday?",
-      "answer": "I was having dinner at 8 PM yesterday.",
-      "alt_answers": ["I was having dinner.", "Having dinner."],
-      "grammar": "past continuous - what"
-    },
-    {
-      "id": 83,
-      "level": 3,
-      "prompt": "While I was cooking, what happened?",
-      "answer": "While you were cooking, the phone rang.",
-      "alt_answers": ["The phone rang.", "The phone rang while you were cooking."],
-      "grammar": "past continuous - while"
-    },
-    {
-      "id": 84,
-      "level": 3,
-      "prompt": "How long have you been living here?",
-      "answer": "I have been living here for five years.",
-      "alt_answers": ["I've been living here for five years.", "For five years."],
-      "grammar": "present perfect continuous - how long"
-    },
-    {
-      "id": 85,
-      "level": 3,
-      "prompt": "Have you ever tried sushi?",
-      "answer": "Yes, I have tried sushi many times.",
-      "alt_answers": ["Yes, I have.", "Yes, many times."],
-      "grammar": "present perfect - ever"
-    },
-    {
-      "id": 86,
-      "level": 4,
-      "prompt": "By the time you arrive, what will have happened?",
-      "answer": "By the time you arrive, the meeting will have finished.",
-      "alt_answers": ["The meeting will have finished.", "It will have finished."],
-      "grammar": "future perfect"
-    },
-    {
-      "id": 87,
-      "level": 4,
-      "prompt": "If I were you, what would I do?",
-      "answer": "If I were you, I would accept the offer.",
-      "alt_answers": ["I would accept the offer.", "You would accept it."],
-      "grammar": "conditional - second (advice)"
-    },
-    {
-      "id": 88,
-      "level": 4,
-      "prompt": "The window was broken. Who broke it?",
-      "answer": "The window was broken by the children.",
-      "alt_answers": ["It was broken by the children.", "The children broke it."],
-      "grammar": "passive voice - by"
-    },
-    {
-      "id": 89,
-      "level": 4,
-      "prompt": "She told me to wait. What did she tell you to do?",
-      "answer": "She told me to wait.",
-      "alt_answers": ["To wait.", "She told me that I should wait."],
-      "grammar": "reported speech - commands"
-    },
-    {
-      "id": 90,
-      "level": 4,
-      "prompt": "I'd rather stay home. Would you rather go out?",
-      "answer": "No, I'd rather stay home too.",
-      "alt_answers": ["No, I would rather stay home.", "No, me too."],
-      "grammar": "would rather"
-    },
-    {
-      "id": 91,
-      "level": 5,
-      "prompt": "Little did I know what would happen. Did you know?",
-      "answer": "No, little did I know what would happen either.",
-      "alt_answers": ["No, I didn't know either.", "No, I had no idea."],
-      "grammar": "inversion - little"
-    },
-    {
-      "id": 92,
-      "level": 5,
-      "prompt": "No sooner had I left than what happened?",
-      "answer": "No sooner had I left than it started to rain.",
-      "alt_answers": ["It started to rain.", "Than it started to rain."],
-      "grammar": "inversion - no sooner"
-    },
-    {
-      "id": 93,
-      "level": 5,
-      "prompt": "Should you need any help, what should you do?",
-      "answer": "Should I need any help, I will call you.",
-      "alt_answers": ["I will call you.", "I should call you."],
-      "grammar": "inverted conditionals - should"
-    },
-    {
-      "id": 94,
-      "level": 5,
-      "prompt": "It's time we left, isn't it?",
-      "answer": "Yes, it's time we left.",
-      "alt_answers": ["Yes, it is.", "Yes, we should leave now."],
-      "grammar": "it's time + past"
-    },
-    {
-      "id": 95,
-      "level": 5,
-      "prompt": "I'd sooner you didn't smoke here. May I smoke?",
-      "answer": "No, I'd sooner you didn't smoke here.",
-      "alt_answers": ["No, please don't.", "I'd prefer you didn't."],
-      "grammar": "would sooner"
-    },
-    {
-      "id": 96,
-      "level": 1,
-      "prompt": "Is English easy or difficult?",
-      "answer": "English is easy when you practice.",
-      "alt_answers": ["It's easy with practice.", "English is easy."],
-      "grammar": "to be - opinion"
-    },
-    {
-      "id": 97,
-      "level": 2,
-      "prompt": "Do you prefer tea or coffee?",
-      "answer": "I prefer coffee.",
-      "alt_answers": ["Coffee.", "I prefer coffee to tea."],
-      "grammar": "present simple - prefer"
-    },
-    {
-      "id": 98,
-      "level": 3,
-      "prompt": "Have you just arrived?",
-      "answer": "Yes, I have just arrived.",
-      "alt_answers": ["Yes, I have.", "Yes, I just got here."],
-      "grammar": "present perfect - just"
-    },
-    {
-      "id": 99,
-      "level": 4,
-      "prompt": "You used to smoke, didn't you?",
-      "answer": "Yes, I used to smoke, but I quit.",
-      "alt_answers": ["Yes, but I quit.", "Yes, I did, but not anymore."],
-      "grammar": "used to"
-    },
-    {
-      "id": 100,
-      "level": 5,
-      "prompt": "The more you practice, the better you get. Is that true?",
-      "answer": "Yes, the more you practice, the better you get.",
-      "alt_answers": ["Yes, that's true.", "Yes, it is."],
-      "grammar": "comparative structures"
+      "grammar": "family"
     }
   ]
 }
