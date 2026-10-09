@@ -1,26 +1,45 @@
 package com.englishlearning.app.ui.callan
 
+import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.englishlearning.app.data.database.entity.VocabularyCardEntity
-import com.englishlearning.app.data.repository.SessionSettingsRepository
-import com.englishlearning.app.domain.model.Exercise
-import com.englishlearning.app.domain.model.ExerciseMode
-import com.englishlearning.app.domain.repository.ContentRepository
-import com.englishlearning.app.domain.usecase.ValidateAnswerUseCase
 import com.englishlearning.app.domain.validation.TextNormalizer
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
 import javax.inject.Inject
+
+/**
+ * Modelo de um drill no estilo Callan.
+ */
+@Serializable
+data class CallanDrill(
+    val id: Int,
+    val level: Int,
+    val prompt: String,
+    val answer: String,
+    @SerialName("alt_answers") val altAnswers: List<String> = emptyList(),
+    val grammar: String
+)
+
+@Serializable
+data class CallanDrillsFile(
+    val description: String,
+    val drills: List<CallanDrill>
+)
 
 sealed class DrillUiState {
     object Loading : DrillUiState()
     data class Question(
-        val exercise: Exercise,
+        val drill: CallanDrill,
         val index: Int,
         val total: Int,
         val score: Int,
@@ -38,56 +57,61 @@ sealed class DrillUiState {
 
 @HiltViewModel
 class CallanDrillViewModel @Inject constructor(
-    private val contentRepository: ContentRepository,
-    private val validateAnswerUseCase: ValidateAnswerUseCase,
-    private val settingsRepository: SessionSettingsRepository
+    @ApplicationContext private val context: Context
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<DrillUiState>(DrillUiState.Loading)
     val uiState: StateFlow<DrillUiState> = _uiState.asStateFlow()
 
     private val normalizer = TextNormalizer()
-    private var exercises: List<Exercise> = emptyList()
+    private val json = Json { ignoreUnknownKeys = true }
+    
+    private var allDrills: List<CallanDrill> = emptyList()
+    private var sessionDrills: List<CallanDrill> = emptyList()
     private var currentIndex = 0
     private var score = 0
+    private var timerJob: Job? = null
 
-    init { loadDrill() }
+    init {
+        loadDrills()
+    }
 
-    private fun loadDrill() {
+    private fun loadDrills() {
         viewModelScope.launch {
             _uiState.value = DrillUiState.Loading
-            val levels = contentRepository.getLevels().filter { it.isUnlocked }
-            val allExercises = mutableListOf<Exercise>()
-            for (level in levels) {
-                val cats = contentRepository.getCategories().filter { it.levelId == level.id }
-                for (cat in cats) {
-                    val exs = contentRepository.getExercisesByLevelAndCategory(level.id, cat.id)
-                    allExercises.addAll(exs)
+            try {
+                // Carrega os drills do JSON dedicado
+                val jsonString = context.assets
+                    .open("content/callan_drills.json")
+                    .bufferedReader()
+                    .use { it.readText() }
+                
+                val drillsFile = json.decodeFromString<CallanDrillsFile>(jsonString)
+                allDrills = drillsFile.drills
+                
+                // Seleciona drills aleatórios para a sessão
+                sessionDrills = allDrills.shuffled().take(DRILL_SIZE)
+                
+                if (sessionDrills.isEmpty()) {
+                    _uiState.value = DrillUiState.Done(0, 0, 0)
+                } else {
+                    currentIndex = 0
+                    score = 0
+                    showQuestion()
                 }
-            }
-            // Filtra só ANSWER_FROM_QUESTION (estilo Callan: pergunta → resposta)
-            exercises = allExercises
-                .filter { it.exerciseMode == ExerciseMode.ANSWER_FROM_QUESTION }
-                .shuffled()
-                .take(DRILL_SIZE)
-
-            if (exercises.isEmpty()) {
+            } catch (e: Exception) {
+                // Fallback: sessão vazia
                 _uiState.value = DrillUiState.Done(0, 0, 0)
-            } else {
-                currentIndex = 0
-                score = 0
-                showQuestion()
-                startTimer()
             }
         }
     }
 
     private fun showQuestion() {
-        val ex = exercises.getOrNull(currentIndex) ?: return
+        val drill = sessionDrills.getOrNull(currentIndex) ?: return
         _uiState.value = DrillUiState.Question(
-            exercise = ex,
+            drill = drill,
             index = currentIndex + 1,
-            total = exercises.size,
+            total = sessionDrills.size,
             score = score,
             secondsLeft = TIMER_SECONDS,
             showResult = false
@@ -96,7 +120,8 @@ class CallanDrillViewModel @Inject constructor(
     }
 
     private fun startTimer() {
-        viewModelScope.launch {
+        timerJob?.cancel()
+        timerJob = viewModelScope.launch {
             repeat(TIMER_SECONDS) { elapsed ->
                 delay(1000)
                 val s = _uiState.value
@@ -104,11 +129,12 @@ class CallanDrillViewModel @Inject constructor(
                     val left = TIMER_SECONDS - elapsed - 1
                     _uiState.value = s.copy(secondsLeft = left)
                     if (left == 0) {
-                        // Tempo esgotado — mostra resposta
-                        val correct = s.exercise.acceptedAnswers
-                            .firstOrNull { it.isPrimary }?.questionText
-                            ?: s.exercise.acceptedAnswers.firstOrNull()?.questionText ?: ""
-                        _uiState.value = s.copy(showResult = true, wasCorrect = false, correctAnswer = correct)
+                        // Tempo esgotado — mostra resposta correta
+                        _uiState.value = s.copy(
+                            showResult = true,
+                            wasCorrect = false,
+                            correctAnswer = s.drill.answer
+                        )
                     }
                 }
             }
@@ -118,28 +144,70 @@ class CallanDrillViewModel @Inject constructor(
     fun submitAnswer(input: String) {
         val s = _uiState.value as? DrillUiState.Question ?: return
         if (s.showResult) return
+        
+        timerJob?.cancel()
 
-        val result = validateAnswerUseCase(input, s.exercise)
-        val isCorrect = result.status.name == "CORRECT" || result.status.name == "TOO_CLOSE"
+        val normalizedInput = normalizer.normalize(input)
+        val drill = s.drill
+        
+        // Verifica se a resposta está correta
+        val allAccepted = listOf(drill.answer) + drill.altAnswers
+        val isCorrect = allAccepted.any { accepted ->
+            val normalizedAccepted = normalizer.normalize(accepted)
+            // Aceita se for igual ou muito similar (permite pequenos erros)
+            normalizedInput == normalizedAccepted ||
+            calculateSimilarity(normalizedInput, normalizedAccepted) >= 0.85
+        }
+        
         if (isCorrect) score++
-
-        val correct = s.exercise.acceptedAnswers
-            .firstOrNull { it.isPrimary }?.questionText
-            ?: s.exercise.acceptedAnswers.firstOrNull()?.questionText ?: ""
 
         _uiState.value = s.copy(
             showResult = true,
             wasCorrect = isCorrect,
-            correctAnswer = correct,
+            correctAnswer = drill.answer,
             score = score
         )
     }
 
+    /**
+     * Calcula similaridade entre duas strings (0.0 a 1.0).
+     * Usa distância de Levenshtein normalizada.
+     */
+    private fun calculateSimilarity(s1: String, s2: String): Double {
+        if (s1 == s2) return 1.0
+        if (s1.isEmpty() || s2.isEmpty()) return 0.0
+        
+        val maxLen = maxOf(s1.length, s2.length)
+        val distance = levenshteinDistance(s1, s2)
+        return 1.0 - (distance.toDouble() / maxLen)
+    }
+
+    private fun levenshteinDistance(s1: String, s2: String): Int {
+        val m = s1.length
+        val n = s2.length
+        val dp = Array(m + 1) { IntArray(n + 1) }
+        
+        for (i in 0..m) dp[i][0] = i
+        for (j in 0..n) dp[0][j] = j
+        
+        for (i in 1..m) {
+            for (j in 1..n) {
+                val cost = if (s1[i - 1] == s2[j - 1]) 0 else 1
+                dp[i][j] = minOf(
+                    dp[i - 1][j] + 1,      // deletion
+                    dp[i][j - 1] + 1,      // insertion
+                    dp[i - 1][j - 1] + cost // substitution
+                )
+            }
+        }
+        return dp[m][n]
+    }
+
     fun next() {
         currentIndex++
-        if (currentIndex >= exercises.size) {
-            val pct = if (exercises.isNotEmpty()) (score * 100) / exercises.size else 0
-            _uiState.value = DrillUiState.Done(score, exercises.size, pct)
+        if (currentIndex >= sessionDrills.size) {
+            val pct = if (sessionDrills.isNotEmpty()) (score * 100) / sessionDrills.size else 0
+            _uiState.value = DrillUiState.Done(score, sessionDrills.size, pct)
         } else {
             showQuestion()
         }
@@ -148,8 +216,13 @@ class CallanDrillViewModel @Inject constructor(
     fun restart() {
         currentIndex = 0
         score = 0
-        exercises = exercises.shuffled()
+        sessionDrills = allDrills.shuffled().take(DRILL_SIZE)
         showQuestion()
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        timerJob?.cancel()
     }
 
     companion object {

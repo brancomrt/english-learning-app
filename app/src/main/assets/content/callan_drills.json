@@ -1,0 +1,805 @@
+{
+  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas",
+  "drills": [
+    {
+      "id": 1,
+      "level": 1,
+      "prompt": "Is this a book?",
+      "answer": "Yes, it's a book.",
+      "alt_answers": ["Yes, it is a book.", "Yes, this is a book."],
+      "grammar": "to be - affirmative"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "prompt": "Is this a pen?",
+      "answer": "No, it isn't a pen, it's a pencil.",
+      "alt_answers": ["No, it is not a pen, it is a pencil.", "No, this isn't a pen, this is a pencil."],
+      "grammar": "to be - negative"
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "prompt": "What's this?",
+      "answer": "It's a table.",
+      "alt_answers": ["This is a table.", "It is a table."],
+      "grammar": "to be - what"
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "prompt": "What's your name?",
+      "answer": "My name is [name].",
+      "alt_answers": ["I'm [name].", "My name's [name]."],
+      "grammar": "to be - personal info"
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "prompt": "Where are you from?",
+      "answer": "I'm from Brazil.",
+      "alt_answers": ["I am from Brazil.", "I come from Brazil."],
+      "grammar": "to be - origin"
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "prompt": "Is the book on the table?",
+      "answer": "Yes, the book is on the table.",
+      "alt_answers": ["Yes, it is on the table.", "Yes, it's on the table."],
+      "grammar": "to be - prepositions"
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "prompt": "Is the pen under the chair?",
+      "answer": "No, the pen isn't under the chair, it's on the desk.",
+      "alt_answers": ["No, it isn't under the chair, it's on the desk."],
+      "grammar": "to be - prepositions negative"
+    },
+    {
+      "id": 8,
+      "level": 1,
+      "prompt": "Are you a student?",
+      "answer": "Yes, I'm a student.",
+      "alt_answers": ["Yes, I am a student.", "Yes, I am."],
+      "grammar": "to be - occupation"
+    },
+    {
+      "id": 9,
+      "level": 1,
+      "prompt": "Is he a teacher?",
+      "answer": "No, he isn't a teacher, he's a doctor.",
+      "alt_answers": ["No, he is not a teacher, he is a doctor."],
+      "grammar": "to be - third person"
+    },
+    {
+      "id": 10,
+      "level": 1,
+      "prompt": "What color is the pen?",
+      "answer": "The pen is blue.",
+      "alt_answers": ["It's blue.", "It is blue."],
+      "grammar": "to be - colors"
+    },
+    {
+      "id": 11,
+      "level": 1,
+      "prompt": "How many books are on the table?",
+      "answer": "There are three books on the table.",
+      "alt_answers": ["Three books are on the table.", "There are 3 books on the table."],
+      "grammar": "there are - counting"
+    },
+    {
+      "id": 12,
+      "level": 1,
+      "prompt": "Is there a window in this room?",
+      "answer": "Yes, there is a window in this room.",
+      "alt_answers": ["Yes, there is.", "Yes, there's a window."],
+      "grammar": "there is - affirmative"
+    },
+    {
+      "id": 13,
+      "level": 1,
+      "prompt": "Are there any chairs here?",
+      "answer": "Yes, there are some chairs here.",
+      "alt_answers": ["Yes, there are.", "Yes, there are chairs here."],
+      "grammar": "there are - some/any"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "prompt": "What time is it?",
+      "answer": "It's three o'clock.",
+      "alt_answers": ["It is three o'clock.", "It's 3 o'clock."],
+      "grammar": "to be - time"
+    },
+    {
+      "id": 15,
+      "level": 1,
+      "prompt": "What day is today?",
+      "answer": "Today is Monday.",
+      "alt_answers": ["It's Monday.", "It is Monday."],
+      "grammar": "to be - days"
+    },
+    {
+      "id": 16,
+      "level": 2,
+      "prompt": "Do you speak English?",
+      "answer": "Yes, I speak English.",
+      "alt_answers": ["Yes, I do.", "Yes, I do speak English."],
+      "grammar": "present simple - do"
+    },
+    {
+      "id": 17,
+      "level": 2,
+      "prompt": "Does she work here?",
+      "answer": "No, she doesn't work here.",
+      "alt_answers": ["No, she does not work here.", "No, she doesn't."],
+      "grammar": "present simple - does negative"
+    },
+    {
+      "id": 18,
+      "level": 2,
+      "prompt": "Where do you live?",
+      "answer": "I live in São Paulo.",
+      "alt_answers": ["I live in Sao Paulo.", "In São Paulo."],
+      "grammar": "present simple - where"
+    },
+    {
+      "id": 19,
+      "level": 2,
+      "prompt": "What do you do?",
+      "answer": "I'm a software developer.",
+      "alt_answers": ["I am a software developer.", "I work as a software developer."],
+      "grammar": "present simple - occupation"
+    },
+    {
+      "id": 20,
+      "level": 2,
+      "prompt": "Do you like coffee?",
+      "answer": "Yes, I like coffee.",
+      "alt_answers": ["Yes, I do.", "Yes, I like it."],
+      "grammar": "present simple - like"
+    },
+    {
+      "id": 21,
+      "level": 2,
+      "prompt": "Does he have a car?",
+      "answer": "Yes, he has a car.",
+      "alt_answers": ["Yes, he does.", "Yes, he has one."],
+      "grammar": "present simple - have/has"
+    },
+    {
+      "id": 22,
+      "level": 2,
+      "prompt": "How often do you exercise?",
+      "answer": "I exercise three times a week.",
+      "alt_answers": ["Three times a week.", "I exercise 3 times a week."],
+      "grammar": "present simple - frequency"
+    },
+    {
+      "id": 23,
+      "level": 2,
+      "prompt": "What time do you wake up?",
+      "answer": "I wake up at seven o'clock.",
+      "alt_answers": ["At seven o'clock.", "I wake up at 7 o'clock."],
+      "grammar": "present simple - daily routine"
+    },
+    {
+      "id": 24,
+      "level": 2,
+      "prompt": "Do they study English every day?",
+      "answer": "Yes, they study English every day.",
+      "alt_answers": ["Yes, they do.", "Yes, they study it every day."],
+      "grammar": "present simple - they"
+    },
+    {
+      "id": 25,
+      "level": 2,
+      "prompt": "Does the class start at nine?",
+      "answer": "No, the class doesn't start at nine, it starts at ten.",
+      "alt_answers": ["No, it doesn't start at nine, it starts at ten."],
+      "grammar": "present simple - correction"
+    },
+    {
+      "id": 26,
+      "level": 2,
+      "prompt": "Can you swim?",
+      "answer": "Yes, I can swim.",
+      "alt_answers": ["Yes, I can.", "Yes, I'm able to swim."],
+      "grammar": "modal - can"
+    },
+    {
+      "id": 27,
+      "level": 2,
+      "prompt": "Can she drive a car?",
+      "answer": "No, she can't drive a car.",
+      "alt_answers": ["No, she cannot drive a car.", "No, she can't."],
+      "grammar": "modal - can negative"
+    },
+    {
+      "id": 28,
+      "level": 2,
+      "prompt": "Must I finish this today?",
+      "answer": "Yes, you must finish this today.",
+      "alt_answers": ["Yes, you must.", "Yes, you have to finish this today."],
+      "grammar": "modal - must"
+    },
+    {
+      "id": 29,
+      "level": 2,
+      "prompt": "Should I study more?",
+      "answer": "Yes, you should study more.",
+      "alt_answers": ["Yes, you should.", "Yes, I think you should."],
+      "grammar": "modal - should"
+    },
+    {
+      "id": 30,
+      "level": 2,
+      "prompt": "Would you like some water?",
+      "answer": "Yes, I would like some water, please.",
+      "alt_answers": ["Yes, please.", "Yes, I would."],
+      "grammar": "modal - would like"
+    },
+    {
+      "id": 31,
+      "level": 3,
+      "prompt": "What are you doing now?",
+      "answer": "I'm studying English now.",
+      "alt_answers": ["I am studying English now.", "I'm studying English."],
+      "grammar": "present continuous"
+    },
+    {
+      "id": 32,
+      "level": 3,
+      "prompt": "Is she working at the moment?",
+      "answer": "Yes, she's working at the moment.",
+      "alt_answers": ["Yes, she is working at the moment.", "Yes, she is."],
+      "grammar": "present continuous - she"
+    },
+    {
+      "id": 33,
+      "level": 3,
+      "prompt": "Are they watching TV?",
+      "answer": "No, they aren't watching TV, they're reading.",
+      "alt_answers": ["No, they are not watching TV, they are reading."],
+      "grammar": "present continuous - negative"
+    },
+    {
+      "id": 34,
+      "level": 3,
+      "prompt": "What did you do yesterday?",
+      "answer": "I went to the park yesterday.",
+      "alt_answers": ["Yesterday I went to the park.", "I visited the park."],
+      "grammar": "past simple - irregular"
+    },
+    {
+      "id": 35,
+      "level": 3,
+      "prompt": "Did you eat breakfast this morning?",
+      "answer": "Yes, I ate breakfast this morning.",
+      "alt_answers": ["Yes, I did.", "Yes, I had breakfast this morning."],
+      "grammar": "past simple - irregular eat"
+    },
+    {
+      "id": 36,
+      "level": 3,
+      "prompt": "Where did she go last weekend?",
+      "answer": "She went to the beach last weekend.",
+      "alt_answers": ["She went to the beach.", "To the beach."],
+      "grammar": "past simple - where"
+    },
+    {
+      "id": 37,
+      "level": 3,
+      "prompt": "Did they finish the project?",
+      "answer": "No, they didn't finish the project.",
+      "alt_answers": ["No, they did not finish the project.", "No, they didn't."],
+      "grammar": "past simple - negative"
+    },
+    {
+      "id": 38,
+      "level": 3,
+      "prompt": "Was the movie good?",
+      "answer": "Yes, the movie was very good.",
+      "alt_answers": ["Yes, it was very good.", "Yes, it was."],
+      "grammar": "past simple - to be"
+    },
+    {
+      "id": 39,
+      "level": 3,
+      "prompt": "Were you at home last night?",
+      "answer": "No, I wasn't at home last night, I was at work.",
+      "alt_answers": ["No, I was not at home, I was at work."],
+      "grammar": "past simple - to be negative"
+    },
+    {
+      "id": 40,
+      "level": 3,
+      "prompt": "How long have you studied English?",
+      "answer": "I have studied English for two years.",
+      "alt_answers": ["I've studied English for two years.", "For two years."],
+      "grammar": "present perfect - duration"
+    },
+    {
+      "id": 41,
+      "level": 3,
+      "prompt": "Have you ever been to London?",
+      "answer": "No, I have never been to London.",
+      "alt_answers": ["No, I've never been to London.", "No, I haven't."],
+      "grammar": "present perfect - ever/never"
+    },
+    {
+      "id": 42,
+      "level": 3,
+      "prompt": "Has she finished her homework?",
+      "answer": "Yes, she has finished her homework.",
+      "alt_answers": ["Yes, she has.", "Yes, she's finished it."],
+      "grammar": "present perfect - has"
+    },
+    {
+      "id": 43,
+      "level": 3,
+      "prompt": "Have they arrived yet?",
+      "answer": "No, they haven't arrived yet.",
+      "alt_answers": ["No, they have not arrived yet.", "No, not yet."],
+      "grammar": "present perfect - yet"
+    },
+    {
+      "id": 44,
+      "level": 3,
+      "prompt": "I've already eaten. Have you?",
+      "answer": "Yes, I've already eaten too.",
+      "alt_answers": ["Yes, I have already eaten.", "Yes, I have."],
+      "grammar": "present perfect - already"
+    },
+    {
+      "id": 45,
+      "level": 3,
+      "prompt": "What have you been doing today?",
+      "answer": "I've been working all day.",
+      "alt_answers": ["I have been working all day.", "Working all day."],
+      "grammar": "present perfect continuous"
+    },
+    {
+      "id": 46,
+      "level": 4,
+      "prompt": "What will you do tomorrow?",
+      "answer": "I will go to the gym tomorrow.",
+      "alt_answers": ["I'll go to the gym tomorrow.", "Tomorrow I will go to the gym."],
+      "grammar": "future - will"
+    },
+    {
+      "id": 47,
+      "level": 4,
+      "prompt": "Are you going to travel next month?",
+      "answer": "Yes, I'm going to travel next month.",
+      "alt_answers": ["Yes, I am going to travel next month.", "Yes, I am."],
+      "grammar": "future - going to"
+    },
+    {
+      "id": 48,
+      "level": 4,
+      "prompt": "Will she come to the party?",
+      "answer": "No, she won't come to the party.",
+      "alt_answers": ["No, she will not come to the party.", "No, she won't."],
+      "grammar": "future - will negative"
+    },
+    {
+      "id": 49,
+      "level": 4,
+      "prompt": "What would you do if you won the lottery?",
+      "answer": "If I won the lottery, I would travel the world.",
+      "alt_answers": ["I would travel the world.", "I'd travel the world."],
+      "grammar": "conditional - second"
+    },
+    {
+      "id": 50,
+      "level": 4,
+      "prompt": "If it rains tomorrow, what will you do?",
+      "answer": "If it rains tomorrow, I will stay home.",
+      "alt_answers": ["I will stay home.", "I'll stay home."],
+      "grammar": "conditional - first"
+    },
+    {
+      "id": 51,
+      "level": 4,
+      "prompt": "Had you ever seen snow before you went to Canada?",
+      "answer": "No, I had never seen snow before I went to Canada.",
+      "alt_answers": ["No, I hadn't.", "No, I had never seen snow before."],
+      "grammar": "past perfect"
+    },
+    {
+      "id": 52,
+      "level": 4,
+      "prompt": "The book was written by whom?",
+      "answer": "The book was written by Shakespeare.",
+      "alt_answers": ["It was written by Shakespeare.", "Shakespeare wrote it."],
+      "grammar": "passive voice - past"
+    },
+    {
+      "id": 53,
+      "level": 4,
+      "prompt": "Is English spoken in Australia?",
+      "answer": "Yes, English is spoken in Australia.",
+      "alt_answers": ["Yes, it is.", "Yes, it is spoken there."],
+      "grammar": "passive voice - present"
+    },
+    {
+      "id": 54,
+      "level": 4,
+      "prompt": "The letter must be sent today, mustn't it?",
+      "answer": "Yes, the letter must be sent today.",
+      "alt_answers": ["Yes, it must.", "Yes, it must be sent today."],
+      "grammar": "passive voice - modal"
+    },
+    {
+      "id": 55,
+      "level": 4,
+      "prompt": "You like pizza, don't you?",
+      "answer": "Yes, I like pizza very much.",
+      "alt_answers": ["Yes, I do.", "Yes, I love pizza."],
+      "grammar": "tag questions"
+    },
+    {
+      "id": 56,
+      "level": 4,
+      "prompt": "She isn't coming, is she?",
+      "answer": "No, she isn't coming.",
+      "alt_answers": ["No, she isn't.", "No, she's not coming."],
+      "grammar": "tag questions - negative"
+    },
+    {
+      "id": 57,
+      "level": 4,
+      "prompt": "He said he would call, didn't he?",
+      "answer": "Yes, he said he would call.",
+      "alt_answers": ["Yes, he did.", "Yes, that's what he said."],
+      "grammar": "reported speech"
+    },
+    {
+      "id": 58,
+      "level": 4,
+      "prompt": "What did she say?",
+      "answer": "She said that she was tired.",
+      "alt_answers": ["She said she was tired.", "That she was tired."],
+      "grammar": "reported speech - say"
+    },
+    {
+      "id": 59,
+      "level": 4,
+      "prompt": "He asked me where I lived. What did he ask?",
+      "answer": "He asked me where I lived.",
+      "alt_answers": ["He asked where I lived.", "Where I lived."],
+      "grammar": "reported speech - questions"
+    },
+    {
+      "id": 60,
+      "level": 4,
+      "prompt": "I wish I could speak French. Can you speak French?",
+      "answer": "No, I can't speak French, but I wish I could.",
+      "alt_answers": ["No, I can't.", "No, but I wish I could."],
+      "grammar": "wish + could"
+    },
+    {
+      "id": 61,
+      "level": 5,
+      "prompt": "Had you been waiting long before the bus arrived?",
+      "answer": "Yes, I had been waiting for thirty minutes before the bus arrived.",
+      "alt_answers": ["Yes, I had been waiting for a long time.", "Yes, for about thirty minutes."],
+      "grammar": "past perfect continuous"
+    },
+    {
+      "id": 62,
+      "level": 5,
+      "prompt": "By this time next year, what will you have done?",
+      "answer": "By this time next year, I will have finished my course.",
+      "alt_answers": ["I will have finished my course.", "I'll have finished my studies."],
+      "grammar": "future perfect"
+    },
+    {
+      "id": 63,
+      "level": 5,
+      "prompt": "If you had studied harder, would you have passed?",
+      "answer": "Yes, if I had studied harder, I would have passed.",
+      "alt_answers": ["Yes, I would have passed.", "Yes, I would have."],
+      "grammar": "conditional - third"
+    },
+    {
+      "id": 64,
+      "level": 5,
+      "prompt": "What might have happened if you hadn't arrived on time?",
+      "answer": "If I hadn't arrived on time, I might have missed the meeting.",
+      "alt_answers": ["I might have missed the meeting.", "I could have missed it."],
+      "grammar": "conditional - third with might"
+    },
+    {
+      "id": 65,
+      "level": 5,
+      "prompt": "The project should have been completed by now, shouldn't it?",
+      "answer": "Yes, the project should have been completed by now.",
+      "alt_answers": ["Yes, it should have.", "Yes, it should have been."],
+      "grammar": "modal perfect passive"
+    },
+    {
+      "id": 66,
+      "level": 5,
+      "prompt": "It is believed that the company will expand. What is believed?",
+      "answer": "It is believed that the company will expand.",
+      "alt_answers": ["That the company will expand.", "The company is believed to be expanding."],
+      "grammar": "impersonal passive"
+    },
+    {
+      "id": 67,
+      "level": 5,
+      "prompt": "Having finished the work, what did you do?",
+      "answer": "Having finished the work, I went home.",
+      "alt_answers": ["I went home.", "After finishing, I went home."],
+      "grammar": "participle clauses"
+    },
+    {
+      "id": 68,
+      "level": 5,
+      "prompt": "Were it not for your help, what would have happened?",
+      "answer": "Were it not for your help, I would have failed.",
+      "alt_answers": ["I would have failed.", "I couldn't have done it."],
+      "grammar": "inverted conditionals"
+    },
+    {
+      "id": 69,
+      "level": 5,
+      "prompt": "Not only did he arrive late, but what else did he do?",
+      "answer": "Not only did he arrive late, but he also forgot the documents.",
+      "alt_answers": ["He also forgot the documents.", "But he also forgot the documents."],
+      "grammar": "inversion - not only"
+    },
+    {
+      "id": 70,
+      "level": 5,
+      "prompt": "Hardly had I sat down when what happened?",
+      "answer": "Hardly had I sat down when the phone rang.",
+      "alt_answers": ["The phone rang.", "When the phone rang."],
+      "grammar": "inversion - hardly"
+    },
+    {
+      "id": 71,
+      "level": 1,
+      "prompt": "Am I speaking too fast?",
+      "answer": "No, you aren't speaking too fast.",
+      "alt_answers": ["No, you're not.", "No, you are not speaking too fast."],
+      "grammar": "to be - present continuous"
+    },
+    {
+      "id": 72,
+      "level": 1,
+      "prompt": "Is the door open or closed?",
+      "answer": "The door is open.",
+      "alt_answers": ["It's open.", "It is open."],
+      "grammar": "to be - or questions"
+    },
+    {
+      "id": 73,
+      "level": 1,
+      "prompt": "Are we in the classroom?",
+      "answer": "Yes, we are in the classroom.",
+      "alt_answers": ["Yes, we are.", "Yes, we're in the classroom."],
+      "grammar": "to be - we"
+    },
+    {
+      "id": 74,
+      "level": 1,
+      "prompt": "Is it cold or hot today?",
+      "answer": "It's cold today.",
+      "alt_answers": ["It is cold today.", "Today it's cold."],
+      "grammar": "to be - weather"
+    },
+    {
+      "id": 75,
+      "level": 1,
+      "prompt": "How old are you?",
+      "answer": "I'm twenty-five years old.",
+      "alt_answers": ["I am 25 years old.", "Twenty-five."],
+      "grammar": "to be - age"
+    },
+    {
+      "id": 76,
+      "level": 2,
+      "prompt": "Do you have any brothers or sisters?",
+      "answer": "Yes, I have one brother and one sister.",
+      "alt_answers": ["Yes, I do.", "Yes, I have siblings."],
+      "grammar": "present simple - have"
+    },
+    {
+      "id": 77,
+      "level": 2,
+      "prompt": "Does your father work?",
+      "answer": "Yes, my father works in a hospital.",
+      "alt_answers": ["Yes, he does.", "Yes, he works."],
+      "grammar": "present simple - third person"
+    },
+    {
+      "id": 78,
+      "level": 2,
+      "prompt": "How do you go to work?",
+      "answer": "I go to work by bus.",
+      "alt_answers": ["By bus.", "I take the bus."],
+      "grammar": "present simple - how"
+    },
+    {
+      "id": 79,
+      "level": 2,
+      "prompt": "Why do you study English?",
+      "answer": "I study English because I want to travel.",
+      "alt_answers": ["Because I want to travel.", "To travel."],
+      "grammar": "present simple - why"
+    },
+    {
+      "id": 80,
+      "level": 2,
+      "prompt": "When does the store open?",
+      "answer": "The store opens at nine o'clock.",
+      "alt_answers": ["It opens at nine.", "At nine o'clock."],
+      "grammar": "present simple - when"
+    },
+    {
+      "id": 81,
+      "level": 3,
+      "prompt": "Were you sleeping when I called?",
+      "answer": "Yes, I was sleeping when you called.",
+      "alt_answers": ["Yes, I was.", "Yes, I was sleeping."],
+      "grammar": "past continuous"
+    },
+    {
+      "id": 82,
+      "level": 3,
+      "prompt": "What were you doing at 8 PM yesterday?",
+      "answer": "I was having dinner at 8 PM yesterday.",
+      "alt_answers": ["I was having dinner.", "Having dinner."],
+      "grammar": "past continuous - what"
+    },
+    {
+      "id": 83,
+      "level": 3,
+      "prompt": "While I was cooking, what happened?",
+      "answer": "While you were cooking, the phone rang.",
+      "alt_answers": ["The phone rang.", "The phone rang while you were cooking."],
+      "grammar": "past continuous - while"
+    },
+    {
+      "id": 84,
+      "level": 3,
+      "prompt": "How long have you been living here?",
+      "answer": "I have been living here for five years.",
+      "alt_answers": ["I've been living here for five years.", "For five years."],
+      "grammar": "present perfect continuous - how long"
+    },
+    {
+      "id": 85,
+      "level": 3,
+      "prompt": "Have you ever tried sushi?",
+      "answer": "Yes, I have tried sushi many times.",
+      "alt_answers": ["Yes, I have.", "Yes, many times."],
+      "grammar": "present perfect - ever"
+    },
+    {
+      "id": 86,
+      "level": 4,
+      "prompt": "By the time you arrive, what will have happened?",
+      "answer": "By the time you arrive, the meeting will have finished.",
+      "alt_answers": ["The meeting will have finished.", "It will have finished."],
+      "grammar": "future perfect"
+    },
+    {
+      "id": 87,
+      "level": 4,
+      "prompt": "If I were you, what would I do?",
+      "answer": "If I were you, I would accept the offer.",
+      "alt_answers": ["I would accept the offer.", "You would accept it."],
+      "grammar": "conditional - second (advice)"
+    },
+    {
+      "id": 88,
+      "level": 4,
+      "prompt": "The window was broken. Who broke it?",
+      "answer": "The window was broken by the children.",
+      "alt_answers": ["It was broken by the children.", "The children broke it."],
+      "grammar": "passive voice - by"
+    },
+    {
+      "id": 89,
+      "level": 4,
+      "prompt": "She told me to wait. What did she tell you to do?",
+      "answer": "She told me to wait.",
+      "alt_answers": ["To wait.", "She told me that I should wait."],
+      "grammar": "reported speech - commands"
+    },
+    {
+      "id": 90,
+      "level": 4,
+      "prompt": "I'd rather stay home. Would you rather go out?",
+      "answer": "No, I'd rather stay home too.",
+      "alt_answers": ["No, I would rather stay home.", "No, me too."],
+      "grammar": "would rather"
+    },
+    {
+      "id": 91,
+      "level": 5,
+      "prompt": "Little did I know what would happen. Did you know?",
+      "answer": "No, little did I know what would happen either.",
+      "alt_answers": ["No, I didn't know either.", "No, I had no idea."],
+      "grammar": "inversion - little"
+    },
+    {
+      "id": 92,
+      "level": 5,
+      "prompt": "No sooner had I left than what happened?",
+      "answer": "No sooner had I left than it started to rain.",
+      "alt_answers": ["It started to rain.", "Than it started to rain."],
+      "grammar": "inversion - no sooner"
+    },
+    {
+      "id": 93,
+      "level": 5,
+      "prompt": "Should you need any help, what should you do?",
+      "answer": "Should I need any help, I will call you.",
+      "alt_answers": ["I will call you.", "I should call you."],
+      "grammar": "inverted conditionals - should"
+    },
+    {
+      "id": 94,
+      "level": 5,
+      "prompt": "It's time we left, isn't it?",
+      "answer": "Yes, it's time we left.",
+      "alt_answers": ["Yes, it is.", "Yes, we should leave now."],
+      "grammar": "it's time + past"
+    },
+    {
+      "id": 95,
+      "level": 5,
+      "prompt": "I'd sooner you didn't smoke here. May I smoke?",
+      "answer": "No, I'd sooner you didn't smoke here.",
+      "alt_answers": ["No, please don't.", "I'd prefer you didn't."],
+      "grammar": "would sooner"
+    },
+    {
+      "id": 96,
+      "level": 1,
+      "prompt": "Is English easy or difficult?",
+      "answer": "English is easy when you practice.",
+      "alt_answers": ["It's easy with practice.", "English is easy."],
+      "grammar": "to be - opinion"
+    },
+    {
+      "id": 97,
+      "level": 2,
+      "prompt": "Do you prefer tea or coffee?",
+      "answer": "I prefer coffee.",
+      "alt_answers": ["Coffee.", "I prefer coffee to tea."],
+      "grammar": "present simple - prefer"
+    },
+    {
+      "id": 98,
+      "level": 3,
+      "prompt": "Have you just arrived?",
+      "answer": "Yes, I have just arrived.",
+      "alt_answers": ["Yes, I have.", "Yes, I just got here."],
+      "grammar": "present perfect - just"
+    },
+    {
+      "id": 99,
+      "level": 4,
+      "prompt": "You used to smoke, didn't you?",
+      "answer": "Yes, I used to smoke, but I quit.",
+      "alt_answers": ["Yes, but I quit.", "Yes, I did, but not anymore."],
+      "grammar": "used to"
+    },
+    {
+      "id": 100,
+      "level": 5,
+      "prompt": "The more you practice, the better you get. Is that true?",
+      "answer": "Yes, the more you practice, the better you get.",
+      "alt_answers": ["Yes, that's true.", "Yes, it is."],
+      "grammar": "comparative structures"
+    }
+  ]
+}

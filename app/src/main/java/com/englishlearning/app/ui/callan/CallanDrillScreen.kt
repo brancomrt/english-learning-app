@@ -100,7 +100,7 @@ private fun QuestionScreen(
     )
 
     // TTS automático ao aparecer a pergunta
-    val promptText = state.exercise.promptText ?: state.exercise.answerText
+    val promptText = state.drill.prompt
     LaunchedEffect(state.index) {
         kotlinx.coroutines.delay(200)
         ttsManager?.speak(promptText)
@@ -190,16 +190,15 @@ private fun QuestionScreen(
                         color = MaterialTheme.colorScheme.onSecondaryContainer,
                         textAlign = TextAlign.Center
                     )
-                    if (!state.exercise.contextText.isNullOrBlank()) {
-                        Text(
-                            text = state.exercise.contextText,
-                            style = MaterialTheme.typography.bodySmall.copy(
-                                fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
-                            ),
-                            color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f),
-                            textAlign = TextAlign.Center
-                        )
-                    }
+                    // Mostra o foco gramatical como contexto
+                    Text(
+                        text = state.drill.grammar,
+                        style = MaterialTheme.typography.bodySmall.copy(
+                            fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
+                        ),
+                        color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f),
+                        textAlign = TextAlign.Center
+                    )
                 }
             }
         }
