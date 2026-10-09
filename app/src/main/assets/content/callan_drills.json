@@ -1,6 +1,6 @@
 {
-  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas no Stage 1",
-  "source": "Adaptado do padrão Callan Method Stage 1",
+  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas nos Stages 1 e 2",
+  "source": "Adaptado do padrão Callan Method Stages 1-2",
   "drills": [
     {
       "id": 1,
@@ -1462,6 +1462,961 @@
       "answer": "Yes, I have one brother and one sister.",
       "alt_answers": ["Yes, I do.", "Yes, I have siblings."],
       "grammar": "family"
+    },
+    {
+      "id": 151,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "What's the difference between the Present Progressive and the Present Simple?",
+      "answer": "The difference is that we use the Present Progressive for an action we are doing now, whilst the Present Simple we use for an action we do generally.",
+      "alt_answers": ["Present Progressive is for now, Present Simple is for generally."],
+      "grammar": "present progressive vs present simple"
+    },
+    {
+      "id": 152,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Are you speaking English now?",
+      "answer": "Yes, I'm speaking English now.",
+      "alt_answers": ["Yes, I am speaking English now."],
+      "grammar": "present progressive"
+    },
+    {
+      "id": 153,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Do you speak English generally?",
+      "answer": "Yes, I speak English generally.",
+      "alt_answers": ["Yes, I do.", "Yes, I speak English."],
+      "grammar": "present simple - generally"
+    },
+    {
+      "id": 154,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Are you reading that book?",
+      "context": "speaking English",
+      "answer": "No, I'm not reading that book, but I'm speaking English.",
+      "alt_answers": ["No, I am not reading, but speaking."],
+      "grammar": "present progressive - negative"
+    },
+    {
+      "id": 155,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Do you read that book?",
+      "answer": "Yes, I read that book.",
+      "alt_answers": ["Yes, I do."],
+      "grammar": "present simple - read"
+    },
+    {
+      "id": 156,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Are you writing?",
+      "context": "not writing",
+      "answer": "No, I'm not writing.",
+      "alt_answers": ["No, I am not writing."],
+      "grammar": "present progressive - negative"
+    },
+    {
+      "id": 157,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Do you write?",
+      "answer": "Yes, I write.",
+      "alt_answers": ["Yes, I do."],
+      "grammar": "present simple"
+    },
+    {
+      "id": 158,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Am I going to the door?",
+      "context": "remaining on chair",
+      "answer": "No, you aren't going to the door, but you're remaining on the chair.",
+      "alt_answers": ["No, you are not going to the door."],
+      "grammar": "present progressive - remaining"
+    },
+    {
+      "id": 159,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Do I go to the door after the lesson?",
+      "answer": "Yes, you go to the door after the lesson.",
+      "alt_answers": ["Yes, you do."],
+      "grammar": "present simple - after"
+    },
+    {
+      "id": 160,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Are you going home?",
+      "context": "remaining in room",
+      "answer": "No, I'm not going home, but I'm remaining in the room.",
+      "alt_answers": ["No, I am not going home."],
+      "grammar": "present progressive - home"
+    },
+    {
+      "id": 161,
+      "level": 2,
+      "lesson": 10,
+      "prompt": "Do you go home after the lesson?",
+      "answer": "Yes, I go home after the lesson.",
+      "alt_answers": ["Yes, I do."],
+      "grammar": "present simple - after lesson"
+    },
+    {
+      "id": 162,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Is Germany east or west of Italy?",
+      "answer": "Germany is neither east nor west of Italy, but it's north of Italy.",
+      "alt_answers": ["Germany is north of Italy."],
+      "grammar": "neither...nor - geography"
+    },
+    {
+      "id": 163,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "What's the contrary of 'with'?",
+      "answer": "The contrary of 'with' is 'without'.",
+      "alt_answers": ["Without."],
+      "grammar": "contrary - with/without"
+    },
+    {
+      "id": 164,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Can we write without a pen or a pencil?",
+      "answer": "No, we can't write without a pen or a pencil.",
+      "alt_answers": ["No, we cannot write without a pen or pencil."],
+      "grammar": "can - without"
+    },
+    {
+      "id": 165,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Can we speak without opening our mouths?",
+      "answer": "No, we can't speak without opening our mouths.",
+      "alt_answers": ["No, we cannot speak without opening our mouths."],
+      "grammar": "can - without"
+    },
+    {
+      "id": 166,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Can you read without opening your eyes?",
+      "answer": "No, I can't read without opening my eyes.",
+      "alt_answers": ["No, I cannot read without opening my eyes."],
+      "grammar": "can - without"
+    },
+    {
+      "id": 167,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "What's the difference between a verb and a noun?",
+      "answer": "The difference is that a verb is a word we use for an action, whilst a noun is the name of a thing.",
+      "alt_answers": ["A verb is for actions, a noun is for things."],
+      "grammar": "verb vs noun"
+    },
+    {
+      "id": 168,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Give me an example of a verb, please!",
+      "answer": "'Take' is a verb.",
+      "alt_answers": ["'Go' is a verb.", "'Write' is a verb."],
+      "grammar": "verb - example"
+    },
+    {
+      "id": 169,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Give me an example of a noun, please!",
+      "answer": "'Book' is a noun.",
+      "alt_answers": ["'Table' is a noun.", "'Chair' is a noun."],
+      "grammar": "noun - example"
+    },
+    {
+      "id": 170,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Is the word 'translation' a verb or a noun?",
+      "answer": "The word 'translation' is a noun.",
+      "alt_answers": ["It's a noun."],
+      "grammar": "verb vs noun"
+    },
+    {
+      "id": 171,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Do we speak during the lesson?",
+      "context": "speaking English",
+      "answer": "Yes, we speak English during the lesson.",
+      "alt_answers": ["Yes, we do."],
+      "grammar": "during"
+    },
+    {
+      "id": 172,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Do you walk about the room during the lesson?",
+      "context": "sitting",
+      "answer": "No, I don't walk about the room during the lesson, but I sit on my chair.",
+      "alt_answers": ["No, I don't walk about."],
+      "grammar": "during - negative"
+    },
+    {
+      "id": 173,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Are all the people in this town men?",
+      "answer": "No, not all the people in this town are men, but some are men and some are women.",
+      "alt_answers": ["No, some are men and some are women."],
+      "grammar": "some...some"
+    },
+    {
+      "id": 174,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Do all the people in Europe speak Spanish?",
+      "answer": "No, not all the people in Europe speak Spanish, but some speak Spanish and some speak other languages.",
+      "alt_answers": ["No, some speak Spanish and some speak other languages."],
+      "grammar": "some...some - languages"
+    },
+    {
+      "id": 175,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Have I anything in my right hand?",
+      "context": "yes, pen",
+      "answer": "Yes, you've something in your right hand.",
+      "alt_answers": ["Yes, you have something in your right hand."],
+      "grammar": "anything/something"
+    },
+    {
+      "id": 176,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Is there anything on the table?",
+      "context": "yes",
+      "answer": "Yes, there's something on the table.",
+      "alt_answers": ["Yes, there is something on the table."],
+      "grammar": "anything/something"
+    },
+    {
+      "id": 177,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Are you wearing anything on your feet?",
+      "context": "yes, shoes",
+      "answer": "Yes, I'm wearing something on my feet.",
+      "alt_answers": ["Yes, I am wearing something on my feet."],
+      "grammar": "anything/something - wearing"
+    },
+    {
+      "id": 178,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Have I anything in my left hand?",
+      "context": "no",
+      "answer": "No, you haven't anything in your left hand.",
+      "alt_answers": ["No, you have not anything in your left hand."],
+      "grammar": "not anything"
+    },
+    {
+      "id": 179,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Is there anything there on the floor?",
+      "context": "no",
+      "answer": "No, there isn't anything there on the floor.",
+      "alt_answers": ["No, there is not anything on the floor."],
+      "grammar": "not anything"
+    },
+    {
+      "id": 180,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Are you wearing anything on your head?",
+      "context": "no",
+      "answer": "No, I'm not wearing anything on my head.",
+      "alt_answers": ["No, I am not wearing anything on my head."],
+      "grammar": "not anything - wearing"
+    },
+    {
+      "id": 181,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What have I in my right hand?",
+      "context": "pen",
+      "answer": "You've a pen in your right hand.",
+      "alt_answers": ["You have a pen in your right hand."],
+      "grammar": "what - specific"
+    },
+    {
+      "id": 182,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What have I in my left hand?",
+      "context": "nothing",
+      "answer": "You've nothing in your left hand.",
+      "alt_answers": ["You have nothing in your left hand.", "Nothing."],
+      "grammar": "nothing"
+    },
+    {
+      "id": 183,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What's on the table?",
+      "context": "books and pens",
+      "answer": "There are some books, some pens on the table.",
+      "alt_answers": ["Some books and pens are on the table."],
+      "grammar": "what - some"
+    },
+    {
+      "id": 184,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What's there on the floor?",
+      "context": "nothing",
+      "answer": "There's nothing there on the floor.",
+      "alt_answers": ["There is nothing on the floor.", "Nothing."],
+      "grammar": "nothing"
+    },
+    {
+      "id": 185,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What are you wearing on your feet?",
+      "context": "shoes",
+      "answer": "I'm wearing shoes on my feet.",
+      "alt_answers": ["I am wearing shoes on my feet.", "Shoes."],
+      "grammar": "wearing - specific"
+    },
+    {
+      "id": 186,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "What are you wearing on your head?",
+      "context": "nothing",
+      "answer": "I'm wearing nothing on my head.",
+      "alt_answers": ["I am wearing nothing on my head.", "Nothing."],
+      "grammar": "nothing - wearing"
+    },
+    {
+      "id": 187,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What's the difference between a Possessive Adjective and a Possessive Pronoun?",
+      "answer": "The difference is that we put a Possessive Adjective in front of a noun, whilst we put a Possessive Pronoun after a noun or verb.",
+      "alt_answers": ["Possessive Adjective before noun, Possessive Pronoun after."],
+      "grammar": "possessive adjective vs pronoun"
+    },
+    {
+      "id": 188,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Is this your ear?",
+      "context": "teacher's ear",
+      "answer": "No, that isn't my ear, but it's your ear.",
+      "alt_answers": ["No, that is not my ear, but it is your ear."],
+      "grammar": "possessive - my/your"
+    },
+    {
+      "id": 189,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Is this ear yours?",
+      "context": "teacher's ear",
+      "answer": "No, that ear isn't mine, but it's yours.",
+      "alt_answers": ["No, that ear is not mine, but it is yours."],
+      "grammar": "possessive pronoun - mine/yours"
+    },
+    {
+      "id": 190,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Is that nose mine?",
+      "context": "student's nose",
+      "answer": "No, this nose isn't yours, but it's mine.",
+      "alt_answers": ["No, this nose is not yours, but it is mine."],
+      "grammar": "possessive pronoun - mine/yours"
+    },
+    {
+      "id": 191,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Is that dress his?",
+      "context": "her dress",
+      "answer": "No, that dress isn't his, but it's hers.",
+      "alt_answers": ["No, that dress is not his, but it is hers."],
+      "grammar": "possessive pronoun - his/hers"
+    },
+    {
+      "id": 192,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Is that suit hers?",
+      "context": "his suit",
+      "answer": "No, that suit isn't hers, but it's his.",
+      "alt_answers": ["No, that suit is not hers, but it is his."],
+      "grammar": "possessive pronoun - his/hers"
+    },
+    {
+      "id": 193,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Are those hands his?",
+      "context": "her hands",
+      "answer": "No, those hands aren't his, but they're hers.",
+      "alt_answers": ["No, those hands are not his, but they are hers."],
+      "grammar": "possessive pronoun - his/hers plural"
+    },
+    {
+      "id": 194,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Are those legs ours?",
+      "context": "their legs",
+      "answer": "No, those legs aren't ours, but they're theirs.",
+      "alt_answers": ["No, those legs are not ours, but they are theirs."],
+      "grammar": "possessive pronoun - ours/theirs"
+    },
+    {
+      "id": 195,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Are these wrists theirs?",
+      "context": "our wrists",
+      "answer": "No, these wrists aren't theirs, but they're ours.",
+      "alt_answers": ["No, these wrists are not theirs, but they are ours."],
+      "grammar": "possessive pronoun - ours/theirs"
+    },
+    {
+      "id": 196,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "Give me some examples of verbs in the infinitive, please!",
+      "answer": "Some examples of verbs in the infinitive are: to come, to go, to take.",
+      "alt_answers": ["To do, to be, to have.", "To read, to write, to speak."],
+      "grammar": "infinitive"
+    },
+    {
+      "id": 197,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What am I doing?",
+      "context": "going out of the room",
+      "answer": "You're going out of the room.",
+      "alt_answers": ["You are going out of the room."],
+      "grammar": "present progressive - to do"
+    },
+    {
+      "id": 198,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What am I doing?",
+      "context": "sitting down",
+      "answer": "You're sitting down.",
+      "alt_answers": ["You are sitting down."],
+      "grammar": "present progressive - sit down"
+    },
+    {
+      "id": 199,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What am I doing?",
+      "context": "standing up",
+      "answer": "You're standing up.",
+      "alt_answers": ["You are standing up."],
+      "grammar": "present progressive - stand up"
+    },
+    {
+      "id": 200,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What do I do before the lesson?",
+      "answer": "You sit down before the lesson.",
+      "alt_answers": ["You sit down."],
+      "grammar": "present simple - before"
+    },
+    {
+      "id": 201,
+      "level": 2,
+      "lesson": 20,
+      "prompt": "What do I do after the lesson?",
+      "answer": "You stand up after the lesson.",
+      "alt_answers": ["You stand up."],
+      "grammar": "present simple - after"
+    },
+    {
+      "id": 202,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Of these three books, which book has the most pages?",
+      "context": "third book",
+      "answer": "Of these three books, this book has the most pages.",
+      "alt_answers": ["This book has the most pages."],
+      "grammar": "the most"
+    },
+    {
+      "id": 203,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you think Paris is an ugly city?",
+      "answer": "No, I don't think Paris is an ugly city, but I think it's a beautiful city.",
+      "alt_answers": ["No, I think Paris is beautiful."],
+      "grammar": "beautiful/ugly"
+    },
+    {
+      "id": 204,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What am I doing?",
+      "context": "eating",
+      "answer": "You're eating.",
+      "alt_answers": ["You are eating."],
+      "grammar": "eat"
+    },
+    {
+      "id": 205,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you eat all food?",
+      "answer": "No, I don't eat all food, but some I eat and some I don't eat.",
+      "alt_answers": ["No, some I eat and some I don't."],
+      "grammar": "eat - some"
+    },
+    {
+      "id": 206,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What do we eat with?",
+      "answer": "We eat with our mouths.",
+      "alt_answers": ["With our mouths."],
+      "grammar": "eat - with"
+    },
+    {
+      "id": 207,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What am I doing?",
+      "context": "drinking",
+      "answer": "You're drinking.",
+      "alt_answers": ["You are drinking."],
+      "grammar": "drink"
+    },
+    {
+      "id": 208,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you drink tea?",
+      "answer": "Yes, I drink tea.",
+      "alt_answers": ["Yes, I do.", "No, I don't drink tea."],
+      "grammar": "drink - tea"
+    },
+    {
+      "id": 209,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Can we drink meat?",
+      "answer": "No, we can't drink meat, but we eat meat.",
+      "alt_answers": ["No, we cannot drink meat, but we eat it."],
+      "grammar": "drink vs eat"
+    },
+    {
+      "id": 210,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Tell me the names of four metals, please!",
+      "answer": "The names of four metals are gold, silver, steel and iron.",
+      "alt_answers": ["Gold, silver, steel and iron."],
+      "grammar": "metals"
+    },
+    {
+      "id": 211,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What's a key generally made of?",
+      "answer": "A key's generally made of steel.",
+      "alt_answers": ["A key is generally made of steel.", "Steel."],
+      "grammar": "made of"
+    },
+    {
+      "id": 212,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do your shoes cost more than your handkerchief?",
+      "answer": "Yes, my shoes cost more than my handkerchief.",
+      "alt_answers": ["Yes, they do."],
+      "grammar": "cost - more than"
+    },
+    {
+      "id": 213,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Tell me the names of the days of the week, please!",
+      "answer": "The names of the days of the week are Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
+      "alt_answers": ["Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."],
+      "grammar": "days of the week"
+    },
+    {
+      "id": 214,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What's today?",
+      "context": "Monday",
+      "answer": "Today's Monday.",
+      "alt_answers": ["Today is Monday.", "It's Monday."],
+      "grammar": "today"
+    },
+    {
+      "id": 215,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What was yesterday?",
+      "context": "Sunday",
+      "answer": "Yesterday was Sunday.",
+      "alt_answers": ["It was Sunday."],
+      "grammar": "yesterday - was"
+    },
+    {
+      "id": 216,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "What will tomorrow be?",
+      "context": "Tuesday",
+      "answer": "Tomorrow will be Tuesday.",
+      "alt_answers": ["It will be Tuesday."],
+      "grammar": "tomorrow - will be"
+    },
+    {
+      "id": 217,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you want to break your pen?",
+      "answer": "No, I don't want to break my pen.",
+      "alt_answers": ["No, I do not want to break my pen."],
+      "grammar": "want - negative"
+    },
+    {
+      "id": 218,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you want anything to eat at the moment?",
+      "context": "no",
+      "answer": "No, I don't want anything to eat at the moment.",
+      "alt_answers": ["No, I don't.", "Yes, I want something to eat."],
+      "grammar": "want - at the moment"
+    },
+    {
+      "id": 219,
+      "level": 2,
+      "lesson": 21,
+      "prompt": "Do you want anything to drink at the moment?",
+      "context": "yes",
+      "answer": "Yes, I want something to drink at the moment.",
+      "alt_answers": ["Yes, I do.", "No, I don't want anything to drink."],
+      "grammar": "want - drink"
+    },
+    {
+      "id": 220,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "At what time does the lesson begin?",
+      "context": "9 o'clock",
+      "answer": "The lesson begins at nine o'clock.",
+      "alt_answers": ["It begins at 9 o'clock.", "At nine o'clock."],
+      "grammar": "begin"
+    },
+    {
+      "id": 221,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "At what time does the lesson end?",
+      "context": "10 o'clock",
+      "answer": "The lesson ends at ten o'clock.",
+      "alt_answers": ["It ends at 10 o'clock.", "At ten o'clock."],
+      "grammar": "end"
+    },
+    {
+      "id": 222,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "How long does the lesson last?",
+      "context": "one hour",
+      "answer": "The lesson lasts one hour.",
+      "alt_answers": ["It lasts one hour.", "One hour."],
+      "grammar": "how long - last"
+    },
+    {
+      "id": 223,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is this pen expensive?",
+      "context": "cheap",
+      "answer": "No, that pen isn't expensive, but it's cheap.",
+      "alt_answers": ["No, that pen is not expensive, but it is cheap."],
+      "grammar": "expensive/cheap"
+    },
+    {
+      "id": 224,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is a Rolls Royce cheap?",
+      "answer": "No, a Rolls Royce isn't cheap, but it's expensive.",
+      "alt_answers": ["No, a Rolls Royce is not cheap, but it is expensive."],
+      "grammar": "expensive/cheap"
+    },
+    {
+      "id": 225,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Of these three books, has this book the most pages?",
+      "context": "fewest",
+      "answer": "No, of these three books, that book hasn't the most pages, but it has the fewest pages.",
+      "alt_answers": ["No, it has the fewest pages."],
+      "grammar": "the most/the fewest"
+    },
+    {
+      "id": 226,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "About how many rooms are there in this building?",
+      "context": "20 rooms",
+      "answer": "There are about twenty rooms in this building.",
+      "alt_answers": ["About 20 rooms.", "There are about 20 rooms."],
+      "grammar": "about - rooms"
+    },
+    {
+      "id": 227,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is the food inside your stomach or outside?",
+      "answer": "The food is inside my stomach.",
+      "alt_answers": ["Inside my stomach.", "It's inside."],
+      "grammar": "inside/outside"
+    },
+    {
+      "id": 228,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is your heart inside your body or outside?",
+      "answer": "My heart is inside my body.",
+      "alt_answers": ["Inside my body.", "It's inside."],
+      "grammar": "inside/outside - body"
+    },
+    {
+      "id": 229,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What is half a hundred?",
+      "answer": "Fifty is half a hundred.",
+      "alt_answers": ["Half a hundred is fifty.", "Fifty."],
+      "grammar": "half"
+    },
+    {
+      "id": 230,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "How much is half of thirteen?",
+      "answer": "Six and a half is half of thirteen.",
+      "alt_answers": ["Half of thirteen is six and a half.", "Six and a half."],
+      "grammar": "half - fractions"
+    },
+    {
+      "id": 231,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What does the word 'which' mean?",
+      "answer": "The word 'which' means 'qual' in Portuguese.",
+      "alt_answers": ["'Which' is used to ask about a specific choice."],
+      "grammar": "meaning - which"
+    },
+    {
+      "id": 232,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What does the word 'who' mean?",
+      "answer": "The word 'who' means 'quem' in Portuguese.",
+      "alt_answers": ["'Who' is used to ask about people."],
+      "grammar": "meaning - who"
+    },
+    {
+      "id": 233,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Which language do you generally speak?",
+      "context": "Portuguese",
+      "answer": "I generally speak Portuguese.",
+      "alt_answers": ["Portuguese.", "I speak Portuguese generally."],
+      "grammar": "language - generally"
+    },
+    {
+      "id": 234,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is Chinese a European language?",
+      "answer": "No, Chinese isn't a European language, but it's an Asian language.",
+      "alt_answers": ["No, Chinese is not European, but Asian."],
+      "grammar": "European/Asian - language"
+    },
+    {
+      "id": 235,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What is the negative of 'I have'?",
+      "answer": "The negative of 'I have' is 'I have not' or 'I haven't'.",
+      "alt_answers": ["I have not.", "I haven't."],
+      "grammar": "negative - have"
+    },
+    {
+      "id": 236,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What is the contraction of 'it has not'?",
+      "answer": "The contraction of 'it has not' is 'it hasn't'.",
+      "alt_answers": ["It hasn't."],
+      "grammar": "contraction"
+    },
+    {
+      "id": 237,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Has Master Brown only one arm?",
+      "answer": "No, Master Brown hasn't only one arm, but he has two arms.",
+      "alt_answers": ["No, he has two arms."],
+      "grammar": "only"
+    },
+    {
+      "id": 238,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What's the difference between 'anybody' and 'somebody'?",
+      "answer": "'Anybody' we use in interrogative and negative sentences, whilst 'somebody' we use in positive sentences.",
+      "alt_answers": ["Anybody for questions and negatives, somebody for positives."],
+      "grammar": "anybody vs somebody"
+    },
+    {
+      "id": 239,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is there anybody in this room?",
+      "context": "yes",
+      "answer": "Yes, there's somebody in this room.",
+      "alt_answers": ["Yes, there is somebody in this room."],
+      "grammar": "anybody/somebody"
+    },
+    {
+      "id": 240,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Is there anybody in this room wearing a hat?",
+      "context": "no",
+      "answer": "No, there isn't anybody in this room wearing a hat.",
+      "alt_answers": ["No, there is not anybody wearing a hat."],
+      "grammar": "anybody - negative"
+    },
+    {
+      "id": 241,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Who is wearing a hat in this room?",
+      "context": "nobody",
+      "answer": "Nobody is wearing a hat in this room.",
+      "alt_answers": ["No one is wearing a hat."],
+      "grammar": "nobody"
+    },
+    {
+      "id": 242,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What's on the front of your body?",
+      "context": "stomach",
+      "answer": "My stomach is on the front of my body.",
+      "alt_answers": ["The front of my body has my stomach."],
+      "grammar": "front/back - body"
+    },
+    {
+      "id": 243,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What's on the back of your body?",
+      "context": "back",
+      "answer": "My back is on the back of my body.",
+      "alt_answers": ["My spine is on the back."],
+      "grammar": "front/back - body"
+    },
+    {
+      "id": 244,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What's on the top of your body?",
+      "context": "head",
+      "answer": "My head is on the top of my body.",
+      "alt_answers": ["The top of my body has my head."],
+      "grammar": "top/bottom - body"
+    },
+    {
+      "id": 245,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "What's at the bottom of your body?",
+      "context": "feet",
+      "answer": "My feet are at the bottom of my body.",
+      "alt_answers": ["The bottom of my body has my feet."],
+      "grammar": "top/bottom - body"
+    },
+    {
+      "id": 246,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Can you tell us the name of the capital of Russia, please?",
+      "answer": "Yes, I can tell you the name of the capital of Russia. It's Moscow.",
+      "alt_answers": ["Yes, the capital of Russia is Moscow.", "Moscow."],
+      "grammar": "can - tell"
+    },
+    {
+      "id": 247,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Are you Russian or Greek?",
+      "context": "Brazilian",
+      "answer": "I'm neither Russian nor Greek, but I'm Brazilian.",
+      "alt_answers": ["I am neither Russian nor Greek, but Brazilian."],
+      "grammar": "neither...nor - nationality"
+    },
+    {
+      "id": 248,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Which do you prefer, tea or coffee?",
+      "context": "coffee",
+      "answer": "I prefer coffee.",
+      "alt_answers": ["Coffee.", "I prefer tea."],
+      "grammar": "prefer"
+    },
+    {
+      "id": 249,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Are both your eyes open?",
+      "context": "yes",
+      "answer": "Yes, both my eyes are open.",
+      "alt_answers": ["Yes, they are."],
+      "grammar": "both"
+    },
+    {
+      "id": 250,
+      "level": 2,
+      "lesson": 22,
+      "prompt": "Are both your feet on the floor?",
+      "context": "yes",
+      "answer": "Yes, both my feet are on the floor.",
+      "alt_answers": ["Yes, they are."],
+      "grammar": "both - feet"
     }
   ]
 }
