@@ -1,6 +1,14 @@
 {
-  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas nos Stages 1 e 2",
-  "source": "Adaptado do padrão Callan Method Stages 1-2",
+  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas nos Stages 1-6",
+  "source": "Adaptado do padrão Callan Method Stages 1-6 (CEFR A1-B2)",
+  "levels": {
+    "1": "Stage 1 - A1 - Básico (Lições 1-9)",
+    "2": "Stage 2 - A1/A2 - Elementar (Lições 10-24)",
+    "3": "Stage 3 - A2 - Pré-Intermediário (Lições 25-40)",
+    "4": "Stage 4 - A2/B1 - Intermediário (Lições 41-60)",
+    "5": "Stage 5 - B1/B2 - Intermediário-Superior (Lições 61-77)",
+    "6": "Stage 6 - B2 - Avançado (Lições 78-94)"
+  },
   "drills": [
     {
       "id": 1,
@@ -2417,6 +2425,1716 @@
       "answer": "Yes, both my feet are on the floor.",
       "alt_answers": ["Yes, they are."],
       "grammar": "both - feet"
+    },
+    {
+      "id": 251,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is cheaper, a bicycle or a car?",
+      "answer": "A bicycle is cheaper than a car.",
+      "alt_answers": ["A bicycle's cheaper than a car."],
+      "grammar": "comparative - cheaper"
+    },
+    {
+      "id": 252,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is more expensive, gold or silver?",
+      "answer": "Gold is more expensive than silver.",
+      "alt_answers": ["Gold's more expensive than silver."],
+      "grammar": "comparative - more expensive"
+    },
+    {
+      "id": 253,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Is a Ferrari faster than a Volkswagen?",
+      "answer": "Yes, a Ferrari is faster than a Volkswagen.",
+      "alt_answers": ["Yes, it is.", "Yes, a Ferrari's faster."],
+      "grammar": "comparative - faster"
+    },
+    {
+      "id": 254,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Is an elephant smaller than a mouse?",
+      "answer": "No, an elephant isn't smaller than a mouse, but it's larger.",
+      "alt_answers": ["No, an elephant is larger than a mouse."],
+      "grammar": "comparative - smaller/larger"
+    },
+    {
+      "id": 255,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is the longest river in the world?",
+      "answer": "The Nile is the longest river in the world.",
+      "alt_answers": ["The Nile.", "The Amazon is the longest river."],
+      "grammar": "superlative - longest"
+    },
+    {
+      "id": 256,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is the highest mountain in the world?",
+      "answer": "Mount Everest is the highest mountain in the world.",
+      "alt_answers": ["Everest.", "Mount Everest."],
+      "grammar": "superlative - highest"
+    },
+    {
+      "id": 257,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is the largest country in the world?",
+      "answer": "Russia is the largest country in the world.",
+      "alt_answers": ["Russia."],
+      "grammar": "superlative - largest"
+    },
+    {
+      "id": 258,
+      "level": 3,
+      "lesson": 25,
+      "prompt": "Which is the smallest continent?",
+      "answer": "Australia is the smallest continent.",
+      "alt_answers": ["Australia.", "Oceania."],
+      "grammar": "superlative - smallest"
+    },
+    {
+      "id": 259,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Tell me the names of the months of the year, please!",
+      "answer": "The names of the months are January, February, March, April, May, June, July, August, September, October, November and December.",
+      "alt_answers": ["January, February, March, April, May, June, July, August, September, October, November, December."],
+      "grammar": "months of the year"
+    },
+    {
+      "id": 260,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Which month comes after March?",
+      "answer": "April comes after March.",
+      "alt_answers": ["April."],
+      "grammar": "months - after"
+    },
+    {
+      "id": 261,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Which month comes before September?",
+      "answer": "August comes before September.",
+      "alt_answers": ["August."],
+      "grammar": "months - before"
+    },
+    {
+      "id": 262,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Which month is between June and August?",
+      "answer": "July is between June and August.",
+      "alt_answers": ["July."],
+      "grammar": "months - between"
+    },
+    {
+      "id": 263,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "How many months are there in a year?",
+      "answer": "There are twelve months in a year.",
+      "alt_answers": ["Twelve.", "There are 12 months."],
+      "grammar": "months - how many"
+    },
+    {
+      "id": 264,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Which is the first month of the year?",
+      "answer": "January is the first month of the year.",
+      "alt_answers": ["January."],
+      "grammar": "months - ordinal"
+    },
+    {
+      "id": 265,
+      "level": 3,
+      "lesson": 26,
+      "prompt": "Which is the last month of the year?",
+      "answer": "December is the last month of the year.",
+      "alt_answers": ["December."],
+      "grammar": "months - last"
+    },
+    {
+      "id": 266,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you come to school yesterday?",
+      "answer": "Yes, I came to school yesterday.",
+      "alt_answers": ["Yes, I did.", "No, I didn't come yesterday."],
+      "grammar": "past simple - come/came"
+    },
+    {
+      "id": 267,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you go home after the lesson yesterday?",
+      "answer": "Yes, I went home after the lesson yesterday.",
+      "alt_answers": ["Yes, I did.", "Yes, I went home."],
+      "grammar": "past simple - go/went"
+    },
+    {
+      "id": 268,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you eat breakfast this morning?",
+      "answer": "Yes, I ate breakfast this morning.",
+      "alt_answers": ["Yes, I did.", "No, I didn't eat breakfast."],
+      "grammar": "past simple - eat/ate"
+    },
+    {
+      "id": 269,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you drink coffee yesterday?",
+      "answer": "Yes, I drank coffee yesterday.",
+      "alt_answers": ["Yes, I did.", "No, I didn't drink coffee."],
+      "grammar": "past simple - drink/drank"
+    },
+    {
+      "id": 270,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you see a film last week?",
+      "answer": "Yes, I saw a film last week.",
+      "alt_answers": ["Yes, I did.", "No, I didn't see a film."],
+      "grammar": "past simple - see/saw"
+    },
+    {
+      "id": 271,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you read a book last month?",
+      "answer": "Yes, I read a book last month.",
+      "alt_answers": ["Yes, I did.", "No, I didn't read a book."],
+      "grammar": "past simple - read/read"
+    },
+    {
+      "id": 272,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you write a letter last week?",
+      "answer": "No, I didn't write a letter last week.",
+      "alt_answers": ["No, I didn't.", "Yes, I wrote a letter."],
+      "grammar": "past simple - write/wrote"
+    },
+    {
+      "id": 273,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you take the bus to school?",
+      "answer": "Yes, I took the bus to school.",
+      "alt_answers": ["Yes, I did.", "No, I didn't take the bus."],
+      "grammar": "past simple - take/took"
+    },
+    {
+      "id": 274,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you give him the book?",
+      "answer": "Yes, I gave him the book.",
+      "alt_answers": ["Yes, I did.", "No, I didn't give him the book."],
+      "grammar": "past simple - give/gave"
+    },
+    {
+      "id": 275,
+      "level": 3,
+      "lesson": 27,
+      "prompt": "Did you buy anything yesterday?",
+      "answer": "Yes, I bought some food yesterday.",
+      "alt_answers": ["Yes, I did.", "No, I didn't buy anything."],
+      "grammar": "past simple - buy/bought"
+    },
+    {
+      "id": 276,
+      "level": 3,
+      "lesson": 28,
+      "prompt": "What did you do yesterday?",
+      "answer": "I went to work yesterday.",
+      "alt_answers": ["I studied English.", "I stayed at home."],
+      "grammar": "past simple - what did you do"
+    },
+    {
+      "id": 277,
+      "level": 3,
+      "lesson": 28,
+      "prompt": "Where did you go last weekend?",
+      "answer": "I went to the beach last weekend.",
+      "alt_answers": ["I went shopping.", "I stayed at home."],
+      "grammar": "past simple - where did you go"
+    },
+    {
+      "id": 278,
+      "level": 3,
+      "lesson": 28,
+      "prompt": "What time did you wake up this morning?",
+      "answer": "I woke up at seven o'clock this morning.",
+      "alt_answers": ["At seven.", "I woke up at 7 o'clock."],
+      "grammar": "past simple - wake/woke"
+    },
+    {
+      "id": 279,
+      "level": 3,
+      "lesson": 28,
+      "prompt": "When did you begin to study English?",
+      "answer": "I began to study English two years ago.",
+      "alt_answers": ["Two years ago.", "I began last year."],
+      "grammar": "past simple - begin/began"
+    },
+    {
+      "id": 280,
+      "level": 3,
+      "lesson": 28,
+      "prompt": "How did you come to school today?",
+      "answer": "I came to school by bus today.",
+      "alt_answers": ["By bus.", "I walked.", "By car."],
+      "grammar": "past simple - how"
+    },
+    {
+      "id": 281,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you sometimes watch television?",
+      "answer": "Yes, I sometimes watch television.",
+      "alt_answers": ["Yes, I do.", "Yes, sometimes."],
+      "grammar": "adverb of frequency - sometimes"
+    },
+    {
+      "id": 282,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you always eat breakfast?",
+      "answer": "Yes, I always eat breakfast.",
+      "alt_answers": ["Yes, I do.", "No, I don't always eat breakfast."],
+      "grammar": "adverb of frequency - always"
+    },
+    {
+      "id": 283,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you ever drink wine?",
+      "answer": "Yes, I sometimes drink wine.",
+      "alt_answers": ["No, I never drink wine.", "Yes, occasionally."],
+      "grammar": "adverb of frequency - ever"
+    },
+    {
+      "id": 284,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you never eat meat?",
+      "answer": "No, I sometimes eat meat.",
+      "alt_answers": ["Yes, I never eat meat.", "No, I eat meat sometimes."],
+      "grammar": "adverb of frequency - never"
+    },
+    {
+      "id": 285,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you usually go to bed late?",
+      "answer": "No, I usually go to bed early.",
+      "alt_answers": ["Yes, I usually go to bed late.", "No, I don't."],
+      "grammar": "adverb of frequency - usually"
+    },
+    {
+      "id": 286,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "Do you often read books?",
+      "answer": "Yes, I often read books.",
+      "alt_answers": ["Yes, I do.", "No, I don't often read."],
+      "grammar": "adverb of frequency - often"
+    },
+    {
+      "id": 287,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "How often do you go to the cinema?",
+      "answer": "I sometimes go to the cinema.",
+      "alt_answers": ["Once a month.", "I rarely go to the cinema."],
+      "grammar": "how often"
+    },
+    {
+      "id": 288,
+      "level": 3,
+      "lesson": 29,
+      "prompt": "How often do you exercise?",
+      "answer": "I exercise three times a week.",
+      "alt_answers": ["Twice a week.", "Every day."],
+      "grammar": "how often - frequency"
+    },
+    {
+      "id": 289,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "Is the book on the table or under it?",
+      "answer": "The book is on the table.",
+      "alt_answers": ["It's on the table.", "On the table."],
+      "grammar": "preposition - on vs under"
+    },
+    {
+      "id": 290,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "Is the cat beside the chair or below it?",
+      "answer": "The cat is beside the chair.",
+      "alt_answers": ["It's beside the chair.", "Beside the chair."],
+      "grammar": "preposition - beside"
+    },
+    {
+      "id": 291,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "Is the picture above the sofa or below it?",
+      "answer": "The picture is above the sofa.",
+      "alt_answers": ["It's above the sofa.", "Above the sofa."],
+      "grammar": "preposition - above/below"
+    },
+    {
+      "id": 292,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "Are you walking along the street or across it?",
+      "answer": "I'm walking along the street.",
+      "alt_answers": ["Along the street.", "I am walking along it."],
+      "grammar": "preposition - along/across"
+    },
+    {
+      "id": 293,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "Is the ball over the net or under it?",
+      "answer": "The ball is over the net.",
+      "alt_answers": ["It's over the net.", "Over the net."],
+      "grammar": "preposition - over"
+    },
+    {
+      "id": 294,
+      "level": 3,
+      "lesson": 30,
+      "prompt": "What's the difference between 'on' and 'over'?",
+      "answer": "We use 'on' when something touches the surface, and 'over' when something is above without touching.",
+      "alt_answers": ["'On' means touching, 'over' means above without contact."],
+      "grammar": "preposition - on vs over"
+    },
+    {
+      "id": 295,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "What subjects do children study at school?",
+      "answer": "Children study maths, English, science, history, geography and other subjects at school.",
+      "alt_answers": ["Maths, English, science, history.", "Many subjects like maths and science."],
+      "grammar": "subjects - school"
+    },
+    {
+      "id": 296,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Did you study history at school?",
+      "answer": "Yes, I studied history at school.",
+      "alt_answers": ["Yes, I did.", "No, I didn't study history."],
+      "grammar": "past simple - study"
+    },
+    {
+      "id": 297,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Which subject did you like most at school?",
+      "answer": "I liked maths most at school.",
+      "alt_answers": ["I liked English most.", "History was my favourite."],
+      "grammar": "past simple - like"
+    },
+    {
+      "id": 298,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Did you learn to swim when you were young?",
+      "answer": "Yes, I learnt to swim when I was young.",
+      "alt_answers": ["Yes, I did.", "No, I didn't learn to swim."],
+      "grammar": "past simple - learn"
+    },
+    {
+      "id": 299,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Where did you go to school?",
+      "answer": "I went to school in my city.",
+      "alt_answers": ["In São Paulo.", "In my hometown."],
+      "grammar": "past simple - where"
+    },
+    {
+      "id": 300,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "How long did you study at school?",
+      "answer": "I studied at school for twelve years.",
+      "alt_answers": ["For twelve years.", "About ten years."],
+      "grammar": "past simple - how long"
+    },
+    {
+      "id": 301,
+      "level": 4,
+      "lesson": 41,
+      "prompt": "Were you at home yesterday evening?",
+      "answer": "Yes, I was at home yesterday evening.",
+      "alt_answers": ["Yes, I was.", "No, I wasn't at home."],
+      "grammar": "past simple - was/were"
+    },
+    {
+      "id": 302,
+      "level": 4,
+      "lesson": 41,
+      "prompt": "Were the children at school last Monday?",
+      "answer": "Yes, the children were at school last Monday.",
+      "alt_answers": ["Yes, they were.", "No, they weren't."],
+      "grammar": "past simple - were"
+    },
+    {
+      "id": 303,
+      "level": 4,
+      "lesson": 41,
+      "prompt": "Was the weather good last week?",
+      "answer": "No, the weather wasn't good last week, it was bad.",
+      "alt_answers": ["No, it wasn't good.", "Yes, the weather was good."],
+      "grammar": "past simple - was negative"
+    },
+    {
+      "id": 304,
+      "level": 4,
+      "lesson": 41,
+      "prompt": "Where were you born?",
+      "answer": "I was born in Brazil.",
+      "alt_answers": ["In Brazil.", "I was born in São Paulo."],
+      "grammar": "past simple - born"
+    },
+    {
+      "id": 305,
+      "level": 4,
+      "lesson": 41,
+      "prompt": "When were you born?",
+      "answer": "I was born in 1990.",
+      "alt_answers": ["In 1990.", "I was born on the 5th of May."],
+      "grammar": "past simple - when born"
+    },
+    {
+      "id": 306,
+      "level": 4,
+      "lesson": 42,
+      "prompt": "What were you doing at 8 o'clock yesterday evening?",
+      "answer": "I was watching television at 8 o'clock yesterday evening.",
+      "alt_answers": ["I was having dinner.", "I was studying."],
+      "grammar": "past continuous"
+    },
+    {
+      "id": 307,
+      "level": 4,
+      "lesson": 42,
+      "prompt": "Were you sleeping when I called?",
+      "answer": "Yes, I was sleeping when you called.",
+      "alt_answers": ["Yes, I was.", "No, I wasn't sleeping."],
+      "grammar": "past continuous - when"
+    },
+    {
+      "id": 308,
+      "level": 4,
+      "lesson": 42,
+      "prompt": "What was she doing while he was cooking?",
+      "answer": "She was reading a book while he was cooking.",
+      "alt_answers": ["She was watching TV.", "She was working."],
+      "grammar": "past continuous - while"
+    },
+    {
+      "id": 309,
+      "level": 4,
+      "lesson": 42,
+      "prompt": "Was it raining when you left home?",
+      "answer": "Yes, it was raining when I left home.",
+      "alt_answers": ["Yes, it was.", "No, it wasn't raining."],
+      "grammar": "past continuous - weather"
+    },
+    {
+      "id": 310,
+      "level": 4,
+      "lesson": 42,
+      "prompt": "What happened while you were walking to school?",
+      "answer": "I met a friend while I was walking to school.",
+      "alt_answers": ["Nothing happened.", "I saw an accident."],
+      "grammar": "past continuous - what happened"
+    },
+    {
+      "id": 311,
+      "level": 4,
+      "lesson": 43,
+      "prompt": "Will you come to school tomorrow?",
+      "answer": "Yes, I will come to school tomorrow.",
+      "alt_answers": ["Yes, I will.", "No, I won't come tomorrow."],
+      "grammar": "future - will"
+    },
+    {
+      "id": 312,
+      "level": 4,
+      "lesson": 43,
+      "prompt": "Will it rain tomorrow?",
+      "answer": "I don't know if it will rain tomorrow.",
+      "alt_answers": ["Maybe it will.", "I think it will."],
+      "grammar": "future - will (uncertainty)"
+    },
+    {
+      "id": 313,
+      "level": 4,
+      "lesson": 43,
+      "prompt": "What will you do next weekend?",
+      "answer": "I will visit my family next weekend.",
+      "alt_answers": ["I'll stay at home.", "I will go to the beach."],
+      "grammar": "future - what will you do"
+    },
+    {
+      "id": 314,
+      "level": 4,
+      "lesson": 43,
+      "prompt": "Will you help me with this?",
+      "answer": "Yes, I'll help you with that.",
+      "alt_answers": ["Yes, I will.", "Of course I will."],
+      "grammar": "future - will (offer)"
+    },
+    {
+      "id": 315,
+      "level": 4,
+      "lesson": 43,
+      "prompt": "Won't you come to the party?",
+      "answer": "Yes, I'll come to the party.",
+      "alt_answers": ["No, I won't come.", "Yes, I will."],
+      "grammar": "future - won't"
+    },
+    {
+      "id": 316,
+      "level": 4,
+      "lesson": 44,
+      "prompt": "Are you going to study English next year?",
+      "answer": "Yes, I'm going to study English next year.",
+      "alt_answers": ["Yes, I am.", "No, I'm not going to."],
+      "grammar": "future - going to"
+    },
+    {
+      "id": 317,
+      "level": 4,
+      "lesson": 44,
+      "prompt": "What are you going to do tonight?",
+      "answer": "I'm going to watch a film tonight.",
+      "alt_answers": ["I'm going to stay at home.", "I'm going to study."],
+      "grammar": "future - going to (plans)"
+    },
+    {
+      "id": 318,
+      "level": 4,
+      "lesson": 44,
+      "prompt": "Is she going to travel next month?",
+      "answer": "Yes, she's going to travel next month.",
+      "alt_answers": ["Yes, she is.", "No, she isn't going to travel."],
+      "grammar": "future - going to (third person)"
+    },
+    {
+      "id": 319,
+      "level": 4,
+      "lesson": 44,
+      "prompt": "What's the difference between 'will' and 'going to'?",
+      "answer": "We use 'will' for decisions made at the moment, and 'going to' for plans made before.",
+      "alt_answers": ["'Will' is for spontaneous decisions, 'going to' is for planned actions."],
+      "grammar": "future - will vs going to"
+    },
+    {
+      "id": 320,
+      "level": 4,
+      "lesson": 44,
+      "prompt": "Look at those clouds! What's going to happen?",
+      "answer": "It's going to rain.",
+      "alt_answers": ["It's going to be cloudy.", "There's going to be a storm."],
+      "grammar": "future - going to (prediction)"
+    },
+    {
+      "id": 321,
+      "level": 4,
+      "lesson": 45,
+      "prompt": "Have you ever been to London?",
+      "answer": "No, I've never been to London.",
+      "alt_answers": ["Yes, I've been to London.", "No, I haven't."],
+      "grammar": "present perfect - ever/never"
+    },
+    {
+      "id": 322,
+      "level": 4,
+      "lesson": 45,
+      "prompt": "Have you ever eaten sushi?",
+      "answer": "Yes, I've eaten sushi many times.",
+      "alt_answers": ["Yes, I have.", "No, I've never eaten sushi."],
+      "grammar": "present perfect - ever"
+    },
+    {
+      "id": 323,
+      "level": 4,
+      "lesson": 45,
+      "prompt": "Has she ever visited Brazil?",
+      "answer": "No, she's never visited Brazil.",
+      "alt_answers": ["No, she hasn't.", "Yes, she has visited Brazil."],
+      "grammar": "present perfect - has ever"
+    },
+    {
+      "id": 324,
+      "level": 4,
+      "lesson": 45,
+      "prompt": "Have you finished your homework?",
+      "answer": "Yes, I've finished my homework.",
+      "alt_answers": ["Yes, I have.", "No, I haven't finished yet."],
+      "grammar": "present perfect - finished"
+    },
+    {
+      "id": 325,
+      "level": 4,
+      "lesson": 45,
+      "prompt": "Has the lesson started yet?",
+      "answer": "Yes, the lesson has already started.",
+      "alt_answers": ["Yes, it has.", "No, it hasn't started yet."],
+      "grammar": "present perfect - yet/already"
+    },
+    {
+      "id": 326,
+      "level": 4,
+      "lesson": 46,
+      "prompt": "How long have you lived in this city?",
+      "answer": "I've lived in this city for five years.",
+      "alt_answers": ["For five years.", "I've lived here since 2019."],
+      "grammar": "present perfect - how long"
+    },
+    {
+      "id": 327,
+      "level": 4,
+      "lesson": 46,
+      "prompt": "How long have you studied English?",
+      "answer": "I've studied English for two years.",
+      "alt_answers": ["For two years.", "Since 2022."],
+      "grammar": "present perfect - for"
+    },
+    {
+      "id": 328,
+      "level": 4,
+      "lesson": 46,
+      "prompt": "How long has she worked here?",
+      "answer": "She's worked here since January.",
+      "alt_answers": ["Since January.", "For six months."],
+      "grammar": "present perfect - since"
+    },
+    {
+      "id": 329,
+      "level": 4,
+      "lesson": 46,
+      "prompt": "What's the difference between 'for' and 'since'?",
+      "answer": "We use 'for' with a period of time, and 'since' with a point in time.",
+      "alt_answers": ["'For' is for duration, 'since' is for a starting point."],
+      "grammar": "present perfect - for vs since"
+    },
+    {
+      "id": 330,
+      "level": 4,
+      "lesson": 46,
+      "prompt": "Have you known him for a long time?",
+      "answer": "Yes, I've known him for ten years.",
+      "alt_answers": ["Yes, I have.", "No, I've only known him for a month."],
+      "grammar": "present perfect - know/known"
+    },
+    {
+      "id": 331,
+      "level": 4,
+      "lesson": 47,
+      "prompt": "If it rains tomorrow, what will you do?",
+      "answer": "If it rains tomorrow, I'll stay at home.",
+      "alt_answers": ["I'll stay at home.", "I will take an umbrella."],
+      "grammar": "first conditional"
+    },
+    {
+      "id": 332,
+      "level": 4,
+      "lesson": 47,
+      "prompt": "If you study hard, what will happen?",
+      "answer": "If I study hard, I'll pass the exam.",
+      "alt_answers": ["I'll pass the exam.", "I will learn more."],
+      "grammar": "first conditional - result"
+    },
+    {
+      "id": 333,
+      "level": 4,
+      "lesson": 47,
+      "prompt": "What will you do if you miss the bus?",
+      "answer": "If I miss the bus, I'll take a taxi.",
+      "alt_answers": ["I'll take a taxi.", "I will walk."],
+      "grammar": "first conditional - if"
+    },
+    {
+      "id": 334,
+      "level": 4,
+      "lesson": 47,
+      "prompt": "If she doesn't come, will you wait for her?",
+      "answer": "No, if she doesn't come, I won't wait for her.",
+      "alt_answers": ["No, I won't wait.", "Yes, I'll wait for her."],
+      "grammar": "first conditional - negative"
+    },
+    {
+      "id": 335,
+      "level": 4,
+      "lesson": 47,
+      "prompt": "What will happen if you don't eat?",
+      "answer": "If I don't eat, I'll be hungry.",
+      "alt_answers": ["I'll be hungry.", "I will feel weak."],
+      "grammar": "first conditional - don't"
+    },
+    {
+      "id": 336,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Can English be spoken in Australia?",
+      "answer": "Yes, English is spoken in Australia.",
+      "alt_answers": ["Yes, it is.", "Yes, English is spoken there."],
+      "grammar": "passive voice - present"
+    },
+    {
+      "id": 337,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Where is rice grown?",
+      "answer": "Rice is grown in Asia.",
+      "alt_answers": ["In Asia.", "Rice is grown in China."],
+      "grammar": "passive voice - where"
+    },
+    {
+      "id": 338,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Is coffee produced in Brazil?",
+      "answer": "Yes, coffee is produced in Brazil.",
+      "alt_answers": ["Yes, it is.", "Yes, a lot of coffee is produced there."],
+      "grammar": "passive voice - produced"
+    },
+    {
+      "id": 339,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Was America discovered by Columbus?",
+      "answer": "Yes, America was discovered by Columbus in 1492.",
+      "alt_answers": ["Yes, it was.", "Yes, Columbus discovered America."],
+      "grammar": "passive voice - past"
+    },
+    {
+      "id": 340,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Was this book written by Shakespeare?",
+      "answer": "Yes, this book was written by Shakespeare.",
+      "alt_answers": ["Yes, it was.", "No, it wasn't written by Shakespeare."],
+      "grammar": "passive voice - by"
+    },
+    {
+      "id": 341,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "When was this building built?",
+      "answer": "This building was built in 1900.",
+      "alt_answers": ["In 1900.", "It was built a hundred years ago."],
+      "grammar": "passive voice - when"
+    },
+    {
+      "id": 342,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "How is wine made?",
+      "answer": "Wine is made from grapes.",
+      "alt_answers": ["From grapes.", "It's made by fermenting grapes."],
+      "grammar": "passive voice - how"
+    },
+    {
+      "id": 343,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "What language is spoken in Japan?",
+      "answer": "Japanese is spoken in Japan.",
+      "alt_answers": ["Japanese.", "Japanese is spoken there."],
+      "grammar": "passive voice - what language"
+    },
+    {
+      "id": 344,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Are cars made in Germany?",
+      "answer": "Yes, many cars are made in Germany.",
+      "alt_answers": ["Yes, they are.", "Yes, German cars are famous."],
+      "grammar": "passive voice - are made"
+    },
+    {
+      "id": 345,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Was the letter sent yesterday?",
+      "answer": "Yes, the letter was sent yesterday.",
+      "alt_answers": ["Yes, it was.", "No, it wasn't sent yet."],
+      "grammar": "passive voice - was sent"
+    },
+    {
+      "id": 346,
+      "level": 4,
+      "lesson": 50,
+      "prompt": "The man who lives next door is a doctor. Who is a doctor?",
+      "answer": "The man who lives next door is a doctor.",
+      "alt_answers": ["The man next door.", "My neighbour."],
+      "grammar": "relative clause - who"
+    },
+    {
+      "id": 347,
+      "level": 4,
+      "lesson": 50,
+      "prompt": "The book which is on the table is mine. Which book is yours?",
+      "answer": "The book which is on the table is mine.",
+      "alt_answers": ["The one on the table.", "The book on the table."],
+      "grammar": "relative clause - which"
+    },
+    {
+      "id": 348,
+      "level": 4,
+      "lesson": 50,
+      "prompt": "The house that we visited was beautiful. What was beautiful?",
+      "answer": "The house that we visited was beautiful.",
+      "alt_answers": ["The house we visited.", "The house."],
+      "grammar": "relative clause - that"
+    },
+    {
+      "id": 349,
+      "level": 4,
+      "lesson": 50,
+      "prompt": "The woman whose car is red is my teacher. Whose car is red?",
+      "answer": "The woman whose car is red is my teacher.",
+      "alt_answers": ["My teacher's car.", "The teacher's."],
+      "grammar": "relative clause - whose"
+    },
+    {
+      "id": 350,
+      "level": 4,
+      "lesson": 50,
+      "prompt": "The place where I was born is small. What is small?",
+      "answer": "The place where I was born is small.",
+      "alt_answers": ["My hometown.", "The place I was born."],
+      "grammar": "relative clause - where"
+    },
+    {
+      "id": 351,
+      "level": 5,
+      "lesson": 61,
+      "prompt": "If you had more money, what would you buy?",
+      "answer": "If I had more money, I would buy a new car.",
+      "alt_answers": ["I would buy a house.", "I'd travel the world."],
+      "grammar": "second conditional"
+    },
+    {
+      "id": 352,
+      "level": 5,
+      "lesson": 61,
+      "prompt": "If you were the president, what would you do?",
+      "answer": "If I were the president, I would help the poor.",
+      "alt_answers": ["I would change the laws.", "I'd improve education."],
+      "grammar": "second conditional - were"
+    },
+    {
+      "id": 353,
+      "level": 5,
+      "lesson": 61,
+      "prompt": "What would you do if you won the lottery?",
+      "answer": "If I won the lottery, I would travel around the world.",
+      "alt_answers": ["I'd buy a house.", "I would help my family."],
+      "grammar": "second conditional - won"
+    },
+    {
+      "id": 354,
+      "level": 5,
+      "lesson": 61,
+      "prompt": "Would you be happy if you lived in another country?",
+      "answer": "Yes, I would be happy if I lived in another country.",
+      "alt_answers": ["Yes, I would.", "No, I wouldn't be happy."],
+      "grammar": "second conditional - lived"
+    },
+    {
+      "id": 355,
+      "level": 5,
+      "lesson": 61,
+      "prompt": "If I were you, what would I do?",
+      "answer": "If I were you, I would study harder.",
+      "alt_answers": ["You would accept the job.", "I'd take the opportunity."],
+      "grammar": "second conditional - advice"
+    },
+    {
+      "id": 356,
+      "level": 5,
+      "lesson": 62,
+      "prompt": "He said he was tired. What did he say?",
+      "answer": "He said that he was tired.",
+      "alt_answers": ["He said he was tired.", "That he was tired."],
+      "grammar": "reported speech - said"
+    },
+    {
+      "id": 357,
+      "level": 5,
+      "lesson": 62,
+      "prompt": "She told me she would come. What did she tell you?",
+      "answer": "She told me that she would come.",
+      "alt_answers": ["She told me she would come.", "That she would come."],
+      "grammar": "reported speech - told"
+    },
+    {
+      "id": 358,
+      "level": 5,
+      "lesson": 62,
+      "prompt": "He asked me where I lived. What did he ask?",
+      "answer": "He asked me where I lived.",
+      "alt_answers": ["Where I lived.", "He asked about my address."],
+      "grammar": "reported speech - asked"
+    },
+    {
+      "id": 359,
+      "level": 5,
+      "lesson": 62,
+      "prompt": "She asked if I could help her. What did she ask?",
+      "answer": "She asked if I could help her.",
+      "alt_answers": ["If I could help her.", "She asked for help."],
+      "grammar": "reported speech - asked if"
+    },
+    {
+      "id": 360,
+      "level": 5,
+      "lesson": 62,
+      "prompt": "He told me to wait. What did he tell you to do?",
+      "answer": "He told me to wait.",
+      "alt_answers": ["To wait.", "He told me I should wait."],
+      "grammar": "reported speech - commands"
+    },
+    {
+      "id": 361,
+      "level": 5,
+      "lesson": 63,
+      "prompt": "She asked me not to be late. What did she ask you?",
+      "answer": "She asked me not to be late.",
+      "alt_answers": ["Not to be late.", "She asked me to be on time."],
+      "grammar": "reported speech - negative command"
+    },
+    {
+      "id": 362,
+      "level": 5,
+      "lesson": 63,
+      "prompt": "What's the difference between 'say' and 'tell'?",
+      "answer": "We use 'say' without an object and 'tell' with an object (tell someone).",
+      "alt_answers": ["'Tell' needs a person, 'say' doesn't."],
+      "grammar": "reported speech - say vs tell"
+    },
+    {
+      "id": 363,
+      "level": 5,
+      "lesson": 63,
+      "prompt": "He said, 'I am happy'. What did he say in reported speech?",
+      "answer": "He said that he was happy.",
+      "alt_answers": ["He said he was happy."],
+      "grammar": "reported speech - tense change"
+    },
+    {
+      "id": 364,
+      "level": 5,
+      "lesson": 63,
+      "prompt": "She said, 'I will call you tomorrow'. What did she say?",
+      "answer": "She said that she would call me the next day.",
+      "alt_answers": ["She said she would call me."],
+      "grammar": "reported speech - will to would"
+    },
+    {
+      "id": 365,
+      "level": 5,
+      "lesson": 63,
+      "prompt": "He said, 'I have finished'. What did he say?",
+      "answer": "He said that he had finished.",
+      "alt_answers": ["He said he had finished."],
+      "grammar": "reported speech - present perfect to past perfect"
+    },
+    {
+      "id": 366,
+      "level": 5,
+      "lesson": 64,
+      "prompt": "You like coffee, don't you?",
+      "answer": "Yes, I like coffee very much.",
+      "alt_answers": ["Yes, I do.", "Yes, I love coffee."],
+      "grammar": "tag question - positive"
+    },
+    {
+      "id": 367,
+      "level": 5,
+      "lesson": 64,
+      "prompt": "She isn't coming, is she?",
+      "answer": "No, she isn't coming.",
+      "alt_answers": ["No, she isn't.", "That's right, she isn't."],
+      "grammar": "tag question - negative"
+    },
+    {
+      "id": 368,
+      "level": 5,
+      "lesson": 64,
+      "prompt": "He can swim, can't he?",
+      "answer": "Yes, he can swim very well.",
+      "alt_answers": ["Yes, he can.", "Yes, he's a good swimmer."],
+      "grammar": "tag question - can"
+    },
+    {
+      "id": 369,
+      "level": 5,
+      "lesson": 64,
+      "prompt": "They haven't arrived yet, have they?",
+      "answer": "No, they haven't arrived yet.",
+      "alt_answers": ["No, they haven't.", "Not yet."],
+      "grammar": "tag question - haven't"
+    },
+    {
+      "id": 370,
+      "level": 5,
+      "lesson": 64,
+      "prompt": "You were at the party, weren't you?",
+      "answer": "Yes, I was at the party.",
+      "alt_answers": ["Yes, I was.", "Yes, I went to the party."],
+      "grammar": "tag question - were"
+    },
+    {
+      "id": 371,
+      "level": 5,
+      "lesson": 65,
+      "prompt": "You've been to Paris, haven't you?",
+      "answer": "Yes, I've been to Paris twice.",
+      "alt_answers": ["Yes, I have.", "No, I haven't been there."],
+      "grammar": "tag question - present perfect"
+    },
+    {
+      "id": 372,
+      "level": 5,
+      "lesson": 65,
+      "prompt": "Let's go to the cinema, shall we?",
+      "answer": "Yes, let's go to the cinema.",
+      "alt_answers": ["Yes, let's.", "Good idea!"],
+      "grammar": "tag question - let's"
+    },
+    {
+      "id": 373,
+      "level": 5,
+      "lesson": 65,
+      "prompt": "I'm right, aren't I?",
+      "answer": "Yes, you're right.",
+      "alt_answers": ["Yes, you are.", "Yes, that's correct."],
+      "grammar": "tag question - I am"
+    },
+    {
+      "id": 374,
+      "level": 5,
+      "lesson": 65,
+      "prompt": "There's a problem, isn't there?",
+      "answer": "Yes, there's a problem.",
+      "alt_answers": ["Yes, there is.", "Yes, we have a problem."],
+      "grammar": "tag question - there is"
+    },
+    {
+      "id": 375,
+      "level": 5,
+      "lesson": 65,
+      "prompt": "Nothing happened, did it?",
+      "answer": "No, nothing happened.",
+      "alt_answers": ["No, it didn't.", "That's right."],
+      "grammar": "tag question - nothing"
+    },
+    {
+      "id": 376,
+      "level": 5,
+      "lesson": 66,
+      "prompt": "I wish I could speak French. Can you speak French?",
+      "answer": "No, I can't speak French, but I wish I could.",
+      "alt_answers": ["No, I can't.", "I wish I could too."],
+      "grammar": "wish + could"
+    },
+    {
+      "id": 377,
+      "level": 5,
+      "lesson": 66,
+      "prompt": "I wish I had more time. Do you have enough time?",
+      "answer": "No, I don't have enough time. I wish I had more.",
+      "alt_answers": ["No, I don't.", "I wish I had more time too."],
+      "grammar": "wish + past simple"
+    },
+    {
+      "id": 378,
+      "level": 5,
+      "lesson": 66,
+      "prompt": "I wish I were taller. Are you happy with your height?",
+      "answer": "No, I wish I were taller.",
+      "alt_answers": ["Yes, I'm happy.", "I wish I were taller too."],
+      "grammar": "wish + were"
+    },
+    {
+      "id": 379,
+      "level": 5,
+      "lesson": 66,
+      "prompt": "I wish it would stop raining. Is it still raining?",
+      "answer": "Yes, it's still raining. I wish it would stop.",
+      "alt_answers": ["Yes, I wish it would stop too."],
+      "grammar": "wish + would"
+    },
+    {
+      "id": 380,
+      "level": 5,
+      "lesson": 66,
+      "prompt": "I wish I hadn't eaten so much. Did you eat too much?",
+      "answer": "Yes, I wish I hadn't eaten so much.",
+      "alt_answers": ["Yes, I did.", "I wish I hadn't too."],
+      "grammar": "wish + past perfect"
+    },
+    {
+      "id": 381,
+      "level": 5,
+      "lesson": 67,
+      "prompt": "I'd rather stay home. Would you rather go out?",
+      "answer": "No, I'd rather stay home too.",
+      "alt_answers": ["Yes, I'd rather go out.", "No, I'd prefer to stay."],
+      "grammar": "would rather"
+    },
+    {
+      "id": 382,
+      "level": 5,
+      "lesson": 67,
+      "prompt": "Would you rather have tea or coffee?",
+      "answer": "I'd rather have coffee, please.",
+      "alt_answers": ["Coffee, please.", "I'd rather have tea."],
+      "grammar": "would rather - choice"
+    },
+    {
+      "id": 383,
+      "level": 5,
+      "lesson": 67,
+      "prompt": "I'd rather you didn't smoke here. May I smoke?",
+      "answer": "I'd rather you didn't smoke here.",
+      "alt_answers": ["Please don't smoke here.", "I'd prefer you didn't."],
+      "grammar": "would rather + past"
+    },
+    {
+      "id": 384,
+      "level": 5,
+      "lesson": 67,
+      "prompt": "I'd rather not go out tonight. Do you want to go out?",
+      "answer": "No, I'd rather not go out tonight.",
+      "alt_answers": ["No, I don't.", "I'd prefer to stay in."],
+      "grammar": "would rather not"
+    },
+    {
+      "id": 385,
+      "level": 5,
+      "lesson": 67,
+      "prompt": "What would you rather do, work or study?",
+      "answer": "I'd rather study than work.",
+      "alt_answers": ["I'd rather work.", "Study."],
+      "grammar": "would rather...than"
+    },
+    {
+      "id": 386,
+      "level": 6,
+      "lesson": 78,
+      "prompt": "If you had studied harder, would you have passed?",
+      "answer": "Yes, if I had studied harder, I would have passed.",
+      "alt_answers": ["Yes, I would have.", "Probably."],
+      "grammar": "third conditional"
+    },
+    {
+      "id": 387,
+      "level": 6,
+      "lesson": 78,
+      "prompt": "What would have happened if you hadn't come?",
+      "answer": "If I hadn't come, I would have missed the meeting.",
+      "alt_answers": ["I would have missed it.", "Nothing would have happened."],
+      "grammar": "third conditional - hadn't"
+    },
+    {
+      "id": 388,
+      "level": 6,
+      "lesson": 78,
+      "prompt": "If she had known, would she have helped?",
+      "answer": "Yes, if she had known, she would have helped.",
+      "alt_answers": ["Yes, she would have.", "Of course."],
+      "grammar": "third conditional - had known"
+    },
+    {
+      "id": 389,
+      "level": 6,
+      "lesson": 78,
+      "prompt": "Would you have bought it if it had been cheaper?",
+      "answer": "Yes, I would have bought it if it had been cheaper.",
+      "alt_answers": ["Yes, I would have.", "Definitely."],
+      "grammar": "third conditional - had been"
+    },
+    {
+      "id": 390,
+      "level": 6,
+      "lesson": 78,
+      "prompt": "If they had arrived earlier, what would have happened?",
+      "answer": "If they had arrived earlier, they would have caught the train.",
+      "alt_answers": ["They would have caught the train.", "Nothing different."],
+      "grammar": "third conditional - consequence"
+    },
+    {
+      "id": 391,
+      "level": 6,
+      "lesson": 79,
+      "prompt": "Had I known, I would have helped. Did you know?",
+      "answer": "No, I didn't know. Had I known, I would have helped.",
+      "alt_answers": ["No, I didn't.", "Had I known, I would have."],
+      "grammar": "inverted conditional - had"
+    },
+    {
+      "id": 392,
+      "level": 6,
+      "lesson": 79,
+      "prompt": "Were I rich, I would travel. Are you rich?",
+      "answer": "No, I'm not rich. But were I rich, I would travel.",
+      "alt_answers": ["No, I'm not.", "Were I rich, I would travel."],
+      "grammar": "inverted conditional - were"
+    },
+    {
+      "id": 393,
+      "level": 6,
+      "lesson": 79,
+      "prompt": "Should you need any help, what should you do?",
+      "answer": "Should I need any help, I will call you.",
+      "alt_answers": ["I will call you.", "I should ask for help."],
+      "grammar": "inverted conditional - should"
+    },
+    {
+      "id": 394,
+      "level": 6,
+      "lesson": 79,
+      "prompt": "Were it not for your help, what would have happened?",
+      "answer": "Were it not for your help, I would have failed.",
+      "alt_answers": ["I would have failed.", "I couldn't have done it."],
+      "grammar": "inverted conditional - were it not"
+    },
+    {
+      "id": 395,
+      "level": 6,
+      "lesson": 79,
+      "prompt": "Had it not been raining, would you have gone out?",
+      "answer": "Yes, had it not been raining, I would have gone out.",
+      "alt_answers": ["Yes, I would have.", "Definitely."],
+      "grammar": "inverted conditional - had it not"
+    },
+    {
+      "id": 396,
+      "level": 6,
+      "lesson": 80,
+      "prompt": "The letter should be sent today. When should it be sent?",
+      "answer": "The letter should be sent today.",
+      "alt_answers": ["Today.", "It should be sent today."],
+      "grammar": "passive with modals - should"
+    },
+    {
+      "id": 397,
+      "level": 6,
+      "lesson": 80,
+      "prompt": "This must be done immediately. What must be done?",
+      "answer": "This must be done immediately.",
+      "alt_answers": ["It must be done immediately.", "This work."],
+      "grammar": "passive with modals - must"
+    },
+    {
+      "id": 398,
+      "level": 6,
+      "lesson": 80,
+      "prompt": "The report could have been written better. How could it have been written?",
+      "answer": "The report could have been written better.",
+      "alt_answers": ["Better.", "It could have been improved."],
+      "grammar": "passive - could have been"
+    },
+    {
+      "id": 399,
+      "level": 6,
+      "lesson": 80,
+      "prompt": "The meeting might be cancelled. What might happen?",
+      "answer": "The meeting might be cancelled.",
+      "alt_answers": ["It might be cancelled.", "The meeting might not happen."],
+      "grammar": "passive with modals - might"
+    },
+    {
+      "id": 400,
+      "level": 6,
+      "lesson": 80,
+      "prompt": "The work should have been finished by now. Has it been finished?",
+      "answer": "No, but it should have been finished by now.",
+      "alt_answers": ["No, it hasn't.", "It should have been, but it hasn't."],
+      "grammar": "passive - should have been"
+    },
+    {
+      "id": 401,
+      "level": 6,
+      "lesson": 81,
+      "prompt": "It is believed that the company will expand. What is believed?",
+      "answer": "It is believed that the company will expand.",
+      "alt_answers": ["That the company will expand.", "The company is believed to be expanding."],
+      "grammar": "impersonal passive - it is believed"
+    },
+    {
+      "id": 402,
+      "level": 6,
+      "lesson": 81,
+      "prompt": "It is said that he is very rich. What is said about him?",
+      "answer": "It is said that he is very rich.",
+      "alt_answers": ["That he is very rich.", "He is said to be very rich."],
+      "grammar": "impersonal passive - it is said"
+    },
+    {
+      "id": 403,
+      "level": 6,
+      "lesson": 81,
+      "prompt": "It is thought that the project will succeed. What is thought?",
+      "answer": "It is thought that the project will succeed.",
+      "alt_answers": ["That the project will succeed.", "The project is thought to be successful."],
+      "grammar": "impersonal passive - it is thought"
+    },
+    {
+      "id": 404,
+      "level": 6,
+      "lesson": 81,
+      "prompt": "He is known to be an expert. What is he known for?",
+      "answer": "He is known to be an expert.",
+      "alt_answers": ["Being an expert.", "He's known as an expert."],
+      "grammar": "impersonal passive - is known to"
+    },
+    {
+      "id": 405,
+      "level": 6,
+      "lesson": 81,
+      "prompt": "She is expected to arrive soon. When is she expected?",
+      "answer": "She is expected to arrive soon.",
+      "alt_answers": ["Soon.", "She's expected soon."],
+      "grammar": "impersonal passive - is expected to"
+    },
+    {
+      "id": 406,
+      "level": 6,
+      "lesson": 82,
+      "prompt": "The more you practice, the better you get. Is that true?",
+      "answer": "Yes, the more you practice, the better you get.",
+      "alt_answers": ["Yes, that's true.", "Yes, practice makes perfect."],
+      "grammar": "comparative - the more...the better"
+    },
+    {
+      "id": 407,
+      "level": 6,
+      "lesson": 82,
+      "prompt": "The harder you work, what happens?",
+      "answer": "The harder you work, the more successful you become.",
+      "alt_answers": ["The more you earn.", "The more you achieve."],
+      "grammar": "comparative - the harder...the more"
+    },
+    {
+      "id": 408,
+      "level": 6,
+      "lesson": 82,
+      "prompt": "The sooner we leave, the earlier we'll arrive. When should we leave?",
+      "answer": "We should leave as soon as possible. The sooner, the better.",
+      "alt_answers": ["As soon as possible.", "The sooner, the better."],
+      "grammar": "comparative - the sooner...the earlier"
+    },
+    {
+      "id": 409,
+      "level": 6,
+      "lesson": 82,
+      "prompt": "The less you eat, what happens?",
+      "answer": "The less you eat, the more weight you lose.",
+      "alt_answers": ["The thinner you become.", "The hungrier you get."],
+      "grammar": "comparative - the less...the more"
+    },
+    {
+      "id": 410,
+      "level": 6,
+      "lesson": 82,
+      "prompt": "The older you get, the wiser you become. Do you agree?",
+      "answer": "Yes, I agree. The older you get, the wiser you become.",
+      "alt_answers": ["Yes, I agree.", "Generally, yes."],
+      "grammar": "comparative - the older...the wiser"
+    },
+    {
+      "id": 411,
+      "level": 6,
+      "lesson": 83,
+      "prompt": "Not only did he arrive late, but what else did he do?",
+      "answer": "Not only did he arrive late, but he also forgot the documents.",
+      "alt_answers": ["He also forgot the documents.", "But he forgot the documents too."],
+      "grammar": "inversion - not only"
+    },
+    {
+      "id": 412,
+      "level": 6,
+      "lesson": 83,
+      "prompt": "Hardly had I sat down when what happened?",
+      "answer": "Hardly had I sat down when the phone rang.",
+      "alt_answers": ["The phone rang.", "When the phone rang."],
+      "grammar": "inversion - hardly"
+    },
+    {
+      "id": 413,
+      "level": 6,
+      "lesson": 83,
+      "prompt": "No sooner had I left than what happened?",
+      "answer": "No sooner had I left than it started to rain.",
+      "alt_answers": ["It started to rain.", "Than it started raining."],
+      "grammar": "inversion - no sooner"
+    },
+    {
+      "id": 414,
+      "level": 6,
+      "lesson": 83,
+      "prompt": "Little did I know what would happen. Did you know?",
+      "answer": "No, little did I know what would happen.",
+      "alt_answers": ["No, I didn't know.", "I had no idea."],
+      "grammar": "inversion - little"
+    },
+    {
+      "id": 415,
+      "level": 6,
+      "lesson": 83,
+      "prompt": "Never have I seen such a beautiful place. Have you?",
+      "answer": "No, never have I seen such a beautiful place either.",
+      "alt_answers": ["No, I haven't.", "Neither have I."],
+      "grammar": "inversion - never"
+    },
+    {
+      "id": 416,
+      "level": 6,
+      "lesson": 84,
+      "prompt": "Only after finishing the work did he relax. When did he relax?",
+      "answer": "Only after finishing the work did he relax.",
+      "alt_answers": ["After finishing the work.", "He relaxed after finishing."],
+      "grammar": "inversion - only after"
+    },
+    {
+      "id": 417,
+      "level": 6,
+      "lesson": 84,
+      "prompt": "Seldom do we see such talent. How often do we see it?",
+      "answer": "Seldom do we see such talent.",
+      "alt_answers": ["Rarely.", "Not very often."],
+      "grammar": "inversion - seldom"
+    },
+    {
+      "id": 418,
+      "level": 6,
+      "lesson": 84,
+      "prompt": "Rarely does she make mistakes. Does she make mistakes often?",
+      "answer": "No, rarely does she make mistakes.",
+      "alt_answers": ["No, she rarely makes mistakes.", "Almost never."],
+      "grammar": "inversion - rarely"
+    },
+    {
+      "id": 419,
+      "level": 6,
+      "lesson": 84,
+      "prompt": "Under no circumstances should you open this door. Can I open it?",
+      "answer": "No, under no circumstances should you open this door.",
+      "alt_answers": ["Absolutely not.", "No, never open it."],
+      "grammar": "inversion - under no circumstances"
+    },
+    {
+      "id": 420,
+      "level": 6,
+      "lesson": 84,
+      "prompt": "At no time did I suggest that. Did you suggest it?",
+      "answer": "No, at no time did I suggest that.",
+      "alt_answers": ["No, I didn't.", "I never suggested that."],
+      "grammar": "inversion - at no time"
+    },
+    {
+      "id": 421,
+      "level": 6,
+      "lesson": 85,
+      "prompt": "Having finished the work, what did you do?",
+      "answer": "Having finished the work, I went home.",
+      "alt_answers": ["I went home.", "After finishing, I went home."],
+      "grammar": "participle clause - having + past participle"
+    },
+    {
+      "id": 422,
+      "level": 6,
+      "lesson": 85,
+      "prompt": "Being tired, what did she do?",
+      "answer": "Being tired, she went to bed early.",
+      "alt_answers": ["She went to bed early.", "She decided to rest."],
+      "grammar": "participle clause - being"
+    },
+    {
+      "id": 423,
+      "level": 6,
+      "lesson": 85,
+      "prompt": "Not knowing the answer, what did he do?",
+      "answer": "Not knowing the answer, he asked the teacher.",
+      "alt_answers": ["He asked the teacher.", "He guessed."],
+      "grammar": "participle clause - not knowing"
+    },
+    {
+      "id": 424,
+      "level": 6,
+      "lesson": 85,
+      "prompt": "Written in English, is this book easy to read?",
+      "answer": "Yes, written in English, this book is easy to read.",
+      "alt_answers": ["Yes, it is.", "Yes, it's easy."],
+      "grammar": "participle clause - past participle"
+    },
+    {
+      "id": 425,
+      "level": 6,
+      "lesson": 85,
+      "prompt": "Walking down the street, what did you see?",
+      "answer": "Walking down the street, I saw an old friend.",
+      "alt_answers": ["I saw an old friend.", "I saw a shop."],
+      "grammar": "participle clause - present participle"
+    },
+    {
+      "id": 426,
+      "level": 6,
+      "lesson": 86,
+      "prompt": "It's time we left, isn't it?",
+      "answer": "Yes, it's time we left.",
+      "alt_answers": ["Yes, it is.", "Yes, we should leave now."],
+      "grammar": "it's time + past"
+    },
+    {
+      "id": 427,
+      "level": 6,
+      "lesson": 86,
+      "prompt": "It's high time you got a job, isn't it?",
+      "answer": "Yes, it's high time I got a job.",
+      "alt_answers": ["Yes, it is.", "I agree, I should find one."],
+      "grammar": "it's high time + past"
+    },
+    {
+      "id": 428,
+      "level": 6,
+      "lesson": 86,
+      "prompt": "I'd sooner you didn't smoke here. May I smoke?",
+      "answer": "No, I'd sooner you didn't smoke here.",
+      "alt_answers": ["Please don't.", "I'd prefer you didn't."],
+      "grammar": "would sooner"
+    },
+    {
+      "id": 429,
+      "level": 6,
+      "lesson": 86,
+      "prompt": "Suppose you lost your job, what would you do?",
+      "answer": "Suppose I lost my job, I would look for another one.",
+      "alt_answers": ["I would look for another job.", "I'd start my own business."],
+      "grammar": "suppose + past"
+    },
+    {
+      "id": 430,
+      "level": 6,
+      "lesson": 86,
+      "prompt": "What if the train is late? What would we do?",
+      "answer": "If the train is late, we'll take a taxi.",
+      "alt_answers": ["We'll take a taxi.", "We would wait."],
+      "grammar": "what if"
+    },
+    {
+      "id": 431,
+      "level": 6,
+      "lesson": 87,
+      "prompt": "The deal is done and dusted. What does 'done and dusted' mean?",
+      "answer": "'Done and dusted' means completely finished.",
+      "alt_answers": ["Completely finished.", "Finished and settled."],
+      "grammar": "idiom - done and dusted"
+    },
+    {
+      "id": 432,
+      "level": 6,
+      "lesson": 87,
+      "prompt": "He was fobbed off with excuses. What does 'fobbed off' mean?",
+      "answer": "'Fobbed off' means given unsatisfactory excuses to make someone go away.",
+      "alt_answers": ["Given false excuses.", "Dismissed with poor excuses."],
+      "grammar": "idiom - fobbed off"
+    },
+    {
+      "id": 433,
+      "level": 6,
+      "lesson": 87,
+      "prompt": "She tried to rope me in. What does 'rope in' mean?",
+      "answer": "'Rope in' means to persuade someone to help or participate.",
+      "alt_answers": ["Persuade to join.", "Get someone involved."],
+      "grammar": "idiom - rope in"
+    },
+    {
+      "id": 434,
+      "level": 6,
+      "lesson": 87,
+      "prompt": "Don't give a knee-jerk response. What is a 'knee-jerk' response?",
+      "answer": "A 'knee-jerk' response is an immediate, automatic reaction without thinking.",
+      "alt_answers": ["An automatic reaction.", "A quick, unthinking response."],
+      "grammar": "idiom - knee-jerk"
+    },
+    {
+      "id": 435,
+      "level": 6,
+      "lesson": 87,
+      "prompt": "If we fail, heads will roll. What does 'heads will roll' mean?",
+      "answer": "'Heads will roll' means people will be punished or dismissed.",
+      "alt_answers": ["People will be fired.", "Someone will be punished."],
+      "grammar": "idiom - heads will roll"
+    },
+    {
+      "id": 436,
+      "level": 6,
+      "lesson": 88,
+      "prompt": "He's not pulling his weight. What does 'pull one's weight' mean?",
+      "answer": "'Pull one's weight' means to do one's fair share of work.",
+      "alt_answers": ["Do one's share.", "Contribute fairly."],
+      "grammar": "idiom - pull one's weight"
+    },
+    {
+      "id": 437,
+      "level": 6,
+      "lesson": 88,
+      "prompt": "Winter is setting in. What does 'set in' mean?",
+      "answer": "'Set in' means to begin and seem likely to continue.",
+      "alt_answers": ["Begin and continue.", "Start to happen."],
+      "grammar": "idiom - set in"
+    },
+    {
+      "id": 438,
+      "level": 6,
+      "lesson": 88,
+      "prompt": "In the wake of the crisis, what happened?",
+      "answer": "In the wake of the crisis, many changes were made.",
+      "alt_answers": ["Many changes happened.", "Following the crisis, things changed."],
+      "grammar": "idiom - in the wake of"
+    },
+    {
+      "id": 439,
+      "level": 6,
+      "lesson": 88,
+      "prompt": "Don't do yourself down. What does 'do oneself down' mean?",
+      "answer": "'Do oneself down' means to criticize or undervalue yourself.",
+      "alt_answers": ["Criticize yourself.", "Underestimate yourself."],
+      "grammar": "idiom - do oneself down"
+    },
+    {
+      "id": 440,
+      "level": 6,
+      "lesson": 88,
+      "prompt": "It sounds plausible at this early stage. What does 'plausible' mean?",
+      "answer": "'Plausible' means seeming reasonable or believable.",
+      "alt_answers": ["Reasonable.", "Believable."],
+      "grammar": "vocabulary - plausible"
     }
   ]
 }
