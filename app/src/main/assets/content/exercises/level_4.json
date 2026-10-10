@@ -1,155 +1,1522 @@
 [
   {
-    "id": 301, "level_id": 4, "category_id": 10,
+    "id": 301,
+    "level_id": 4,
+    "category_id": 10,
     "answer_text": "The CI/CD pipeline failed because of a failing unit test.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple - CI/CD",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - CI/CD",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 301, "question_text": "Why did the CI/CD pipeline fail?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 302, "question_text": "Why did the pipeline fail?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 301,
+        "question_text": "Why did the CI/CD pipeline fail?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 302,
+        "question_text": "Why did the pipeline fail?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 301, "hint_order": 1, "hint_text": "Ask about the cause of a past failure.", "hint_type": "structural" },
-      { "id": 302, "hint_order": 2, "hint_text": "Use 'Why did the pipeline fail?'", "hint_type": "vocabulary" },
-      { "id": 303, "hint_order": 3, "hint_text": "Why did the CI/CD pipeline fail?", "hint_type": "answer" }
+      {
+        "id": 301,
+        "hint_order": 1,
+        "hint_text": "Ask about the cause of a past failure.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 302,
+        "hint_order": 2,
+        "hint_text": "Use 'Why did the pipeline fail?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 303,
+        "hint_order": 3,
+        "hint_text": "Why did the CI/CD pipeline fail?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 302, "level_id": 4, "category_id": 10,
+    "id": 302,
+    "level_id": 4,
+    "category_id": 10,
     "answer_text": "We deploy to production every two weeks using a blue-green strategy.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present simple - deployment strategy",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - deployment strategy",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 303, "question_text": "How often do you deploy to production?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 304, "question_text": "How do you deploy to production?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 303,
+        "question_text": "How often do you deploy to production?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 304,
+        "question_text": "How do you deploy to production?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 304, "hint_order": 1, "hint_text": "Ask about frequency or method of deployment.", "hint_type": "structural" },
-      { "id": 305, "hint_order": 2, "hint_text": "Use 'How often do you deploy...' or 'How do you deploy...'", "hint_type": "vocabulary" },
-      { "id": 306, "hint_order": 3, "hint_text": "How often do you deploy to production?", "hint_type": "answer" }
+      {
+        "id": 304,
+        "hint_order": 1,
+        "hint_text": "Ask about frequency or method of deployment.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 305,
+        "hint_order": 2,
+        "hint_text": "Use 'How often do you deploy...' or 'How do you deploy...'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 306,
+        "hint_order": 3,
+        "hint_text": "How often do you deploy to production?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 303, "level_id": 4, "category_id": 10,
+    "id": 303,
+    "level_id": 4,
+    "category_id": 10,
     "answer_text": "The Docker container has been running for forty-eight hours.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present perfect continuous - containers",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present perfect continuous - containers",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 305, "question_text": "How long has the Docker container been running?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 306, "question_text": "How long has the container been running?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 305,
+        "question_text": "How long has the Docker container been running?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 306,
+        "question_text": "How long has the container been running?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 307, "hint_order": 1, "hint_text": "Ask about duration with present perfect continuous.", "hint_type": "structural" },
-      { "id": 308, "hint_order": 2, "hint_text": "Use 'How long has ... been running?'", "hint_type": "vocabulary" },
-      { "id": 309, "hint_order": 3, "hint_text": "How long has the container been running?", "hint_type": "answer" }
+      {
+        "id": 307,
+        "hint_order": 1,
+        "hint_text": "Ask about duration with present perfect continuous.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 308,
+        "hint_order": 2,
+        "hint_text": "Use 'How long has ... been running?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 309,
+        "hint_order": 3,
+        "hint_text": "How long has the container been running?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 304, "level_id": 4, "category_id": 10,
+    "id": 304,
+    "level_id": 4,
+    "category_id": 10,
     "answer_text": "We use Kubernetes to orchestrate our containers in production.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - container orchestration",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 4,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - container orchestration",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 4,
     "accepted_answers": [
-      { "id": 307, "question_text": "What do you use to orchestrate your containers?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 308, "question_text": "What tool do you use for container orchestration?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 307,
+        "question_text": "What do you use to orchestrate your containers?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 308,
+        "question_text": "What tool do you use for container orchestration?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 310, "hint_order": 1, "hint_text": "Ask about the orchestration tool.", "hint_type": "structural" },
-      { "id": 311, "hint_order": 2, "hint_text": "Use 'What do you use to orchestrate...?'", "hint_type": "vocabulary" },
-      { "id": 312, "hint_order": 3, "hint_text": "What do you use to orchestrate your containers?", "hint_type": "answer" }
+      {
+        "id": 310,
+        "hint_order": 1,
+        "hint_text": "Ask about the orchestration tool.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 311,
+        "hint_order": 2,
+        "hint_text": "Use 'What do you use to orchestrate...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 312,
+        "hint_order": 3,
+        "hint_text": "What do you use to orchestrate your containers?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 305, "level_id": 4, "category_id": 11,
+    "id": 305,
+    "level_id": 4,
+    "category_id": 11,
     "answer_text": "The vulnerability was found during the penetration test.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "past simple passive - security",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "past simple passive - security",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 309, "question_text": "When was the vulnerability found?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 310, "question_text": "When was the vulnerability discovered?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 309,
+        "question_text": "When was the vulnerability found?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 310,
+        "question_text": "When was the vulnerability discovered?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 313, "hint_order": 1, "hint_text": "Ask about when something was found (passive).", "hint_type": "structural" },
-      { "id": 314, "hint_order": 2, "hint_text": "Use 'When was the vulnerability found?'", "hint_type": "vocabulary" },
-      { "id": 315, "hint_order": 3, "hint_text": "When was the vulnerability found?", "hint_type": "answer" }
+      {
+        "id": 313,
+        "hint_order": 1,
+        "hint_text": "Ask about when something was found (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 314,
+        "hint_order": 2,
+        "hint_text": "Use 'When was the vulnerability found?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 315,
+        "hint_order": 3,
+        "hint_text": "When was the vulnerability found?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 306, "level_id": 4, "category_id": 11,
+    "id": 306,
+    "level_id": 4,
+    "category_id": 11,
     "answer_text": "The attacker gained access through a SQL injection exploit.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "past simple - attack vectors",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - attack vectors",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 311, "question_text": "How did the attacker gain access?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 312, "question_text": "How did the attacker get in?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 311,
+        "question_text": "How did the attacker gain access?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 312,
+        "question_text": "How did the attacker get in?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 316, "hint_order": 1, "hint_text": "Ask about the method of attack.", "hint_type": "structural" },
-      { "id": 317, "hint_order": 2, "hint_text": "Use 'How did the attacker gain access?'", "hint_type": "vocabulary" },
-      { "id": 318, "hint_order": 3, "hint_text": "How did the attacker gain access?", "hint_type": "answer" }
+      {
+        "id": 316,
+        "hint_order": 1,
+        "hint_text": "Ask about the method of attack.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 317,
+        "hint_order": 2,
+        "hint_text": "Use 'How did the attacker gain access?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 318,
+        "hint_order": 3,
+        "hint_text": "How did the attacker gain access?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 307, "level_id": 4, "category_id": 11,
+    "id": 307,
+    "level_id": 4,
+    "category_id": 11,
     "answer_text": "All API endpoints should be authenticated with OAuth 2.0.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - should, security policies",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "modal verbs - should, security policies",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 313, "question_text": "What should all API endpoints be authenticated with?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 314, "question_text": "How should API endpoints be authenticated?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 313,
+        "question_text": "What should all API endpoints be authenticated with?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 314,
+        "question_text": "How should API endpoints be authenticated?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 319, "hint_order": 1, "hint_text": "Ask about authentication requirements.", "hint_type": "structural" },
-      { "id": 320, "hint_order": 2, "hint_text": "Use 'What should ... be authenticated with?'", "hint_type": "vocabulary" },
-      { "id": 321, "hint_order": 3, "hint_text": "What should the endpoints be authenticated with?", "hint_type": "answer" }
+      {
+        "id": 319,
+        "hint_order": 1,
+        "hint_text": "Ask about authentication requirements.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 320,
+        "hint_order": 2,
+        "hint_text": "Use 'What should ... be authenticated with?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 321,
+        "hint_order": 3,
+        "hint_text": "What should the endpoints be authenticated with?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 308, "level_id": 4, "category_id": 12,
+    "id": 308,
+    "level_id": 4,
+    "category_id": 12,
     "answer_text": "We chose a microservices architecture because it allows independent scaling.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple - architectural decisions",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - architectural decisions",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 315, "question_text": "Why did you choose a microservices architecture?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 316, "question_text": "Why did you go with microservices?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 315,
+        "question_text": "Why did you choose a microservices architecture?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 316,
+        "question_text": "Why did you go with microservices?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 322, "hint_order": 1, "hint_text": "Ask about the reason behind an architectural choice.", "hint_type": "structural" },
-      { "id": 323, "hint_order": 2, "hint_text": "Use 'Why did you choose...' or 'Why did you go with...'", "hint_type": "vocabulary" },
-      { "id": 324, "hint_order": 3, "hint_text": "Why did you choose a microservices architecture?", "hint_type": "answer" }
+      {
+        "id": 322,
+        "hint_order": 1,
+        "hint_text": "Ask about the reason behind an architectural choice.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 323,
+        "hint_order": 2,
+        "hint_text": "Use 'Why did you choose...' or 'Why did you go with...'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 324,
+        "hint_order": 3,
+        "hint_text": "Why did you choose a microservices architecture?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 309, "level_id": 4, "category_id": 12,
+    "id": 309,
+    "level_id": 4,
+    "category_id": 12,
     "answer_text": "The API gateway handles authentication, rate limiting, and load balancing.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - architecture responsibilities",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - architecture responsibilities",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 317, "question_text": "What does the API gateway handle?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 318, "question_text": "What is the API gateway responsible for?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 317,
+        "question_text": "What does the API gateway handle?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 318,
+        "question_text": "What is the API gateway responsible for?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 325, "hint_order": 1, "hint_text": "Ask about the responsibilities of a component.", "hint_type": "structural" },
-      { "id": 326, "hint_order": 2, "hint_text": "Use 'What does the API gateway handle?'", "hint_type": "vocabulary" },
-      { "id": 327, "hint_order": 3, "hint_text": "What does the API gateway handle?", "hint_type": "answer" }
+      {
+        "id": 325,
+        "hint_order": 1,
+        "hint_text": "Ask about the responsibilities of a component.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 326,
+        "hint_order": 2,
+        "hint_text": "Use 'What does the API gateway handle?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 327,
+        "hint_order": 3,
+        "hint_text": "What does the API gateway handle?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 310, "level_id": 4, "category_id": 10,
+    "id": 310,
+    "level_id": 4,
+    "category_id": 10,
     "answer_text": "Yes, the rollback was successful.",
-    "context_text": null, "question_type": "YES_NO",
+    "context_text": null,
+    "question_type": "YES_NO",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "Was the rollback successful?",
     "grammar_focus": "past simple passive - short answers",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 5,
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 5,
     "accepted_answers": [
-      { "id": 319, "question_text": "Yes, it was.", "is_primary": true, "match_threshold": 0.90 },
-      { "id": 320, "question_text": "Yes, the rollback was successful.", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 319,
+        "question_text": "Yes, it was.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 320,
+        "question_text": "Yes, the rollback was successful.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 328, "hint_order": 1, "hint_text": "Short answer with 'was' (past simple passive).", "hint_type": "structural" },
-      { "id": 329, "hint_order": 2, "hint_text": "Positive: 'Yes, it was.'", "hint_type": "vocabulary" },
-      { "id": 330, "hint_order": 3, "hint_text": "Yes, it was.", "hint_type": "answer" }
+      {
+        "id": 328,
+        "hint_order": 1,
+        "hint_text": "Short answer with 'was' (past simple passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 329,
+        "hint_order": 2,
+        "hint_text": "Positive: 'Yes, it was.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 330,
+        "hint_order": 3,
+        "hint_text": "Yes, it was.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "We containerised the application using Docker.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 693,
+        "question_text": "How did you containerise the application?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 694,
+        "question_text": "What did you use to containerise the application?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 789,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did you containerise it?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 790,
+        "hint_order": 2,
+        "hint_text": "'Using Docker' = the method/tool. 'How' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 791,
+        "hint_order": 3,
+        "hint_text": "How did you containerise the application?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "The deployment was rolled back after the performance degradation was detected.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "passive - past, reason",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 695,
+        "question_text": "Why was the deployment rolled back?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 696,
+        "question_text": "What triggered the rollback?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 792,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why was the deployment rolled back?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 793,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was rolled back'. Reason: 'after degradation was detected'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 794,
+        "hint_order": 3,
+        "hint_text": "Why was the deployment rolled back?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "She wrote an Ansible playbook to automate server configuration.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 697,
+        "question_text": "What did she write?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 698,
+        "question_text": "What did she create to automate server configuration?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 795,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she write?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 796,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did she write'. The object is 'an Ansible playbook'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 797,
+        "hint_order": 3,
+        "hint_text": "What did she write?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "We use Kubernetes to orchestrate our containers.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - orchestration tool",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 699,
+        "question_text": "What do you use to orchestrate containers?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 700,
+        "question_text": "How do you manage your containers?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 798,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT TOOL — 'What do you use to orchestrate...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 799,
+        "hint_order": 2,
+        "hint_text": "'Use X to do Y' → 'What do you use to do Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 800,
+        "hint_order": 3,
+        "hint_text": "What do you use to orchestrate containers?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "The infrastructure is defined as code using Terraform.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "passive - present, method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 701,
+        "question_text": "How is the infrastructure defined?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 702,
+        "question_text": "What tool is used to define the infrastructure as code?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 801,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How is the infrastructure defined?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 802,
+        "hint_order": 2,
+        "hint_text": "Passive: 'is defined'. 'How is it defined?' asks for the method.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 803,
+        "hint_order": 3,
+        "hint_text": "How is the infrastructure defined?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "The deployment window is every Tuesday at midnight.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - scheduled time",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 703,
+        "question_text": "When is the deployment window?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 704,
+        "question_text": "How often do deployments occur?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 804,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When is the deployment window?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 805,
+        "hint_order": 2,
+        "hint_text": "'Every Tuesday at midnight' = a scheduled time. Use 'When'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 806,
+        "hint_order": 3,
+        "hint_text": "When is the deployment window?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "He set up a blue-green deployment to minimise downtime.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object/purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 705,
+        "question_text": "What did he set up?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 706,
+        "question_text": "Why did he set up a blue-green deployment?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 807,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he set up?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 808,
+        "hint_order": 2,
+        "hint_text": "Both 'what' (object) and 'why' (purpose) are valid here.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 809,
+        "hint_order": 3,
+        "hint_text": "What did he set up?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "The Docker image is built in under three minutes.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "passive - present, duration",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 707,
+        "question_text": "How long does it take to build the Docker image?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 708,
+        "question_text": "How quickly is the Docker image built?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 810,
+        "hint_order": 1,
+        "hint_text": "Ask about DURATION — 'How long does it take to build...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 811,
+        "hint_order": 2,
+        "hint_text": "Passive: 'is built'. 'In under three minutes' = duration.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 812,
+        "hint_order": 3,
+        "hint_text": "How long does it take to build the Docker image?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "We rotate secrets automatically using a secrets manager.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - automation method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 709,
+        "question_text": "How do you manage secrets rotation?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 710,
+        "question_text": "What do you use for rotating secrets?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 813,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you manage secrets rotation?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 814,
+        "hint_order": 2,
+        "hint_text": "'Using a secrets manager' = the tool/method. 'How' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 815,
+        "hint_order": 3,
+        "hint_text": "How do you manage secrets rotation?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "level_id": 4,
+    "category_id": 10,
+    "answer_text": "The pipeline failed at the integration testing stage.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "past simple - stage question",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 711,
+        "question_text": "At which stage did the pipeline fail?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 712,
+        "question_text": "Where in the pipeline did the failure occur?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 816,
+        "hint_order": 1,
+        "hint_text": "Ask AT WHICH STAGE — 'At which stage did it fail?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 817,
+        "hint_order": 2,
+        "hint_text": "'At the integration testing stage' = where in the process. Use 'At which stage'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 818,
+        "hint_order": 3,
+        "hint_text": "At which stage did the pipeline fail?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The vulnerability was discovered during a penetration test.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive - past, time/method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 713,
+        "question_text": "When was the vulnerability discovered?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 714,
+        "question_text": "How was the vulnerability found?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 819,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When was it discovered?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 820,
+        "hint_order": 2,
+        "hint_text": "'During a penetration test' = when/how. 'When' is more natural.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 821,
+        "hint_order": 3,
+        "hint_text": "When was the vulnerability discovered?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "We enforce multi-factor authentication for all employees.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - policy",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 715,
+        "question_text": "What do you enforce for all employees?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 716,
+        "question_text": "What security measure do you require?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 822,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What do you enforce for all employees?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 823,
+        "hint_order": 2,
+        "hint_text": "'Enforce X for Y' → 'What do you enforce for Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 824,
+        "hint_order": 3,
+        "hint_text": "What do you enforce for all employees?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The data is encrypted at rest and in transit.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "passive - present, protection method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 717,
+        "question_text": "How is the data protected?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 718,
+        "question_text": "In what way is the data secured?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 825,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How is the data protected?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 826,
+        "hint_order": 2,
+        "hint_text": "'Encrypted at rest and in transit' describes the protection method.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 827,
+        "hint_order": 3,
+        "hint_text": "How is the data protected?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "We conduct a security audit every six months.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - frequency",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 719,
+        "question_text": "How often do you conduct a security audit?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 720,
+        "question_text": "When do you conduct security audits?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 828,
+        "hint_order": 1,
+        "hint_text": "Ask HOW OFTEN — 'How often do you conduct...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 829,
+        "hint_order": 2,
+        "hint_text": "'Every six months' = frequency. 'How often' is the best fit.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 830,
+        "hint_order": 3,
+        "hint_text": "How often do you conduct a security audit?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The attacker exploited a SQL injection vulnerability.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 721,
+        "question_text": "What did the attacker exploit?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 722,
+        "question_text": "How did the attacker compromise the system?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 831,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did the attacker exploit?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 832,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did the attacker exploit'. Target the type of vulnerability.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 833,
+        "hint_order": 3,
+        "hint_text": "What did the attacker exploit?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The SSL certificate expires in thirty days.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - future time, 3rd person",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 723,
+        "question_text": "When does the SSL certificate expire?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 724,
+        "question_text": "How long until the SSL certificate expires?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 834,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When does the certificate expire?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 835,
+        "hint_order": 2,
+        "hint_text": "'In thirty days' = time until expiry. 3rd person: 'does it expire'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 836,
+        "hint_order": 3,
+        "hint_text": "When does the SSL certificate expire?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The incident was caused by a phishing attack on an employee.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "passive - past, cause",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 725,
+        "question_text": "What caused the incident?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 726,
+        "question_text": "How did the incident occur?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 837,
+        "hint_order": 1,
+        "hint_text": "Subject question: 'What caused the incident?' (no auxiliary).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 838,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was caused by' → active subject question: 'What caused it?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 839,
+        "hint_order": 3,
+        "hint_text": "What caused the incident?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "level_id": 4,
+    "category_id": 11,
+    "answer_text": "The API keys are rotated every ninety days.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "passive - present, frequency",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 727,
+        "question_text": "How often are the API keys rotated?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 728,
+        "question_text": "When are the API keys rotated?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 840,
+        "hint_order": 1,
+        "hint_text": "Ask HOW OFTEN — 'How often are they rotated?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 841,
+        "hint_order": 2,
+        "hint_text": "Passive: 'are rotated'. 'How often are they rotated?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 842,
+        "hint_order": 3,
+        "hint_text": "How often are the API keys rotated?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "level_id": 4,
+    "category_id": 12,
+    "answer_text": "We use an event-driven architecture to decouple the services.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 729,
+        "question_text": "Why do you use an event-driven architecture?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 730,
+        "question_text": "What is the purpose of using an event-driven architecture?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 843,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you use an event-driven architecture?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 844,
+        "hint_order": 2,
+        "hint_text": "'To decouple the services' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 845,
+        "hint_order": 3,
+        "hint_text": "Why do you use an event-driven architecture?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "level_id": 4,
+    "category_id": 12,
+    "answer_text": "The API gateway handles all incoming requests.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - subject question, 3rd person",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 23,
+    "accepted_answers": [
+      {
+        "id": 731,
+        "question_text": "What handles all incoming requests?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 732,
+        "question_text": "What is responsible for handling all incoming requests?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 846,
+        "hint_order": 1,
+        "hint_text": "Subject question — 'What handles...?' (no auxiliary needed).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 847,
+        "hint_order": 2,
+        "hint_text": "Subject question: 'What handles X?' directly, no 'does' needed.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 848,
+        "hint_order": 3,
+        "hint_text": "What handles all incoming requests?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "level_id": 4,
+    "category_id": 12,
+    "answer_text": "He proposed a caching layer to reduce database load.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object/purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 24,
+    "accepted_answers": [
+      {
+        "id": 733,
+        "question_text": "What did he propose?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 734,
+        "question_text": "Why did he propose a caching layer?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 849,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he propose?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 850,
+        "hint_order": 2,
+        "hint_text": "'Propose X to do Y' → 'What did he propose?' (the thing proposed).",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 851,
+        "hint_order": 3,
+        "hint_text": "What did he propose?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "level_id": 4,
+    "category_id": 12,
+    "answer_text": "The new design reduced the average response time by forty percent.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - degree of change",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 25,
+    "accepted_answers": [
+      {
+        "id": 735,
+        "question_text": "By how much did the new design reduce response time?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 736,
+        "question_text": "How much improvement did the new design bring?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 852,
+        "hint_order": 1,
+        "hint_text": "Ask HOW MUCH — 'By how much did it reduce...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 853,
+        "hint_order": 2,
+        "hint_text": "'By forty percent' = the degree. 'By how much' targets percentage changes.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 854,
+        "hint_order": 3,
+        "hint_text": "By how much did the new design reduce response time?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "level_id": 4,
+    "category_id": 12,
+    "answer_text": "She designed a retry mechanism with exponential back-off.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 26,
+    "accepted_answers": [
+      {
+        "id": 737,
+        "question_text": "What did she design?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 738,
+        "question_text": "What mechanism did she create?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 855,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she design?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 856,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did she design'. Target the technical artefact created.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 857,
+        "hint_order": 3,
+        "hint_text": "What did she design?",
+        "hint_type": "answer"
+      }
     ]
   }
 ]

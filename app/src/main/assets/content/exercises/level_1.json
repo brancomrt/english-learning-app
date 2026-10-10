@@ -2168,5 +2168,1799 @@
         "hint_type": "answer"
       }
     ]
+  },
+  {
+    "id": 45,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I wake up at seven o'clock every morning.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - time",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 515,
+        "question_text": "What time do you wake up?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 516,
+        "question_text": "When do you wake up every morning?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 522,
+        "hint_order": 1,
+        "hint_text": "Ask about TIME — 'What time' or 'When'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 523,
+        "hint_order": 2,
+        "hint_text": "Use 'do you' for present simple first person.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 524,
+        "hint_order": 3,
+        "hint_text": "What time do you wake up?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "My favourite food is pizza.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - to be, noun phrase",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 517,
+        "question_text": "What is your favourite food?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 518,
+        "question_text": "What's your favourite food?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 525,
+        "hint_order": 1,
+        "hint_text": "Ask about a preference — use 'What'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 526,
+        "hint_order": 2,
+        "hint_text": "'What is' → 'What's' (contraction is natural).",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 527,
+        "hint_order": 3,
+        "hint_text": "What is / What's your favourite food?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I live with my family in a small apartment.",
+    "context_text": null,
+    "question_type": "WH_WHO",
+    "grammar_focus": "present simple - live with",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 519,
+        "question_text": "Who do you live with?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 520,
+        "question_text": "Where do you live?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 528,
+        "hint_order": 1,
+        "hint_text": "Ask ABOUT A PERSON — 'Who'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 529,
+        "hint_order": 2,
+        "hint_text": "'Who do you live with?' targets the person, not the place.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 530,
+        "hint_order": 3,
+        "hint_text": "Who do you live with?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "She goes to the gym three times a week.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple 3rd person - frequency",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 521,
+        "question_text": "How often does she go to the gym?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 522,
+        "question_text": "How many times a week does she go to the gym?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 531,
+        "hint_order": 1,
+        "hint_text": "Ask about FREQUENCY — 'How often'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 532,
+        "hint_order": 2,
+        "hint_text": "3rd person → 'does she', not 'do she'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 533,
+        "hint_order": 3,
+        "hint_text": "How often does she go to the gym?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "There are two bedrooms in my house.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "there are - quantity",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 523,
+        "question_text": "How many bedrooms are there in your house?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 524,
+        "question_text": "How many bedrooms does your house have?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 534,
+        "hint_order": 1,
+        "hint_text": "Ask about QUANTITY — 'How many'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 535,
+        "hint_order": 2,
+        "hint_text": "'There are' → 'How many ... are there'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 536,
+        "hint_order": 3,
+        "hint_text": "How many bedrooms are there in your house?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I go shopping at the weekend.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - time expression",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 525,
+        "question_text": "When do you go shopping?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 526,
+        "question_text": "How often do you go shopping?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 537,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When do you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 538,
+        "hint_order": 2,
+        "hint_text": "Use 'do you' (first person present simple).",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 539,
+        "hint_order": 3,
+        "hint_text": "When do you go shopping?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "The supermarket closes at ten o'clock.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple 3rd person - time",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 527,
+        "question_text": "What time does the supermarket close?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 528,
+        "question_text": "When does the supermarket close?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 540,
+        "hint_order": 1,
+        "hint_text": "Ask about TIME — 'What time does it...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 541,
+        "hint_order": 2,
+        "hint_text": "3rd person singular → 'does ... close'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 542,
+        "hint_order": 3,
+        "hint_text": "What time does the supermarket close?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I've been living here for five years.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present perfect continuous - duration",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 529,
+        "question_text": "How long have you been living there?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 530,
+        "question_text": "How long have you lived there?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 543,
+        "hint_order": 1,
+        "hint_text": "Ask about DURATION — 'How long have you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 544,
+        "hint_order": 2,
+        "hint_text": "Present perfect continuous: 'have you been living'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 545,
+        "hint_order": 3,
+        "hint_text": "How long have you been living there?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "He doesn't like cold weather.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple negative 3rd person",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 531,
+        "question_text": "What doesn't he like?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 532,
+        "question_text": "Does he like cold weather?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 546,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — to find what he dislikes.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 547,
+        "hint_order": 2,
+        "hint_text": "Negative question: 'What doesn't he like?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 548,
+        "hint_order": 3,
+        "hint_text": "What doesn't he like?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I prefer tea to coffee.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - prefer",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 533,
+        "question_text": "Do you prefer tea or coffee?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 534,
+        "question_text": "What do you prefer, tea or coffee?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 549,
+        "hint_order": 1,
+        "hint_text": "Ask about PREFERENCE — 'Do you prefer... or...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 550,
+        "hint_order": 2,
+        "hint_text": "'Prefer X to Y' → question: 'prefer X or Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 551,
+        "hint_order": 3,
+        "hint_text": "Do you prefer tea or coffee?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "He's watching a film at home tonight.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present continuous - activity",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 535,
+        "question_text": "What is he doing tonight?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 536,
+        "question_text": "What's he doing tonight?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 552,
+        "hint_order": 1,
+        "hint_text": "Ask about the CURRENT ACTIVITY — 'What is he doing?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 553,
+        "hint_order": 2,
+        "hint_text": "Present continuous: 'is he doing' / 'is he watching'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 554,
+        "hint_order": 3,
+        "hint_text": "What is he doing tonight?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I'm going to visit my parents next weekend.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "be going to - plans",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 23,
+    "accepted_answers": [
+      {
+        "id": 537,
+        "question_text": "What are you going to do next weekend?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 538,
+        "question_text": "What are your plans for next weekend?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 555,
+        "hint_order": 1,
+        "hint_text": "Ask about FUTURE PLANS — 'What are you going to do?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 556,
+        "hint_order": 2,
+        "hint_text": "'Going to' expresses a plan already decided.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 557,
+        "hint_order": 3,
+        "hint_text": "What are you going to do next weekend?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "My sister is twenty-five years old.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - age",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 24,
+    "accepted_answers": [
+      {
+        "id": 539,
+        "question_text": "How old is your sister?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 540,
+        "question_text": "What is your sister's age?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 558,
+        "hint_order": 1,
+        "hint_text": "Ask about AGE — 'How old is...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 559,
+        "hint_order": 2,
+        "hint_text": "Use 'is' because it's third person.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 560,
+        "hint_order": 3,
+        "hint_text": "How old is your sister?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "I'm tired because I worked late last night.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "because - reason, past simple",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 25,
+    "accepted_answers": [
+      {
+        "id": 541,
+        "question_text": "Why are you tired?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 542,
+        "question_text": "What's wrong? / Why do you look tired?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 561,
+        "hint_order": 1,
+        "hint_text": "Ask about REASON — 'Why are you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 562,
+        "hint_order": 2,
+        "hint_text": "'Why' targets the reason given after 'because'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 563,
+        "hint_order": 3,
+        "hint_text": "Why are you tired?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "She calls her parents every weekend.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - frequency, 3rd person",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 26,
+    "accepted_answers": [
+      {
+        "id": 543,
+        "question_text": "How often does she call her parents?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 544,
+        "question_text": "When does she call her parents?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 564,
+        "hint_order": 1,
+        "hint_text": "Ask about FREQUENCY — 'How often does she...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 565,
+        "hint_order": 2,
+        "hint_text": "3rd person → 'does she call', not 'does she calls'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 566,
+        "hint_order": 3,
+        "hint_text": "How often does she call her parents?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "level_id": 1,
+    "category_id": 1,
+    "answer_text": "We usually eat lunch at the cafeteria.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - place, adverb",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 27,
+    "accepted_answers": [
+      {
+        "id": 545,
+        "question_text": "Where do you usually eat lunch?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 546,
+        "question_text": "Where do you eat lunch?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 567,
+        "hint_order": 1,
+        "hint_text": "Ask about PLACE — 'Where do you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 568,
+        "hint_order": 2,
+        "hint_text": "'Usually' is an adverb of frequency; keep it in the answer, not the question.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 569,
+        "hint_order": 3,
+        "hint_text": "Where do you usually eat lunch?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I start work at half past eight.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - time, work",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 28,
+    "accepted_answers": [
+      {
+        "id": 547,
+        "question_text": "What time do you start work?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 548,
+        "question_text": "When do you start work?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 570,
+        "hint_order": 1,
+        "hint_text": "Ask about TIME — 'What time do you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 571,
+        "hint_order": 2,
+        "hint_text": "'Half past eight' = 8:30. 'What time' is the natural question.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 572,
+        "hint_order": 3,
+        "hint_text": "What time do you start work?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "There are about fifty people in my company.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "there are - quantity",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 29,
+    "accepted_answers": [
+      {
+        "id": 549,
+        "question_text": "How many people are there in your company?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 550,
+        "question_text": "How many people does your company have?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 573,
+        "hint_order": 1,
+        "hint_text": "Ask about QUANTITY — 'How many people are there...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 574,
+        "hint_order": 2,
+        "hint_text": "'There are' → invert to 'How many ... are there?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 575,
+        "hint_order": 3,
+        "hint_text": "How many people are there in your company?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "My office is on the third floor.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - location, ordinal",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 30,
+    "accepted_answers": [
+      {
+        "id": 551,
+        "question_text": "Which floor is your office on?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 552,
+        "question_text": "Where is your office?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 576,
+        "hint_order": 1,
+        "hint_text": "Ask about FLOOR — 'Which floor is...on?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 577,
+        "hint_order": 2,
+        "hint_text": "Ordinal: first, second, third... 'Which floor' is more specific than 'Where'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 578,
+        "hint_order": 3,
+        "hint_text": "Which floor is your office on?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "We have a team meeting every Tuesday morning.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - time, frequency",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 31,
+    "accepted_answers": [
+      {
+        "id": 553,
+        "question_text": "When do you have team meetings?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 554,
+        "question_text": "How often do you have a team meeting?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 579,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When do you have...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 580,
+        "hint_order": 2,
+        "hint_text": "'Every Tuesday morning' answers both when and how often.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 581,
+        "hint_order": 3,
+        "hint_text": "When do you have team meetings?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "She's been working here since January.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present perfect continuous - since",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 32,
+    "accepted_answers": [
+      {
+        "id": 555,
+        "question_text": "How long has she been working there?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 556,
+        "question_text": "Since when has she been working there?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 582,
+        "hint_order": 1,
+        "hint_text": "Ask about DURATION — 'How long has she been...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 583,
+        "hint_order": 2,
+        "hint_text": "'Since January' → use 'How long' or 'Since when'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 584,
+        "hint_order": 3,
+        "hint_text": "How long has she been working there?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "He works from home twice a week.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - frequency, 3rd person",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 33,
+    "accepted_answers": [
+      {
+        "id": 557,
+        "question_text": "How often does he work from home?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 558,
+        "question_text": "How many times a week does he work from home?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 585,
+        "hint_order": 1,
+        "hint_text": "Ask about FREQUENCY — 'How often does he...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 586,
+        "hint_order": 2,
+        "hint_text": "'Twice a week' is a frequency answer. Use 'How often'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 587,
+        "hint_order": 3,
+        "hint_text": "How often does he work from home?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "The company was founded in 2005.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive voice - past simple",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 34,
+    "accepted_answers": [
+      {
+        "id": 559,
+        "question_text": "When was the company founded?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 560,
+        "question_text": "What year was the company founded?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 588,
+        "hint_order": 1,
+        "hint_text": "Passive voice — ask WHEN with 'When was it...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 589,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was founded' → question: 'When was it founded?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 590,
+        "hint_order": 3,
+        "hint_text": "When was the company founded?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "She applied for the job last month.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "past simple - time",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 35,
+    "accepted_answers": [
+      {
+        "id": 561,
+        "question_text": "When did she apply for the job?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 562,
+        "question_text": "How long ago did she apply for the job?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 591,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When did she...?' (past simple).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 592,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did she apply', not 'did she applied'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 593,
+        "hint_order": 3,
+        "hint_text": "When did she apply for the job?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "We use Slack to communicate with the team.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - purpose, tools",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 36,
+    "accepted_answers": [
+      {
+        "id": 563,
+        "question_text": "What do you use to communicate with the team?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 564,
+        "question_text": "How do you communicate with the team?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 594,
+        "hint_order": 1,
+        "hint_text": "Ask about the TOOL — 'What do you use...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 595,
+        "hint_order": 2,
+        "hint_text": "'We use X to do Y' → 'What do you use to do Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 596,
+        "hint_order": 3,
+        "hint_text": "What do you use to communicate with the team?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "Our company has offices in five countries.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "present simple - quantity, 3rd person",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 37,
+    "accepted_answers": [
+      {
+        "id": 565,
+        "question_text": "How many countries does your company have offices in?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 566,
+        "question_text": "In how many countries does your company have offices?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 597,
+        "hint_order": 1,
+        "hint_text": "Ask about QUANTITY — 'How many countries...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 598,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does your company have', not 'do your company have'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 599,
+        "hint_order": 3,
+        "hint_text": "How many countries does your company have offices in?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "I'd like to change careers in the next two years.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "would like to - future desire",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 38,
+    "accepted_answers": [
+      {
+        "id": 567,
+        "question_text": "What would you like to do in the next two years?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 568,
+        "question_text": "What are your plans for the next two years?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 600,
+        "hint_order": 1,
+        "hint_text": "Ask about DESIRE/PLANS — 'What would you like to do?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 601,
+        "hint_order": 2,
+        "hint_text": "'I'd like to' = 'I would like to'. Question: 'What would you like to do?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 602,
+        "hint_order": 3,
+        "hint_text": "What would you like to do in the next two years?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "level_id": 1,
+    "category_id": 2,
+    "answer_text": "The annual bonus is paid in December.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive voice - present, time",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 39,
+    "accepted_answers": [
+      {
+        "id": 569,
+        "question_text": "When is the annual bonus paid?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 570,
+        "question_text": "What month is the annual bonus paid in?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 603,
+        "hint_order": 1,
+        "hint_text": "Passive — ask WHEN: 'When is it paid?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 604,
+        "hint_order": 2,
+        "hint_text": "Passive present: 'is paid' → 'When is it paid?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 605,
+        "hint_order": 3,
+        "hint_text": "When is the annual bonus paid?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "I need to check in two hours before the flight.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "need to - time, before",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 40,
+    "accepted_answers": [
+      {
+        "id": 571,
+        "question_text": "How early do you need to check in?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 572,
+        "question_text": "How many hours before the flight do you need to check in?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 606,
+        "hint_order": 1,
+        "hint_text": "Ask about TIME — 'How early do you need to...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 607,
+        "hint_order": 2,
+        "hint_text": "'Two hours before' → 'How early' or 'How long before'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 608,
+        "hint_order": 3,
+        "hint_text": "How early do you need to check in?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The hotel is about ten minutes from the city centre.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - distance",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 41,
+    "accepted_answers": [
+      {
+        "id": 573,
+        "question_text": "How far is the hotel from the city centre?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 574,
+        "question_text": "How long does it take to get from the hotel to the city centre?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 609,
+        "hint_order": 1,
+        "hint_text": "Ask about DISTANCE — 'How far is...from...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 610,
+        "hint_order": 2,
+        "hint_text": "'Ten minutes away' describes distance informally.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 611,
+        "hint_order": 3,
+        "hint_text": "How far is the hotel from the city centre?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "I travelled to Tokyo last year for a conference.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - reason, for",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 42,
+    "accepted_answers": [
+      {
+        "id": 575,
+        "question_text": "Why did you travel to Tokyo last year?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 576,
+        "question_text": "What did you go to Tokyo for?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 612,
+        "hint_order": 1,
+        "hint_text": "Ask about REASON — 'Why did you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 613,
+        "hint_order": 2,
+        "hint_text": "'For a conference' gives the reason → 'Why did you travel?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 614,
+        "hint_order": 3,
+        "hint_text": "Why did you travel to Tokyo last year?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The visa takes three weeks to process.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - duration, 3rd person",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 43,
+    "accepted_answers": [
+      {
+        "id": 577,
+        "question_text": "How long does the visa take to process?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 578,
+        "question_text": "How many weeks does the visa take to process?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 615,
+        "hint_order": 1,
+        "hint_text": "Ask about DURATION — 'How long does it take?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 616,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does the visa take', not 'do the visa take'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 617,
+        "hint_order": 3,
+        "hint_text": "How long does the visa take to process?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "She missed her connecting flight because of the delay.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - reason, because of",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 44,
+    "accepted_answers": [
+      {
+        "id": 579,
+        "question_text": "Why did she miss her connecting flight?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 580,
+        "question_text": "What caused her to miss her connecting flight?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 618,
+        "hint_order": 1,
+        "hint_text": "Ask about REASON — 'Why did she miss...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 619,
+        "hint_order": 2,
+        "hint_text": "'Because of the delay' → target reason with 'Why'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 620,
+        "hint_order": 3,
+        "hint_text": "Why did she miss her connecting flight?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "My company pays for business travel expenses.",
+    "context_text": null,
+    "question_type": "WH_WHO",
+    "grammar_focus": "present simple - subject question",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 45,
+    "accepted_answers": [
+      {
+        "id": 581,
+        "question_text": "Who pays for business travel expenses?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 582,
+        "question_text": "Does your company pay for travel expenses?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 621,
+        "hint_order": 1,
+        "hint_text": "Ask about the SUBJECT — 'Who pays...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 622,
+        "hint_order": 2,
+        "hint_text": "Subject question: 'Who pays' (no auxiliary 'does').",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 623,
+        "hint_order": 3,
+        "hint_text": "Who pays for business travel expenses?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The conference lasts three days.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - duration, 3rd person",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 46,
+    "accepted_answers": [
+      {
+        "id": 583,
+        "question_text": "How long does the conference last?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 584,
+        "question_text": "How many days does the conference last?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 624,
+        "hint_order": 1,
+        "hint_text": "Ask about DURATION — 'How long does it last?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 625,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does the conference last'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 626,
+        "hint_order": 3,
+        "hint_text": "How long does the conference last?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "I always get a local SIM card when I travel abroad.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - habit, always",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 47,
+    "accepted_answers": [
+      {
+        "id": 585,
+        "question_text": "What do you always get when you travel abroad?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 586,
+        "question_text": "What do you do when you travel abroad?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 627,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What do you always get...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 628,
+        "hint_order": 2,
+        "hint_text": "'Always' is a frequency adverb — keep focus on the object.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 629,
+        "hint_order": 3,
+        "hint_text": "What do you always get when you travel abroad?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "We shared a taxi from the airport to the hotel.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - transport",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 48,
+    "accepted_answers": [
+      {
+        "id": 587,
+        "question_text": "How did you get from the airport to the hotel?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 588,
+        "question_text": "What did you take from the airport to the hotel?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 630,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did you get from...to...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 631,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did you get' or 'did you take'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 632,
+        "hint_order": 3,
+        "hint_text": "How did you get from the airport to the hotel?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "The best time to visit Brazil is between June and September.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - best time",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 49,
+    "accepted_answers": [
+      {
+        "id": 589,
+        "question_text": "When is the best time to visit Brazil?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 590,
+        "question_text": "What time of year is best to visit Brazil?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 633,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When is the best time to...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 634,
+        "hint_order": 2,
+        "hint_text": "'Between June and September' answers 'When?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 635,
+        "hint_order": 3,
+        "hint_text": "When is the best time to visit Brazil?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "level_id": 1,
+    "category_id": 3,
+    "answer_text": "I booked a window seat on the flight.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question",
+    "difficulty_score": 1,
+    "xp_reward": 10,
+    "sort_order": 50,
+    "accepted_answers": [
+      {
+        "id": 591,
+        "question_text": "What seat did you book?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 592,
+        "question_text": "Where did you sit on the flight?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 636,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What seat did you book?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 637,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did you book' targets the object.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 638,
+        "hint_order": 3,
+        "hint_text": "What seat did you book?",
+        "hint_type": "answer"
+      }
+    ]
   }
 ]

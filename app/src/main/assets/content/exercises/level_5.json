@@ -1,126 +1,1246 @@
 [
   {
-    "id": 401, "level_id": 5, "category_id": 13,
+    "id": 401,
+    "level_id": 5,
+    "category_id": 13,
     "answer_text": "The sprint velocity has dropped because two developers are on leave.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "present perfect - agile metrics",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present perfect - agile metrics",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 401, "question_text": "Why has the sprint velocity dropped?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 402, "question_text": "Why did the sprint velocity drop?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 401,
+        "question_text": "Why has the sprint velocity dropped?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 402,
+        "question_text": "Why did the sprint velocity drop?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 401, "hint_order": 1, "hint_text": "Ask why a metric has changed.", "hint_type": "structural" },
-      { "id": 402, "hint_order": 2, "hint_text": "Use 'Why has the sprint velocity dropped?'", "hint_type": "vocabulary" },
-      { "id": 403, "hint_order": 3, "hint_text": "Why has the sprint velocity dropped?", "hint_type": "answer" }
+      {
+        "id": 401,
+        "hint_order": 1,
+        "hint_text": "Ask why a metric has changed.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 402,
+        "hint_order": 2,
+        "hint_text": "Use 'Why has the sprint velocity dropped?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 403,
+        "hint_order": 3,
+        "hint_text": "Why has the sprint velocity dropped?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 402, "level_id": 5, "category_id": 13,
+    "id": 402,
+    "level_id": 5,
+    "category_id": 13,
     "answer_text": "The backlog refinement meeting is held every Wednesday afternoon.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "present simple passive - recurring meetings",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple passive - recurring meetings",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 403, "question_text": "When is the backlog refinement meeting held?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 404, "question_text": "When does the backlog refinement happen?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 403,
+        "question_text": "When is the backlog refinement meeting held?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 404,
+        "question_text": "When does the backlog refinement happen?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 404, "hint_order": 1, "hint_text": "Ask about when a recurring event takes place.", "hint_type": "structural" },
-      { "id": 405, "hint_order": 2, "hint_text": "Use 'When is ... held?' (passive) or 'When does ... happen?'", "hint_type": "vocabulary" },
-      { "id": 406, "hint_order": 3, "hint_text": "When is the backlog refinement meeting held?", "hint_type": "answer" }
+      {
+        "id": 404,
+        "hint_order": 1,
+        "hint_text": "Ask about when a recurring event takes place.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 405,
+        "hint_order": 2,
+        "hint_text": "Use 'When is ... held?' (passive) or 'When does ... happen?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 406,
+        "hint_order": 3,
+        "hint_text": "When is the backlog refinement meeting held?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 403, "level_id": 5, "category_id": 13,
+    "id": 403,
+    "level_id": 5,
+    "category_id": 13,
     "answer_text": "We should have completed the epic by the end of Q3.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "modal perfect - project management",
-    "difficulty_score": 7, "xp_reward": 40, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "modal perfect - project management",
+    "difficulty_score": 7,
+    "xp_reward": 40,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 405, "question_text": "When should we have completed the epic?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 406, "question_text": "By when should the epic have been completed?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 405,
+        "question_text": "When should we have completed the epic?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 406,
+        "question_text": "By when should the epic have been completed?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 407, "hint_order": 1, "hint_text": "Ask about a deadline using modal perfect.", "hint_type": "structural" },
-      { "id": 408, "hint_order": 2, "hint_text": "Use 'When should we have completed...?'", "hint_type": "vocabulary" },
-      { "id": 409, "hint_order": 3, "hint_text": "When should we have completed the epic?", "hint_type": "answer" }
+      {
+        "id": 407,
+        "hint_order": 1,
+        "hint_text": "Ask about a deadline using modal perfect.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 408,
+        "hint_order": 2,
+        "hint_text": "Use 'When should we have completed...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 409,
+        "hint_order": 3,
+        "hint_text": "When should we have completed the epic?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 404, "level_id": 5, "category_id": 14,
+    "id": 404,
+    "level_id": 5,
+    "category_id": 14,
     "answer_text": "The SLO for that service is 99.9% uptime per month.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - SRE terminology",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - SRE terminology",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 407, "question_text": "What is the SLO for that service?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 408, "question_text": "What's the SLO for that service?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 407,
+        "question_text": "What is the SLO for that service?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 408,
+        "question_text": "What's the SLO for that service?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 410, "hint_order": 1, "hint_text": "Ask about a service level objective.", "hint_type": "structural" },
-      { "id": 411, "hint_order": 2, "hint_text": "Use 'What is/What's the SLO for...?'", "hint_type": "vocabulary" },
-      { "id": 412, "hint_order": 3, "hint_text": "What is the SLO for that service?", "hint_type": "answer" }
+      {
+        "id": 410,
+        "hint_order": 1,
+        "hint_text": "Ask about a service level objective.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 411,
+        "hint_order": 2,
+        "hint_text": "Use 'What is/What's the SLO for...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 412,
+        "hint_order": 3,
+        "hint_text": "What is the SLO for that service?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 405, "level_id": 5, "category_id": 14,
+    "id": 405,
+    "level_id": 5,
+    "category_id": 14,
     "answer_text": "The incident was caused by a misconfigured load balancer.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "past simple passive - incident management",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple passive - incident management",
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 409, "question_text": "What caused the incident?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 410, "question_text": "What was the incident caused by?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 409,
+        "question_text": "What caused the incident?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 410,
+        "question_text": "What was the incident caused by?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 413, "hint_order": 1, "hint_text": "Ask about the cause of an incident.", "hint_type": "structural" },
-      { "id": 414, "hint_order": 2, "hint_text": "Use 'What caused the incident?' or 'What was it caused by?'", "hint_type": "vocabulary" },
-      { "id": 415, "hint_order": 3, "hint_text": "What caused the incident?", "hint_type": "answer" }
+      {
+        "id": 413,
+        "hint_order": 1,
+        "hint_text": "Ask about the cause of an incident.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 414,
+        "hint_order": 2,
+        "hint_text": "Use 'What caused the incident?' or 'What was it caused by?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 415,
+        "hint_order": 3,
+        "hint_text": "What caused the incident?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 406, "level_id": 5, "category_id": 15,
+    "id": 406,
+    "level_id": 5,
+    "category_id": 15,
     "answer_text": "Services communicate asynchronously via a message broker like Kafka.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present simple - async messaging",
-    "difficulty_score": 7, "xp_reward": 40, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - async messaging",
+    "difficulty_score": 7,
+    "xp_reward": 40,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 411, "question_text": "How do the services communicate?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 412, "question_text": "How do microservices communicate with each other?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 411,
+        "question_text": "How do the services communicate?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 412,
+        "question_text": "How do microservices communicate with each other?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 416, "hint_order": 1, "hint_text": "Ask about the communication method.", "hint_type": "structural" },
-      { "id": 417, "hint_order": 2, "hint_text": "Use 'How do the services communicate?'", "hint_type": "vocabulary" },
-      { "id": 418, "hint_order": 3, "hint_text": "How do the services communicate?", "hint_type": "answer" }
+      {
+        "id": 416,
+        "hint_order": 1,
+        "hint_text": "Ask about the communication method.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 417,
+        "hint_order": 2,
+        "hint_text": "Use 'How do the services communicate?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 418,
+        "hint_order": 3,
+        "hint_text": "How do the services communicate?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 407, "level_id": 5, "category_id": 15,
+    "id": 407,
+    "level_id": 5,
+    "category_id": 15,
     "answer_text": "The service mesh handles service discovery, load balancing, and observability.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - service mesh",
-    "difficulty_score": 7, "xp_reward": 40, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - service mesh",
+    "difficulty_score": 7,
+    "xp_reward": 40,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 413, "question_text": "What does the service mesh handle?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 414, "question_text": "What is the service mesh responsible for?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 413,
+        "question_text": "What does the service mesh handle?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 414,
+        "question_text": "What is the service mesh responsible for?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 419, "hint_order": 1, "hint_text": "Ask about responsibilities of a component.", "hint_type": "structural" },
-      { "id": 420, "hint_order": 2, "hint_text": "Use 'What does the service mesh handle?'", "hint_type": "vocabulary" },
-      { "id": 421, "hint_order": 3, "hint_text": "What does the service mesh handle?", "hint_type": "answer" }
+      {
+        "id": 419,
+        "hint_order": 1,
+        "hint_text": "Ask about responsibilities of a component.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 420,
+        "hint_order": 2,
+        "hint_text": "Use 'What does the service mesh handle?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 421,
+        "hint_order": 3,
+        "hint_text": "What does the service mesh handle?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 408, "level_id": 5, "category_id": 13,
+    "id": 408,
+    "level_id": 5,
+    "category_id": 13,
     "answer_text": "It depends on the team's capacity and the priority of the items.",
     "context_text": "A: How many story points can we commit to this sprint?",
     "question_type": "WH_WHAT",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "What does the sprint commitment depend on?",
     "grammar_focus": "present simple - explaining dependencies in agile",
-    "difficulty_score": 6, "xp_reward": 35, "sort_order": 4,
+    "difficulty_score": 6,
+    "xp_reward": 35,
+    "sort_order": 4,
     "accepted_answers": [
-      { "id": 415, "question_text": "It depends on the team's capacity and priorities.", "is_primary": true, "match_threshold": 0.75 },
-      { "id": 416, "question_text": "It depends on capacity and item priority.", "is_primary": false, "match_threshold": 0.75 }
+      {
+        "id": 415,
+        "question_text": "It depends on the team's capacity and priorities.",
+        "is_primary": true,
+        "match_threshold": 0.75
+      },
+      {
+        "id": 416,
+        "question_text": "It depends on capacity and item priority.",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
     ],
     "hints": [
-      { "id": 422, "hint_order": 1, "hint_text": "Use 'It depends on...' to explain factors.", "hint_type": "structural" },
-      { "id": 423, "hint_order": 2, "hint_text": "Mention team capacity and priority.", "hint_type": "vocabulary" },
-      { "id": 424, "hint_order": 3, "hint_text": "It depends on the team's capacity and the priority.", "hint_type": "answer" }
+      {
+        "id": 422,
+        "hint_order": 1,
+        "hint_text": "Use 'It depends on...' to explain factors.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 423,
+        "hint_order": 2,
+        "hint_text": "Mention team capacity and priority.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 424,
+        "hint_order": 3,
+        "hint_text": "It depends on the team's capacity and the priority.",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "The sprint was extended because the team underestimated the complexity.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "passive - past, reason",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 739,
+        "question_text": "Why was the sprint extended?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 740,
+        "question_text": "What caused the sprint extension?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 858,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why was the sprint extended?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 859,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was extended'. Reason: 'because the team underestimated complexity'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 860,
+        "hint_order": 3,
+        "hint_text": "Why was the sprint extended?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "We hold a retrospective at the end of every sprint to identify improvements.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 741,
+        "question_text": "Why do you hold a retrospective?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 742,
+        "question_text": "What is the purpose of the retrospective?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 861,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you hold a retrospective?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 862,
+        "hint_order": 2,
+        "hint_text": "'To identify improvements' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 863,
+        "hint_order": 3,
+        "hint_text": "Why do you hold a retrospective?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "The velocity dropped by twenty percent due to technical debt.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - reason, cause",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 743,
+        "question_text": "Why did velocity drop?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 744,
+        "question_text": "What caused the drop in velocity?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 864,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why did velocity drop?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 865,
+        "hint_order": 2,
+        "hint_text": "'Due to technical debt' = the reason/cause. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 866,
+        "hint_order": 3,
+        "hint_text": "Why did velocity drop?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "We use Kanban to visualise the workflow and limit work in progress.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - purpose, tool",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 745,
+        "question_text": "What do you use Kanban for?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 746,
+        "question_text": "Why do you use Kanban?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 867,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT FOR — 'What do you use Kanban for?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 868,
+        "hint_order": 2,
+        "hint_text": "'Use X to do Y' → 'What do you use X for?' targets the purpose.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 869,
+        "hint_order": 3,
+        "hint_text": "What do you use Kanban for?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "The feature was deprioritised in favour of a critical bug fix.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "passive - past, reason",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 747,
+        "question_text": "Why was the feature deprioritised?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 748,
+        "question_text": "What caused the feature to be deprioritised?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 870,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why was the feature deprioritised?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 871,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was deprioritised'. Reason: 'in favour of a bug fix'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 872,
+        "hint_order": 3,
+        "hint_text": "Why was the feature deprioritised?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "We track our progress using a burndown chart.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 749,
+        "question_text": "How do you track progress?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 750,
+        "question_text": "What tool do you use to track progress?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 873,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you track progress?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 874,
+        "hint_order": 2,
+        "hint_text": "'Using a burndown chart' = the method. 'How' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 875,
+        "hint_order": 3,
+        "hint_text": "How do you track progress?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "She negotiated the deadline with the client by showing the impact on quality.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method, by + gerund",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 751,
+        "question_text": "How did she negotiate the deadline?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 752,
+        "question_text": "What approach did she use to negotiate the deadline?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 876,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did she negotiate...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 877,
+        "hint_order": 2,
+        "hint_text": "'By showing the impact' = the method. 'By + gerund' expresses means.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 878,
+        "hint_order": 3,
+        "hint_text": "How did she negotiate the deadline?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "level_id": 5,
+    "category_id": 13,
+    "answer_text": "The project was delivered two weeks early by removing scope creep.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "passive - past, method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 753,
+        "question_text": "How was the project delivered early?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 754,
+        "question_text": "Why was the project completed ahead of schedule?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 879,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How was the project delivered early?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 880,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was delivered'. 'By removing scope creep' = the method.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 881,
+        "hint_order": 3,
+        "hint_text": "How was the project delivered early?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "Our service has an error budget of 0.1 percent per month.",
+    "context_text": null,
+    "question_type": "WH_HOW,HOW_MUCH",
+    "grammar_focus": "present simple - specification",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 755,
+        "question_text": "How much error budget does your service have per month?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 756,
+        "question_text": "What is your service's monthly error budget?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 882,
+        "hint_order": 1,
+        "hint_text": "Ask HOW MUCH — 'How much error budget does your service have?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 883,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does your service have'. 'How much' targets quantity.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 884,
+        "hint_order": 3,
+        "hint_text": "How much error budget does your service have per month?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "We define reliability targets using Service Level Objectives.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - method/tool",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 757,
+        "question_text": "How do you define reliability targets?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 758,
+        "question_text": "What do you use to define reliability targets?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 885,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you define reliability targets?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 886,
+        "hint_order": 2,
+        "hint_text": "'Using Service Level Objectives' = the method.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 887,
+        "hint_order": 3,
+        "hint_text": "How do you define reliability targets?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "We aim to resolve P1 incidents within fifteen minutes.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - target, time",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 759,
+        "question_text": "How long do you aim to resolve P1 incidents within?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 760,
+        "question_text": "What is your target resolution time for P1 incidents?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 888,
+        "hint_order": 1,
+        "hint_text": "Ask HOW LONG — 'How long do you aim to resolve P1s within?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 889,
+        "hint_order": 2,
+        "hint_text": "'Within fifteen minutes' = time target. 'How long' targets duration.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 890,
+        "hint_order": 3,
+        "hint_text": "How long do you aim to resolve P1 incidents within?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "He implemented a feature flag to safely roll out the new service.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object/purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 761,
+        "question_text": "What did he implement?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 762,
+        "question_text": "Why did he implement a feature flag?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 891,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he implement?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 892,
+        "hint_order": 2,
+        "hint_text": "'Implement X to do Y' → 'What did he implement?' (the thing created).",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 893,
+        "hint_order": 3,
+        "hint_text": "What did he implement?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "She configured synthetic monitoring to detect issues before users do.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object/purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 763,
+        "question_text": "What did she configure?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 764,
+        "question_text": "Why did she configure synthetic monitoring?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 894,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she configure?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 895,
+        "hint_order": 2,
+        "hint_text": "Both 'what' and 'why' are valid. 'Why' targets 'to detect issues before users'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 896,
+        "hint_order": 3,
+        "hint_text": "What did she configure?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "level_id": 5,
+    "category_id": 14,
+    "answer_text": "We eliminated toil by scripting the manual deployment steps.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method, by + gerund",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 765,
+        "question_text": "How did you eliminate toil?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 766,
+        "question_text": "What did you do to eliminate toil?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 897,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did you eliminate toil?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 898,
+        "hint_order": 2,
+        "hint_text": "'By scripting the steps' = the method. 'By + gerund' = the means.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 899,
+        "hint_order": 3,
+        "hint_text": "How did you eliminate toil?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "level_id": 5,
+    "category_id": 15,
+    "answer_text": "Each microservice owns its own database to avoid tight coupling.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose, 3rd person",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 767,
+        "question_text": "Why does each microservice own its own database?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 768,
+        "question_text": "What is the reason for each microservice having its own database?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 900,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why does each microservice own its own database?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 901,
+        "hint_order": 2,
+        "hint_text": "'To avoid tight coupling' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 902,
+        "hint_order": 3,
+        "hint_text": "Why does each microservice own its own database?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "level_id": 5,
+    "category_id": 15,
+    "answer_text": "We use gRPC for internal service communication because of its performance.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - tool/reason",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 769,
+        "question_text": "What do you use for internal service communication?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 770,
+        "question_text": "Why do you use gRPC?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 903,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What do you use for internal service communication?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 904,
+        "hint_order": 2,
+        "hint_text": "'Use X for Y' → 'What do you use for Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 905,
+        "hint_order": 3,
+        "hint_text": "What do you use for internal service communication?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "level_id": 5,
+    "category_id": 15,
+    "answer_text": "She decomposed the monolith into eight independent services.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "past simple - quantity result",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 771,
+        "question_text": "Into how many services did she decompose the monolith?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 772,
+        "question_text": "How many independent services did she create from the monolith?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 906,
+        "hint_order": 1,
+        "hint_text": "Ask HOW MANY — 'Into how many services did she decompose it?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 907,
+        "hint_order": 2,
+        "hint_text": "'Into eight services' = the result. 'How many' targets the number.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 908,
+        "hint_order": 3,
+        "hint_text": "Into how many services did she decompose the monolith?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "level_id": 5,
+    "category_id": 15,
+    "answer_text": "We version our APIs to maintain backward compatibility with older clients.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 773,
+        "question_text": "Why do you version your APIs?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 774,
+        "question_text": "What is the purpose of API versioning?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 909,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you version your APIs?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 910,
+        "hint_order": 2,
+        "hint_text": "'To maintain backward compatibility' = the purpose. Use 'Why'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 911,
+        "hint_order": 3,
+        "hint_text": "Why do you version your APIs?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "level_id": 5,
+    "category_id": 15,
+    "answer_text": "He used distributed tracing to identify the bottleneck across services.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - tool/method",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 775,
+        "question_text": "What did he use to identify the bottleneck?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 776,
+        "question_text": "How did he identify the bottleneck across services?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 912,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT TOOL — 'What did he use to identify...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 913,
+        "hint_order": 2,
+        "hint_text": "'Used X to do Y' → 'What did he use to do Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 914,
+        "hint_order": 3,
+        "hint_text": "What did he use to identify the bottleneck?",
+        "hint_type": "answer"
+      }
     ]
   }
 ]

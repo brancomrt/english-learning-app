@@ -1,204 +1,1714 @@
 [
   {
-    "id": 201, "level_id": 3, "category_id": 7,
+    "id": 201,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "The bug was introduced in the last commit.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "passive voice - past simple",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive voice - past simple",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 201, "question_text": "When was the bug introduced?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 202, "question_text": "When did the bug appear?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 201,
+        "question_text": "When was the bug introduced?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 202,
+        "question_text": "When did the bug appear?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 201, "hint_order": 1, "hint_text": "Ask when something happened in the past (passive).", "hint_type": "structural" },
-      { "id": 202, "hint_order": 2, "hint_text": "Use 'When was the bug...?'", "hint_type": "vocabulary" },
-      { "id": 203, "hint_order": 3, "hint_text": "When was the bug introduced?", "hint_type": "answer" }
+      {
+        "id": 201,
+        "hint_order": 1,
+        "hint_text": "Ask when something happened in the past (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 202,
+        "hint_order": 2,
+        "hint_text": "Use 'When was the bug...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 203,
+        "hint_order": 3,
+        "hint_text": "When was the bug introduced?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 202, "level_id": 3, "category_id": 7,
+    "id": 202,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "The function returns a list of user objects.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - code documentation",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - code documentation",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 203, "question_text": "What does the function return?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 204, "question_text": "What does this function return?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 203,
+        "question_text": "What does the function return?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 204,
+        "question_text": "What does this function return?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 204, "hint_order": 1, "hint_text": "Ask about what a function returns.", "hint_type": "structural" },
-      { "id": 205, "hint_order": 2, "hint_text": "Use 'What does the function return?'", "hint_type": "vocabulary" },
-      { "id": 206, "hint_order": 3, "hint_text": "What does the function return?", "hint_type": "answer" }
+      {
+        "id": 204,
+        "hint_order": 1,
+        "hint_text": "Ask about what a function returns.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 205,
+        "hint_order": 2,
+        "hint_text": "Use 'What does the function return?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 206,
+        "hint_order": 3,
+        "hint_text": "What does the function return?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 203, "level_id": 3, "category_id": 7,
+    "id": 203,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "We use Git for version control.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - tools",
-    "difficulty_score": 3, "xp_reward": 20, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - tools",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 205, "question_text": "What do you use for version control?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 206, "question_text": "What tool do you use for version control?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 205,
+        "question_text": "What do you use for version control?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 206,
+        "question_text": "What tool do you use for version control?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 207, "hint_order": 1, "hint_text": "Ask about what tool is used.", "hint_type": "structural" },
-      { "id": 208, "hint_order": 2, "hint_text": "Use 'What do you use for...?'", "hint_type": "vocabulary" },
-      { "id": 209, "hint_order": 3, "hint_text": "What do you use for version control?", "hint_type": "answer" }
+      {
+        "id": 207,
+        "hint_order": 1,
+        "hint_text": "Ask about what tool is used.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 208,
+        "hint_order": 2,
+        "hint_text": "Use 'What do you use for...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 209,
+        "hint_order": 3,
+        "hint_text": "What do you use for version control?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 204, "level_id": 3, "category_id": 7,
+    "id": 204,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "The pull request has been open for three days.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present perfect - duration",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 4,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present perfect - duration",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 4,
     "accepted_answers": [
-      { "id": 207, "question_text": "How long has the pull request been open?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 208, "question_text": "How long has the PR been open?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 207,
+        "question_text": "How long has the pull request been open?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 208,
+        "question_text": "How long has the PR been open?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 210, "hint_order": 1, "hint_text": "Ask about duration using 'How long has ... been'.", "hint_type": "structural" },
-      { "id": 211, "hint_order": 2, "hint_text": "Use present perfect: 'How long has the PR been open?'", "hint_type": "vocabulary" },
-      { "id": 212, "hint_order": 3, "hint_text": "How long has the pull request been open?", "hint_type": "answer" }
+      {
+        "id": 210,
+        "hint_order": 1,
+        "hint_text": "Ask about duration using 'How long has ... been'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 211,
+        "hint_order": 2,
+        "hint_text": "Use present perfect: 'How long has the PR been open?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 212,
+        "hint_order": 3,
+        "hint_text": "How long has the pull request been open?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 205, "level_id": 3, "category_id": 7,
+    "id": 205,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "The code review should be done by end of day.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "modal verbs - should, deadlines",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 5,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "modal verbs - should, deadlines",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 5,
     "accepted_answers": [
-      { "id": 209, "question_text": "When should the code review be done?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 210, "question_text": "When should the review be completed?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 209,
+        "question_text": "When should the code review be done?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 210,
+        "question_text": "When should the review be completed?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 213, "hint_order": 1, "hint_text": "Ask about a deadline using 'should'.", "hint_type": "structural" },
-      { "id": 214, "hint_order": 2, "hint_text": "Use 'When should ... be done?'", "hint_type": "vocabulary" },
-      { "id": 215, "hint_order": 3, "hint_text": "When should the code review be done?", "hint_type": "answer" }
+      {
+        "id": 213,
+        "hint_order": 1,
+        "hint_text": "Ask about a deadline using 'should'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 214,
+        "hint_order": 2,
+        "hint_text": "Use 'When should ... be done?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 215,
+        "hint_order": 3,
+        "hint_text": "When should the code review be done?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 206, "level_id": 3, "category_id": 8,
+    "id": 206,
+    "level_id": 3,
+    "category_id": 8,
     "answer_text": "The query runs slowly because there is no index on that column.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "present simple - performance",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - performance",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 211, "question_text": "Why does the query run slowly?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 212, "question_text": "Why is the query slow?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 211,
+        "question_text": "Why does the query run slowly?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 212,
+        "question_text": "Why is the query slow?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 216, "hint_order": 1, "hint_text": "Ask for the cause of a performance issue.", "hint_type": "structural" },
-      { "id": 217, "hint_order": 2, "hint_text": "Use 'Why does the query run slowly?'", "hint_type": "vocabulary" },
-      { "id": 218, "hint_order": 3, "hint_text": "Why does the query run slowly?", "hint_type": "answer" }
+      {
+        "id": 216,
+        "hint_order": 1,
+        "hint_text": "Ask for the cause of a performance issue.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 217,
+        "hint_order": 2,
+        "hint_text": "Use 'Why does the query run slowly?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 218,
+        "hint_order": 3,
+        "hint_text": "Why does the query run slowly?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 207, "level_id": 3, "category_id": 8,
+    "id": 207,
+    "level_id": 3,
+    "category_id": 8,
     "answer_text": "We have over ten million records in the users table.",
-    "context_text": null, "question_type": "WH_HOW_MANY", "grammar_focus": "present simple - database scale",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "present simple - database scale",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 213, "question_text": "How many records are in the users table?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 214, "question_text": "How many records does the users table have?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 213,
+        "question_text": "How many records are in the users table?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 214,
+        "question_text": "How many records does the users table have?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 219, "hint_order": 1, "hint_text": "Ask about quantity in a database table.", "hint_type": "structural" },
-      { "id": 220, "hint_order": 2, "hint_text": "Use 'How many records are in...?'", "hint_type": "vocabulary" },
-      { "id": 221, "hint_order": 3, "hint_text": "How many records are in the users table?", "hint_type": "answer" }
+      {
+        "id": 219,
+        "hint_order": 1,
+        "hint_text": "Ask about quantity in a database table.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 220,
+        "hint_order": 2,
+        "hint_text": "Use 'How many records are in...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 221,
+        "hint_order": 3,
+        "hint_text": "How many records are in the users table?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 208, "level_id": 3, "category_id": 8,
+    "id": 208,
+    "level_id": 3,
+    "category_id": 8,
     "answer_text": "The migration was rolled back because it broke the foreign key constraint.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple passive - database",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple passive - database",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 215, "question_text": "Why was the migration rolled back?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 216, "question_text": "Why did they roll back the migration?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 215,
+        "question_text": "Why was the migration rolled back?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 216,
+        "question_text": "Why did they roll back the migration?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 222, "hint_order": 1, "hint_text": "Ask why a past action was taken.", "hint_type": "structural" },
-      { "id": 223, "hint_order": 2, "hint_text": "Use 'Why was the migration rolled back?'", "hint_type": "vocabulary" },
-      { "id": 224, "hint_order": 3, "hint_text": "Why was the migration rolled back?", "hint_type": "answer" }
+      {
+        "id": 222,
+        "hint_order": 1,
+        "hint_text": "Ask why a past action was taken.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 223,
+        "hint_order": 2,
+        "hint_text": "Use 'Why was the migration rolled back?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 224,
+        "hint_order": 3,
+        "hint_text": "Why was the migration rolled back?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 209, "level_id": 3, "category_id": 9,
+    "id": 209,
+    "level_id": 3,
+    "category_id": 9,
     "answer_text": "We store the backups in an S3 bucket on AWS.",
-    "context_text": null, "question_type": "WH_WHERE", "grammar_focus": "present simple - cloud storage",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - cloud storage",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 217, "question_text": "Where do you store the backups?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 218, "question_text": "Where are the backups stored?", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 217,
+        "question_text": "Where do you store the backups?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 218,
+        "question_text": "Where are the backups stored?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 225, "hint_order": 1, "hint_text": "Ask about location of storage.", "hint_type": "structural" },
-      { "id": 226, "hint_order": 2, "hint_text": "Use 'Where do you store...' or 'Where are ... stored?'", "hint_type": "vocabulary" },
-      { "id": 227, "hint_order": 3, "hint_text": "Where do you store the backups?", "hint_type": "answer" }
+      {
+        "id": 225,
+        "hint_order": 1,
+        "hint_text": "Ask about location of storage.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 226,
+        "hint_order": 2,
+        "hint_text": "Use 'Where do you store...' or 'Where are ... stored?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 227,
+        "hint_order": 3,
+        "hint_text": "Where do you store the backups?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 210, "level_id": 3, "category_id": 9,
+    "id": 210,
+    "level_id": 3,
+    "category_id": 9,
     "answer_text": "The cloud instance will be scaled up during peak hours.",
-    "context_text": null, "question_type": "WH_WHEN", "grammar_focus": "future passive - cloud scaling",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "future passive - cloud scaling",
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 219, "question_text": "When will the cloud instance be scaled up?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 220, "question_text": "When will it be scaled up?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 219,
+        "question_text": "When will the cloud instance be scaled up?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 220,
+        "question_text": "When will it be scaled up?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 228, "hint_order": 1, "hint_text": "Ask about timing of a future event (passive).", "hint_type": "structural" },
-      { "id": 229, "hint_order": 2, "hint_text": "Use 'When will ... be scaled up?'", "hint_type": "vocabulary" },
-      { "id": 230, "hint_order": 3, "hint_text": "When will the instance be scaled up?", "hint_type": "answer" }
+      {
+        "id": 228,
+        "hint_order": 1,
+        "hint_text": "Ask about timing of a future event (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 229,
+        "hint_order": 2,
+        "hint_text": "Use 'When will ... be scaled up?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 230,
+        "hint_order": 3,
+        "hint_text": "When will the instance be scaled up?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 211, "level_id": 3, "category_id": 9,
+    "id": 211,
+    "level_id": 3,
+    "category_id": 9,
     "answer_text": "We use Terraform to provision infrastructure as code.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "present simple - IaC tools",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 3,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - IaC tools",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 221, "question_text": "What do you use to provision infrastructure as code?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 222, "question_text": "What tool do you use for IaC?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 221,
+        "question_text": "What do you use to provision infrastructure as code?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 222,
+        "question_text": "What tool do you use for IaC?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 231, "hint_order": 1, "hint_text": "Ask about the tool used for IaC.", "hint_type": "structural" },
-      { "id": 232, "hint_order": 2, "hint_text": "Use 'What do you use to...?'", "hint_type": "vocabulary" },
-      { "id": 233, "hint_order": 3, "hint_text": "What do you use to provision...?", "hint_type": "answer" }
+      {
+        "id": 231,
+        "hint_order": 1,
+        "hint_text": "Ask about the tool used for IaC.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 232,
+        "hint_order": 2,
+        "hint_text": "Use 'What do you use to...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 233,
+        "hint_order": 3,
+        "hint_text": "What do you use to provision...?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 212, "level_id": 3, "category_id": 7,
+    "id": 212,
+    "level_id": 3,
+    "category_id": 7,
     "answer_text": "Yes, I've merged the branch into main.",
-    "context_text": null, "question_type": "YES_NO",
+    "context_text": null,
+    "question_type": "YES_NO",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "Have you merged the branch yet?",
     "grammar_focus": "present perfect - merge, short answers",
-    "difficulty_score": 4, "xp_reward": 25, "sort_order": 6,
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 6,
     "accepted_answers": [
-      { "id": 223, "question_text": "Yes, I have.", "is_primary": true, "match_threshold": 0.90 },
-      { "id": 224, "question_text": "Yes, I've already merged it.", "is_primary": false, "match_threshold": 0.85 },
-      { "id": 225, "question_text": "Yes, I have merged it.", "is_primary": false, "match_threshold": 0.85 }
+      {
+        "id": 223,
+        "question_text": "Yes, I have.",
+        "is_primary": true,
+        "match_threshold": 0.9
+      },
+      {
+        "id": 224,
+        "question_text": "Yes, I've already merged it.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 225,
+        "question_text": "Yes, I have merged it.",
+        "is_primary": false,
+        "match_threshold": 0.85
+      }
     ],
     "hints": [
-      { "id": 234, "hint_order": 1, "hint_text": "Answer with present perfect short form.", "hint_type": "structural" },
-      { "id": 235, "hint_order": 2, "hint_text": "Positive: 'Yes, I have.' or 'Yes, I've merged it.'", "hint_type": "vocabulary" },
-      { "id": 236, "hint_order": 3, "hint_text": "Yes, I have. / Yes, I've merged it.", "hint_type": "answer" }
+      {
+        "id": 234,
+        "hint_order": 1,
+        "hint_text": "Answer with present perfect short form.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 235,
+        "hint_order": 2,
+        "hint_text": "Positive: 'Yes, I have.' or 'Yes, I've merged it.'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 236,
+        "hint_order": 3,
+        "hint_text": "Yes, I have. / Yes, I've merged it.",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 213, "level_id": 3, "category_id": 8,
+    "id": 213,
+    "level_id": 3,
+    "category_id": 8,
     "answer_text": "It depends on the query complexity and table size.",
-    "context_text": "A: How long will the query take?", "question_type": "WH_WHAT",
+    "context_text": "A: How long will the query take?",
+    "question_type": "WH_WHAT",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "What does the query performance depend on?",
     "grammar_focus": "present simple - explaining dependencies",
-    "difficulty_score": 5, "xp_reward": 30, "sort_order": 4,
+    "difficulty_score": 5,
+    "xp_reward": 30,
+    "sort_order": 4,
     "accepted_answers": [
-      { "id": 226, "question_text": "It depends on the query complexity and table size.", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 227, "question_text": "It depends on complexity and table size.", "is_primary": false, "match_threshold": 0.75 }
+      {
+        "id": 226,
+        "question_text": "It depends on the query complexity and table size.",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 227,
+        "question_text": "It depends on complexity and table size.",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
     ],
     "hints": [
-      { "id": 237, "hint_order": 1, "hint_text": "Use 'It depends on...' to explain dependencies.", "hint_type": "structural" },
-      { "id": 238, "hint_order": 2, "hint_text": "'It depends on' is the key phrase here.", "hint_type": "vocabulary" },
-      { "id": 239, "hint_order": 3, "hint_text": "It depends on...", "hint_type": "answer" }
+      {
+        "id": 237,
+        "hint_order": 1,
+        "hint_text": "Use 'It depends on...' to explain dependencies.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 238,
+        "hint_order": 2,
+        "hint_text": "'It depends on' is the key phrase here.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 239,
+        "hint_order": 3,
+        "hint_text": "It depends on...",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "We use Git for version control.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - tool",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 645,
+        "question_text": "What do you use for version control?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 646,
+        "question_text": "How do you manage version control?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 717,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT TOOL — 'What do you use for...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 718,
+        "hint_order": 2,
+        "hint_text": "'Use X for Y' → 'What do you use for Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 719,
+        "hint_order": 3,
+        "hint_text": "What do you use for version control?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "The bug was introduced in the last commit.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "passive - past, time",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 647,
+        "question_text": "When was the bug introduced?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 648,
+        "question_text": "Which commit introduced the bug?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 720,
+        "hint_order": 1,
+        "hint_text": "Passive — ask WHEN: 'When was it introduced?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 721,
+        "hint_order": 2,
+        "hint_text": "'Was introduced' is past passive. 'When was it introduced?' works naturally.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 722,
+        "hint_order": 3,
+        "hint_text": "When was the bug introduced?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "We deploy new features every two weeks.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - frequency",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 649,
+        "question_text": "How often do you deploy new features?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 650,
+        "question_text": "When do you deploy new features?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 723,
+        "hint_order": 1,
+        "hint_text": "Ask about FREQUENCY — 'How often do you...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 724,
+        "hint_order": 2,
+        "hint_text": "'Every two weeks' = a regular frequency. Use 'How often'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 725,
+        "hint_order": 3,
+        "hint_text": "How often do you deploy new features?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "He refactored the authentication module to improve performance.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - purpose, to-infinitive",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 651,
+        "question_text": "Why did he refactor the authentication module?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 652,
+        "question_text": "What was the purpose of refactoring the authentication module?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 726,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — the purpose is 'to improve performance'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 727,
+        "hint_order": 2,
+        "hint_text": "'To improve X' states the purpose. Use 'Why' to ask for it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 728,
+        "hint_order": 3,
+        "hint_text": "Why did he refactor the authentication module?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "The API returns data in JSON format.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - specification, format",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 653,
+        "question_text": "What format does the API return data in?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 654,
+        "question_text": "How does the API return data?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 729,
+        "hint_order": 1,
+        "hint_text": "Ask about FORMAT — 'What format does it return data in?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 730,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does the API return'. 'In JSON format' = the answer.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 731,
+        "hint_order": 3,
+        "hint_text": "What format does the API return data in?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "The build failed because of a missing dependency.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - reason",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 655,
+        "question_text": "Why did the build fail?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 656,
+        "question_text": "What caused the build to fail?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 732,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why did the build fail?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 733,
+        "hint_order": 2,
+        "hint_text": "'Because of X' → target the reason with 'Why'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 734,
+        "hint_order": 3,
+        "hint_text": "Why did the build fail?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "The new feature was tested in a staging environment first.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "passive - past, place",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 657,
+        "question_text": "Where was the new feature tested first?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 658,
+        "question_text": "Where did you test the new feature?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 735,
+        "hint_order": 1,
+        "hint_text": "Ask WHERE — 'Where was it tested first?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 736,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was tested' → 'Where was it tested?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 737,
+        "hint_order": 3,
+        "hint_text": "Where was the new feature tested first?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "We estimate tasks using story points.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - method",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 659,
+        "question_text": "How do you estimate tasks?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 660,
+        "question_text": "What do you use to estimate tasks?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 738,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you estimate tasks?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 739,
+        "hint_order": 2,
+        "hint_text": "'Using X' describes the method. 'How' targets the method.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 740,
+        "hint_order": 3,
+        "hint_text": "How do you estimate tasks?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "The continuous integration pipeline runs on every commit.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - trigger, 3rd person",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 661,
+        "question_text": "When does the CI pipeline run?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 662,
+        "question_text": "How often does the CI pipeline run?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 741,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN/HOW OFTEN — 'When does the pipeline run?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 742,
+        "hint_order": 2,
+        "hint_text": "'On every commit' = the trigger. 'When' asks for the trigger.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 743,
+        "hint_order": 3,
+        "hint_text": "When does the CI pipeline run?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "level_id": 3,
+    "category_id": 7,
+    "answer_text": "He documented the API endpoints in a wiki page.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "past simple - place",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 663,
+        "question_text": "Where did he document the API endpoints?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 664,
+        "question_text": "What did he write in the wiki?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 744,
+        "hint_order": 1,
+        "hint_text": "Ask WHERE — 'Where did he document...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 745,
+        "hint_order": 2,
+        "hint_text": "'In a wiki page' = the location. Target it with 'Where'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 746,
+        "hint_order": 3,
+        "hint_text": "Where did he document the API endpoints?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "We use PostgreSQL for the main database.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - tool choice",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 665,
+        "question_text": "What do you use for the main database?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 666,
+        "question_text": "Which database system do you use?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 747,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What do you use for...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 748,
+        "hint_order": 2,
+        "hint_text": "'Use X for Y' → 'What do you use for Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 749,
+        "hint_order": 3,
+        "hint_text": "What do you use for the main database?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "She added an index to improve query performance.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - purpose",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 667,
+        "question_text": "Why did she add an index?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 668,
+        "question_text": "What was the purpose of adding the index?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 750,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — the purpose is 'to improve query performance'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 751,
+        "hint_order": 2,
+        "hint_text": "'To improve X' gives the reason. Use 'Why did she...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 752,
+        "hint_order": 3,
+        "hint_text": "Why did she add an index?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "We normalise our database to reduce redundancy.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 669,
+        "question_text": "Why do you normalise your database?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 670,
+        "question_text": "What is the purpose of normalising the database?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 753,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you normalise...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 754,
+        "hint_order": 2,
+        "hint_text": "'To reduce redundancy' is the purpose of normalisation.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 755,
+        "hint_order": 3,
+        "hint_text": "Why do you normalise your database?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "He wrote a stored procedure to handle the calculation.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 671,
+        "question_text": "What did he write?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 672,
+        "question_text": "What did he create to handle the calculation?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 756,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he write?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 757,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did he write'. Target the object directly.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 758,
+        "hint_order": 3,
+        "hint_text": "What did he write?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "We use Redis for caching frequently accessed data.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - purpose of a tool",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 673,
+        "question_text": "What do you use Redis for?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 674,
+        "question_text": "Why do you use Redis?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 759,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT FOR — 'What do you use it for?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 760,
+        "hint_order": 2,
+        "hint_text": "'Use X for Y' → 'What do you use X for?' targets the purpose.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 761,
+        "hint_order": 3,
+        "hint_text": "What do you use Redis for?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "The transaction was rolled back due to a constraint violation.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "passive - past, reason",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 675,
+        "question_text": "Why was the transaction rolled back?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 676,
+        "question_text": "What caused the transaction to be rolled back?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 762,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why was the transaction rolled back?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 763,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was rolled back'. 'Due to X' = reason. Use 'Why'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 764,
+        "hint_order": 3,
+        "hint_text": "Why was the transaction rolled back?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "level_id": 3,
+    "category_id": 8,
+    "answer_text": "We replicate the database across two data centres.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "present simple - quantity",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 677,
+        "question_text": "How many data centres do you replicate across?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 678,
+        "question_text": "How do you ensure database redundancy?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 765,
+        "hint_order": 1,
+        "hint_text": "Ask HOW MANY — 'How many data centres do you replicate across?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 766,
+        "hint_order": 2,
+        "hint_text": "'Across two data centres' = the quantity. 'How many' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 767,
+        "hint_order": 3,
+        "hint_text": "How many data centres do you replicate across?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "We host our application on AWS.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "present simple - location/platform",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 679,
+        "question_text": "Where do you host your application?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 680,
+        "question_text": "Which cloud provider do you use?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 768,
+        "hint_order": 1,
+        "hint_text": "Ask WHERE — 'Where do you host your application?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 769,
+        "hint_order": 2,
+        "hint_text": "'On AWS' is a location/platform. 'Where' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 770,
+        "hint_order": 3,
+        "hint_text": "Where do you host your application?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "The cloud environment automatically scales during peak hours.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "present simple - time trigger, 3rd person",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 681,
+        "question_text": "When does the cloud environment scale?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 682,
+        "question_text": "At what time does the cloud environment scale automatically?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 771,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When does it scale?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 772,
+        "hint_order": 2,
+        "hint_text": "'During peak hours' is the time. 3rd person: 'does it scale'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 773,
+        "hint_order": 3,
+        "hint_text": "When does the cloud environment scale?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "We use infrastructure as code to provision resources.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - method/tool",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 23,
+    "accepted_answers": [
+      {
+        "id": 683,
+        "question_text": "How do you provision resources?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 684,
+        "question_text": "What do you use to provision resources?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 774,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you provision resources?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 775,
+        "hint_order": 2,
+        "hint_text": "'Infrastructure as code' is the method. 'How' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 776,
+        "hint_order": 3,
+        "hint_text": "How do you provision resources?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "The container image is stored in a private registry.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "passive - present, location",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 24,
+    "accepted_answers": [
+      {
+        "id": 685,
+        "question_text": "Where is the container image stored?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 686,
+        "question_text": "Where are container images kept?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 777,
+        "hint_order": 1,
+        "hint_text": "Passive — ask WHERE: 'Where is it stored?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 778,
+        "hint_order": 2,
+        "hint_text": "Passive present: 'is stored'. 'Where is it stored?' is natural.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 779,
+        "hint_order": 3,
+        "hint_text": "Where is the container image stored?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "We tag all cloud resources for cost tracking.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 25,
+    "accepted_answers": [
+      {
+        "id": 687,
+        "question_text": "Why do you tag cloud resources?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 688,
+        "question_text": "What do you use resource tags for?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 780,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — the reason is 'for cost tracking'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 781,
+        "hint_order": 2,
+        "hint_text": "'For X' gives purpose. 'Why do you tag...?' or 'What for?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 782,
+        "hint_order": 3,
+        "hint_text": "Why do you tag cloud resources?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "The load balancer distributes traffic across five instances.",
+    "context_text": null,
+    "question_type": "WH_HOW_MANY",
+    "grammar_focus": "present simple - quantity, 3rd person",
+    "difficulty_score": 3,
+    "xp_reward": 20,
+    "sort_order": 26,
+    "accepted_answers": [
+      {
+        "id": 689,
+        "question_text": "How many instances does the load balancer distribute traffic across?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 690,
+        "question_text": "Across how many instances is the traffic distributed?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 783,
+        "hint_order": 1,
+        "hint_text": "Ask HOW MANY — 'How many instances does it distribute across?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 784,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does the load balancer distribute'. Five = quantity.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 785,
+        "hint_order": 3,
+        "hint_text": "How many instances does the load balancer distribute traffic across?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "level_id": 3,
+    "category_id": 9,
+    "answer_text": "He migrated the on-premises database to a managed cloud service.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - object question, migration",
+    "difficulty_score": 2,
+    "xp_reward": 15,
+    "sort_order": 27,
+    "accepted_answers": [
+      {
+        "id": 691,
+        "question_text": "What did he migrate?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 692,
+        "question_text": "What was moved to the cloud?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 786,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he migrate?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 787,
+        "hint_order": 2,
+        "hint_text": "Past simple: 'did he migrate'. Target the object of the migration.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 788,
+        "hint_order": 3,
+        "hint_text": "What did he migrate?",
+        "hint_type": "answer"
+      }
     ]
   }
 ]

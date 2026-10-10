@@ -1,111 +1,1338 @@
 [
   {
-    "id": 501, "level_id": 6, "category_id": 16,
+    "id": 501,
+    "level_id": 6,
+    "category_id": 16,
     "answer_text": "I'd recommend promoting the senior engineer to tech lead given her strong mentoring skills.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "conditional - recommendations",
-    "difficulty_score": 8, "xp_reward": 50, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "conditional - recommendations",
+    "difficulty_score": 8,
+    "xp_reward": 50,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 501, "question_text": "What would you recommend for the tech lead position?", "is_primary": true, "match_threshold": 0.75 },
-      { "id": 502, "question_text": "Who would you recommend as tech lead?", "is_primary": false, "match_threshold": 0.75 }
+      {
+        "id": 501,
+        "question_text": "What would you recommend for the tech lead position?",
+        "is_primary": true,
+        "match_threshold": 0.75
+      },
+      {
+        "id": 502,
+        "question_text": "Who would you recommend as tech lead?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
     ],
     "hints": [
-      { "id": 501, "hint_order": 1, "hint_text": "Ask for a recommendation using 'would'.", "hint_type": "structural" },
-      { "id": 502, "hint_order": 2, "hint_text": "Use 'What would you recommend?' or 'Who would you recommend?'", "hint_type": "vocabulary" },
-      { "id": 503, "hint_order": 3, "hint_text": "What would you recommend for the position?", "hint_type": "answer" }
+      {
+        "id": 501,
+        "hint_order": 1,
+        "hint_text": "Ask for a recommendation using 'would'.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 502,
+        "hint_order": 2,
+        "hint_text": "Use 'What would you recommend?' or 'Who would you recommend?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 503,
+        "hint_order": 3,
+        "hint_text": "What would you recommend for the position?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 502, "level_id": 6, "category_id": 16,
+    "id": 502,
+    "level_id": 6,
+    "category_id": 16,
     "answer_text": "The team has been struggling with technical debt for the past six months.",
-    "context_text": null, "question_type": "WH_HOW", "grammar_focus": "present perfect continuous - tech debt",
-    "difficulty_score": 7, "xp_reward": 45, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present perfect continuous - tech debt",
+    "difficulty_score": 7,
+    "xp_reward": 45,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 503, "question_text": "How long has the team been struggling with technical debt?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 504, "question_text": "How long has the team been dealing with technical debt?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 503,
+        "question_text": "How long has the team been struggling with technical debt?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 504,
+        "question_text": "How long has the team been dealing with technical debt?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 504, "hint_order": 1, "hint_text": "Ask about duration with present perfect continuous.", "hint_type": "structural" },
-      { "id": 505, "hint_order": 2, "hint_text": "Use 'How long has the team been struggling with...?'", "hint_type": "vocabulary" },
-      { "id": 506, "hint_order": 3, "hint_text": "How long has the team been struggling with...?", "hint_type": "answer" }
+      {
+        "id": 504,
+        "hint_order": 1,
+        "hint_text": "Ask about duration with present perfect continuous.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 505,
+        "hint_order": 2,
+        "hint_text": "Use 'How long has the team been struggling with...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 506,
+        "hint_order": 3,
+        "hint_text": "How long has the team been struggling with...?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 503, "level_id": 6, "category_id": 17,
+    "id": 503,
+    "level_id": 6,
+    "category_id": 17,
     "answer_text": "If we had implemented proper monitoring earlier, we would have detected the issue sooner.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "third conditional - retrospective",
-    "difficulty_score": 8, "xp_reward": 50, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "third conditional - retrospective",
+    "difficulty_score": 8,
+    "xp_reward": 50,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 505, "question_text": "What would have happened if we had implemented monitoring earlier?", "is_primary": true, "match_threshold": 0.75 },
-      { "id": 506, "question_text": "What could we have done differently to detect the issue sooner?", "is_primary": false, "match_threshold": 0.70 }
+      {
+        "id": 505,
+        "question_text": "What would have happened if we had implemented monitoring earlier?",
+        "is_primary": true,
+        "match_threshold": 0.75
+      },
+      {
+        "id": 506,
+        "question_text": "What could we have done differently to detect the issue sooner?",
+        "is_primary": false,
+        "match_threshold": 0.7
+      }
     ],
     "hints": [
-      { "id": 507, "hint_order": 1, "hint_text": "Use the third conditional: 'If we had... we would have...'", "hint_type": "structural" },
-      { "id": 508, "hint_order": 2, "hint_text": "Ask about a past hypothetical outcome.", "hint_type": "vocabulary" },
-      { "id": 509, "hint_order": 3, "hint_text": "What would have happened if we had...?", "hint_type": "answer" }
+      {
+        "id": 507,
+        "hint_order": 1,
+        "hint_text": "Use the third conditional: 'If we had... we would have...'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 508,
+        "hint_order": 2,
+        "hint_text": "Ask about a past hypothetical outcome.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 509,
+        "hint_order": 3,
+        "hint_text": "What would have happened if we had...?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 504, "level_id": 6, "category_id": 17,
+    "id": 504,
+    "level_id": 6,
+    "category_id": 17,
     "answer_text": "While scaling horizontally improves throughput, it doesn't necessarily reduce latency.",
-    "context_text": null, "question_type": "YES_NO", "grammar_focus": "concession clauses - while/although",
-    "difficulty_score": 8, "xp_reward": 50, "sort_order": 2,
+    "context_text": null,
+    "question_type": "YES_NO",
+    "grammar_focus": "concession clauses - while/although",
+    "difficulty_score": 8,
+    "xp_reward": 50,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 507, "question_text": "Does horizontal scaling always reduce latency?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 508, "question_text": "Does scaling horizontally necessarily reduce latency?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 507,
+        "question_text": "Does horizontal scaling always reduce latency?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 508,
+        "question_text": "Does scaling horizontally necessarily reduce latency?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 510, "hint_order": 1, "hint_text": "Ask a Yes/No question about a technical trade-off.", "hint_type": "structural" },
-      { "id": 511, "hint_order": 2, "hint_text": "Use 'Does horizontal scaling always/necessarily...?'", "hint_type": "vocabulary" },
-      { "id": 512, "hint_order": 3, "hint_text": "Does horizontal scaling always reduce latency?", "hint_type": "answer" }
+      {
+        "id": 510,
+        "hint_order": 1,
+        "hint_text": "Ask a Yes/No question about a technical trade-off.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 511,
+        "hint_order": 2,
+        "hint_text": "Use 'Does horizontal scaling always/necessarily...?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 512,
+        "hint_order": 3,
+        "hint_text": "Does horizontal scaling always reduce latency?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 505, "level_id": 6, "category_id": 18,
+    "id": 505,
+    "level_id": 6,
+    "category_id": 18,
     "answer_text": "The RFC should clearly state the problem, the proposed solution, and the trade-offs.",
-    "context_text": null, "question_type": "WH_WHAT", "grammar_focus": "modal verbs - should, technical writing",
-    "difficulty_score": 7, "xp_reward": 45, "sort_order": 1,
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "modal verbs - should, technical writing",
+    "difficulty_score": 7,
+    "xp_reward": 45,
+    "sort_order": 1,
     "accepted_answers": [
-      { "id": 509, "question_text": "What should the RFC clearly state?", "is_primary": true, "match_threshold": 0.80 },
-      { "id": 510, "question_text": "What should be included in the RFC?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 509,
+        "question_text": "What should the RFC clearly state?",
+        "is_primary": true,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 510,
+        "question_text": "What should be included in the RFC?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 513, "hint_order": 1, "hint_text": "Ask what a document should contain.", "hint_type": "structural" },
-      { "id": 514, "hint_order": 2, "hint_text": "Use 'What should the RFC clearly state?'", "hint_type": "vocabulary" },
-      { "id": 515, "hint_order": 3, "hint_text": "What should the RFC clearly state?", "hint_type": "answer" }
+      {
+        "id": 513,
+        "hint_order": 1,
+        "hint_text": "Ask what a document should contain.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 514,
+        "hint_order": 2,
+        "hint_text": "Use 'What should the RFC clearly state?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 515,
+        "hint_order": 3,
+        "hint_text": "What should the RFC clearly state?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 506, "level_id": 6, "category_id": 18,
+    "id": 506,
+    "level_id": 6,
+    "category_id": 18,
     "answer_text": "The post-mortem was written to document what went wrong and prevent recurrence.",
-    "context_text": null, "question_type": "WH_WHY", "grammar_focus": "past simple passive - documentation purpose",
-    "difficulty_score": 7, "xp_reward": 45, "sort_order": 2,
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple passive - documentation purpose",
+    "difficulty_score": 7,
+    "xp_reward": 45,
+    "sort_order": 2,
     "accepted_answers": [
-      { "id": 511, "question_text": "Why was the post-mortem written?", "is_primary": true, "match_threshold": 0.85 },
-      { "id": 512, "question_text": "What was the purpose of the post-mortem?", "is_primary": false, "match_threshold": 0.80 }
+      {
+        "id": 511,
+        "question_text": "Why was the post-mortem written?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 512,
+        "question_text": "What was the purpose of the post-mortem?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
     ],
     "hints": [
-      { "id": 516, "hint_order": 1, "hint_text": "Ask about the purpose of a document.", "hint_type": "structural" },
-      { "id": 517, "hint_order": 2, "hint_text": "Use 'Why was the post-mortem written?'", "hint_type": "vocabulary" },
-      { "id": 518, "hint_order": 3, "hint_text": "Why was the post-mortem written?", "hint_type": "answer" }
+      {
+        "id": 516,
+        "hint_order": 1,
+        "hint_text": "Ask about the purpose of a document.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 517,
+        "hint_order": 2,
+        "hint_text": "Use 'Why was the post-mortem written?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 518,
+        "hint_order": 3,
+        "hint_text": "Why was the post-mortem written?",
+        "hint_type": "answer"
+      }
     ]
   },
   {
-    "id": 507, "level_id": 6, "category_id": 16,
+    "id": 507,
+    "level_id": 6,
+    "category_id": 16,
     "answer_text": "I would suggest allocating at least twenty percent of each sprint to addressing technical debt.",
     "context_text": "A: Our codebase is getting harder to maintain. What should we do?",
     "question_type": "WH_WHAT",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "How would you address the growing technical debt?",
     "grammar_focus": "conditional - giving recommendations",
-    "difficulty_score": 8, "xp_reward": 50, "sort_order": 3,
+    "difficulty_score": 8,
+    "xp_reward": 50,
+    "sort_order": 3,
     "accepted_answers": [
-      { "id": 513, "question_text": "I would suggest allocating time in each sprint to address technical debt.", "is_primary": true, "match_threshold": 0.70 },
-      { "id": 514, "question_text": "I'd suggest dedicating sprint capacity to reducing technical debt.", "is_primary": false, "match_threshold": 0.70 }
+      {
+        "id": 513,
+        "question_text": "I would suggest allocating time in each sprint to address technical debt.",
+        "is_primary": true,
+        "match_threshold": 0.7
+      },
+      {
+        "id": 514,
+        "question_text": "I'd suggest dedicating sprint capacity to reducing technical debt.",
+        "is_primary": false,
+        "match_threshold": 0.7
+      }
     ],
     "hints": [
-      { "id": 519, "hint_order": 1, "hint_text": "Use 'I would suggest...' or 'I'd suggest...' to make a recommendation.", "hint_type": "structural" },
-      { "id": 520, "hint_order": 2, "hint_text": "'I'd' is the contraction of 'I would'. Both are correct.", "hint_type": "vocabulary" },
-      { "id": 521, "hint_order": 3, "hint_text": "I would suggest / I'd suggest...", "hint_type": "answer" }
+      {
+        "id": 519,
+        "hint_order": 1,
+        "hint_text": "Use 'I would suggest...' or 'I'd suggest...' to make a recommendation.",
+        "hint_type": "structural"
+      },
+      {
+        "id": 520,
+        "hint_order": 2,
+        "hint_text": "'I'd' is the contraction of 'I would'. Both are correct.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 521,
+        "hint_order": 3,
+        "hint_text": "I would suggest / I'd suggest...",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "She built a culture of psychological safety within the engineering team.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - complex object",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 4,
+    "accepted_answers": [
+      {
+        "id": 777,
+        "question_text": "What did she build within the engineering team?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 778,
+        "question_text": "What kind of culture did she create?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 915,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she build within the engineering team?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 916,
+        "hint_order": 2,
+        "hint_text": "'Build a culture of X' → target both what and where.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 917,
+        "hint_order": 3,
+        "hint_text": "What did she build within the engineering team?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "He aligned the technical roadmap with the company's strategic goals.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - alignment, with",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 5,
+    "accepted_answers": [
+      {
+        "id": 779,
+        "question_text": "What did he align the technical roadmap with?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 780,
+        "question_text": "How did he ensure the technical roadmap supported the business?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 918,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT WITH — 'What did he align it with?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 919,
+        "hint_order": 2,
+        "hint_text": "'Align X with Y' → 'What did he align X with?' targets Y.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 920,
+        "hint_order": 3,
+        "hint_text": "What did he align the technical roadmap with?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "We conduct quarterly engineering health checks to identify systemic issues.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - frequency/purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 6,
+    "accepted_answers": [
+      {
+        "id": 781,
+        "question_text": "How often do you conduct engineering health checks?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 782,
+        "question_text": "Why do you conduct engineering health checks?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 921,
+        "hint_order": 1,
+        "hint_text": "Ask HOW OFTEN — 'How often do you conduct...?' (quarterly = 4 times/year).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 922,
+        "hint_order": 2,
+        "hint_text": "Both 'how often' and 'why' are valid. 'Quarterly' = every three months.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 923,
+        "hint_order": 3,
+        "hint_text": "How often do you conduct engineering health checks?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "She resolved the conflict between the teams by facilitating a joint session.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method, by + gerund",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 7,
+    "accepted_answers": [
+      {
+        "id": 783,
+        "question_text": "How did she resolve the conflict?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 784,
+        "question_text": "What approach did she use to resolve the conflict?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 924,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did she resolve the conflict?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 925,
+        "hint_order": 2,
+        "hint_text": "'By facilitating a joint session' = the method. 'By + gerund' expresses means.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 926,
+        "hint_order": 3,
+        "hint_text": "How did she resolve the conflict?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "He built consensus around the platform migration by involving all stakeholders early.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method, complex clause",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 8,
+    "accepted_answers": [
+      {
+        "id": 785,
+        "question_text": "How did he build consensus around the platform migration?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 786,
+        "question_text": "What strategy did he use to get buy-in for the migration?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 927,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did he build consensus?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 928,
+        "hint_order": 2,
+        "hint_text": "'By involving all stakeholders early' = the method. Complex 'by + gerund'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 929,
+        "hint_order": 3,
+        "hint_text": "How did he build consensus around the platform migration?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "We use an architecture review board to evaluate significant technical decisions.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - purpose, institutional",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 9,
+    "accepted_answers": [
+      {
+        "id": 787,
+        "question_text": "What do you use to evaluate significant technical decisions?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 788,
+        "question_text": "Why do you have an architecture review board?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 930,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What do you use to evaluate...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 931,
+        "hint_order": 2,
+        "hint_text": "'Use X to do Y' → 'What do you use to do Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 932,
+        "hint_order": 3,
+        "hint_text": "What do you use to evaluate significant technical decisions?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "She reduced team attrition by addressing workload imbalances and improving career paths.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - method, multiple means",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 10,
+    "accepted_answers": [
+      {
+        "id": 789,
+        "question_text": "How did she reduce team attrition?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 790,
+        "question_text": "What measures did she take to reduce attrition?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 933,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did she reduce team attrition?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 934,
+        "hint_order": 2,
+        "hint_text": "Multiple means joined by 'and': 'by addressing X and improving Y'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 935,
+        "hint_order": 3,
+        "hint_text": "How did she reduce team attrition?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "level_id": 6,
+    "category_id": 16,
+    "answer_text": "We measure engineering effectiveness through deployment frequency and lead time.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "present simple - measurement/metrics",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 11,
+    "accepted_answers": [
+      {
+        "id": 791,
+        "question_text": "How do you measure engineering effectiveness?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 792,
+        "question_text": "What metrics do you use to measure engineering effectiveness?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 936,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How do you measure engineering effectiveness?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 937,
+        "hint_order": 2,
+        "hint_text": "'Through X and Y' = the means/metrics. 'How' targets them.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 938,
+        "hint_order": 3,
+        "hint_text": "How do you measure engineering effectiveness?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "We introduced a read replica to reduce the load on the primary database.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 12,
+    "accepted_answers": [
+      {
+        "id": 793,
+        "question_text": "Why did you introduce a read replica?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 794,
+        "question_text": "What was the purpose of introducing a read replica?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 939,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why did you introduce a read replica?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 940,
+        "hint_order": 2,
+        "hint_text": "'To reduce the load' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 941,
+        "hint_order": 3,
+        "hint_text": "Why did you introduce a read replica?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "He chose eventual consistency over strong consistency for the distributed cache.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - choice, over",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 13,
+    "accepted_answers": [
+      {
+        "id": 795,
+        "question_text": "What did he choose over strong consistency?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 796,
+        "question_text": "Why did he choose eventual over strong consistency?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 942,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did he choose over strong consistency?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 943,
+        "hint_order": 2,
+        "hint_text": "'Choose X over Y' → 'What did he choose over Y?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 944,
+        "hint_order": 3,
+        "hint_text": "What did he choose over strong consistency?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "The design decision was documented in an Architecture Decision Record.",
+    "context_text": null,
+    "question_type": "WH_WHERE",
+    "grammar_focus": "passive - past, location",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 14,
+    "accepted_answers": [
+      {
+        "id": 797,
+        "question_text": "Where was the design decision documented?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 798,
+        "question_text": "How was the design decision recorded?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 945,
+        "hint_order": 1,
+        "hint_text": "Ask WHERE — 'Where was it documented?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 946,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was documented'. 'In an ADR' = the location.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 947,
+        "hint_order": 3,
+        "hint_text": "Where was the design decision documented?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "She proposed using a multi-region deployment to improve disaster recovery.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - reporting verb, gerund",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 15,
+    "accepted_answers": [
+      {
+        "id": 799,
+        "question_text": "What did she propose?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 800,
+        "question_text": "Why did she propose a multi-region deployment?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 948,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she propose?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 949,
+        "hint_order": 2,
+        "hint_text": "'Propose + gerund': 'she proposed using X'. Target the proposal itself.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 950,
+        "hint_order": 3,
+        "hint_text": "What did she propose?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "The system uses write-ahead logging to guarantee data durability.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "present simple - tool/purpose, 3rd person",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 16,
+    "accepted_answers": [
+      {
+        "id": 801,
+        "question_text": "What does the system use to guarantee data durability?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 802,
+        "question_text": "Why does the system use write-ahead logging?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 951,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT TOOL — 'What does the system use to guarantee...?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 952,
+        "hint_order": 2,
+        "hint_text": "3rd person: 'does the system use'. 'To guarantee X' = purpose.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 953,
+        "hint_order": 3,
+        "hint_text": "What does the system use to guarantee data durability?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "We defined the API contract before the client and server teams began development.",
+    "context_text": null,
+    "question_type": "WH_WHEN",
+    "grammar_focus": "past simple - sequence, before",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 17,
+    "accepted_answers": [
+      {
+        "id": 803,
+        "question_text": "When did you define the API contract?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 804,
+        "question_text": "At what point in the process was the API contract defined?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 954,
+        "hint_order": 1,
+        "hint_text": "Ask WHEN — 'When did you define the API contract?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 955,
+        "hint_order": 2,
+        "hint_text": "'Before the teams began' = the timing. 'When' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 956,
+        "hint_order": 3,
+        "hint_text": "When did you define the API contract?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "level_id": 6,
+    "category_id": 17,
+    "answer_text": "We chose an asynchronous processing model to improve throughput under load.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "past simple - purpose/reason",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 18,
+    "accepted_answers": [
+      {
+        "id": 805,
+        "question_text": "Why did you choose an asynchronous processing model?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 806,
+        "question_text": "What was the reason for adopting an asynchronous model?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 957,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why did you choose an asynchronous processing model?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 958,
+        "hint_order": 2,
+        "hint_text": "'To improve throughput under load' = the purpose. Use 'Why'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 959,
+        "hint_order": 3,
+        "hint_text": "Why did you choose an asynchronous processing model?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "She structured the RFC to include a problem statement, proposed solution, and alternatives.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - content structure",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 19,
+    "accepted_answers": [
+      {
+        "id": 807,
+        "question_text": "What did she structure the RFC to include?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 808,
+        "question_text": "What sections does the RFC contain?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 960,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she structure the RFC to include?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 961,
+        "hint_order": 2,
+        "hint_text": "'Structure X to include Y' → 'What did she structure it to include?'",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 962,
+        "hint_order": 3,
+        "hint_text": "What did she structure the RFC to include?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "We use plain language to make technical documentation accessible to non-engineers.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 20,
+    "accepted_answers": [
+      {
+        "id": 809,
+        "question_text": "Why do you use plain language in documentation?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 810,
+        "question_text": "What is the purpose of using plain language?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 963,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you use plain language?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 964,
+        "hint_order": 2,
+        "hint_text": "'To make X accessible to Y' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 965,
+        "hint_order": 3,
+        "hint_text": "Why do you use plain language in documentation?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "The runbook was written to allow an on-call engineer to resolve the issue without prior context.",
+    "context_text": null,
+    "question_type": "WH_WHO",
+    "grammar_focus": "passive - past, audience/purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 21,
+    "accepted_answers": [
+      {
+        "id": 811,
+        "question_text": "For whom was the runbook written?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 812,
+        "question_text": "Who is the intended audience of the runbook?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 966,
+        "hint_order": 1,
+        "hint_text": "Ask FOR WHOM — 'For whom was it written?' (passive).",
+        "hint_type": "structural"
+      },
+      {
+        "id": 967,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was written'. Target the intended user with 'For whom'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 968,
+        "hint_order": 3,
+        "hint_text": "For whom was the runbook written?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "We version our documentation alongside the code to keep them in sync.",
+    "context_text": null,
+    "question_type": "WH_WHY",
+    "grammar_focus": "present simple - purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 22,
+    "accepted_answers": [
+      {
+        "id": 813,
+        "question_text": "Why do you version your documentation alongside the code?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 814,
+        "question_text": "What is the benefit of versioning documentation with the code?",
+        "is_primary": false,
+        "match_threshold": 0.75
+      }
+    ],
+    "hints": [
+      {
+        "id": 969,
+        "hint_order": 1,
+        "hint_text": "Ask WHY — 'Why do you version documentation alongside the code?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 970,
+        "hint_order": 2,
+        "hint_text": "'To keep them in sync' = the purpose. 'Why' targets it.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 971,
+        "hint_order": 3,
+        "hint_text": "Why do you version your documentation alongside the code?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "She peer-reviewed the technical specification before it was shared with stakeholders.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "past simple - sequence, before",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 23,
+    "accepted_answers": [
+      {
+        "id": 815,
+        "question_text": "What did she do before sharing the specification with stakeholders?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 816,
+        "question_text": "When did she peer-review the specification?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 972,
+        "hint_order": 1,
+        "hint_text": "Ask WHAT — 'What did she do before sharing it?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 973,
+        "hint_order": 2,
+        "hint_text": "'Before X' sets the time frame. Target the action with 'What did she do'.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 974,
+        "hint_order": 3,
+        "hint_text": "What did she do before sharing the specification with stakeholders?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "The post-mortem report was written in a blameless format to encourage honesty.",
+    "context_text": null,
+    "question_type": "WH_WHAT",
+    "grammar_focus": "passive - past, format/purpose",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 24,
+    "accepted_answers": [
+      {
+        "id": 817,
+        "question_text": "In what format was the post-mortem report written?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 818,
+        "question_text": "Why was the post-mortem report written in a blameless format?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 975,
+        "hint_order": 1,
+        "hint_text": "Ask IN WHAT FORMAT — 'In what format was it written?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 976,
+        "hint_order": 2,
+        "hint_text": "Passive: 'was written'. Both format and purpose are valid targets.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 977,
+        "hint_order": 3,
+        "hint_text": "In what format was the post-mortem report written?",
+        "hint_type": "answer"
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "level_id": 6,
+    "category_id": 18,
+    "answer_text": "She used active voice throughout the proposal to improve clarity.",
+    "context_text": null,
+    "question_type": "WH_HOW",
+    "grammar_focus": "past simple - style/method",
+    "difficulty_score": 4,
+    "xp_reward": 25,
+    "sort_order": 25,
+    "accepted_answers": [
+      {
+        "id": 819,
+        "question_text": "How did she write the proposal?",
+        "is_primary": true,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 820,
+        "question_text": "Why did she use active voice in the proposal?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      }
+    ],
+    "hints": [
+      {
+        "id": 978,
+        "hint_order": 1,
+        "hint_text": "Ask HOW — 'How did she write the proposal?'",
+        "hint_type": "structural"
+      },
+      {
+        "id": 979,
+        "hint_order": 2,
+        "hint_text": "'Used active voice' = the style/method. 'How' targets writing approach.",
+        "hint_type": "vocabulary"
+      },
+      {
+        "id": 980,
+        "hint_order": 3,
+        "hint_text": "How did she write the proposal?",
+        "hint_type": "answer"
+      }
     ]
   }
 ]
