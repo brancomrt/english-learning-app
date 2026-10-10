@@ -183,10 +183,20 @@ private fun SelectionScreen(
             contentPadding = PaddingValues(horizontal = 12.dp, vertical = 4.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            // Chip "Todas" como primeira opção
+            item {
+                FilterChip(
+                    selected = state.selectedCategoryId == VocabularyViewModel.ALL_CATEGORIES_ID,
+                    onClick = { onCategorySelected(VocabularyViewModel.ALL_CATEGORIES_ID) },
+                    label = { Text("Todas", style = MaterialTheme.typography.labelSmall) },
+                    colors = FilterChipDefaults.filterChipColors(
+                        selectedContainerColor = MaterialTheme.colorScheme.secondary,
+                        selectedLabelColor = MaterialTheme.colorScheme.onSecondary
+                    )
+                )
+            }
             items(state.filteredCategories) { cat ->
-                val name = cat.nameKey.removePrefix("category_")
-                    .replace("_", " ")
-                    .split(" ").joinToString(" ") { it.replaceFirstChar { c -> c.uppercase() } }
+                val name = categoryDisplayName(cat.nameKey)
                 FilterChip(
                     selected = cat.id == state.selectedCategoryId,
                     onClick = { onCategorySelected(cat.id) },
@@ -715,4 +725,32 @@ private fun StatChip(label: String, value: String) {
             )
         }
     }
+}
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+/** Converte nameKey da categoria para label legível. */
+private fun categoryDisplayName(nameKey: String): String = when (nameKey) {
+    "category_daily_life"        -> "Daily Life"
+    "category_work"              -> "Work"
+    "category_travel"            -> "Travel"
+    "category_it_support"        -> "IT Support"
+    "category_hardware_software" -> "Hardware & SW"
+    "category_networking_basics" -> "Networking"
+    "category_software_dev"      -> "Software Dev"
+    "category_databases"         -> "Databases"
+    "category_cloud_basics"      -> "Cloud"
+    "category_devops"            -> "DevOps"
+    "category_security"          -> "Security"
+    "category_architecture"      -> "Architecture"
+    "category_agile_pm"          -> "Agile & PM"
+    "category_sre_reliability"   -> "SRE"
+    "category_microservices"     -> "Microservices"
+    "category_tech_leadership"   -> "Leadership"
+    "category_system_design"     -> "System Design"
+    "category_tech_writing"      -> "Tech Writing"
+    else -> nameKey.removePrefix("category_")
+        .replace("_", " ")
+        .split(" ")
+        .joinToString(" ") { it.replaceFirstChar { c -> c.uppercase() } }
 }

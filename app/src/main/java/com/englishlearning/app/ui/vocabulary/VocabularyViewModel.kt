@@ -83,14 +83,15 @@ class VocabularyViewModel @Inject constructor(
 
     private fun loadSelectionScreen(
         levelId: Int = -1,
-        categoryId: Int = -1
+        categoryId: Int = ALL_CATEGORIES_ID
     ) {
         viewModelScope.launch {
             val levels = contentRepository.getLevels()
             val allCategories = contentRepository.getCategories()
             val effectiveLevelId = if (levelId == -1) levels.firstOrNull()?.id ?: -1 else levelId
             val filtered = allCategories.filter { it.levelId == effectiveLevelId }
-            val effectiveCatId = if (categoryId == -1) filtered.firstOrNull()?.id ?: -1 else categoryId
+            // Mantém "Todas" se já estava selecionado, senão usa o valor passado
+            val effectiveCatId = categoryId
 
             val (due, new) = countCards(effectiveLevelId, effectiveCatId)
 
@@ -108,9 +109,8 @@ class VocabularyViewModel @Inject constructor(
 
     fun selectLevel(levelId: Int) {
         val s = _uiState.value as? VocabularyUiState.Selecting ?: return
-        val filtered = s.categories.filter { it.levelId == levelId }
-        val catId = filtered.firstOrNull()?.id ?: -1
-        loadSelectionScreen(levelId, catId)
+        // Ao trocar de nível, padrão é "Todas as categorias"
+        loadSelectionScreen(levelId, ALL_CATEGORIES_ID)
     }
 
     fun selectCategory(categoryId: Int) {
@@ -120,8 +120,11 @@ class VocabularyViewModel @Inject constructor(
 
     /** Conta cards devidos e novos para o nível/categoria selecionados. */
     private suspend fun countCards(levelId: Int, categoryId: Int): Pair<Int, Int> {
-        if (levelId == -1 || categoryId == -1) return Pair(0, 0)
-        val allCards = vocabularyDao.getByLevelAndCategory(levelId, categoryId)
+        if (levelId == -1) return Pair(0, 0)
+        val allCards = if (categoryId == ALL_CATEGORIES_ID)
+            vocabularyDao.getByLevel(levelId)
+        else
+            vocabularyDao.getByLevelAndCategory(levelId, categoryId)
         val srsCards = srsRepository.getCardsForReview(userId, today)
             .filter { it.cardType == SrsCardType.VOCABULARY }
             .map { it.refId }
@@ -145,17 +148,20 @@ class VocabularyViewModel @Inject constructor(
     /** Inicia sessão com cards devidos + novos da categoria selecionada. */
     fun startSession() {
         val s = _uiState.value as? VocabularyUiState.Selecting ?: return
-        if (s.selectedLevelId == -1 || s.selectedCategoryId == -1) return
+        if (s.selectedLevelId == -1) return
         viewModelScope.launch {
             _uiState.value = VocabularyUiState.Loading
-            val allCards = vocabularyDao.getByLevelAndCategory(s.selectedLevelId, s.selectedCategoryId)
+            val allCards = if (s.selectedCategoryId == ALL_CATEGORIES_ID)
+                vocabularyDao.getByLevel(s.selectedLevelId)
+            else
+                vocabularyDao.getByLevelAndCategory(s.selectedLevelId, s.selectedCategoryId)
+
             val allSrsIds = getAllSrsRefIds()
             val dueIds = srsRepository.getCardsForReview(userId, today)
                 .filter { it.cardType == SrsCardType.VOCABULARY }
                 .map { it.refId }
                 .toSet()
 
-            // Ordem: cards devidos primeiro, depois novos (máx 20 por sessão)
             val due = allCards.filter { it.id in dueIds }
             val vocabLimit = settingsRepository.getVocabLimit()
             val newLimit = (vocabLimit - due.size).coerceAtLeast(0)
@@ -226,10 +232,13 @@ class VocabularyViewModel @Inject constructor(
         srsRepository.updateCardAfterReview(existing, rating)
     }
 
-    /** Volta para a tela de seleção. */
+    /** Volta para a tela de seleção mantendo o nível/categoria anteriores. */
     fun backToSelection() {
-        val s = _uiState.value
-        val levelId = if (s is VocabularyUiState.Done) -1 else -1
         loadSelectionScreen()
+    }
+
+    companion object {
+        /** Sentinel para "todas as categorias do nível". */
+        const val ALL_CATEGORIES_ID = 0
     }
 }
