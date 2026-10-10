@@ -38,6 +38,7 @@ kotest = "5.9.1"
 kotestAndroid = "5.9.1"
 coroutinesTest = "1.9.0"
 roomTesting = "2.6.1"
+junitVintage = "5.10.1"
 
 [libraries]
 # AndroidX
@@ -89,6 +90,7 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 kotest-runner-junit5 = { group = "io.kotest", name = "kotest-runner-junit5", version.ref = "kotest" }
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
 kotest-property = { group = "io.kotest", name = "kotest-property", version.ref = "kotest" }
+junit-vintage-engine = { group = "org.junit.vintage", name = "junit-vintage-engine", version.ref = "junitVintage" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -217,7 +217,8 @@ object FsrsScheduler {
      * Postcondição: resultado ∈ [1.0, 10.0].
      */
     internal fun updateDifficulty(difficulty: Float, rating: SrsRating): Float {
-        val delta = DIFFICULTY_UPDATE_COEFF * (rating.value - 3)
+        // Fórmula correta: AGAIN/HARD aumentam dificuldade; EASY diminui
+        val delta = DIFFICULTY_UPDATE_COEFF * (3 - rating.value)
         return (difficulty + delta).coerceIn(1f, 10f)
     }
 

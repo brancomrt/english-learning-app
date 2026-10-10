@@ -15,8 +15,8 @@ android {
         applicationId = "com.englishlearning.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 27
-        versionName = "1.16.0"
+        versionCode = 28
+        versionName = "1.17.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -120,6 +120,7 @@ dependencies {
     // Unit Tests
     // -------------------------
     testImplementation(libs.junit)
+    testImplementation(libs.junit.vintage.engine)
     testImplementation(libs.kotest.runner.junit5)
     testImplementation(libs.kotest.assertions.core)
     testImplementation(libs.kotest.property)
