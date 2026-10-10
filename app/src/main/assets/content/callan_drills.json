@@ -1,13 +1,19 @@
 {
-  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas nos Stages 1-6",
-  "source": "Adaptado do padrão Callan Method Stages 1-6 (CEFR A1-B2)",
+  "description": "Exercícios no estilo Método Callan - perguntas diretas com respostas completas baseadas nos 12 Stages",
+  "source": "Adaptado do padrão Callan Method Stages 1-12 (CEFR A1-C1+)",
   "levels": {
     "1": "Stage 1 - A1 - Básico (Lições 1-9)",
     "2": "Stage 2 - A1/A2 - Elementar (Lições 10-24)",
     "3": "Stage 3 - A2 - Pré-Intermediário (Lições 25-40)",
     "4": "Stage 4 - A2/B1 - Intermediário (Lições 41-60)",
     "5": "Stage 5 - B1/B2 - Intermediário-Superior (Lições 61-77)",
-    "6": "Stage 6 - B2 - Avançado (Lições 78-94)"
+    "6": "Stage 6 - B2 - Avançado (Lições 78-94)",
+    "7": "Stage 7 - B2 - Upper-Intermediate I (Lições 95-111)",
+    "8": "Stage 8 - B2 - Upper-Intermediate II (Lições 112-126)",
+    "9": "Stage 9 - B2+/C1 - Advanced I (Lições 127-145)",
+    "10": "Stage 10 - C1 - Advanced II (Lições 146-163)",
+    "11": "Stage 11 - C1 - Advanced Fluency (Lições 164-177)",
+    "12": "Stage 12 - C1+ - Mastery (Lições 178-191)"
   },
   "drills": [
     {
@@ -4135,6 +4141,951 @@
       "answer": "'Plausible' means seeming reasonable or believable.",
       "alt_answers": ["Reasonable.", "Believable."],
       "grammar": "vocabulary - plausible"
+    },
+    {
+      "id": 441,
+      "level": 7,
+      "lesson": 95,
+      "prompt": "What should you have done before taking the exam?",
+      "answer": "I should have studied more before taking the exam.",
+      "alt_answers": ["I should have prepared better.", "I should have revised my notes."],
+      "grammar": "modal perfect - should have"
+    },
+    {
+      "id": 442,
+      "level": 7,
+      "lesson": 95,
+      "prompt": "He didn't come to the meeting. What could he have done?",
+      "answer": "He could have called to say he wasn't coming.",
+      "alt_answers": ["He could have sent a message.", "He could have informed us."],
+      "grammar": "modal perfect - could have"
+    },
+    {
+      "id": 443,
+      "level": 7,
+      "lesson": 95,
+      "prompt": "She knows everything about the project. What must she have done?",
+      "answer": "She must have read all the documents.",
+      "alt_answers": ["She must have studied the project.", "She must have been briefed."],
+      "grammar": "modal perfect - must have (deduction)"
+    },
+    {
+      "id": 444,
+      "level": 7,
+      "lesson": 95,
+      "prompt": "He can't have finished the work already. Why not?",
+      "answer": "He can't have finished it already because it usually takes two days.",
+      "alt_answers": ["He can't have done it so quickly.", "It's impossible he finished already."],
+      "grammar": "modal perfect - can't have"
+    },
+    {
+      "id": 445,
+      "level": 7,
+      "lesson": 95,
+      "prompt": "I needn't have bought so much food. Why?",
+      "answer": "I needn't have bought so much food because only two people came to dinner.",
+      "alt_answers": ["Because we didn't eat it all.", "It was unnecessary."],
+      "grammar": "modal perfect - needn't have"
+    },
+    {
+      "id": 446,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "If you had inherited a fortune five years ago, would your life be different today?",
+      "answer": "Yes, if I had inherited a fortune five years ago, my life would be different today.",
+      "alt_answers": ["Yes, my life would be very different now.", "Yes, I would be living differently today."],
+      "grammar": "mixed conditional - past condition / present result"
+    },
+    {
+      "id": 447,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "If you spoke better English now, would you have got that job last year?",
+      "answer": "Yes, if I spoke better English now, I would have got that job last year.",
+      "alt_answers": ["Yes, I would have got the job.", "Probably yes."],
+      "grammar": "mixed conditional - present condition / past result"
+    },
+    {
+      "id": 448,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "What does the phrasal verb 'give up' mean?",
+      "answer": "The phrasal verb 'give up' means to stop doing something or to surrender.",
+      "alt_answers": ["To stop trying.", "To abandon something."],
+      "grammar": "phrasal verbs - give up"
+    },
+    {
+      "id": 449,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "What does the phrasal verb 'look forward to' mean?",
+      "answer": "The phrasal verb 'look forward to' means to feel excited and pleased about something that is going to happen.",
+      "alt_answers": ["To anticipate something with pleasure.", "To be excited about a future event."],
+      "grammar": "phrasal verbs - look forward to"
+    },
+    {
+      "id": 450,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "What does the phrasal verb 'put off' mean?",
+      "answer": "The phrasal verb 'put off' means to postpone or delay something.",
+      "alt_answers": ["To delay.", "To postpone."],
+      "grammar": "phrasal verbs - put off"
+    },
+    {
+      "id": 451,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "What does the phrasal verb 'come across' mean?",
+      "answer": "The phrasal verb 'come across' means to find or meet something or someone by chance.",
+      "alt_answers": ["To find unexpectedly.", "To encounter by chance."],
+      "grammar": "phrasal verbs - come across"
+    },
+    {
+      "id": 452,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "What does the phrasal verb 'bring up' mean?",
+      "answer": "'Bring up' has two meanings: to raise a child, or to introduce a topic in conversation.",
+      "alt_answers": ["To raise children, or to mention a subject.", "To rear a child or raise a topic."],
+      "grammar": "phrasal verbs - bring up"
+    },
+    {
+      "id": 453,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "What does the phrasal verb 'run out of' mean?",
+      "answer": "The phrasal verb 'run out of' means to have no more of something.",
+      "alt_answers": ["To have nothing left.", "To exhaust the supply of something."],
+      "grammar": "phrasal verbs - run out of"
+    },
+    {
+      "id": 454,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "What does the phrasal verb 'set up' mean?",
+      "answer": "The phrasal verb 'set up' means to establish or arrange something, like a business or a meeting.",
+      "alt_answers": ["To establish.", "To arrange or organise."],
+      "grammar": "phrasal verbs - set up"
+    },
+    {
+      "id": 455,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "What does the phrasal verb 'turn down' mean?",
+      "answer": "The phrasal verb 'turn down' means to refuse or reject an offer or request.",
+      "alt_answers": ["To reject.", "To refuse an offer."],
+      "grammar": "phrasal verbs - turn down"
+    },
+    {
+      "id": 456,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "What does the phrasal verb 'break down' mean?",
+      "answer": "'Break down' means to stop working, or to lose emotional control.",
+      "alt_answers": ["To stop functioning, or to start crying.", "To fail mechanically, or to collapse emotionally."],
+      "grammar": "phrasal verbs - break down"
+    },
+    {
+      "id": 457,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "What does the phrasal verb 'go through' mean?",
+      "answer": "The phrasal verb 'go through' means to experience something difficult, or to examine something carefully.",
+      "alt_answers": ["To experience or to examine.", "To endure or to check thoroughly."],
+      "grammar": "phrasal verbs - go through"
+    },
+    {
+      "id": 458,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "What does the phrasal verb 'take off' mean?",
+      "answer": "'Take off' means when a plane leaves the ground, or when something becomes suddenly successful.",
+      "alt_answers": ["To leave the ground, or to become successful.", "To depart by air, or to become popular."],
+      "grammar": "phrasal verbs - take off"
+    },
+    {
+      "id": 459,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "What does the phrasal verb 'carry out' mean?",
+      "answer": "The phrasal verb 'carry out' means to perform or complete a task.",
+      "alt_answers": ["To perform a task.", "To execute or complete something."],
+      "grammar": "phrasal verbs - carry out"
+    },
+    {
+      "id": 460,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "Is it possible that she forgot the meeting?",
+      "answer": "Yes, she might have forgotten the meeting.",
+      "alt_answers": ["She could have forgotten it.", "It's possible she forgot."],
+      "grammar": "modal perfect - might have"
+    },
+    {
+      "id": 461,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "The window is broken. Who could have broken it?",
+      "answer": "The children could have broken it.",
+      "alt_answers": ["Someone might have broken it accidentally.", "It could have been broken by the wind."],
+      "grammar": "modal perfect - speculating about the past"
+    },
+    {
+      "id": 462,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "He looks exhausted. What must he have been doing?",
+      "answer": "He must have been working all night.",
+      "alt_answers": ["He must have been exercising hard.", "He must have been very busy."],
+      "grammar": "modal perfect continuous - must have been"
+    },
+    {
+      "id": 463,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "What does the phrasal verb 'make up' mean?",
+      "answer": "'Make up' means to invent a story, or to reconcile after an argument, or to apply cosmetics.",
+      "alt_answers": ["To invent, to reconcile, or to apply make-up.", "To fabricate, to forgive each other, or to put on cosmetics."],
+      "grammar": "phrasal verbs - make up"
+    },
+    {
+      "id": 464,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "What does the phrasal verb 'look into' mean?",
+      "answer": "The phrasal verb 'look into' means to investigate or examine something.",
+      "alt_answers": ["To investigate.", "To research or examine."],
+      "grammar": "phrasal verbs - look into"
+    },
+    {
+      "id": 465,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "What does the phrasal verb 'fall through' mean?",
+      "answer": "The phrasal verb 'fall through' means when a plan or agreement fails to happen.",
+      "alt_answers": ["To fail or not happen.", "When plans collapse."],
+      "grammar": "phrasal verbs - fall through"
+    },
+    {
+      "id": 466,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "Do you mind waiting a few minutes for the manager?",
+      "answer": "No, I don't mind waiting a few minutes for the manager.",
+      "alt_answers": ["No, I don't mind at all.", "Not at all."],
+      "grammar": "gerund after 'mind'"
+    },
+    {
+      "id": 467,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "Do you enjoy learning English?",
+      "answer": "Yes, I enjoy learning English very much.",
+      "alt_answers": ["Yes, I enjoy it.", "Yes, I love learning English."],
+      "grammar": "gerund after 'enjoy'"
+    },
+    {
+      "id": 468,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "Have you finished writing the report?",
+      "answer": "Yes, I have finished writing the report.",
+      "alt_answers": ["Yes, I finished it.", "Not yet, I haven't finished writing it."],
+      "grammar": "gerund after 'finish'"
+    },
+    {
+      "id": 469,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "Do you avoid eating junk food?",
+      "answer": "Yes, I try to avoid eating junk food.",
+      "alt_answers": ["Yes, I avoid it.", "I try to avoid it."],
+      "grammar": "gerund after 'avoid'"
+    },
+    {
+      "id": 470,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "He stopped to talk to me. What does this mean?",
+      "answer": "He stopped what he was doing in order to talk to me.",
+      "alt_answers": ["He interrupted what he was doing to speak to me.", "He paused to have a conversation."],
+      "grammar": "stop + infinitive vs gerund"
+    },
+    {
+      "id": 471,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "He stopped talking. What does this mean?",
+      "answer": "He was talking but then he stopped; he stopped the action of talking.",
+      "alt_answers": ["He finished talking.", "He ceased to speak."],
+      "grammar": "stop + gerund"
+    },
+    {
+      "id": 472,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "I remember locking the door. What does this mean?",
+      "answer": "It means I have a memory of locking the door; I locked it and now I remember doing it.",
+      "alt_answers": ["I locked the door and I remember it.", "I recall having locked it."],
+      "grammar": "remember + gerund (past memory)"
+    },
+    {
+      "id": 473,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "Remember to lock the door. What does this mean?",
+      "answer": "It means don't forget to lock the door; you must do it in the future.",
+      "alt_answers": ["Don't forget to lock it.", "Make sure you lock it."],
+      "grammar": "remember + infinitive (future reminder)"
+    },
+    {
+      "id": 474,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "I tried taking an aspirin for my headache. What does this mean?",
+      "answer": "It means I took an aspirin as an experiment to see if it would help.",
+      "alt_answers": ["I experimented with taking an aspirin.", "I took one to see if it worked."],
+      "grammar": "try + gerund (experiment)"
+    },
+    {
+      "id": 475,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "I tried to open the window but I couldn't. What does this mean?",
+      "answer": "It means I made an effort to open the window, but I was unable to do it.",
+      "alt_answers": ["I attempted to open it but failed.", "I made an effort but couldn't manage it."],
+      "grammar": "try + infinitive (attempt)"
+    },
+    {
+      "id": 476,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "What is the difference between 'look at' and 'stare at'?",
+      "answer": "The difference is that 'stare at' means to look at someone or something for a long time with wide open eyes, whilst 'look at' is more general.",
+      "alt_answers": ["Staring is prolonged and intense, looking is brief and normal.", "To stare is to look fixedly and for a long time."],
+      "grammar": "synonym distinction - look at vs stare at"
+    },
+    {
+      "id": 477,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "What is the difference between 'say' and 'tell'?",
+      "answer": "The difference is that 'tell' always needs a person as its object, whilst 'say' does not need one.",
+      "alt_answers": ["We say 'tell someone something' but 'say something'.", "'Tell' requires an indirect object, 'say' does not."],
+      "grammar": "synonym distinction - say vs tell"
+    },
+    {
+      "id": 478,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "What is the difference between 'hear' and 'listen to'?",
+      "answer": "The difference is that 'hear' is passive and happens without effort, whilst 'listen to' is active and requires concentration.",
+      "alt_answers": ["Hearing is involuntary, listening is deliberate.", "We hear without trying; we listen with intention."],
+      "grammar": "synonym distinction - hear vs listen"
+    },
+    {
+      "id": 479,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "What is the difference between 'watch' and 'look at'?",
+      "answer": "The difference is that 'watch' implies looking at something that moves or changes over time, whilst 'look at' is for static things.",
+      "alt_answers": ["We watch moving things; we look at still things.", "Watch is for continuous action; look at is for a moment."],
+      "grammar": "synonym distinction - watch vs look at"
+    },
+    {
+      "id": 480,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "I do like this city! What does the 'do' emphasise here?",
+      "answer": "The 'do' is used for emphasis; it makes the verb stronger and shows strong feeling.",
+      "alt_answers": ["It emphasises that you really like the city.", "It adds force and shows strong agreement."],
+      "grammar": "emphatic do/does/did"
+    },
+    {
+      "id": 481,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "Although she was tired, she continued working. What does 'although' show?",
+      "answer": "'Although' shows a contrast or unexpected result; despite being tired, she continued.",
+      "alt_answers": ["It shows contrast between two facts.", "It introduces a concession."],
+      "grammar": "complex adverbial - although"
+    },
+    {
+      "id": 482,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "Despite the rain, they went out. Can you rewrite this using 'although'?",
+      "answer": "Although it was raining, they went out.",
+      "alt_answers": ["Although there was rain, they went out.", "Even though it rained, they went out."],
+      "grammar": "despite vs although"
+    },
+    {
+      "id": 483,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "He speaks as though he knows everything. What does 'as though' suggest?",
+      "answer": "'As though' suggests that he speaks in a manner that is not necessarily true; it implies he gives that impression.",
+      "alt_answers": ["It implies his behaviour is not real.", "As if he knows, but he probably doesn't."],
+      "grammar": "as though / as if"
+    },
+    {
+      "id": 484,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "What is the difference between 'big', 'large', and 'great'?",
+      "answer": "'Big' is informal and refers to size; 'large' is more formal and refers to size; 'great' refers to importance or degree rather than physical size.",
+      "alt_answers": ["Big and large refer to size; great refers to importance.", "Great is about significance, big and large are about dimensions."],
+      "grammar": "synonym distinction - big, large, great"
+    },
+    {
+      "id": 485,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What is the difference between 'make' and 'do'?",
+      "answer": "We use 'make' for creating or producing something, and 'do' for activities and tasks.",
+      "alt_answers": ["Make is for creation; do is for actions.", "We make things and we do jobs or activities."],
+      "grammar": "make vs do - collocations"
+    },
+    {
+      "id": 486,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What is the difference between 'rob' and 'steal'?",
+      "answer": "The difference is that we rob a person or a place, but we steal an object. For example, they robbed the bank and stole the money.",
+      "alt_answers": ["We rob people or places; we steal things.", "Rob takes a person or place as object; steal takes the item."],
+      "grammar": "synonym distinction - rob vs steal"
+    },
+    {
+      "id": 487,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What is the difference between 'lend' and 'borrow'?",
+      "answer": "The difference is that you lend something to someone, and you borrow something from someone.",
+      "alt_answers": ["Lend goes from you to another; borrow comes from another to you.", "To lend is to give temporarily; to borrow is to take temporarily."],
+      "grammar": "synonym distinction - lend vs borrow"
+    },
+    {
+      "id": 488,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "Whereas she loves the city, he prefers the countryside. What does 'whereas' show?",
+      "answer": "'Whereas' shows a direct contrast between two opposite facts or preferences.",
+      "alt_answers": ["It contrasts two opposing ideas.", "It highlights a difference between two things."],
+      "grammar": "complex adverbial - whereas"
+    },
+    {
+      "id": 489,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What is the difference between 'historic' and 'historical'?",
+      "answer": "'Historic' means important or significant in history, whilst 'historical' simply means relating to history or the past.",
+      "alt_answers": ["Historic means famous or significant; historical means related to history.", "A historic event is important; a historical event is just one from the past."],
+      "grammar": "vocabulary - historic vs historical"
+    },
+    {
+      "id": 490,
+      "level": 9,
+      "lesson": 127,
+      "prompt": "Where is the stress in the word 'photography'?",
+      "answer": "The stress in the word 'photography' is on the second syllable: phoTOgraphy.",
+      "alt_answers": ["On the second syllable.", "pho-TO-gra-phy."],
+      "grammar": "word stress - photography"
+    },
+    {
+      "id": 491,
+      "level": 9,
+      "lesson": 127,
+      "prompt": "Where is the stress in the word 'economy'?",
+      "answer": "The stress in the word 'economy' is on the second syllable: ecoNOmy.",
+      "alt_answers": ["On the second syllable.", "e-CO-no-my."],
+      "grammar": "word stress - economy"
+    },
+    {
+      "id": 492,
+      "level": 9,
+      "lesson": 127,
+      "prompt": "Being a hard-working student, did she pass the exam easily?",
+      "answer": "Yes, being a hard-working student, she passed the exam easily.",
+      "alt_answers": ["Yes, she passed easily.", "As she was hard-working, she passed easily."],
+      "grammar": "participle clause replacing relative clause"
+    },
+    {
+      "id": 493,
+      "level": 9,
+      "lesson": 127,
+      "prompt": "Rewrite using a participle clause: 'The man who is standing by the door is my boss.'",
+      "answer": "The man standing by the door is my boss.",
+      "alt_answers": ["Standing by the door, the man is my boss."],
+      "grammar": "participle clause - reducing relative clauses"
+    },
+    {
+      "id": 494,
+      "level": 9,
+      "lesson": 128,
+      "prompt": "Rewrite using a participle clause: 'Because she had finished early, she went home.'",
+      "answer": "Having finished early, she went home.",
+      "alt_answers": ["Finishing early, she went home."],
+      "grammar": "participle clause - having + past participle"
+    },
+    {
+      "id": 495,
+      "level": 9,
+      "lesson": 128,
+      "prompt": "What is the difference between 'at the end' and 'in the end'?",
+      "answer": "'At the end' refers to the final point of something specific, whilst 'in the end' means finally or ultimately after a long process.",
+      "alt_answers": ["At the end is specific; in the end means finally.", "In the end is like 'eventually'; at the end refers to a specific conclusion."],
+      "grammar": "subtle prepositions - at the end vs in the end"
+    },
+    {
+      "id": 496,
+      "level": 9,
+      "lesson": 128,
+      "prompt": "What is the difference between 'on time' and 'in time'?",
+      "answer": "'On time' means punctual, not late; 'in time' means with enough time to spare before a deadline.",
+      "alt_answers": ["On time means punctual; in time means not too late.", "On time is exact punctuality; in time means before it's too late."],
+      "grammar": "subtle prepositions - on time vs in time"
+    },
+    {
+      "id": 497,
+      "level": 9,
+      "lesson": 128,
+      "prompt": "What is the difference between 'by' and 'until'?",
+      "answer": "'By' means not later than a specific time; 'until' means continuously up to a point in time.",
+      "alt_answers": ["By means a deadline; until means a continuous action up to a point.", "Finish by Friday means before Friday; wait until Friday means the whole time up to then."],
+      "grammar": "subtle prepositions - by vs until"
+    },
+    {
+      "id": 498,
+      "level": 9,
+      "lesson": 129,
+      "prompt": "What is the difference between 'despite' and 'in spite of'?",
+      "answer": "There is no difference in meaning; 'despite' and 'in spite of' both mean the same thing, but 'despite' sounds more formal.",
+      "alt_answers": ["They mean the same; despite is slightly more formal.", "Both express contrast; they are interchangeable."],
+      "grammar": "despite vs in spite of"
+    },
+    {
+      "id": 499,
+      "level": 9,
+      "lesson": 129,
+      "prompt": "What is the difference between 'affect' and 'effect'?",
+      "answer": "'Affect' is usually a verb meaning to have an influence on something, whilst 'effect' is usually a noun meaning the result or consequence.",
+      "alt_answers": ["Affect is a verb; effect is a noun.", "To affect is to influence; the effect is the result."],
+      "grammar": "commonly confused words - affect vs effect"
+    },
+    {
+      "id": 500,
+      "level": 9,
+      "lesson": 129,
+      "prompt": "What is the difference between 'fewer' and 'less'?",
+      "answer": "We use 'fewer' with countable nouns and 'less' with uncountable nouns.",
+      "alt_answers": ["Fewer for things we can count; less for things we cannot.", "Fewer people, less water."],
+      "grammar": "fewer vs less"
+    },
+    {
+      "id": 501,
+      "level": 9,
+      "lesson": 129,
+      "prompt": "What is the difference between 'imply' and 'infer'?",
+      "answer": "The speaker implies something by hinting at it; the listener infers something by drawing a conclusion from what they hear.",
+      "alt_answers": ["Imply is what a speaker does; infer is what a listener does.", "You imply when you hint; you infer when you conclude."],
+      "grammar": "vocabulary - imply vs infer"
+    },
+    {
+      "id": 502,
+      "level": 9,
+      "lesson": 130,
+      "prompt": "What is a collocation? Give me an example.",
+      "answer": "A collocation is a pair or group of words that are commonly used together. For example, 'make a decision' or 'take a risk'.",
+      "alt_answers": ["Words that often go together, like 'do homework' or 'make a mistake'.", "Natural word combinations, like 'heavy rain' or 'strong coffee'."],
+      "grammar": "collocations - definition and examples"
+    },
+    {
+      "id": 503,
+      "level": 9,
+      "lesson": 130,
+      "prompt": "Do we say 'make homework' or 'do homework'?",
+      "answer": "We say 'do homework', not 'make homework'. 'Do' collocates with homework.",
+      "alt_answers": ["Do homework.", "'Do' is the correct collocation."],
+      "grammar": "collocations - do homework"
+    },
+    {
+      "id": 504,
+      "level": 9,
+      "lesson": 130,
+      "prompt": "Do we say 'strong tea' or 'powerful tea'?",
+      "answer": "We say 'strong tea', not 'powerful tea'. 'Strong' collocates with tea.",
+      "alt_answers": ["Strong tea.", "'Strong' is the correct collocation with tea."],
+      "grammar": "collocations - strong vs powerful"
+    },
+    {
+      "id": 505,
+      "level": 10,
+      "lesson": 146,
+      "prompt": "Was it the weather that made you cancel the trip?",
+      "answer": "Yes, it was the weather that made us cancel the trip.",
+      "alt_answers": ["Yes, it was.", "Yes, the weather was the reason we cancelled."],
+      "grammar": "cleft sentence - It was...that..."
+    },
+    {
+      "id": 506,
+      "level": 10,
+      "lesson": 146,
+      "prompt": "Was it John who called you?",
+      "answer": "Yes, it was John who called me.",
+      "alt_answers": ["Yes, it was.", "Yes, John was the one who called."],
+      "grammar": "cleft sentence - It was...who..."
+    },
+    {
+      "id": 507,
+      "level": 10,
+      "lesson": 146,
+      "prompt": "It wasn't the price that put me off; what was it?",
+      "answer": "It was the quality that put me off.",
+      "alt_answers": ["It was something else, not the price.", "The quality was what put me off."],
+      "grammar": "cleft sentence - negative + positive"
+    },
+    {
+      "id": 508,
+      "level": 10,
+      "lesson": 147,
+      "prompt": "What is it that you find most difficult about English?",
+      "answer": "What I find most difficult about English is the pronunciation.",
+      "alt_answers": ["It is the pronunciation that I find most difficult.", "Pronunciation is what I find hardest."],
+      "grammar": "cleft sentence - What I...is..."
+    },
+    {
+      "id": 509,
+      "level": 10,
+      "lesson": 147,
+      "prompt": "What happened was that the train was delayed. Can you form a question about this?",
+      "answer": "What happened? What was it that caused the delay?",
+      "alt_answers": ["What was it that happened?", "What caused this?"],
+      "grammar": "cleft sentence - What happened was..."
+    },
+    {
+      "id": 510,
+      "level": 10,
+      "lesson": 147,
+      "prompt": "Do you agree that economic growth is the absolute priority for a country?",
+      "answer": "Yes, I agree that economic growth is a priority because it creates jobs and raises the standard of living.",
+      "alt_answers": ["Yes, it creates employment and improves living standards.", "Yes, growth generates wealth and opportunity."],
+      "grammar": "high-level discussion - economics"
+    },
+    {
+      "id": 511,
+      "level": 10,
+      "lesson": 148,
+      "prompt": "Do you think that political transparency leads to greater public trust?",
+      "answer": "Yes, I think that political transparency leads to greater public trust because citizens can see how decisions are made.",
+      "alt_answers": ["Yes, openness builds confidence in institutions.", "Yes, people trust leaders who are honest."],
+      "grammar": "high-level discussion - politics"
+    },
+    {
+      "id": 512,
+      "level": 10,
+      "lesson": 148,
+      "prompt": "What is the difference between 'further' and 'farther'?",
+      "answer": "'Farther' refers to physical distance, whilst 'further' can also mean additional or more advanced.",
+      "alt_answers": ["Farther is for physical distance; further has a broader meaning.", "Farther = more distant; further = more or additional."],
+      "grammar": "vocabulary - further vs farther"
+    },
+    {
+      "id": 513,
+      "level": 10,
+      "lesson": 148,
+      "prompt": "What does 'notwithstanding' mean?",
+      "answer": "'Notwithstanding' means despite or in spite of; it is a formal word used to acknowledge an obstacle that doesn't prevent something.",
+      "alt_answers": ["Despite, or in spite of.", "A formal way of saying nevertheless or despite."],
+      "grammar": "advanced vocabulary - notwithstanding"
+    },
+    {
+      "id": 514,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "What does the expression 'the tip of the iceberg' mean?",
+      "answer": "'The tip of the iceberg' means a small visible part of a much larger hidden problem.",
+      "alt_answers": ["A small part of a much bigger issue.", "What is visible is only a fraction of the whole problem."],
+      "grammar": "idiom - tip of the iceberg"
+    },
+    {
+      "id": 515,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "What does 'a double-edged sword' mean?",
+      "answer": "'A double-edged sword' means something that has both advantages and disadvantages.",
+      "alt_answers": ["Something with both benefits and drawbacks.", "An action with both positive and negative consequences."],
+      "grammar": "idiom - double-edged sword"
+    },
+    {
+      "id": 516,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "What does 'to sit on the fence' mean?",
+      "answer": "'To sit on the fence' means to avoid making a decision or expressing a clear opinion.",
+      "alt_answers": ["To avoid taking sides.", "To remain neutral and not commit."],
+      "grammar": "idiom - sit on the fence"
+    },
+    {
+      "id": 517,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "What does 'to beat around the bush' mean?",
+      "answer": "'To beat around the bush' means to avoid talking about the main point and speak indirectly.",
+      "alt_answers": ["To be indirect and avoid the point.", "To talk around a subject without addressing it directly."],
+      "grammar": "idiom - beat around the bush"
+    },
+    {
+      "id": 518,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "Invert the sentence: 'I have seldom seen such a beautiful view.'",
+      "answer": "Seldom have I seen such a beautiful view.",
+      "alt_answers": ["Seldom have I seen anything so beautiful."],
+      "grammar": "inversion - seldom"
+    },
+    {
+      "id": 519,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "Invert the sentence: 'I have never seen such behaviour.'",
+      "answer": "Never have I seen such behaviour.",
+      "alt_answers": ["Never before have I witnessed such behaviour."],
+      "grammar": "inversion - never"
+    },
+    {
+      "id": 520,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "Invert the sentence using 'No sooner': 'I had no sooner sat down when the alarm rang.'",
+      "answer": "No sooner had I sat down than the alarm rang.",
+      "alt_answers": ["No sooner had I taken my seat than the alarm sounded."],
+      "grammar": "inversion - no sooner...than"
+    },
+    {
+      "id": 521,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "Invert the sentence: 'I had hardly arrived when the meeting began.'",
+      "answer": "Hardly had I arrived when the meeting began.",
+      "alt_answers": ["Hardly had I got there when it started."],
+      "grammar": "inversion - hardly"
+    },
+    {
+      "id": 522,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "Invert the sentence: 'Not only did he forget my name, but he also forgot the appointment.'",
+      "answer": "Not only did he forget my name, but he also forgot the appointment.",
+      "alt_answers": ["Not only was my name forgotten, but the appointment was too."],
+      "grammar": "inversion - not only...but also"
+    },
+    {
+      "id": 523,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "Is it essential that he be present at the board meeting tomorrow?",
+      "answer": "Yes, it is essential that he be present at the board meeting tomorrow.",
+      "alt_answers": ["Yes, his presence is essential.", "Yes, it is vital that he attend."],
+      "grammar": "advanced subjunctive - it is essential that + be"
+    },
+    {
+      "id": 524,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "Is it necessary that she attend every session?",
+      "answer": "Yes, it is necessary that she attend every session.",
+      "alt_answers": ["Yes, she must attend every one.", "Yes, it is required that she be there."],
+      "grammar": "advanced subjunctive - it is necessary that"
+    },
+    {
+      "id": 525,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "The committee recommends that the proposal be accepted. What tense is 'be accepted'?",
+      "answer": "'Be accepted' is the subjunctive mood; after verbs like 'recommend', 'suggest', and 'insist', we use the base form of the verb.",
+      "alt_answers": ["It is the subjunctive mood.", "The base form of the verb, used after recommend and suggest."],
+      "grammar": "subjunctive after recommend/suggest/insist"
+    },
+    {
+      "id": 526,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "Invert the sentence: 'You should under no circumstances open this file.'",
+      "answer": "Under no circumstances should you open this file.",
+      "alt_answers": ["Under no circumstances ought you to open this file."],
+      "grammar": "inversion - under no circumstances"
+    },
+    {
+      "id": 527,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "Invert the sentence: 'I have at no time suggested that this was your fault.'",
+      "answer": "At no time have I suggested that this was your fault.",
+      "alt_answers": ["At no time did I imply it was your fault."],
+      "grammar": "inversion - at no time"
+    },
+    {
+      "id": 528,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "Rewrite formally: 'Only when I saw the results did I understand the problem.'",
+      "answer": "Only when I saw the results did I understand the problem.",
+      "alt_answers": ["Only upon seeing the results did I grasp the problem."],
+      "grammar": "inversion - only when"
+    },
+    {
+      "id": 529,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "What does the idiom 'to pull strings' mean?",
+      "answer": "'To pull strings' means to use one's influence or personal connections to get something done.",
+      "alt_answers": ["To use connections to gain an advantage.", "To influence a situation through personal contacts."],
+      "grammar": "advanced idiom - pull strings"
+    },
+    {
+      "id": 530,
+      "level": 11,
+      "lesson": 167,
+      "prompt": "What does 'the elephant in the room' mean?",
+      "answer": "'The elephant in the room' means an obvious problem or issue that everyone is aware of but nobody wants to discuss.",
+      "alt_answers": ["An obvious problem that people avoid mentioning.", "A clear issue that is deliberately ignored."],
+      "grammar": "advanced idiom - elephant in the room"
+    },
+    {
+      "id": 531,
+      "level": 11,
+      "lesson": 167,
+      "prompt": "What does 'to bite the bullet' mean?",
+      "answer": "'To bite the bullet' means to endure a painful or difficult situation with courage.",
+      "alt_answers": ["To face something difficult bravely.", "To accept an unpleasant situation and get on with it."],
+      "grammar": "advanced idiom - bite the bullet"
+    },
+    {
+      "id": 532,
+      "level": 11,
+      "lesson": 167,
+      "prompt": "What does 'to catch someone off guard' mean?",
+      "answer": "'To catch someone off guard' means to surprise someone when they are not prepared.",
+      "alt_answers": ["To surprise someone unexpectedly.", "To find someone in an unprepared state."],
+      "grammar": "advanced idiom - catch off guard"
+    },
+    {
+      "id": 533,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "How do you handle a situation when someone tries to distort the truth?",
+      "answer": "When someone tries to distort the truth, I confront them with the facts and evidence to clarify the situation.",
+      "alt_answers": ["I present evidence and correct the record calmly.", "I address it directly with concrete facts."],
+      "grammar": "mastery - discourse and critical thinking"
+    },
+    {
+      "id": 534,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "Does a lack of transparency invariably undermine public confidence?",
+      "answer": "Yes, a lack of transparency invariably undermines public confidence because people lose trust in institutions that hide information.",
+      "alt_answers": ["Yes, it erodes trust when information is withheld.", "Yes, openness is fundamental to maintaining trust."],
+      "grammar": "mastery - abstract discussion"
+    },
+    {
+      "id": 535,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "What does 'furthermore' mean, and how is it used?",
+      "answer": "'Furthermore' is a discourse marker meaning in addition or moreover; it is used to add a point that reinforces the previous one.",
+      "alt_answers": ["In addition; it adds a supporting point.", "A formal way of saying also or in addition."],
+      "grammar": "discourse marker - furthermore"
+    },
+    {
+      "id": 536,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "What does 'nevertheless' mean, and how is it used?",
+      "answer": "'Nevertheless' means despite what has just been said; it is used to introduce a contrast or unexpected result.",
+      "alt_answers": ["Despite that; it shows contrast.", "A formal way of saying however or even so."],
+      "grammar": "discourse marker - nevertheless"
+    },
+    {
+      "id": 537,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "What does 'henceforth' mean?",
+      "answer": "'Henceforth' is a formal word meaning from this time forward or from now on.",
+      "alt_answers": ["From now on.", "From this point forward."],
+      "grammar": "advanced vocabulary - henceforth"
+    },
+    {
+      "id": 538,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "What does it mean to 'rectify' something?",
+      "answer": "To 'rectify' something means to correct or put right something that is wrong.",
+      "alt_answers": ["To correct.", "To fix or put right."],
+      "grammar": "advanced vocabulary - rectify"
+    },
+    {
+      "id": 539,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "What does 'empirical evidence' mean?",
+      "answer": "'Empirical evidence' means evidence based on observation or experiment rather than theory or assumption.",
+      "alt_answers": ["Evidence from observation and experience.", "Factual evidence from direct experience or testing."],
+      "grammar": "advanced vocabulary - empirical"
+    },
+    {
+      "id": 540,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "Can you describe someone who is 'tenacious'?",
+      "answer": "A tenacious person is someone who is very determined and does not give up easily, even when things are difficult.",
+      "alt_answers": ["Very determined and persistent.", "Someone who keeps going despite obstacles."],
+      "grammar": "advanced vocabulary - tenacious"
+    },
+    {
+      "id": 541,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What is a 'rhetoric' question? Give an example.",
+      "answer": "A rhetorical question is one that is asked for effect and does not require an answer. For example, 'Who could possibly disagree with that?'",
+      "alt_answers": ["A question asked for effect, not for an answer.", "For example: 'Is the sky blue?'"],
+      "grammar": "rhetorical structure"
+    },
+    {
+      "id": 542,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What does 'to foster' something mean?",
+      "answer": "To 'foster' something means to encourage or promote its development or growth.",
+      "alt_answers": ["To encourage and develop.", "To nurture or promote."],
+      "grammar": "advanced vocabulary - foster"
+    },
+    {
+      "id": 543,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What does 'ambiguous' mean? Give an example.",
+      "answer": "'Ambiguous' means having more than one possible meaning or interpretation. For example, 'I saw the man with the telescope' is ambiguous.",
+      "alt_answers": ["Having more than one meaning.", "Unclear because it can be interpreted in different ways."],
+      "grammar": "advanced vocabulary - ambiguous"
+    },
+    {
+      "id": 544,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "Is it possible to be both concise and comprehensive in professional writing?",
+      "answer": "Yes, it is possible to be both concise and comprehensive by focusing on essential points and eliminating redundancy.",
+      "alt_answers": ["Yes, by being precise and selecting only what is relevant.", "Yes, good writers achieve both qualities simultaneously."],
+      "grammar": "mastery - professional writing discussion"
+    },
+    {
+      "id": 545,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What is the difference between 'persuade' and 'convince'?",
+      "answer": "To 'convince' someone is to change their belief or opinion, whilst to 'persuade' someone is to cause them to do something through argument or reasoning.",
+      "alt_answers": ["Convince changes minds; persuade moves to action.", "You convince someone of a fact; you persuade someone to act."],
+      "grammar": "mastery - vocabulary distinction persuade vs convince"
     }
   ]
 }
