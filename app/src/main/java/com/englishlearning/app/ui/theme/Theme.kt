@@ -12,42 +12,58 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 // ---------------------------------------------------------------------------
-// Color palette
+// Color palette — Modern Educational (Indigo · Emerald · Amber)
 // ---------------------------------------------------------------------------
 
-private val PrimaryBlue = Color(0xFF1565C0)
-private val PrimaryBlueDark = Color(0xFF0D47A1)
-private val SecondaryGreen = Color(0xFF2E7D32)
-private val TertiaryOrange = Color(0xFFE65100)
+// Primary: Indigo vibrante
+private val Indigo600   = Color(0xFF4F46E5)
+private val Indigo800   = Color(0xFF3730A3)
+private val Indigo50    = Color(0xFFEEF2FF)
+// Secondary: Esmeralda (vocabulário, progresso)
+private val Emerald500  = Color(0xFF10B981)
+private val Emerald800  = Color(0xFF065F46)
+private val Emerald50   = Color(0xFFD1FAE5)
+// Tertiary: Âmbar (conquistas, revisões)
+private val Amber500    = Color(0xFFF59E0B)
+private val Amber900    = Color(0xFF78350F)
+private val Amber50     = Color(0xFFFEF3C7)
 
 private val LightColorScheme = lightColorScheme(
-    primary = PrimaryBlue,
-    onPrimary = Color.White,
-    primaryContainer = Color(0xFFD3E4FF),
-    onPrimaryContainer = PrimaryBlueDark,
-    secondary = SecondaryGreen,
-    onSecondary = Color.White,
-    secondaryContainer = Color(0xFFC8E6C9),
-    onSecondaryContainer = Color(0xFF1B5E20),
-    tertiary = TertiaryOrange,
-    onTertiary = Color.White,
-    background = Color(0xFFFAFAFA),
-    surface = Color.White,
-    onSurface = Color(0xFF1C1B1F)
+    primary              = Indigo600,
+    onPrimary            = Color.White,
+    primaryContainer     = Indigo50,
+    onPrimaryContainer   = Indigo800,
+    secondary            = Emerald500,
+    onSecondary          = Color.White,
+    secondaryContainer   = Emerald50,
+    onSecondaryContainer = Emerald800,
+    tertiary             = Amber500,
+    onTertiary           = Color.White,
+    tertiaryContainer    = Amber50,
+    onTertiaryContainer  = Amber900,
+    background           = Color(0xFFF8FAFC),
+    surface              = Color.White,
+    surfaceVariant       = Color(0xFFF1F5F9),
+    onSurface            = Color(0xFF0F172A),
+    onSurfaceVariant     = Color(0xFF64748B),
+    outline              = Color(0xFFCBD5E1)
 )
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color(0xFF90CAF9),
-    onPrimary = Color(0xFF003065),
-    primaryContainer = PrimaryBlueDark,
-    onPrimaryContainer = Color(0xFFD3E4FF),
-    secondary = Color(0xFFA5D6A7),
-    onSecondary = Color(0xFF1B5E20),
-    tertiary = Color(0xFFFFCC80),
-    onTertiary = Color(0xFF7A2800),
-    background = Color(0xFF1C1B1F),
-    surface = Color(0xFF1C1B1F),
-    onSurface = Color(0xFFE6E1E5)
+    primary              = Color(0xFFA5B4FC),   // indigo-300
+    onPrimary            = Color(0xFF1E1B4B),
+    primaryContainer     = Indigo800,
+    onPrimaryContainer   = Color(0xFFE0E7FF),
+    secondary            = Color(0xFF6EE7B7),   // emerald-300
+    onSecondary          = Color(0xFF064E3B),
+    tertiary             = Color(0xFFFCD34D),   // amber-300
+    onTertiary           = Color(0xFF451A03),
+    background           = Color(0xFF0F172A),   // slate-900
+    surface              = Color(0xFF1E293B),   // slate-800
+    surfaceVariant       = Color(0xFF334155),   // slate-700
+    onSurface            = Color(0xFFF1F5F9),
+    onSurfaceVariant     = Color(0xFF94A3B8),
+    outline              = Color(0xFF475569)
 )
 
 // ---------------------------------------------------------------------------
@@ -71,7 +87,8 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun EnglishLearningTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = true,
+    // false = sempre usa a paleta customizada (não depende do wallpaper do Android 12+)
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {

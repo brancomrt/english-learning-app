@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Lock
@@ -33,8 +34,10 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
@@ -43,6 +46,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -192,13 +197,10 @@ fun HomeContent(
                 fontWeight = FontWeight.SemiBold
             )
 
-            // Card de streak (Req. 5.6)
-            StreakCard(currentStreak = uiState.currentStreak)
-
-            // Card de estatísticas gerais
+            // Hero card: nível CEFR, barra de XP, streak, exercícios (A + B)
             uiState.userStats?.let { stats ->
-                StatsCard(stats = stats)
-            }
+                HeroCard(currentStreak = uiState.currentStreak, stats = stats)
+            } ?: StreakCard(currentStreak = uiState.currentStreak)
 
             // Card "Revisar Agora" — visível apenas quando há cards devidos (Req. 16.6, 18.4)
             if (uiState.dueCardCount > 0) {
@@ -211,32 +213,33 @@ fun HomeContent(
             // Botão principal "Continuar Estudando"
             Button(
                 onClick = onStudyClick,
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(16.dp)
             ) {
                 Text(
                     text = "Continuar Estudando",
                     style = MaterialTheme.typography.labelLarge
                 )
             }
-            // Botão de Vocabulário
-            FilledTonalButton(
-                onClick = onVocabularyClick,
-                modifier = Modifier.fillMaxWidth()
+            // Botões secundários lado a lado
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Text(
-                    text = "📚 Vocabulário",
-                    style = MaterialTheme.typography.labelLarge
-                )
-            }
-            // Botão Drilling
-            FilledTonalButton(
-                onClick = onDrillingClick,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(
-                    text = "⚡ Drilling",
-                    style = MaterialTheme.typography.labelLarge
-                )
+                FilledTonalButton(
+                    onClick = onVocabularyClick,
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("📚 Vocabulário", style = MaterialTheme.typography.labelMedium)
+                }
+                FilledTonalButton(
+                    onClick = onDrillingClick,
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("⚡ Drilling", style = MaterialTheme.typography.labelMedium)
+                }
             }
 
             // Acesso rápido aos níveis desbloqueados (Req. 6.3)
@@ -253,20 +256,167 @@ fun HomeContent(
 }
 
 // ---------------------------------------------------------------------------
-// SrsReviewCard — "Revisar Agora" com badge (Req. 16.6, 18.4)
+// HeroCard — Dashboard principal com nível CEFR + XP + streak  (A + B)
 // ---------------------------------------------------------------------------
 
 /**
- * Card de acesso rápido à revisão SRS, exibido apenas quando [dueCardCount] > 0.
- *
- * Mostra um badge com a contagem de cards devidos e um botão "Revisar Agora".
- *
- * Requisito 16.6: exibir na HomeScreen um badge com a contagem de SRS cards devidos.
- * Requisito 18.4: seção "Revisar Agora" exibida somente quando há cards devidos.
- *
- * @param dueCardCount  Número de cards com dueDate <= hoje.
- * @param onReviewClick Callback ao pressionar o card/botão de revisão.
+ * Card herói que substitui o StreakCard + StatsCard.
+ * Exibe o badge de nível CEFR, barra de XP, streak e exercícios completos
+ * em um único bloco visual com fundo primary.
  */
+@Composable
+fun HeroCard(currentStreak: Int, stats: UserStats) {
+    val cefr      = cefrLabel(stats.currentLevelId)
+    val levelName = levelDisplayName(stats.currentLevelId)
+    val (xpMin, xpMax) = xpRangeForLevel(stats.currentLevelId)
+    val isMaxLevel = stats.currentLevelId >= 6
+    val progress  = if (!isMaxLevel && xpMax > xpMin)
+        ((stats.totalXp - xpMin).toFloat() / (xpMax - xpMin)).coerceIn(0f, 1f)
+    else 1f
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape    = RoundedCornerShape(24.dp),
+        colors   = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primary
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(24.dp),
+            verticalArrangement = Arrangement.spacedBy(20.dp)
+        ) {
+            // ── Linha superior: badge CEFR + stats ───────────────────────
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                // Badge de nível CEFR
+                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Surface(
+                        shape = RoundedCornerShape(14.dp),
+                        color = Color.White.copy(alpha = 0.18f)
+                    ) {
+                        Text(
+                            text  = cefr,
+                            style = MaterialTheme.typography.displaySmall,
+                            fontWeight = FontWeight.ExtraBold,
+                            color = Color.White,
+                            modifier = Modifier.padding(horizontal = 20.dp, vertical = 6.dp)
+                        )
+                    }
+                    Text(
+                        text  = levelName,
+                        style = MaterialTheme.typography.labelMedium,
+                        color = Color.White.copy(alpha = 0.75f)
+                    )
+                }
+
+                // Stats: streak e exercícios
+                Row(horizontalArrangement = Arrangement.spacedBy(28.dp)) {
+                    HeroStat(
+                        emoji = "🔥",
+                        value = "$currentStreak",
+                        label = if (currentStreak == 1) "dia" else "dias"
+                    )
+                    HeroStat(
+                        emoji = "✏️",
+                        value = "${stats.totalExercisesCompleted}",
+                        label = "exercícios"
+                    )
+                }
+            }
+
+            // ── Barra de XP ───────────────────────────────────────────────
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text  = "⭐ ${stats.totalXp} XP",
+                        style = MaterialTheme.typography.labelLarge,
+                        fontWeight = FontWeight.SemiBold,
+                        color = Color.White
+                    )
+                    Text(
+                        text  = if (isMaxLevel) "Nível máximo 🏆"
+                                else "próximo: $xpMax XP",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = Color.White.copy(alpha = 0.70f)
+                    )
+                }
+                LinearProgressIndicator(
+                    progress = { progress },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(8.dp)
+                        .clip(RoundedCornerShape(4.dp)),
+                    color      = Color.White,
+                    trackColor = Color.White.copy(alpha = 0.28f)
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun HeroStat(emoji: String, value: String, label: String) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(emoji, style = MaterialTheme.typography.titleMedium)
+        Text(
+            text  = value,
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        )
+        Text(
+            text  = label,
+            style = MaterialTheme.typography.labelSmall,
+            color = Color.White.copy(alpha = 0.75f)
+        )
+    }
+}
+
+// ── Helpers de nível ──────────────────────────────────────────────────────────
+
+/** Rótulo CEFR baseado no levelId (1–6). */
+private fun cefrLabel(levelId: Int) = when (levelId) {
+    1    -> "A1"
+    2    -> "A2"
+    3    -> "A2+"
+    4    -> "B1"
+    5    -> "B2"
+    else -> "C1"
+}
+
+/** Nome legível do nível. */
+private fun levelDisplayName(levelId: Int) = when (levelId) {
+    1    -> "Iniciante"
+    2    -> "Elementar"
+    3    -> "Pré-Intermediário"
+    4    -> "Intermediário"
+    5    -> "Avançado"
+    else -> "Proficiente"
+}
+
+/** Faixa de XP de início e fim para o nível atual (para a barra de progresso). */
+private fun xpRangeForLevel(levelId: Int): Pair<Int, Int> = when (levelId) {
+    1    -> Pair(0,     1_000)
+    2    -> Pair(1_000, 2_500)
+    3    -> Pair(2_500, 5_000)
+    4    -> Pair(5_000, 10_000)
+    5    -> Pair(10_000, 20_000)
+    else -> Pair(20_000, 20_000)   // nível máximo
+}
+
+// ---------------------------------------------------------------------------
+// SrsReviewCard — "Revisar Agora" com badge (Req. 16.6, 18.4)
+// ---------------------------------------------------------------------------
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SrsReviewCard(
@@ -548,10 +698,16 @@ fun LevelQuickAccessCard(
                     tint = MaterialTheme.colorScheme.outline
                 )
             }
-            // Nome do nível em inglês (Req. 12.5)
+            // Nome do nível com badge CEFR
             Text(
-                text = level.nameKey,
-                style = MaterialTheme.typography.bodyMedium,
+                text = cefrLabel(level.id),
+                style = MaterialTheme.typography.titleLarge,
+                fontWeight = FontWeight.ExtraBold,
+                color = MaterialTheme.colorScheme.primary
+            )
+            Text(
+                text = levelDisplayName(level.id),
+                style = MaterialTheme.typography.bodySmall,
                 fontWeight = FontWeight.Medium,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,
