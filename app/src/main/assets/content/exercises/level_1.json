@@ -1582,7 +1582,7 @@
       {
         "id": 97,
         "hint_order": 1,
-        "hint_text": "Callan tip: always answer with a full sentence.",
+        "hint_text": "Tip: always answer with a full sentence.",
         "hint_type": "structural"
       },
       {
@@ -1662,7 +1662,7 @@
     "context_text": null,
     "question_type": "YES_NO",
     "exercise_mode": "ANSWER_FROM_QUESTION",
-    "grammar_focus": "present simple - am, full answer Callan style",
+    "grammar_focus": "present simple - am, full answer",
     "difficulty_score": 1,
     "xp_reward": 10,
     "sort_order": 16,
@@ -2002,7 +2002,7 @@
       {
         "id": 122,
         "hint_order": 2,
-        "hint_text": "Callan: repeat the full question structure in the answer.",
+        "hint_text": "Tip: repeat the full question structure in the answer.",
         "hint_type": "vocabulary"
       },
       {

@@ -67,7 +67,7 @@ object HomeNavRoutes {
 
     /** Rota para a tela de revisão SRS. Requisito 16.6, 18.4. */
     const val SRS_REVIEW = "srs_review"
-    const val CALLAN_DRILL = "callan_drill"
+    const val DRILLING = "drilling"
     const val VOCABULARY = "vocabulary"
 }
 
@@ -110,7 +110,7 @@ fun HomeScreen(
             onSettingsClick = { navController.navigate(HomeNavRoutes.SETTINGS) },
             onReviewClick = { navController.navigate(HomeNavRoutes.SRS_REVIEW) },
             onVocabularyClick = { navController.navigate(HomeNavRoutes.VOCABULARY) },
-            onCallanDrillClick = { navController.navigate(HomeNavRoutes.CALLAN_DRILL) }
+            onDrillingClick = { navController.navigate(HomeNavRoutes.DRILLING) }
         )
     }
 }
@@ -145,7 +145,7 @@ fun HomeContent(
     onSettingsClick: () -> Unit,
     onReviewClick: () -> Unit,
     onVocabularyClick: () -> Unit = {},
-    onCallanDrillClick: () -> Unit = {}
+    onDrillingClick: () -> Unit = {}
 ) {
     Scaffold(
         topBar = {
@@ -228,13 +228,13 @@ fun HomeContent(
                     style = MaterialTheme.typography.labelLarge
                 )
             }
-            // Botão Callan Drill
+            // Botão Drilling
             FilledTonalButton(
-                onClick = onCallanDrillClick,
+                onClick = onDrillingClick,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = "⚡ Drilling Callan",
+                    text = "⚡ Drilling",
                     style = MaterialTheme.typography.labelLarge
                 )
             }

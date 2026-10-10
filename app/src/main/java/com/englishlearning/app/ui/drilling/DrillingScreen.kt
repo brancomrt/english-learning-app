@@ -1,4 +1,4 @@
-package com.englishlearning.app.ui.callan
+package com.englishlearning.app.ui.drilling
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
@@ -39,9 +39,9 @@ import com.englishlearning.app.ui.components.rememberTtsManager
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CallanDrillScreen(
+fun DrillingScreen(
     navController: NavController,
-    viewModel: CallanDrillViewModel = hiltViewModel()
+    viewModel: DrillingViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val (ttsManager, ttsState) = rememberTtsManager()
@@ -49,7 +49,7 @@ fun CallanDrillScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("⚡ Callan Drill") },
+                title = { Text("⚡ Drilling") },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, "Voltar")
@@ -94,7 +94,7 @@ private fun QuestionScreen(
     var input by rememberSaveable(state.index) { mutableStateOf("") }
     val focusRequester = remember { FocusRequester() }
     val timerProgress by animateFloatAsState(
-        targetValue = state.secondsLeft.toFloat() / CallanDrillViewModel.TIMER_SECONDS,
+        targetValue = state.secondsLeft.toFloat() / DrillingViewModel.TIMER_SECONDS,
         animationSpec = tween(900),
         label = "timer"
     )
@@ -159,7 +159,7 @@ private fun QuestionScreen(
 
         Spacer(Modifier.height(8.dp))
 
-        // Card da pergunta (estilo Callan)
+        // Card da pergunta
         AnimatedContent(
             targetState = state.index,
             transitionSpec = {
@@ -347,7 +347,7 @@ private fun DoneScreen(
         Spacer(Modifier.height(8.dp))
         Text(
             when {
-                state.percentage >= 80 -> "Excellent! Very Callan! 🎉"
+                state.percentage >= 80 -> "Excellent! 🏆 Excellent! 🎉"
                 state.percentage >= 50 -> "Good progress! Keep practising."
                 else -> "Keep going! Repetition is the key."
             },

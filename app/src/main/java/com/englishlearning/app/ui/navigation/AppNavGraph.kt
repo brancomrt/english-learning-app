@@ -20,7 +20,7 @@ import com.englishlearning.app.ui.learning.LearningSessionScreen
 import com.englishlearning.app.ui.lesson.LessonScreen
 import com.englishlearning.app.ui.levelselect.LevelSelectScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
-import com.englishlearning.app.ui.callan.CallanDrillScreen
+import com.englishlearning.app.ui.drilling.DrillingScreen
 import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
 import com.englishlearning.app.ui.vocabulary.VocabularyScreen
@@ -54,7 +54,7 @@ sealed class Screen(val route: String) {
     object SrsReview      : Screen("srs_review")
     object PrivacyPolicy  : Screen("privacy_policy")
     object Vocabulary     : Screen("vocabulary")
-    object CallanDrill    : Screen("callan_drill")
+    object Drilling       : Screen("drilling")
 }
 
 private const val PREFS_NAME = "app_prefs"
@@ -215,9 +215,9 @@ fun AppNavGraph(
             )
         }
 
-        // Callan Drill
-        composable(Screen.CallanDrill.route) {
-            CallanDrillScreen(navController = navController)
+        // Drilling
+        composable(Screen.Drilling.route) {
+            DrillingScreen(navController = navController)
         }
     }
 }

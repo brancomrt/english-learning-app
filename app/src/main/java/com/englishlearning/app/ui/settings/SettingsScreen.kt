@@ -163,7 +163,7 @@ fun SettingsScreen(
                 item {
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(
-                        text = "⚡ Callan Drill",
+                        text = "⚡ Drilling",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold
                     )
@@ -173,13 +173,13 @@ fun SettingsScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Spacer(modifier = Modifier.height(8.dp))
-                    CallanDrillSettingsCard(
-                        minStage   = uiState.callanMinStage,
-                        maxStage   = uiState.callanMaxStage,
-                        drillSize  = uiState.callanDrillSize,
-                        onMinStageChange  = { viewModel.updateCallanMinStage(it) },
-                        onMaxStageChange  = { viewModel.updateCallanMaxStage(it) },
-                        onDrillSizeChange = { viewModel.updateCallanDrillSize(it) }
+                    DrillingSettingsCard(
+                        minStage   = uiState.drillingMinStage,
+                        maxStage   = uiState.drillingMaxStage,
+                        drillSize  = uiState.drillingSize,
+                        onMinStageChange  = { viewModel.updateDrillingMinStage(it) },
+                        onMaxStageChange  = { viewModel.updateDrillingMaxStage(it) },
+                        onDrillSizeChange = { viewModel.updateDrillingSize(it) }
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(
@@ -337,7 +337,7 @@ private fun LanguageSelectorCard(
 }
 
 @Composable
-private fun CallanDrillSettingsCard(
+private fun DrillingSettingsCard(
     minStage: Int,
     maxStage: Int,
     drillSize: Int,

@@ -58,35 +58,35 @@ class SessionSettingsRepository @Inject constructor(
         prefs.edit().putInt(KEY_VOCAB_LIMIT, limit).apply()
     }
 
-    // ── Callan Drill ─────────────────────────────────────────────────────────
+    // ── Drilling ─────────────────────────────────────────────────────────
 
-    /** Stage mínimo do Callan Drill (1–12). */
-    fun getCallanMinStage(): Int =
-        prefs.getInt(KEY_CALLAN_MIN_STAGE, DEFAULT_CALLAN_MIN_STAGE)
+    /** Stage mínimo do Drilling (1–12). */
+    fun getDrillingMinStage(): Int =
+        prefs.getInt(KEY_DRILLING_MIN_STAGE, DEFAULT_DRILLING_MIN_STAGE)
 
-    fun setCallanMinStage(stage: Int) {
+    fun setDrillingMinStage(stage: Int) {
         prefs.edit()
-            .putInt(KEY_CALLAN_MIN_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
+            .putInt(KEY_DRILLING_MIN_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
             .apply()
     }
 
-    /** Stage máximo do Callan Drill (1–12). */
-    fun getCallanMaxStage(): Int =
-        prefs.getInt(KEY_CALLAN_MAX_STAGE, DEFAULT_CALLAN_MAX_STAGE)
+    /** Stage máximo do Drilling (1–12). */
+    fun getDrillingMaxStage(): Int =
+        prefs.getInt(KEY_DRILLING_MAX_STAGE, DEFAULT_DRILLING_MAX_STAGE)
 
-    fun setCallanMaxStage(stage: Int) {
+    fun setDrillingMaxStage(stage: Int) {
         prefs.edit()
-            .putInt(KEY_CALLAN_MAX_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
+            .putInt(KEY_DRILLING_MAX_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
             .apply()
     }
 
-    /** Número de questões por sessão no Callan Drill (5–50). */
-    fun getCallanDrillSize(): Int =
-        prefs.getInt(KEY_CALLAN_DRILL_SIZE, DEFAULT_CALLAN_DRILL_SIZE)
+    /** Número de questões por sessão no Drilling (5–50). */
+    fun getDrillingSize(): Int =
+        prefs.getInt(KEY_DRILLING_SIZE, DEFAULT_DRILLING_SIZE)
 
-    fun setCallanDrillSize(size: Int) {
+    fun setDrillingSize(size: Int) {
         prefs.edit()
-            .putInt(KEY_CALLAN_DRILL_SIZE, size.coerceIn(MIN_DRILL_SIZE, MAX_DRILL_SIZE))
+            .putInt(KEY_DRILLING_SIZE, size.coerceIn(MIN_DRILL_SIZE, MAX_DRILL_SIZE))
             .apply()
     }
 
@@ -99,16 +99,16 @@ class SessionSettingsRepository @Inject constructor(
         const val DEFAULT_VOCAB_LIMIT = 20
         const val MIN_VOCAB = 5
         const val MAX_VOCAB = 100
-        // Callan Drill
-        private const val KEY_CALLAN_MIN_STAGE  = "callan_min_stage"
-        private const val KEY_CALLAN_MAX_STAGE  = "callan_max_stage"
-        private const val KEY_CALLAN_DRILL_SIZE = "callan_drill_size"
+        // Drilling
+        private const val KEY_DRILLING_MIN_STAGE  = "drilling_min_stage"
+        private const val KEY_DRILLING_MAX_STAGE  = "drilling_max_stage"
+        private const val KEY_DRILLING_SIZE = "drilling_size"
         const val MIN_STAGE                = 1
         const val MAX_STAGE                = 12
-        const val DEFAULT_CALLAN_MIN_STAGE = 1
-        const val DEFAULT_CALLAN_MAX_STAGE = 12
+        const val DEFAULT_DRILLING_MIN_STAGE = 1
+        const val DEFAULT_DRILLING_MAX_STAGE = 12
         const val MIN_DRILL_SIZE           = 5
         const val MAX_DRILL_SIZE           = 50
-        const val DEFAULT_CALLAN_DRILL_SIZE = 20
+        const val DEFAULT_DRILLING_SIZE = 20
     }
 }

@@ -1,4 +1,4 @@
-package com.englishlearning.app.ui.callan
+package com.englishlearning.app.ui.drilling
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -19,10 +19,10 @@ import kotlinx.serialization.json.Json
 import javax.inject.Inject
 
 /**
- * Modelo de um drill no estilo Callan.
+ * Modelo de um drill para prática de perguntas e respostas.
  */
 @Serializable
-data class CallanDrill(
+data class Drill(
     val id: Int,
     val level: Int,
     val prompt: String,
@@ -32,15 +32,15 @@ data class CallanDrill(
 )
 
 @Serializable
-data class CallanDrillsFile(
+data class DrillsFile(
     val description: String,
-    val drills: List<CallanDrill>
+    val drills: List<Drill>
 )
 
 sealed class DrillUiState {
     object Loading : DrillUiState()
     data class Question(
-        val drill: CallanDrill,
+        val drill: Drill,
         val index: Int,
         val total: Int,
         val score: Int,
@@ -57,7 +57,7 @@ sealed class DrillUiState {
 }
 
 @HiltViewModel
-class CallanDrillViewModel @Inject constructor(
+class DrillingViewModel @Inject constructor(
     @ApplicationContext private val context: Context,
     private val settingsRepository: SessionSettingsRepository
 ) : ViewModel() {
@@ -67,15 +67,15 @@ class CallanDrillViewModel @Inject constructor(
 
     // Expõe as configurações atuais para a UI poder exibi-las
     private val _stageRange = MutableStateFlow(
-        settingsRepository.getCallanMinStage()..settingsRepository.getCallanMaxStage()
+        settingsRepository.getDrillingMinStage()..settingsRepository.getDrillingMaxStage()
     )
     val stageRange: StateFlow<IntRange> = _stageRange.asStateFlow()
 
     private val normalizer = TextNormalizer()
     private val json = Json { ignoreUnknownKeys = true }
     
-    private var allDrills: List<CallanDrill> = emptyList()
-    private var sessionDrills: List<CallanDrill> = emptyList()
+    private var allDrills: List<Drill> = emptyList()
+    private var sessionDrills: List<Drill> = emptyList()
     private var currentIndex = 0
     private var score = 0
     private var timerJob: Job? = null
@@ -89,11 +89,11 @@ class CallanDrillViewModel @Inject constructor(
             _uiState.value = DrillUiState.Loading
             try {
                 val jsonString = context.assets
-                    .open("content/callan_drills.json")
+                    .open("content/drills.json")
                     .bufferedReader()
                     .use { it.readText() }
                 
-                val drillsFile = json.decodeFromString<CallanDrillsFile>(jsonString)
+                val drillsFile = json.decodeFromString<DrillsFile>(jsonString)
                 allDrills = drillsFile.drills
 
                 startSession()
@@ -105,9 +105,9 @@ class CallanDrillViewModel @Inject constructor(
 
     /** Inicia uma nova sessão lendo as configurações mais recentes de stage e tamanho. */
     private fun startSession() {
-        val minStage  = settingsRepository.getCallanMinStage()
-        val maxStage  = settingsRepository.getCallanMaxStage()
-        val drillSize = settingsRepository.getCallanDrillSize()
+        val minStage  = settingsRepository.getDrillingMinStage()
+        val maxStage  = settingsRepository.getDrillingMaxStage()
+        val drillSize = settingsRepository.getDrillingSize()
 
         _stageRange.value = minStage..maxStage
 
@@ -245,7 +245,7 @@ class CallanDrillViewModel @Inject constructor(
 
     companion object {
         const val TIMER_SECONDS = 15
-        // DRILL_SIZE mantido para retrocompatibilidade mas não usado mais (substituído pelo repositório)
+        // DRILL_SIZE kept for backward compatibility
         const val DRILL_SIZE = 20
     }
 }

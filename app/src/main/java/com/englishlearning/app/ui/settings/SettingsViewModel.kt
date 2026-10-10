@@ -31,10 +31,10 @@ data class SettingsUiState(
     val confirmUnlockLevelId: Int? = null,
     val vocabLimit: Int = SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
     val appLanguage: AppLanguage = AppLanguage.PT_BR,
-    // Callan Drill
-    val callanMinStage: Int = SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE,
-    val callanMaxStage: Int = SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE,
-    val callanDrillSize: Int = SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE
+    // Drilling
+    val drillingMinStage: Int = SessionSettingsRepository.DEFAULT_DRILLING_MIN_STAGE,
+    val drillingMaxStage: Int = SessionSettingsRepository.DEFAULT_DRILLING_MAX_STAGE,
+    val drillingSize: Int = SessionSettingsRepository.DEFAULT_DRILLING_SIZE
 )
 
 @HiltViewModel
@@ -67,9 +67,9 @@ class SettingsViewModel @Inject constructor(
                 levelSettings = settings,
                 vocabLimit = settingsRepository.getVocabLimit(),
                 appLanguage = languageRepository.getLanguage(),
-                callanMinStage = settingsRepository.getCallanMinStage(),
-                callanMaxStage = settingsRepository.getCallanMaxStage(),
-                callanDrillSize = settingsRepository.getCallanDrillSize()
+                drillingMinStage = settingsRepository.getDrillingMinStage(),
+                drillingMaxStage = settingsRepository.getDrillingMaxStage(),
+                drillingSize = settingsRepository.getDrillingSize()
             )
         }
     }
@@ -93,25 +93,25 @@ class SettingsViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(vocabLimit = limit)
     }
 
-    // ── Callan Drill ─────────────────────────────────────────────────────────
+    // ── Drilling ─────────────────────────────────────────────────────────
 
-    fun updateCallanMinStage(stage: Int) {
+    fun updateDrillingMinStage(stage: Int) {
         // Garante que min nunca ultrapasse max
-        val clamped = stage.coerceAtMost(_uiState.value.callanMaxStage)
-        settingsRepository.setCallanMinStage(clamped)
-        _uiState.value = _uiState.value.copy(callanMinStage = clamped)
+        val clamped = stage.coerceAtMost(_uiState.value.drillingMaxStage)
+        settingsRepository.setDrillingMinStage(clamped)
+        _uiState.value = _uiState.value.copy(drillingMinStage = clamped)
     }
 
-    fun updateCallanMaxStage(stage: Int) {
+    fun updateDrillingMaxStage(stage: Int) {
         // Garante que max nunca fique abaixo de min
-        val clamped = stage.coerceAtLeast(_uiState.value.callanMinStage)
-        settingsRepository.setCallanMaxStage(clamped)
-        _uiState.value = _uiState.value.copy(callanMaxStage = clamped)
+        val clamped = stage.coerceAtLeast(_uiState.value.drillingMinStage)
+        settingsRepository.setDrillingMaxStage(clamped)
+        _uiState.value = _uiState.value.copy(drillingMaxStage = clamped)
     }
 
-    fun updateCallanDrillSize(size: Int) {
-        settingsRepository.setCallanDrillSize(size)
-        _uiState.value = _uiState.value.copy(callanDrillSize = size)
+    fun updateDrillingSize(size: Int) {
+        settingsRepository.setDrillingSize(size)
+        _uiState.value = _uiState.value.copy(drillingSize = size)
     }
 
     fun resetAllToDefault() {
@@ -119,15 +119,15 @@ class SettingsViewModel @Inject constructor(
             settingsRepository.setQuestionsLimit(s.levelId, DEFAULT_QUESTIONS)
         }
         settingsRepository.setVocabLimit(SessionSettingsRepository.DEFAULT_VOCAB_LIMIT)
-        settingsRepository.setCallanMinStage(SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE)
-        settingsRepository.setCallanMaxStage(SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE)
-        settingsRepository.setCallanDrillSize(SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE)
+        settingsRepository.setDrillingMinStage(SessionSettingsRepository.DEFAULT_DRILLING_MIN_STAGE)
+        settingsRepository.setDrillingMaxStage(SessionSettingsRepository.DEFAULT_DRILLING_MAX_STAGE)
+        settingsRepository.setDrillingSize(SessionSettingsRepository.DEFAULT_DRILLING_SIZE)
         _uiState.value = _uiState.value.copy(
             levelSettings = _uiState.value.levelSettings.map { it.copy(currentLimit = DEFAULT_QUESTIONS) },
             vocabLimit = SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
-            callanMinStage = SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE,
-            callanMaxStage = SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE,
-            callanDrillSize = SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE
+            drillingMinStage = SessionSettingsRepository.DEFAULT_DRILLING_MIN_STAGE,
+            drillingMaxStage = SessionSettingsRepository.DEFAULT_DRILLING_MAX_STAGE,
+            drillingSize = SessionSettingsRepository.DEFAULT_DRILLING_SIZE
         )
     }
 
