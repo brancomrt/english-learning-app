@@ -110,11 +110,12 @@ fun AppNavGraph(
             HomeScreen(navController = navController)
         }
 
-        // Level Select
+        // Level Select — navega direto para LearningSession sem seleção de categoria
         composable(Screen.LevelSelect.route) {
             LevelSelectScreen(
                 onNavigateToCategorySelect = { levelId ->
-                    navController.navigate(Screen.CategorySelect.createRoute(levelId))
+                    // categoryId = 0 → todos os exercícios do nível
+                    navController.navigate(Screen.LearningSession.createRoute(levelId, 0))
                 },
                 onNavigateBack = { navController.popBackStack() }
             )

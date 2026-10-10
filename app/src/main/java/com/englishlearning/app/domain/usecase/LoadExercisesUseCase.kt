@@ -20,15 +20,21 @@ class LoadExercisesUseCase @Inject constructor(
     /**
      * Retorna [Result.success] com a lista de exercícios limitada pela configuração
      * do usuário para o [levelId], ou [Result.failure] se não houver exercícios.
+     *
+     * Quando [categoryId] == 0, carrega todos os exercícios do nível sem filtro de categoria.
      */
     suspend operator fun invoke(levelId: Int, categoryId: Int): Result<List<Exercise>> {
         return try {
-            val all = contentRepository.getExercisesByLevelAndCategory(levelId, categoryId)
+            // categoryId == 0 → todos os exercícios do nível (sem filtro de categoria)
+            val all = if (categoryId == 0)
+                contentRepository.getExercisesByLevel(levelId)
+            else
+                contentRepository.getExercisesByLevelAndCategory(levelId, categoryId)
+
             if (all.isEmpty()) {
                 Result.failure(NoExercisesException(levelId, categoryId))
             } else {
                 val limit = settingsRepository.getQuestionsLimit(levelId)
-                // Embaralha para variedade e aplica o limite
                 val selected = all.shuffled().take(limit)
                 Result.success(selected)
             }
