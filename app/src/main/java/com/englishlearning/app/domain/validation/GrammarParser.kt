@@ -163,7 +163,24 @@ class GrammarParser {
         }
 
         val afterWh = tokens.drop(whWordTokenCount)
-        val hasAux = afterWh.firstOrNull() in auxVerbs
+
+        // A estrutura gramatical de WH-questions aceita duas formas:
+        //  • WH + AUX + ...              ex: "Where do you live?"
+        //  • WH + NOUN/PRONOUN + AUX + ...  ex: "Which one do you prefer?",
+        //                                    ex: "How many books do you have?"
+        // Portanto verificamos o auxiliar na posição 0 OU na posição 1 após a wh-phrase.
+        //
+        // Para WH_WHO também aceitamos subject questions (sem auxiliar):
+        //  • "Who called you?" → verbo na posição 0, sem auxiliar — estrutura válida.
+        val hasAux = when (type) {
+            QuestionType.WH_WHO ->
+                afterWh.getOrNull(0) in auxVerbs
+                    || afterWh.getOrNull(1) in auxVerbs
+                    || afterWh.size >= 2   // subject question: "Who called you?"
+            else ->
+                afterWh.getOrNull(0) in auxVerbs || afterWh.getOrNull(1) in auxVerbs
+        }
+
         return StructureCheckResult(
             isValid = hasAux,
             errorType = if (!hasAux) ErrorType.MISSING_AUX_VERB else null,
@@ -221,18 +238,24 @@ class GrammarParser {
     /**
      * Verifica se o texto corresponde ao padrão de Tag question.
      *
-     * Padrão: texto principal + vírgula + auxiliar (negativo ou positivo) + pronome
-     *
-     * Exemplos válidos:
-     * - "you like coffee, don't you"
-     * - "she is here, isn't she"
-     * - "they will come, won't they"
+     * Suporta dois formatos:
+     * 1. Texto com vírgula e contrações: "You like coffee, don't you?"
+     * 2. Texto normalizado (vírgula e contrações expandidas removidas):
+     *    "you like coffee do not you" — produzido pelo TextNormalizer
      */
     fun isTagQuestion(text: String): Boolean {
-        val tagPattern = Regex(
+        // Padrão primário: texto original com vírgula e contrações
+        val tagWithComma = Regex(
             """.+,\s*(isn't|aren't|doesn't|don't|didn't|won't|wouldn't|can't|couldn't|haven't|hasn't|hadn't|is|are|do|does|did|will|would|can|could)\s+(it|he|she|they|you|we|i)\s*$"""
         )
-        return tagPattern.containsMatchIn(text)
+        if (tagWithComma.containsMatchIn(text)) return true
+
+        // Padrão secundário: texto normalizado (sem vírgula, contrações expandidas)
+        // ex: "they will come will not they", "you like coffee do not you"
+        val tagNormalized = Regex(
+            """.*\s+(will not|is not|are not|do not|does not|did not|would not|could not|cannot|have not|has not|had not|was not|were not|might not|should not|is|are|do|does|did|will|would|can|could)\s+(it|he|she|they|you|we|i)\s*$"""
+        )
+        return tagNormalized.containsMatchIn(text)
     }
 
     /**
