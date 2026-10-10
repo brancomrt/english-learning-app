@@ -117,7 +117,7 @@ fun PrivacyPolicyScreen(navController: NavController) {
 
             PolicySection(
                 title = "6. Permissões solicitadas",
-                body = "• INTERNET — necessária para carregar imagens do vocabulário\n" +
+                body = "• INTERNET — necessária para funcionalidades online\n" +
                     "• RECORD_AUDIO — necessária para o recurso de resposta por voz\n\n" +
                     "Nenhuma outra permissão é solicitada."
             )

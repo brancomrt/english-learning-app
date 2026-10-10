@@ -224,7 +224,7 @@ fun HomeContent(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = "📚 Vocabulário com Imagens",
+                    text = "📚 Vocabulário",
                     style = MaterialTheme.typography.labelLarge
                 )
             }

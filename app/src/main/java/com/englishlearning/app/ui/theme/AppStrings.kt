@@ -96,7 +96,7 @@ data class AppStrings(
 val ptBrStrings = AppStrings(
     appName = "English Learning",
     continueStudying = "Continuar Estudando",
-    vocabulary = "📚 Vocabulário com Imagens",
+    vocabulary = "📚 Vocabulário",
     settings = "Configurações",
     progress = "Progresso",
     back = "Voltar",
@@ -175,7 +175,7 @@ val ptBrStrings = AppStrings(
 val enStrings = AppStrings(
     appName = "English Learning",
     continueStudying = "Continue Studying",
-    vocabulary = "📚 Vocabulary with Images",
+    vocabulary = "📚 Vocabulary",
     settings = "Settings",
     progress = "Progress",
     back = "Back",
