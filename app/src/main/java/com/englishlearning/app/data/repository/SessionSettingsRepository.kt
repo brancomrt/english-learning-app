@@ -51,19 +51,43 @@ class SessionSettingsRepository @Inject constructor(
 
     // ── Vocabulário ─────────────────────────────────────────────────────────
 
-    /**
-     * Retorna o limite de cards de vocabulário por sessão.
-     * -1 = sem limite (todos os cards disponíveis).
-     */
     fun getVocabLimit(): Int =
         prefs.getInt(KEY_VOCAB_LIMIT, DEFAULT_VOCAB_LIMIT)
 
-    /**
-     * Salva o limite de cards de vocabulário por sessão.
-     * -1 = sem limite.
-     */
     fun setVocabLimit(limit: Int) {
         prefs.edit().putInt(KEY_VOCAB_LIMIT, limit).apply()
+    }
+
+    // ── Callan Drill ─────────────────────────────────────────────────────────
+
+    /** Stage mínimo do Callan Drill (1–12). */
+    fun getCallanMinStage(): Int =
+        prefs.getInt(KEY_CALLAN_MIN_STAGE, DEFAULT_CALLAN_MIN_STAGE)
+
+    fun setCallanMinStage(stage: Int) {
+        prefs.edit()
+            .putInt(KEY_CALLAN_MIN_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
+            .apply()
+    }
+
+    /** Stage máximo do Callan Drill (1–12). */
+    fun getCallanMaxStage(): Int =
+        prefs.getInt(KEY_CALLAN_MAX_STAGE, DEFAULT_CALLAN_MAX_STAGE)
+
+    fun setCallanMaxStage(stage: Int) {
+        prefs.edit()
+            .putInt(KEY_CALLAN_MAX_STAGE, stage.coerceIn(MIN_STAGE, MAX_STAGE))
+            .apply()
+    }
+
+    /** Número de questões por sessão no Callan Drill (5–50). */
+    fun getCallanDrillSize(): Int =
+        prefs.getInt(KEY_CALLAN_DRILL_SIZE, DEFAULT_CALLAN_DRILL_SIZE)
+
+    fun setCallanDrillSize(size: Int) {
+        prefs.edit()
+            .putInt(KEY_CALLAN_DRILL_SIZE, size.coerceIn(MIN_DRILL_SIZE, MAX_DRILL_SIZE))
+            .apply()
     }
 
     companion object {
@@ -75,5 +99,16 @@ class SessionSettingsRepository @Inject constructor(
         const val DEFAULT_VOCAB_LIMIT = 20
         const val MIN_VOCAB = 5
         const val MAX_VOCAB = 100
+        // Callan Drill
+        private const val KEY_CALLAN_MIN_STAGE  = "callan_min_stage"
+        private const val KEY_CALLAN_MAX_STAGE  = "callan_max_stage"
+        private const val KEY_CALLAN_DRILL_SIZE = "callan_drill_size"
+        const val MIN_STAGE                = 1
+        const val MAX_STAGE                = 12
+        const val DEFAULT_CALLAN_MIN_STAGE = 1
+        const val DEFAULT_CALLAN_MAX_STAGE = 12
+        const val MIN_DRILL_SIZE           = 5
+        const val MAX_DRILL_SIZE           = 50
+        const val DEFAULT_CALLAN_DRILL_SIZE = 20
     }
 }

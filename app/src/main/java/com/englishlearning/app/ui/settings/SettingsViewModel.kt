@@ -28,11 +28,13 @@ data class LevelQuestionSetting(
 data class SettingsUiState(
     val isLoading: Boolean = true,
     val levelSettings: List<LevelQuestionSetting> = emptyList(),
-    /** ID do nível para o qual o diálogo de confirmação de desbloqueio está aberto. */
     val confirmUnlockLevelId: Int? = null,
-    /** Limite de cards de vocabulário por sessão. -1 = sem limite. */
-    val vocabLimit: Int = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
-    val appLanguage: AppLanguage = AppLanguage.PT_BR
+    val vocabLimit: Int = SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
+    val appLanguage: AppLanguage = AppLanguage.PT_BR,
+    // Callan Drill
+    val callanMinStage: Int = SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE,
+    val callanMaxStage: Int = SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE,
+    val callanDrillSize: Int = SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE
 )
 
 @HiltViewModel
@@ -64,7 +66,10 @@ class SettingsViewModel @Inject constructor(
                 isLoading = false,
                 levelSettings = settings,
                 vocabLimit = settingsRepository.getVocabLimit(),
-                appLanguage = languageRepository.getLanguage()
+                appLanguage = languageRepository.getLanguage(),
+                callanMinStage = settingsRepository.getCallanMinStage(),
+                callanMaxStage = settingsRepository.getCallanMaxStage(),
+                callanDrillSize = settingsRepository.getCallanDrillSize()
             )
         }
     }
@@ -88,14 +93,41 @@ class SettingsViewModel @Inject constructor(
         _uiState.value = _uiState.value.copy(vocabLimit = limit)
     }
 
+    // ── Callan Drill ─────────────────────────────────────────────────────────
+
+    fun updateCallanMinStage(stage: Int) {
+        // Garante que min nunca ultrapasse max
+        val clamped = stage.coerceAtMost(_uiState.value.callanMaxStage)
+        settingsRepository.setCallanMinStage(clamped)
+        _uiState.value = _uiState.value.copy(callanMinStage = clamped)
+    }
+
+    fun updateCallanMaxStage(stage: Int) {
+        // Garante que max nunca fique abaixo de min
+        val clamped = stage.coerceAtLeast(_uiState.value.callanMinStage)
+        settingsRepository.setCallanMaxStage(clamped)
+        _uiState.value = _uiState.value.copy(callanMaxStage = clamped)
+    }
+
+    fun updateCallanDrillSize(size: Int) {
+        settingsRepository.setCallanDrillSize(size)
+        _uiState.value = _uiState.value.copy(callanDrillSize = size)
+    }
+
     fun resetAllToDefault() {
         _uiState.value.levelSettings.forEach { s ->
             settingsRepository.setQuestionsLimit(s.levelId, DEFAULT_QUESTIONS)
         }
-        settingsRepository.setVocabLimit(com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT)
+        settingsRepository.setVocabLimit(SessionSettingsRepository.DEFAULT_VOCAB_LIMIT)
+        settingsRepository.setCallanMinStage(SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE)
+        settingsRepository.setCallanMaxStage(SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE)
+        settingsRepository.setCallanDrillSize(SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE)
         _uiState.value = _uiState.value.copy(
             levelSettings = _uiState.value.levelSettings.map { it.copy(currentLimit = DEFAULT_QUESTIONS) },
-            vocabLimit = com.englishlearning.app.data.repository.SessionSettingsRepository.DEFAULT_VOCAB_LIMIT
+            vocabLimit = SessionSettingsRepository.DEFAULT_VOCAB_LIMIT,
+            callanMinStage = SessionSettingsRepository.DEFAULT_CALLAN_MIN_STAGE,
+            callanMaxStage = SessionSettingsRepository.DEFAULT_CALLAN_MAX_STAGE,
+            callanDrillSize = SessionSettingsRepository.DEFAULT_CALLAN_DRILL_SIZE
         )
     }
 

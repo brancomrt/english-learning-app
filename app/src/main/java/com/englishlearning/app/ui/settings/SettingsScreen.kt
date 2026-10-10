@@ -161,7 +161,27 @@ fun SettingsScreen(
                 }
 
                 item {
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "⚡ Callan Drill",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = "Defina o intervalo de stages e quantas questões por sessão.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                     Spacer(modifier = Modifier.height(8.dp))
+                    CallanDrillSettingsCard(
+                        minStage   = uiState.callanMinStage,
+                        maxStage   = uiState.callanMaxStage,
+                        drillSize  = uiState.callanDrillSize,
+                        onMinStageChange  = { viewModel.updateCallanMinStage(it) },
+                        onMaxStageChange  = { viewModel.updateCallanMaxStage(it) },
+                        onDrillSizeChange = { viewModel.updateCallanDrillSize(it) }
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
                     Text(
                         text = "Idioma da interface / Interface language",
                         style = MaterialTheme.typography.titleMedium,
@@ -312,6 +332,160 @@ private fun LanguageSelectorCard(
                         MaterialTheme.colorScheme.onSurfaceVariant
                 )
             ) { Text("🇬🇧 English") }
+        }
+    }
+}
+
+@Composable
+private fun CallanDrillSettingsCard(
+    minStage: Int,
+    maxStage: Int,
+    drillSize: Int,
+    onMinStageChange: (Int) -> Unit,
+    onMaxStageChange: (Int) -> Unit,
+    onDrillSizeChange: (Int) -> Unit
+) {
+    fun stageCefr(stage: Int) = when (stage) {
+        1    -> "A1"
+        2    -> "A1-A2"
+        3    -> "A2"
+        4    -> "A2-B1"
+        5    -> "B1-B2"
+        6    -> "B2"
+        7    -> "B2"
+        8    -> "B2"
+        9    -> "B2+/C1"
+        10   -> "C1"
+        11   -> "C1"
+        else -> "C1+"
+    }
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
+    ) {
+        Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+
+            // ── Stage mínimo ─────────────────────────────────────────────
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Column {
+                    Text(
+                        text = "Stage inicial",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Text(
+                        text = "Stage $minStage · ${stageCefr(minStage)}",
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                }
+                Text(
+                    text = "→  Stage $maxStage · ${stageCefr(maxStage)}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Mínimo (Stage $minStage)",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Slider(
+                value = minStage.toFloat(),
+                onValueChange = { onMinStageChange(it.roundToInt()) },
+                valueRange = SessionSettingsRepository.MIN_STAGE.toFloat()..
+                             SessionSettingsRepository.MAX_STAGE.toFloat(),
+                steps = SessionSettingsRepository.MAX_STAGE - SessionSettingsRepository.MIN_STAGE - 1,
+                modifier = Modifier.fillMaxWidth()
+            )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Máximo (Stage $maxStage)",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Slider(
+                value = maxStage.toFloat(),
+                onValueChange = { onMaxStageChange(it.roundToInt()) },
+                valueRange = SessionSettingsRepository.MIN_STAGE.toFloat()..
+                             SessionSettingsRepository.MAX_STAGE.toFloat(),
+                steps = SessionSettingsRepository.MAX_STAGE - SessionSettingsRepository.MIN_STAGE - 1,
+                modifier = Modifier.fillMaxWidth()
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = "1 (A1)",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Text(
+                    text = "12 (C1+)",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // ── Questões por sessão ──────────────────────────────────────
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = "Questões por sessão",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Text(
+                    text = "$drillSize questões",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+            Slider(
+                value = drillSize.toFloat(),
+                onValueChange = { onDrillSizeChange(it.roundToInt()) },
+                valueRange = SessionSettingsRepository.MIN_DRILL_SIZE.toFloat()..
+                             SessionSettingsRepository.MAX_DRILL_SIZE.toFloat(),
+                steps = ((SessionSettingsRepository.MAX_DRILL_SIZE -
+                          SessionSettingsRepository.MIN_DRILL_SIZE) / 5) - 1,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = "${SessionSettingsRepository.MIN_DRILL_SIZE}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Text(
+                    text = "${SessionSettingsRepository.MAX_DRILL_SIZE}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
         }
     }
 }

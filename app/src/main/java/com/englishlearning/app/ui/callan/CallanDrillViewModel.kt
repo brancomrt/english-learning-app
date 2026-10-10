@@ -3,6 +3,7 @@ package com.englishlearning.app.ui.callan
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.englishlearning.app.data.repository.SessionSettingsRepository
 import com.englishlearning.app.domain.validation.TextNormalizer
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -57,11 +58,18 @@ sealed class DrillUiState {
 
 @HiltViewModel
 class CallanDrillViewModel @Inject constructor(
-    @ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context,
+    private val settingsRepository: SessionSettingsRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<DrillUiState>(DrillUiState.Loading)
     val uiState: StateFlow<DrillUiState> = _uiState.asStateFlow()
+
+    // Expõe as configurações atuais para a UI poder exibi-las
+    private val _stageRange = MutableStateFlow(
+        settingsRepository.getCallanMinStage()..settingsRepository.getCallanMaxStage()
+    )
+    val stageRange: StateFlow<IntRange> = _stageRange.asStateFlow()
 
     private val normalizer = TextNormalizer()
     private val json = Json { ignoreUnknownKeys = true }
@@ -80,7 +88,6 @@ class CallanDrillViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.value = DrillUiState.Loading
             try {
-                // Carrega os drills do JSON dedicado
                 val jsonString = context.assets
                     .open("content/callan_drills.json")
                     .bufferedReader()
@@ -88,21 +95,32 @@ class CallanDrillViewModel @Inject constructor(
                 
                 val drillsFile = json.decodeFromString<CallanDrillsFile>(jsonString)
                 allDrills = drillsFile.drills
-                
-                // Seleciona drills aleatórios para a sessão
-                sessionDrills = allDrills.shuffled().take(DRILL_SIZE)
-                
-                if (sessionDrills.isEmpty()) {
-                    _uiState.value = DrillUiState.Done(0, 0, 0)
-                } else {
-                    currentIndex = 0
-                    score = 0
-                    showQuestion()
-                }
+
+                startSession()
             } catch (e: Exception) {
-                // Fallback: sessão vazia
                 _uiState.value = DrillUiState.Done(0, 0, 0)
             }
+        }
+    }
+
+    /** Inicia uma nova sessão lendo as configurações mais recentes de stage e tamanho. */
+    private fun startSession() {
+        val minStage  = settingsRepository.getCallanMinStage()
+        val maxStage  = settingsRepository.getCallanMaxStage()
+        val drillSize = settingsRepository.getCallanDrillSize()
+
+        _stageRange.value = minStage..maxStage
+
+        // Filtra pelo intervalo de stages configurado
+        val filtered = allDrills.filter { it.level in minStage..maxStage }
+        sessionDrills = filtered.shuffled().take(drillSize)
+
+        if (sessionDrills.isEmpty()) {
+            _uiState.value = DrillUiState.Done(0, 0, 0)
+        } else {
+            currentIndex = 0
+            score = 0
+            showQuestion()
         }
     }
 
@@ -216,8 +234,8 @@ class CallanDrillViewModel @Inject constructor(
     fun restart() {
         currentIndex = 0
         score = 0
-        sessionDrills = allDrills.shuffled().take(DRILL_SIZE)
-        showQuestion()
+        // Re-lê configurações para pegar mudanças feitas nas Settings
+        startSession()
     }
 
     override fun onCleared() {
@@ -227,6 +245,7 @@ class CallanDrillViewModel @Inject constructor(
 
     companion object {
         const val TIMER_SECONDS = 15
+        // DRILL_SIZE mantido para retrocompatibilidade mas não usado mais (substituído pelo repositório)
         const val DRILL_SIZE = 20
     }
 }
