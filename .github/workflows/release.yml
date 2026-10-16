@@ -29,19 +29,13 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug --no-daemon
 
-      - name: Build Release APK
-        run: ./gradlew assembleRelease --no-daemon
-
       - name: Get version name
         id: version
         run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
-      - name: List APK outputs
+      - name: Rename APK
         run: |
-          echo "=== Debug APK ==="
-          ls -la app/build/outputs/apk/debug/
-          echo "=== Release APK ==="
-          ls -la app/build/outputs/apk/release/
+          mv app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/debug/english-learning-${{ steps.version.outputs.VERSION }}.apk
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
@@ -50,17 +44,15 @@ jobs:
           body: |
             ## English Learning App ${{ steps.version.outputs.VERSION }}
             
-            ### Downloads
-            - **Debug APK**: Para testes (não precisa de assinatura)
-            - **Release APK**: Versão de produção (unsigned)
+            ### Download
+            Baixe o APK e instale no seu Android.
             
             ### Instalação
-            1. Baixe o APK debug
+            1. Baixe o APK
             2. Habilite "Instalar apps de fontes desconhecidas" no Android
             3. Instale o APK
           files: |
-            app/build/outputs/apk/debug/app-debug.apk
-            app/build/outputs/apk/release/app-release-unsigned.apk
+            app/build/outputs/apk/debug/english-learning-${{ steps.version.outputs.VERSION }}.apk
           fail_on_unmatched_files: false
           draft: false
           prerelease: false
