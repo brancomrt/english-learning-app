@@ -1,6 +1,7 @@
 package com.englishlearning.app.ui.vocabulary
 
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.snap
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -310,7 +311,9 @@ private fun ReviewScreen(
 
     val rotation by animateFloatAsState(
         targetValue = if (state.isRevealed) 180f else 0f,
-        animationSpec = tween(400),
+        // Revelar: animação suave de 400ms.
+        // Fechar/próximo card: instantâneo — evita mostrar a resposta do card anterior.
+        animationSpec = if (state.isRevealed) tween(400) else snap(),
         label = "flip"
     )
     val isFront = rotation <= 90f
