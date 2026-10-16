@@ -1,7 +1,6 @@
 package com.englishlearning.app.ui.vocabulary
 
 import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.animation.core.snap
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -47,6 +46,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -309,60 +309,62 @@ private fun ReviewScreen(
         }
     }
 
-    val rotation by animateFloatAsState(
-        targetValue = if (state.isRevealed) 180f else 0f,
-        // Revelar: animação suave de 400ms.
-        // Fechar/próximo card: instantâneo — evita mostrar a resposta do card anterior.
-        animationSpec = if (state.isRevealed) tween(400) else snap(),
-        label = "flip"
-    )
-    val isFront = rotation <= 90f
-
-    Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        // Barra de progresso
-        val progress = if (state.total > 0) state.reviewed.toFloat() / state.total else 0f
-        LinearProgressIndicator(
-            progress = { progress },
-            modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp))
+    // key() força re-criação do composable quando o card muda.
+    // Isso reseta a animação para 0° imediatamente, evitando flash da resposta.
+    key(state.card.id) {
+        val rotation by animateFloatAsState(
+            targetValue = if (state.isRevealed) 180f else 0f,
+            animationSpec = tween(400),
+            label = "flip"
         )
-        Spacer(Modifier.height(4.dp))
-        Text(
-            "${state.reviewed} / ${state.total}",
-            style = MaterialTheme.typography.labelSmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.align(Alignment.End)
-        )
+        val isFront = rotation <= 90f
 
-        Spacer(Modifier.weight(1f))
-
-        // Card com flip
-        Box(
-            modifier = Modifier
-                .width(320.dp)
-                .height(440.dp)
-                .graphicsLayer {
-                    rotationY = rotation
-                    cameraDistance = 12f * density
-                }
+        Column(
+            modifier = Modifier.fillMaxSize().padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            if (isFront) {
-                CardFront(card = state.card, onReveal = onReveal)
-            } else {
-                Box(Modifier.fillMaxSize().graphicsLayer { rotationY = 180f }) {
-                    CardBack(
-                        card = state.card,
-                        ttsManager = ttsManager,
-                        ttsState = ttsState,
-                        onRate = onRate
-                    )
+            // Barra de progresso
+            val progress = if (state.total > 0) state.reviewed.toFloat() / state.total else 0f
+            LinearProgressIndicator(
+                progress = { progress },
+                modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp))
+            )
+            Spacer(Modifier.height(4.dp))
+            Text(
+                "${state.reviewed} / ${state.total}",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.align(Alignment.End)
+            )
+
+            Spacer(Modifier.weight(1f))
+
+            // Card com flip
+            Box(
+                modifier = Modifier
+                    .width(320.dp)
+                    .height(440.dp)
+                    .graphicsLayer {
+                        rotationY = rotation
+                        cameraDistance = 12f * density
+                    }
+            ) {
+                if (isFront) {
+                    CardFront(card = state.card, onReveal = onReveal)
+                } else {
+                    Box(Modifier.fillMaxSize().graphicsLayer { rotationY = 180f }) {
+                        CardBack(
+                            card = state.card,
+                            ttsManager = ttsManager,
+                            ttsState = ttsState,
+                            onRate = onRate
+                        )
+                    }
                 }
             }
-        }
 
-        Spacer(Modifier.weight(1f))
+            Spacer(Modifier.weight(1f))
+        }
     }
 }
 
