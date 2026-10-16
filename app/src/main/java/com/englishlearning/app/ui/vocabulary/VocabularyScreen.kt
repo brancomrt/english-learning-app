@@ -1,7 +1,15 @@
 package com.englishlearning.app.ui.vocabulary
 
+import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -46,7 +54,6 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.key
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -309,61 +316,102 @@ private fun ReviewScreen(
         }
     }
 
-    // key() força re-criação do composable quando o card muda.
-    // Isso reseta a animação para 0° imediatamente, evitando flash da resposta.
-    key(state.card.id) {
-        val rotation by animateFloatAsState(
-            targetValue = if (state.isRevealed) 180f else 0f,
-            animationSpec = tween(400),
-            label = "flip"
+    Column(
+        modifier = Modifier.fillMaxSize().padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // Barra de progresso
+        val progress = if (state.total > 0) state.reviewed.toFloat() / state.total else 0f
+        LinearProgressIndicator(
+            progress = { progress },
+            modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp))
         )
-        val isFront = rotation <= 90f
+        Spacer(Modifier.height(4.dp))
+        Text(
+            "${state.reviewed} / ${state.total}",
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.align(Alignment.End)
+        )
 
-        Column(
-            modifier = Modifier.fillMaxSize().padding(16.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            // Barra de progresso
-            val progress = if (state.total > 0) state.reviewed.toFloat() / state.total else 0f
-            LinearProgressIndicator(
-                progress = { progress },
-                modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp))
+        Spacer(Modifier.weight(1f))
+
+        // Animação estilo "carta de baralho":
+        // - Card atual sai deslizando para a ESQUERDA (como se fosse descartado)
+        // - Próximo card entra deslizando da DIREITA
+        // - O novo card SEMPRE entra mostrando a FRENTE (isRevealed=false)
+        AnimatedContent(
+            targetState = state.card,
+            transitionSpec = {
+                // Card sai pela esquerda com rotação + fade
+                // Card novo entra pela direita
+                (slideInHorizontally(
+                    initialOffsetX = { fullWidth -> fullWidth }, // Entra da direita
+                    animationSpec = tween(300)
+                ) + fadeIn(tween(300))) togetherWith (slideOutHorizontally(
+                    targetOffsetX = { fullWidth -> -fullWidth }, // Sai pela esquerda
+                    animationSpec = tween(300)
+                ) + fadeOut(tween(200)))
+            },
+            contentKey = { it.id },
+            label = "card_deck_transition"
+        ) { card ->
+            // Cada card tem seu próprio estado de flip
+            // Quando o card muda, isRevealed reseta para false no ViewModel,
+            // então o novo card sempre começa mostrando a frente
+            FlippableCard(
+                card = card,
+                isRevealed = if (card.id == state.card.id) state.isRevealed else false,
+                ttsManager = ttsManager,
+                ttsState = ttsState,
+                onReveal = onReveal,
+                onRate = onRate
             )
-            Spacer(Modifier.height(4.dp))
-            Text(
-                "${state.reviewed} / ${state.total}",
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.align(Alignment.End)
-            )
+        }
 
-            Spacer(Modifier.weight(1f))
+        Spacer(Modifier.weight(1f))
+    }
+}
 
-            // Card com flip
-            Box(
-                modifier = Modifier
-                    .width(320.dp)
-                    .height(440.dp)
-                    .graphicsLayer {
-                        rotationY = rotation
-                        cameraDistance = 12f * density
-                    }
-            ) {
-                if (isFront) {
-                    CardFront(card = state.card, onReveal = onReveal)
-                } else {
-                    Box(Modifier.fillMaxSize().graphicsLayer { rotationY = 180f }) {
-                        CardBack(
-                            card = state.card,
-                            ttsManager = ttsManager,
-                            ttsState = ttsState,
-                            onRate = onRate
-                        )
-                    }
-                }
+@Composable
+private fun FlippableCard(
+    card: VocabularyCardEntity,
+    isRevealed: Boolean,
+    ttsManager: TtsManager?,
+    ttsState: TtsState,
+    onReveal: () -> Unit,
+    onRate: (SrsRating) -> Unit
+) {
+    val rotation by animateFloatAsState(
+        targetValue = if (isRevealed) 180f else 0f,
+        animationSpec = tween(400),
+        label = "flip"
+    )
+    
+    // Mostra CardBack APENAS se isRevealed=true E a rotação passou de 90°
+    // Isso é CRÍTICO: garante que quando isRevealed=false, SEMPRE mostra CardFront
+    val showBack = isRevealed && rotation > 90f
+
+    Box(
+        modifier = Modifier
+            .width(320.dp)
+            .height(440.dp)
+            .graphicsLayer {
+                rotationY = rotation
+                cameraDistance = 12f * density
             }
-
-            Spacer(Modifier.weight(1f))
+    ) {
+        if (!showBack) {
+            CardFront(card = card, onReveal = onReveal)
+        } else {
+            Box(Modifier.fillMaxSize().graphicsLayer { rotationY = 180f }) {
+                CardBack(
+                    card = card,
+                    ttsManager = ttsManager,
+                    ttsState = ttsState,
+                    onRate = onRate
+                )
+            }
         }
     }
 }
