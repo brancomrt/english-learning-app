@@ -1487,6 +1487,671 @@
       "level_id": 3,
       "category_id": 7,
       "image_url": "local:code_kata.jpg"
+    },
+    {
+      "word": "shop",
+      "definition": "loja / fazer compras",
+      "example_sentence": "I need to shop for groceries this weekend.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "store",
+      "definition": "loja",
+      "example_sentence": "The store closes at 9 PM.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "mall",
+      "definition": "shopping center",
+      "example_sentence": "Let's go to the mall on Saturday.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "supermarket",
+      "definition": "supermercado",
+      "example_sentence": "I do my weekly shopping at the supermarket.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "price",
+      "definition": "preço",
+      "example_sentence": "What's the price of this shirt?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "cost",
+      "definition": "custar / custo",
+      "example_sentence": "How much does this cost?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "cheap",
+      "definition": "barato",
+      "example_sentence": "This restaurant is cheap and good.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "expensive",
+      "definition": "caro",
+      "example_sentence": "This hotel is too expensive for us.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "sale",
+      "definition": "liquidação / promoção",
+      "example_sentence": "Everything is 50% off in the sale.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "discount",
+      "definition": "desconto",
+      "example_sentence": "Do you offer a student discount?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "bargain",
+      "definition": "pechincha / negociar",
+      "example_sentence": "I got a real bargain on this jacket.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "receipt",
+      "definition": "recibo / nota fiscal",
+      "example_sentence": "Keep the receipt in case you need to return it.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "refund",
+      "definition": "reembolso",
+      "example_sentence": "I'd like a refund for this broken item.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "exchange",
+      "definition": "trocar / câmbio",
+      "example_sentence": "Can I exchange this for a larger size?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "cash",
+      "definition": "dinheiro",
+      "example_sentence": "I don't have any cash — can I pay by card?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "credit card",
+      "definition": "cartão de crédito",
+      "example_sentence": "Do you accept credit cards?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "debit card",
+      "definition": "cartão de débito",
+      "example_sentence": "I'll pay with my debit card.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "bill",
+      "definition": "conta / fatura",
+      "example_sentence": "Can I have the bill, please?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "change",
+      "definition": "troco / trocar",
+      "example_sentence": "Keep the change.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "tip",
+      "definition": "gorjeta",
+      "example_sentence": "In the US, it's common to leave a 20% tip.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "wallet",
+      "definition": "carteira",
+      "example_sentence": "I left my wallet at home.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "purse",
+      "definition": "bolsa (feminina)",
+      "example_sentence": "She keeps her phone in her purse.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "bag",
+      "definition": "sacola / bolsa",
+      "example_sentence": "Do you need a bag for your purchase?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "size",
+      "definition": "tamanho",
+      "example_sentence": "What size do you wear?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "fit",
+      "definition": "servir / caber",
+      "example_sentence": "Does this shirt fit you?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "try on",
+      "definition": "experimentar (roupa)",
+      "example_sentence": "Can I try on these jeans?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "queue",
+      "definition": "fila",
+      "example_sentence": "There's a long queue at the checkout.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "checkout",
+      "definition": "caixa / finalizar compra",
+      "example_sentence": "Please proceed to the checkout.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "customer",
+      "definition": "cliente",
+      "example_sentence": "The customer is always right.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "seller",
+      "definition": "vendedor",
+      "example_sentence": "The seller offered me a discount.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "order",
+      "definition": "pedido / pedir",
+      "example_sentence": "I'd like to order a pizza.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "delivery",
+      "definition": "entrega",
+      "example_sentence": "Is delivery free for orders over $50?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "shipping",
+      "definition": "envio / frete",
+      "example_sentence": "Shipping takes 3-5 business days.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "online shopping",
+      "definition": "compras online",
+      "example_sentence": "I prefer online shopping to going to stores.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "brand",
+      "definition": "marca",
+      "example_sentence": "What brand of shoes do you like?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "quality",
+      "definition": "qualidade",
+      "example_sentence": "This product has excellent quality.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "warranty",
+      "definition": "garantia",
+      "example_sentence": "This TV comes with a two-year warranty.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "bank",
+      "definition": "banco",
+      "example_sentence": "I need to go to the bank.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "account",
+      "definition": "conta (bancária)",
+      "example_sentence": "I opened a savings account.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "savings",
+      "definition": "poupança / economias",
+      "example_sentence": "I'm putting money into my savings.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "loan",
+      "definition": "empréstimo",
+      "example_sentence": "I took out a loan to buy a car.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "debt",
+      "definition": "dívida",
+      "example_sentence": "I'm trying to pay off my debt.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "budget",
+      "definition": "orçamento",
+      "example_sentence": "We need to stick to our budget.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "afford",
+      "definition": "ter condições de pagar",
+      "example_sentence": "I can't afford a new car right now.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "spend",
+      "definition": "gastar",
+      "example_sentence": "I spend too much money on clothes.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "save",
+      "definition": "economizar / poupar",
+      "example_sentence": "I'm saving money for a vacation.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "invest",
+      "definition": "investir",
+      "example_sentence": "It's wise to invest in your future.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "income",
+      "definition": "renda / salário",
+      "example_sentence": "My monthly income covers all my expenses.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "expense",
+      "definition": "despesa",
+      "example_sentence": "My biggest expense is rent.",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "tax",
+      "definition": "imposto",
+      "example_sentence": "How much tax do you pay?",
+      "level_id": 3,
+      "category_id": 21
+    },
+    {
+      "word": "sport",
+      "definition": "esporte",
+      "example_sentence": "What's your favorite sport?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "football",
+      "definition": "futebol",
+      "example_sentence": "Brazil is famous for football.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "basketball",
+      "definition": "basquete",
+      "example_sentence": "He plays basketball for his school team.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "tennis",
+      "definition": "tênis",
+      "example_sentence": "Let's play tennis this weekend.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "swimming",
+      "definition": "natação",
+      "example_sentence": "Swimming is great exercise.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "running",
+      "definition": "corrida",
+      "example_sentence": "I go running every morning.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "cycling",
+      "definition": "ciclismo",
+      "example_sentence": "Cycling is a popular sport in Europe.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "gym",
+      "definition": "academia",
+      "example_sentence": "I go to the gym three times a week.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "workout",
+      "definition": "treino",
+      "example_sentence": "I had an intense workout today.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "match",
+      "definition": "partida / jogo",
+      "example_sentence": "Did you watch the match last night?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "team",
+      "definition": "time / equipe",
+      "example_sentence": "Which team do you support?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "player",
+      "definition": "jogador(a)",
+      "example_sentence": "He's the best player in the league.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "coach",
+      "definition": "técnico / treinador",
+      "example_sentence": "The coach gave a great speech before the game.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "score",
+      "definition": "placar / marcar",
+      "example_sentence": "What's the score?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "win",
+      "definition": "vencer / vitória",
+      "example_sentence": "Our team won 3-0.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "lose",
+      "definition": "perder",
+      "example_sentence": "It's okay to lose sometimes.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "draw",
+      "definition": "empate / empatar",
+      "example_sentence": "The match ended in a draw.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "goal",
+      "definition": "gol / objetivo",
+      "example_sentence": "He scored two goals.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "championship",
+      "definition": "campeonato",
+      "example_sentence": "They won the championship last year.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "trophy",
+      "definition": "troféu",
+      "example_sentence": "The team lifted the trophy.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "fan",
+      "definition": "torcedor / fã",
+      "example_sentence": "I'm a huge fan of this team.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "stadium",
+      "definition": "estádio",
+      "example_sentence": "The stadium holds 80,000 people.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "hobby",
+      "definition": "hobby / passatempo",
+      "example_sentence": "What are your hobbies?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "reading",
+      "definition": "leitura",
+      "example_sentence": "Reading is my favorite hobby.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "music",
+      "definition": "música",
+      "example_sentence": "I love listening to music.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "movie",
+      "definition": "filme",
+      "example_sentence": "Let's watch a movie tonight.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "cinema",
+      "definition": "cinema",
+      "example_sentence": "I prefer watching films at the cinema.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "concert",
+      "definition": "show / concerto",
+      "example_sentence": "I'm going to a concert this weekend.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "theater",
+      "definition": "teatro",
+      "example_sentence": "We saw a play at the theater.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "museum",
+      "definition": "museu",
+      "example_sentence": "The museum has a great art collection.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "park",
+      "definition": "parque",
+      "example_sentence": "Let's have a picnic in the park.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "beach",
+      "definition": "praia",
+      "example_sentence": "We're going to the beach this summer.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "mountain",
+      "definition": "montanha",
+      "example_sentence": "I love hiking in the mountains.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "camping",
+      "definition": "acampamento",
+      "example_sentence": "We went camping last weekend.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "hiking",
+      "definition": "trilha / caminhada",
+      "example_sentence": "Hiking is a great way to enjoy nature.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "photography",
+      "definition": "fotografia",
+      "example_sentence": "Photography is an expensive hobby.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "painting",
+      "definition": "pintura",
+      "example_sentence": "She's taking painting classes.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "cooking",
+      "definition": "culinária / cozinhar",
+      "example_sentence": "Cooking has become my new hobby.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "gardening",
+      "definition": "jardinagem",
+      "example_sentence": "My mom loves gardening.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "game",
+      "definition": "jogo",
+      "example_sentence": "Do you want to play a board game?",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "puzzle",
+      "definition": "quebra-cabeça",
+      "example_sentence": "I enjoy doing puzzles.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "relax",
+      "definition": "relaxar",
+      "example_sentence": "I just want to relax this weekend.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "fun",
+      "definition": "diversão / divertido",
+      "example_sentence": "We had so much fun at the party.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "enjoy",
+      "definition": "aproveitar / curtir",
+      "example_sentence": "I really enjoy traveling.",
+      "level_id": 3,
+      "category_id": 22
+    },
+    {
+      "word": "entertainment",
+      "definition": "entretenimento",
+      "example_sentence": "What do you do for entertainment?",
+      "level_id": 3,
+      "category_id": 22
     }
   ]
 }

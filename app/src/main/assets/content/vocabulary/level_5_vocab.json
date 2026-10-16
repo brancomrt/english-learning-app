@@ -863,6 +863,496 @@
       "level_id": 5,
       "category_id": 14,
       "image_url": "local:software_as_a_service.jpg"
+    },
+    {
+      "word": "broadcast",
+      "definition": "transmitir / transmissão",
+      "example_sentence": "The match will be broadcast live.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "journalism",
+      "definition": "jornalismo",
+      "example_sentence": "She studied journalism at university.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "headline",
+      "definition": "manchete",
+      "example_sentence": "The story made headlines worldwide.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "editorial",
+      "definition": "editorial",
+      "example_sentence": "The newspaper published a controversial editorial.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "columnist",
+      "definition": "colunista",
+      "example_sentence": "She's a famous political columnist.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "correspondent",
+      "definition": "correspondente",
+      "example_sentence": "Our correspondent in London reports...",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "documentary",
+      "definition": "documentário",
+      "example_sentence": "Have you seen that documentary about climate change?",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "streaming",
+      "definition": "streaming",
+      "example_sentence": "Streaming services have changed how we watch TV.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "podcast",
+      "definition": "podcast",
+      "example_sentence": "I listen to podcasts on my commute.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "influencer",
+      "definition": "influenciador(a)",
+      "example_sentence": "Social media influencers earn a lot.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "viral",
+      "definition": "viral",
+      "example_sentence": "The video went viral overnight.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "algorithm",
+      "definition": "algoritmo",
+      "example_sentence": "The algorithm decides what you see.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "censorship",
+      "definition": "censura",
+      "example_sentence": "There's debate about online censorship.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "fake news",
+      "definition": "notícia falsa",
+      "example_sentence": "It's important to identify fake news.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "bias",
+      "definition": "viés / parcialidade",
+      "example_sentence": "The article showed clear political bias.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "mainstream",
+      "definition": "convencional / predominante",
+      "example_sentence": "He criticizes mainstream media.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "genre",
+      "definition": "gênero (arte/música)",
+      "example_sentence": "What genre of music do you prefer?",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "contemporary",
+      "definition": "contemporâneo",
+      "example_sentence": "She studies contemporary art.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "classic",
+      "definition": "clássico",
+      "example_sentence": "That book is a classic.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "masterpiece",
+      "definition": "obra-prima",
+      "example_sentence": "This painting is a masterpiece.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "heritage",
+      "definition": "patrimônio / herança cultural",
+      "example_sentence": "We must preserve our cultural heritage.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "tradition",
+      "definition": "tradição",
+      "example_sentence": "It's a family tradition.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "custom",
+      "definition": "costume",
+      "example_sentence": "It's a local custom to remove your shoes.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "diversity",
+      "definition": "diversidade",
+      "example_sentence": "Cultural diversity enriches society.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "globalization",
+      "definition": "globalização",
+      "example_sentence": "Globalization has pros and cons.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "exhibit",
+      "definition": "exposição / exibir",
+      "example_sentence": "The museum has a new exhibit.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "performance",
+      "definition": "performance / apresentação",
+      "example_sentence": "The performance was outstanding.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "audience",
+      "definition": "público / audiência",
+      "example_sentence": "The audience gave a standing ovation.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "critic",
+      "definition": "crítico",
+      "example_sentence": "The critics loved the movie.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "review",
+      "definition": "crítica / resenha",
+      "example_sentence": "The book received positive reviews.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "bestseller",
+      "definition": "best-seller",
+      "example_sentence": "Her novel became a bestseller.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "celebrity",
+      "definition": "celebridade",
+      "example_sentence": "She became a celebrity overnight.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "fame",
+      "definition": "fama",
+      "example_sentence": "Fame can be overwhelming.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "scandal",
+      "definition": "escândalo",
+      "example_sentence": "The scandal ruined his career.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "privacy",
+      "definition": "privacidade",
+      "example_sentence": "Celebrities have little privacy.",
+      "level_id": 5,
+      "category_id": 25
+    },
+    {
+      "word": "climate",
+      "definition": "clima",
+      "example_sentence": "Climate change is a serious threat.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "pollution",
+      "definition": "poluição",
+      "example_sentence": "Air pollution is a major problem.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "emission",
+      "definition": "emissão",
+      "example_sentence": "We need to reduce carbon emissions.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "carbon footprint",
+      "definition": "pegada de carbono",
+      "example_sentence": "What's your carbon footprint?",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "renewable",
+      "definition": "renovável",
+      "example_sentence": "Solar power is a renewable energy source.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "sustainable",
+      "definition": "sustentável",
+      "example_sentence": "We need sustainable solutions.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "ecosystem",
+      "definition": "ecossistema",
+      "example_sentence": "Human activity threatens many ecosystems.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "biodiversity",
+      "definition": "biodiversidade",
+      "example_sentence": "The Amazon has incredible biodiversity.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "endangered",
+      "definition": "ameaçado de extinção",
+      "example_sentence": "Many species are endangered.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "extinction",
+      "definition": "extinção",
+      "example_sentence": "We must prevent extinction.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "deforestation",
+      "definition": "desmatamento",
+      "example_sentence": "Deforestation is destroying habitats.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "habitat",
+      "definition": "habitat",
+      "example_sentence": "Animals lose their natural habitat.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "conservation",
+      "definition": "conservação",
+      "example_sentence": "Wildlife conservation is essential.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "recycle",
+      "definition": "reciclar",
+      "example_sentence": "Please recycle your plastic bottles.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "waste",
+      "definition": "lixo / desperdício",
+      "example_sentence": "We produce too much waste.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "landfill",
+      "definition": "aterro sanitário",
+      "example_sentence": "Landfills are running out of space.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "compost",
+      "definition": "compostagem / adubo",
+      "example_sentence": "We compost our food scraps.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "organic",
+      "definition": "orgânico",
+      "example_sentence": "I only buy organic vegetables.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "pesticide",
+      "definition": "pesticida",
+      "example_sentence": "Pesticides harm the environment.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "drought",
+      "definition": "seca",
+      "example_sentence": "The drought destroyed crops.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "flood",
+      "definition": "enchente / inundação",
+      "example_sentence": "Floods are becoming more frequent.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "hurricane",
+      "definition": "furacão",
+      "example_sentence": "The hurricane caused massive destruction.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "earthquake",
+      "definition": "terremoto",
+      "example_sentence": "The earthquake measured 7.0 on the Richter scale.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "wildfire",
+      "definition": "incêndio florestal",
+      "example_sentence": "Wildfires are increasingly common.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "ozone layer",
+      "definition": "camada de ozônio",
+      "example_sentence": "The ozone layer protects us from UV rays.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "greenhouse effect",
+      "definition": "efeito estufa",
+      "example_sentence": "The greenhouse effect is warming our planet.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "global warming",
+      "definition": "aquecimento global",
+      "example_sentence": "Global warming is melting the ice caps.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "sea level",
+      "definition": "nível do mar",
+      "example_sentence": "Rising sea levels threaten coastal cities.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "fossil fuel",
+      "definition": "combustível fóssil",
+      "example_sentence": "We must reduce our use of fossil fuels.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "solar panel",
+      "definition": "painel solar",
+      "example_sentence": "We installed solar panels on our roof.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "wind turbine",
+      "definition": "turbina eólica",
+      "example_sentence": "Wind turbines generate clean energy.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "electric vehicle",
+      "definition": "veículo elétrico",
+      "example_sentence": "Electric vehicles are becoming popular.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "carbon neutral",
+      "definition": "carbono neutro",
+      "example_sentence": "The company aims to be carbon neutral by 2030.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "activism",
+      "definition": "ativismo",
+      "example_sentence": "Environmental activism is growing.",
+      "level_id": 5,
+      "category_id": 26
+    },
+    {
+      "word": "awareness",
+      "definition": "conscientização",
+      "example_sentence": "We need to raise awareness about climate change.",
+      "level_id": 5,
+      "category_id": 26
     }
   ]
 }

@@ -734,24 +734,45 @@ private fun StatChip(label: String, value: String) {
 
 /** Converte nameKey da categoria para label legível. */
 private fun categoryDisplayName(nameKey: String): String = when (nameKey) {
+    // Level 1
     "category_daily_life"        -> "Daily Life"
     "category_work"              -> "Work"
     "category_travel"            -> "Travel"
+    // Level 2 - TI
     "category_it_support"        -> "IT Support"
     "category_hardware_software" -> "Hardware & SW"
     "category_networking_basics" -> "Networking"
+    // Level 2 - Cotidiano
+    "category_food_cooking"      -> "Food & Cooking"
+    "category_health_body"       -> "Health & Body"
+    // Level 3 - TI
     "category_software_dev"      -> "Software Dev"
     "category_databases"         -> "Databases"
     "category_cloud_basics"      -> "Cloud"
+    // Level 3 - Cotidiano
+    "category_shopping_money"    -> "Shopping & Money"
+    "category_sports_leisure"    -> "Sports & Leisure"
+    // Level 4 - TI
     "category_devops"            -> "DevOps"
     "category_security"          -> "Security"
     "category_architecture"      -> "Architecture"
+    // Level 4 - Cotidiano
+    "category_home_housing"      -> "Home & Housing"
+    "category_relationships"     -> "Relationships"
+    // Level 5 - TI
     "category_agile_pm"          -> "Agile & PM"
     "category_sre_reliability"   -> "SRE"
     "category_microservices"     -> "Microservices"
+    // Level 5 - Cotidiano
+    "category_media_culture"     -> "Media & Culture"
+    "category_environment"       -> "Environment"
+    // Level 6 - TI
     "category_tech_leadership"   -> "Leadership"
     "category_system_design"     -> "System Design"
     "category_tech_writing"      -> "Tech Writing"
+    // Level 6 - Cotidiano
+    "category_society_politics"  -> "Society & Politics"
+    "category_idioms_expressions"-> "Idioms"
     else -> nameKey.removePrefix("category_")
         .replace("_", " ")
         .split(" ")

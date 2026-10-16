@@ -959,6 +959,671 @@
       "level_id": 4,
       "category_id": 12,
       "image_url": "local:api_mesh.jpg"
+    },
+    {
+      "word": "apartment",
+      "definition": "apartamento",
+      "example_sentence": "I live in a two-bedroom apartment.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "flat",
+      "definition": "apartamento (UK)",
+      "example_sentence": "We're looking for a flat to rent.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "rent",
+      "definition": "aluguel / alugar",
+      "example_sentence": "How much is the rent per month?",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "landlord",
+      "definition": "proprietário / locador",
+      "example_sentence": "The landlord increased the rent.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "tenant",
+      "definition": "inquilino",
+      "example_sentence": "The previous tenant left the place in a mess.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "lease",
+      "definition": "contrato de aluguel",
+      "example_sentence": "We signed a one-year lease.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "mortgage",
+      "definition": "hipoteca / financiamento",
+      "example_sentence": "We're paying off our mortgage.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "move",
+      "definition": "mudar-se / mudança",
+      "example_sentence": "We're moving to a new house next month.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "furniture",
+      "definition": "móveis",
+      "example_sentence": "We need to buy new furniture.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "bedroom",
+      "definition": "quarto",
+      "example_sentence": "The apartment has three bedrooms.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "living room",
+      "definition": "sala de estar",
+      "example_sentence": "We watch TV in the living room.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "kitchen",
+      "definition": "cozinha",
+      "example_sentence": "I spend a lot of time in the kitchen.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "bathroom",
+      "definition": "banheiro",
+      "example_sentence": "There's only one bathroom in the house.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "garage",
+      "definition": "garagem",
+      "example_sentence": "We park the car in the garage.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "garden",
+      "definition": "jardim",
+      "example_sentence": "The house has a beautiful garden.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "balcony",
+      "definition": "varanda / sacada",
+      "example_sentence": "I love having coffee on the balcony.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "ceiling",
+      "definition": "teto",
+      "example_sentence": "The ceiling is quite low in this room.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "floor",
+      "definition": "chão / andar",
+      "example_sentence": "We live on the third floor.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "wall",
+      "definition": "parede",
+      "example_sentence": "Let's paint the walls blue.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "window",
+      "definition": "janela",
+      "example_sentence": "Open the window to let some fresh air in.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "door",
+      "definition": "porta",
+      "example_sentence": "Don't forget to lock the door.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "stairs",
+      "definition": "escada",
+      "example_sentence": "Be careful on the stairs.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "elevator",
+      "definition": "elevador",
+      "example_sentence": "Take the elevator to the fifth floor.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "sofa",
+      "definition": "sofá",
+      "example_sentence": "Let's sit on the sofa and watch a movie.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "bed",
+      "definition": "cama",
+      "example_sentence": "I need a bigger bed.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "wardrobe",
+      "definition": "guarda-roupa",
+      "example_sentence": "My wardrobe is full of clothes.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "lamp",
+      "definition": "abajur / lâmpada",
+      "example_sentence": "Turn on the lamp — it's too dark.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "carpet",
+      "definition": "tapete",
+      "example_sentence": "The carpet needs cleaning.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "curtain",
+      "definition": "cortina",
+      "example_sentence": "Close the curtains — the sun is too bright.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "decoration",
+      "definition": "decoração",
+      "example_sentence": "I love the decoration in this room.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "repair",
+      "definition": "consertar / reparo",
+      "example_sentence": "The roof needs repair.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "maintenance",
+      "definition": "manutenção",
+      "example_sentence": "Regular maintenance keeps the house in good condition.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "plumber",
+      "definition": "encanador",
+      "example_sentence": "We need to call a plumber.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "electrician",
+      "definition": "eletricista",
+      "example_sentence": "The electrician fixed the wiring.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "neighborhood",
+      "definition": "bairro / vizinhança",
+      "example_sentence": "We live in a quiet neighborhood.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "neighbor",
+      "definition": "vizinho(a)",
+      "example_sentence": "My neighbor is very friendly.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "suburb",
+      "definition": "subúrbio",
+      "example_sentence": "We moved to the suburbs for more space.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "downtown",
+      "definition": "centro da cidade",
+      "example_sentence": "I work downtown.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "commute",
+      "definition": "deslocamento diário",
+      "example_sentence": "My commute takes an hour.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "utility",
+      "definition": "utilidade / conta de serviço",
+      "example_sentence": "Utilities are included in the rent.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "electricity",
+      "definition": "eletricidade",
+      "example_sentence": "The electricity bill was high this month.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "heating",
+      "definition": "aquecimento",
+      "example_sentence": "Turn on the heating — it's cold.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "air conditioning",
+      "definition": "ar-condicionado",
+      "example_sentence": "Thank goodness for air conditioning in summer.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "housework",
+      "definition": "tarefas domésticas",
+      "example_sentence": "I hate doing housework.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "clean",
+      "definition": "limpar / limpo",
+      "example_sentence": "I need to clean the house.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "tidy",
+      "definition": "arrumar / organizado",
+      "example_sentence": "Keep your room tidy.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "mess",
+      "definition": "bagunça",
+      "example_sentence": "What a mess! Clean up your room.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "vacuum",
+      "definition": "aspirar / aspirador",
+      "example_sentence": "I need to vacuum the carpet.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "laundry",
+      "definition": "roupa suja / lavanderia",
+      "example_sentence": "I need to do the laundry.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "iron",
+      "definition": "passar (roupa) / ferro",
+      "example_sentence": "I need to iron my shirts.",
+      "level_id": 4,
+      "category_id": 23
+    },
+    {
+      "word": "relationship",
+      "definition": "relacionamento",
+      "example_sentence": "They've been in a relationship for three years.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "friendship",
+      "definition": "amizade",
+      "example_sentence": "Our friendship has lasted for decades.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "couple",
+      "definition": "casal",
+      "example_sentence": "They make a lovely couple.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "partner",
+      "definition": "parceiro(a)",
+      "example_sentence": "My partner works in finance.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "boyfriend",
+      "definition": "namorado",
+      "example_sentence": "She introduced us to her new boyfriend.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "girlfriend",
+      "definition": "namorada",
+      "example_sentence": "He's been with his girlfriend for two years.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "husband",
+      "definition": "marido",
+      "example_sentence": "Her husband is a doctor.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "wife",
+      "definition": "esposa",
+      "example_sentence": "My wife and I met in college.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "married",
+      "definition": "casado(a)",
+      "example_sentence": "They got married last summer.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "wedding",
+      "definition": "casamento (cerimônia)",
+      "example_sentence": "The wedding was beautiful.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "engagement",
+      "definition": "noivado",
+      "example_sentence": "They announced their engagement.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "fiancé",
+      "definition": "noivo",
+      "example_sentence": "Have you met her fiancé?",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "fiancée",
+      "definition": "noiva",
+      "example_sentence": "His fiancée is from Spain.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "divorce",
+      "definition": "divórcio / divorciar",
+      "example_sentence": "They decided to get a divorce.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "single",
+      "definition": "solteiro(a)",
+      "example_sentence": "Are you single or in a relationship?",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "date",
+      "definition": "encontro / namorar",
+      "example_sentence": "We went on a date last night.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "love",
+      "definition": "amor / amar",
+      "example_sentence": "I love you more than anything.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "trust",
+      "definition": "confiança / confiar",
+      "example_sentence": "Trust is essential in a relationship.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "respect",
+      "definition": "respeito / respeitar",
+      "example_sentence": "Mutual respect is important.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "argue",
+      "definition": "discutir / brigar",
+      "example_sentence": "Couples sometimes argue.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "fight",
+      "definition": "briga / brigar",
+      "example_sentence": "They had a fight about money.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "forgive",
+      "definition": "perdoar",
+      "example_sentence": "I forgive you for what you said.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "apologize",
+      "definition": "pedir desculpas",
+      "example_sentence": "You should apologize for being late.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "jealous",
+      "definition": "ciumento / com ciúmes",
+      "example_sentence": "He gets jealous easily.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "support",
+      "definition": "apoiar / apoio",
+      "example_sentence": "I'll always support you.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "care",
+      "definition": "cuidar / se importar",
+      "example_sentence": "I really care about you.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "miss",
+      "definition": "sentir falta",
+      "example_sentence": "I miss you so much.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "hug",
+      "definition": "abraço / abraçar",
+      "example_sentence": "Give me a hug!",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "kiss",
+      "definition": "beijo / beijar",
+      "example_sentence": "She gave him a kiss goodbye.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "break up",
+      "definition": "terminar (relacionamento)",
+      "example_sentence": "They broke up after five years.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "get along",
+      "definition": "se dar bem",
+      "example_sentence": "I get along well with my in-laws.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "parents",
+      "definition": "pais",
+      "example_sentence": "My parents live in the countryside.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "children",
+      "definition": "filhos / crianças",
+      "example_sentence": "They have three children.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "sibling",
+      "definition": "irmão(ã)",
+      "example_sentence": "Do you have any siblings?",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "cousin",
+      "definition": "primo(a)",
+      "example_sentence": "My cousin lives in Canada.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "uncle",
+      "definition": "tio",
+      "example_sentence": "My uncle taught me how to ride a bike.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "aunt",
+      "definition": "tia",
+      "example_sentence": "My aunt makes the best cookies.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "grandparents",
+      "definition": "avós",
+      "example_sentence": "I visit my grandparents every Sunday.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "in-laws",
+      "definition": "sogros",
+      "example_sentence": "We're having dinner with my in-laws.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "generation",
+      "definition": "geração",
+      "example_sentence": "Each generation is different.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "raise",
+      "definition": "criar (filhos)",
+      "example_sentence": "They raised their children well.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "childhood",
+      "definition": "infância",
+      "example_sentence": "I had a happy childhood.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "teenager",
+      "definition": "adolescente",
+      "example_sentence": "Teenagers can be difficult.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "adult",
+      "definition": "adulto",
+      "example_sentence": "Now that I'm an adult, I understand.",
+      "level_id": 4,
+      "category_id": 24
+    },
+    {
+      "word": "elderly",
+      "definition": "idoso",
+      "example_sentence": "We should help the elderly.",
+      "level_id": 4,
+      "category_id": 24
     }
   ]
 }

@@ -1543,6 +1543,762 @@
       "level_id": 2,
       "category_id": 4,
       "image_url": "local:deprecate.jpg"
+    },
+    {
+      "word": "rice",
+      "definition": "arroz",
+      "example_sentence": "I usually have rice and beans for lunch.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "chicken",
+      "definition": "frango",
+      "example_sentence": "Would you like some grilled chicken?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "beef",
+      "definition": "carne bovina",
+      "example_sentence": "This beef is very tender.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "pork",
+      "definition": "carne de porco",
+      "example_sentence": "I don't eat pork for religious reasons.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "fish",
+      "definition": "peixe",
+      "example_sentence": "Fresh fish is healthier than fried food.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "salad",
+      "definition": "salada",
+      "example_sentence": "I always start my meal with a green salad.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "soup",
+      "definition": "sopa",
+      "example_sentence": "This vegetable soup is delicious.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "bread",
+      "definition": "pão",
+      "example_sentence": "I buy fresh bread every morning.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "butter",
+      "definition": "manteiga",
+      "example_sentence": "Can you pass me the butter, please?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "cheese",
+      "definition": "queijo",
+      "example_sentence": "This cheese comes from France.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "egg",
+      "definition": "ovo",
+      "example_sentence": "I have two eggs for breakfast.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "milk",
+      "definition": "leite",
+      "example_sentence": "Children should drink milk every day.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "juice",
+      "definition": "suco",
+      "example_sentence": "Would you like orange juice or apple juice?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "tea",
+      "definition": "chá",
+      "example_sentence": "I prefer tea to coffee in the afternoon.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "sugar",
+      "definition": "açúcar",
+      "example_sentence": "Do you take sugar in your coffee?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "salt",
+      "definition": "sal",
+      "example_sentence": "This soup needs more salt.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "pepper",
+      "definition": "pimenta",
+      "example_sentence": "I like a little pepper on my eggs.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "oil",
+      "definition": "óleo / azeite",
+      "example_sentence": "Use olive oil for a healthier salad.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "fruit",
+      "definition": "fruta",
+      "example_sentence": "Eating fruit is good for your health.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "vegetable",
+      "definition": "legume / vegetal",
+      "example_sentence": "Children should eat more vegetables.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "apple",
+      "definition": "maçã",
+      "example_sentence": "An apple a day keeps the doctor away.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "banana",
+      "definition": "banana",
+      "example_sentence": "I eat a banana after my workout.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "orange",
+      "definition": "laranja",
+      "example_sentence": "Oranges are rich in vitamin C.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "tomato",
+      "definition": "tomate",
+      "example_sentence": "Add some tomatoes to the salad.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "potato",
+      "definition": "batata",
+      "example_sentence": "Do you want mashed potatoes or fries?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "onion",
+      "definition": "cebola",
+      "example_sentence": "Cutting onions always makes me cry.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "garlic",
+      "definition": "alho",
+      "example_sentence": "Garlic adds a lot of flavor to the dish.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "recipe",
+      "definition": "receita",
+      "example_sentence": "This recipe has been in my family for generations.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "cook",
+      "definition": "cozinhar / cozinheiro(a)",
+      "example_sentence": "I love to cook on weekends.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "bake",
+      "definition": "assar (forno)",
+      "example_sentence": "I'm learning to bake cakes.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "fry",
+      "definition": "fritar",
+      "example_sentence": "Don't fry the fish — grill it instead.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "boil",
+      "definition": "ferver",
+      "example_sentence": "Boil the water before adding the pasta.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "grill",
+      "definition": "grelhar",
+      "example_sentence": "Let's grill some burgers for dinner.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "slice",
+      "definition": "fatia / fatiar",
+      "example_sentence": "Cut the bread into thin slices.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "chop",
+      "definition": "picar",
+      "example_sentence": "Chop the onions finely.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "stir",
+      "definition": "mexer",
+      "example_sentence": "Stir the sauce every few minutes.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "taste",
+      "definition": "provar / sabor",
+      "example_sentence": "Taste the soup and add more salt if needed.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "delicious",
+      "definition": "delicioso",
+      "example_sentence": "This pasta is absolutely delicious!",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "spicy",
+      "definition": "apimentado / picante",
+      "example_sentence": "Be careful — this curry is very spicy.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "sweet",
+      "definition": "doce",
+      "example_sentence": "This dessert is too sweet for me.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "sour",
+      "definition": "azedo",
+      "example_sentence": "This lemon is very sour.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "bitter",
+      "definition": "amargo",
+      "example_sentence": "Dark chocolate has a bitter taste.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "fresh",
+      "definition": "fresco",
+      "example_sentence": "I only buy fresh vegetables from the market.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "frozen",
+      "definition": "congelado",
+      "example_sentence": "Frozen pizza is quick and easy to make.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "hungry",
+      "definition": "com fome",
+      "example_sentence": "I'm so hungry — I could eat a horse!",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "thirsty",
+      "definition": "com sede",
+      "example_sentence": "I'm thirsty — do you have any water?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "full",
+      "definition": "satisfeito / cheio",
+      "example_sentence": "I can't eat any more — I'm completely full.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "plate",
+      "definition": "prato",
+      "example_sentence": "Put the food on this plate.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "bowl",
+      "definition": "tigela",
+      "example_sentence": "I'll have a bowl of soup, please.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "cup",
+      "definition": "xícara",
+      "example_sentence": "Would you like a cup of tea?",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "glass",
+      "definition": "copo",
+      "example_sentence": "Pour me a glass of water, please.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "knife",
+      "definition": "faca",
+      "example_sentence": "Be careful with that sharp knife.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "spoon",
+      "definition": "colher",
+      "example_sentence": "You need a spoon for the soup.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "pan",
+      "definition": "frigideira",
+      "example_sentence": "Heat the pan before adding the oil.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "pot",
+      "definition": "panela",
+      "example_sentence": "Use a large pot to boil the pasta.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "oven",
+      "definition": "forno",
+      "example_sentence": "Preheat the oven to 180 degrees.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "microwave",
+      "definition": "micro-ondas",
+      "example_sentence": "Just heat it in the microwave for two minutes.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "fridge",
+      "definition": "geladeira",
+      "example_sentence": "Keep the milk in the fridge.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "freezer",
+      "definition": "freezer / congelador",
+      "example_sentence": "I keep ice cream in the freezer.",
+      "level_id": 2,
+      "category_id": 19
+    },
+    {
+      "word": "head",
+      "definition": "cabeça",
+      "example_sentence": "I have a terrible headache.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "face",
+      "definition": "rosto",
+      "example_sentence": "Wash your face before going to bed.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "eye",
+      "definition": "olho",
+      "example_sentence": "She has beautiful green eyes.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "ear",
+      "definition": "orelha / ouvido",
+      "example_sentence": "I have an ear infection.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "nose",
+      "definition": "nariz",
+      "example_sentence": "My nose is blocked because of the cold.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "mouth",
+      "definition": "boca",
+      "example_sentence": "Open your mouth and say 'ah'.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "tooth",
+      "definition": "dente",
+      "example_sentence": "I have a toothache.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "tongue",
+      "definition": "língua",
+      "example_sentence": "Stick out your tongue.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "neck",
+      "definition": "pescoço",
+      "example_sentence": "I slept badly and now my neck hurts.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "shoulder",
+      "definition": "ombro",
+      "example_sentence": "He put his arm around my shoulder.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "arm",
+      "definition": "braço",
+      "example_sentence": "I broke my arm playing football.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "hand",
+      "definition": "mão",
+      "example_sentence": "Wash your hands before eating.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "finger",
+      "definition": "dedo (da mão)",
+      "example_sentence": "I cut my finger while cooking.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "chest",
+      "definition": "peito",
+      "example_sentence": "I feel pain in my chest when I breathe.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "back",
+      "definition": "costas",
+      "example_sentence": "My back hurts from sitting all day.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "stomach",
+      "definition": "estômago / barriga",
+      "example_sentence": "I have a stomach ache.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "leg",
+      "definition": "perna",
+      "example_sentence": "I hurt my leg while running.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "knee",
+      "definition": "joelho",
+      "example_sentence": "My knee swells when I exercise.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "foot",
+      "definition": "pé",
+      "example_sentence": "My feet hurt from walking all day.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "toe",
+      "definition": "dedo (do pé)",
+      "example_sentence": "I stubbed my toe on the door.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "skin",
+      "definition": "pele",
+      "example_sentence": "Protect your skin from the sun.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "heart",
+      "definition": "coração",
+      "example_sentence": "Exercise is good for your heart.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "lung",
+      "definition": "pulmão",
+      "example_sentence": "Smoking damages your lungs.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "blood",
+      "definition": "sangue",
+      "example_sentence": "I need to do a blood test.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "bone",
+      "definition": "osso",
+      "example_sentence": "Milk is good for your bones.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "muscle",
+      "definition": "músculo",
+      "example_sentence": "I have sore muscles after the gym.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "pain",
+      "definition": "dor",
+      "example_sentence": "Where exactly do you feel the pain?",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "ache",
+      "definition": "dor (contínua)",
+      "example_sentence": "I have a constant ache in my lower back.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "fever",
+      "definition": "febre",
+      "example_sentence": "I have a high fever.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "cold",
+      "definition": "resfriado",
+      "example_sentence": "I caught a cold last week.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "flu",
+      "definition": "gripe",
+      "example_sentence": "The flu is going around the office.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "cough",
+      "definition": "tosse / tossir",
+      "example_sentence": "I can't stop coughing.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "sneeze",
+      "definition": "espirrar",
+      "example_sentence": "I keep sneezing because of my allergy.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "allergy",
+      "definition": "alergia",
+      "example_sentence": "I have an allergy to peanuts.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "medicine",
+      "definition": "remédio / medicina",
+      "example_sentence": "Take this medicine three times a day.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "pill",
+      "definition": "comprimido",
+      "example_sentence": "Take two pills after meals.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "doctor",
+      "definition": "médico(a)",
+      "example_sentence": "You should see a doctor.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "nurse",
+      "definition": "enfermeiro(a)",
+      "example_sentence": "The nurse will take your blood pressure.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "hospital",
+      "definition": "hospital",
+      "example_sentence": "He was taken to the hospital.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "pharmacy",
+      "definition": "farmácia",
+      "example_sentence": "Get this prescription from the pharmacy.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "appointment",
+      "definition": "consulta / agendamento",
+      "example_sentence": "I have a doctor's appointment tomorrow.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "prescription",
+      "definition": "receita médica",
+      "example_sentence": "You need a prescription for this medicine.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "healthy",
+      "definition": "saudável",
+      "example_sentence": "Eating vegetables is healthy.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "sick",
+      "definition": "doente",
+      "example_sentence": "I feel sick — I think I ate something bad.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "tired",
+      "definition": "cansado",
+      "example_sentence": "I'm so tired — I need to sleep.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "sleep",
+      "definition": "dormir / sono",
+      "example_sentence": "I need eight hours of sleep.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "exercise",
+      "definition": "exercício / exercitar",
+      "example_sentence": "Regular exercise is important for your health.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "diet",
+      "definition": "dieta",
+      "example_sentence": "I'm on a diet to lose weight.",
+      "level_id": 2,
+      "category_id": 20
+    },
+    {
+      "word": "weight",
+      "definition": "peso",
+      "example_sentence": "I want to lose some weight.",
+      "level_id": 2,
+      "category_id": 20
     }
   ]
 }

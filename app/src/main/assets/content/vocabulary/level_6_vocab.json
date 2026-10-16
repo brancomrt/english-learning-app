@@ -895,6 +895,496 @@
       "level_id": 6,
       "category_id": 18,
       "image_url": "local:contribution_guide.jpg"
+    },
+    {
+      "word": "democracy",
+      "definition": "democracia",
+      "example_sentence": "Democracy depends on citizen participation.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "election",
+      "definition": "eleição",
+      "example_sentence": "The election results surprised everyone.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "vote",
+      "definition": "votar / voto",
+      "example_sentence": "It's your duty to vote.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "campaign",
+      "definition": "campanha",
+      "example_sentence": "The campaign focused on healthcare.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "candidate",
+      "definition": "candidato(a)",
+      "example_sentence": "Both candidates have strong support.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "policy",
+      "definition": "política (diretriz)",
+      "example_sentence": "The new policy affects immigration.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "legislation",
+      "definition": "legislação",
+      "example_sentence": "New legislation was passed yesterday.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "reform",
+      "definition": "reforma",
+      "example_sentence": "The country needs economic reform.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "corruption",
+      "definition": "corrupção",
+      "example_sentence": "Corruption undermines public trust.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "inequality",
+      "definition": "desigualdade",
+      "example_sentence": "Social inequality is increasing.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "welfare",
+      "definition": "bem-estar social",
+      "example_sentence": "The welfare system needs improvement.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "poverty",
+      "definition": "pobreza",
+      "example_sentence": "Many families live in poverty.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "unemployment",
+      "definition": "desemprego",
+      "example_sentence": "Unemployment rates are rising.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "inflation",
+      "definition": "inflação",
+      "example_sentence": "Inflation is affecting purchasing power.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "recession",
+      "definition": "recessão",
+      "example_sentence": "The country is heading into recession.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "immigration",
+      "definition": "imigração",
+      "example_sentence": "Immigration is a divisive issue.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "refugee",
+      "definition": "refugiado",
+      "example_sentence": "Millions of refugees have fled the war.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "human rights",
+      "definition": "direitos humanos",
+      "example_sentence": "Human rights must be protected.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "discrimination",
+      "definition": "discriminação",
+      "example_sentence": "Discrimination in any form is unacceptable.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "equality",
+      "definition": "igualdade",
+      "example_sentence": "We're fighting for equality.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "protest",
+      "definition": "protesto / protestar",
+      "example_sentence": "Thousands joined the protest.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "demonstration",
+      "definition": "manifestação",
+      "example_sentence": "The demonstration was peaceful.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "strike",
+      "definition": "greve",
+      "example_sentence": "Workers went on strike for better pay.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "negotiate",
+      "definition": "negociar",
+      "example_sentence": "Both sides agreed to negotiate.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "compromise",
+      "definition": "acordo / compromisso",
+      "example_sentence": "Reaching a compromise was difficult.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "controversy",
+      "definition": "controvérsia",
+      "example_sentence": "The decision sparked controversy.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "debate",
+      "definition": "debate",
+      "example_sentence": "The debate was heated.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "opinion",
+      "definition": "opinião",
+      "example_sentence": "Public opinion has shifted.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "perspective",
+      "definition": "perspectiva",
+      "example_sentence": "Consider different perspectives.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "ideology",
+      "definition": "ideologia",
+      "example_sentence": "Political ideology shapes policies.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "liberal",
+      "definition": "liberal",
+      "example_sentence": "He holds liberal views on social issues.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "conservative",
+      "definition": "conservador",
+      "example_sentence": "Conservative policies tend to favor tradition.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "progressive",
+      "definition": "progressista",
+      "example_sentence": "Progressive movements push for change.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "authoritarian",
+      "definition": "autoritário",
+      "example_sentence": "The regime became increasingly authoritarian.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "freedom",
+      "definition": "liberdade",
+      "example_sentence": "Freedom of speech is fundamental.",
+      "level_id": 6,
+      "category_id": 27
+    },
+    {
+      "word": "break the ice",
+      "definition": "quebrar o gelo",
+      "example_sentence": "His joke helped break the ice.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "hit the nail on the head",
+      "definition": "acertar em cheio",
+      "example_sentence": "You hit the nail on the head!",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "cost an arm and a leg",
+      "definition": "custar os olhos da cara",
+      "example_sentence": "That car cost an arm and a leg.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "bite off more than you can chew",
+      "definition": "dar um passo maior que a perna",
+      "example_sentence": "I think I bit off more than I can chew.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "once in a blue moon",
+      "definition": "raramente / uma vez na vida",
+      "example_sentence": "I only see him once in a blue moon.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "piece of cake",
+      "definition": "moleza / muito fácil",
+      "example_sentence": "The exam was a piece of cake.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "under the weather",
+      "definition": "indisposto / mal",
+      "example_sentence": "I'm feeling under the weather today.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "spill the beans",
+      "definition": "contar o segredo",
+      "example_sentence": "Who spilled the beans about the surprise?",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "let the cat out of the bag",
+      "definition": "revelar um segredo",
+      "example_sentence": "She let the cat out of the bag accidentally.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "beat around the bush",
+      "definition": "enrolar / não ir direto ao ponto",
+      "example_sentence": "Stop beating around the bush and tell me.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "the ball is in your court",
+      "definition": "a decisão é sua",
+      "example_sentence": "I've made my offer — the ball is in your court.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "burn the midnight oil",
+      "definition": "trabalhar/estudar até tarde",
+      "example_sentence": "I had to burn the midnight oil to finish.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "get out of hand",
+      "definition": "sair do controle",
+      "example_sentence": "The situation got out of hand.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "on the same page",
+      "definition": "em sintonia / de acordo",
+      "example_sentence": "Let's make sure we're on the same page.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "miss the boat",
+      "definition": "perder a oportunidade",
+      "example_sentence": "If you don't act now, you'll miss the boat.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "pull someone's leg",
+      "definition": "zoar / brincar com alguém",
+      "example_sentence": "I was just pulling your leg!",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "sit on the fence",
+      "definition": "ficar em cima do muro",
+      "example_sentence": "Stop sitting on the fence and make a decision.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "take it with a grain of salt",
+      "definition": "não levar ao pé da letra",
+      "example_sentence": "Take his advice with a grain of salt.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "the last straw",
+      "definition": "a gota d'água",
+      "example_sentence": "That comment was the last straw.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "think outside the box",
+      "definition": "pensar fora da caixa",
+      "example_sentence": "We need to think outside the box.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "a blessing in disguise",
+      "definition": "um mal que veio para o bem",
+      "example_sentence": "Losing that job was a blessing in disguise.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "actions speak louder than words",
+      "definition": "ações valem mais que palavras",
+      "example_sentence": "Remember: actions speak louder than words.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "add insult to injury",
+      "definition": "piorar uma situação ruim",
+      "example_sentence": "To add insult to injury, it started raining.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "back to square one",
+      "definition": "de volta à estaca zero",
+      "example_sentence": "The project failed; we're back to square one.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "barking up the wrong tree",
+      "definition": "procurar no lugar errado",
+      "example_sentence": "If you think I did it, you're barking up the wrong tree.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "cut to the chase",
+      "definition": "ir direto ao ponto",
+      "example_sentence": "Let me cut to the chase.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "every cloud has a silver lining",
+      "definition": "há sempre um lado positivo",
+      "example_sentence": "Every cloud has a silver lining.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "get your act together",
+      "definition": "se organizar / se recompor",
+      "example_sentence": "You need to get your act together.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "hang in there",
+      "definition": "aguente firme",
+      "example_sentence": "Hang in there — things will get better.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "it takes two to tango",
+      "definition": "a culpa é dos dois",
+      "example_sentence": "It takes two to tango.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "kill two birds with one stone",
+      "definition": "matar dois coelhos com uma cajadada",
+      "example_sentence": "Let's kill two birds with one stone.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "learn the ropes",
+      "definition": "aprender como funciona",
+      "example_sentence": "It takes time to learn the ropes.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "make ends meet",
+      "definition": "conseguir pagar as contas",
+      "example_sentence": "It's hard to make ends meet these days.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "no pain, no gain",
+      "definition": "sem esforço, sem resultado",
+      "example_sentence": "Remember: no pain, no gain.",
+      "level_id": 6,
+      "category_id": 28
+    },
+    {
+      "word": "play it by ear",
+      "definition": "improvisar / ver no momento",
+      "example_sentence": "Let's just play it by ear.",
+      "level_id": 6,
+      "category_id": 28
     }
   ]
 }
