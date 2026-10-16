@@ -1,0 +1,65 @@
+name: Build & Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Release APK
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Get version name
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Rename APKs
+        run: |
+          mv app/build/outputs/apk/release/app-release-unsigned.apk app/build/outputs/apk/release/english-learning-${{ steps.version.outputs.VERSION }}-release.apk || true
+          mv app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/debug/english-learning-${{ steps.version.outputs.VERSION }}-debug.apk || true
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.version.outputs.VERSION }}
+          body: |
+            ## English Learning App ${{ steps.version.outputs.VERSION }}
+            
+            ### Downloads
+            - **Debug APK**: Para testes (não precisa de assinatura)
+            - **Release APK**: Versão de produção (unsigned - precisa assinar para publicar na Play Store)
+            
+            ### Instalação
+            1. Baixe o APK debug
+            2. Habilite "Instalar apps de fontes desconhecidas" no Android
+            3. Instale o APK
+          files: |
+            app/build/outputs/apk/debug/english-learning-${{ steps.version.outputs.VERSION }}-debug.apk
+            app/build/outputs/apk/release/english-learning-${{ steps.version.outputs.VERSION }}-release.apk
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
