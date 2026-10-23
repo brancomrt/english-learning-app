@@ -1,10 +1,14 @@
 package com.englishlearning.app.di
 
 import com.englishlearning.app.data.repository.ContentRepositoryImpl
+import com.englishlearning.app.data.repository.ConversationChainRepositoryImpl
+import com.englishlearning.app.data.repository.DailyChallengeRepositoryImpl
 import com.englishlearning.app.data.repository.ProgressRepositoryImpl
 import com.englishlearning.app.data.repository.SrsRepositoryImpl
 import com.englishlearning.app.domain.gamification.StreakCalculator
 import com.englishlearning.app.domain.repository.ContentRepository
+import com.englishlearning.app.domain.repository.ConversationChainRepository
+import com.englishlearning.app.domain.repository.DailyChallengeRepository
 import com.englishlearning.app.domain.repository.ProgressRepository
 import com.englishlearning.app.domain.repository.SrsRepository
 import com.englishlearning.app.domain.validation.GrammarParser
@@ -58,6 +62,20 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindSrsRepository(impl: SrsRepositoryImpl): SrsRepository
+
+    /**
+     * Vincula [DailyChallengeRepositoryImpl] à interface [DailyChallengeRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindDailyChallengeRepository(impl: DailyChallengeRepositoryImpl): DailyChallengeRepository
+
+    /**
+     * Vincula [ConversationChainRepositoryImpl] à interface [ConversationChainRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindConversationChainRepository(impl: ConversationChainRepositoryImpl): ConversationChainRepository
 
     companion object {
 

@@ -81,6 +81,12 @@ object HomeNavRoutes {
 
     /** Rota para a tela de revisão de erros. */
     const val ERROR_REVIEW = "error_review"
+    
+    // Learning Methodology Features
+    const val DAILY_CHALLENGES = "daily_challenges"
+    const val MICROLEARNING = "microlearning"
+    const val LISTENING_FIRST = "listening_first/1/0"
+    const val SHADOWING = "shadowing/1/0"
 }
 
 // ---------------------------------------------------------------------------
@@ -123,7 +129,11 @@ fun HomeScreen(
             onReviewClick = { navController.navigate(HomeNavRoutes.SRS_REVIEW) },
             onVocabularyClick = { navController.navigate(HomeNavRoutes.VOCABULARY) },
             onDrillingClick = { navController.navigate(HomeNavRoutes.DRILLING) },
-            onErrorReviewClick = { navController.navigate(HomeNavRoutes.ERROR_REVIEW) }
+            onErrorReviewClick = { navController.navigate(HomeNavRoutes.ERROR_REVIEW) },
+            onDailyChallengesClick = { navController.navigate(HomeNavRoutes.DAILY_CHALLENGES) },
+            onMicrolearningClick = { navController.navigate(HomeNavRoutes.MICROLEARNING) },
+            onListeningFirstClick = { navController.navigate(HomeNavRoutes.LISTENING_FIRST) },
+            onShadowingClick = { navController.navigate(HomeNavRoutes.SHADOWING) }
         )
     }
 }
@@ -161,7 +171,11 @@ fun HomeContent(
     onReviewClick: () -> Unit,
     onVocabularyClick: () -> Unit = {},
     onDrillingClick: () -> Unit = {},
-    onErrorReviewClick: () -> Unit = {}
+    onErrorReviewClick: () -> Unit = {},
+    onDailyChallengesClick: () -> Unit = {},
+    onMicrolearningClick: () -> Unit = {},
+    onListeningFirstClick: () -> Unit = {},
+    onShadowingClick: () -> Unit = {}
 ) {
     val haptic = rememberHapticFeedback()
     
@@ -275,6 +289,71 @@ fun HomeContent(
                     shape = RoundedCornerShape(16.dp)
                 ) {
                     Text("⚡ Drilling", style = MaterialTheme.typography.labelMedium)
+                }
+            }
+
+            // ── Novas Metodologias de Aprendizado ────────────────────────────
+            Text(
+                text = "Modos de Estudo",
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold,
+                modifier = Modifier.padding(top = 8.dp)
+            )
+            
+            // Card de Desafios Diários
+            DailyChallengeEntryCard(onClick = onDailyChallengesClick)
+            
+            // Botões para modos especiais
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onMicrolearningClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("⏱️ Quick (3min)", style = MaterialTheme.typography.labelMedium)
+                }
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onListeningFirstClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("👂 Listening", style = MaterialTheme.typography.labelMedium)
+                }
+            }
+            
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onShadowingClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("🎤 Shadowing", style = MaterialTheme.typography.labelMedium)
+                }
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onReviewClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp),
+                    enabled = uiState.dueCardCount == 0 // Só mostra se não tem o card de revisão acima
+                ) {
+                    Text("🧠 SRS Review", style = MaterialTheme.typography.labelMedium)
                 }
             }
 
@@ -738,6 +817,58 @@ fun StatItem(
 // ---------------------------------------------------------------------------
 // UnlockedLevelsRow — Acesso rápido a níveis desbloqueados (Req. 6.3)
 // ---------------------------------------------------------------------------
+
+/**
+ * Card de entrada para Desafios Diários na HomeScreen.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun DailyChallengeEntryCard(onClick: () -> Unit) {
+    Card(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                Text(
+                    text = "🎯",
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                Column {
+                    Text(
+                        text = "Desafios do Dia",
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                    Text(
+                        text = "Complete desafios e ganhe XP bônus!",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.8f)
+                    )
+                }
+            }
+            Icon(
+                imageVector = Icons.Default.TrendingUp,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.onSecondaryContainer
+            )
+        }
+    }
+}
 
 /**
  * Linha de acesso rápido com cards dos níveis desbloqueados.

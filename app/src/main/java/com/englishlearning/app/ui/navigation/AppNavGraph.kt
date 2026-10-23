@@ -15,15 +15,19 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.englishlearning.app.ui.categoryselect.CategorySelectScreen
+import com.englishlearning.app.ui.dailychallenge.DailyChallengeScreen
 import com.englishlearning.app.ui.home.HomeScreen
 import com.englishlearning.app.ui.learning.LearningSessionScreen
 import com.englishlearning.app.ui.lesson.LessonScreen
 import com.englishlearning.app.ui.levelselect.LevelSelectScreen
+import com.englishlearning.app.ui.listeningfirst.ListeningFirstScreen
+import com.englishlearning.app.ui.microlearning.MicrolearningScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
 import com.englishlearning.app.ui.drilling.DrillingScreen
 import com.englishlearning.app.ui.errorreview.ErrorReviewScreen
 import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
+import com.englishlearning.app.ui.shadowing.ShadowingScreen
 import com.englishlearning.app.ui.vocabulary.VocabularyScreen
 import com.englishlearning.app.ui.progress.ProgressScreen
 import com.englishlearning.app.ui.srs.SrsReviewScreen
@@ -57,6 +61,18 @@ sealed class Screen(val route: String) {
     object PrivacyPolicy  : Screen("privacy_policy")
     object Vocabulary     : Screen("vocabulary")
     object Drilling       : Screen("drilling")
+    
+    // ── Learning Methodology Features ────────────────────────────────────────
+    object ListeningFirst : Screen("listening_first/{levelId}/{categoryId}") {
+        fun createRoute(levelId: Int, categoryId: Int) =
+            "listening_first/$levelId/$categoryId"
+    }
+    object Shadowing : Screen("shadowing/{levelId}/{categoryId}") {
+        fun createRoute(levelId: Int, categoryId: Int) =
+            "shadowing/$levelId/$categoryId"
+    }
+    object DailyChallenges : Screen("daily_challenges")
+    object Microlearning   : Screen("microlearning")
 }
 
 private const val PREFS_NAME = "app_prefs"
@@ -230,6 +246,74 @@ fun AppNavGraph(
                 onStartExercise = { levelId, categoryId ->
                     navController.navigate(Screen.LearningSession.createRoute(levelId, categoryId))
                 }
+            )
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // Learning Methodology Features
+        // ══════════════════════════════════════════════════════════════════════
+
+        // Listening First Mode
+        composable(
+            route = Screen.ListeningFirst.route,
+            arguments = listOf(
+                navArgument("levelId")    { type = NavType.IntType },
+                navArgument("categoryId") { type = NavType.IntType }
+            )
+        ) { backStackEntry ->
+            val levelId = backStackEntry.arguments?.getInt("levelId") ?: 1
+            val categoryId = backStackEntry.arguments?.getInt("categoryId") ?: 0
+            ListeningFirstScreen(
+                levelId = levelId,
+                categoryId = categoryId,
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // Shadowing Mode
+        composable(
+            route = Screen.Shadowing.route,
+            arguments = listOf(
+                navArgument("levelId")    { type = NavType.IntType },
+                navArgument("categoryId") { type = NavType.IntType }
+            )
+        ) { backStackEntry ->
+            val levelId = backStackEntry.arguments?.getInt("levelId") ?: 1
+            val categoryId = backStackEntry.arguments?.getInt("categoryId") ?: 0
+            ShadowingScreen(
+                levelId = levelId,
+                categoryId = categoryId,
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // Daily Challenges
+        composable(Screen.DailyChallenges.route) {
+            DailyChallengeScreen(
+                onNavigateBack = { navController.popBackStack() },
+                onNavigateToListening = {
+                    navController.navigate(Screen.ListeningFirst.createRoute(1, 0))
+                },
+                onNavigateToShadowing = {
+                    navController.navigate(Screen.Shadowing.createRoute(1, 0))
+                },
+                onNavigateToSrsReview = {
+                    navController.navigate(Screen.SrsReview.route)
+                },
+                onNavigateToExercises = {
+                    navController.navigate(Screen.LevelSelect.route)
+                },
+                onNavigateToConversation = {
+                    // TODO: Conversation Chain screen
+                    navController.navigate(Screen.LevelSelect.route)
+                }
+            )
+        }
+
+        // Microlearning
+        composable(Screen.Microlearning.route) {
+            MicrolearningScreen(
+                onNavigateBack = { navController.popBackStack() }
             )
         }
     }

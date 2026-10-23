@@ -9,6 +9,8 @@ import com.englishlearning.app.data.database.converter.Converters
 import com.englishlearning.app.data.database.dao.AcceptedAnswerDao
 import com.englishlearning.app.data.database.dao.AchievementDao
 import com.englishlearning.app.data.database.dao.CategoryDao
+import com.englishlearning.app.data.database.dao.ConversationChainDao
+import com.englishlearning.app.data.database.dao.DailyChallengeDao
 import com.englishlearning.app.data.database.dao.ExerciseDao
 import com.englishlearning.app.data.database.dao.HintDao
 import com.englishlearning.app.data.database.dao.LevelDao
@@ -21,6 +23,10 @@ import com.englishlearning.app.data.database.entity.AcceptedAnswerEntity
 import com.englishlearning.app.data.database.entity.AchievementEntity
 import com.englishlearning.app.data.database.entity.AttemptEntity
 import com.englishlearning.app.data.database.entity.CategoryEntity
+import com.englishlearning.app.data.database.entity.ChainExerciseEntity
+import com.englishlearning.app.data.database.entity.ChainProgressEntity
+import com.englishlearning.app.data.database.entity.ConversationChainEntity
+import com.englishlearning.app.data.database.entity.DailyChallengeEntity
 import com.englishlearning.app.data.database.entity.ExerciseEntity
 import com.englishlearning.app.data.database.entity.HintEntity
 import com.englishlearning.app.data.database.entity.LevelEntity
@@ -60,9 +66,14 @@ import com.englishlearning.app.data.database.entity.VocabularyCardEntity
         AchievementEntity::class,
         // ── v2 ──────────────────────────────────────────────────────────────
         SrsCardEntity::class,
-        VocabularyCardEntity::class
+        VocabularyCardEntity::class,
+        // ── v5 (Learning Methodology Features) ──────────────────────────────
+        DailyChallengeEntity::class,
+        ConversationChainEntity::class,
+        ChainExerciseEntity::class,
+        ChainProgressEntity::class
     ],
-    version = 4,
+    version = 5,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -87,6 +98,98 @@ abstract class EnglishLearningDatabase : RoomDatabase() {
             override fun migrate(db: SupportSQLiteDatabase) {
                 db.execSQL(
                     "ALTER TABLE `vocabulary_cards` ADD COLUMN `image_url` TEXT"
+                )
+            }
+        }
+
+        /**
+         * Migração da versão 4 para a versão 5.
+         * 
+         * Adiciona tabelas para Daily Challenges e Conversation Chains
+         * como parte das melhorias metodológicas de aprendizado.
+         */
+        val MIGRATION_4_5 = object : Migration(4, 5) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                // Tabela de desafios diários
+                db.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `daily_challenges` (
+                        `id`              INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                        `userId`          INTEGER NOT NULL,
+                        `type`            TEXT    NOT NULL,
+                        `title`           TEXT    NOT NULL,
+                        `description`     TEXT    NOT NULL,
+                        `targetValue`     INTEGER NOT NULL,
+                        `currentProgress` INTEGER NOT NULL DEFAULT 0,
+                        `xpReward`        INTEGER NOT NULL,
+                        `bonusXp`         INTEGER NOT NULL DEFAULT 0,
+                        `date`            TEXT    NOT NULL,
+                        `isCompleted`     INTEGER NOT NULL DEFAULT 0,
+                        `completedAt`     INTEGER,
+                        `iconEmoji`       TEXT    NOT NULL DEFAULT '🎯'
+                    )
+                    """.trimIndent()
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_daily_challenges_userId_date` ON `daily_challenges` (`userId`, `date`)"
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_daily_challenges_userId_type` ON `daily_challenges` (`userId`, `type`)"
+                )
+
+                // Tabela de conversation chains
+                db.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `conversation_chains` (
+                        `id`           INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                        `title`        TEXT    NOT NULL,
+                        `description`  TEXT    NOT NULL,
+                        `levelId`      INTEGER NOT NULL,
+                        `categoryId`   INTEGER NOT NULL,
+                        `contextStory` TEXT,
+                        `sortOrder`    INTEGER NOT NULL DEFAULT 0
+                    )
+                    """.trimIndent()
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_conversation_chains_levelId` ON `conversation_chains` (`levelId`)"
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_conversation_chains_levelId_categoryId` ON `conversation_chains` (`levelId`, `categoryId`)"
+                )
+
+                // Tabela de exercícios dentro de chains
+                db.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `chain_exercises` (
+                        `chainId`      INTEGER NOT NULL,
+                        `exerciseId`   INTEGER NOT NULL,
+                        `orderInChain` INTEGER NOT NULL,
+                        `speakerRole`  TEXT    NOT NULL,
+                        PRIMARY KEY(`chainId`, `exerciseId`)
+                    )
+                    """.trimIndent()
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_chain_exercises_chainId` ON `chain_exercises` (`chainId`)"
+                )
+
+                // Tabela de progresso do usuário em chains
+                db.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `chain_progress` (
+                        `userId`                INTEGER NOT NULL,
+                        `chainId`               INTEGER NOT NULL,
+                        `currentExerciseIndex`  INTEGER NOT NULL DEFAULT 0,
+                        `isCompleted`           INTEGER NOT NULL DEFAULT 0,
+                        `completedAt`           INTEGER,
+                        `startedAt`             INTEGER NOT NULL,
+                        PRIMARY KEY(`userId`, `chainId`)
+                    )
+                    """.trimIndent()
+                )
+                db.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_chain_progress_userId` ON `chain_progress` (`userId`)"
                 )
             }
         }
@@ -197,4 +300,10 @@ abstract class EnglishLearningDatabase : RoomDatabase() {
 
     /** DAO para vocabulary cards do sistema SRS. Requisito 16.9. */
     abstract fun vocabularyDao(): VocabularyDao
+
+    /** DAO para desafios diários. */
+    abstract fun dailyChallengeDao(): DailyChallengeDao
+
+    /** DAO para conversation chains. */
+    abstract fun conversationChainDao(): ConversationChainDao
 }

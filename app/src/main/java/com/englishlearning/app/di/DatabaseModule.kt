@@ -6,6 +6,8 @@ import com.englishlearning.app.data.database.EnglishLearningDatabase
 import com.englishlearning.app.data.database.dao.AcceptedAnswerDao
 import com.englishlearning.app.data.database.dao.AchievementDao
 import com.englishlearning.app.data.database.dao.CategoryDao
+import com.englishlearning.app.data.database.dao.ConversationChainDao
+import com.englishlearning.app.data.database.dao.DailyChallengeDao
 import com.englishlearning.app.data.database.dao.ExerciseDao
 import com.englishlearning.app.data.database.dao.HintDao
 import com.englishlearning.app.data.database.dao.LevelDao
@@ -54,7 +56,12 @@ object DatabaseModule {
             EnglishLearningDatabase::class.java,
             EnglishLearningDatabase.DATABASE_NAME
         )
-            .addMigrations(EnglishLearningDatabase.MIGRATION_1_2, EnglishLearningDatabase.MIGRATION_2_3, EnglishLearningDatabase.MIGRATION_3_4)
+            .addMigrations(
+                EnglishLearningDatabase.MIGRATION_1_2,
+                EnglishLearningDatabase.MIGRATION_2_3,
+                EnglishLearningDatabase.MIGRATION_3_4,
+                EnglishLearningDatabase.MIGRATION_4_5
+            )
             .fallbackToDestructiveMigration()
             .build()
     }
@@ -94,4 +101,14 @@ object DatabaseModule {
     /** Provê [VocabularyDao] para operações com vocabulary cards. Requisito 16.9. */
     @Provides
     fun provideVocabularyDao(db: EnglishLearningDatabase): VocabularyDao = db.vocabularyDao()
+
+    /** Provê [DailyChallengeDao] para desafios diários. */
+    @Provides
+    fun provideDailyChallengeDao(db: EnglishLearningDatabase): DailyChallengeDao =
+        db.dailyChallengeDao()
+
+    /** Provê [ConversationChainDao] para conversation chains. */
+    @Provides
+    fun provideConversationChainDao(db: EnglishLearningDatabase): ConversationChainDao =
+        db.conversationChainDao()
 }
