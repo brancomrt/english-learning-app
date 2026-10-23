@@ -21,6 +21,7 @@ import com.englishlearning.app.ui.lesson.LessonScreen
 import com.englishlearning.app.ui.levelselect.LevelSelectScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
 import com.englishlearning.app.ui.drilling.DrillingScreen
+import com.englishlearning.app.ui.errorreview.ErrorReviewScreen
 import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
 import com.englishlearning.app.ui.vocabulary.VocabularyScreen
@@ -52,6 +53,7 @@ sealed class Screen(val route: String) {
     object Progress       : Screen("progress")
     object Settings       : Screen("settings")
     object SrsReview      : Screen("srs_review")
+    object ErrorReview    : Screen("error_review")
     object PrivacyPolicy  : Screen("privacy_policy")
     object Vocabulary     : Screen("vocabulary")
     object Drilling       : Screen("drilling")
@@ -219,6 +221,16 @@ fun AppNavGraph(
         // Drilling
         composable(Screen.Drilling.route) {
             DrillingScreen(navController = navController)
+        }
+
+        // Error Review
+        composable(Screen.ErrorReview.route) {
+            ErrorReviewScreen(
+                onNavigateBack = { navController.popBackStack() },
+                onStartExercise = { levelId, categoryId ->
+                    navController.navigate(Screen.LearningSession.createRoute(levelId, categoryId))
+                }
+            )
         }
     }
 }

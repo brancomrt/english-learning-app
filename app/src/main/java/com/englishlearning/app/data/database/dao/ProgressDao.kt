@@ -104,4 +104,59 @@ interface ProgressDao {
      */
     @Upsert
     suspend fun upsertProfile(profile: UserProfileEntity)
+
+    // ---------------------------------------------------------------------------
+    // Error Review — Revisão de exercícios com erros
+    // ---------------------------------------------------------------------------
+
+    /**
+     * Retorna os IDs de exercícios que o usuário errou (validation_status = 'INCORRECT')
+     * e que ainda não foram acertados posteriormente.
+     * 
+     * Lógica: seleciona exercícios onde a última tentativa foi INCORRECT,
+     * excluindo exercícios que o usuário já acertou em algum momento.
+     */
+    @Query("""
+        SELECT DISTINCT exercise_id FROM attempts a1
+        WHERE a1.user_id = :userId
+          AND a1.validation_status = 'INCORRECT'
+          AND NOT EXISTS (
+              SELECT 1 FROM attempts a2
+              WHERE a2.user_id = a1.user_id
+                AND a2.exercise_id = a1.exercise_id
+                AND a2.validation_status = 'CORRECT'
+          )
+        ORDER BY a1.attempted_at DESC
+    """)
+    suspend fun getIncorrectExerciseIds(userId: Long): List<Long>
+
+    /**
+     * Conta o número de exercícios com erros pendentes para revisão.
+     * Usado para exibir badge na HomeScreen.
+     */
+    @Query("""
+        SELECT COUNT(DISTINCT exercise_id) FROM attempts a1
+        WHERE a1.user_id = :userId
+          AND a1.validation_status = 'INCORRECT'
+          AND NOT EXISTS (
+              SELECT 1 FROM attempts a2
+              WHERE a2.user_id = a1.user_id
+                AND a2.exercise_id = a1.exercise_id
+                AND a2.validation_status = 'CORRECT'
+          )
+    """)
+    fun observeIncorrectExerciseCount(userId: Long): Flow<Int>
+
+    /**
+     * Retorna a última tentativa incorreta para um exercício específico.
+     * Usado para exibir o erro anterior do usuário durante a revisão.
+     */
+    @Query("""
+        SELECT * FROM attempts
+        WHERE user_id = :userId AND exercise_id = :exerciseId
+          AND validation_status = 'INCORRECT'
+        ORDER BY attempted_at DESC
+        LIMIT 1
+    """)
+    suspend fun getLastIncorrectAttempt(userId: Long, exerciseId: Long): AttemptEntity?
 }

@@ -10,9 +10,11 @@ import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.scaleIn
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -34,6 +36,8 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.HelpOutline
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.LightbulbCircle
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.StarOutline
@@ -49,6 +53,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -66,6 +71,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.englishlearning.app.domain.model.AcceptedAnswer
 import com.englishlearning.app.domain.model.Correction
 import com.englishlearning.app.domain.model.ErrorType
@@ -397,16 +403,17 @@ private fun ScoreBadge(
 /**
  * Seção de correções textuais sugeridas ao usuário.
  * Exibida quando a validação resulta em INCORRECT ou PARTIAL.
+ * Agora inclui explicações detalhadas do tipo de erro.
  */
 @Composable
 private fun CorrectionsSection(corrections: List<Correction>) {
     Column(
         modifier = Modifier.fillMaxWidth(),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+        verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         SectionTitle(
             icon = Icons.Filled.Info,
-            title = "O que verificar"
+            title = "Por que está errado?"
         )
         corrections.forEach { correction ->
             CorrectionItem(correction = correction)
@@ -416,35 +423,143 @@ private fun CorrectionsSection(corrections: List<Correction>) {
 
 @Composable
 private fun CorrectionItem(correction: Correction) {
+    var isExpanded by remember { mutableStateOf(false) }
+    val (wrongExample, correctExample) = correction.type.exampleWithCorrection()
+    
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.4f)
         ),
-        shape = MaterialTheme.shapes.small
+        shape = MaterialTheme.shapes.medium
     ) {
-        Row(
-            modifier = Modifier.padding(12.dp),
-            verticalAlignment = Alignment.Top
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            Icon(
-                imageVector = Icons.Filled.Close,
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.error,
-                modifier = Modifier.size(16.dp)
-            )
-            Spacer(modifier = Modifier.width(8.dp))
-            Column {
+            // Header com tipo de erro e sugestão
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.Top
+            ) {
+                Icon(
+                    imageVector = Icons.Filled.Close,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.size(18.dp)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = correction.type.displayName(),
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.error
+                    )
+                    Text(
+                        text = correction.suggestion,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onErrorContainer
+                    )
+                }
+            }
+            
+            // Botão para expandir/colapsar explicação detalhada
+            TextButton(
+                onClick = { isExpanded = !isExpanded },
+                modifier = Modifier.align(Alignment.End)
+            ) {
                 Text(
-                    text = correction.type.displayName(),
+                    text = if (isExpanded) "Ocultar explicação" else "Ver explicação detalhada",
                     style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.error
+                    color = MaterialTheme.colorScheme.primary
                 )
-                Text(
-                    text = correction.suggestion,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onErrorContainer
+                Spacer(modifier = Modifier.width(4.dp))
+                Icon(
+                    imageVector = if (isExpanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+                    contentDescription = null,
+                    modifier = Modifier.size(16.dp),
+                    tint = MaterialTheme.colorScheme.primary
                 )
+            }
+            
+            // Conteúdo expandido com explicação detalhada
+            AnimatedVisibility(
+                visible = isExpanded,
+                enter = fadeIn() + expandVertically(),
+                exit = fadeOut() + shrinkVertically()
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 4.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    HorizontalDivider(
+                        color = MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.2f)
+                    )
+                    
+                    // Explicação detalhada
+                    Text(
+                        text = correction.type.detailedExplanation(),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onErrorContainer,
+                        lineHeight = 18.sp
+                    )
+                    
+                    // Exemplo: errado vs correto
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surface
+                        ),
+                        shape = MaterialTheme.shapes.small
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(12.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Text(
+                                text = "Exemplo:",
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = FontWeight.SemiBold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Text(
+                                    text = "❌",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    text = wrongExample,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.error,
+                                    fontStyle = FontStyle.Italic
+                                )
+                            }
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Text(
+                                    text = "✅",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    text = correctExample,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.tertiary,
+                                    fontWeight = FontWeight.Medium
+                                )
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -732,25 +847,6 @@ private fun feedbackTheme(status: ValidationStatus): FeedbackTheme = when (statu
         title = "Incorreto",
         subtitle = "Não desanime! Revise as dicas e tente novamente."
     )
-}
-
-// ---------------------------------------------------------------------------
-// ErrorType display name (in Brazilian Portuguese)
-// ---------------------------------------------------------------------------
-
-/**
- * Converte o [ErrorType] para um nome legível em português brasileiro.
- */
-private fun ErrorType.displayName(): String = when (this) {
-    ErrorType.WRONG_QUESTION_TYPE  -> "Tipo de pergunta incorreto"
-    ErrorType.MISSING_AUX_VERB    -> "Verbo auxiliar ausente"
-    ErrorType.WRONG_AUX_VERB      -> "Verbo auxiliar incorreto"
-    ErrorType.WRONG_WH_WORD       -> "Palavra interrogativa incorreta"
-    ErrorType.INVERTED_WORD_ORDER -> "Ordem das palavras invertida"
-    ErrorType.MISSING_QUESTION_MARK -> "Ponto de interrogação ausente"
-    ErrorType.SEMANTIC_MISMATCH   -> "Sentido diferente do esperado"
-    ErrorType.EXTRA_WORDS         -> "Palavras extras desnecessárias"
-    ErrorType.TENSE_MISMATCH      -> "Tempo verbal incorreto"
 }
 
 // ---------------------------------------------------------------------------

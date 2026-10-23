@@ -2,6 +2,7 @@ package com.englishlearning.app.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.englishlearning.app.data.database.dao.ProgressDao
 import com.englishlearning.app.domain.model.Level
 import com.englishlearning.app.domain.model.UserStats
 import com.englishlearning.app.domain.repository.SrsRepository
@@ -24,12 +25,13 @@ import javax.inject.Inject
  * Requisito 12.1: navegar para HomeScreen após splash/onboarding.
  * Requisito 16.6: badge com contagem de SRS cards devidos na HomeScreen.
  *
- * @property isLoading      Indica carregamento inicial dos dados.
- * @property userStats      Estatísticas gerais do usuário (XP, streak, nível atual).
- * @property currentStreak  Streak diário atual do usuário (Req. 5.6).
- * @property unlockedLevels Lista de níveis com [Level.isUnlocked] == true (Req. 6.3).
- * @property dueCardCount   Contagem de SRS cards com dueDate <= hoje (Req. 16.6, 18.4).
- * @property error          Mensagem de erro quando o carregamento falha (Req. 12.7).
+ * @property isLoading        Indica carregamento inicial dos dados.
+ * @property userStats        Estatísticas gerais do usuário (XP, streak, nível atual).
+ * @property currentStreak    Streak diário atual do usuário (Req. 5.6).
+ * @property unlockedLevels   Lista de níveis com [Level.isUnlocked] == true (Req. 6.3).
+ * @property dueCardCount     Contagem de SRS cards com dueDate <= hoje (Req. 16.6, 18.4).
+ * @property errorExerciseCount Contagem de exercícios com erros pendentes para revisão.
+ * @property error            Mensagem de erro quando o carregamento falha (Req. 12.7).
  */
 data class HomeUiState(
     val isLoading: Boolean = true,
@@ -37,6 +39,7 @@ data class HomeUiState(
     val currentStreak: Int = 0,
     val unlockedLevels: List<Level> = emptyList(),
     val dueCardCount: Int = 0,
+    val errorExerciseCount: Int = 0,
     val error: String? = null
 )
 
@@ -62,7 +65,8 @@ class HomeViewModel @Inject constructor(
     private val getUserStatsUseCase: GetUserStatsUseCase,
     private val getAvailableLevelsUseCase: GetAvailableLevelsUseCase,
     private val checkDailyStreakUseCase: CheckDailyStreakUseCase,
-    private val srsRepository: SrsRepository
+    private val srsRepository: SrsRepository,
+    private val progressDao: ProgressDao
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(HomeUiState())
@@ -75,8 +79,9 @@ class HomeViewModel @Inject constructor(
     /**
      * Carrega os dados da HomeScreen:
      * 1. Busca os níveis disponíveis (one-shot suspend).
-     * 2. Combina o Flow de estatísticas do usuário, o Flow de streak diário e o Flow de
-     *    contagem de SRS cards devidos, emitindo um novo [HomeUiState] a cada atualização.
+     * 2. Combina o Flow de estatísticas do usuário, o Flow de streak diário, o Flow de
+     *    contagem de SRS cards devidos e o Flow de exercícios com erros,
+     *    emitindo um novo [HomeUiState] a cada atualização.
      *
      * Precondição: repositórios disponíveis via injeção de dependência.
      * Postcondição: [uiState] transiciona de isLoading=true para isLoading=false
@@ -88,18 +93,20 @@ class HomeViewModel @Inject constructor(
                 // One-shot: carrega os níveis disponíveis antes de observar os fluxos
                 val levels = getAvailableLevelsUseCase()
 
-                // Combina stats, streak e contagem de SRS cards devidos (Req. 5.6, 6.3, 16.6)
+                // Combina stats, streak, contagem de SRS cards devidos e erros (Req. 5.6, 6.3, 16.6)
                 combine(
                     getUserStatsUseCase(),
                     checkDailyStreakUseCase(),
-                    srsRepository.observeDueCardCount(DEFAULT_USER_ID)
-                ) { stats, streak, dueCount ->
+                    srsRepository.observeDueCardCount(DEFAULT_USER_ID),
+                    progressDao.observeIncorrectExerciseCount(DEFAULT_USER_ID)
+                ) { stats, streak, dueCount, errorCount ->
                     HomeUiState(
                         isLoading = false,
                         userStats = stats,
                         currentStreak = streak,
                         unlockedLevels = levels.filter { it.isUnlocked },
                         dueCardCount = dueCount,
+                        errorExerciseCount = errorCount,
                         error = null
                     )
                 }.collect { state ->

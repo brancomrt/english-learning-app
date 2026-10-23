@@ -74,6 +74,9 @@ object HomeNavRoutes {
     const val SRS_REVIEW = "srs_review"
     const val DRILLING = "drilling"
     const val VOCABULARY = "vocabulary"
+
+    /** Rota para a tela de revisão de erros. */
+    const val ERROR_REVIEW = "error_review"
 }
 
 // ---------------------------------------------------------------------------
@@ -115,7 +118,8 @@ fun HomeScreen(
             onSettingsClick = { navController.navigate(HomeNavRoutes.SETTINGS) },
             onReviewClick = { navController.navigate(HomeNavRoutes.SRS_REVIEW) },
             onVocabularyClick = { navController.navigate(HomeNavRoutes.VOCABULARY) },
-            onDrillingClick = { navController.navigate(HomeNavRoutes.DRILLING) }
+            onDrillingClick = { navController.navigate(HomeNavRoutes.DRILLING) },
+            onErrorReviewClick = { navController.navigate(HomeNavRoutes.ERROR_REVIEW) }
         )
     }
 }
@@ -132,14 +136,16 @@ fun HomeScreen(
  * - Card de streak com emoji de fogo e dias seguidos (Req. 5.6).
  * - Card de estatísticas gerais (XP total, nível atual, exercícios concluídos).
  * - Card "Revisar Agora" com badge de contagem — visível apenas quando dueCardCount > 0 (Req. 16.6, 18.4).
+ * - Card "Revisar Erros" com badge de contagem — visível apenas quando errorExerciseCount > 0.
  * - Botão "Continuar Estudando" para navegar ao seletor de níveis.
  * - Linha de acesso rápido aos níveis desbloqueados (quando disponíveis) (Req. 6.3).
  *
- * @param uiState         Estado atual da HomeScreen.
- * @param onStudyClick    Callback ao pressionar "Continuar Estudando".
- * @param onProgressClick Callback ao pressionar o ícone de progresso.
- * @param onSettingsClick Callback ao pressionar o ícone de configurações.
- * @param onReviewClick   Callback ao pressionar "Revisar Agora" (Req. 16.6, 18.4).
+ * @param uiState           Estado atual da HomeScreen.
+ * @param onStudyClick      Callback ao pressionar "Continuar Estudando".
+ * @param onProgressClick   Callback ao pressionar o ícone de progresso.
+ * @param onSettingsClick   Callback ao pressionar o ícone de configurações.
+ * @param onReviewClick     Callback ao pressionar "Revisar Agora" (Req. 16.6, 18.4).
+ * @param onErrorReviewClick Callback ao pressionar "Revisar Erros".
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -150,7 +156,8 @@ fun HomeContent(
     onSettingsClick: () -> Unit,
     onReviewClick: () -> Unit,
     onVocabularyClick: () -> Unit = {},
-    onDrillingClick: () -> Unit = {}
+    onDrillingClick: () -> Unit = {},
+    onErrorReviewClick: () -> Unit = {}
 ) {
     Scaffold(
         topBar = {
@@ -207,6 +214,14 @@ fun HomeContent(
                 SrsReviewCard(
                     dueCardCount = uiState.dueCardCount,
                     onReviewClick = onReviewClick
+                )
+            }
+
+            // Card "Revisar Erros" — visível apenas quando há exercícios com erros
+            if (uiState.errorExerciseCount > 0) {
+                ErrorReviewCard(
+                    errorCount = uiState.errorExerciseCount,
+                    onReviewClick = onErrorReviewClick
                 )
             }
 
@@ -480,6 +495,90 @@ fun SrsReviewCard(
                 colors = ButtonDefaults.filledTonalButtonColors(
                     containerColor = MaterialTheme.colorScheme.tertiary,
                     contentColor = MaterialTheme.colorScheme.onTertiary
+                )
+            ) {
+                Text(
+                    text = "Revisar",
+                    style = MaterialTheme.typography.labelMedium
+                )
+            }
+        }
+    }
+}
+
+// ---------------------------------------------------------------------------
+// ErrorReviewCard — "Revisar Erros" com badge
+// ---------------------------------------------------------------------------
+/**
+ * Card que exibe a contagem de exercícios com erros pendentes para revisão.
+ *
+ * Visível apenas quando errorCount > 0. Ao clicar, navega para a tela de
+ * revisão de erros onde o usuário pode praticar os exercícios que errou.
+ *
+ * @param errorCount    Número de exercícios com erros pendentes.
+ * @param onReviewClick Callback ao pressionar "Revisar".
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ErrorReviewCard(
+    errorCount: Int,
+    onReviewClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.5f)
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                BadgedBox(
+                    badge = {
+                        Badge(
+                            containerColor = MaterialTheme.colorScheme.error,
+                            contentColor = MaterialTheme.colorScheme.onError
+                        ) {
+                            Text(
+                                text = if (errorCount > 99) "99+" else errorCount.toString(),
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        }
+                    }
+                ) {
+                    Text(
+                        text = "❌",
+                        style = MaterialTheme.typography.headlineMedium
+                    )
+                }
+                Column {
+                    Text(
+                        text = "Revisar Erros",
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.onErrorContainer
+                    )
+                    Text(
+                        text = "$errorCount exercício${if (errorCount != 1) "s" else ""} para revisar",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.8f)
+                    )
+                }
+            }
+            FilledTonalButton(
+                onClick = onReviewClick,
+                colors = ButtonDefaults.filledTonalButtonColors(
+                    containerColor = MaterialTheme.colorScheme.error,
+                    contentColor = MaterialTheme.colorScheme.onError
                 )
             ) {
                 Text(
