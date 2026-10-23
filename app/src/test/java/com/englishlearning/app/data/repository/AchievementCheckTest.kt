@@ -65,6 +65,13 @@ class AchievementCheckTest {
         override fun getUserProfile(userId: Long): Flow<UserProfileEntity?> = flowOf(null)
 
         override suspend fun upsertProfile(profile: UserProfileEntity) {}
+
+        // Error Review methods (not used in achievement tests)
+        override suspend fun getIncorrectExerciseIds(userId: Long): List<Long> = emptyList()
+
+        override fun observeIncorrectExerciseCount(userId: Long): Flow<Int> = flowOf(0)
+
+        override suspend fun getLastIncorrectAttempt(userId: Long, exerciseId: Long): AttemptEntity? = null
     }
 
     /**
