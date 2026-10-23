@@ -6535,6 +6535,1559 @@
         "You convince someone of a fact; you persuade someone to act."
       ],
       "grammar": "mastery - vocabulary distinction persuade vs convince"
+    },
+    {
+      "id": 546,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "What am I doing?",
+      "context": "taking your book from the table",
+      "answer": "You're taking your book from the table.",
+      "alt_answers": [
+        "You are taking your book from the table."
+      ],
+      "grammar": "present continuous - actions now"
+    },
+    {
+      "id": 547,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Is Kate drawing a picture now?",
+      "context": "yes, drawing",
+      "answer": "Yes, Kate's drawing a picture now.",
+      "alt_answers": [
+        "Yes, Kate is drawing a picture now.",
+        "Yes, she is."
+      ],
+      "grammar": "present continuous - third person"
+    },
+    {
+      "id": 548,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Are you speaking French?",
+      "context": "speaking English",
+      "answer": "No, I'm not speaking French; I'm speaking English.",
+      "alt_answers": [
+        "No, I am not speaking French; I am speaking English."
+      ],
+      "grammar": "present continuous - negative"
+    },
+    {
+      "id": 549,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Is she touching the wall?",
+      "context": "no",
+      "answer": "No, she isn't touching the wall.",
+      "alt_answers": [
+        "No, she is not touching the wall.",
+        "No, she isn't."
+      ],
+      "grammar": "present continuous - negative question"
+    },
+    {
+      "id": 550,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Are they wearing hats?",
+      "context": "no",
+      "answer": "No, they aren't wearing hats.",
+      "alt_answers": [
+        "No, they are not wearing hats.",
+        "No, they aren't."
+      ],
+      "grammar": "present continuous - plural negative"
+    },
+    {
+      "id": 551,
+      "level": 2,
+      "lesson": 15,
+      "prompt": "Are we going home now?",
+      "context": "staying in the classroom",
+      "answer": "No, we aren't going home now; we're staying in the classroom.",
+      "alt_answers": [
+        "No, we are not going home now; we are staying in the classroom."
+      ],
+      "grammar": "present continuous - we negative"
+    },
+    {
+      "id": 552,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Do you speak English?",
+      "context": "yes",
+      "answer": "Yes, I speak English.",
+      "alt_answers": [
+        "Yes, I do.",
+        "Yes, I do speak English."
+      ],
+      "grammar": "present simple - do questions"
+    },
+    {
+      "id": 553,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Are you speaking English now?",
+      "context": "yes",
+      "answer": "Yes, I'm speaking English now.",
+      "alt_answers": [
+        "Yes, I am speaking English now.",
+        "Yes, I am."
+      ],
+      "grammar": "present continuous vs simple"
+    },
+    {
+      "id": 554,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Do they go home after the lesson?",
+      "context": "yes",
+      "answer": "Yes, they go home after the lesson.",
+      "alt_answers": [
+        "Yes, they do.",
+        "Yes, they do go home after the lesson."
+      ],
+      "grammar": "present simple - habits"
+    },
+    {
+      "id": 555,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Are they going home now?",
+      "context": "staying in the room",
+      "answer": "No, they aren't going home now; they're staying in the room.",
+      "alt_answers": [
+        "No, they are not going home now; they are staying in the room."
+      ],
+      "grammar": "present continuous vs simple - contrast"
+    },
+    {
+      "id": 556,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Does Charlie play football?",
+      "context": "yes",
+      "answer": "Yes, Charlie plays football.",
+      "alt_answers": [
+        "Yes, he does.",
+        "Yes, he plays football."
+      ],
+      "grammar": "present simple - does third person"
+    },
+    {
+      "id": 557,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Is Charlie playing football now?",
+      "context": "playing the guitar",
+      "answer": "No, Charlie isn't playing football now; he's playing the guitar.",
+      "alt_answers": [
+        "No, he is not playing football now; he is playing the guitar."
+      ],
+      "grammar": "present continuous vs simple - contrast"
+    },
+    {
+      "id": 558,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Does Kate read books?",
+      "context": "yes",
+      "answer": "Yes, Kate reads books.",
+      "alt_answers": [
+        "Yes, she does.",
+        "Yes, she reads books."
+      ],
+      "grammar": "present simple - does habits"
+    },
+    {
+      "id": 559,
+      "level": 2,
+      "lesson": 16,
+      "prompt": "Is Kate reading now?",
+      "context": "drawing a picture",
+      "answer": "No, Kate isn't reading now; she's drawing a picture.",
+      "alt_answers": [
+        "No, she is not reading now; she is drawing a picture."
+      ],
+      "grammar": "present continuous - contrast"
+    },
+    {
+      "id": 560,
+      "level": 2,
+      "lesson": 17,
+      "prompt": "Does she answer questions in the lesson?",
+      "context": "yes",
+      "answer": "Yes, she answers questions in the lesson.",
+      "alt_answers": [
+        "Yes, she does.",
+        "Yes, she does answer questions in the lesson."
+      ],
+      "grammar": "present simple - classroom"
+    },
+    {
+      "id": 561,
+      "level": 2,
+      "lesson": 17,
+      "prompt": "Is she answering a question now?",
+      "context": "no",
+      "answer": "No, she isn't answering a question now.",
+      "alt_answers": [
+        "No, she is not answering a question now.",
+        "No, she isn't."
+      ],
+      "grammar": "present continuous - classroom"
+    },
+    {
+      "id": 562,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "What are the possessive adjectives?",
+      "answer": "The possessive adjectives are 'my, your, his, her, its, our, your, their'.",
+      "alt_answers": [
+        "My, your, his, her, its, our, your, their.",
+        "They are my, your, his, her, its, our, your, their."
+      ],
+      "grammar": "possessive adjectives - list"
+    },
+    {
+      "id": 563,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Where do we put a possessive adjective?",
+      "answer": "We put a possessive adjective in front of a noun.",
+      "alt_answers": [
+        "In front of a noun.",
+        "Before a noun."
+      ],
+      "grammar": "possessive adjectives - position"
+    },
+    {
+      "id": 564,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Is this our classroom?",
+      "context": "yes",
+      "answer": "Yes, it's our classroom.",
+      "alt_answers": [
+        "Yes, it is our classroom.",
+        "Yes, this is our classroom."
+      ],
+      "grammar": "possessive adjectives - our"
+    },
+    {
+      "id": 565,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Are her feet on the floor?",
+      "context": "yes",
+      "answer": "Yes, her feet are on the floor.",
+      "alt_answers": [
+        "Yes, they are.",
+        "Yes, her feet are."
+      ],
+      "grammar": "possessive adjectives - her"
+    },
+    {
+      "id": 566,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "What are the possessive pronouns?",
+      "answer": "The possessive pronouns are 'mine, yours, his, hers, ours, yours, theirs'.",
+      "alt_answers": [
+        "Mine, yours, his, hers, ours, yours, theirs.",
+        "They are mine, yours, his, hers, ours, yours, theirs."
+      ],
+      "grammar": "possessive pronouns - list"
+    },
+    {
+      "id": 567,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Is this sentence right: 'This pen is mine pen'?",
+      "answer": "No, that sentence isn't right; it's wrong.",
+      "alt_answers": [
+        "No, it's wrong.",
+        "No, that sentence is wrong."
+      ],
+      "grammar": "possessive pronouns - usage"
+    },
+    {
+      "id": 568,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Why is 'This pen is mine pen' wrong?",
+      "answer": "Because we don't put a possessive pronoun in front of a noun; we use it instead of a noun.",
+      "alt_answers": [
+        "Because possessive pronouns replace nouns, they don't go before nouns.",
+        "We use possessive pronouns instead of a noun, not before it."
+      ],
+      "grammar": "possessive pronouns - rule"
+    },
+    {
+      "id": 569,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Is this ear yours?",
+      "context": "my ear",
+      "answer": "No, that ear isn't mine; it's yours.",
+      "alt_answers": [
+        "No, that ear is not mine; it is yours."
+      ],
+      "grammar": "possessive pronouns - mine/yours"
+    },
+    {
+      "id": 570,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Is that dress his?",
+      "context": "her dress",
+      "answer": "No, that dress isn't his; it's hers.",
+      "alt_answers": [
+        "No, that dress is not his; it is hers."
+      ],
+      "grammar": "possessive pronouns - his/hers"
+    },
+    {
+      "id": 571,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Are those shoes his?",
+      "context": "her shoes",
+      "answer": "No, those shoes aren't his; they're hers.",
+      "alt_answers": [
+        "No, those shoes are not his; they are hers."
+      ],
+      "grammar": "possessive pronouns - plural"
+    },
+    {
+      "id": 572,
+      "level": 3,
+      "lesson": 31,
+      "prompt": "Are these knees theirs?",
+      "context": "our knees",
+      "answer": "No, these knees aren't theirs; they're ours.",
+      "alt_answers": [
+        "No, these knees are not theirs; they are ours."
+      ],
+      "grammar": "possessive pronouns - ours/theirs"
+    },
+    {
+      "id": 573,
+      "level": 3,
+      "lesson": 32,
+      "prompt": "What do we brush our hair with?",
+      "answer": "We brush our hair with a hairbrush.",
+      "alt_answers": [
+        "With a hairbrush.",
+        "A hairbrush."
+      ],
+      "grammar": "daily routine - hair"
+    },
+    {
+      "id": 574,
+      "level": 3,
+      "lesson": 32,
+      "prompt": "What do we comb our hair with?",
+      "answer": "We comb our hair with a comb.",
+      "alt_answers": [
+        "With a comb.",
+        "A comb."
+      ],
+      "grammar": "daily routine - hair"
+    },
+    {
+      "id": 575,
+      "level": 3,
+      "lesson": 32,
+      "prompt": "What does the word 'grandfather' mean?",
+      "answer": "The word 'grandfather' means your mother's father, or your father's father.",
+      "alt_answers": [
+        "Your mother's father or your father's father.",
+        "Your parent's father."
+      ],
+      "grammar": "family vocabulary - grandparents"
+    },
+    {
+      "id": 576,
+      "level": 3,
+      "lesson": 32,
+      "prompt": "What does the word 'grandmother' mean?",
+      "answer": "The word 'grandmother' means your mother's mother, or your father's mother.",
+      "alt_answers": [
+        "Your mother's mother or your father's mother.",
+        "Your parent's mother."
+      ],
+      "grammar": "family vocabulary - grandparents"
+    },
+    {
+      "id": 577,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Do you live in the countryside?",
+      "context": "city",
+      "answer": "No, I don't live in the countryside; I live in the city.",
+      "alt_answers": [
+        "No, I do not live in the countryside; I live in the city."
+      ],
+      "grammar": "countryside vs city"
+    },
+    {
+      "id": 578,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Are there any fields near this school?",
+      "context": "yes",
+      "answer": "Yes, there are some fields near this school.",
+      "alt_answers": [
+        "Yes, there are.",
+        "Yes, there are fields near this school."
+      ],
+      "grammar": "countryside - fields"
+    },
+    {
+      "id": 579,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Guess what size shoes I wear.",
+      "context": "size 42",
+      "answer": "I think you wear size 42 shoes.",
+      "alt_answers": [
+        "I think you wear size 42.",
+        "Size 42."
+      ],
+      "grammar": "size - guessing"
+    },
+    {
+      "id": 580,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "Are cats the same size as lions?",
+      "answer": "No, cats aren't the same size as lions; they're smaller than lions.",
+      "alt_answers": [
+        "No, cats are not the same size as lions; they are smaller than lions."
+      ],
+      "grammar": "size - comparison"
+    },
+    {
+      "id": 581,
+      "level": 4,
+      "lesson": 48,
+      "prompt": "What's a millionaire?",
+      "answer": "A millionaire is a person who has lots of money - a million pounds or more.",
+      "alt_answers": [
+        "A person with a million pounds or more.",
+        "Someone who has at least a million in money."
+      ],
+      "grammar": "vocabulary - millionaire"
+    },
+    {
+      "id": 582,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Is the dog better at climbing than the cat?",
+      "context": "cat is better",
+      "answer": "No, the dog isn't better at climbing than the cat; it's worse at climbing than the cat.",
+      "alt_answers": [
+        "No, the dog is not better at climbing than the cat; it is worse."
+      ],
+      "grammar": "comparatives - better/worse"
+    },
+    {
+      "id": 583,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Are sharks better at swimming than people?",
+      "context": "yes",
+      "answer": "Yes, sharks are better at swimming than people.",
+      "alt_answers": [
+        "Yes, they are.",
+        "Yes, sharks are much better swimmers."
+      ],
+      "grammar": "comparatives - better than"
+    },
+    {
+      "id": 584,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Of these three animals, which is the best at climbing?",
+      "context": "monkey, dog, cat",
+      "answer": "Of those three animals, the monkey is the best at climbing.",
+      "alt_answers": [
+        "The monkey is the best at climbing.",
+        "The monkey."
+      ],
+      "grammar": "superlatives - the best"
+    },
+    {
+      "id": 585,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "And which is the worst at climbing?",
+      "context": "dog",
+      "answer": "The dog is the worst at climbing.",
+      "alt_answers": [
+        "The dog is the worst.",
+        "The dog."
+      ],
+      "grammar": "superlatives - the worst"
+    },
+    {
+      "id": 586,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "Which is the best day of the week for you?",
+      "context": "Saturday",
+      "answer": "Saturday is the best day of the week for me.",
+      "alt_answers": [
+        "Saturday is the best day for me.",
+        "For me, Saturday is the best."
+      ],
+      "grammar": "superlatives - personal preference"
+    },
+    {
+      "id": 587,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "What's your best subject at school?",
+      "context": "English",
+      "answer": "English is my best subject at school.",
+      "alt_answers": [
+        "My best subject is English.",
+        "English."
+      ],
+      "grammar": "superlatives - best subject"
+    },
+    {
+      "id": 588,
+      "level": 4,
+      "lesson": 49,
+      "prompt": "What's your worst subject at school?",
+      "context": "Maths",
+      "answer": "Maths is my worst subject at school.",
+      "alt_answers": [
+        "My worst subject is Maths.",
+        "Maths."
+      ],
+      "grammar": "superlatives - worst subject"
+    },
+    {
+      "id": 589,
+      "level": 1,
+      "lesson": 1,
+      "prompt": "Is this a table or a chair?",
+      "context": "table",
+      "answer": "It's a table.",
+      "alt_answers": [
+        "This is a table.",
+        "It is a table."
+      ],
+      "grammar": "or questions - basic objects"
+    },
+    {
+      "id": 590,
+      "level": 1,
+      "lesson": 1,
+      "prompt": "Is the table long or short?",
+      "context": "short",
+      "answer": "The table's short.",
+      "alt_answers": [
+        "The table is short.",
+        "It's short."
+      ],
+      "grammar": "or questions - adjectives"
+    },
+    {
+      "id": 591,
+      "level": 1,
+      "lesson": 1,
+      "prompt": "Is the mouse large or small?",
+      "context": "small",
+      "answer": "The mouse is small.",
+      "alt_answers": [
+        "The mouse's small.",
+        "It's small."
+      ],
+      "grammar": "or questions - size"
+    },
+    {
+      "id": 592,
+      "level": 1,
+      "lesson": 1,
+      "prompt": "Is the dog large or small?",
+      "context": "large",
+      "answer": "The dog's large.",
+      "alt_answers": [
+        "The dog is large.",
+        "It's large."
+      ],
+      "grammar": "or questions - size"
+    },
+    {
+      "id": 593,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Am I a man or a woman?",
+      "context": "man",
+      "answer": "You're a man.",
+      "alt_answers": [
+        "You are a man."
+      ],
+      "grammar": "or questions - people"
+    },
+    {
+      "id": 594,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Am I a boy?",
+      "context": "no, teacher",
+      "answer": "No, you aren't a boy; you're a man.",
+      "alt_answers": [
+        "No, you are not a boy; you are a man."
+      ],
+      "grammar": "negative - people"
+    },
+    {
+      "id": 595,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Are you a man?",
+      "context": "no, woman",
+      "answer": "No, I'm not a man; I'm a woman.",
+      "alt_answers": [
+        "No, I am not a man; I am a woman."
+      ],
+      "grammar": "negative - first person"
+    },
+    {
+      "id": 596,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Is he a girl?",
+      "context": "boy",
+      "answer": "No, he isn't a girl; he's a boy.",
+      "alt_answers": [
+        "No, he is not a girl; he is a boy."
+      ],
+      "grammar": "negative - third person"
+    },
+    {
+      "id": 597,
+      "level": 1,
+      "lesson": 2,
+      "prompt": "Is she a woman?",
+      "context": "girl",
+      "answer": "No, she isn't a woman; she's a girl.",
+      "alt_answers": [
+        "No, she is not a woman; she is a girl."
+      ],
+      "grammar": "negative - third person"
+    },
+    {
+      "id": 598,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the pen on the book?",
+      "context": "yes",
+      "answer": "Yes, the pen's on the book.",
+      "alt_answers": [
+        "Yes, the pen is on the book.",
+        "Yes, it is."
+      ],
+      "grammar": "prepositions - on"
+    },
+    {
+      "id": 599,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the pen under the book?",
+      "context": "yes",
+      "answer": "Yes, the pen's under the book.",
+      "alt_answers": [
+        "Yes, the pen is under the book.",
+        "Yes, it is."
+      ],
+      "grammar": "prepositions - under"
+    },
+    {
+      "id": 600,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the pen in the book?",
+      "context": "under the book",
+      "answer": "No, the pen isn't in the book; it's under the book.",
+      "alt_answers": [
+        "No, the pen is not in the book; it is under the book."
+      ],
+      "grammar": "prepositions - contrast"
+    },
+    {
+      "id": 601,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the dog under the chair?",
+      "context": "on the chair",
+      "answer": "No, the dog isn't under the chair; it's on the chair.",
+      "alt_answers": [
+        "No, the dog is not under the chair; it is on the chair."
+      ],
+      "grammar": "prepositions - animals"
+    },
+    {
+      "id": 602,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the cat in the box?",
+      "context": "under the chair",
+      "answer": "No, the cat isn't in the box; it's under the chair.",
+      "alt_answers": [
+        "No, the cat is not in the box; it is under the chair."
+      ],
+      "grammar": "prepositions - animals"
+    },
+    {
+      "id": 603,
+      "level": 1,
+      "lesson": 3,
+      "prompt": "Is the mouse on the chair?",
+      "context": "in the box",
+      "answer": "No, the mouse isn't on the chair; it's in the box.",
+      "alt_answers": [
+        "No, the mouse is not on the chair; it is in the box."
+      ],
+      "grammar": "prepositions - animals"
+    },
+    {
+      "id": 604,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the chair in front of me?",
+      "context": "yes",
+      "answer": "Yes, the chair's in front of you.",
+      "alt_answers": [
+        "Yes, the chair is in front of you.",
+        "Yes, it is."
+      ],
+      "grammar": "prepositions - in front of"
+    },
+    {
+      "id": 605,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the wall in front of you?",
+      "context": "behind",
+      "answer": "No, the wall isn't in front of me; it's behind me.",
+      "alt_answers": [
+        "No, the wall is not in front of me; it is behind me."
+      ],
+      "grammar": "prepositions - behind"
+    },
+    {
+      "id": 606,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the cat behind the mouse?",
+      "context": "yes",
+      "answer": "Yes, the cat's behind the mouse.",
+      "alt_answers": [
+        "Yes, the cat is behind the mouse.",
+        "Yes, it is."
+      ],
+      "grammar": "prepositions - behind"
+    },
+    {
+      "id": 607,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the dog in front of the cat?",
+      "context": "behind",
+      "answer": "No, the dog isn't in front of the cat; it's behind the cat.",
+      "alt_answers": [
+        "No, the dog is not in front of the cat; it is behind the cat."
+      ],
+      "grammar": "prepositions - contrast"
+    },
+    {
+      "id": 608,
+      "level": 1,
+      "lesson": 4,
+      "prompt": "Is the dog behind the mouse or in front of the mouse?",
+      "context": "behind",
+      "answer": "The dog's behind the mouse.",
+      "alt_answers": [
+        "The dog is behind the mouse.",
+        "Behind the mouse."
+      ],
+      "grammar": "or questions - prepositions"
+    },
+    {
+      "id": 609,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Are you sitting on the chair?",
+      "context": "yes",
+      "answer": "Yes, I'm sitting on the chair.",
+      "alt_answers": [
+        "Yes, I am sitting on the chair.",
+        "Yes, I am."
+      ],
+      "grammar": "present continuous - sitting"
+    },
+    {
+      "id": 610,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I standing on the floor?",
+      "context": "yes",
+      "answer": "Yes, you're standing on the floor.",
+      "alt_answers": [
+        "Yes, you are standing on the floor.",
+        "Yes, you are."
+      ],
+      "grammar": "present continuous - standing"
+    },
+    {
+      "id": 611,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Are you standing on the floor?",
+      "context": "sitting on the chair",
+      "answer": "No, I'm not standing on the floor; I'm sitting on the chair.",
+      "alt_answers": [
+        "No, I am not standing on the floor; I am sitting on the chair."
+      ],
+      "grammar": "present continuous - contrast"
+    },
+    {
+      "id": 612,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Is the mouse standing?",
+      "context": "yes",
+      "answer": "Yes, the mouse is standing.",
+      "alt_answers": [
+        "Yes, the mouse's standing.",
+        "Yes, it is."
+      ],
+      "grammar": "present continuous - animals"
+    },
+    {
+      "id": 613,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Is the dog standing?",
+      "context": "sitting",
+      "answer": "No, the dog isn't standing; it's sitting.",
+      "alt_answers": [
+        "No, the dog is not standing; it is sitting."
+      ],
+      "grammar": "present continuous - contrast"
+    },
+    {
+      "id": 614,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I taking the book from the table?",
+      "context": "yes",
+      "answer": "Yes, you're taking the book from the table.",
+      "alt_answers": [
+        "Yes, you are taking the book from the table.",
+        "Yes, you are."
+      ],
+      "grammar": "present continuous - taking"
+    },
+    {
+      "id": 615,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I putting the book on the table?",
+      "context": "yes",
+      "answer": "Yes, you're putting the book on the table.",
+      "alt_answers": [
+        "Yes, you are putting the book on the table.",
+        "Yes, you are."
+      ],
+      "grammar": "present continuous - putting"
+    },
+    {
+      "id": 616,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I putting the book on the floor?",
+      "context": "taking from table",
+      "answer": "No, you aren't putting the book on the floor; you're taking the book from the table.",
+      "alt_answers": [
+        "No, you are not putting the book on the floor; you are taking the book from the table."
+      ],
+      "grammar": "present continuous - contrast"
+    },
+    {
+      "id": 617,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I closing the book?",
+      "context": "yes",
+      "answer": "Yes, you're closing the book.",
+      "alt_answers": [
+        "Yes, you are closing the book.",
+        "Yes, you are."
+      ],
+      "grammar": "present continuous - closing"
+    },
+    {
+      "id": 618,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I opening the door?",
+      "context": "yes",
+      "answer": "Yes, you're opening the door.",
+      "alt_answers": [
+        "Yes, you are opening the door.",
+        "Yes, you are."
+      ],
+      "grammar": "present continuous - opening"
+    },
+    {
+      "id": 619,
+      "level": 1,
+      "lesson": 5,
+      "prompt": "Am I opening the window?",
+      "context": "closing the door",
+      "answer": "No, you aren't opening the window; you're closing the door.",
+      "alt_answers": [
+        "No, you are not opening the window; you are closing the door."
+      ],
+      "grammar": "present continuous - contrast"
+    },
+    {
+      "id": 620,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which pencil's brown?",
+      "context": "this pencil",
+      "answer": "This pencil's brown.",
+      "alt_answers": [
+        "This pencil is brown."
+      ],
+      "grammar": "which - colours"
+    },
+    {
+      "id": 621,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which animal's black?",
+      "context": "the dog",
+      "answer": "The dog's black.",
+      "alt_answers": [
+        "The dog is black."
+      ],
+      "grammar": "which - animals and colours"
+    },
+    {
+      "id": 622,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which animal's white?",
+      "context": "the cat",
+      "answer": "The cat's white.",
+      "alt_answers": [
+        "The cat is white."
+      ],
+      "grammar": "which - animals and colours"
+    },
+    {
+      "id": 623,
+      "level": 1,
+      "lesson": 6,
+      "prompt": "Which animal's brown?",
+      "context": "the mouse",
+      "answer": "The mouse is brown.",
+      "alt_answers": [
+        "The mouse's brown."
+      ],
+      "grammar": "which - animals and colours"
+    },
+    {
+      "id": 624,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What colour's this pencil?",
+      "context": "blue",
+      "answer": "This pencil's blue.",
+      "alt_answers": [
+        "This pencil is blue.",
+        "It's blue."
+      ],
+      "grammar": "colours - blue"
+    },
+    {
+      "id": 625,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What colour's that pencil?",
+      "context": "yellow",
+      "answer": "That pencil's yellow.",
+      "alt_answers": [
+        "That pencil is yellow.",
+        "It's yellow."
+      ],
+      "grammar": "colours - yellow"
+    },
+    {
+      "id": 626,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What colour are these pencils?",
+      "context": "black and white",
+      "answer": "These pencils are black and white.",
+      "alt_answers": [
+        "They're black and white."
+      ],
+      "grammar": "colours - plural"
+    },
+    {
+      "id": 627,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "What colour are those pencils?",
+      "context": "green and brown",
+      "answer": "Those pencils are green and brown.",
+      "alt_answers": [
+        "They're green and brown."
+      ],
+      "grammar": "colours - plural"
+    },
+    {
+      "id": 628,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "Where are these pencils?",
+      "context": "on the chart",
+      "answer": "These pencils are on the chart.",
+      "alt_answers": [
+        "They're on the chart.",
+        "On the chart."
+      ],
+      "grammar": "this/that - location"
+    },
+    {
+      "id": 629,
+      "level": 1,
+      "lesson": 7,
+      "prompt": "Where are those pencils?",
+      "context": "on the floor",
+      "answer": "Those pencils are on the floor.",
+      "alt_answers": [
+        "They're on the floor.",
+        "On the floor."
+      ],
+      "grammar": "this/that - location"
+    },
+    {
+      "id": 630,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "shirt",
+      "answer": "It's a shirt.",
+      "alt_answers": [
+        "This is a shirt.",
+        "A shirt."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 631,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "trousers",
+      "answer": "They're trousers.",
+      "alt_answers": [
+        "These are trousers.",
+        "Trousers."
+      ],
+      "grammar": "clothes vocabulary - plural"
+    },
+    {
+      "id": 632,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "jacket",
+      "answer": "It's a jacket.",
+      "alt_answers": [
+        "This is a jacket.",
+        "A jacket."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 633,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "shoe",
+      "answer": "It's a shoe.",
+      "alt_answers": [
+        "This is a shoe.",
+        "A shoe."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 634,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "boot",
+      "answer": "It's a boot.",
+      "alt_answers": [
+        "This is a boot.",
+        "A boot."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 635,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "sock",
+      "answer": "It's a sock.",
+      "alt_answers": [
+        "This is a sock.",
+        "A sock."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 636,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "hat",
+      "answer": "It's a hat.",
+      "alt_answers": [
+        "This is a hat.",
+        "A hat."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 637,
+      "level": 1,
+      "lesson": 8,
+      "prompt": "What's this?",
+      "context": "bag",
+      "answer": "It's a bag.",
+      "alt_answers": [
+        "This is a bag.",
+        "A bag."
+      ],
+      "grammar": "clothes vocabulary"
+    },
+    {
+      "id": 638,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Am I the teacher?",
+      "context": "yes",
+      "answer": "Yes, you're the teacher.",
+      "alt_answers": [
+        "Yes, you are the teacher.",
+        "Yes, you are."
+      ],
+      "grammar": "teacher/pupil"
+    },
+    {
+      "id": 639,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are you a pupil?",
+      "context": "yes",
+      "answer": "Yes, I'm a pupil.",
+      "alt_answers": [
+        "Yes, I am a pupil.",
+        "Yes, I am."
+      ],
+      "grammar": "teacher/pupil"
+    },
+    {
+      "id": 640,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Am I a pupil?",
+      "context": "teacher",
+      "answer": "No, you aren't a pupil; you're the teacher.",
+      "alt_answers": [
+        "No, you are not a pupil; you are the teacher."
+      ],
+      "grammar": "teacher/pupil - negative"
+    },
+    {
+      "id": 641,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Is he the teacher?",
+      "context": "pupil",
+      "answer": "No, he isn't the teacher; he's a pupil.",
+      "alt_answers": [
+        "No, he is not the teacher; he is a pupil."
+      ],
+      "grammar": "teacher/pupil - third person"
+    },
+    {
+      "id": 642,
+      "level": 1,
+      "lesson": 9,
+      "prompt": "Are you the teacher or a pupil?",
+      "context": "pupil",
+      "answer": "I'm a pupil.",
+      "alt_answers": [
+        "I am a pupil.",
+        "A pupil."
+      ],
+      "grammar": "or questions - roles"
+    },
+    {
+      "id": 643,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 30?",
+      "answer": "It's thirty.",
+      "alt_answers": [
+        "Thirty.",
+        "This number is thirty."
+      ],
+      "grammar": "numbers - 30"
+    },
+    {
+      "id": 644,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 40?",
+      "answer": "It's forty.",
+      "alt_answers": [
+        "Forty.",
+        "This number is forty."
+      ],
+      "grammar": "numbers - 40"
+    },
+    {
+      "id": 645,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 50?",
+      "answer": "It's fifty.",
+      "alt_answers": [
+        "Fifty.",
+        "This number is fifty."
+      ],
+      "grammar": "numbers - 50"
+    },
+    {
+      "id": 646,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 60?",
+      "answer": "It's sixty.",
+      "alt_answers": [
+        "Sixty.",
+        "This number is sixty."
+      ],
+      "grammar": "numbers - 60"
+    },
+    {
+      "id": 647,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 70?",
+      "answer": "It's seventy.",
+      "alt_answers": [
+        "Seventy.",
+        "This number is seventy."
+      ],
+      "grammar": "numbers - 70"
+    },
+    {
+      "id": 648,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 80?",
+      "answer": "It's eighty.",
+      "alt_answers": [
+        "Eighty.",
+        "This number is eighty."
+      ],
+      "grammar": "numbers - 80"
+    },
+    {
+      "id": 649,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 90?",
+      "answer": "It's ninety.",
+      "alt_answers": [
+        "Ninety.",
+        "This number is ninety."
+      ],
+      "grammar": "numbers - 90"
+    },
+    {
+      "id": 650,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 100?",
+      "answer": "It's one hundred.",
+      "alt_answers": [
+        "One hundred.",
+        "A hundred."
+      ],
+      "grammar": "numbers - 100"
+    },
+    {
+      "id": 651,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 1000?",
+      "answer": "It's one thousand.",
+      "alt_answers": [
+        "One thousand.",
+        "A thousand."
+      ],
+      "grammar": "numbers - 1000"
+    },
+    {
+      "id": 652,
+      "level": 1,
+      "lesson": 10,
+      "prompt": "What number's this: 1000000?",
+      "answer": "It's one million.",
+      "alt_answers": [
+        "One million.",
+        "A million."
+      ],
+      "grammar": "numbers - million"
+    },
+    {
+      "id": 653,
+      "level": 1,
+      "lesson": 11,
+      "prompt": "How much is 8 plus 2?",
+      "answer": "8 plus 2 equals 10.",
+      "alt_answers": [
+        "Ten.",
+        "It equals 10."
+      ],
+      "grammar": "maths - plus"
+    },
+    {
+      "id": 654,
+      "level": 1,
+      "lesson": 11,
+      "prompt": "How much is 6 minus 2?",
+      "answer": "6 minus 2 equals 4.",
+      "alt_answers": [
+        "Four.",
+        "It equals 4."
+      ],
+      "grammar": "maths - minus"
+    },
+    {
+      "id": 655,
+      "level": 1,
+      "lesson": 11,
+      "prompt": "How much is 15 plus 7?",
+      "answer": "15 plus 7 equals 22.",
+      "alt_answers": [
+        "Twenty-two.",
+        "It equals 22."
+      ],
+      "grammar": "maths - addition"
+    },
+    {
+      "id": 656,
+      "level": 1,
+      "lesson": 11,
+      "prompt": "How much is 20 minus 8?",
+      "answer": "20 minus 8 equals 12.",
+      "alt_answers": [
+        "Twelve.",
+        "It equals 12."
+      ],
+      "grammar": "maths - subtraction"
+    },
+    {
+      "id": 657,
+      "level": 1,
+      "lesson": 12,
+      "prompt": "Is this man tall?",
+      "context": "tall man",
+      "answer": "Yes, that man's tall.",
+      "alt_answers": [
+        "Yes, that man is tall.",
+        "Yes, he's tall."
+      ],
+      "grammar": "tall/short - people"
+    },
+    {
+      "id": 658,
+      "level": 1,
+      "lesson": 12,
+      "prompt": "Is a penguin a short animal?",
+      "context": "yes",
+      "answer": "Yes, a penguin's a short animal.",
+      "alt_answers": [
+        "Yes, a penguin is a short animal.",
+        "Yes, it is."
+      ],
+      "grammar": "tall/short - animals"
+    },
+    {
+      "id": 659,
+      "level": 1,
+      "lesson": 12,
+      "prompt": "Is this woman tall?",
+      "context": "short",
+      "answer": "No, that woman isn't tall; she's short.",
+      "alt_answers": [
+        "No, that woman is not tall; she is short."
+      ],
+      "grammar": "tall/short - contrast"
+    },
+    {
+      "id": 660,
+      "level": 1,
+      "lesson": 12,
+      "prompt": "Is a giraffe a short animal?",
+      "context": "tall",
+      "answer": "No, a giraffe isn't a short animal; it's a tall animal.",
+      "alt_answers": [
+        "No, a giraffe is not a short animal; it is a tall animal."
+      ],
+      "grammar": "tall/short - animals contrast"
+    },
+    {
+      "id": 661,
+      "level": 1,
+      "lesson": 13,
+      "prompt": "Who am I?",
+      "context": "teacher named Mr Smith",
+      "answer": "You're Mr Smith.",
+      "alt_answers": [
+        "You are Mr Smith."
+      ],
+      "grammar": "who - identity"
+    },
+    {
+      "id": 662,
+      "level": 1,
+      "lesson": 13,
+      "prompt": "Who are you?",
+      "context": "student",
+      "answer": "I'm a student.",
+      "alt_answers": [
+        "I am a student.",
+        "I'm [name]."
+      ],
+      "grammar": "who - identity"
+    },
+    {
+      "id": 663,
+      "level": 1,
+      "lesson": 13,
+      "prompt": "Who's he?",
+      "context": "Charlie",
+      "answer": "He's Charlie.",
+      "alt_answers": [
+        "He is Charlie."
+      ],
+      "grammar": "who - third person"
+    },
+    {
+      "id": 664,
+      "level": 1,
+      "lesson": 13,
+      "prompt": "Who's she?",
+      "context": "Kate",
+      "answer": "She's Kate.",
+      "alt_answers": [
+        "She is Kate."
+      ],
+      "grammar": "who - third person"
+    },
+    {
+      "id": 665,
+      "level": 1,
+      "lesson": 13,
+      "prompt": "Who are they?",
+      "context": "Mr and Mrs Best",
+      "answer": "They're Mr and Mrs Best.",
+      "alt_answers": [
+        "They are Mr and Mrs Best."
+      ],
+      "grammar": "who - plural"
+    },
+    {
+      "id": 666,
+      "level": 1,
+      "lesson": 14,
+      "prompt": "Who's sitting next to you?",
+      "context": "Maria",
+      "answer": "Maria is sitting next to me.",
+      "alt_answers": [
+        "Maria's sitting next to me."
+      ],
+      "grammar": "next to - people"
+    },
+    {
+      "id": 667,
+      "level": 1,
+      "lesson": 14,
+      "prompt": "What am I standing next to?",
+      "context": "the table",
+      "answer": "You're standing next to the table.",
+      "alt_answers": [
+        "You are standing next to the table."
+      ],
+      "grammar": "next to - objects"
+    },
+    {
+      "id": 668,
+      "level": 1,
+      "lesson": 14,
+      "prompt": "Is the cat next to the dog?",
+      "context": "in front of the dog",
+      "answer": "No, the cat isn't next to the dog; it's in front of the dog.",
+      "alt_answers": [
+        "No, the cat is not next to the dog; it is in front of the dog."
+      ],
+      "grammar": "next to - contrast"
+    },
+    {
+      "id": 669,
+      "level": 1,
+      "lesson": 14,
+      "prompt": "Look at me, please. Who are you looking at?",
+      "context": "teacher",
+      "answer": "I'm looking at you.",
+      "alt_answers": [
+        "I am looking at you."
+      ],
+      "grammar": "look at - imperative"
+    },
+    {
+      "id": 670,
+      "level": 1,
+      "lesson": 14,
+      "prompt": "What am I looking at?",
+      "context": "the table",
+      "answer": "You're looking at the table.",
+      "alt_answers": [
+        "You are looking at the table."
+      ],
+      "grammar": "look at - objects"
     }
   ]
 }

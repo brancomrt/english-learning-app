@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">English Learning</string>
+    
+    <!-- New Categories - Question-Answer Method -->
+    <string name="category_basic_objects">Basic Objects</string>
+    <string name="category_basic_objects_desc">Learn vocabulary for everyday objects like pen, book, table, and more</string>
+    
+    <string name="category_colors_numbers">Colors &amp; Numbers</string>
+    <string name="category_colors_numbers_desc">Master colors and numbers through quick question-answer practice</string>
+    
+    <string name="category_actions_movements">Actions &amp; Movements</string>
+    <string name="category_actions_movements_desc">Practice verbs like standing, sitting, opening, closing, and more</string>
+    
+    <string name="category_present_tenses">Present Tenses</string>
+    <string name="category_present_tenses_desc">Learn the difference between Present Simple and Present Continuous</string>
+    
+    <string name="category_possessives">Possessives</string>
+    <string name="category_possessives_desc">Master possessive adjectives (my, your, his) and pronouns (mine, yours, his)</string>
+    
+    <string name="category_family_people">Family &amp; People</string>
+    <string name="category_family_people_desc">Learn vocabulary for family members and describing people</string>
+    
+    <string name="category_comparatives">Comparatives &amp; Superlatives</string>
+    <string name="category_comparatives_desc">Compare things using better, worse, the best, and the worst</string>
 </resources>
