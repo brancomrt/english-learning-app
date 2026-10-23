@@ -34,6 +34,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.englishlearning.app.domain.model.Achievement
 import com.englishlearning.app.domain.model.SessionSummary
+import com.englishlearning.app.ui.components.CelebrationAnimation
+import com.englishlearning.app.ui.components.HapticType
+import com.englishlearning.app.ui.components.rememberHapticFeedback
 import com.englishlearning.app.ui.learning.LearningUiState
 import com.englishlearning.app.ui.learning.LearningViewModel
 import kotlin.math.roundToInt
@@ -58,6 +61,7 @@ fun SessionSummaryScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val summary = (uiState as? LearningUiState.SessionComplete)?.summary ?: return
+    val haptic = rememberHapticFeedback()
 
     Scaffold { paddingValues ->
         LazyColumn(
@@ -69,7 +73,10 @@ fun SessionSummaryScreen(
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             item {
-                Spacer(modifier = Modifier.height(24.dp))
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // Animação de celebração Lottie
+                CelebrationAnimation(size = 180.dp)
 
                 // Título com emoji de celebração
                 Text(
@@ -118,6 +125,7 @@ fun SessionSummaryScreen(
 
                 Button(
                     onClick = {
+                        haptic.perform(HapticType.MEDIUM)
                         // Volta para a tela de seleção de categoria para nova sessão
                         navController.popBackStack(
                             route = "category_select",
@@ -133,6 +141,7 @@ fun SessionSummaryScreen(
 
                 OutlinedButton(
                     onClick = {
+                        haptic.perform(HapticType.LIGHT)
                         // Navega para a tela inicial
                         navController.navigate("home") {
                             popUpTo("home") { inclusive = false }

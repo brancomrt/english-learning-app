@@ -15,8 +15,8 @@ android {
         applicationId = "com.englishlearning.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 36
-        versionName = "1.24.0"
+        versionCode = 37
+        versionName = "1.25.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -112,6 +112,12 @@ dependencies {
 
     // Coil (image loading)
     implementation(libs.coil.compose)
+
+    // Lottie (animations)
+    implementation(libs.lottie.compose)
+
+    // Splash Screen API
+    implementation(libs.androidx.splashscreen)
 
     // Kotlinx Serialization (for JSON asset parsing)
     implementation(libs.kotlinx.serialization.json)

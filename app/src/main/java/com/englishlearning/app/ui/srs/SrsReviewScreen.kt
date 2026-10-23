@@ -56,6 +56,12 @@ import com.englishlearning.app.domain.gamification.SrsRating
 import com.englishlearning.app.domain.gamification.SrsState
 import com.englishlearning.app.domain.model.SrsCard
 import com.englishlearning.app.domain.model.SrsCardType
+import com.englishlearning.app.ui.components.ErrorState
+import com.englishlearning.app.ui.components.HapticType
+import com.englishlearning.app.ui.components.LoadingAnimation
+import com.englishlearning.app.ui.components.NoReviewsEmptyState
+import com.englishlearning.app.ui.components.SuccessAnimation
+import com.englishlearning.app.ui.components.rememberHapticFeedback
 import java.time.LocalDate
 
 // ---------------------------------------------------------------------------
@@ -115,7 +121,7 @@ fun SrsReviewScreen(
 // ---------------------------------------------------------------------------
 
 /**
- * Estado de carregamento: indicador circular centralizado.
+ * Estado de carregamento: animação Lottie centralizada.
  */
 @Composable
 private fun SrsLoadingScreen() {
@@ -123,7 +129,7 @@ private fun SrsLoadingScreen() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        CircularProgressIndicator()
+        LoadingAnimation(size = 120.dp)
     }
 }
 
@@ -133,49 +139,14 @@ private fun SrsLoadingScreen() {
 
 /**
  * Estado vazio: exibido quando não há cards devidos hoje.
+ * Usa componente reutilizável NoReviewsEmptyState com animação Lottie.
  *
  * Requisito 16.6: badge na HomeScreen visível apenas quando dueCardCount > 0;
  * se o usuário entrar na tela sem cards, este estado é exibido.
  */
 @Composable
 private fun SrsEmptyScreen(onNavigateBack: () -> Unit) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        contentAlignment = Alignment.Center
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            Text(
-                text = "✅",
-                style = MaterialTheme.typography.displayLarge
-            )
-            Text(
-                text = "Nenhuma revisão pendente",
-                style = MaterialTheme.typography.headlineSmall,
-                fontWeight = FontWeight.SemiBold,
-                textAlign = TextAlign.Center
-            )
-            Text(
-                text = "Você está em dia com suas revisões. Volte amanhã!",
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center
-            )
-            OutlinedButton(onClick = onNavigateBack) {
-                Icon(
-                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                    contentDescription = null,
-                    modifier = Modifier.size(18.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(text = "Voltar")
-            }
-        }
-    }
+    NoReviewsEmptyState(onNavigateBack = onNavigateBack)
 }
 
 // ---------------------------------------------------------------------------
@@ -407,6 +378,8 @@ private fun AnswerCard(content: ReviewCardContent) {
  */
 @Composable
 private fun RatingButtons(onRate: (SrsRating) -> Unit) {
+    val haptic = rememberHapticFeedback()
+    
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -428,7 +401,10 @@ private fun RatingButtons(onRate: (SrsRating) -> Unit) {
                 sublabel = "Amanhã",
                 containerColor = MaterialTheme.colorScheme.errorContainer,
                 contentColor = MaterialTheme.colorScheme.onErrorContainer,
-                onClick = { onRate(SrsRating.AGAIN) },
+                onClick = { 
+                    haptic.perform(HapticType.ERROR)
+                    onRate(SrsRating.AGAIN) 
+                },
                 modifier = Modifier.weight(1f)
             )
             // HARD — difícil
@@ -437,7 +413,10 @@ private fun RatingButtons(onRate: (SrsRating) -> Unit) {
                 sublabel = "Breve",
                 containerColor = Color(0xFFFFE0B2), // orange-100
                 contentColor = Color(0xFF4E2600),
-                onClick = { onRate(SrsRating.HARD) },
+                onClick = { 
+                    haptic.perform(HapticType.MEDIUM)
+                    onRate(SrsRating.HARD) 
+                },
                 modifier = Modifier.weight(1f)
             )
         }
@@ -451,7 +430,10 @@ private fun RatingButtons(onRate: (SrsRating) -> Unit) {
                 sublabel = "Dias",
                 containerColor = MaterialTheme.colorScheme.secondaryContainer,
                 contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                onClick = { onRate(SrsRating.GOOD) },
+                onClick = { 
+                    haptic.perform(HapticType.SUCCESS)
+                    onRate(SrsRating.GOOD) 
+                },
                 modifier = Modifier.weight(1f)
             )
             // EASY — muito fácil, intervalo longo (Req. 17.5)
@@ -460,7 +442,10 @@ private fun RatingButtons(onRate: (SrsRating) -> Unit) {
                 sublabel = "Semanas",
                 containerColor = MaterialTheme.colorScheme.primaryContainer,
                 contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
-                onClick = { onRate(SrsRating.EASY) },
+                onClick = { 
+                    haptic.perform(HapticType.SUCCESS)
+                    onRate(SrsRating.EASY) 
+                },
                 modifier = Modifier.weight(1f)
             )
         }
@@ -520,6 +505,8 @@ private fun SrsSessionCompleteScreen(
     stats: ReviewSessionStats,
     onNavigateBack: () -> Unit
 ) {
+    val haptic = rememberHapticFeedback()
+    
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -530,12 +517,8 @@ private fun SrsSessionCompleteScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(20.dp)
         ) {
-            Icon(
-                imageVector = Icons.Default.CheckCircle,
-                contentDescription = null,
-                modifier = Modifier.size(80.dp),
-                tint = MaterialTheme.colorScheme.primary
-            )
+            // Animação Lottie de sucesso em vez do ícone estático
+            SuccessAnimation(size = 120.dp)
 
             Text(
                 text = "Revisão Concluída!",
@@ -602,7 +585,10 @@ private fun SrsSessionCompleteScreen(
             }
 
             Button(
-                onClick = onNavigateBack,
+                onClick = {
+                    haptic.perform(HapticType.MEDIUM)
+                    onNavigateBack()
+                },
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
@@ -652,7 +638,7 @@ private fun RatingStat(
 // ---------------------------------------------------------------------------
 
 /**
- * Estado de erro: mensagem amigável com opção de retry.
+ * Estado de erro: usa ErrorState reutilizável com animação Lottie.
  *
  * Requisito 12.7: exibir mensagem de erro amigável com opção de retry.
  */
@@ -662,44 +648,17 @@ private fun SrsErrorScreen(
     onRetry: () -> Unit,
     onNavigateBack: () -> Unit
 ) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        contentAlignment = Alignment.Center
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            Text(
-                text = "😕",
-                style = MaterialTheme.typography.displayMedium
-            )
-            Text(
-                text = "Não foi possível carregar as revisões",
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.SemiBold,
-                textAlign = TextAlign.Center
-            )
-            Text(
-                text = message,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center
-            )
-            Button(onClick = onRetry) {
-                Icon(
-                    imageVector = Icons.Default.Refresh,
-                    contentDescription = null,
-                    modifier = Modifier.size(18.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(text = "Tentar Novamente")
-            }
-            TextButton(onClick = onNavigateBack) {
-                Text(text = "Voltar")
-            }
+        ErrorState(
+            message = message,
+            onRetry = onRetry
+        )
+        TextButton(onClick = onNavigateBack) {
+            Text(text = "Voltar")
         }
     }
 }

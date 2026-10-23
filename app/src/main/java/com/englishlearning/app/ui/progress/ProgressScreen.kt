@@ -43,6 +43,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.englishlearning.app.domain.model.Achievement
 import com.englishlearning.app.domain.model.UserStats
+import com.englishlearning.app.ui.components.LoadingAnimation
 import com.englishlearning.app.ui.summary.toDisplayName
 
 /**
@@ -107,7 +108,7 @@ fun ProgressScreen(
                     .padding(paddingValues),
                 contentAlignment = Alignment.Center
             ) {
-                CircularProgressIndicator()
+                LoadingAnimation(size = 120.dp)
             }
         } else {
             LazyColumn(

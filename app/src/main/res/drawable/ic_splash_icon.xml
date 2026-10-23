@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone do Splash Screen - Letra "E" estilizada representando English Learning -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Círculo de fundo branco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    
+    <!-- Letra "E" estilizada em Indigo -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M35,30 L35,78 L73,78 L73,70 L45,70 L45,58 L68,58 L68,50 L45,50 L45,38 L73,38 L73,30 Z" />
+    
+    <!-- Acento decorativo em Emerald (representando aprendizado) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M68,42 L78,32 L78,42 Z" />
+</vector>

@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.englishlearning.app.ui.navigation.AppNavGraph
 import com.englishlearning.app.ui.theme.EnglishLearningTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -12,6 +13,7 @@ import dagger.hilt.android.AndroidEntryPoint
  * Única Activity do aplicativo.
  *
  * Responsabilidades:
+ * - Exibir Splash Screen nativo (Android 12+ Splash API).
  * - Inicializar o Compose com o tema do aplicativo ([EnglishLearningTheme]).
  * - Delegar toda a navegação ao [AppNavGraph].
  * - Habilitada para injeção de dependência via Hilt (@AndroidEntryPoint).
@@ -24,9 +26,15 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Instala o Splash Screen ANTES de super.onCreate()
+        // Isso garante que a animação do splash seja exibida corretamente
+        val splashScreen = installSplashScreen()
+        
         super.onCreate(savedInstanceState)
+        
         // Habilita edge-to-edge para aproveitamento total da tela em dispositivos modernos.
         enableEdgeToEdge()
+        
         setContent {
             EnglishLearningTheme {
                 // O AppNavGraph gerencia todas as rotas, lógica de primeiro acesso

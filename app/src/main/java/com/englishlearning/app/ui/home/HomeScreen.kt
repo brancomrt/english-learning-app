@@ -59,6 +59,10 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.englishlearning.app.domain.model.Level
 import com.englishlearning.app.domain.model.UserStats
+import com.englishlearning.app.ui.components.ErrorState
+import com.englishlearning.app.ui.components.HapticType
+import com.englishlearning.app.ui.components.LoadingAnimation
+import com.englishlearning.app.ui.components.rememberHapticFeedback
 
 // ---------------------------------------------------------------------------
 // Navigation route constants
@@ -159,6 +163,8 @@ fun HomeContent(
     onDrillingClick: () -> Unit = {},
     onErrorReviewClick: () -> Unit = {}
 ) {
+    val haptic = rememberHapticFeedback()
+    
     Scaffold(
         topBar = {
             TopAppBar(
@@ -213,7 +219,10 @@ fun HomeContent(
             if (uiState.dueCardCount > 0) {
                 SrsReviewCard(
                     dueCardCount = uiState.dueCardCount,
-                    onReviewClick = onReviewClick
+                    onReviewClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onReviewClick()
+                    }
                 )
             }
 
@@ -221,13 +230,19 @@ fun HomeContent(
             if (uiState.errorExerciseCount > 0) {
                 ErrorReviewCard(
                     errorCount = uiState.errorExerciseCount,
-                    onReviewClick = onErrorReviewClick
+                    onReviewClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onErrorReviewClick()
+                    }
                 )
             }
 
-            // Botão principal "Continuar Estudando"
+            // Botão principal "Continuar Estudando" com feedback háptico
             Button(
-                onClick = onStudyClick,
+                onClick = {
+                    haptic.perform(HapticType.MEDIUM)
+                    onStudyClick()
+                },
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(16.dp)
             ) {
@@ -242,14 +257,20 @@ fun HomeContent(
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 FilledTonalButton(
-                    onClick = onVocabularyClick,
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onVocabularyClick()
+                    },
                     modifier = Modifier.weight(1f),
                     shape = RoundedCornerShape(16.dp)
                 ) {
                     Text("📚 Vocabulário", style = MaterialTheme.typography.labelMedium)
                 }
                 FilledTonalButton(
-                    onClick = onDrillingClick,
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onDrillingClick()
+                    },
                     modifier = Modifier.weight(1f),
                     shape = RoundedCornerShape(16.dp)
                 ) {
@@ -827,12 +848,14 @@ fun LevelQuickAccessCard(
 }
 
 // ---------------------------------------------------------------------------
-// LoadingIndicator — Estado de carregamento
+// LoadingIndicator — Estado de carregamento com animação Lottie
 // ---------------------------------------------------------------------------
 
 /**
  * Indicador de carregamento exibido enquanto os dados da HomeScreen estão
  * sendo buscados do repositório.
+ *
+ * Utiliza animação Lottie para uma experiência visual mais agradável.
  */
 @Composable
 fun LoadingIndicator() {
@@ -840,18 +863,19 @@ fun LoadingIndicator() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        CircularProgressIndicator()
+        LoadingAnimation(size = 120.dp)
     }
 }
 
 // ---------------------------------------------------------------------------
-// ErrorScreen — Estado de erro (Req. 12.7)
+// ErrorScreen — Estado de erro com animação (Req. 12.7)
 // ---------------------------------------------------------------------------
 
 /**
  * Tela de erro exibida quando o carregamento dos dados da HomeScreen falha.
  *
  * Oferece uma opção de retry para o usuário tentar novamente.
+ * Utiliza o componente ErrorState com animação Lottie.
  *
  * Requisito 12.7: exibir mensagem de erro amigável com opção de retry.
  *
@@ -863,46 +887,10 @@ fun ErrorScreen(
     message: String,
     onRetry: () -> Unit
 ) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        contentAlignment = Alignment.Center
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            Text(
-                text = "😕",
-                style = MaterialTheme.typography.displayMedium
-            )
-            Text(
-                text = "Não foi possível carregar os dados",
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.SemiBold,
-                textAlign = TextAlign.Center
-            )
-            Text(
-                text = message,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center
-            )
-            Button(onClick = onRetry) {
-                Icon(
-                    imageVector = Icons.Default.Refresh,
-                    contentDescription = null,
-                    modifier = Modifier.size(18.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(text = "Tentar Novamente")
-            }
-            TextButton(onClick = onRetry) {
-                Text(text = "Recarregar")
-            }
-        }
-    }
+    ErrorState(
+        message = message,
+        onRetry = onRetry
+    )
 }
 
 // ---------------------------------------------------------------------------

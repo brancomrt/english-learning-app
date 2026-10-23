@@ -1,3 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.EnglishLearningApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Tema base do app com Splash Screen -->
+    <style name="Theme.EnglishLearningApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Status bar e navigation bar transparentes para Compose -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Tema do Splash Screen (Android 12+) -->
+    <style name="Theme.EnglishLearningApp.Splash" parent="Theme.SplashScreen">
+        <!-- Cor de fundo do splash -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <!-- Ícone central (animated vector ou static) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <!-- Duração da animação do ícone (max 1000ms) -->
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <!-- Tema pós-splash -->
+        <item name="postSplashScreenTheme">@style/Theme.EnglishLearningApp</item>
+    </style>
 </resources>
