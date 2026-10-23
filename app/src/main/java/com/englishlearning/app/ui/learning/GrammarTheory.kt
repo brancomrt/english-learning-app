@@ -9,7 +9,8 @@ data class GrammarTheory(
     val explanation: String,
     val structure: String,
     val examples: List<String>,
-    val tip: String? = null
+    val tip: String? = null,
+    val britishVsAmerican: String? = null // Diferenças entre inglês britânico e americano
 )
 
 object GrammarTheoryProvider {
@@ -47,7 +48,14 @@ object GrammarTheoryProvider {
                 "Do you speak English?",
                 "He starts work at nine."
             ),
-            tip = "3ª pessoa singular (he/she/it): adicione -s ou -es ao verbo."
+            tip = "3ª pessoa singular (he/she/it): adicione -s ou -es ao verbo.",
+            britishVsAmerican = """
+                🇬🇧 Britânico: Verbos coletivos podem ser plural → "The team are working..."
+                🇺🇸 Americano: Verbos coletivos geralmente singular → "The team is working..."
+                
+                🇬🇧 "Have you got...?" é mais comum
+                🇺🇸 "Do you have...?" é mais comum
+            """.trimIndent()
         ),
 
         // ── Present Continuous ────────────────────────────────────────────
@@ -83,7 +91,16 @@ object GrammarTheoryProvider {
                 "Have you ever used Kubernetes?",
                 "The pipeline has failed three times today."
             ),
-            tip = "Palavras-chave: already, yet, ever, never, just, for, since."
+            tip = "Palavras-chave: already, yet, ever, never, just, for, since.",
+            britishVsAmerican = """
+                🇬🇧 Britânico: Usa Present Perfect para ações recentes
+                → "I've just finished." / "Have you eaten yet?"
+                
+                🇺🇸 Americano: Frequentemente usa Past Simple em vez de Present Perfect
+                → "I just finished." / "Did you eat yet?"
+                
+                Ambas as formas são corretas, mas refletem preferências regionais.
+            """.trimIndent()
         ),
 
         // ── Present Perfect Continuous ────────────────────────────────────
@@ -119,7 +136,17 @@ object GrammarTheoryProvider {
                 "Why did the pipeline fail?",
                 "The attacker gained access through SQL injection."
             ),
-            tip = "Verbos irregulares comuns: go→went, find→found, break→broke, write→wrote."
+            tip = "Verbos irregulares comuns: go→went, find→found, break→broke, write→wrote.",
+            britishVsAmerican = """
+                🇬🇧 Britânico: Alguns particípios terminam em -t
+                → learnt, dreamt, burnt, spelt, leapt
+                
+                🇺🇸 Americano: Usa formas regulares -ed
+                → learned, dreamed, burned, spelled, leaped
+                
+                🇬🇧 "got" como particípio: "I've got a new laptop."
+                🇺🇸 "gotten" como particípio: "I've gotten better at coding."
+            """.trimIndent()
         ),
 
         // ── Passive Voice ─────────────────────────────────────────────────
@@ -157,7 +184,17 @@ object GrammarTheoryProvider {
                 "You need to uninstall the old driver first.",
                 "All endpoints should be authenticated."
             ),
-            tip = "Should = recomendação | Must = obrigação forte | Can = capacidade/permissão."
+            tip = "Should = recomendação | Must = obrigação forte | Can = capacidade/permissão.",
+            britishVsAmerican = """
+                🇬🇧 Britânico: "Shall" é comum para ofertas e sugestões
+                → "Shall I open the window?" / "Shall we begin?"
+                
+                🇺🇸 Americano: "Shall" é raro e formal; prefere "Should" ou "Will"
+                → "Should I open the window?" / "Do you want to begin?"
+                
+                🇬🇧 "Needn't" (need not) é usado
+                🇺🇸 "Don't need to" é mais comum
+            """.trimIndent()
         ),
 
         // ── Modal Perfect ─────────────────────────────────────────────────
@@ -208,7 +245,17 @@ object GrammarTheoryProvider {
                 "The server is running, isn't it?",
                 "They don't use Kubernetes, do they?"
             ),
-            tip = "Negações: isn't, aren't, doesn't, don't, didn't, won't, haven't, hasn't."
+            tip = "Negações: isn't, aren't, doesn't, don't, didn't, won't, haven't, hasn't.",
+            britishVsAmerican = """
+                🇬🇧 Britânico: Tag questions são MUITO comuns no dia a dia
+                → "Nice day, isn't it?" / "You're coming, aren't you?"
+                
+                🇺🇸 Americano: Menos frequentes; muitas vezes substituídas por "right?"
+                → "Nice day, right?" / "You're coming, right?"
+                
+                🇬🇧 "...have you?" / "...haven't you?" (com Present Perfect)
+                🇺🇸 "...did you?" / "...didn't you?" (com Past Simple)
+            """.trimIndent()
         ),
 
         // ── Comparatives ─────────────────────────────────────────────────

@@ -173,6 +173,25 @@ fun GrammarTheorySheet(
                 }
             }
 
+            // Diferenças British vs American
+            theory.britishVsAmerican?.let { differences ->
+                TheorySection(title = "🇬🇧 British vs 🇺🇸 American") {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(8.dp))
+                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+                            .padding(12.dp)
+                    ) {
+                        Text(
+                            text = differences,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+
             // Tópico do exercício
             Box(
                 modifier = Modifier

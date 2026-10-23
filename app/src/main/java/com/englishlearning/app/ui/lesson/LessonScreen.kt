@@ -206,6 +206,11 @@ fun LessonContent(
         // Exemplos de perguntas em inglês (Req. 15.4, 15.11)
         LessonExamplesSection(examples = lessonContent.examples)
 
+        // Diferenças British vs American (se houver)
+        lessonContent.britishVsAmerican?.let { differences ->
+            LessonBritishAmericanSection(differences = differences)
+        }
+
         // Espaçamento extra antes dos botões da barra inferior
         Spacer(modifier = Modifier.height(8.dp))
     }
@@ -460,6 +465,54 @@ fun LessonExampleItem(
             color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier.weight(1f)
         )
+    }
+}
+
+// ---------------------------------------------------------------------------
+// LessonBritishAmericanSection — Diferenças British vs American
+// ---------------------------------------------------------------------------
+
+/**
+ * Card com as diferenças entre inglês britânico e americano.
+ *
+ * @param differences  Texto explicando as diferenças.
+ */
+@Composable
+fun LessonBritishAmericanSection(differences: String) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f)
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                Text(text = "🇬🇧🇺🇸", style = MaterialTheme.typography.bodyLarge)
+                Text(
+                    text = "British vs American",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.onTertiaryContainer
+                )
+            }
+            HorizontalDivider(color = MaterialTheme.colorScheme.onTertiaryContainer.copy(alpha = 0.2f))
+            Text(
+                text = differences,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onTertiaryContainer,
+                lineHeight = MaterialTheme.typography.bodySmall.lineHeight * 1.3f
+            )
+        }
     }
 }
 

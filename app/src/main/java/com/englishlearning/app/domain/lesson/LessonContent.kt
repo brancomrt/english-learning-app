@@ -14,13 +14,15 @@ import com.englishlearning.app.domain.model.QuestionType
  * @property ruleExplanationPt Regra gramatical explicada em 2-3 frases em português.
  * @property structuralFormula Fórmula estrutural da pergunta em inglês.
  * @property examples       Lista de 2 exemplos de perguntas em inglês.
+ * @property britishVsAmerican Diferenças entre inglês britânico e americano (opcional).
  */
 sealed class LessonContent(
     val questionType: QuestionType,
     val titlePt: String,
     val ruleExplanationPt: String,
     val structuralFormula: String,
-    val examples: List<String>
+    val examples: List<String>,
+    val britishVsAmerican: String? = null
 ) {
     // ---- Wh-questions ----
 
@@ -34,7 +36,14 @@ sealed class LessonContent(
         examples = listOf(
             "What is your name?",
             "What do you do for work?"
-        )
+        ),
+        britishVsAmerican = """
+            🇬🇧 "What's your favourite colour?" (favourite com 'u')
+            🇺🇸 "What's your favorite color?" (favorite sem 'u')
+            
+            🇬🇧 "What have you got?" é comum
+            🇺🇸 "What do you have?" é preferido
+        """.trimIndent()
     )
 
     object WhereLesson : LessonContent(
@@ -112,7 +121,15 @@ sealed class LessonContent(
         examples = listOf(
             "How much does it cost?",
             "How much time do we have left?"
-        )
+        ),
+        britishVsAmerican = """
+            🇬🇧 "How much is it?" → resposta em pounds (£)
+            🇺🇸 "How much is it?" → resposta em dollars ($)
+            
+            Vocabulário de dinheiro:
+            🇬🇧 pounds, pence, quid (informal)
+            🇺🇸 dollars, cents, bucks (informal)
+        """.trimIndent()
     )
 
     object HowManyLesson : LessonContent(
@@ -166,7 +183,17 @@ sealed class LessonContent(
         examples = listOf(
             "It's cold today, isn't it?",
             "You like coffee, don't you?"
-        )
+        ),
+        britishVsAmerican = """
+            🇬🇧 Tag questions são MUITO comuns e naturais
+            → "Lovely day, isn't it?" / "You're from Brazil, aren't you?"
+            
+            🇺🇸 Menos frequentes; "right?" é mais usado
+            → "Lovely day, right?" / "You're from Brazil, right?"
+            
+            🇬🇧 Entonação descendente = espera concordância
+            🇬🇧 Entonação ascendente = pergunta genuína
+        """.trimIndent()
     )
 
     object IndirectLesson : LessonContent(
@@ -179,7 +206,17 @@ sealed class LessonContent(
         examples = listOf(
             "Could you tell me where the library is?",
             "Do you know what time it is?"
-        )
+        ),
+        britishVsAmerican = """
+            🇬🇧 Britânicos usam mais perguntas indiretas por polidez
+            → "I was wondering if you could help me..."
+            → "Would you mind telling me...?"
+            
+            🇺🇸 Americanos tendem a ser mais diretos
+            → "Can you help me?" / "Where is...?"
+            
+            Ambos aceitam as duas formas, mas a frequência varia.
+        """.trimIndent()
     )
 
     object ChoiceLesson : LessonContent(
