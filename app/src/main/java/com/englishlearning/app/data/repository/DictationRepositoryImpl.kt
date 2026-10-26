@@ -3,7 +3,6 @@ package com.englishlearning.app.data.repository
 import com.englishlearning.app.data.database.dao.DictationDao
 import com.englishlearning.app.data.database.entity.DictationExerciseEntity
 import com.englishlearning.app.data.database.entity.DictationProgressEntity
-import com.englishlearning.app.domain.model.DictationDifficulty
 import com.englishlearning.app.domain.model.DictationExercise
 import com.englishlearning.app.domain.model.DictationProgress
 import com.englishlearning.app.domain.model.DictationResult
@@ -11,37 +10,84 @@ import com.englishlearning.app.domain.model.DictationStatistics
 import com.englishlearning.app.domain.model.SrsState
 import com.englishlearning.app.domain.repository.DictationRepository
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 import java.time.LocalDate
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Implementação do DictationRepository.
+ * Implementação do DictationRepository para ditados estilo Callan Method.
+ * Organizado por Stages (1-12) com textos completos.
  */
 @Singleton
 class DictationRepositoryImpl @Inject constructor(
     private val dictationDao: DictationDao
 ) : DictationRepository {
     
-    override suspend fun getDueExercises(userId: Long, today: String, limit: Int): List<DictationExercise> {
-        return dictationDao.getDueExercises(userId, today, limit).map { it.toDomain() }
+    // ═══════════════════════════════════════════════════════════════════════
+    // Exercises by Stage (Callan Style)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    override suspend fun getByStage(stage: Int): List<DictationExercise> {
+        return dictationDao.getExercisesByStage(stage).map { it.toDomain() }
     }
     
-    override suspend fun getNewExercises(userId: Long, maxLevel: Int, limit: Int): List<DictationExercise> {
-        return dictationDao.getNewExercises(userId, maxLevel, limit).map { it.toDomain() }
+    override fun getByStageFlow(stage: Int): Flow<List<DictationExercise>> {
+        return dictationDao.getExercisesByStageFlow(stage).map { list ->
+            list.map { it.toDomain() }
+        }
+    }
+    
+    override suspend fun getAllExercises(): List<DictationExercise> {
+        return dictationDao.getAllExercises().map { it.toDomain() }
+    }
+    
+    override fun getAllExercisesFlow(): Flow<List<DictationExercise>> {
+        return dictationDao.getAllExercisesFlow().map { list ->
+            list.map { it.toDomain() }
+        }
+    }
+    
+    override suspend fun getAvailableStages(): List<Int> {
+        return dictationDao.getAvailableStages()
     }
     
     override suspend fun getById(id: Long): DictationExercise? {
         return dictationDao.getExerciseById(id)?.toDomain()
     }
     
-    override suspend fun getByLevel(levelId: Int): List<DictationExercise> {
-        return dictationDao.getExercisesByLevel(levelId).map { it.toDomain() }
+    override suspend fun getIncompleteByStage(stage: Int): List<DictationExercise> {
+        return dictationDao.getIncompleteByStage(stage).map { it.toDomain() }
     }
+    
+    // ═══════════════════════════════════════════════════════════════════════
+    // Mark Complete (100% success)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    override suspend fun markCompleted(exerciseId: Long, completed: Boolean) {
+        dictationDao.markCompleted(exerciseId, completed)
+    }
+    
+    override suspend fun getCompletedCountByStage(stage: Int): Int {
+        return dictationDao.getCompletedCountByStage(stage)
+    }
+    
+    override suspend fun getTotalCompletedCount(): Int {
+        return dictationDao.getTotalCompletedCount()
+    }
+    
+    // ═══════════════════════════════════════════════════════════════════════
+    // Save Result and Progress
+    // ═══════════════════════════════════════════════════════════════════════
     
     override suspend fun saveResult(userId: Long, exerciseId: Long, result: DictationResult) {
         val today = LocalDate.now().toString()
         val existingProgress = dictationDao.getProgress(userId, exerciseId)
+        
+        // Se score = 100, marcar como completo
+        if (result.score == 100) {
+            dictationDao.markCompleted(exerciseId, true)
+        }
         
         if (existingProgress != null) {
             // Update existing progress with FSRS
@@ -130,6 +176,10 @@ class DictationRepositoryImpl @Inject constructor(
         return dictationDao.getProgress(userId, exerciseId)?.toDomain()
     }
     
+    // ═══════════════════════════════════════════════════════════════════════
+    // Statistics
+    // ═══════════════════════════════════════════════════════════════════════
+    
     override suspend fun getStatistics(userId: Long): DictationStatistics {
         val avgScore = dictationDao.getAverageScore(userId) ?: 0f
         val masteredCount = dictationDao.getMasteredCount(userId)
@@ -137,10 +187,11 @@ class DictationRepositoryImpl @Inject constructor(
         val today = LocalDate.now().toString()
         val dueCount = dictationDao.getDueCount(userId, today)
         val totalExercises = dictationDao.getTotalExerciseCount()
+        val completedCount = dictationDao.getTotalCompletedCount()
         
         return DictationStatistics(
             totalExercises = totalExercises,
-            completedExercises = masteredCount,
+            completedExercises = completedCount,
             averageScore = avgScore,
             bestScore = 0, // TODO
             totalAttempts = totalAttempts,
@@ -158,20 +209,32 @@ class DictationRepositoryImpl @Inject constructor(
         return dictationDao.getDueCountFlow(userId, today)
     }
     
-    override suspend fun generateFromDrills() {
-        // TODO: Generate dictation exercises from drills
+    // ═══════════════════════════════════════════════════════════════════════
+    // Legacy methods (kept for compatibility but can be removed later)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    override suspend fun getDueExercises(userId: Long, today: String, limit: Int): List<DictationExercise> {
+        return dictationDao.getDueExercises(userId, today, limit).map { it.toDomain() }
     }
+    
+    override suspend fun getNewExercisesByStage(userId: Long, stage: Int, limit: Int): List<DictationExercise> {
+        return dictationDao.getNewExercisesByStage(userId, stage, limit).map { it.toDomain() }
+    }
+    
+    // ═══════════════════════════════════════════════════════════════════════
+    // Mapping
+    // ═══════════════════════════════════════════════════════════════════════
     
     private fun DictationExerciseEntity.toDomain(): DictationExercise {
         return DictationExercise(
             id = id,
-            sentence = sentence,
+            stage = stage,
+            title = title,
+            text = text,
             translation = translation,
-            levelId = levelId,
-            difficulty = DictationDifficulty.entries.getOrNull(difficulty - 1) ?: DictationDifficulty.MEDIUM,
-            grammarTopic = grammarTopic,
-            keywords = keywords?.split(",")?.map { it.trim() } ?: emptyList(),
-            sourceDrillId = sourceDrillId
+            wordCount = wordCount,
+            grammarFocus = grammarFocus,
+            completed = completed
         )
     }
     

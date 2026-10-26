@@ -15,15 +15,18 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Lightbulb
 import androidx.compose.material.icons.filled.Replay
 import androidx.compose.material.icons.filled.SkipNext
@@ -45,12 +48,8 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -71,8 +70,13 @@ import com.englishlearning.app.domain.model.DictationResult
 import com.englishlearning.app.domain.model.MistakeType
 
 /**
- * Tela de Ditado (Spaced Writing).
- * O usuário ouve o áudio e escreve a frase.
+ * Tela de Ditado no estilo Callan Method.
+ * - Organizado por Stages (1-12)
+ * - Textos completos (parágrafos)
+ * - Reprodução de áudio (3x recomendado)
+ * - Correção detalhada
+ * - Possibilidade de refazer
+ * - Marca como completo (100%)
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -86,9 +90,20 @@ fun DictationScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Ditado ✍️") },
+                title = { 
+                    Text(
+                        if (uiState.isSelectingStage) "Ditado ✍️" 
+                        else "Stage ${uiState.selectedStage} ✍️"
+                    ) 
+                },
                 navigationIcon = {
-                    IconButton(onClick = onNavigateBack) {
+                    IconButton(onClick = {
+                        if (uiState.isSelectingStage) {
+                            onNavigateBack()
+                        } else {
+                            viewModel.backToStageSelection()
+                        }
+                    }) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, "Voltar")
                     }
                 },
@@ -96,11 +111,13 @@ fun DictationScreen(
                     containerColor = MaterialTheme.colorScheme.primaryContainer
                 ),
                 actions = {
-                    Text(
-                        text = "${uiState.currentIndex + 1}/${uiState.totalExercises}",
-                        style = MaterialTheme.typography.titleMedium,
-                        modifier = Modifier.padding(end = 16.dp)
-                    )
+                    if (!uiState.isSelectingStage) {
+                        Text(
+                            text = "${uiState.currentIndex + 1}/${uiState.totalExercises}",
+                            style = MaterialTheme.typography.titleMedium,
+                            modifier = Modifier.padding(end = 16.dp)
+                        )
+                    }
                 }
             )
         }
@@ -112,17 +129,6 @@ fun DictationScreen(
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Barra de progresso
-            LinearProgressIndicator(
-                progress = { uiState.progress },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(8.dp)
-                    .clip(RoundedCornerShape(4.dp))
-            )
-            
-            Spacer(modifier = Modifier.height(16.dp))
-            
             when {
                 uiState.isLoading -> {
                     Box(
@@ -132,20 +138,63 @@ fun DictationScreen(
                         CircularProgressIndicator()
                     }
                 }
-                uiState.isSelectingLevel -> {
-                    LevelSelectionCard(
-                        availableLevels = uiState.availableLevels,
-                        onSelectLevel = { viewModel.selectLevel(it) }
+                uiState.isSelectingStage -> {
+                    StageSelectionCard(
+                        availableStages = uiState.availableStages,
+                        onSelectStage = { viewModel.selectStage(it) }
                     )
                 }
                 uiState.isComplete -> {
                     SessionCompleteCard(
                         averageScore = uiState.averageScore,
                         totalExercises = uiState.totalExercises,
-                        onContinue = onNavigateBack
+                        completedCount = uiState.completedInStage,
+                        onContinue = onNavigateBack,
+                        onSelectAnotherStage = { viewModel.backToStageSelection() }
                     )
                 }
                 uiState.currentExercise != null -> {
+                    // Barra de progresso
+                    LinearProgressIndicator(
+                        progress = { uiState.progress },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(8.dp)
+                            .clip(RoundedCornerShape(4.dp))
+                    )
+                    
+                    Spacer(modifier = Modifier.height(8.dp))
+                    
+                    // Info do Stage
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Text(
+                            "✅ ${uiState.completedInStage}/${uiState.totalExercises} completos",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = Color(0xFF4CAF50)
+                        )
+                        if (uiState.currentExercise!!.completed) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(
+                                    Icons.Default.CheckCircle,
+                                    contentDescription = null,
+                                    tint = Color(0xFF4CAF50),
+                                    modifier = Modifier.size(16.dp)
+                                )
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text(
+                                    "Completo",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = Color(0xFF4CAF50)
+                                )
+                            }
+                        }
+                    }
+                    
+                    Spacer(modifier = Modifier.height(16.dp))
+                    
                     DictationContent(
                         exercise = uiState.currentExercise!!,
                         userInput = uiState.userInput,
@@ -161,11 +210,15 @@ fun DictationScreen(
                             viewModel.checkAnswer() 
                         },
                         onNext = { viewModel.nextExercise() },
+                        onRetry = { viewModel.retryExercise() },
                         onHint = { viewModel.useHint() }
                     )
                 }
                 else -> {
-                    EmptyMessage(onNavigateBack)
+                    EmptyMessage(
+                        onBack = onNavigateBack,
+                        onSelectStage = { viewModel.backToStageSelection() }
+                    )
                 }
             }
         }
@@ -185,29 +238,48 @@ private fun DictationContent(
     onPlaySlow: () -> Unit,
     onSubmit: () -> Unit,
     onNext: () -> Unit,
+    onRetry: () -> Unit,
     onHint: () -> Unit
 ) {
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Nível e dificuldade
-        Row(
+        // Título e info do exercício
+        Card(
             modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant
+            )
         ) {
-            Text(
-                "Nível ${exercise.levelId}",
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-            Text(
-                "${exercise.difficulty.emoji} ${exercise.difficulty.label}",
-                style = MaterialTheme.typography.labelMedium
-            )
+            Column(
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Text(
+                    exercise.title,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    "Stage ${exercise.stage} • ${exercise.wordCount} palavras",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                if (exercise.grammarFocus != null) {
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        "📚 ${exercise.grammarFocus}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+            }
         }
         
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         
         // Área do áudio
         Card(
@@ -225,6 +297,12 @@ private fun DictationContent(
                 Text(
                     "🎧 Ouça e escreva",
                     style = MaterialTheme.typography.titleMedium
+                )
+                
+                Text(
+                    "Recomendado: ouça 3 vezes",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 
                 Spacer(modifier = Modifier.height(16.dp))
@@ -262,14 +340,14 @@ private fun DictationContent(
                 Spacer(modifier = Modifier.height(8.dp))
                 
                 Text(
-                    "Reproduzido $playCount vezes",
+                    "Reproduzido $playCount ${if (playCount == 1) "vez" else "vezes"}",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
         }
         
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         
         // Campo de entrada ou resultado
         if (!isChecked) {
@@ -279,11 +357,11 @@ private fun DictationContent(
                 onValueChange = onInputChange,
                 modifier = Modifier.fillMaxWidth(),
                 label = { Text("Digite o que você ouviu") },
-                placeholder = { Text("Escreva a frase aqui...") },
+                placeholder = { Text("Escreva o texto aqui...") },
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
                 keyboardActions = KeyboardActions(onDone = { onSubmit() }),
                 singleLine = false,
-                minLines = 3
+                minLines = 5
             )
             
             Spacer(modifier = Modifier.height(16.dp))
@@ -320,8 +398,9 @@ private fun DictationContent(
             // Mostrar resultado
             ResultCard(
                 result = result,
-                correctSentence = exercise.sentence,
-                onNext = onNext
+                correctText = exercise.text,
+                onNext = onNext,
+                onRetry = onRetry
             )
         }
     }
@@ -330,12 +409,14 @@ private fun DictationContent(
 @Composable
 private fun ResultCard(
     result: DictationResult,
-    correctSentence: String,
-    onNext: () -> Unit
+    correctText: String,
+    onNext: () -> Unit,
+    onRetry: () -> Unit
 ) {
     val scoreColor = when {
-        result.score >= 90 -> Color(0xFF4CAF50)
-        result.score >= 70 -> Color(0xFFFF9800)
+        result.score == 100 -> Color(0xFF4CAF50)
+        result.score >= 80 -> Color(0xFF8BC34A)
+        result.score >= 60 -> Color(0xFFFF9800)
         else -> Color(0xFFF44336)
     }
     
@@ -352,17 +433,31 @@ private fun ResultCard(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Pontuação
-            Text(
-                text = "${result.score}%",
-                style = MaterialTheme.typography.displaySmall,
-                fontWeight = FontWeight.Bold,
-                color = scoreColor
-            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = "${result.score}%",
+                    style = MaterialTheme.typography.displaySmall,
+                    fontWeight = FontWeight.Bold,
+                    color = scoreColor
+                )
+                if (result.score == 100) {
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Icon(
+                        Icons.Default.CheckCircle,
+                        contentDescription = null,
+                        tint = Color(0xFF4CAF50),
+                        modifier = Modifier.size(32.dp)
+                    )
+                }
+            }
             
             Text(
                 text = when {
-                    result.score >= 90 -> "Excelente! 🎉"
-                    result.score >= 70 -> "Bom trabalho! 👍"
+                    result.score == 100 -> "Perfeito! 🎉 Marcado como completo!"
+                    result.score >= 80 -> "Muito bom! 👍"
+                    result.score >= 60 -> "Bom trabalho! 👏"
                     else -> "Continue praticando! 💪"
                 },
                 style = MaterialTheme.typography.titleMedium
@@ -370,71 +465,119 @@ private fun ResultCard(
             
             Spacer(modifier = Modifier.height(16.dp))
             
-            // Frase correta
-            Text(
-                "Resposta correta:",
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-            
-            Text(
-                text = correctSentence,
-                style = MaterialTheme.typography.bodyLarge,
-                fontWeight = FontWeight.Medium,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.padding(vertical = 8.dp)
-            )
+            // Texto correto
+            Card(
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surface
+                )
+            ) {
+                Column(
+                    modifier = Modifier.padding(12.dp)
+                ) {
+                    Text(
+                        "✅ Texto correto:",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = Color(0xFF4CAF50)
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = correctText,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+            }
             
             // Sua resposta com erros destacados
             if (result.mistakes.isNotEmpty()) {
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    "Sua resposta:",
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                Spacer(modifier = Modifier.height(12.dp))
                 
-                HighlightedText(
-                    userText = result.userText,
-                    mistakes = result.mistakes
-                )
-                
-                Spacer(modifier = Modifier.height(8.dp))
-                
-                // Lista de erros
-                result.mistakes.take(3).forEach { mistake ->
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(vertical = 2.dp)
+                Card(
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.3f)
+                    )
+                ) {
+                    Column(
+                        modifier = Modifier.padding(12.dp)
                     ) {
                         Text(
-                            text = "${mistake.type.emoji} ",
-                            fontSize = 12.sp
+                            "❌ Sua resposta (${result.mistakes.size} erros):",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.error
                         )
-                        Text(
-                            text = when (mistake.type) {
-                                MistakeType.SPELLING -> "\"${mistake.actual}\" → \"${mistake.expected}\""
-                                MistakeType.MISSING_WORD -> "Faltou: \"${mistake.expected}\""
-                                MistakeType.EXTRA_WORD -> "Extra: \"${mistake.actual}\""
-                                else -> "${mistake.type.label}"
-                            },
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        HighlightedText(
+                            userText = result.userText,
+                            mistakes = result.mistakes
                         )
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        // Lista de erros
+                        result.mistakes.take(5).forEach { mistake ->
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(vertical = 2.dp)
+                            ) {
+                                Text(
+                                    text = "${mistake.type.emoji} ",
+                                    fontSize = 12.sp
+                                )
+                                Text(
+                                    text = when (mistake.type) {
+                                        MistakeType.SPELLING -> "\"${mistake.actual}\" → \"${mistake.expected}\""
+                                        MistakeType.MISSING_WORD -> "Faltou: \"${mistake.expected}\""
+                                        MistakeType.EXTRA_WORD -> "Extra: \"${mistake.actual}\""
+                                        else -> "${mistake.type.label}"
+                                    },
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                        }
+                        
+                        if (result.mistakes.size > 5) {
+                            Text(
+                                "... e mais ${result.mistakes.size - 5} erros",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
                     }
                 }
             }
             
             Spacer(modifier = Modifier.height(16.dp))
             
-            Button(
-                onClick = onNext,
-                modifier = Modifier.fillMaxWidth()
+            // Botões
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Icon(Icons.Default.SkipNext, null)
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("Próximo")
+                // Refazer
+                Button(
+                    onClick = onRetry,
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                        contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                ) {
+                    Icon(Icons.Default.Replay, null)
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text("Refazer")
+                }
+                
+                // Próximo
+                Button(
+                    onClick = onNext,
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Próximo")
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Icon(Icons.Default.SkipNext, null)
+                }
             }
         }
     }
@@ -455,7 +598,8 @@ private fun HighlightedText(
                 if (index in errorPositions) {
                     withStyle(SpanStyle(
                         color = Color(0xFFF44336),
-                        textDecoration = TextDecoration.LineThrough
+                        textDecoration = TextDecoration.LineThrough,
+                        fontWeight = FontWeight.Bold
                     )) {
                         append(word)
                     }
@@ -464,9 +608,7 @@ private fun HighlightedText(
                 }
             }
         },
-        style = MaterialTheme.typography.bodyLarge,
-        textAlign = TextAlign.Center,
-        modifier = Modifier.padding(8.dp)
+        style = MaterialTheme.typography.bodyMedium
     )
 }
 
@@ -474,7 +616,9 @@ private fun HighlightedText(
 private fun SessionCompleteCard(
     averageScore: Float,
     totalExercises: Int,
-    onContinue: () -> Unit
+    completedCount: Int,
+    onContinue: () -> Unit,
+    onSelectAnotherStage: () -> Unit
 ) {
     Card(
         modifier = Modifier
@@ -522,19 +666,47 @@ private fun SessionCompleteCard(
                     )
                     Text("Média", style = MaterialTheme.typography.bodySmall)
                 }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text(
+                        "$completedCount",
+                        style = MaterialTheme.typography.headlineMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = Color(0xFF4CAF50)
+                    )
+                    Text("100%", style = MaterialTheme.typography.bodySmall)
+                }
             }
             
             Spacer(modifier = Modifier.height(24.dp))
             
-            Button(onClick = onContinue) {
-                Text("Continuar")
+            Button(
+                onClick = onSelectAnotherStage,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Escolher outro Stage")
+            }
+            
+            Spacer(modifier = Modifier.height(8.dp))
+            
+            Button(
+                onClick = onContinue,
+                modifier = Modifier.fillMaxWidth(),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+                )
+            ) {
+                Text("Voltar ao Menu")
             }
         }
     }
 }
 
 @Composable
-private fun EmptyMessage(onBack: () -> Unit) {
+private fun EmptyMessage(
+    onBack: () -> Unit,
+    onSelectStage: () -> Unit
+) {
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -548,21 +720,21 @@ private fun EmptyMessage(onBack: () -> Unit) {
         )
         Spacer(modifier = Modifier.height(8.dp))
         Text(
-            "Tente selecionar outro nível",
+            "Tente selecionar outro Stage",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
         Spacer(modifier = Modifier.height(24.dp))
-        Button(onClick = onBack) {
-            Text("Voltar")
+        Button(onClick = onSelectStage) {
+            Text("Escolher Stage")
         }
     }
 }
 
 @Composable
-private fun LevelSelectionCard(
-    availableLevels: List<Int>,
-    onSelectLevel: (Int) -> Unit
+private fun StageSelectionCard(
+    availableStages: List<Int>,
+    onSelectStage: (Int) -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -574,7 +746,7 @@ private fun LevelSelectionCard(
         Spacer(modifier = Modifier.height(16.dp))
         
         Text(
-            "Escolha o Nível",
+            "Callan Method Dictation",
             style = MaterialTheme.typography.headlineSmall,
             fontWeight = FontWeight.Bold
         )
@@ -582,51 +754,93 @@ private fun LevelSelectionCard(
         Spacer(modifier = Modifier.height(8.dp))
         
         Text(
-            "Selecione o nível de dificuldade para praticar",
+            "Escolha o Stage para praticar",
             style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center
+        )
+        
+        Text(
+            "Ouça o texto 3 vezes e escreva o que ouviu",
+            style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
         )
         
         Spacer(modifier = Modifier.height(24.dp))
         
-        // Grid de níveis (2 colunas)
+        // Grid de Stages
         Column(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            availableLevels.chunked(3).forEach { row ->
+            availableStages.chunked(3).forEach { row ->
                 Row(
                     horizontalArrangement = Arrangement.spacedBy(12.dp),
                     modifier = Modifier.fillMaxWidth(),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Spacer(modifier = Modifier.weight(1f))
-                    row.forEach { level ->
+                    row.forEach { stage ->
                         Button(
-                            onClick = { onSelectLevel(level) },
+                            onClick = { onSelectStage(stage) },
                             modifier = Modifier.size(80.dp),
                             shape = RoundedCornerShape(16.dp),
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = when {
-                                    level <= 2 -> Color(0xFF4CAF50) // Verde - fácil
-                                    level <= 4 -> Color(0xFF8BC34A) // Verde claro
-                                    level <= 6 -> Color(0xFFFFEB3B) // Amarelo
-                                    level <= 8 -> Color(0xFFFF9800) // Laranja
-                                    level <= 10 -> Color(0xFFFF5722) // Laranja escuro
-                                    else -> Color(0xFFF44336) // Vermelho - difícil
+                                    stage <= 3 -> Color(0xFF4CAF50) // Verde - Beginner
+                                    stage <= 6 -> Color(0xFF8BC34A) // Verde claro - Elementary
+                                    stage <= 9 -> Color(0xFFFF9800) // Laranja - Intermediate
+                                    else -> Color(0xFFF44336) // Vermelho - Advanced
                                 }
                             )
                         ) {
-                            Text(
-                                "$level",
-                                style = MaterialTheme.typography.titleLarge,
-                                fontWeight = FontWeight.Bold
-                            )
+                            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                Text(
+                                    "$stage",
+                                    style = MaterialTheme.typography.titleLarge,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
                         }
                     }
                     Spacer(modifier = Modifier.weight(1f))
                 }
             }
         }
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
+        // Legenda
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            LegendItem(Color(0xFF4CAF50), "1-3: Beginner")
+            LegendItem(Color(0xFF8BC34A), "4-6: Elementary")
+        }
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            LegendItem(Color(0xFFFF9800), "7-9: Intermediate")
+            LegendItem(Color(0xFFF44336), "10-12: Advanced")
+        }
+    }
+}
+
+@Composable
+private fun LegendItem(color: Color, label: String) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(4.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .size(12.dp)
+                .background(color, CircleShape)
+        )
+        Text(
+            label,
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
     }
 }

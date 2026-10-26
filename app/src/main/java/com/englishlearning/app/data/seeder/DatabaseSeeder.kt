@@ -61,24 +61,44 @@ class DatabaseSeeder @Inject constructor(
      * Requisito 11.1: primeira inicialização popula o banco.
      */
     suspend fun seedIfNeeded() {
-        if (prefs.getBoolean(KEY_DB_SEEDED, false)) {
-            Log.d(TAG, "Database already seeded — skipping.")
-            return
+        val isFullySeeded = prefs.getBoolean(KEY_DB_SEEDED, false)
+        
+        if (!isFullySeeded) {
+            Log.i(TAG, "Starting database seeding...")
+            try {
+                seedLevels()
+                seedCategories()
+                seedExercises()
+                seedVocabulary()
+                seedGrammarLessons()
+                seedDictationExercises()
+                prefs.edit().putBoolean(KEY_DB_SEEDED, true).apply()
+                Log.i(TAG, "Database seeding completed successfully.")
+            } catch (e: Exception) {
+                // Seeding failure is non-fatal: the app will retry on the next launch.
+                Log.e(TAG, "Database seeding failed — will retry on next launch.", e)
+            }
+        } else {
+            Log.d(TAG, "Database already seeded — checking for missing data.")
+            // Verifica se a tabela de dictation_exercises precisa ser re-seedada
+            // (pode acontecer após migração que dropa a tabela)
+            checkAndSeedDictationIfEmpty()
         }
-
-        Log.i(TAG, "Starting database seeding...")
+    }
+    
+    /**
+     * Verifica se a tabela de exercícios de ditado está vazia e seed se necessário.
+     * Isso é útil após migrações que dropam e recriam a tabela.
+     */
+    private suspend fun checkAndSeedDictationIfEmpty() {
         try {
-            seedLevels()
-            seedCategories()
-            seedExercises()
-            seedVocabulary()
-            seedGrammarLessons()
-            seedDictationExercises()
-            prefs.edit().putBoolean(KEY_DB_SEEDED, true).apply()
-            Log.i(TAG, "Database seeding completed successfully.")
+            val count = db.dictationDao().getTotalExerciseCount()
+            if (count == 0) {
+                Log.i(TAG, "Dictation exercises table is empty — reseeding...")
+                seedDictationExercises()
+            }
         } catch (e: Exception) {
-            // Seeding failure is non-fatal: the app will retry on the next launch.
-            Log.e(TAG, "Database seeding failed — will retry on next launch.", e)
+            Log.e(TAG, "Error checking/seeding dictation exercises: ${e.message}", e)
         }
     }
 
@@ -327,11 +347,12 @@ class DatabaseSeeder @Inject constructor(
     }
 
     // -----------------------------------------------------------------------
-    // Dictation Exercises seeding (v1.28.0)
+    // Dictation Exercises seeding (v1.30.0) - Callan Method Style
     // -----------------------------------------------------------------------
 
     /**
      * Lê `assets/content/dictation_exercises.json` e insere os exercícios de ditado no banco.
+     * Formato Callan: textos completos organizados por Stage (1-12).
      */
     private suspend fun seedDictationExercises() {
         val dictationJson = readAsset(DICTATION_EXERCISES_ASSET_PATH) ?: run {
@@ -349,17 +370,18 @@ class DatabaseSeeder @Inject constructor(
         val entities = exercises.map { exercise ->
             DictationExerciseEntity(
                 id = exercise.id,
-                sentence = exercise.sentence,
+                stage = exercise.stage,
+                title = exercise.title,
+                text = exercise.text,
                 translation = exercise.translation,
-                levelId = exercise.levelId,
-                difficulty = exercise.difficulty,
-                keywords = exercise.keywords,
-                grammarTopic = exercise.grammarTopic
+                wordCount = exercise.wordCount,
+                grammarFocus = exercise.grammarFocus,
+                completed = false
             )
         }
         db.dictationDao().insertExercises(entities)
 
-        Log.d(TAG, "Seeded ${entities.size} dictation exercises.")
+        Log.d(TAG, "Seeded ${entities.size} dictation exercises (Callan style).")
     }
 
     // -----------------------------------------------------------------------

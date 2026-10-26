@@ -1,22 +1,32 @@
 package com.englishlearning.app.domain.model
 
 /**
- * Modelos de domínio para Ditado (Spaced Writing).
+ * Modelos de domínio para Ditado no estilo Callan Method.
+ * Textos completos por Stage (1-12) com reprodução 3x e correção detalhada.
  */
 
 /**
- * Exercício de ditado.
+ * Exercício de ditado (estilo Callan).
  */
 data class DictationExercise(
     val id: Long = 0,
-    val sentence: String,
+    val stage: Int,
+    val title: String,
+    val text: String,
     val translation: String? = null,
-    val levelId: Int,
-    val difficulty: DictationDifficulty = DictationDifficulty.MEDIUM,
-    val grammarTopic: String? = null,
-    val keywords: List<String> = emptyList(),
-    val sourceDrillId: Int? = null
-)
+    val wordCount: Int = 0,
+    val grammarFocus: String? = null,
+    val completed: Boolean = false
+) {
+    /** Dificuldade calculada baseada no stage */
+    val difficulty: DictationDifficulty
+        get() = when (stage) {
+            in 1..3 -> DictationDifficulty.EASY
+            in 4..6 -> DictationDifficulty.MEDIUM
+            in 7..9 -> DictationDifficulty.HARD
+            else -> DictationDifficulty.EXPERT
+        }
+}
 
 /**
  * Nível de dificuldade do ditado.

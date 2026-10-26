@@ -10,13 +10,14 @@ import com.englishlearning.app.data.database.entity.DictationProgressEntity
 import kotlinx.coroutines.flow.Flow
 
 /**
- * DAO para exercícios de ditado (Spaced Writing).
+ * DAO para exercícios de ditado no estilo Callan Method.
+ * Organizado por Stages (1-12) com textos completos.
  */
 @Dao
 interface DictationDao {
     
     // ═══════════════════════════════════════════════════════════════════════
-    // Dictation Exercises
+    // Dictation Exercises (Callan Style)
     // ═══════════════════════════════════════════════════════════════════════
     
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -28,23 +29,38 @@ interface DictationDao {
     @Query("SELECT * FROM dictation_exercises WHERE id = :id")
     suspend fun getExerciseById(id: Long): DictationExerciseEntity?
     
-    @Query("SELECT * FROM dictation_exercises WHERE levelId = :levelId ORDER BY difficulty")
-    suspend fun getExercisesByLevel(levelId: Int): List<DictationExerciseEntity>
+    @Query("SELECT * FROM dictation_exercises WHERE stage = :stage ORDER BY id")
+    suspend fun getExercisesByStage(stage: Int): List<DictationExerciseEntity>
     
-    @Query("SELECT * FROM dictation_exercises WHERE levelId = :levelId ORDER BY difficulty")
-    fun getExercisesByLevelFlow(levelId: Int): Flow<List<DictationExerciseEntity>>
+    @Query("SELECT * FROM dictation_exercises WHERE stage = :stage ORDER BY id")
+    fun getExercisesByStageFlow(stage: Int): Flow<List<DictationExerciseEntity>>
     
-    @Query("SELECT * FROM dictation_exercises WHERE sourceDrillId = :drillId LIMIT 1")
-    suspend fun getExerciseByDrill(drillId: Int): DictationExerciseEntity?
+    @Query("SELECT * FROM dictation_exercises ORDER BY stage, id")
+    suspend fun getAllExercises(): List<DictationExerciseEntity>
     
-    @Query("SELECT * FROM dictation_exercises WHERE difficulty = :difficulty ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getExercisesByDifficulty(difficulty: Int, limit: Int = 10): List<DictationExerciseEntity>
+    @Query("SELECT * FROM dictation_exercises ORDER BY stage, id")
+    fun getAllExercisesFlow(): Flow<List<DictationExerciseEntity>>
     
-    @Query("SELECT COUNT(*) FROM dictation_exercises WHERE levelId = :levelId")
-    suspend fun getExerciseCountByLevel(levelId: Int): Int
+    @Query("SELECT DISTINCT stage FROM dictation_exercises ORDER BY stage")
+    suspend fun getAvailableStages(): List<Int>
+    
+    @Query("SELECT COUNT(*) FROM dictation_exercises WHERE stage = :stage")
+    suspend fun getExerciseCountByStage(stage: Int): Int
     
     @Query("SELECT COUNT(*) FROM dictation_exercises")
     suspend fun getTotalExerciseCount(): Int
+    
+    @Update
+    suspend fun updateExercise(exercise: DictationExerciseEntity)
+    
+    @Query("UPDATE dictation_exercises SET completed = :completed WHERE id = :exerciseId")
+    suspend fun markCompleted(exerciseId: Long, completed: Boolean)
+    
+    @Query("SELECT COUNT(*) FROM dictation_exercises WHERE stage = :stage AND completed = 1")
+    suspend fun getCompletedCountByStage(stage: Int): Int
+    
+    @Query("SELECT COUNT(*) FROM dictation_exercises WHERE completed = 1")
+    suspend fun getTotalCompletedCount(): Int
     
     // ═══════════════════════════════════════════════════════════════════════
     // Dictation Progress (SRS)
@@ -87,23 +103,26 @@ interface DictationDao {
     fun getDueCountFlow(userId: Long, today: String): Flow<Int>
     
     /**
-     * Obtém exercícios novos (sem progresso ainda).
+     * Obtém exercícios novos (sem progresso ainda) por stage.
      */
     @Query("""
         SELECT de.* FROM dictation_exercises de
         LEFT JOIN dictation_progress dp ON de.id = dp.exerciseId AND dp.userId = :userId
-        WHERE dp.exerciseId IS NULL AND de.levelId <= :maxLevel
-        ORDER BY de.levelId ASC, de.difficulty ASC
+        WHERE dp.exerciseId IS NULL AND de.stage = :stage
+        ORDER BY de.id ASC
         LIMIT :limit
     """)
-    suspend fun getNewExercises(userId: Long, maxLevel: Int, limit: Int = 10): List<DictationExerciseEntity>
+    suspend fun getNewExercisesByStage(userId: Long, stage: Int, limit: Int = 10): List<DictationExerciseEntity>
     
+    /**
+     * Obtém exercícios não completos por stage.
+     */
     @Query("""
-        SELECT COUNT(*) FROM dictation_exercises de
-        LEFT JOIN dictation_progress dp ON de.id = dp.exerciseId AND dp.userId = :userId
-        WHERE dp.exerciseId IS NULL
+        SELECT * FROM dictation_exercises 
+        WHERE stage = :stage AND completed = 0
+        ORDER BY id ASC
     """)
-    suspend fun getNewCount(userId: Long): Int
+    suspend fun getIncompleteByStage(stage: Int): List<DictationExerciseEntity>
     
     /**
      * Atualiza parâmetros SRS após revisão.

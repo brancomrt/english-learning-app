@@ -182,20 +182,20 @@ data class GrammarExampleJsonModel(
 )
 
 // ---------------------------------------------------------------------------
-// Dictation models (v1.28.0)
+// Dictation models (v1.30.0) - Callan Method Style
 // ---------------------------------------------------------------------------
 
 /**
- * Modelo JSON para um exercício de ditado.
+ * Modelo JSON para um exercício de ditado no estilo Callan.
  * Corresponde a [com.englishlearning.app.data.database.entity.DictationExerciseEntity].
  */
 @Serializable
 data class DictationExerciseJsonModel(
     val id: Long,
-    val sentence: String,
+    val stage: Int,
+    val title: String,
+    val text: String,
     val translation: String? = null,
-    val levelId: Int,
-    val difficulty: Int = 1,
-    val keywords: String? = null,
-    val grammarTopic: String? = null
+    val wordCount: Int = 0,
+    val grammarFocus: String? = null
 )

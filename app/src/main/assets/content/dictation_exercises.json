@@ -1,272 +1,326 @@
 [
   {
     "id": 1,
-    "sentence": "Hello, how are you?",
-    "translation": "Olá, como você está?",
-    "levelId": 1,
-    "difficulty": 1,
-    "keywords": "hello,how,are,you",
-    "grammarTopic": "Greetings"
+    "stage": 1,
+    "title": "Basic Objects",
+    "text": "This is a pen. This is a book. This is a table. The pen is on the table. The book is on the table too.",
+    "translation": "Isto é uma caneta. Isto é um livro. Isto é uma mesa. A caneta está na mesa. O livro também está na mesa.",
+    "wordCount": 26,
+    "grammarFocus": "This is, Articles (a/the), Prepositions (on)"
   },
   {
     "id": 2,
-    "sentence": "My name is John.",
-    "translation": "Meu nome é John.",
-    "levelId": 1,
-    "difficulty": 1,
-    "keywords": "my,name,is",
-    "grammarTopic": "Introduction"
+    "stage": 1,
+    "title": "Colors and Objects",
+    "text": "What is this? It is a chair. The chair is brown. Is the chair big? No, the chair is not big. It is small.",
+    "translation": "O que é isto? É uma cadeira. A cadeira é marrom. A cadeira é grande? Não, a cadeira não é grande. É pequena.",
+    "wordCount": 28,
+    "grammarFocus": "What questions, Colors, Adjectives, Negatives"
   },
   {
     "id": 3,
-    "sentence": "I am a student.",
-    "translation": "Eu sou um estudante.",
-    "levelId": 1,
-    "difficulty": 1,
-    "keywords": "am,student",
-    "grammarTopic": "To Be"
+    "stage": 1,
+    "title": "The Classroom",
+    "text": "I am in a room. The room has a door and a window. The door is closed. The window is open. There is a light on the ceiling.",
+    "translation": "Eu estou em uma sala. A sala tem uma porta e uma janela. A porta está fechada. A janela está aberta. Há uma luz no teto.",
+    "wordCount": 31,
+    "grammarFocus": "To be, There is, Prepositions"
   },
   {
     "id": 4,
-    "sentence": "She is my friend.",
-    "translation": "Ela é minha amiga.",
-    "levelId": 1,
-    "difficulty": 1,
-    "keywords": "she,is,my,friend",
-    "grammarTopic": "To Be"
+    "stage": 2,
+    "title": "My Family",
+    "text": "I have a family. My father is tall. My mother is kind. I have one brother and one sister. My brother is older than me. My sister is younger.",
+    "translation": "Eu tenho uma família. Meu pai é alto. Minha mãe é gentil. Tenho um irmão e uma irmã. Meu irmão é mais velho que eu. Minha irmã é mais nova.",
+    "wordCount": 34,
+    "grammarFocus": "Have, Possessives, Comparatives"
   },
   {
     "id": 5,
-    "sentence": "The weather is nice today.",
-    "translation": "O clima está bom hoje.",
-    "levelId": 1,
-    "difficulty": 1,
-    "keywords": "weather,nice,today",
-    "grammarTopic": "Description"
+    "stage": 2,
+    "title": "Daily Routine",
+    "text": "I wake up at seven o'clock. I wash my face and brush my teeth. Then I have breakfast. I drink coffee and eat bread. After that, I go to work.",
+    "translation": "Eu acordo às sete horas. Eu lavo meu rosto e escovo meus dentes. Depois tomo café da manhã. Bebo café e como pão. Depois disso, vou trabalhar.",
+    "wordCount": 36,
+    "grammarFocus": "Simple Present, Time expressions, Daily activities"
   },
   {
     "id": 6,
-    "sentence": "I like to read books.",
-    "translation": "Eu gosto de ler livros.",
-    "levelId": 2,
-    "difficulty": 1,
-    "keywords": "like,read,books",
-    "grammarTopic": "Simple Present"
+    "stage": 2,
+    "title": "The Weather",
+    "text": "Today the weather is nice. The sun is shining. It is not cold. It is warm. I like warm days. When it rains, I stay at home. I do not like rain.",
+    "translation": "Hoje o tempo está bom. O sol está brilhando. Não está frio. Está quente. Eu gosto de dias quentes. Quando chove, fico em casa. Não gosto de chuva.",
+    "wordCount": 38,
+    "grammarFocus": "Weather vocabulary, Present Continuous, When clauses"
   },
   {
     "id": 7,
-    "sentence": "She works at a hospital.",
-    "translation": "Ela trabalha em um hospital.",
-    "levelId": 2,
-    "difficulty": 1,
-    "keywords": "works,hospital",
-    "grammarTopic": "Simple Present"
+    "stage": 3,
+    "title": "Shopping",
+    "text": "Yesterday I went to the shop. I wanted to buy some food. I bought milk, bread, and eggs. The milk was expensive. The eggs were cheap. I paid with my card.",
+    "translation": "Ontem eu fui à loja. Eu queria comprar comida. Comprei leite, pão e ovos. O leite estava caro. Os ovos estavam baratos. Paguei com meu cartão.",
+    "wordCount": 37,
+    "grammarFocus": "Simple Past, Irregular verbs, Adjectives (expensive/cheap)"
   },
   {
     "id": 8,
-    "sentence": "Do you speak English?",
-    "translation": "Você fala inglês?",
-    "levelId": 2,
-    "difficulty": 1,
-    "keywords": "do,speak,English",
-    "grammarTopic": "Questions"
+    "stage": 3,
+    "title": "At the Restaurant",
+    "text": "We are at a restaurant. The waiter is coming to our table. He asks what we would like to eat. I order fish and salad. My friend orders chicken. We also ask for water.",
+    "translation": "Estamos em um restaurante. O garçom está vindo à nossa mesa. Ele pergunta o que gostaríamos de comer. Peço peixe e salada. Meu amigo pede frango. Também pedimos água.",
+    "wordCount": 42,
+    "grammarFocus": "Present Continuous, Would like, Order vocabulary"
   },
   {
     "id": 9,
-    "sentence": "They don't like coffee.",
-    "translation": "Eles não gostam de café.",
-    "levelId": 2,
-    "difficulty": 2,
-    "keywords": "don't,like,coffee",
-    "grammarTopic": "Negatives"
+    "stage": 3,
+    "title": "My Job",
+    "text": "I work in an office. I start work at nine in the morning. I use a computer every day. I send emails and make phone calls. I finish work at five. Sometimes I work late.",
+    "translation": "Eu trabalho em um escritório. Começo a trabalhar às nove da manhã. Uso um computador todos os dias. Envio emails e faço ligações. Termino às cinco. Às vezes trabalho até tarde.",
+    "wordCount": 40,
+    "grammarFocus": "Work vocabulary, Time expressions, Frequency adverbs"
   },
   {
     "id": 10,
-    "sentence": "What time does the bus arrive?",
-    "translation": "A que horas o ônibus chega?",
-    "levelId": 2,
-    "difficulty": 2,
-    "keywords": "what,time,does,bus,arrive",
-    "grammarTopic": "Questions"
+    "stage": 4,
+    "title": "Travel Plans",
+    "text": "Next summer I am going to travel to Europe. I will visit three countries. First, I will go to France. Then I will fly to Italy. Finally, I will take a train to Spain. I am very excited.",
+    "translation": "No próximo verão vou viajar para a Europa. Visitarei três países. Primeiro, irei à França. Depois voarei para a Itália. Finalmente, pegarei um trem para a Espanha. Estou muito animado.",
+    "wordCount": 44,
+    "grammarFocus": "Future tenses (will/going to), Sequencing words, Travel vocabulary"
   },
   {
     "id": 11,
-    "sentence": "I am studying for my exam.",
-    "translation": "Eu estou estudando para minha prova.",
-    "levelId": 3,
-    "difficulty": 2,
-    "keywords": "am,studying,exam",
-    "grammarTopic": "Present Continuous"
+    "stage": 4,
+    "title": "Health and Exercise",
+    "text": "I try to stay healthy. I exercise three times a week. I go to the gym on Monday, Wednesday, and Friday. I run on the treadmill and lift weights. After exercising, I always feel better.",
+    "translation": "Tento me manter saudável. Faço exercícios três vezes por semana. Vou à academia na segunda, quarta e sexta. Corro na esteira e levanto pesos. Depois de me exercitar, sempre me sinto melhor.",
+    "wordCount": 41,
+    "grammarFocus": "Frequency expressions, Days of the week, Health vocabulary"
   },
   {
     "id": 12,
-    "sentence": "What are you doing right now?",
-    "translation": "O que você está fazendo agora?",
-    "levelId": 3,
-    "difficulty": 2,
-    "keywords": "what,are,doing,right,now",
-    "grammarTopic": "Present Continuous"
+    "stage": 4,
+    "title": "The Weekend",
+    "text": "Last weekend was very nice. On Saturday morning, I cleaned my apartment. In the afternoon, I met my friends at a café. We talked for hours. On Sunday, I relaxed at home and watched a film.",
+    "translation": "O último fim de semana foi muito bom. No sábado de manhã, limpei meu apartamento. À tarde, encontrei meus amigos em um café. Conversamos por horas. No domingo, relaxei em casa e assisti um filme.",
+    "wordCount": 43,
+    "grammarFocus": "Simple Past, Time expressions (morning/afternoon), Weekend activities"
   },
   {
     "id": 13,
-    "sentence": "There are many people in the park.",
-    "translation": "Há muitas pessoas no parque.",
-    "levelId": 3,
-    "difficulty": 2,
-    "keywords": "there,are,many,people,park",
-    "grammarTopic": "There is/are"
+    "stage": 5,
+    "title": "A Childhood Memory",
+    "text": "When I was a child, I used to live in a small town. Every summer, I would visit my grandparents. They had a big garden with many trees. I used to climb those trees and play with my cousins.",
+    "translation": "Quando eu era criança, morava em uma cidade pequena. Todo verão, visitava meus avós. Eles tinham um grande jardim com muitas árvores. Eu costumava subir nessas árvores e brincar com meus primos.",
+    "wordCount": 46,
+    "grammarFocus": "Used to, Would (past habit), Past Continuous"
   },
   {
     "id": 14,
-    "sentence": "Is she coming to the party?",
-    "translation": "Ela está vindo para a festa?",
-    "levelId": 3,
-    "difficulty": 2,
-    "keywords": "is,coming,party",
-    "grammarTopic": "Present Continuous"
+    "stage": 5,
+    "title": "Technology",
+    "text": "Technology has changed our lives in many ways. We can now communicate with people all over the world instantly. We can find any information on the internet. However, some people think we spend too much time on our phones.",
+    "translation": "A tecnologia mudou nossas vidas de várias formas. Agora podemos nos comunicar com pessoas do mundo todo instantaneamente. Podemos encontrar qualquer informação na internet. Porém, algumas pessoas acham que passamos tempo demais nos celulares.",
+    "wordCount": 43,
+    "grammarFocus": "Present Perfect, Can (ability), However (contrast)"
   },
   {
     "id": 15,
-    "sentence": "They are not working today.",
-    "translation": "Eles não estão trabalhando hoje.",
-    "levelId": 3,
-    "difficulty": 2,
-    "keywords": "are,not,working,today",
-    "grammarTopic": "Present Continuous"
+    "stage": 5,
+    "title": "Environmental Concerns",
+    "text": "The environment is in danger. We must protect our planet. We should recycle more and use less plastic. If we do not act now, the situation will become worse. Everyone can make a difference by changing small habits.",
+    "translation": "O meio ambiente está em perigo. Devemos proteger nosso planeta. Deveríamos reciclar mais e usar menos plástico. Se não agirmos agora, a situação vai piorar. Todos podem fazer a diferença mudando pequenos hábitos.",
+    "wordCount": 43,
+    "grammarFocus": "Modal verbs (must/should), First Conditional, Environment vocabulary"
   },
   {
     "id": 16,
-    "sentence": "I went to the beach yesterday.",
-    "translation": "Eu fui à praia ontem.",
-    "levelId": 4,
-    "difficulty": 2,
-    "keywords": "went,beach,yesterday",
-    "grammarTopic": "Simple Past"
+    "stage": 6,
+    "title": "Job Interview",
+    "text": "I had a job interview yesterday. The interviewer asked me about my experience and qualifications. I told her that I had worked in marketing for five years. She seemed impressed. I hope I will get the job. They will call me next week.",
+    "translation": "Tive uma entrevista de emprego ontem. A entrevistadora perguntou sobre minha experiência e qualificações. Disse a ela que tinha trabalhado em marketing por cinco anos. Ela pareceu impressionada. Espero conseguir o emprego. Eles vão me ligar semana que vem.",
+    "wordCount": 49,
+    "grammarFocus": "Past Perfect, Reported Speech introduction, Job vocabulary"
   },
   {
     "id": 17,
-    "sentence": "She bought a new car last week.",
-    "translation": "Ela comprou um carro novo na semana passada.",
-    "levelId": 4,
-    "difficulty": 2,
-    "keywords": "bought,new,car,last,week",
-    "grammarTopic": "Simple Past"
+    "stage": 6,
+    "title": "A Trip Gone Wrong",
+    "text": "My flight was supposed to leave at eight, but it was delayed by three hours. When I finally arrived, I discovered that the hotel had lost my reservation. Fortunately, they found me another room. Despite the problems, I enjoyed my holiday.",
+    "translation": "Meu voo deveria sair às oito, mas atrasou três horas. Quando finalmente cheguei, descobri que o hotel havia perdido minha reserva. Felizmente, encontraram outro quarto para mim. Apesar dos problemas, aproveitei minhas férias.",
+    "wordCount": 46,
+    "grammarFocus": "Passive voice, Past Perfect, Despite + noun"
   },
   {
     "id": 18,
-    "sentence": "Did you see the movie?",
-    "translation": "Você viu o filme?",
-    "levelId": 4,
-    "difficulty": 2,
-    "keywords": "did,see,movie",
-    "grammarTopic": "Simple Past"
+    "stage": 6,
+    "title": "Learning Languages",
+    "text": "I have been learning English for three years. At first, it was very difficult, but I have improved a lot. The most challenging part is pronunciation. I practice every day by listening to podcasts and watching films in English without subtitles.",
+    "translation": "Tenho aprendido inglês há três anos. No início era muito difícil, mas melhorei muito. A parte mais desafiadora é a pronúncia. Pratico todos os dias ouvindo podcasts e assistindo filmes em inglês sem legendas.",
+    "wordCount": 47,
+    "grammarFocus": "Present Perfect Continuous, Superlatives, By + gerund"
   },
   {
     "id": 19,
-    "sentence": "We didn't have time to finish.",
-    "translation": "Nós não tivemos tempo para terminar.",
-    "levelId": 4,
-    "difficulty": 3,
-    "keywords": "didn't,have,time,finish",
-    "grammarTopic": "Simple Past"
+    "stage": 7,
+    "title": "The Future of Work",
+    "text": "By the year two thousand fifty, many jobs that exist today will have disappeared. Robots and artificial intelligence will be doing tasks that humans currently perform. However, new types of jobs will have emerged. Workers will need to constantly adapt and learn new skills.",
+    "translation": "Até o ano de dois mil e cinquenta, muitos empregos que existem hoje terão desaparecido. Robôs e inteligência artificial estarão fazendo tarefas que humanos atualmente realizam. Porém, novos tipos de trabalho terão surgido. Trabalhadores precisarão se adaptar constantemente e aprender novas habilidades.",
+    "wordCount": 50,
+    "grammarFocus": "Future Perfect, Future Continuous, Will need to"
   },
   {
     "id": 20,
-    "sentence": "What happened at the meeting?",
-    "translation": "O que aconteceu na reunião?",
-    "levelId": 4,
-    "difficulty": 3,
-    "keywords": "what,happened,meeting",
-    "grammarTopic": "Simple Past"
+    "stage": 7,
+    "title": "A Scientific Discovery",
+    "text": "Scientists have recently made an important discovery. They have found evidence that water may exist on Mars. This discovery could mean that life once existed on the planet. If this is confirmed, it would be one of the most significant findings in history.",
+    "translation": "Cientistas recentemente fizeram uma descoberta importante. Encontraram evidências de que água pode existir em Marte. Esta descoberta pode significar que vida já existiu no planeta. Se isso for confirmado, seria uma das descobertas mais significativas da história.",
+    "wordCount": 50,
+    "grammarFocus": "Present Perfect, Modal verbs (may/could/would), Second Conditional"
   },
   {
     "id": 21,
-    "sentence": "I will call you tomorrow.",
-    "translation": "Eu vou te ligar amanhã.",
-    "levelId": 5,
-    "difficulty": 2,
-    "keywords": "will,call,tomorrow",
-    "grammarTopic": "Future Will"
+    "stage": 7,
+    "title": "Cultural Differences",
+    "text": "When travelling to different countries, it is important to understand local customs. What might be considered polite in one culture could be offensive in another. For example, in some Asian countries, you should remove your shoes before entering a home.",
+    "translation": "Ao viajar para diferentes países, é importante entender os costumes locais. O que pode ser considerado educado em uma cultura pode ser ofensivo em outra. Por exemplo, em alguns países asiáticos, você deve tirar os sapatos antes de entrar em uma casa.",
+    "wordCount": 48,
+    "grammarFocus": "Gerund as subject, Modal verbs (might/could/should), Passive voice"
   },
   {
     "id": 22,
-    "sentence": "She is going to start a new job.",
-    "translation": "Ela vai começar um novo emprego.",
-    "levelId": 5,
-    "difficulty": 2,
-    "keywords": "going,to,start,new,job",
-    "grammarTopic": "Future Going To"
+    "stage": 8,
+    "title": "The Power of Reading",
+    "text": "Reading has always been considered one of the best ways to improve one's vocabulary and general knowledge. Those who read regularly tend to have better concentration and memory. It is recommended that children be encouraged to read from an early age.",
+    "translation": "A leitura sempre foi considerada uma das melhores formas de melhorar o vocabulário e conhecimento geral. Aqueles que leem regularmente tendem a ter melhor concentração e memória. É recomendado que crianças sejam encorajadas a ler desde cedo.",
+    "wordCount": 48,
+    "grammarFocus": "Passive voice, Those who, Subjunctive (be encouraged)"
   },
   {
     "id": 23,
-    "sentence": "Will you help me with this?",
-    "translation": "Você vai me ajudar com isso?",
-    "levelId": 5,
-    "difficulty": 2,
-    "keywords": "will,help,me,with,this",
-    "grammarTopic": "Future Will"
+    "stage": 8,
+    "title": "Economic Changes",
+    "text": "The global economy has undergone significant changes in recent decades. Many manufacturing jobs have been outsourced to countries where labour is cheaper. Meanwhile, the service sector has grown considerably. These shifts have had both positive and negative effects on different communities.",
+    "translation": "A economia global passou por mudanças significativas nas últimas décadas. Muitos empregos de manufatura foram terceirizados para países onde a mão de obra é mais barata. Enquanto isso, o setor de serviços cresceu consideravelmente. Essas mudanças tiveram efeitos positivos e negativos em diferentes comunidades.",
+    "wordCount": 48,
+    "grammarFocus": "Present Perfect Passive, Where clauses, Both...and"
   },
   {
     "id": 24,
-    "sentence": "We are going to travel next month.",
-    "translation": "Nós vamos viajar no próximo mês.",
-    "levelId": 5,
-    "difficulty": 3,
-    "keywords": "going,to,travel,next,month",
-    "grammarTopic": "Future Going To"
+    "stage": 8,
+    "title": "Mental Health Awareness",
+    "text": "In recent years, there has been a growing awareness of mental health issues. People are becoming more comfortable talking about anxiety and depression. Employers are being encouraged to provide support for their employees' wellbeing. This represents a significant shift in societal attitudes.",
+    "translation": "Nos últimos anos, tem havido uma crescente conscientização sobre questões de saúde mental. As pessoas estão se tornando mais confortáveis para falar sobre ansiedade e depressão. Empregadores estão sendo encorajados a fornecer suporte para o bem-estar de seus funcionários. Isso representa uma mudança significativa nas atitudes da sociedade.",
+    "wordCount": 48,
+    "grammarFocus": "There has been, Present Continuous Passive, Becoming + adjective"
   },
   {
     "id": 25,
-    "sentence": "It won't rain this weekend.",
-    "translation": "Não vai chover neste fim de semana.",
-    "levelId": 5,
-    "difficulty": 3,
-    "keywords": "won't,rain,this,weekend",
-    "grammarTopic": "Future Will"
+    "stage": 9,
+    "title": "Artificial Intelligence Ethics",
+    "text": "As artificial intelligence becomes more advanced, ethical questions are being raised about its use. Should machines be allowed to make decisions that affect human lives? Who is responsible when an autonomous vehicle causes an accident? These are issues that society will need to address carefully.",
+    "translation": "À medida que a inteligência artificial se torna mais avançada, questões éticas estão sendo levantadas sobre seu uso. Máquinas deveriam ser autorizadas a tomar decisões que afetam vidas humanas? Quem é responsável quando um veículo autônomo causa um acidente? Estas são questões que a sociedade precisará abordar cuidadosamente.",
+    "wordCount": 52,
+    "grammarFocus": "As + present simple, Should (ethics), That clauses, Questions in reported speech style"
   },
   {
     "id": 26,
-    "sentence": "I have been to London twice.",
-    "translation": "Eu estive em Londres duas vezes.",
-    "levelId": 6,
-    "difficulty": 3,
-    "keywords": "have,been,to,London,twice",
-    "grammarTopic": "Present Perfect"
+    "stage": 9,
+    "title": "Climate Change Solutions",
+    "text": "Unless drastic measures are taken immediately, the effects of climate change will become irreversible. Governments around the world must work together to reduce carbon emissions. Had we acted decades ago, the situation would not be as severe as it is today.",
+    "translation": "A menos que medidas drásticas sejam tomadas imediatamente, os efeitos das mudanças climáticas se tornarão irreversíveis. Governos ao redor do mundo devem trabalhar juntos para reduzir emissões de carbono. Se tivéssemos agido décadas atrás, a situação não seria tão severa como é hoje.",
+    "wordCount": 49,
+    "grammarFocus": "Unless + present, Third Conditional (Had we acted), As...as"
   },
   {
     "id": 27,
-    "sentence": "She has worked here for five years.",
-    "translation": "Ela trabalha aqui há cinco anos.",
-    "levelId": 6,
-    "difficulty": 3,
-    "keywords": "has,worked,here,for,five,years",
-    "grammarTopic": "Present Perfect"
+    "stage": 9,
+    "title": "The Art World",
+    "text": "Contemporary art is often misunderstood by the general public. What some people consider to be meaningless or even ugly may be highly valued by critics and collectors. The worth of a piece of art cannot always be measured by its visual appeal alone.",
+    "translation": "A arte contemporânea é frequentemente mal compreendida pelo público geral. O que algumas pessoas consideram sem sentido ou até feio pode ser altamente valorizado por críticos e colecionadores. O valor de uma obra de arte nem sempre pode ser medido apenas por seu apelo visual.",
+    "wordCount": 51,
+    "grammarFocus": "Passive voice, What clauses as subject, Cannot + passive"
   },
   {
     "id": 28,
-    "sentence": "Have you ever tried sushi?",
-    "translation": "Você já experimentou sushi?",
-    "levelId": 6,
-    "difficulty": 3,
-    "keywords": "have,ever,tried,sushi",
-    "grammarTopic": "Present Perfect"
+    "stage": 10,
+    "title": "Philosophical Perspectives",
+    "text": "Throughout history, philosophers have debated the nature of reality and consciousness. Some argue that what we perceive as real is merely an illusion created by our minds. Others maintain that there is an objective reality that exists independently of our perception of it.",
+    "translation": "Ao longo da história, filósofos têm debatido a natureza da realidade e da consciência. Alguns argumentam que o que percebemos como real é meramente uma ilusão criada por nossas mentes. Outros sustentam que existe uma realidade objetiva que existe independentemente de nossa percepção dela.",
+    "wordCount": 51,
+    "grammarFocus": "Present Perfect (debate), What clauses, That clauses, Independently of"
   },
   {
     "id": 29,
-    "sentence": "They haven't finished the project yet.",
-    "translation": "Eles ainda não terminaram o projeto.",
-    "levelId": 6,
-    "difficulty": 3,
-    "keywords": "haven't,finished,project,yet",
-    "grammarTopic": "Present Perfect"
+    "stage": 10,
+    "title": "Medical Breakthroughs",
+    "text": "Recent advances in genetic research have opened up possibilities that were once thought impossible. Scientists are now able to edit genes to prevent certain hereditary diseases. While this technology offers tremendous potential benefits, it also raises concerns about where the boundaries should be drawn.",
+    "translation": "Avanços recentes em pesquisa genética abriram possibilidades que antes eram consideradas impossíveis. Cientistas agora são capazes de editar genes para prevenir certas doenças hereditárias. Embora esta tecnologia ofereça tremendos benefícios potenciais, também levanta preocupações sobre onde os limites devem ser estabelecidos.",
+    "wordCount": 51,
+    "grammarFocus": "Present Perfect, That + past passive, While (contrast), Where clauses"
   },
   {
     "id": 30,
-    "sentence": "How long have you lived here?",
-    "translation": "Há quanto tempo você mora aqui?",
-    "levelId": 6,
-    "difficulty": 3,
-    "keywords": "how,long,have,lived,here",
-    "grammarTopic": "Present Perfect"
+    "stage": 10,
+    "title": "Social Media Impact",
+    "text": "It cannot be denied that social media has fundamentally transformed the way people communicate and consume information. Never before have individuals had such immediate access to global events. Nevertheless, concerns have been raised about the spread of misinformation and its effects on democracy.",
+    "translation": "Não se pode negar que as redes sociais transformaram fundamentalmente a forma como as pessoas se comunicam e consomem informação. Nunca antes indivíduos tiveram acesso tão imediato a eventos globais. No entanto, preocupações foram levantadas sobre a disseminação de desinformação e seus efeitos na democracia.",
+    "wordCount": 50,
+    "grammarFocus": "It cannot be denied that, Never before + inversion, Present Perfect Passive"
+  },
+  {
+    "id": 31,
+    "stage": 11,
+    "title": "Linguistic Diversity",
+    "text": "It is estimated that approximately seven thousand languages are spoken worldwide today. However, many of these are at risk of extinction, with some having fewer than a hundred speakers remaining. The loss of a language represents not only the disappearance of a means of communication but also the erasure of unique cultural knowledge.",
+    "translation": "Estima-se que aproximadamente sete mil línguas são faladas mundialmente hoje. No entanto, muitas delas estão em risco de extinção, com algumas tendo menos de cem falantes restantes. A perda de uma língua representa não apenas o desaparecimento de um meio de comunicação, mas também o apagamento de conhecimento cultural único.",
+    "wordCount": 60,
+    "grammarFocus": "It is estimated that, With + noun + gerund, Not only...but also"
+  },
+  {
+    "id": 32,
+    "stage": 11,
+    "title": "Space Exploration",
+    "text": "The prospect of humans colonising other planets, which once seemed like pure science fiction, is now being seriously considered by space agencies and private companies alike. Were such a mission to succeed, it would mark a turning point in human history. The challenges, however, are immense and should not be underestimated.",
+    "translation": "A perspectiva de humanos colonizando outros planetas, que antes parecia pura ficção científica, agora está sendo seriamente considerada por agências espaciais e empresas privadas igualmente. Se tal missão tivesse sucesso, marcaria um ponto de virada na história humana. Os desafios, porém, são imensos e não devem ser subestimados.",
+    "wordCount": 56,
+    "grammarFocus": "Which clauses, Were + subject + to (formal conditional), Should not be + past participle"
+  },
+  {
+    "id": 33,
+    "stage": 11,
+    "title": "Economic Inequality",
+    "text": "The gap between the wealthy and the poor has been widening at an alarming rate. Were this trend to continue unchecked, social unrest would likely intensify. Economists argue that unless significant policy changes are implemented, the situation will only deteriorate further.",
+    "translation": "A distância entre ricos e pobres tem aumentado a uma taxa alarmante. Se esta tendência continuasse sem controle, a agitação social provavelmente se intensificaria. Economistas argumentam que, a menos que mudanças políticas significativas sejam implementadas, a situação só vai piorar ainda mais.",
+    "wordCount": 49,
+    "grammarFocus": "Present Perfect Continuous, Were this to (formal conditional), Unless + present"
+  },
+  {
+    "id": 34,
+    "stage": 12,
+    "title": "The Nature of Consciousness",
+    "text": "The question of what constitutes consciousness remains one of the greatest mysteries in science. Despite decades of research, neuroscientists have yet to fully explain how the physical processes of the brain give rise to subjective experience. Some philosophers argue that this so-called hard problem may never be solved using conventional scientific methods.",
+    "translation": "A questão do que constitui a consciência permanece um dos maiores mistérios da ciência. Apesar de décadas de pesquisa, neurocientistas ainda não explicaram completamente como os processos físicos do cérebro dão origem à experiência subjetiva. Alguns filósofos argumentam que este chamado problema difícil pode nunca ser resolvido usando métodos científicos convencionais.",
+    "wordCount": 58,
+    "grammarFocus": "What clauses, Have yet to, How clauses, So-called"
+  },
+  {
+    "id": 35,
+    "stage": 12,
+    "title": "The Future of Democracy",
+    "text": "It has been argued that liberal democracy, far from being the inevitable endpoint of political development, may be more fragile than previously assumed. The rise of authoritarian populism in various parts of the world has led many scholars to reconsider their assumptions about the direction of history.",
+    "translation": "Tem sido argumentado que a democracia liberal, longe de ser o ponto final inevitável do desenvolvimento político, pode ser mais frágil do que anteriormente assumido. A ascensão do populismo autoritário em várias partes do mundo levou muitos estudiosos a reconsiderar suas suposições sobre a direção da história.",
+    "wordCount": 55,
+    "grammarFocus": "It has been argued that, Far from being, More...than + past participle, Has led...to"
+  },
+  {
+    "id": 36,
+    "stage": 12,
+    "title": "Scientific Method",
+    "text": "The scientific method, upon which modern technological progress has been built, requires that hypotheses be tested through rigorous experimentation and that results be replicated before they can be accepted as valid. Were scientists to abandon these principles, the reliability of scientific knowledge would be severely compromised.",
+    "translation": "O método científico, sobre o qual o progresso tecnológico moderno foi construído, requer que hipóteses sejam testadas através de experimentação rigorosa e que resultados sejam replicados antes de poderem ser aceitos como válidos. Se cientistas abandonassem esses princípios, a confiabilidade do conhecimento científico seria severamente comprometida.",
+    "wordCount": 54,
+    "grammarFocus": "Upon which, Subjunctive (that...be tested), Were...to (formal conditional)"
   }
 ]

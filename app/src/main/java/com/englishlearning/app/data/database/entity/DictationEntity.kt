@@ -6,48 +6,48 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 /**
- * Entidade para exercícios de ditado (Spaced Writing).
- * O usuário ouve o áudio e escreve a frase.
+ * Entidade para exercícios de ditado no estilo Callan Method.
+ * O usuário ouve o texto 3 vezes e escreve o que ouviu.
+ * Organizado por Stages (1-12) seguindo a progressão do método Callan.
  */
 @Entity(
     tableName = "dictation_exercises",
     indices = [
-        Index(value = ["levelId"]),
-        Index(value = ["sourceDrillId"]),
-        Index(value = ["difficulty"])
+        Index(value = ["stage"]),
+        Index(value = ["completed"])
     ]
 )
 data class DictationExerciseEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0,
     
-    /** Frase a ser ditada */
-    @ColumnInfo(name = "sentence")
-    val sentence: String,
+    /** Stage do método Callan (1-12) */
+    @ColumnInfo(name = "stage")
+    val stage: Int,
     
-    /** Tradução/dica (opcional) */
+    /** Título do exercício */
+    @ColumnInfo(name = "title")
+    val title: String,
+    
+    /** Texto completo a ser ditado (parágrafo) */
+    @ColumnInfo(name = "text")
+    val text: String,
+    
+    /** Tradução para português */
     @ColumnInfo(name = "translation")
     val translation: String? = null,
     
-    /** Nível de dificuldade */
-    @ColumnInfo(name = "levelId")
-    val levelId: Int,
+    /** Número de palavras no texto */
+    @ColumnInfo(name = "wordCount")
+    val wordCount: Int = 0,
     
-    /** ID do drill de origem (se extraído de drills) */
-    @ColumnInfo(name = "sourceDrillId")
-    val sourceDrillId: Int? = null,
+    /** Foco gramatical do exercício */
+    @ColumnInfo(name = "grammarFocus")
+    val grammarFocus: String? = null,
     
-    /** Dificuldade calculada (baseada em comprimento, palavras difíceis) */
-    @ColumnInfo(name = "difficulty")
-    val difficulty: Int = 1,
-    
-    /** Palavras-chave para validação parcial */
-    @ColumnInfo(name = "keywords")
-    val keywords: String? = null, // JSON array serializado
-    
-    /** Categoria gramatical */
-    @ColumnInfo(name = "grammarTopic")
-    val grammarTopic: String? = null
+    /** Se o exercício foi completado com 100% */
+    @ColumnInfo(name = "completed")
+    val completed: Boolean = false
 )
 
 /**

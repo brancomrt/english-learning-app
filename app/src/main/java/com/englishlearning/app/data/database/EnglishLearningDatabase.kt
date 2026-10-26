@@ -101,7 +101,7 @@ import com.englishlearning.app.data.database.entity.VocabularyCardEntity
         SyncSettingsEntity::class,
         SyncLogEntity::class
     ],
-    version = 6,
+    version = 7,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -441,6 +441,46 @@ abstract class EnglishLearningDatabase : RoomDatabase() {
                 """.trimIndent())
                 db.execSQL("CREATE INDEX IF NOT EXISTS `index_sync_log_timestamp` ON `sync_log` (`timestamp`)")
                 db.execSQL("CREATE INDEX IF NOT EXISTS `index_sync_log_operation` ON `sync_log` (`operation`)")
+            }
+        }
+
+        /**
+         * Migração da versão 6 para a versão 7.
+         * 
+         * Refatora a tabela dictation_exercises para o estilo Callan Method:
+         * - Muda de levelId para stage (1-12)
+         * - Muda de sentence (frases curtas) para text (parágrafos)
+         * - Adiciona title, wordCount, grammarFocus, completed
+         * - Remove sourceDrillId, difficulty, keywords
+         * 
+         * Como a estrutura muda completamente, dropamos e recriamos a tabela.
+         * Os dados serão re-seedados pelo DatabaseSeeder.
+         */
+        val MIGRATION_6_7 = object : Migration(6, 7) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                // Drop tabela antiga
+                db.execSQL("DROP TABLE IF EXISTS `dictation_exercises`")
+                
+                // Criar nova tabela com schema Callan Method
+                db.execSQL("""
+                    CREATE TABLE IF NOT EXISTS `dictation_exercises` (
+                        `id`           INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                        `stage`        INTEGER NOT NULL,
+                        `title`        TEXT    NOT NULL,
+                        `text`         TEXT    NOT NULL,
+                        `translation`  TEXT,
+                        `wordCount`    INTEGER NOT NULL DEFAULT 0,
+                        `grammarFocus` TEXT,
+                        `completed`    INTEGER NOT NULL DEFAULT 0
+                    )
+                """.trimIndent())
+                
+                // Índices para a nova tabela
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_dictation_exercises_stage` ON `dictation_exercises` (`stage`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_dictation_exercises_completed` ON `dictation_exercises` (`completed`)")
+                
+                // Também precisamos resetar o progresso de ditado, já que os exerciseIds mudam
+                db.execSQL("DELETE FROM `dictation_progress`")
             }
         }
 

@@ -14,11 +14,18 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import java.time.LocalDate
 import javax.inject.Inject
 
 /**
- * ViewModel para a tela de Ditado.
+ * ViewModel para a tela de Ditado no estilo Callan Method.
+ * 
+ * Funcionalidades:
+ * - Seleção de Stage (1-12)
+ * - Textos completos (parágrafos)
+ * - Reprodução de áudio 3x (padrão Callan)
+ * - Correção detalhada palavra por palavra
+ * - Possibilidade de refazer o ditado
+ * - Marca como completo quando 100%
  */
 @HiltViewModel
 class DictationViewModel @Inject constructor(
@@ -35,36 +42,44 @@ class DictationViewModel @Inject constructor(
     private val results = mutableListOf<DictationResult>()
     
     init {
-        // Não carrega automaticamente - espera seleção de nível
-        _uiState.update { it.copy(isLoading = false, isSelectingLevel = true) }
+        loadAvailableStages()
     }
     
-    fun selectLevel(level: Int) {
-        _uiState.update { it.copy(selectedLevel = level, isSelectingLevel = false) }
-        loadExercises(level)
+    private fun loadAvailableStages() {
+        viewModelScope.launch {
+            val stages = dictationRepository.getAvailableStages()
+            _uiState.update { 
+                it.copy(
+                    isLoading = false, 
+                    isSelectingStage = true,
+                    availableStages = stages
+                ) 
+            }
+        }
     }
     
-    private fun loadExercises(levelId: Int = _uiState.value.selectedLevel) {
+    fun selectStage(stage: Int) {
+        _uiState.update { it.copy(selectedStage = stage, isSelectingStage = false) }
+        loadExercisesByStage(stage)
+    }
+    
+    private fun loadExercisesByStage(stage: Int) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
             try {
-                val today = LocalDate.now().toString()
-                val userId = 1L
+                // Carrega exercícios do Stage selecionado
+                exercises = dictationRepository.getByStage(stage)
                 
-                // Carrega exercícios devidos + novos do nível selecionado
-                val dueExercises = dictationRepository.getDueExercises(userId, today, 15)
-                    .filter { it.levelId == levelId }
-                val newExercises = dictationRepository.getNewExercises(userId, maxLevel = levelId, 10)
-                    .filter { it.levelId == levelId }
-                
-                exercises = (dueExercises + newExercises).shuffled()
+                // Calcula contagem de completos
+                val completedCount = exercises.count { it.completed }
                 
                 _uiState.update {
                     it.copy(
                         isLoading = false,
                         currentExercise = exercises.firstOrNull(),
-                        totalExercises = exercises.size
+                        totalExercises = exercises.size,
+                        completedInStage = completedCount
                     )
                 }
                 
@@ -84,31 +99,42 @@ class DictationViewModel @Inject constructor(
         _uiState.update { it.copy(userInput = text) }
     }
     
+    /**
+     * Reproduz o áudio do texto.
+     * No método Callan, o professor lê 3 vezes.
+     */
     fun playAudio() {
-        val sentence = _uiState.value.currentExercise?.sentence ?: return
+        val text = _uiState.value.currentExercise?.text ?: return
         viewModelScope.launch {
-            ttsRepository.speak(sentence)
+            ttsRepository.speak(text)
             _uiState.update { it.copy(playCount = it.playCount + 1) }
         }
     }
     
+    /**
+     * Reproduz o áudio mais lentamente.
+     */
     fun playAudioSlow() {
-        val sentence = _uiState.value.currentExercise?.sentence ?: return
+        val text = _uiState.value.currentExercise?.text ?: return
         viewModelScope.launch {
-            ttsRepository.speak(sentence, speechRate = 0.7f)
+            ttsRepository.speak(text, speechRate = 0.6f)
             _uiState.update { it.copy(playCount = it.playCount + 1) }
         }
     }
     
+    /**
+     * Mostra dicas progressivas.
+     */
     fun useHint() {
         val exercise = _uiState.value.currentExercise ?: return
         val hintsUsed = _uiState.value.hintsUsed
         
         // Tipos de dicas progressivas
         val hint = when (hintsUsed) {
-            0 -> "Palavras: ${exercise.sentence.split(" ").size}"
-            1 -> "Primeira letra: ${exercise.sentence.first()}"
+            0 -> "Palavras: ${exercise.wordCount}"
+            1 -> "Primeira letra: ${exercise.text.first()}"
             2 -> exercise.translation ?: "Sem tradução disponível"
+            3 -> "Foco gramatical: ${exercise.grammarFocus ?: "N/A"}"
             else -> return // Máximo de dicas atingido
         }
         
@@ -120,6 +146,9 @@ class DictationViewModel @Inject constructor(
         }
     }
     
+    /**
+     * Verifica a resposta do usuário.
+     */
     fun checkAnswer() {
         val exercise = _uiState.value.currentExercise ?: return
         val userInput = _uiState.value.userInput.trim()
@@ -136,15 +165,43 @@ class DictationViewModel @Inject constructor(
             results.add(result)
             
             // Salva progresso no repositório
+            // Se score = 100, marca como completo automaticamente
             dictationRepository.saveResult(1L, exercise.id, result)
+            
+            // Atualiza contagem de completos se necessário
+            val completedInStage = if (result.score == 100 && !exercise.completed) {
+                _uiState.value.completedInStage + 1
+            } else {
+                _uiState.value.completedInStage
+            }
             
             _uiState.update {
                 it.copy(
                     isChecked = true,
-                    currentResult = result
+                    currentResult = result,
+                    completedInStage = completedInStage
                 )
             }
         }
+    }
+    
+    /**
+     * Refaz o ditado atual (limpa a resposta e permite tentar novamente).
+     */
+    fun retryExercise() {
+        sessionStartTime = System.currentTimeMillis()
+        _uiState.update {
+            it.copy(
+                userInput = "",
+                isChecked = false,
+                currentResult = null,
+                hintsUsed = 0,
+                currentHint = null,
+                playCount = 0
+            )
+        }
+        // Auto-play áudio ao refazer
+        playAudio()
     }
     
     private fun calculateResult(
@@ -153,7 +210,7 @@ class DictationViewModel @Inject constructor(
         timeTaken: Long,
         hintsUsed: Int
     ): DictationResult {
-        val expectedWords = exercise.sentence.lowercase()
+        val expectedWords = exercise.text.lowercase()
             .replace(Regex("[^a-z\\s']"), "")
             .split(Regex("\\s+"))
             .filter { it.isNotBlank() }
@@ -207,7 +264,7 @@ class DictationViewModel @Inject constructor(
         
         return DictationResult(
             exerciseId = exercise.id,
-            expectedText = exercise.sentence,
+            expectedText = exercise.text,
             userText = userText,
             score = score,
             accuracy = accuracy,
@@ -266,10 +323,26 @@ class DictationViewModel @Inject constructor(
             playAudio()
         }
     }
+    
+    /**
+     * Volta para a seleção de Stage.
+     */
+    fun backToStageSelection() {
+        currentIndex = 0
+        exercises = emptyList()
+        results.clear()
+        _uiState.update {
+            DictationUiState(
+                isLoading = false,
+                isSelectingStage = true,
+                availableStages = it.availableStages
+            )
+        }
+    }
 }
 
 /**
- * Estado da UI de Ditado.
+ * Estado da UI de Ditado (estilo Callan Method).
  */
 data class DictationUiState(
     val isLoading: Boolean = true,
@@ -286,8 +359,10 @@ data class DictationUiState(
     val isComplete: Boolean = false,
     val averageScore: Float = 0f,
     val error: String? = null,
-    // Filtro por nível
-    val availableLevels: List<Int> = (1..12).toList(),
-    val selectedLevel: Int = 1,
-    val isSelectingLevel: Boolean = true
+    // Filtro por Stage (Callan Method)
+    val availableStages: List<Int> = (1..12).toList(),
+    val selectedStage: Int = 1,
+    val isSelectingStage: Boolean = true,
+    // Contagem de completos
+    val completedInStage: Int = 0
 )

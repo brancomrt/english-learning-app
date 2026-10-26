@@ -7,19 +7,39 @@ import com.englishlearning.app.domain.model.DictationStatistics
 import kotlinx.coroutines.flow.Flow
 
 /**
- * Repository para exercícios de ditado.
+ * Repository para exercícios de ditado no estilo Callan Method.
+ * Organizado por Stages (1-12) com textos completos.
  */
 interface DictationRepository {
     
-    /**
-     * Obtém exercícios devidos para revisão.
-     */
-    suspend fun getDueExercises(userId: Long, today: String, limit: Int = 20): List<DictationExercise>
+    // ═══════════════════════════════════════════════════════════════════════
+    // Exercises by Stage (Callan Style)
+    // ═══════════════════════════════════════════════════════════════════════
     
     /**
-     * Obtém exercícios novos.
+     * Obtém exercícios por Stage.
      */
-    suspend fun getNewExercises(userId: Long, maxLevel: Int, limit: Int = 10): List<DictationExercise>
+    suspend fun getByStage(stage: Int): List<DictationExercise>
+    
+    /**
+     * Flow de exercícios por Stage.
+     */
+    fun getByStageFlow(stage: Int): Flow<List<DictationExercise>>
+    
+    /**
+     * Obtém todos os exercícios.
+     */
+    suspend fun getAllExercises(): List<DictationExercise>
+    
+    /**
+     * Flow de todos os exercícios.
+     */
+    fun getAllExercisesFlow(): Flow<List<DictationExercise>>
+    
+    /**
+     * Lista os Stages disponíveis.
+     */
+    suspend fun getAvailableStages(): List<Int>
     
     /**
      * Obtém exercício por ID.
@@ -27,12 +47,36 @@ interface DictationRepository {
     suspend fun getById(id: Long): DictationExercise?
     
     /**
-     * Obtém exercícios por nível.
+     * Obtém exercícios incompletos de um Stage.
      */
-    suspend fun getByLevel(levelId: Int): List<DictationExercise>
+    suspend fun getIncompleteByStage(stage: Int): List<DictationExercise>
+    
+    // ═══════════════════════════════════════════════════════════════════════
+    // Mark Complete (100% success)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    /**
+     * Marca exercício como completo (100% de acerto).
+     */
+    suspend fun markCompleted(exerciseId: Long, completed: Boolean)
+    
+    /**
+     * Conta exercícios completos por Stage.
+     */
+    suspend fun getCompletedCountByStage(stage: Int): Int
+    
+    /**
+     * Conta total de exercícios completos.
+     */
+    suspend fun getTotalCompletedCount(): Int
+    
+    // ═══════════════════════════════════════════════════════════════════════
+    // Progress and Results
+    // ═══════════════════════════════════════════════════════════════════════
     
     /**
      * Salva resultado de uma tentativa de ditado.
+     * Se score = 100, marca como completo automaticamente.
      */
     suspend fun saveResult(userId: Long, exerciseId: Long, result: DictationResult)
     
@@ -46,6 +90,20 @@ interface DictationRepository {
      */
     suspend fun getStatistics(userId: Long): DictationStatistics
     
+    // ═══════════════════════════════════════════════════════════════════════
+    // SRS (Spaced Repetition)
+    // ═══════════════════════════════════════════════════════════════════════
+    
+    /**
+     * Obtém exercícios devidos para revisão.
+     */
+    suspend fun getDueExercises(userId: Long, today: String, limit: Int = 20): List<DictationExercise>
+    
+    /**
+     * Obtém exercícios novos por Stage.
+     */
+    suspend fun getNewExercisesByStage(userId: Long, stage: Int, limit: Int = 10): List<DictationExercise>
+    
     /**
      * Contagem de exercícios devidos.
      */
@@ -55,9 +113,4 @@ interface DictationRepository {
      * Flow de contagem de exercícios devidos.
      */
     fun getDueCountFlow(userId: Long, today: String): Flow<Int>
-    
-    /**
-     * Gera exercícios de ditado a partir dos drills.
-     */
-    suspend fun generateFromDrills()
 }
