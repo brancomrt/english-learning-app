@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "sentence": "Hello, how are you?",
+    "translation": "Olá, como você está?",
+    "levelId": 1,
+    "difficulty": 1,
+    "keywords": "hello,how,are,you",
+    "grammarTopic": "Greetings"
+  },
+  {
+    "id": 2,
+    "sentence": "My name is John.",
+    "translation": "Meu nome é John.",
+    "levelId": 1,
+    "difficulty": 1,
+    "keywords": "my,name,is",
+    "grammarTopic": "Introduction"
+  },
+  {
+    "id": 3,
+    "sentence": "I am a student.",
+    "translation": "Eu sou um estudante.",
+    "levelId": 1,
+    "difficulty": 1,
+    "keywords": "am,student",
+    "grammarTopic": "To Be"
+  },
+  {
+    "id": 4,
+    "sentence": "She is my friend.",
+    "translation": "Ela é minha amiga.",
+    "levelId": 1,
+    "difficulty": 1,
+    "keywords": "she,is,my,friend",
+    "grammarTopic": "To Be"
+  },
+  {
+    "id": 5,
+    "sentence": "The weather is nice today.",
+    "translation": "O clima está bom hoje.",
+    "levelId": 1,
+    "difficulty": 1,
+    "keywords": "weather,nice,today",
+    "grammarTopic": "Description"
+  },
+  {
+    "id": 6,
+    "sentence": "I like to read books.",
+    "translation": "Eu gosto de ler livros.",
+    "levelId": 2,
+    "difficulty": 1,
+    "keywords": "like,read,books",
+    "grammarTopic": "Simple Present"
+  },
+  {
+    "id": 7,
+    "sentence": "She works at a hospital.",
+    "translation": "Ela trabalha em um hospital.",
+    "levelId": 2,
+    "difficulty": 1,
+    "keywords": "works,hospital",
+    "grammarTopic": "Simple Present"
+  },
+  {
+    "id": 8,
+    "sentence": "Do you speak English?",
+    "translation": "Você fala inglês?",
+    "levelId": 2,
+    "difficulty": 1,
+    "keywords": "do,speak,English",
+    "grammarTopic": "Questions"
+  },
+  {
+    "id": 9,
+    "sentence": "They don't like coffee.",
+    "translation": "Eles não gostam de café.",
+    "levelId": 2,
+    "difficulty": 2,
+    "keywords": "don't,like,coffee",
+    "grammarTopic": "Negatives"
+  },
+  {
+    "id": 10,
+    "sentence": "What time does the bus arrive?",
+    "translation": "A que horas o ônibus chega?",
+    "levelId": 2,
+    "difficulty": 2,
+    "keywords": "what,time,does,bus,arrive",
+    "grammarTopic": "Questions"
+  },
+  {
+    "id": 11,
+    "sentence": "I am studying for my exam.",
+    "translation": "Eu estou estudando para minha prova.",
+    "levelId": 3,
+    "difficulty": 2,
+    "keywords": "am,studying,exam",
+    "grammarTopic": "Present Continuous"
+  },
+  {
+    "id": 12,
+    "sentence": "What are you doing right now?",
+    "translation": "O que você está fazendo agora?",
+    "levelId": 3,
+    "difficulty": 2,
+    "keywords": "what,are,doing,right,now",
+    "grammarTopic": "Present Continuous"
+  },
+  {
+    "id": 13,
+    "sentence": "There are many people in the park.",
+    "translation": "Há muitas pessoas no parque.",
+    "levelId": 3,
+    "difficulty": 2,
+    "keywords": "there,are,many,people,park",
+    "grammarTopic": "There is/are"
+  },
+  {
+    "id": 14,
+    "sentence": "Is she coming to the party?",
+    "translation": "Ela está vindo para a festa?",
+    "levelId": 3,
+    "difficulty": 2,
+    "keywords": "is,coming,party",
+    "grammarTopic": "Present Continuous"
+  },
+  {
+    "id": 15,
+    "sentence": "They are not working today.",
+    "translation": "Eles não estão trabalhando hoje.",
+    "levelId": 3,
+    "difficulty": 2,
+    "keywords": "are,not,working,today",
+    "grammarTopic": "Present Continuous"
+  },
+  {
+    "id": 16,
+    "sentence": "I went to the beach yesterday.",
+    "translation": "Eu fui à praia ontem.",
+    "levelId": 4,
+    "difficulty": 2,
+    "keywords": "went,beach,yesterday",
+    "grammarTopic": "Simple Past"
+  },
+  {
+    "id": 17,
+    "sentence": "She bought a new car last week.",
+    "translation": "Ela comprou um carro novo na semana passada.",
+    "levelId": 4,
+    "difficulty": 2,
+    "keywords": "bought,new,car,last,week",
+    "grammarTopic": "Simple Past"
+  },
+  {
+    "id": 18,
+    "sentence": "Did you see the movie?",
+    "translation": "Você viu o filme?",
+    "levelId": 4,
+    "difficulty": 2,
+    "keywords": "did,see,movie",
+    "grammarTopic": "Simple Past"
+  },
+  {
+    "id": 19,
+    "sentence": "We didn't have time to finish.",
+    "translation": "Nós não tivemos tempo para terminar.",
+    "levelId": 4,
+    "difficulty": 3,
+    "keywords": "didn't,have,time,finish",
+    "grammarTopic": "Simple Past"
+  },
+  {
+    "id": 20,
+    "sentence": "What happened at the meeting?",
+    "translation": "O que aconteceu na reunião?",
+    "levelId": 4,
+    "difficulty": 3,
+    "keywords": "what,happened,meeting",
+    "grammarTopic": "Simple Past"
+  },
+  {
+    "id": 21,
+    "sentence": "I will call you tomorrow.",
+    "translation": "Eu vou te ligar amanhã.",
+    "levelId": 5,
+    "difficulty": 2,
+    "keywords": "will,call,tomorrow",
+    "grammarTopic": "Future Will"
+  },
+  {
+    "id": 22,
+    "sentence": "She is going to start a new job.",
+    "translation": "Ela vai começar um novo emprego.",
+    "levelId": 5,
+    "difficulty": 2,
+    "keywords": "going,to,start,new,job",
+    "grammarTopic": "Future Going To"
+  },
+  {
+    "id": 23,
+    "sentence": "Will you help me with this?",
+    "translation": "Você vai me ajudar com isso?",
+    "levelId": 5,
+    "difficulty": 2,
+    "keywords": "will,help,me,with,this",
+    "grammarTopic": "Future Will"
+  },
+  {
+    "id": 24,
+    "sentence": "We are going to travel next month.",
+    "translation": "Nós vamos viajar no próximo mês.",
+    "levelId": 5,
+    "difficulty": 3,
+    "keywords": "going,to,travel,next,month",
+    "grammarTopic": "Future Going To"
+  },
+  {
+    "id": 25,
+    "sentence": "It won't rain this weekend.",
+    "translation": "Não vai chover neste fim de semana.",
+    "levelId": 5,
+    "difficulty": 3,
+    "keywords": "won't,rain,this,weekend",
+    "grammarTopic": "Future Will"
+  },
+  {
+    "id": 26,
+    "sentence": "I have been to London twice.",
+    "translation": "Eu estive em Londres duas vezes.",
+    "levelId": 6,
+    "difficulty": 3,
+    "keywords": "have,been,to,London,twice",
+    "grammarTopic": "Present Perfect"
+  },
+  {
+    "id": 27,
+    "sentence": "She has worked here for five years.",
+    "translation": "Ela trabalha aqui há cinco anos.",
+    "levelId": 6,
+    "difficulty": 3,
+    "keywords": "has,worked,here,for,five,years",
+    "grammarTopic": "Present Perfect"
+  },
+  {
+    "id": 28,
+    "sentence": "Have you ever tried sushi?",
+    "translation": "Você já experimentou sushi?",
+    "levelId": 6,
+    "difficulty": 3,
+    "keywords": "have,ever,tried,sushi",
+    "grammarTopic": "Present Perfect"
+  },
+  {
+    "id": 29,
+    "sentence": "They haven't finished the project yet.",
+    "translation": "Eles ainda não terminaram o projeto.",
+    "levelId": 6,
+    "difficulty": 3,
+    "keywords": "haven't,finished,project,yet",
+    "grammarTopic": "Present Perfect"
+  },
+  {
+    "id": 30,
+    "sentence": "How long have you lived here?",
+    "translation": "Há quanto tempo você mora aqui?",
+    "levelId": 6,
+    "difficulty": 3,
+    "keywords": "how,long,have,lived,here",
+    "grammarTopic": "Present Perfect"
+  }
+]

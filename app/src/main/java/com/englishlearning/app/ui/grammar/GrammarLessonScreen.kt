@@ -102,6 +102,32 @@ fun GrammarLessonScreen(
                     CircularProgressIndicator()
                 }
             }
+            uiState.error != null -> {
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(padding),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Text("❌", fontSize = 48.sp)
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Text(
+                            text = "Ocorreu um erro",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = uiState.error ?: "Erro desconhecido",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            textAlign = TextAlign.Center
+                        )
+                    }
+                }
+            }
             uiState.currentLesson != null -> {
                 LessonContent(
                     lesson = uiState.currentLesson!!,
@@ -129,6 +155,33 @@ private fun LessonList(
     onSelectLesson: (GrammarLesson) -> Unit,
     modifier: Modifier = Modifier
 ) {
+    if (lessons.isEmpty()) {
+        Box(
+            modifier = modifier.fillMaxSize(),
+            contentAlignment = Alignment.Center
+        ) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text("📚", fontSize = 48.sp)
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    text = "Nenhuma lição disponível ainda",
+                    style = MaterialTheme.typography.titleMedium,
+                    textAlign = TextAlign.Center
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "As lições de gramática serão carregadas em breve.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                )
+            }
+        }
+        return
+    }
+    
     LazyColumn(
         modifier = modifier
             .fillMaxSize()

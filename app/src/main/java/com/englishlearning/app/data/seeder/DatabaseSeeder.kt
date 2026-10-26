@@ -6,7 +6,10 @@ import android.util.Log
 import com.englishlearning.app.data.database.EnglishLearningDatabase
 import com.englishlearning.app.data.database.entity.AcceptedAnswerEntity
 import com.englishlearning.app.data.database.entity.CategoryEntity
+import com.englishlearning.app.data.database.entity.DictationExerciseEntity
 import com.englishlearning.app.data.database.entity.ExerciseEntity
+import com.englishlearning.app.data.database.entity.GrammarExampleEntity
+import com.englishlearning.app.data.database.entity.GrammarLessonEntity
 import com.englishlearning.app.data.database.entity.HintEntity
 import com.englishlearning.app.data.database.entity.LevelEntity
 import com.englishlearning.app.data.database.entity.VocabularyCardEntity
@@ -69,6 +72,8 @@ class DatabaseSeeder @Inject constructor(
             seedCategories()
             seedExercises()
             seedVocabulary()
+            seedGrammarLessons()
+            seedDictationExercises()
             prefs.edit().putBoolean(KEY_DB_SEEDED, true).apply()
             Log.i(TAG, "Database seeding completed successfully.")
         } catch (e: Exception) {
@@ -264,6 +269,100 @@ class DatabaseSeeder @Inject constructor(
     }
 
     // -----------------------------------------------------------------------
+    // Grammar Lessons seeding (v1.28.0)
+    // -----------------------------------------------------------------------
+
+    /**
+     * Lê `assets/content/grammar_lessons.json` e insere as lições de gramática no banco.
+     */
+    private suspend fun seedGrammarLessons() {
+        val grammarJson = readAsset(GRAMMAR_LESSONS_ASSET_PATH) ?: run {
+            Log.w(TAG, "grammar_lessons.json not found in assets — skipping grammar seeding.")
+            return
+        }
+
+        val lessons: List<GrammarLessonJsonModel> = try {
+            json.decodeFromString(grammarJson)
+        } catch (e: SerializationException) {
+            Log.e(TAG, "Failed to parse grammar_lessons.json: ${e.message}", e)
+            return
+        }
+
+        // Insert lessons
+        val lessonEntities = lessons.map { lesson ->
+            GrammarLessonEntity(
+                id = lesson.id,
+                levelId = lesson.levelId,
+                grammarTopic = lesson.grammarTopic,
+                title = lesson.title,
+                explanation = lesson.explanation,
+                formula = lesson.formula,
+                sortOrder = lesson.sortOrder,
+                iconEmoji = lesson.iconEmoji
+            )
+        }
+        db.grammarLessonDao().insertLessons(lessonEntities)
+
+        // Insert examples for each lesson
+        var exampleId = 1L
+        for (lesson in lessons) {
+            val exampleEntities = lesson.examples.mapIndexed { index, example ->
+                GrammarExampleEntity(
+                    id = exampleId++,
+                    lessonId = lesson.id,
+                    sentence = example.sentence,
+                    translation = example.translation,
+                    highlight = example.highlight,
+                    note = example.note,
+                    isCorrect = example.isCorrect,
+                    sortOrder = index
+                )
+            }
+            if (exampleEntities.isNotEmpty()) {
+                db.grammarLessonDao().insertExamples(exampleEntities)
+            }
+        }
+
+        Log.d(TAG, "Seeded ${lessonEntities.size} grammar lessons.")
+    }
+
+    // -----------------------------------------------------------------------
+    // Dictation Exercises seeding (v1.28.0)
+    // -----------------------------------------------------------------------
+
+    /**
+     * Lê `assets/content/dictation_exercises.json` e insere os exercícios de ditado no banco.
+     */
+    private suspend fun seedDictationExercises() {
+        val dictationJson = readAsset(DICTATION_EXERCISES_ASSET_PATH) ?: run {
+            Log.w(TAG, "dictation_exercises.json not found in assets — skipping dictation seeding.")
+            return
+        }
+
+        val exercises: List<DictationExerciseJsonModel> = try {
+            json.decodeFromString(dictationJson)
+        } catch (e: SerializationException) {
+            Log.e(TAG, "Failed to parse dictation_exercises.json: ${e.message}", e)
+            return
+        }
+
+        val entities = exercises.map { exercise ->
+            DictationExerciseEntity(
+                id = exercise.id,
+                sentence = exercise.sentence,
+                translation = exercise.translation,
+                levelId = exercise.levelId,
+                difficulty = exercise.difficulty,
+                keywords = exercise.keywords,
+                grammarTopic = exercise.grammarTopic
+            )
+        }
+        db.dictationDao().insertExercises(entities)
+
+        Log.d(TAG, "Seeded ${entities.size} dictation exercises.")
+    }
+
+    // -----------------------------------------------------------------------
     // Asset helpers
     // -----------------------------------------------------------------------
 
@@ -375,6 +474,8 @@ class DatabaseSeeder @Inject constructor(
         private const val CATEGORIES_ASSET_PATH = "content/categories.json"
         private const val EXERCISES_ASSET_DIR = "content/exercises"
         private const val VOCABULARY_ASSET_DIR = "content/vocabulary"
+        private const val GRAMMAR_LESSONS_ASSET_PATH = "content/grammar_lessons.json"
+        private const val DICTATION_EXERCISES_ASSET_PATH = "content/dictation_exercises.json"
         private val LEVEL_FILE_PATTERN = Regex("^level_\\d+\\.json$")
         private val VOCAB_FILE_PATTERN = Regex("^level_\\d+_vocab\\.json$")
     }

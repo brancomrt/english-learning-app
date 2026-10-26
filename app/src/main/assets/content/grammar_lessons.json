@@ -1,0 +1,419 @@
+[
+  {
+    "id": 1,
+    "levelId": 1,
+    "grammarTopic": "To Be - Present",
+    "title": "Verbo To Be no Presente",
+    "explanation": "O verbo 'to be' (ser/estar) é um dos verbos mais importantes do inglês. No presente, ele tem três formas: am (I), is (he/she/it), are (you/we/they). Use 'to be' para descrever estados, identidades e características.",
+    "formula": "Subject + am/is/are + complement",
+    "sortOrder": 1,
+    "iconEmoji": "📝",
+    "examples": [
+      {
+        "sentence": "I am a student.",
+        "translation": "Eu sou um estudante.",
+        "highlight": "am",
+        "note": "Use 'am' apenas com 'I'.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She is happy.",
+        "translation": "Ela está feliz.",
+        "highlight": "is",
+        "note": "Use 'is' com he/she/it.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They are teachers.",
+        "translation": "Eles são professores.",
+        "highlight": "are",
+        "note": "Use 'are' com you/we/they.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "He am tired.",
+        "translation": "Ele está cansado.",
+        "highlight": "am",
+        "note": "Erro comum: 'am' só é usado com 'I'. O correto é 'He is tired'.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "levelId": 1,
+    "grammarTopic": "To Be - Negative",
+    "title": "Negativas com To Be",
+    "explanation": "Para formar frases negativas com 'to be', adicione 'not' após o verbo. Formas contraídas são comuns na fala: isn't, aren't, I'm not.",
+    "formula": "Subject + am/is/are + not + complement",
+    "sortOrder": 2,
+    "iconEmoji": "🚫",
+    "examples": [
+      {
+        "sentence": "I am not hungry.",
+        "translation": "Eu não estou com fome.",
+        "highlight": "am not",
+        "note": "Contração: I'm not (não existe 'amn't').",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She isn't at home.",
+        "translation": "Ela não está em casa.",
+        "highlight": "isn't",
+        "note": "isn't = is not",
+        "isCorrect": true
+      },
+      {
+        "sentence": "We aren't late.",
+        "translation": "Nós não estamos atrasados.",
+        "highlight": "aren't",
+        "note": "aren't = are not",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "levelId": 1,
+    "grammarTopic": "To Be - Questions",
+    "title": "Perguntas com To Be",
+    "explanation": "Para formar perguntas com 'to be', inverta a posição do verbo e do sujeito. O verbo vem primeiro na pergunta.",
+    "formula": "Am/Is/Are + subject + complement?",
+    "sortOrder": 3,
+    "iconEmoji": "❓",
+    "examples": [
+      {
+        "sentence": "Are you ready?",
+        "translation": "Você está pronto?",
+        "highlight": "Are you",
+        "note": "Inversão: 'You are' vira 'Are you'.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "Is he your brother?",
+        "translation": "Ele é seu irmão?",
+        "highlight": "Is he",
+        "note": "Inversão: 'He is' vira 'Is he'.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "Am I late?",
+        "translation": "Eu estou atrasado?",
+        "highlight": "Am I",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "levelId": 2,
+    "grammarTopic": "Simple Present",
+    "title": "Presente Simples",
+    "explanation": "O Simple Present é usado para hábitos, rotinas e verdades gerais. Com he/she/it, adicione -s ou -es ao verbo. Use 'do/does' para perguntas e negativas.",
+    "formula": "Subject + verb (+ s/es for he/she/it)",
+    "sortOrder": 4,
+    "iconEmoji": "🔄",
+    "examples": [
+      {
+        "sentence": "I work every day.",
+        "translation": "Eu trabalho todos os dias.",
+        "highlight": "work",
+        "note": "Sem alteração para I/you/we/they.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She works at a bank.",
+        "translation": "Ela trabalha em um banco.",
+        "highlight": "works",
+        "note": "Adicione -s para he/she/it.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "He watches TV at night.",
+        "translation": "Ele assiste TV à noite.",
+        "highlight": "watches",
+        "note": "Verbos terminados em -ch, -sh, -ss, -x, -o recebem -es.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She work hard.",
+        "translation": "Ela trabalha duro.",
+        "highlight": "work",
+        "note": "Erro: falta o -s. O correto é 'She works hard'.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "levelId": 2,
+    "grammarTopic": "Simple Present - Questions",
+    "title": "Perguntas no Presente Simples",
+    "explanation": "Use 'Do' para I/you/we/they e 'Does' para he/she/it. Após does, o verbo volta à forma base (sem -s).",
+    "formula": "Do/Does + subject + verb (base form)?",
+    "sortOrder": 5,
+    "iconEmoji": "🤔",
+    "examples": [
+      {
+        "sentence": "Do you like coffee?",
+        "translation": "Você gosta de café?",
+        "highlight": "Do you",
+        "isCorrect": true
+      },
+      {
+        "sentence": "Does she speak English?",
+        "translation": "Ela fala inglês?",
+        "highlight": "Does she speak",
+        "note": "O verbo fica na forma base após 'does'.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "Does he speaks French?",
+        "translation": "Ele fala francês?",
+        "highlight": "speaks",
+        "note": "Erro: após 'does', não use -s. O correto é 'Does he speak French?'",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "levelId": 3,
+    "grammarTopic": "Present Continuous",
+    "title": "Presente Contínuo",
+    "explanation": "O Present Continuous expressa ações acontecendo agora ou planos futuros próximos. Formado com 'to be' + verbo-ing.",
+    "formula": "Subject + am/is/are + verb-ing",
+    "sortOrder": 6,
+    "iconEmoji": "⏳",
+    "examples": [
+      {
+        "sentence": "I am studying English.",
+        "translation": "Eu estou estudando inglês.",
+        "highlight": "am studying",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She is reading a book.",
+        "translation": "Ela está lendo um livro.",
+        "highlight": "is reading",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They are playing soccer.",
+        "translation": "Eles estão jogando futebol.",
+        "highlight": "are playing",
+        "isCorrect": true
+      },
+      {
+        "sentence": "He is run in the park.",
+        "translation": "Ele está correndo no parque.",
+        "highlight": "run",
+        "note": "Erro: falta o -ing. O correto é 'He is running'.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "levelId": 3,
+    "grammarTopic": "There is / There are",
+    "title": "There is / There are",
+    "explanation": "Use 'There is' para singular e 'There are' para plural. Indica existência ou presença de algo.",
+    "formula": "There is + singular / There are + plural",
+    "sortOrder": 7,
+    "iconEmoji": "📍",
+    "examples": [
+      {
+        "sentence": "There is a book on the table.",
+        "translation": "Há um livro na mesa.",
+        "highlight": "There is",
+        "note": "Singular: a book (um livro).",
+        "isCorrect": true
+      },
+      {
+        "sentence": "There are many students here.",
+        "translation": "Há muitos estudantes aqui.",
+        "highlight": "There are",
+        "note": "Plural: many students.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "There is three cats.",
+        "translation": "Há três gatos.",
+        "highlight": "is",
+        "note": "Erro: use 'are' para plural. O correto é 'There are three cats'.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "levelId": 4,
+    "grammarTopic": "Simple Past - Regular",
+    "title": "Passado Simples - Verbos Regulares",
+    "explanation": "Para verbos regulares, adicione -ed ao final. Mudanças ortográficas: verbos terminados em -e adicionam só -d; consoante + y vira -ied.",
+    "formula": "Subject + verb-ed",
+    "sortOrder": 8,
+    "iconEmoji": "⏮️",
+    "examples": [
+      {
+        "sentence": "I worked yesterday.",
+        "translation": "Eu trabalhei ontem.",
+        "highlight": "worked",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She studied all night.",
+        "translation": "Ela estudou a noite toda.",
+        "highlight": "studied",
+        "note": "study → studied (y vira ied).",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They danced at the party.",
+        "translation": "Eles dançaram na festa.",
+        "highlight": "danced",
+        "note": "dance → danced (apenas +d).",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "levelId": 4,
+    "grammarTopic": "Simple Past - Irregular",
+    "title": "Passado Simples - Verbos Irregulares",
+    "explanation": "Verbos irregulares têm formas próprias no passado que precisam ser memorizadas. Não seguem a regra do -ed.",
+    "formula": "Subject + irregular past form",
+    "sortOrder": 9,
+    "iconEmoji": "🎲",
+    "examples": [
+      {
+        "sentence": "I went to the store.",
+        "translation": "Eu fui à loja.",
+        "highlight": "went",
+        "note": "go → went",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She ate breakfast.",
+        "translation": "Ela tomou café da manhã.",
+        "highlight": "ate",
+        "note": "eat → ate",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They saw a movie.",
+        "translation": "Eles viram um filme.",
+        "highlight": "saw",
+        "note": "see → saw",
+        "isCorrect": true
+      },
+      {
+        "sentence": "He goed home.",
+        "translation": "Ele foi para casa.",
+        "highlight": "goed",
+        "note": "Erro: 'go' é irregular. O correto é 'He went home'.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "levelId": 5,
+    "grammarTopic": "Future - Will",
+    "title": "Futuro com Will",
+    "explanation": "Use 'will' para previsões, decisões espontâneas e promessas. O verbo principal fica na forma base.",
+    "formula": "Subject + will + verb (base form)",
+    "sortOrder": 10,
+    "iconEmoji": "🔮",
+    "examples": [
+      {
+        "sentence": "I will help you.",
+        "translation": "Eu vou te ajudar.",
+        "highlight": "will help",
+        "note": "Promessa ou oferta espontânea.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "It will rain tomorrow.",
+        "translation": "Vai chover amanhã.",
+        "highlight": "will rain",
+        "note": "Previsão sobre o futuro.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She won't be late.",
+        "translation": "Ela não vai se atrasar.",
+        "highlight": "won't",
+        "note": "won't = will not",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "levelId": 5,
+    "grammarTopic": "Future - Going to",
+    "title": "Futuro com Going to",
+    "explanation": "Use 'going to' para planos e intenções já decididos, ou para previsões baseadas em evidências presentes.",
+    "formula": "Subject + am/is/are + going to + verb",
+    "sortOrder": 11,
+    "iconEmoji": "📅",
+    "examples": [
+      {
+        "sentence": "I am going to travel next month.",
+        "translation": "Eu vou viajar no próximo mês.",
+        "highlight": "am going to travel",
+        "note": "Plano já decidido.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "Look at those clouds! It's going to rain.",
+        "translation": "Olhe aquelas nuvens! Vai chover.",
+        "highlight": "going to rain",
+        "note": "Previsão baseada em evidência.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They are going to buy a house.",
+        "translation": "Eles vão comprar uma casa.",
+        "highlight": "are going to buy",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "levelId": 6,
+    "grammarTopic": "Present Perfect",
+    "title": "Presente Perfeito",
+    "explanation": "O Present Perfect conecta o passado ao presente. Use para experiências de vida, ações recentes com resultado atual, ou com 'since/for'.",
+    "formula": "Subject + have/has + past participle",
+    "sortOrder": 12,
+    "iconEmoji": "🔗",
+    "examples": [
+      {
+        "sentence": "I have visited Paris.",
+        "translation": "Eu visitei Paris. (já tive essa experiência)",
+        "highlight": "have visited",
+        "note": "Experiência de vida - quando não importa.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "She has lived here for 5 years.",
+        "translation": "Ela mora aqui há 5 anos.",
+        "highlight": "has lived",
+        "note": "Ação que começou no passado e continua.",
+        "isCorrect": true
+      },
+      {
+        "sentence": "They have just arrived.",
+        "translation": "Eles acabaram de chegar.",
+        "highlight": "have just arrived",
+        "note": "Ação recente com 'just'.",
+        "isCorrect": true
+      }
+    ]
+  }
+]

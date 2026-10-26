@@ -145,3 +145,57 @@ data class VocabularyJsonModel(
     @SerialName("audio_path") val audioPath: String? = null,
     @SerialName("image_url") val imageUrl: String? = null
 )
+
+// ---------------------------------------------------------------------------
+// Grammar Lesson models (v1.28.0)
+// ---------------------------------------------------------------------------
+
+/**
+ * Modelo JSON para uma lição de gramática.
+ * Corresponde a [com.englishlearning.app.data.database.entity.GrammarLessonEntity].
+ */
+@Serializable
+data class GrammarLessonJsonModel(
+    val id: Long,
+    val levelId: Int,
+    val grammarTopic: String,
+    val title: String,
+    val explanation: String,
+    val formula: String? = null,
+    val sortOrder: Int = 0,
+    val iconEmoji: String = "📚",
+    val examples: List<GrammarExampleJsonModel> = emptyList()
+)
+
+/**
+ * Modelo JSON para um exemplo de gramática.
+ * Corresponde a [com.englishlearning.app.data.database.entity.GrammarExampleEntity].
+ */
+@Serializable
+data class GrammarExampleJsonModel(
+    val sentence: String,
+    val translation: String,
+    val highlight: String? = null,
+    val note: String? = null,
+    val isCorrect: Boolean = true,
+    val sortOrder: Int = 0
+)
+
+// ---------------------------------------------------------------------------
+// Dictation models (v1.28.0)
+// ---------------------------------------------------------------------------
+
+/**
+ * Modelo JSON para um exercício de ditado.
+ * Corresponde a [com.englishlearning.app.data.database.entity.DictationExerciseEntity].
+ */
+@Serializable
+data class DictationExerciseJsonModel(
+    val id: Long,
+    val sentence: String,
+    val translation: String? = null,
+    val levelId: Int,
+    val difficulty: Int = 1,
+    val keywords: String? = null,
+    val grammarTopic: String? = null
+)
