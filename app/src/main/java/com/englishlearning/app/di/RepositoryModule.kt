@@ -1,5 +1,6 @@
 package com.englishlearning.app.di
 
+import com.englishlearning.app.data.repository.AudioCacheRepositoryImpl
 import com.englishlearning.app.data.repository.ContentRepositoryImpl
 import com.englishlearning.app.data.repository.ConversationChainRepositoryImpl
 import com.englishlearning.app.data.repository.DailyChallengeRepositoryImpl
@@ -22,6 +23,7 @@ import com.englishlearning.app.domain.repository.ProgressRepository
 import com.englishlearning.app.domain.repository.PronunciationRepository
 import com.englishlearning.app.domain.repository.SpeechRecognitionRepository
 import com.englishlearning.app.domain.repository.SrsRepository
+import com.englishlearning.app.domain.repository.AudioCacheRepository
 import com.englishlearning.app.domain.repository.TtsRepository
 import com.englishlearning.app.domain.validation.GrammarParser
 import com.englishlearning.app.domain.validation.QuestionValidationEngine
@@ -134,6 +136,14 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindTtsRepository(impl: TtsRepositoryImpl): TtsRepository
+
+    /**
+     * Vincula [AudioCacheRepositoryImpl] à interface [AudioCacheRepository].
+     * Gerencia cache de áudios de pronúncia nativa.
+     */
+    @Binds
+    @Singleton
+    abstract fun bindAudioCacheRepository(impl: AudioCacheRepositoryImpl): AudioCacheRepository
 
     companion object {
 

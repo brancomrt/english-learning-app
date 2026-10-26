@@ -111,7 +111,9 @@ class FlashcardViewModel @Inject constructor(
     fun playAudio() {
         val word = _uiState.value.currentCard?.word ?: return
         viewModelScope.launch {
-            ttsRepository.speak(word)
+            // Usa áudio nativo se disponível, senão TTS
+            val usedNative = ttsRepository.speakWord(word, preferNative = true)
+            _uiState.update { it.copy(usedNativeAudio = usedNative) }
         }
     }
 }
@@ -134,5 +136,7 @@ data class FlashcardUiState(
     // Filtro por nível
     val availableLevels: List<Int> = (1..12).toList(),
     val selectedLevel: Int = 1,
-    val isSelectingLevel: Boolean = true
+    val isSelectingLevel: Boolean = true,
+    // Áudio
+    val usedNativeAudio: Boolean = false
 )
