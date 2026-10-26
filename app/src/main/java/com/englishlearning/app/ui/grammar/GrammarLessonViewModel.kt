@@ -35,12 +35,18 @@ class GrammarLessonViewModel @Inject constructor(
             
             try {
                 val userId = 1L
-                val lessons = grammarRepository.getLessonsWithProgress(userId)
+                // Busca lições de todos os níveis com progresso
+                val allLessons = grammarRepository.getLessonsWithProgress(userId)
+                
+                // Agrupa por nível para facilitar filtro
+                val lessonsByLevel = allLessons.groupBy { it.levelId }
                 
                 _uiState.update {
                     it.copy(
                         isLoading = false,
-                        lessons = lessons
+                        lessons = allLessons,
+                        lessonsByLevel = lessonsByLevel,
+                        availableLevels = lessonsByLevel.keys.sorted()
                     )
                 }
             } catch (e: Exception) {
@@ -48,6 +54,20 @@ class GrammarLessonViewModel @Inject constructor(
                     it.copy(isLoading = false, error = e.message)
                 }
             }
+        }
+    }
+    
+    fun filterByLevel(levelId: Int?) {
+        _uiState.update { state ->
+            val filtered = if (levelId == null) {
+                state.lessonsByLevel.values.flatten()
+            } else {
+                state.lessonsByLevel[levelId] ?: emptyList()
+            }
+            state.copy(
+                selectedLevel = levelId,
+                filteredLessons = filtered
+            )
         }
     }
     
@@ -116,6 +136,10 @@ class GrammarLessonViewModel @Inject constructor(
 data class GrammarLessonUiState(
     val isLoading: Boolean = true,
     val lessons: List<GrammarLesson> = emptyList(),
+    val lessonsByLevel: Map<Int, List<GrammarLesson>> = emptyMap(),
+    val filteredLessons: List<GrammarLesson> = emptyList(),
+    val availableLevels: List<Int> = emptyList(),
+    val selectedLevel: Int? = null,
     val currentLesson: GrammarLesson? = null,
     val currentExampleIndex: Int = 0,
     val error: String? = null

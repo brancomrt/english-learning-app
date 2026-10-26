@@ -35,10 +35,16 @@ class DictationViewModel @Inject constructor(
     private val results = mutableListOf<DictationResult>()
     
     init {
-        loadExercises()
+        // Não carrega automaticamente - espera seleção de nível
+        _uiState.update { it.copy(isLoading = false, isSelectingLevel = true) }
     }
     
-    private fun loadExercises() {
+    fun selectLevel(level: Int) {
+        _uiState.update { it.copy(selectedLevel = level, isSelectingLevel = false) }
+        loadExercises(level)
+    }
+    
+    private fun loadExercises(levelId: Int = _uiState.value.selectedLevel) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
@@ -46,9 +52,11 @@ class DictationViewModel @Inject constructor(
                 val today = LocalDate.now().toString()
                 val userId = 1L
                 
-                // Carrega exercícios devidos + novos
+                // Carrega exercícios devidos + novos do nível selecionado
                 val dueExercises = dictationRepository.getDueExercises(userId, today, 15)
-                val newExercises = dictationRepository.getNewExercises(userId, maxLevel = 12, 5)
+                    .filter { it.levelId == levelId }
+                val newExercises = dictationRepository.getNewExercises(userId, maxLevel = levelId, 10)
+                    .filter { it.levelId == levelId }
                 
                 exercises = (dueExercises + newExercises).shuffled()
                 
@@ -277,5 +285,9 @@ data class DictationUiState(
     val playCount: Int = 0,
     val isComplete: Boolean = false,
     val averageScore: Float = 0f,
-    val error: String? = null
+    val error: String? = null,
+    // Filtro por nível
+    val availableLevels: List<Int> = (1..12).toList(),
+    val selectedLevel: Int = 1,
+    val isSelectingLevel: Boolean = true
 )

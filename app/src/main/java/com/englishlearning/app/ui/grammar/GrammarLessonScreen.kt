@@ -9,6 +9,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,6 +19,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -37,6 +39,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
@@ -140,7 +143,10 @@ fun GrammarLessonScreen(
             }
             else -> {
                 LessonList(
-                    lessons = uiState.lessons,
+                    lessons = if (uiState.selectedLevel != null) uiState.filteredLessons else uiState.lessons,
+                    availableLevels = uiState.availableLevels,
+                    selectedLevel = uiState.selectedLevel,
+                    onLevelSelected = { viewModel.filterByLevel(it) },
                     onSelectLesson = { viewModel.selectLesson(it) },
                     modifier = Modifier.padding(padding)
                 )
@@ -152,47 +158,85 @@ fun GrammarLessonScreen(
 @Composable
 private fun LessonList(
     lessons: List<GrammarLesson>,
+    availableLevels: List<Int>,
+    selectedLevel: Int?,
+    onLevelSelected: (Int?) -> Unit,
     onSelectLesson: (GrammarLesson) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    if (lessons.isEmpty()) {
-        Box(
-            modifier = modifier.fillMaxSize(),
-            contentAlignment = Alignment.Center
-        ) {
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally
+    Column(modifier = modifier.fillMaxSize()) {
+        // Filtro de níveis
+        if (availableLevels.isNotEmpty()) {
+            LazyRow(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text("📚", fontSize = 48.sp)
-                Spacer(modifier = Modifier.height(16.dp))
-                Text(
-                    text = "Nenhuma lição disponível ainda",
-                    style = MaterialTheme.typography.titleMedium,
-                    textAlign = TextAlign.Center
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = "As lições de gramática serão carregadas em breve.",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    textAlign = TextAlign.Center
-                )
+                // Botão "Todos"
+                item {
+                    FilterChip(
+                        selected = selectedLevel == null,
+                        onClick = { onLevelSelected(null) },
+                        label = { Text("Todos") }
+                    )
+                }
+                
+                // Botões por nível
+                items(availableLevels) { level ->
+                    FilterChip(
+                        selected = selectedLevel == level,
+                        onClick = { onLevelSelected(level) },
+                        label = { Text("Nível $level") }
+                    )
+                }
             }
         }
-        return
-    }
-    
-    LazyColumn(
-        modifier = modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
-    ) {
-        items(lessons, key = { it.id }) { lesson ->
-            LessonCard(
-                lesson = lesson,
-                onClick = { onSelectLesson(lesson) }
-            )
+        
+        if (lessons.isEmpty()) {
+            Box(
+                modifier = Modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text("📚", fontSize = 48.sp)
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = if (selectedLevel != null) {
+                            "Nenhuma lição disponível no nível $selectedLevel"
+                        } else {
+                            "Nenhuma lição disponível ainda"
+                        },
+                        style = MaterialTheme.typography.titleMedium,
+                        textAlign = TextAlign.Center
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "As lições de gramática serão carregadas em breve.",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center
+                    )
+                }
+            }
+            return
+        }
+        
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            contentPadding = PaddingValues(vertical = 8.dp)
+        ) {
+            items(lessons, key = { it.id }) { lesson ->
+                LessonCard(
+                    lesson = lesson,
+                    onClick = { onSelectLesson(lesson) }
+                )
+            }
         }
     }
 }
