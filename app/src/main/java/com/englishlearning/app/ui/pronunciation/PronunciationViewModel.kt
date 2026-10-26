@@ -36,16 +36,22 @@ class PronunciationViewModel @Inject constructor(
     private val results = mutableListOf<PronunciationResult>()
     
     init {
-        loadExercises()
+        // Não carrega automaticamente - espera seleção de nível
+        _uiState.update { it.copy(isLoading = false, isSelectingLevel = true) }
     }
     
-    private fun loadExercises() {
+    fun selectLevel(level: Int) {
+        _uiState.update { it.copy(selectedLevel = level, isSelectingLevel = false) }
+        loadExercises(level)
+    }
+    
+    private fun loadExercises(levelId: Int = _uiState.value.selectedLevel) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
             try {
-                // Carrega frases para praticar pronúncia
-                sentences = pronunciationRepository.getSentencesForPractice(15)
+                // Carrega frases para praticar pronúncia filtradas por nível
+                sentences = pronunciationRepository.getSentencesForPractice(levelId, 15)
                 
                 _uiState.update {
                     it.copy(
@@ -232,5 +238,9 @@ data class PronunciationUiState(
     val currentResult: PronunciationResult? = null,
     val isComplete: Boolean = false,
     val averageScore: Float = 0f,
-    val error: String? = null
+    val error: String? = null,
+    // Filtro por nível
+    val availableLevels: List<Int> = (1..12).toList(),
+    val selectedLevel: Int = 1,
+    val isSelectingLevel: Boolean = true
 )

@@ -25,9 +25,9 @@ class PronunciationRepositoryImpl @Inject constructor(
     private val exerciseDao: ExerciseDao
 ) : PronunciationRepository {
     
-    override suspend fun getSentencesForPractice(count: Int): List<String> {
-        // Get exercises from level 1 for simple pronunciation practice
-        val exercises = exerciseDao.getByLevel(1).take(count)
+    override suspend fun getSentencesForPractice(levelId: Int, count: Int): List<String> {
+        // Get exercises from specified level for pronunciation practice
+        val exercises = exerciseDao.getByLevel(levelId).take(count)
         return exercises.map { it.answerText }
     }
     

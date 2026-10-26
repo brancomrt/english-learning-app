@@ -153,6 +153,12 @@ fun PronunciationScreen(
                             CircularProgressIndicator()
                         }
                     }
+                    uiState.isSelectingLevel -> {
+                        LevelSelectionCard(
+                            availableLevels = uiState.availableLevels,
+                            onSelectLevel = { viewModel.selectLevel(it) }
+                        )
+                    }
                     uiState.isComplete -> {
                         SessionCompleteCard(
                             averageScore = uiState.averageScore,
@@ -671,9 +677,86 @@ private fun EmptyMessage(onBack: () -> Unit) {
             "Nenhum exercício disponível",
             style = MaterialTheme.typography.titleLarge
         )
+        Text(
+            "Tente selecionar outro nível",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
         Spacer(modifier = Modifier.height(24.dp))
         Button(onClick = onBack) {
             Text("Voltar")
+        }
+    }
+}
+
+@Composable
+private fun LevelSelectionCard(
+    availableLevels: List<Int>,
+    onSelectLevel: (Int) -> Unit
+) {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text("🎤", fontSize = 64.sp)
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
+        Text(
+            "Escolha o Nível",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold
+        )
+        
+        Spacer(modifier = Modifier.height(8.dp))
+        
+        Text(
+            "Selecione o nível para praticar pronúncia",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center
+        )
+        
+        Spacer(modifier = Modifier.height(24.dp))
+        
+        // Grid de níveis
+        Column(
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            availableLevels.chunked(3).forEach { row ->
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Spacer(modifier = Modifier.weight(1f))
+                    row.forEach { level ->
+                        Button(
+                            onClick = { onSelectLevel(level) },
+                            modifier = Modifier.size(80.dp),
+                            shape = RoundedCornerShape(16.dp),
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = when {
+                                    level <= 2 -> Color(0xFF4CAF50)
+                                    level <= 4 -> Color(0xFF8BC34A)
+                                    level <= 6 -> Color(0xFFFFEB3B)
+                                    level <= 8 -> Color(0xFFFF9800)
+                                    level <= 10 -> Color(0xFFFF5722)
+                                    else -> Color(0xFFF44336)
+                                }
+                            )
+                        ) {
+                            Text(
+                                "$level",
+                                style = MaterialTheme.typography.titleLarge,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
+                    Spacer(modifier = Modifier.weight(1f))
+                }
+            }
         }
     }
 }

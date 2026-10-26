@@ -31,25 +31,33 @@ class FlashcardViewModel @Inject constructor(
     private var currentIndex = 0
     
     init {
-        loadCards()
+        // Não carrega automaticamente - espera seleção de nível
+        _uiState.update { it.copy(isLoading = false, isSelectingLevel = true) }
     }
     
-    private fun loadCards() {
+    fun selectLevel(level: Int) {
+        _uiState.update { it.copy(selectedLevel = level, isSelectingLevel = false) }
+        loadCards(level)
+    }
+    
+    private fun loadCards(levelId: Int = _uiState.value.selectedLevel) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             
             try {
                 val today = LocalDate.now().toString()
-                val userId = 1L // TODO: Get actual user ID
+                val userId = 1L
                 
-                // Carrega cards devidos + alguns novos
+                // Carrega cards devidos + novos filtrados por nível
                 val dueCards = flashcardRepository.getDueCards(userId, today, 30)
+                    .filter { it.levelId == levelId }
                 val newCards = flashcardRepository.getNewCards(userId, 10)
+                    .filter { it.levelId == levelId }
                 
                 cards = (dueCards + newCards).shuffled()
                 
-                val dueCount = flashcardRepository.getDueCount(userId, today)
-                val newCount = flashcardRepository.getNewCount(userId)
+                val dueCount = dueCards.size
+                val newCount = newCards.size
                 
                 _uiState.update {
                     it.copy(
@@ -122,5 +130,9 @@ data class FlashcardUiState(
     val newCards: Int = 0,
     val progress: Float = 0f,
     val isComplete: Boolean = false,
-    val error: String? = null
+    val error: String? = null,
+    // Filtro por nível
+    val availableLevels: List<Int> = (1..12).toList(),
+    val selectedLevel: Int = 1,
+    val isSelectingLevel: Boolean = true
 )

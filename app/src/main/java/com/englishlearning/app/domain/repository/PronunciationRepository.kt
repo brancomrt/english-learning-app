@@ -11,8 +11,10 @@ interface PronunciationRepository {
     
     /**
      * Obtém frases para praticar pronúncia.
+     * @param levelId ID do nível para filtrar exercícios
+     * @param count quantidade de frases a retornar
      */
-    suspend fun getSentencesForPractice(count: Int = 15): List<String>
+    suspend fun getSentencesForPractice(levelId: Int = 1, count: Int = 15): List<String>
     
     /**
      * Salva resultado de avaliação.
