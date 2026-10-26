@@ -87,6 +87,12 @@ object HomeNavRoutes {
     const val MICROLEARNING = "microlearning"
     const val LISTENING_FIRST = "listening_first/1/0"
     const val SHADOWING = "shadowing/1/0"
+    
+    // v1.28.0 Features
+    const val FLASHCARDS = "flashcards"
+    const val DICTATION = "dictation"
+    const val GRAMMAR_LESSONS = "grammar_lessons"
+    const val PRONUNCIATION = "pronunciation"
 }
 
 // ---------------------------------------------------------------------------
@@ -133,7 +139,11 @@ fun HomeScreen(
             onDailyChallengesClick = { navController.navigate(HomeNavRoutes.DAILY_CHALLENGES) },
             onMicrolearningClick = { navController.navigate(HomeNavRoutes.MICROLEARNING) },
             onListeningFirstClick = { navController.navigate(HomeNavRoutes.LISTENING_FIRST) },
-            onShadowingClick = { navController.navigate(HomeNavRoutes.SHADOWING) }
+            onShadowingClick = { navController.navigate(HomeNavRoutes.SHADOWING) },
+            onFlashcardsClick = { navController.navigate(HomeNavRoutes.FLASHCARDS) },
+            onDictationClick = { navController.navigate(HomeNavRoutes.DICTATION) },
+            onGrammarClick = { navController.navigate(HomeNavRoutes.GRAMMAR_LESSONS) },
+            onPronunciationClick = { navController.navigate(HomeNavRoutes.PRONUNCIATION) }
         )
     }
 }
@@ -175,7 +185,11 @@ fun HomeContent(
     onDailyChallengesClick: () -> Unit = {},
     onMicrolearningClick: () -> Unit = {},
     onListeningFirstClick: () -> Unit = {},
-    onShadowingClick: () -> Unit = {}
+    onShadowingClick: () -> Unit = {},
+    onFlashcardsClick: () -> Unit = {},
+    onDictationClick: () -> Unit = {},
+    onGrammarClick: () -> Unit = {},
+    onPronunciationClick: () -> Unit = {}
 ) {
     val haptic = rememberHapticFeedback()
     
@@ -354,6 +368,59 @@ fun HomeContent(
                     enabled = uiState.dueCardCount == 0 // Só mostra se não tem o card de revisão acima
                 ) {
                     Text("🧠 SRS Review", style = MaterialTheme.typography.labelMedium)
+                }
+            }
+            
+            // v1.28.0 Features row
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onFlashcardsClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("📚 Flashcards", style = MaterialTheme.typography.labelMedium)
+                }
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onDictationClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("✍️ Ditado", style = MaterialTheme.typography.labelMedium)
+                }
+            }
+            
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onGrammarClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("📖 Gramática", style = MaterialTheme.typography.labelMedium)
+                }
+                FilledTonalButton(
+                    onClick = {
+                        haptic.perform(HapticType.LIGHT)
+                        onPronunciationClick()
+                    },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("🗣️ Pronúncia", style = MaterialTheme.typography.labelMedium)
                 }
             }
 

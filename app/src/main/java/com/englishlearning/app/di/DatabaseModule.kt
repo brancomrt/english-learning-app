@@ -8,12 +8,17 @@ import com.englishlearning.app.data.database.dao.AchievementDao
 import com.englishlearning.app.data.database.dao.CategoryDao
 import com.englishlearning.app.data.database.dao.ConversationChainDao
 import com.englishlearning.app.data.database.dao.DailyChallengeDao
+import com.englishlearning.app.data.database.dao.DictationDao
 import com.englishlearning.app.data.database.dao.ExerciseDao
+import com.englishlearning.app.data.database.dao.FlashcardDao
+import com.englishlearning.app.data.database.dao.GrammarLessonDao
 import com.englishlearning.app.data.database.dao.HintDao
 import com.englishlearning.app.data.database.dao.LevelDao
 import com.englishlearning.app.data.database.dao.ProgressDao
+import com.englishlearning.app.data.database.dao.PronunciationDao
 import com.englishlearning.app.data.database.dao.SrsDao
 import com.englishlearning.app.data.database.dao.StreakDao
+import com.englishlearning.app.data.database.dao.SyncDao
 import com.englishlearning.app.data.database.dao.UserProfileDao
 import com.englishlearning.app.data.database.dao.VocabularyDao
 import dagger.Module
@@ -60,7 +65,8 @@ object DatabaseModule {
                 EnglishLearningDatabase.MIGRATION_1_2,
                 EnglishLearningDatabase.MIGRATION_2_3,
                 EnglishLearningDatabase.MIGRATION_3_4,
-                EnglishLearningDatabase.MIGRATION_4_5
+                EnglishLearningDatabase.MIGRATION_4_5,
+                EnglishLearningDatabase.MIGRATION_5_6
             )
             .fallbackToDestructiveMigration()
             .build()
@@ -111,4 +117,33 @@ object DatabaseModule {
     @Provides
     fun provideConversationChainDao(db: EnglishLearningDatabase): ConversationChainDao =
         db.conversationChainDao()
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // v1.28.0 DAOs
+    // ═══════════════════════════════════════════════════════════════════════
+
+    /** Provê [FlashcardDao] para flashcards de vocabulário. */
+    @Provides
+    fun provideFlashcardDao(db: EnglishLearningDatabase): FlashcardDao =
+        db.flashcardDao()
+
+    /** Provê [DictationDao] para exercícios de ditado. */
+    @Provides
+    fun provideDictationDao(db: EnglishLearningDatabase): DictationDao =
+        db.dictationDao()
+
+    /** Provê [GrammarLessonDao] para lições de gramática. */
+    @Provides
+    fun provideGrammarLessonDao(db: EnglishLearningDatabase): GrammarLessonDao =
+        db.grammarLessonDao()
+
+    /** Provê [PronunciationDao] para avaliação de pronúncia. */
+    @Provides
+    fun providePronunciationDao(db: EnglishLearningDatabase): PronunciationDao =
+        db.pronunciationDao()
+
+    /** Provê [SyncDao] para sincronização com a nuvem. */
+    @Provides
+    fun provideSyncDao(db: EnglishLearningDatabase): SyncDao =
+        db.syncDao()
 }

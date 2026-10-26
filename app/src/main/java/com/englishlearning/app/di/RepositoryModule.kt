@@ -3,14 +3,26 @@ package com.englishlearning.app.di
 import com.englishlearning.app.data.repository.ContentRepositoryImpl
 import com.englishlearning.app.data.repository.ConversationChainRepositoryImpl
 import com.englishlearning.app.data.repository.DailyChallengeRepositoryImpl
+import com.englishlearning.app.data.repository.DictationRepositoryImpl
+import com.englishlearning.app.data.repository.FlashcardRepositoryImpl
+import com.englishlearning.app.data.repository.GrammarRepositoryImpl
 import com.englishlearning.app.data.repository.ProgressRepositoryImpl
+import com.englishlearning.app.data.repository.PronunciationRepositoryImpl
+import com.englishlearning.app.data.repository.SpeechRecognitionRepositoryImpl
 import com.englishlearning.app.data.repository.SrsRepositoryImpl
+import com.englishlearning.app.data.repository.TtsRepositoryImpl
 import com.englishlearning.app.domain.gamification.StreakCalculator
 import com.englishlearning.app.domain.repository.ContentRepository
 import com.englishlearning.app.domain.repository.ConversationChainRepository
 import com.englishlearning.app.domain.repository.DailyChallengeRepository
+import com.englishlearning.app.domain.repository.DictationRepository
+import com.englishlearning.app.domain.repository.FlashcardRepository
+import com.englishlearning.app.domain.repository.GrammarRepository
 import com.englishlearning.app.domain.repository.ProgressRepository
+import com.englishlearning.app.domain.repository.PronunciationRepository
+import com.englishlearning.app.domain.repository.SpeechRecognitionRepository
 import com.englishlearning.app.domain.repository.SrsRepository
+import com.englishlearning.app.domain.repository.TtsRepository
 import com.englishlearning.app.domain.validation.GrammarParser
 import com.englishlearning.app.domain.validation.QuestionValidationEngine
 import com.englishlearning.app.domain.validation.QuestionValidationEngineImpl
@@ -76,6 +88,52 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindConversationChainRepository(impl: ConversationChainRepositoryImpl): ConversationChainRepository
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // v1.28.0 Repositories
+    // ═══════════════════════════════════════════════════════════════════════
+
+    /**
+     * Vincula [FlashcardRepositoryImpl] à interface [FlashcardRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindFlashcardRepository(impl: FlashcardRepositoryImpl): FlashcardRepository
+
+    /**
+     * Vincula [DictationRepositoryImpl] à interface [DictationRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindDictationRepository(impl: DictationRepositoryImpl): DictationRepository
+
+    /**
+     * Vincula [GrammarRepositoryImpl] à interface [GrammarRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindGrammarRepository(impl: GrammarRepositoryImpl): GrammarRepository
+
+    /**
+     * Vincula [PronunciationRepositoryImpl] à interface [PronunciationRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindPronunciationRepository(impl: PronunciationRepositoryImpl): PronunciationRepository
+
+    /**
+     * Vincula [SpeechRecognitionRepositoryImpl] à interface [SpeechRecognitionRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindSpeechRecognitionRepository(impl: SpeechRecognitionRepositoryImpl): SpeechRecognitionRepository
+
+    /**
+     * Vincula [TtsRepositoryImpl] à interface [TtsRepository].
+     */
+    @Binds
+    @Singleton
+    abstract fun bindTtsRepository(impl: TtsRepositoryImpl): TtsRepository
 
     companion object {
 

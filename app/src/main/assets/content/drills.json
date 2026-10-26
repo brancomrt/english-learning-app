@@ -8088,6 +8088,846 @@
         "You are looking at the table."
       ],
       "grammar": "look at - objects"
+    },
+    {
+      "id": 671,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "If you had studied harder, what would have happened?",
+      "answer": "If I had studied harder, I would have passed the exam.",
+      "alt_answers": [
+        "I would have passed if I had studied harder.",
+        "I'd have passed the exam."
+      ],
+      "grammar": "third conditional"
+    },
+    {
+      "id": 672,
+      "level": 7,
+      "lesson": 96,
+      "prompt": "Express a regret about not learning English earlier.",
+      "answer": "I wish I had started learning English when I was younger.",
+      "alt_answers": [
+        "If only I had learned English earlier.",
+        "I regret not starting English sooner."
+      ],
+      "grammar": "wish + past perfect"
+    },
+    {
+      "id": 673,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "How would you report: 'I will call you tomorrow'?",
+      "answer": "She said she would call me the following day.",
+      "alt_answers": [
+        "She said she'd call me the next day.",
+        "She told me she would call me the following day."
+      ],
+      "grammar": "reported speech - future"
+    },
+    {
+      "id": 674,
+      "level": 7,
+      "lesson": 97,
+      "prompt": "Report this question: 'Where did you go yesterday?'",
+      "answer": "She asked me where I had gone the day before.",
+      "alt_answers": [
+        "She asked where I had been the previous day.",
+        "She wanted to know where I had gone."
+      ],
+      "grammar": "reported questions"
+    },
+    {
+      "id": 675,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "What's the passive form of 'Someone is repairing the car'?",
+      "answer": "The car is being repaired.",
+      "alt_answers": [
+        "The car is being fixed.",
+        "The car is currently being repaired."
+      ],
+      "grammar": "passive continuous"
+    },
+    {
+      "id": 676,
+      "level": 7,
+      "lesson": 98,
+      "prompt": "Make this passive: 'They will have completed the project by Friday'",
+      "answer": "The project will have been completed by Friday.",
+      "alt_answers": [
+        "By Friday, the project will have been completed.",
+        "The project will have been finished by Friday."
+      ],
+      "grammar": "passive future perfect"
+    },
+    {
+      "id": 677,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "What does 'get something done' mean? Give an example.",
+      "answer": "It means having someone else do something for you. For example, 'I need to get my hair cut.'",
+      "alt_answers": [
+        "It's the causative form. Example: I got my car washed.",
+        "Having something done by another person, like getting your house painted."
+      ],
+      "grammar": "causative - have/get something done"
+    },
+    {
+      "id": 678,
+      "level": 7,
+      "lesson": 99,
+      "prompt": "What's the difference between 'I cut my hair' and 'I had my hair cut'?",
+      "answer": "'I cut my hair' means I did it myself. 'I had my hair cut' means someone else cut it for me.",
+      "alt_answers": [
+        "The first means you did it; the second means a professional did it.",
+        "One is active, the other is causative."
+      ],
+      "grammar": "causative vs active"
+    },
+    {
+      "id": 679,
+      "level": 7,
+      "lesson": 100,
+      "prompt": "Use 'hardly' and 'when' to describe two events happening close together.",
+      "answer": "Hardly had I arrived when the meeting started.",
+      "alt_answers": [
+        "I had hardly sat down when the phone rang.",
+        "Hardly had I finished when they asked for more."
+      ],
+      "grammar": "inversion - hardly...when"
+    },
+    {
+      "id": 680,
+      "level": 7,
+      "lesson": 100,
+      "prompt": "Rewrite using inversion: 'I have never seen such a beautiful sunset.'",
+      "answer": "Never have I seen such a beautiful sunset.",
+      "alt_answers": [
+        "Never before had I seen such beauty.",
+        "Never in my life have I witnessed such a sunset."
+      ],
+      "grammar": "inversion - negative adverbs"
+    },
+    {
+      "id": 681,
+      "level": 7,
+      "lesson": 101,
+      "prompt": "What's a relative clause? Give an example with 'which'.",
+      "answer": "A relative clause gives more information about a noun. Example: 'The book, which I bought yesterday, is fascinating.'",
+      "alt_answers": [
+        "A clause that describes a noun. 'The movie, which was released last week, won an award.'",
+        "It adds information. 'My car, which is red, is parked outside.'"
+      ],
+      "grammar": "non-defining relative clauses"
+    },
+    {
+      "id": 682,
+      "level": 7,
+      "lesson": 101,
+      "prompt": "What's the difference between defining and non-defining relative clauses?",
+      "answer": "Defining clauses are essential to identify what we're talking about. Non-defining clauses add extra information and are separated by commas.",
+      "alt_answers": [
+        "Defining: essential information. Non-defining: extra info with commas.",
+        "Without commas = necessary. With commas = additional."
+      ],
+      "grammar": "defining vs non-defining clauses"
+    },
+    {
+      "id": 683,
+      "level": 7,
+      "lesson": 102,
+      "prompt": "Explain the difference between 'used to' and 'would' for past habits.",
+      "answer": "'Used to' describes past states and habits that no longer exist. 'Would' is only for repeated actions, not states.",
+      "alt_answers": [
+        "'Used to' works for all past habits; 'would' only for actions, not states.",
+        "You can say 'I used to live in Paris' but not 'I would live in Paris.'"
+      ],
+      "grammar": "used to vs would"
+    },
+    {
+      "id": 684,
+      "level": 7,
+      "lesson": 102,
+      "prompt": "Can we say 'I would have a dog when I was young'?",
+      "answer": "No, we can't. We should say 'I used to have a dog' because 'have' describes a state, not an action.",
+      "alt_answers": [
+        "No, 'would' doesn't work with states. Use 'used to have'.",
+        "Incorrect. States require 'used to'."
+      ],
+      "grammar": "would - restrictions"
+    },
+    {
+      "id": 685,
+      "level": 7,
+      "lesson": 103,
+      "prompt": "What's the difference between 'during' and 'while'?",
+      "answer": "'During' is followed by a noun. 'While' is followed by a clause with a verb.",
+      "alt_answers": [
+        "During + noun: during the meeting. While + verb: while I was working.",
+        "'During' needs a noun; 'while' needs a subject and verb."
+      ],
+      "grammar": "during vs while"
+    },
+    {
+      "id": 686,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "What's a cleft sentence? Give an example.",
+      "answer": "A cleft sentence emphasizes a specific part of information. Example: 'It was John who broke the window.'",
+      "alt_answers": [
+        "It highlights information. 'What I need is a vacation.'",
+        "A sentence structure for emphasis: 'It's the price that concerns me.'"
+      ],
+      "grammar": "cleft sentences"
+    },
+    {
+      "id": 687,
+      "level": 8,
+      "lesson": 112,
+      "prompt": "Rewrite to emphasize 'the noise': 'The noise kept me awake.'",
+      "answer": "It was the noise that kept me awake.",
+      "alt_answers": [
+        "What kept me awake was the noise.",
+        "The thing that kept me awake was the noise."
+      ],
+      "grammar": "it-cleft sentences"
+    },
+    {
+      "id": 688,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "Explain the difference between 'in spite of' and 'despite'.",
+      "answer": "They have the same meaning and usage. Both are followed by a noun or -ing form. 'Despite' is slightly more formal.",
+      "alt_answers": [
+        "They're interchangeable. Both mean 'regardless of'.",
+        "No difference in meaning. 'Despite' = 'In spite of'."
+      ],
+      "grammar": "despite vs in spite of"
+    },
+    {
+      "id": 689,
+      "level": 8,
+      "lesson": 113,
+      "prompt": "Use 'although', 'despite', and 'in spite of' with the same meaning.",
+      "answer": "Although it was raining, we went out. Despite the rain, we went out. In spite of the rain, we went out.",
+      "alt_answers": [
+        "Although he was tired, he worked. Despite being tired, he worked. In spite of his tiredness, he worked.",
+        "Three ways to express contrast with the same idea."
+      ],
+      "grammar": "concession - multiple forms"
+    },
+    {
+      "id": 690,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "What's the subjunctive mood? When do we use it?",
+      "answer": "The subjunctive is used to express wishes, suggestions, demands, or hypothetical situations. Example: 'I suggest that he be on time.'",
+      "alt_answers": [
+        "It's for recommendations and wishes: 'It's important that she arrive early.'",
+        "Used after verbs like suggest, recommend, demand: 'They demanded that he leave.'"
+      ],
+      "grammar": "subjunctive mood"
+    },
+    {
+      "id": 691,
+      "level": 8,
+      "lesson": 114,
+      "prompt": "Complete: 'The doctor recommended that she _____ (rest) for a week.'",
+      "answer": "The doctor recommended that she rest for a week.",
+      "alt_answers": [
+        "Rest - subjunctive, no 's' needed.",
+        "She rest - the base form is used in subjunctive."
+      ],
+      "grammar": "subjunctive with recommend"
+    },
+    {
+      "id": 692,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "What are participle clauses? Give examples.",
+      "answer": "Participle clauses use present (-ing) or past (-ed) participles to shorten sentences. Example: 'Having finished work, I went home.'",
+      "alt_answers": [
+        "Clauses starting with -ing or -ed. 'Feeling tired, she went to bed.'",
+        "'Written in 1990, the book is still popular.' - past participle clause."
+      ],
+      "grammar": "participle clauses"
+    },
+    {
+      "id": 693,
+      "level": 8,
+      "lesson": 115,
+      "prompt": "Rewrite using a participle clause: 'Because I was tired, I went to bed early.'",
+      "answer": "Being tired, I went to bed early.",
+      "alt_answers": [
+        "Feeling tired, I went to bed early.",
+        "Tired from work, I went to bed early."
+      ],
+      "grammar": "participle clauses - reason"
+    },
+    {
+      "id": 694,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What's the difference between 'remember to do' and 'remember doing'?",
+      "answer": "'Remember to do' means not to forget a future action. 'Remember doing' means recalling a past action.",
+      "alt_answers": [
+        "'Remember to call' = don't forget. 'Remember calling' = I recall that I called.",
+        "To + infinitive = future. -ing = past memory."
+      ],
+      "grammar": "remember + infinitive/gerund"
+    },
+    {
+      "id": 695,
+      "level": 8,
+      "lesson": 116,
+      "prompt": "What's the difference between 'stop to smoke' and 'stop smoking'?",
+      "answer": "'Stop to smoke' means to pause in order to smoke. 'Stop smoking' means to quit the habit of smoking.",
+      "alt_answers": [
+        "'Stop to smoke' = take a break for smoking. 'Stop smoking' = quit smoking.",
+        "One is about purpose, the other about ending a habit."
+      ],
+      "grammar": "stop + infinitive/gerund"
+    },
+    {
+      "id": 696,
+      "level": 8,
+      "lesson": 117,
+      "prompt": "Explain mixed conditionals with an example.",
+      "answer": "Mixed conditionals combine different time references. Example: 'If I had studied medicine, I would be a doctor now.' (past condition, present result)",
+      "alt_answers": [
+        "Past condition + present result: 'If I hadn't missed the flight, I would be in Paris now.'",
+        "They mix past and present: 'If I were taller, I would have been a basketball player.'"
+      ],
+      "grammar": "mixed conditionals"
+    },
+    {
+      "id": 697,
+      "level": 8,
+      "lesson": 117,
+      "prompt": "Give an example of a mixed conditional with present condition and past result.",
+      "answer": "If I were more organized, I would have finished the project on time.",
+      "alt_answers": [
+        "If he weren't so lazy, he would have gotten the promotion.",
+        "If I liked early mornings, I would have taken that job."
+      ],
+      "grammar": "mixed conditional - type 2"
+    },
+    {
+      "id": 698,
+      "level": 8,
+      "lesson": 118,
+      "prompt": "What are fronted adverbials? Give examples.",
+      "answer": "Fronted adverbials are adverbs or adverbial phrases placed at the beginning of a sentence for emphasis. Example: 'Carefully, she opened the box.'",
+      "alt_answers": [
+        "Adverbs at the start: 'Slowly, the sun set.' 'With great care, he handled it.'",
+        "Moving adverbs to the front: 'Suddenly, everything changed.'"
+      ],
+      "grammar": "fronted adverbials"
+    },
+    {
+      "id": 699,
+      "level": 8,
+      "lesson": 118,
+      "prompt": "Rewrite with a fronted adverbial: 'She spoke to the audience confidently.'",
+      "answer": "Confidently, she spoke to the audience.",
+      "alt_answers": [
+        "With confidence, she addressed the audience.",
+        "In a confident manner, she spoke to the audience."
+      ],
+      "grammar": "fronted adverbials - practice"
+    },
+    {
+      "id": 700,
+      "level": 8,
+      "lesson": 119,
+      "prompt": "What's ellipsis in grammar? Give an example.",
+      "answer": "Ellipsis is the omission of words that are understood from context. Example: 'I can swim and my brother can too.' (swim is omitted)",
+      "alt_answers": [
+        "Leaving out repeated words: 'She likes coffee, and I do too.'",
+        "Omitting understood words: 'Are you coming? - I might.' (come is omitted)"
+      ],
+      "grammar": "ellipsis"
+    },
+    {
+      "id": 701,
+      "level": 9,
+      "lesson": 131,
+      "prompt": "What's the difference between 'lay' and 'lie'?",
+      "answer": "'Lay' is transitive (needs an object) and means to put something down. 'Lie' is intransitive (no object) and means to recline.",
+      "alt_answers": [
+        "Lay the book down (transitive). Lie down on the bed (intransitive).",
+        "'Lay' takes an object; 'lie' doesn't. I lay the baby down. I lie down."
+      ],
+      "grammar": "lay vs lie"
+    },
+    {
+      "id": 702,
+      "level": 9,
+      "lesson": 131,
+      "prompt": "What are the past forms of 'lay' and 'lie'?",
+      "answer": "'Lay' becomes 'laid' in the past. 'Lie' becomes 'lay' in the past, which causes confusion.",
+      "alt_answers": [
+        "Lay-laid-laid (put down). Lie-lay-lain (recline).",
+        "Past of lay = laid. Past of lie = lay. That's why it's confusing."
+      ],
+      "grammar": "lay vs lie - past forms"
+    },
+    {
+      "id": 703,
+      "level": 9,
+      "lesson": 132,
+      "prompt": "Explain the difference between 'effect' and 'affect'.",
+      "answer": "'Effect' is usually a noun meaning result. 'Affect' is usually a verb meaning to influence.",
+      "alt_answers": [
+        "The effect (noun) of the decision. It will affect (verb) everyone.",
+        "Effect = result (noun). Affect = influence (verb)."
+      ],
+      "grammar": "effect vs affect"
+    },
+    {
+      "id": 704,
+      "level": 9,
+      "lesson": 132,
+      "prompt": "Can 'effect' be used as a verb?",
+      "answer": "Yes, 'effect' as a verb means 'to bring about' or 'to cause.' Example: 'The new CEO effected major changes.'",
+      "alt_answers": [
+        "Yes, it means 'to cause': to effect a change.",
+        "Effect as a verb = make happen. Less common but correct."
+      ],
+      "grammar": "effect as verb"
+    },
+    {
+      "id": 705,
+      "level": 9,
+      "lesson": 133,
+      "prompt": "What's the difference between 'principal' and 'principle'?",
+      "answer": "'Principal' is an adjective meaning main/chief, or a noun meaning head of a school. 'Principle' is a noun meaning a rule or belief.",
+      "alt_answers": [
+        "Principal = main or school head. Principle = rule or moral.",
+        "The principal (main) reason. A principle (belief) I live by."
+      ],
+      "grammar": "principal vs principle"
+    },
+    {
+      "id": 706,
+      "level": 9,
+      "lesson": 133,
+      "prompt": "Use 'principal' and 'principle' correctly in sentences.",
+      "answer": "The principal reason for the delay was bad weather. It's against my principles to lie.",
+      "alt_answers": [
+        "The school principal. A matter of principle.",
+        "His principal goal was success. He has strong principles."
+      ],
+      "grammar": "principal vs principle - usage"
+    },
+    {
+      "id": 707,
+      "level": 9,
+      "lesson": 134,
+      "prompt": "What's a garden path sentence? Give an example.",
+      "answer": "A garden path sentence initially leads the reader to parse it one way, then requires reparsing. Example: 'The old man the boat.'",
+      "alt_answers": [
+        "Sentences that mislead at first: 'The horse raced past the barn fell.'",
+        "'Time flies like an arrow.' - ambiguous until the end."
+      ],
+      "grammar": "garden path sentences"
+    },
+    {
+      "id": 708,
+      "level": 9,
+      "lesson": 134,
+      "prompt": "Explain: 'The old man the boat.'",
+      "answer": "This means 'The old (people) man (operate/sail) the boat.' 'Old' is a noun, and 'man' is a verb here.",
+      "alt_answers": [
+        "'Old' refers to elderly people who operate ('man') the boat.",
+        "It's 'The elderly operate the boat' - 'old' is a noun, 'man' is a verb."
+      ],
+      "grammar": "garden path - analysis"
+    },
+    {
+      "id": 709,
+      "level": 9,
+      "lesson": 135,
+      "prompt": "What's the difference between 'historic' and 'historical'?",
+      "answer": "'Historic' means important in history. 'Historical' means relating to or about history.",
+      "alt_answers": [
+        "Historic = famous/significant (a historic moment). Historical = connected to history (historical records).",
+        "A historic event changed history. A historical document is from the past."
+      ],
+      "grammar": "historic vs historical"
+    },
+    {
+      "id": 710,
+      "level": 9,
+      "lesson": 135,
+      "prompt": "Is it 'a historic' or 'an historic'?",
+      "answer": "Both are acceptable. Traditionally, 'an historic' was used because the 'h' was often silent. Today, 'a historic' is more common as we pronounce the 'h'.",
+      "alt_answers": [
+        "'A historic' is standard now. 'An historic' is traditional but less common.",
+        "Either works. 'A historic' is modern; 'an historic' is formal/British."
+      ],
+      "grammar": "a/an before historic"
+    },
+    {
+      "id": 711,
+      "level": 10,
+      "lesson": 146,
+      "prompt": "What's a zeugma? Give an example.",
+      "answer": "A zeugma is a figure of speech where one word applies to multiple parts of a sentence in different ways. Example: 'She broke his car and his heart.'",
+      "alt_answers": [
+        "One verb with two meanings: 'He held his head and his tongue.'",
+        "'She lowered her standards and her expectations.' - zeugma uses one word for multiple effects."
+      ],
+      "grammar": "zeugma - rhetorical device"
+    },
+    {
+      "id": 712,
+      "level": 10,
+      "lesson": 146,
+      "prompt": "What's the difference between zeugma and syllepsis?",
+      "answer": "Zeugma uses one word in a grammatically or logically different way with two parts. Syllepsis is a type of zeugma where the word applies differently but remains grammatically correct.",
+      "alt_answers": [
+        "Both use one word for multiple effects. Syllepsis is grammatically correct; zeugma may not be.",
+        "Syllepsis: 'She caught his eye and a cold.' Both grammatical but different meanings."
+      ],
+      "grammar": "zeugma vs syllepsis"
+    },
+    {
+      "id": 713,
+      "level": 10,
+      "lesson": 147,
+      "prompt": "What's a nominalization? Why might we avoid it?",
+      "answer": "Nominalization turns verbs or adjectives into nouns (decide → decision). We might avoid it because it can make writing less clear and more formal.",
+      "alt_answers": [
+        "Making verbs into nouns: 'investigate' → 'investigation'. It can make text heavy and unclear.",
+        "Turning actions into nouns. 'We decided' is clearer than 'We made a decision.'"
+      ],
+      "grammar": "nominalization"
+    },
+    {
+      "id": 714,
+      "level": 10,
+      "lesson": 147,
+      "prompt": "Rewrite without nominalization: 'The implementation of the policy was successful.'",
+      "answer": "We implemented the policy successfully.",
+      "alt_answers": [
+        "The policy was implemented successfully.",
+        "Implementing the policy succeeded."
+      ],
+      "grammar": "avoiding nominalization"
+    },
+    {
+      "id": 715,
+      "level": 10,
+      "lesson": 148,
+      "prompt": "What's hedging in academic writing? Give examples.",
+      "answer": "Hedging uses cautious language to avoid absolute claims. Examples: 'may,' 'might,' 'could,' 'suggests,' 'appears to.'",
+      "alt_answers": [
+        "Softening statements: 'The evidence suggests...' instead of 'The evidence proves...'",
+        "Words like 'perhaps,' 'possibly,' 'tends to' make claims less absolute."
+      ],
+      "grammar": "hedging language"
+    },
+    {
+      "id": 716,
+      "level": 10,
+      "lesson": 148,
+      "prompt": "Why is hedging important in academic writing?",
+      "answer": "Hedging shows intellectual honesty by acknowledging uncertainty, avoiding overgeneralization, and leaving room for other interpretations.",
+      "alt_answers": [
+        "It shows caution and precision. Absolute claims can be challenged more easily.",
+        "It demonstrates that findings are interpretations, not absolute truths."
+      ],
+      "grammar": "hedging - importance"
+    },
+    {
+      "id": 717,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "What's a dangling modifier? Give an example.",
+      "answer": "A dangling modifier is a phrase that doesn't clearly refer to the subject. Example: 'Walking to school, the rain started.' (Who was walking?)",
+      "alt_answers": [
+        "A modifier with no clear subject: 'Having finished dinner, the dishes were washed.'",
+        "'Running quickly, the bus was caught.' - the bus wasn't running!"
+      ],
+      "grammar": "dangling modifiers"
+    },
+    {
+      "id": 718,
+      "level": 10,
+      "lesson": 149,
+      "prompt": "Correct: 'Walking to school, the rain started.'",
+      "answer": "Walking to school, I got caught in the rain. OR: While I was walking to school, the rain started.",
+      "alt_answers": [
+        "As I walked to school, the rain started.",
+        "The rain started while I was walking to school."
+      ],
+      "grammar": "correcting dangling modifiers"
+    },
+    {
+      "id": 719,
+      "level": 10,
+      "lesson": 150,
+      "prompt": "What's a split infinitive? Is it always wrong?",
+      "answer": "A split infinitive has a word between 'to' and the verb (to boldly go). It's not always wrong and is now widely accepted when it sounds natural.",
+      "alt_answers": [
+        "An adverb between 'to' and verb: 'to really understand.' It's acceptable in modern English.",
+        "'To quickly finish' is a split infinitive. It's fine when it improves clarity or rhythm."
+      ],
+      "grammar": "split infinitives"
+    },
+    {
+      "id": 720,
+      "level": 10,
+      "lesson": 150,
+      "prompt": "Give a famous example of a split infinitive.",
+      "answer": "'To boldly go where no one has gone before' from Star Trek. It would sound awkward as 'boldly to go' or 'to go boldly.'",
+      "alt_answers": [
+        "Star Trek's 'to boldly go' - splitting works better here.",
+        "The Star Trek intro: 'to boldly go' is more impactful than alternatives."
+      ],
+      "grammar": "split infinitive - example"
+    },
+    {
+      "id": 721,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "What's anaphora in rhetoric?",
+      "answer": "Anaphora is the repetition of a word or phrase at the beginning of successive clauses. Example: 'I have a dream... I have a dream...'",
+      "alt_answers": [
+        "Repeating the start of sentences for emphasis: 'We shall fight on the beaches, we shall fight on the landing grounds.'",
+        "Starting multiple sentences the same way: 'Every day, every hour, every minute.'"
+      ],
+      "grammar": "anaphora - rhetorical device"
+    },
+    {
+      "id": 722,
+      "level": 11,
+      "lesson": 164,
+      "prompt": "What's the opposite of anaphora?",
+      "answer": "Epistrophe (or epiphora) is the repetition of words at the end of successive clauses. Example: 'government of the people, by the people, for the people.'",
+      "alt_answers": [
+        "Epistrophe - repetition at the end: 'See no evil, hear no evil, speak no evil.'",
+        "Epiphora: 'I swear it's true, I believe it's true, I know it's true.'"
+      ],
+      "grammar": "epistrophe"
+    },
+    {
+      "id": 723,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "Explain the concept of register in language.",
+      "answer": "Register refers to the level of formality in language. It ranges from formal (academic, legal) to informal (casual conversation).",
+      "alt_answers": [
+        "How formal or informal language is in a context: a job interview vs. chatting with friends.",
+        "The variety of language appropriate to a situation: formal reports vs. text messages."
+      ],
+      "grammar": "language register"
+    },
+    {
+      "id": 724,
+      "level": 11,
+      "lesson": 165,
+      "prompt": "Give examples of formal and informal register for 'I don't understand.'",
+      "answer": "Informal: 'I don't get it.' / 'Huh?' Formal: 'I'm afraid I don't quite follow.' / 'Could you please clarify?'",
+      "alt_answers": [
+        "Casual: 'What?' Formal: 'I beg your pardon?'",
+        "Slang: 'Lost me there.' Formal: 'I require further explanation.'"
+      ],
+      "grammar": "register - examples"
+    },
+    {
+      "id": 725,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "What's a compound-complex sentence?",
+      "answer": "A compound-complex sentence has at least two independent clauses and one dependent clause. Example: 'When I got home, I made dinner, and we ate together.'",
+      "alt_answers": [
+        "Multiple independent + dependent clauses: 'Although it was late, I finished the report, and I submitted it on time.'",
+        "Complex + compound: 'Because I was tired, I went to bed early, but I couldn't sleep.'"
+      ],
+      "grammar": "compound-complex sentences"
+    },
+    {
+      "id": 726,
+      "level": 11,
+      "lesson": 166,
+      "prompt": "Create a compound-complex sentence about learning English.",
+      "answer": "Although English can be challenging, I practice every day, and I'm seeing improvement.",
+      "alt_answers": [
+        "When I started learning, grammar was difficult, but I kept trying, and now it's easier.",
+        "Because I want to be fluent, I study regularly, and I watch English movies for practice."
+      ],
+      "grammar": "compound-complex - practice"
+    },
+    {
+      "id": 727,
+      "level": 11,
+      "lesson": 167,
+      "prompt": "What's the difference between 'may' and 'might' for possibility?",
+      "answer": "'May' suggests higher probability. 'Might' suggests lower probability or more hypothetical situations.",
+      "alt_answers": [
+        "May = more likely to happen. Might = less certain or hypothetical.",
+        "'It may rain' (good chance). 'It might rain if the wind changes' (less sure)."
+      ],
+      "grammar": "may vs might - probability"
+    },
+    {
+      "id": 728,
+      "level": 11,
+      "lesson": 167,
+      "prompt": "Use 'may have' and 'might have' to discuss past possibilities.",
+      "answer": "'She may have missed the bus' (it's possible). 'She might have caught it if she'd left earlier' (hypothetical/counterfactual).",
+      "alt_answers": [
+        "'He may have forgotten' = possibly happened. 'He might have succeeded if...' = hypothetical.",
+        "May have = uncertain about what happened. Might have = what could have happened differently."
+      ],
+      "grammar": "may/might have"
+    },
+    {
+      "id": 729,
+      "level": 11,
+      "lesson": 168,
+      "prompt": "What's the subjunctive 'were' called and when is it used?",
+      "answer": "It's called the 'past subjunctive' or 'irrealis.' It's used for hypothetical or contrary-to-fact situations: 'If I were you...'",
+      "alt_answers": [
+        "Past subjunctive: 'I wish I were taller.' 'If he were here, he'd help.'",
+        "Irrealis mood: hypotheticals contrary to fact. 'If it were possible...'"
+      ],
+      "grammar": "subjunctive were"
+    },
+    {
+      "id": 730,
+      "level": 11,
+      "lesson": 168,
+      "prompt": "Is 'If I was you' grammatically acceptable?",
+      "answer": "In formal English, 'If I were you' is preferred because it's hypothetical. However, 'If I was you' is common in informal speech.",
+      "alt_answers": [
+        "Formally incorrect but widely used. 'Were' is traditionally correct for hypotheticals.",
+        "'If I was' is informal but accepted in casual contexts."
+      ],
+      "grammar": "were vs was - conditionals"
+    },
+    {
+      "id": 731,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "What's a tmesis? Give an example.",
+      "answer": "Tmesis is inserting a word into the middle of another word, often for emphasis. Example: 'abso-bloody-lutely' or 'fan-freaking-tastic.'",
+      "alt_answers": [
+        "Word splitting for emphasis: 'un-freaking-believable.'",
+        "Inserting words into others: 'what-so-ever' is historical tmesis."
+      ],
+      "grammar": "tmesis - word splitting"
+    },
+    {
+      "id": 732,
+      "level": 12,
+      "lesson": 178,
+      "prompt": "Where can infixes typically be inserted in English words?",
+      "answer": "English infixes typically go before the stressed syllable: fan-TASTIC → fan-freaking-tastic, not *fanta-freaking-stic.",
+      "alt_answers": [
+        "Before the primary stress: abso-LUTE-ly → abso-bloody-lutely.",
+        "At the stress boundary: un-be-LIEV-able → un-freaking-believable."
+      ],
+      "grammar": "infix placement rules"
+    },
+    {
+      "id": 733,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "What's the difference between cohesion and coherence in writing?",
+      "answer": "Cohesion is about linguistic links between sentences (pronouns, connectors). Coherence is about logical flow and making sense as a whole.",
+      "alt_answers": [
+        "Cohesion = grammatical connections. Coherence = logical sense.",
+        "Cohesion ties words together; coherence ties ideas together."
+      ],
+      "grammar": "cohesion vs coherence"
+    },
+    {
+      "id": 734,
+      "level": 12,
+      "lesson": 179,
+      "prompt": "Give examples of cohesive devices.",
+      "answer": "Pronouns (he, she, it), conjunctions (however, therefore), lexical chains (repeated themes), ellipsis, and reference words (this, such).",
+      "alt_answers": [
+        "Connectors: moreover, nevertheless. Reference: this, these, such. Substitution: one, do so.",
+        "Transitions, pronoun reference, repetition of key terms, synonyms."
+      ],
+      "grammar": "cohesive devices"
+    },
+    {
+      "id": 735,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What's the difference between 'that is' (i.e.) and 'for example' (e.g.)?",
+      "answer": "'That is' (i.e.) clarifies or restates what was said. 'For example' (e.g.) gives specific instances. i.e. = 'in other words'; e.g. = 'such as.'",
+      "alt_answers": [
+        "i.e. explains/defines. e.g. gives examples.",
+        "Use i.e. to clarify: 'We met at noon, i.e., 12 PM.' Use e.g. for examples: 'Fruits, e.g., apples and oranges.'"
+      ],
+      "grammar": "i.e. vs e.g."
+    },
+    {
+      "id": 736,
+      "level": 12,
+      "lesson": 180,
+      "prompt": "What do i.e. and e.g. stand for?",
+      "answer": "i.e. stands for 'id est' (Latin for 'that is'). e.g. stands for 'exempli gratia' (Latin for 'for the sake of example').",
+      "alt_answers": [
+        "i.e. = id est (that is). e.g. = exempli gratia (for example).",
+        "Latin origins: i.e. means 'that is'; e.g. means 'for example.'"
+      ],
+      "grammar": "i.e. and e.g. - etymology"
+    },
+    {
+      "id": 737,
+      "level": 12,
+      "lesson": 181,
+      "prompt": "What's the Oxford comma? When should it be used?",
+      "answer": "The Oxford comma is a comma before 'and' in a list (A, B, and C). It should be used when omitting it causes ambiguity.",
+      "alt_answers": [
+        "Serial comma before final 'and': 'I love my parents, Batman, and Superman.'",
+        "The comma before 'and' in lists. Use it when meaning would be unclear otherwise."
+      ],
+      "grammar": "Oxford comma"
+    },
+    {
+      "id": 738,
+      "level": 12,
+      "lesson": 181,
+      "prompt": "Why is the Oxford comma important in: 'I love my parents, Batman and Superman'?",
+      "answer": "Without it, it reads as if your parents are Batman and Superman. With it: 'I love my parents, Batman, and Superman' - four separate things.",
+      "alt_answers": [
+        "It clarifies you're listing four separate entities, not saying your parents are superheroes.",
+        "The comma distinguishes parents from the superheroes. Without it, meaning is ambiguous."
+      ],
+      "grammar": "Oxford comma - ambiguity"
+    },
+    {
+      "id": 739,
+      "level": 12,
+      "lesson": 182,
+      "prompt": "What's the difference between 'which' and 'that' in relative clauses?",
+      "answer": "'That' introduces defining (restrictive) clauses without commas. 'Which' introduces non-defining (non-restrictive) clauses with commas.",
+      "alt_answers": [
+        "That = essential info, no commas. Which = extra info, with commas.",
+        "'The book that I bought' (specific one). 'The book, which I bought yesterday, was expensive' (extra info)."
+      ],
+      "grammar": "which vs that"
+    },
+    {
+      "id": 740,
+      "level": 12,
+      "lesson": 182,
+      "prompt": "Can 'that' be used after a comma in relative clauses?",
+      "answer": "No, 'that' cannot introduce non-defining clauses (with commas). Use 'which' after commas for additional information.",
+      "alt_answers": [
+        "Never use 'that' with commas. Non-defining clauses need 'which.'",
+        "'My car, which is red, is parked outside.' NOT 'My car, that is red, is parked outside.'"
+      ],
+      "grammar": "that - restrictions"
     }
   ]
 }

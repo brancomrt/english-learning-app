@@ -16,6 +16,11 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.englishlearning.app.ui.categoryselect.CategorySelectScreen
 import com.englishlearning.app.ui.dailychallenge.DailyChallengeScreen
+import com.englishlearning.app.ui.dictation.DictationScreen
+import com.englishlearning.app.ui.drilling.DrillingScreen
+import com.englishlearning.app.ui.errorreview.ErrorReviewScreen
+import com.englishlearning.app.ui.flashcard.FlashcardScreen
+import com.englishlearning.app.ui.grammar.GrammarLessonScreen
 import com.englishlearning.app.ui.home.HomeScreen
 import com.englishlearning.app.ui.learning.LearningSessionScreen
 import com.englishlearning.app.ui.lesson.LessonScreen
@@ -23,15 +28,14 @@ import com.englishlearning.app.ui.levelselect.LevelSelectScreen
 import com.englishlearning.app.ui.listeningfirst.ListeningFirstScreen
 import com.englishlearning.app.ui.microlearning.MicrolearningScreen
 import com.englishlearning.app.ui.onboarding.OnboardingTutorialScreen
-import com.englishlearning.app.ui.drilling.DrillingScreen
-import com.englishlearning.app.ui.errorreview.ErrorReviewScreen
+import com.englishlearning.app.ui.progress.ProgressScreen
+import com.englishlearning.app.ui.pronunciation.PronunciationScreen
 import com.englishlearning.app.ui.settings.PrivacyPolicyScreen
 import com.englishlearning.app.ui.settings.SettingsScreen
 import com.englishlearning.app.ui.shadowing.ShadowingScreen
-import com.englishlearning.app.ui.vocabulary.VocabularyScreen
-import com.englishlearning.app.ui.progress.ProgressScreen
 import com.englishlearning.app.ui.srs.SrsReviewScreen
 import com.englishlearning.app.ui.summary.SessionSummaryScreen
+import com.englishlearning.app.ui.vocabulary.VocabularyScreen
 
 // ---------------------------------------------------------------------------
 // Rotas
@@ -73,6 +77,12 @@ sealed class Screen(val route: String) {
     }
     object DailyChallenges : Screen("daily_challenges")
     object Microlearning   : Screen("microlearning")
+    
+    // ── v1.28.0 Features ─────────────────────────────────────────────────────
+    object Flashcards      : Screen("flashcards")
+    object Dictation       : Screen("dictation")
+    object GrammarLessons  : Screen("grammar_lessons")
+    object Pronunciation   : Screen("pronunciation")
 }
 
 private const val PREFS_NAME = "app_prefs"
@@ -313,6 +323,38 @@ fun AppNavGraph(
         // Microlearning
         composable(Screen.Microlearning.route) {
             MicrolearningScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // v1.28.0 Features
+        // ══════════════════════════════════════════════════════════════════════
+
+        // Flashcards
+        composable(Screen.Flashcards.route) {
+            FlashcardScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // Dictation (Spaced Writing)
+        composable(Screen.Dictation.route) {
+            DictationScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // Grammar Lessons
+        composable(Screen.GrammarLessons.route) {
+            GrammarLessonScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        // Pronunciation
+        composable(Screen.Pronunciation.route) {
+            PronunciationScreen(
                 onNavigateBack = { navController.popBackStack() }
             )
         }
