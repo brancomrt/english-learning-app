@@ -26,8 +26,11 @@ import javax.inject.Inject
 // ─────────────────────────────────────────────────────────────────────────────
 
 sealed class ListeningFirstUiState {
+    /** Estado inicial: usuário escolhe o nível. */
+    object Selecting : ListeningFirstUiState()
+
     object Loading : ListeningFirstUiState()
-    
+
     data class Active(
         val exercise: Exercise,
         val currentIndex: Int,
@@ -35,16 +38,17 @@ sealed class ListeningFirstUiState {
         val listeningState: ListeningFirstState,
         val lastResult: ValidationResult? = null,
         val sessionXp: Int = 0,
-        val correctCount: Int = 0
+        val correctCount: Int = 0,
+        val selectedLevel: Int = 1
     ) : ListeningFirstUiState()
-    
+
     data class Complete(
         val totalExercises: Int,
         val correctCount: Int,
         val totalXp: Int,
         val averagePlayCount: Float
     ) : ListeningFirstUiState()
-    
+
     data class Error(val message: String) : ListeningFirstUiState()
 }
 
@@ -71,7 +75,7 @@ class ListeningFirstViewModel @Inject constructor(
     private val dailyChallengeRepository: DailyChallengeRepository
 ) : ViewModel() {
     
-    private val _uiState = MutableStateFlow<ListeningFirstUiState>(ListeningFirstUiState.Loading)
+    private val _uiState = MutableStateFlow<ListeningFirstUiState>(ListeningFirstUiState.Selecting)
     val uiState: StateFlow<ListeningFirstUiState> = _uiState.asStateFlow()
     
     private val _events = Channel<ListeningFirstEvent>(Channel.BUFFERED)
@@ -85,6 +89,20 @@ class ListeningFirstViewModel @Inject constructor(
     private var levelId = 0
     private var categoryId = 0
     
+    /**
+     * Seleciona o nível e inicia a sessão.
+     */
+    fun selectLevel(level: Int) {
+        startSession(levelId = level, categoryId = 0, exerciseLimit = 10)
+    }
+
+    /**
+     * Volta para a tela de seleção de nível.
+     */
+    fun backToLevelSelection() {
+        _uiState.value = ListeningFirstUiState.Selecting
+    }
+
     /**
      * Inicia uma sessão de Listening First.
      */
@@ -211,7 +229,8 @@ class ListeningFirstViewModel @Inject constructor(
             totalExercises = exercises.size,
             listeningState = ListeningFirstState(),
             sessionXp = sessionXp,
-            correctCount = correctCount
+            correctCount = correctCount,
+            selectedLevel = levelId
         )
         
         // Auto-play audio ao mostrar exercício

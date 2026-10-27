@@ -4,11 +4,13 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -22,12 +24,14 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Headphones
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -55,6 +59,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
@@ -65,24 +70,18 @@ import com.englishlearning.app.domain.model.ValidationStatus
 import com.englishlearning.app.ui.components.rememberTtsManager
 import com.englishlearning.app.ui.learning.rememberSpeechLauncher
 
-const val LISTENING_FIRST_ROUTE = "listening_first/{levelId}/{categoryId}"
+const val LISTENING_FIRST_ROUTE = "listening_first"
 
 @Composable
 fun ListeningFirstScreen(
-    levelId: Int,
-    categoryId: Int,
     onNavigateBack: () -> Unit,
     viewModel: ListeningFirstViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    
-    LaunchedEffect(Unit) {
-        viewModel.startSession(levelId, categoryId, exerciseLimit = 10)
-    }
-    
+
     val (ttsManager, _) = rememberTtsManager()
-    
-    // Observa eventos para auto-play
+
+    // Observa eventos para auto-play (só quando Active)
     LaunchedEffect(Unit) {
         viewModel.events.collect { event ->
             when (event) {
@@ -97,13 +96,16 @@ fun ListeningFirstScreen(
             }
         }
     }
-    
+
     Scaffold(
         topBar = {
             ListeningFirstTopBar(
+                isSelecting = uiState is ListeningFirstUiState.Selecting,
                 onClose = onNavigateBack,
+                onBack = { viewModel.backToLevelSelection() },
+                selectedLevel = (uiState as? ListeningFirstUiState.Active)?.selectedLevel,
                 progress = when (val state = uiState) {
-                    is ListeningFirstUiState.Active -> 
+                    is ListeningFirstUiState.Active ->
                         (state.currentIndex + 1).toFloat() / state.totalExercises
                     else -> 0f
                 }
@@ -111,15 +113,20 @@ fun ListeningFirstScreen(
         }
     ) { padding ->
         when (val state = uiState) {
+            is ListeningFirstUiState.Selecting -> {
+                LevelSelectionCard(
+                    onSelectLevel = { viewModel.selectLevel(it) },
+                    modifier = Modifier.padding(padding)
+                )
+            }
+
             is ListeningFirstUiState.Loading -> {
                 Box(
                     modifier = Modifier.fillMaxSize().padding(padding),
                     contentAlignment = Alignment.Center
-                ) {
-                    CircularProgressIndicator()
-                }
+                ) { CircularProgressIndicator() }
             }
-            
+
             is ListeningFirstUiState.Active -> {
                 ListeningFirstContent(
                     state = state,
@@ -133,15 +140,15 @@ fun ListeningFirstScreen(
                     modifier = Modifier.padding(padding)
                 )
             }
-            
+
             is ListeningFirstUiState.Complete -> {
                 ListeningFirstComplete(
                     state = state,
-                    onFinish = onNavigateBack,
+                    onFinish = { viewModel.backToLevelSelection() },
                     modifier = Modifier.padding(padding)
                 )
             }
-            
+
             is ListeningFirstUiState.Error -> {
                 Box(
                     modifier = Modifier.fillMaxSize().padding(padding),
@@ -150,7 +157,7 @@ fun ListeningFirstScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Text(state.message, color = MaterialTheme.colorScheme.error)
                         Spacer(modifier = Modifier.height(16.dp))
-                        Button(onClick = onNavigateBack) { Text("Voltar") }
+                        Button(onClick = { viewModel.backToLevelSelection() }) { Text("Voltar") }
                     }
                 }
             }
@@ -161,37 +168,161 @@ fun ListeningFirstScreen(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun ListeningFirstTopBar(
+    isSelecting: Boolean,
     onClose: () -> Unit,
+    onBack: () -> Unit,
+    selectedLevel: Int?,
     progress: Float
 ) {
     val animatedProgress by animateFloatAsState(targetValue = progress, label = "progress")
-    
+
     TopAppBar(
         title = {
             Column {
                 Text(
-                    text = "👂 Listening First",
+                    text = if (isSelecting) "👂 Listening First"
+                           else "👂 Listening${selectedLevel?.let { " — Nível $it" } ?: ""}",
                     style = MaterialTheme.typography.titleMedium
                 )
-                LinearProgressIndicator(
-                    progress = { animatedProgress },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(4.dp)
-                        .clip(RoundedCornerShape(2.dp)),
-                    strokeCap = StrokeCap.Round
-                )
+                if (!isSelecting) {
+                    LinearProgressIndicator(
+                        progress = { animatedProgress },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(4.dp)
+                            .clip(RoundedCornerShape(2.dp)),
+                        strokeCap = StrokeCap.Round
+                    )
+                }
             }
         },
         navigationIcon = {
-            IconButton(onClick = onClose) {
-                Icon(Icons.Default.Close, contentDescription = "Fechar")
+            if (isSelecting) {
+                IconButton(onClick = onClose) {
+                    Icon(Icons.Default.Close, contentDescription = "Fechar")
+                }
+            } else {
+                IconButton(onClick = onBack) {
+                    Icon(Icons.Default.ArrowBack, contentDescription = "Voltar aos níveis")
+                }
             }
         },
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = MaterialTheme.colorScheme.primaryContainer
         )
     )
+}
+
+// ─── Level Selection ──────────────────────────────────────────────────────────
+
+private val levelColors = listOf(
+    Color(0xFF4CAF50), // 1 - A1 Beginner
+    Color(0xFF8BC34A), // 2 - A2 Elementary
+    Color(0xFFFFEB3B), // 3 - B1 Pre-Int
+    Color(0xFFFF9800), // 4 - B1+ Intermediate
+    Color(0xFFFF5722), // 5 - B2 Upper-Int
+    Color(0xFFF44336)  // 6 - C1 Advanced
+)
+
+private val levelLabels = listOf("A1", "A2", "B1", "B1+", "B2", "C1")
+
+@Composable
+private fun LevelSelectionCard(
+    onSelectLevel: (Int) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top
+    ) {
+        Text("🎧", style = MaterialTheme.typography.displayMedium)
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            "Escolha o Nível",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(4.dp))
+        Text(
+            "Ouça o exercício e escreva o que ouviu",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        Spacer(modifier = Modifier.height(32.dp))
+
+        val levels = (1..6).toList()
+        levels.chunked(3).forEach { row ->
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally)
+            ) {
+                row.forEach { level ->
+                    val color = levelColors.getOrElse(level - 1) { Color(0xFF4CAF50) }
+                    val label = levelLabels.getOrElse(level - 1) { "" }
+                    Button(
+                        onClick = { onSelectLevel(level) },
+                        modifier = Modifier.size(80.dp),
+                        shape = RoundedCornerShape(16.dp),
+                        colors = ButtonDefaults.buttonColors(containerColor = color),
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(4.dp)
+                    ) {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.Center
+                        ) {
+                            Text(
+                                "$level",
+                                style = MaterialTheme.typography.titleLarge,
+                                fontWeight = FontWeight.Bold,
+                                color = Color.White
+                            )
+                            Text(
+                                label,
+                                style = MaterialTheme.typography.labelSmall,
+                                color = Color.White
+                            )
+                        }
+                    }
+                }
+            }
+            Spacer(modifier = Modifier.height(12.dp))
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Legenda
+        Card(
+            modifier = Modifier.fillMaxWidth(),
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant
+            )
+        ) {
+            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                listOf(
+                    levelColors[0] to "Nível 1 — A1 Beginner",
+                    levelColors[1] to "Nível 2 — A2 Elementary",
+                    levelColors[2] to "Nível 3 — B1 Pre-Intermediate",
+                    levelColors[3] to "Nível 4 — B1+ Intermediate",
+                    levelColors[4] to "Nível 5 — B2 Upper-Intermediate",
+                    levelColors[5] to "Nível 6 — C1 Advanced"
+                ).forEach { (color, text) ->
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            modifier = Modifier
+                                .size(12.dp)
+                                .background(color, androidx.compose.foundation.shape.CircleShape)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text(text, style = MaterialTheme.typography.bodySmall)
+                    }
+                }
+            }
+        }
+    }
 }
 
 @Composable

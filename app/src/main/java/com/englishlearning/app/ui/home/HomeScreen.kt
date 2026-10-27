@@ -85,7 +85,7 @@ object HomeNavRoutes {
     // Learning Methodology Features
     const val DAILY_CHALLENGES = "daily_challenges"
     const val MICROLEARNING = "microlearning"
-    const val LISTENING_FIRST = "listening_first/1/0"
+    const val LISTENING_FIRST = "listening_first"
     const val SHADOWING = "shadowing/1/0"
     
     // v1.28.0 Features

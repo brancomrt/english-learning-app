@@ -67,9 +67,9 @@ sealed class Screen(val route: String) {
     object Drilling       : Screen("drilling")
     
     // ── Learning Methodology Features ────────────────────────────────────────
-    object ListeningFirst : Screen("listening_first/{levelId}/{categoryId}") {
-        fun createRoute(levelId: Int, categoryId: Int) =
-            "listening_first/$levelId/$categoryId"
+    object ListeningFirst : Screen("listening_first") {
+        @Suppress("unused")
+        fun createRoute(levelId: Int, categoryId: Int) = route // mantido por compatibilidade
     }
     object Shadowing : Screen("shadowing/{levelId}/{categoryId}") {
         fun createRoute(levelId: Int, categoryId: Int) =
@@ -264,18 +264,8 @@ fun AppNavGraph(
         // ══════════════════════════════════════════════════════════════════════
 
         // Listening First Mode
-        composable(
-            route = Screen.ListeningFirst.route,
-            arguments = listOf(
-                navArgument("levelId")    { type = NavType.IntType },
-                navArgument("categoryId") { type = NavType.IntType }
-            )
-        ) { backStackEntry ->
-            val levelId = backStackEntry.arguments?.getInt("levelId") ?: 1
-            val categoryId = backStackEntry.arguments?.getInt("categoryId") ?: 0
+        composable(route = Screen.ListeningFirst.route) {
             ListeningFirstScreen(
-                levelId = levelId,
-                categoryId = categoryId,
                 onNavigateBack = { navController.popBackStack() }
             )
         }
@@ -302,7 +292,7 @@ fun AppNavGraph(
             DailyChallengeScreen(
                 onNavigateBack = { navController.popBackStack() },
                 onNavigateToListening = {
-                    navController.navigate(Screen.ListeningFirst.createRoute(1, 0))
+                    navController.navigate(Screen.ListeningFirst.route)
                 },
                 onNavigateToShadowing = {
                     navController.navigate(Screen.Shadowing.createRoute(1, 0))
