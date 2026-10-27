@@ -275,154 +275,69 @@ fun HomeContent(
                 shape = RoundedCornerShape(16.dp)
             ) {
                 Text(
-                    text = "Continuar Estudando",
+                    text = "📖  Continuar Estudando",
                     style = MaterialTheme.typography.labelLarge
                 )
             }
-            // Botões secundários lado a lado
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onVocabularyClick()
-                    },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("📚 Vocabulário", style = MaterialTheme.typography.labelMedium)
-                }
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onDrillingClick()
-                    },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("⚡ Drilling", style = MaterialTheme.typography.labelMedium)
-                }
-            }
 
-            // ── Novas Metodologias de Aprendizado ────────────────────────────
-            Text(
-                text = "Modos de Estudo",
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.SemiBold,
-                modifier = Modifier.padding(top = 8.dp)
+            // ── Seção: Exercícios e Prática ───────────────────────────────────
+            StudySectionHeader("Exercícios e Prática")
+            StudyModeGrid(
+                items = listOf(
+                    StudyModeItem("⚡", "Drilling", "Exercícios de produção intensiva") {
+                        haptic.perform(HapticType.LIGHT); onDrillingClick()
+                    },
+                    StudyModeItem("⏱️", "Quick 3 min", "Sessão rápida para o dia a dia") {
+                        haptic.perform(HapticType.LIGHT); onMicrolearningClick()
+                    },
+                    StudyModeItem("📚", "Vocabulário", "Explore palavras e significados") {
+                        haptic.perform(HapticType.LIGHT); onVocabularyClick()
+                    },
+                    StudyModeItem("📖", "Gramática", "Domine as regras do inglês") {
+                        haptic.perform(HapticType.LIGHT); onGrammarClick()
+                    },
+                ),
+                containerColor = MaterialTheme.colorScheme.secondaryContainer
             )
-            
-            // Card de Desafios Diários
-            DailyChallengeEntryCard(onClick = onDailyChallengesClick)
-            
-            // Botões para modos especiais
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onMicrolearningClick()
+
+            // ── Seção: Escuta e Fala ──────────────────────────────────────────
+            StudySectionHeader("Escuta e Fala")
+            StudyModeGrid(
+                items = listOf(
+                    StudyModeItem("👂", "Listening", "Ouça e escreva o que ouviu") {
+                        haptic.perform(HapticType.LIGHT); onListeningFirstClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("⏱️ Quick (3min)", style = MaterialTheme.typography.labelMedium)
-                }
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onListeningFirstClick()
+                    StudyModeItem("🎤", "Shadowing", "Repita frases para fluência") {
+                        haptic.perform(HapticType.LIGHT); onShadowingClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("👂 Listening", style = MaterialTheme.typography.labelMedium)
-                }
-            }
-            
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onShadowingClick()
+                    StudyModeItem("🗣️", "Pronúncia", "Aprimore os sons do inglês") {
+                        haptic.perform(HapticType.LIGHT); onPronunciationClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("🎤 Shadowing", style = MaterialTheme.typography.labelMedium)
-                }
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onReviewClick()
+                    StudyModeItem("✍️", "Ditado", "Treine a escrita e ortografia") {
+                        haptic.perform(HapticType.LIGHT); onDictationClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp),
-                    enabled = uiState.dueCardCount == 0 // Só mostra se não tem o card de revisão acima
-                ) {
-                    Text("🧠 SRS Review", style = MaterialTheme.typography.labelMedium)
-                }
-            }
-            
-            // v1.28.0 Features row
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onFlashcardsClick()
+                ),
+                containerColor = MaterialTheme.colorScheme.tertiaryContainer
+            )
+
+            // ── Seção: Memória e Revisão ──────────────────────────────────────
+            StudySectionHeader("Memória e Revisão")
+            StudyModeGrid(
+                items = listOf(
+                    StudyModeItem("📇", "Flashcards", "Memorize com repetição espaçada") {
+                        haptic.perform(HapticType.LIGHT); onFlashcardsClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("📚 Flashcards", style = MaterialTheme.typography.labelMedium)
-                }
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onDictationClick()
+                    StudyModeItem("🧠", "SRS Review", "Revise no momento ideal") {
+                        haptic.perform(HapticType.LIGHT); onReviewClick()
                     },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("✍️ Ditado", style = MaterialTheme.typography.labelMedium)
-                }
-            }
-            
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onGrammarClick()
-                    },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("📖 Gramática", style = MaterialTheme.typography.labelMedium)
-                }
-                FilledTonalButton(
-                    onClick = {
-                        haptic.perform(HapticType.LIGHT)
-                        onPronunciationClick()
-                    },
-                    modifier = Modifier.weight(1f),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Text("🗣️ Pronúncia", style = MaterialTheme.typography.labelMedium)
-                }
-            }
+                ),
+                containerColor = MaterialTheme.colorScheme.primaryContainer
+            )
+
+            // ── Desafios Diários ──────────────────────────────────────────────
+            DailyChallengeEntryCard(onClick = {
+                haptic.perform(HapticType.LIGHT); onDailyChallengesClick()
+            })
 
             // Acesso rápido aos níveis desbloqueados (Req. 6.3)
             if (uiState.unlockedLevels.isNotEmpty()) {
@@ -1093,6 +1008,94 @@ fun ErrorScreen(
 
 // ---------------------------------------------------------------------------
 // Previews
+// ---------------------------------------------------------------------------
+// StudySectionHeader, StudyModeCard, StudyModeGrid — Seções temáticas de modos
+// ---------------------------------------------------------------------------
+
+private data class StudyModeItem(
+    val emoji: String,
+    val title: String,
+    val description: String,
+    val onClick: () -> Unit
+)
+
+@Composable
+private fun StudySectionHeader(title: String) {
+    Text(
+        text = title,
+        style = MaterialTheme.typography.titleMedium,
+        fontWeight = FontWeight.Bold,
+        modifier = Modifier.padding(top = 8.dp, bottom = 2.dp)
+    )
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun StudyModeCard(
+    item: StudyModeItem,
+    containerColor: Color,
+    modifier: Modifier = Modifier
+) {
+    Card(
+        onClick = item.onClick,
+        modifier = modifier,
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = containerColor),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 14.dp, vertical = 14.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            Text(
+                text = item.emoji,
+                style = MaterialTheme.typography.headlineSmall
+            )
+            Text(
+                text = item.title,
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.Bold,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+            Text(
+                text = item.description,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.65f),
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+    }
+}
+
+@Composable
+private fun StudyModeGrid(
+    items: List<StudyModeItem>,
+    containerColor: Color
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        items.chunked(2).forEach { row ->
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+                row.forEach { item ->
+                    StudyModeCard(
+                        item = item,
+                        containerColor = containerColor,
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+                // Preenche o espaço se linha tiver só 1 card
+                if (row.size == 1) Spacer(modifier = Modifier.weight(1f))
+            }
+        }
+    }
+}
+
 // ---------------------------------------------------------------------------
 
 @Preview(showBackground = true)
