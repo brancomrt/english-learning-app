@@ -22,6 +22,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LightbulbCircle
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Mic
+import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -121,6 +122,7 @@ fun LearningSessionScreen(
                 state = state,
                 onSubmit = { answer -> viewModel.submitAnswer(answer) },
                 onHint = { viewModel.requestHint() },
+                onRevealAnswer = { viewModel.revealAnswer() },
                 onNext = { viewModel.moveToNext() },
                 onClearResult = { viewModel.clearLastResult() },
                 onAbandon = { navController.popBackStack() },
@@ -151,6 +153,7 @@ private fun ExerciseContent(
     state: LearningUiState.ExerciseActive,
     onSubmit: (String) -> Unit,
     onHint: () -> Unit,
+    onRevealAnswer: () -> Unit,
     onNext: () -> Unit,
     onClearResult: () -> Unit,
     onAbandon: () -> Unit = {},
@@ -326,9 +329,23 @@ private fun ExerciseContent(
                     SubmitHintButtons(
                         canSubmit = questionInput.isNotBlank(),
                         canShowHint = canRequestMoreHints,
+                        canRevealAnswer = !state.answerRevealed,
                         onSubmit = { onSubmit(questionInput) },
-                        onHint = onHint
+                        onHint = onHint,
+                        onRevealAnswer = onRevealAnswer
                     )
+                }
+
+                // Resposta revelada inline (antes de submeter)
+                if (state.answerRevealed && primaryAnswer != null && !hasResult) {
+                    AcceptedAnswerReveal(primaryAnswer = primaryAnswer)
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Button(
+                        onClick = onNext,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("Próximo exercício →")
+                    }
                 }
 
                 // Dicas reveladas inline (antes de submeter a resposta)
@@ -473,8 +490,10 @@ private fun AnswerCard(
 private fun SubmitHintButtons(
     canSubmit: Boolean,
     canShowHint: Boolean,
+    canRevealAnswer: Boolean,
     onSubmit: () -> Unit,
-    onHint: () -> Unit
+    onHint: () -> Unit,
+    onRevealAnswer: () -> Unit
 ) {
     Column(modifier = Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Button(onClick = onSubmit, enabled = canSubmit, modifier = Modifier.fillMaxWidth()) {
@@ -485,6 +504,23 @@ private fun SubmitHintButtons(
                 Icon(imageVector = Icons.Filled.LightbulbCircle, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(modifier = Modifier.width(6.dp))
                 Text(text = "Dica", style = MaterialTheme.typography.labelLarge)
+            }
+        }
+        if (canRevealAnswer) {
+            OutlinedButton(
+                onClick = onRevealAnswer,
+                modifier = Modifier.fillMaxWidth(),
+                colors = androidx.compose.material3.ButtonDefaults.outlinedButtonColors(
+                    contentColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                )
+            ) {
+                Icon(
+                    imageVector = Icons.Filled.Visibility,
+                    contentDescription = "Ver resposta",
+                    modifier = Modifier.size(18.dp)
+                )
+                Spacer(modifier = Modifier.width(6.dp))
+                Text(text = "Ver resposta", style = MaterialTheme.typography.labelLarge)
             }
         }
     }

@@ -652,7 +652,7 @@ private fun HintItem(hint: Hint) {
  * usuário atingir o número máximo de tentativas sem acertar.
  */
 @Composable
-private fun AcceptedAnswerReveal(primaryAnswer: AcceptedAnswer) {
+internal fun AcceptedAnswerReveal(primaryAnswer: AcceptedAnswer) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(

@@ -55,7 +55,9 @@ sealed class LearningUiState {
         val attemptCount: Int,
         val revealedHints: List<Hint>,
         val lastValidationResult: ValidationResult? = null,
-        val sessionXp: Int = 0
+        val sessionXp: Int = 0,
+        /** true quando o usuário clicou em "Ver resposta" sem tentar responder. */
+        val answerRevealed: Boolean = false
     ) : LearningUiState()
 
     /**
@@ -366,6 +368,15 @@ class LearningViewModel @Inject constructor(
                 revealedHints = exercise.hints.take(nextHintIndex + 1)
             )
         }
+    }
+
+    /**
+     * Revela a resposta aceita principal sem contar como tentativa.
+     * O usuário verá a resposta e deverá clicar em "Próximo" para avançar.
+     */
+    fun revealAnswer() {
+        val state = _uiState.value as? LearningUiState.ExerciseActive ?: return
+        _uiState.value = state.copy(answerRevealed = true)
     }
 
     // -------------------------------------------------------------------------
