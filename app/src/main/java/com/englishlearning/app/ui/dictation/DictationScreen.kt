@@ -37,7 +37,6 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
@@ -201,13 +200,17 @@ fun DictationScreen(
                         isChecked = uiState.isChecked,
                         result = uiState.currentResult,
                         hintsUsed = uiState.hintsUsed,
-                        playCount = uiState.playCount,
+                        isPlayingAudio = uiState.isPlayingAudio,
+                        allSegmentsPlayed = uiState.allSegmentsPlayed,
+                        currentSegmentIndex = uiState.currentSegmentIndex,
+                        currentRepetition = uiState.currentRepetition,
+                        totalSegments = uiState.totalSegments,
                         onInputChange = { viewModel.updateInput(it) },
-                        onPlayAudio = { viewModel.playAudio() },
-                        onPlaySlow = { viewModel.playAudioSlow() },
-                        onSubmit = { 
+                        onReplayAll = { viewModel.replayAll() },
+                        onReplaySegment = { viewModel.replayCurrentSegment() },
+                        onSubmit = {
                             keyboardController?.hide()
-                            viewModel.checkAnswer() 
+                            viewModel.checkAnswer()
                         },
                         onNext = { viewModel.nextExercise() },
                         onRetry = { viewModel.retryExercise() },
@@ -232,10 +235,14 @@ private fun DictationContent(
     isChecked: Boolean,
     result: DictationResult?,
     hintsUsed: Int,
-    playCount: Int,
+    isPlayingAudio: Boolean,
+    allSegmentsPlayed: Boolean,
+    currentSegmentIndex: Int,
+    currentRepetition: Int,
+    totalSegments: Int,
     onInputChange: (String) -> Unit,
-    onPlayAudio: () -> Unit,
-    onPlaySlow: () -> Unit,
+    onReplayAll: () -> Unit,
+    onReplaySegment: () -> Unit,
     onSubmit: () -> Unit,
     onNext: () -> Unit,
     onRetry: () -> Unit,
@@ -281,7 +288,7 @@ private fun DictationContent(
         
         Spacer(modifier = Modifier.height(16.dp))
         
-        // Área do áudio
+        // ── Área de áudio: progresso de segmentos ────────────────────────────
         Card(
             modifier = Modifier.fillMaxWidth(),
             colors = CardDefaults.cardColors(
@@ -291,59 +298,107 @@ private fun DictationContent(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(24.dp),
+                    .padding(20.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text(
-                    "🎧 Ouça e escreva",
-                    style = MaterialTheme.typography.titleMedium
-                )
-                
-                Text(
-                    "Recomendado: ouça 3 vezes",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-                
-                Spacer(modifier = Modifier.height(16.dp))
-                
-                Row(
-                    horizontalArrangement = Arrangement.spacedBy(16.dp)
-                ) {
-                    // Botão de play normal
-                    FloatingActionButton(
-                        onClick = onPlayAudio,
-                        containerColor = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.size(64.dp)
-                    ) {
-                        Icon(
-                            Icons.AutoMirrored.Filled.VolumeUp,
-                            "Ouvir",
-                            modifier = Modifier.size(32.dp)
-                        )
+                if (isPlayingAudio) {
+                    // Indicador animado de segmento atual
+                    Text(
+                        "🎧 Ouvindo…",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        "Parte ${currentSegmentIndex + 1} de $totalSegments",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                    )
+                    Spacer(modifier = Modifier.height(10.dp))
+                    // Dots de repetição (1/3 2/3 3/3)
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        repeat(3) { i ->
+                            val active = i < currentRepetition
+                            val current = i + 1 == currentRepetition
+                            Box(
+                                modifier = Modifier
+                                    .size(if (current) 18.dp else 12.dp)
+                                    .background(
+                                        color = when {
+                                            current -> MaterialTheme.colorScheme.primary
+                                            active  -> MaterialTheme.colorScheme.primary.copy(alpha = 0.5f)
+                                            else    -> MaterialTheme.colorScheme.outline.copy(alpha = 0.3f)
+                                        },
+                                        shape = CircleShape
+                                    )
+                            )
+                        }
                     }
-                    
-                    // Botão de play lento
-                    FloatingActionButton(
-                        onClick = onPlaySlow,
-                        containerColor = MaterialTheme.colorScheme.secondary,
-                        modifier = Modifier.size(56.dp)
-                    ) {
-                        Icon(
-                            Icons.Default.SlowMotionVideo,
-                            "Ouvir lento",
-                            modifier = Modifier.size(24.dp)
-                        )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        when (currentRepetition) {
+                            1 -> "1ª leitura — velocidade normal"
+                            2 -> "2ª leitura — mais devagar"
+                            3 -> "3ª leitura — velocidade normal"
+                            else -> ""
+                        },
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                    )
+                    // Barra de progresso dos segmentos
+                    Spacer(modifier = Modifier.height(12.dp))
+                    LinearProgressIndicator(
+                        progress = {
+                            if (totalSegments > 0)
+                                (currentSegmentIndex.toFloat() + (currentRepetition / 3f)) / totalSegments
+                            else 0f
+                        },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(6.dp)
+                            .clip(RoundedCornerShape(3.dp))
+                    )
+                } else if (allSegmentsPlayed) {
+                    Text(
+                        "✅ Pronto! Digite o que ouviu.",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = Color(0xFF4CAF50),
+                        fontWeight = FontWeight.Bold
+                    )
+                    Spacer(modifier = Modifier.height(10.dp))
+                    Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        // Replay completo
+                        Button(
+                            onClick = onReplayAll,
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = MaterialTheme.colorScheme.primary
+                            )
+                        ) {
+                            Icon(Icons.Default.Replay, null)
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text("Ouvir de novo")
+                        }
+                        // Replay segmento
+                        Button(
+                            onClick = onReplaySegment,
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = MaterialTheme.colorScheme.secondary
+                            )
+                        ) {
+                            Icon(Icons.Default.SlowMotionVideo, null)
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text("Parte atual")
+                        }
                     }
+                } else {
+                    // Estado inicial (antes do primeiro play)
+                    Text(
+                        "🎧 Preparando áudio…",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    CircularProgressIndicator(modifier = Modifier.size(32.dp))
                 }
-                
-                Spacer(modifier = Modifier.height(8.dp))
-                
-                Text(
-                    "Reproduzido $playCount ${if (playCount == 1) "vez" else "vezes"}",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
             }
         }
         
@@ -351,13 +406,14 @@ private fun DictationContent(
         
         // Campo de entrada ou resultado
         if (!isChecked) {
-            // Campo de texto para digitar
+            // Campo de texto para digitar (habilitado só após todos os segmentos)
             OutlinedTextField(
                 value = userInput,
                 onValueChange = onInputChange,
                 modifier = Modifier.fillMaxWidth(),
-                label = { Text("Digite o que você ouviu") },
+                label = { Text(if (allSegmentsPlayed) "Digite o que você ouviu" else "Aguarde o áudio terminar…") },
                 placeholder = { Text("Escreva o texto aqui...") },
+                enabled = allSegmentsPlayed,
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
                 keyboardActions = KeyboardActions(onDone = { onSubmit() }),
                 singleLine = false,

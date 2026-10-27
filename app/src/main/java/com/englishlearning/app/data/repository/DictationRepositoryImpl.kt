@@ -231,6 +231,7 @@ class DictationRepositoryImpl @Inject constructor(
             stage = stage,
             title = title,
             text = text,
+            segments = segments,
             translation = translation,
             wordCount = wordCount,
             grammarFocus = grammarFocus,

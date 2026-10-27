@@ -101,7 +101,7 @@ import com.englishlearning.app.data.database.entity.VocabularyCardEntity
         SyncSettingsEntity::class,
         SyncLogEntity::class
     ],
-    version = 7,
+    version = 8,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -480,6 +480,16 @@ abstract class EnglishLearningDatabase : RoomDatabase() {
                 db.execSQL("CREATE INDEX IF NOT EXISTS `index_dictation_exercises_completed` ON `dictation_exercises` (`completed`)")
                 
                 // Também precisamos resetar o progresso de ditado, já que os exerciseIds mudam
+                db.execSQL("DELETE FROM `dictation_progress`")
+            }
+        }
+
+        /** v8: adiciona coluna `segments` em dictation_exercises para reprodução 3x por partes. */
+        val MIGRATION_7_8 = object : Migration(7, 8) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE `dictation_exercises` ADD COLUMN `segments` TEXT NOT NULL DEFAULT ''")
+                // Reseed será feito pelo DatabaseSeeder ao detectar conteúdo vazio
+                db.execSQL("DELETE FROM `dictation_exercises`")
                 db.execSQL("DELETE FROM `dictation_progress`")
             }
         }

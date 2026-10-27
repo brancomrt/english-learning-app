@@ -2,325 +2,361 @@
   {
     "id": 1,
     "stage": 1,
-    "title": "Basic Objects",
-    "text": "This is a pen. This is a book. This is a table. The pen is on the table. The book is on the table too.",
-    "translation": "Isto é uma caneta. Isto é um livro. Isto é uma mesa. A caneta está na mesa. O livro também está na mesa.",
-    "wordCount": 26,
-    "grammarFocus": "This is, Articles (a/the), Prepositions (on)"
+    "title": "In the Classroom",
+    "text": "This is a pen. It is black. The pen is on the table.",
+    "segments": ["This is a pen.", "It is black.", "The pen is on the table."],
+    "translation": "Isto é uma caneta. É preta. A caneta está na mesa.",
+    "wordCount": 13,
+    "grammarFocus": "To be (is), Articles (a/the), Prepositions (on)"
   },
   {
     "id": 2,
     "stage": 1,
-    "title": "Colors and Objects",
-    "text": "What is this? It is a chair. The chair is brown. Is the chair big? No, the chair is not big. It is small.",
-    "translation": "O que é isto? É uma cadeira. A cadeira é marrom. A cadeira é grande? Não, a cadeira não é grande. É pequena.",
-    "wordCount": 28,
-    "grammarFocus": "What questions, Colors, Adjectives, Negatives"
+    "title": "Big and Small",
+    "text": "Is this a door? No, it is not a door. It is a window. The window is big. The door is small.",
+    "segments": ["Is this a door? No, it is not a door.", "It is a window.", "The window is big. The door is small."],
+    "translation": "Isto é uma porta? Não, não é uma porta. É uma janela. A janela é grande. A porta é pequena.",
+    "wordCount": 22,
+    "grammarFocus": "To be, Negatives (not), Adjectives (big/small)"
   },
   {
     "id": 3,
     "stage": 1,
-    "title": "The Classroom",
-    "text": "I am in a room. The room has a door and a window. The door is closed. The window is open. There is a light on the ceiling.",
-    "translation": "Eu estou em uma sala. A sala tem uma porta e uma janela. A porta está fechada. A janela está aberta. Há uma luz no teto.",
-    "wordCount": 31,
-    "grammarFocus": "To be, There is, Prepositions"
+    "title": "People in the Room",
+    "text": "Mr Brown is standing near the door. Mrs Smith is sitting at the table. The child is not standing. The child is sitting too.",
+    "segments": ["Mr Brown is standing near the door.", "Mrs Smith is sitting at the table.", "The child is not standing. The child is sitting too."],
+    "translation": "O Sr. Brown está de pé perto da porta. A Sra. Smith está sentada à mesa. A criança não está de pé. A criança também está sentada.",
+    "wordCount": 27,
+    "grammarFocus": "Present Continuous, Prepositions (near/at), Negatives"
   },
   {
     "id": 4,
     "stage": 2,
-    "title": "My Family",
-    "text": "I have a family. My father is tall. My mother is kind. I have one brother and one sister. My brother is older than me. My sister is younger.",
-    "translation": "Eu tenho uma família. Meu pai é alto. Minha mãe é gentil. Tenho um irmão e uma irmã. Meu irmão é mais velho que eu. Minha irmã é mais nova.",
-    "wordCount": 34,
-    "grammarFocus": "Have, Possessives, Comparatives"
+    "title": "My Morning",
+    "text": "I get up at seven o'clock every day. First, I wash my face. Then I have breakfast. I drink coffee and eat toast.",
+    "segments": ["I get up at seven o'clock every day.", "First, I wash my face. Then I have breakfast.", "I drink coffee and eat toast."],
+    "translation": "Eu me levanto às sete horas todo dia. Primeiro, lavo meu rosto. Depois tomo café da manhã. Bebo café e como torrada.",
+    "wordCount": 26,
+    "grammarFocus": "Simple Present, Sequencing (first/then), Daily activities"
   },
   {
     "id": 5,
     "stage": 2,
-    "title": "Daily Routine",
-    "text": "I wake up at seven o'clock. I wash my face and brush my teeth. Then I have breakfast. I drink coffee and eat bread. After that, I go to work.",
-    "translation": "Eu acordo às sete horas. Eu lavo meu rosto e escovo meus dentes. Depois tomo café da manhã. Bebo café e como pão. Depois disso, vou trabalhar.",
-    "wordCount": 36,
-    "grammarFocus": "Simple Present, Time expressions, Daily activities"
+    "title": "My Family",
+    "text": "I have a mother, a father, and one sister. My father is tall and my mother is short. My sister is not tall or short. She is in the middle.",
+    "segments": ["I have a mother, a father, and one sister.", "My father is tall and my mother is short.", "My sister is not tall or short. She is in the middle."],
+    "translation": "Eu tenho uma mãe, um pai e uma irmã. Meu pai é alto e minha mãe é baixa. Minha irmã não é alta nem baixa. Ela está no meio.",
+    "wordCount": 33,
+    "grammarFocus": "Possessives (my), And/or, Adjectives"
   },
   {
     "id": 6,
     "stage": 2,
-    "title": "The Weather",
-    "text": "Today the weather is nice. The sun is shining. It is not cold. It is warm. I like warm days. When it rains, I stay at home. I do not like rain.",
-    "translation": "Hoje o tempo está bom. O sol está brilhando. Não está frio. Está quente. Eu gosto de dias quentes. Quando chove, fico em casa. Não gosto de chuva.",
-    "wordCount": 38,
-    "grammarFocus": "Weather vocabulary, Present Continuous, When clauses"
+    "title": "The Weather Today",
+    "text": "The weather is cold today. It is raining. There are dark clouds in the sky. I do not like cold weather. I prefer the summer.",
+    "segments": ["The weather is cold today.", "It is raining. There are dark clouds in the sky.", "I do not like cold weather. I prefer the summer."],
+    "translation": "O tempo está frio hoje. Está chovendo. Há nuvens escuras no céu. Não gosto de tempo frio. Prefiro o verão.",
+    "wordCount": 28,
+    "grammarFocus": "Simple Present, There is/are, Like/prefer"
   },
   {
     "id": 7,
     "stage": 3,
-    "title": "Shopping",
-    "text": "Yesterday I went to the shop. I wanted to buy some food. I bought milk, bread, and eggs. The milk was expensive. The eggs were cheap. I paid with my card.",
-    "translation": "Ontem eu fui à loja. Eu queria comprar comida. Comprei leite, pão e ovos. O leite estava caro. Os ovos estavam baratos. Paguei com meu cartão.",
-    "wordCount": 37,
-    "grammarFocus": "Simple Past, Irregular verbs, Adjectives (expensive/cheap)"
+    "title": "A Trip to the Market",
+    "text": "Yesterday I went to the market. I bought bread, milk, and some vegetables. The market was very busy. I waited a long time at the cash desk.",
+    "segments": ["Yesterday I went to the market.", "I bought bread, milk, and some vegetables.", "The market was very busy. I waited a long time at the cash desk."],
+    "translation": "Ontem eu fui ao mercado. Comprei pão, leite e alguns legumes. O mercado estava muito movimentado. Esperei muito tempo no caixa.",
+    "wordCount": 31,
+    "grammarFocus": "Simple Past (regular/irregular), Time expression (yesterday)"
   },
   {
     "id": 8,
     "stage": 3,
-    "title": "At the Restaurant",
-    "text": "We are at a restaurant. The waiter is coming to our table. He asks what we would like to eat. I order fish and salad. My friend orders chicken. We also ask for water.",
-    "translation": "Estamos em um restaurante. O garçom está vindo à nossa mesa. Ele pergunta o que gostaríamos de comer. Peço peixe e salada. Meu amigo pede frango. Também pedimos água.",
-    "wordCount": 42,
-    "grammarFocus": "Present Continuous, Would like, Order vocabulary"
+    "title": "A Train Journey",
+    "text": "Last Saturday I travelled to Edinburgh by train. The journey took about four hours. When I arrived, it was cold and cloudy. I visited the castle and walked around the old city.",
+    "segments": ["Last Saturday I travelled to Edinburgh by train.", "The journey took about four hours.", "When I arrived, it was cold and cloudy.", "I visited the castle and walked around the old city."],
+    "translation": "No último sábado viajei para Edimburgo de trem. A viagem durou cerca de quatro horas. Quando cheguei, estava frio e nublado. Visitei o castelo e caminhei pela cidade antiga.",
+    "wordCount": 35,
+    "grammarFocus": "Simple Past, By + transport, When clauses"
   },
   {
     "id": 9,
     "stage": 3,
-    "title": "My Job",
-    "text": "I work in an office. I start work at nine in the morning. I use a computer every day. I send emails and make phone calls. I finish work at five. Sometimes I work late.",
-    "translation": "Eu trabalho em um escritório. Começo a trabalhar às nove da manhã. Uso um computador todos os dias. Envio emails e faço ligações. Termino às cinco. Às vezes trabalho até tarde.",
-    "wordCount": 40,
-    "grammarFocus": "Work vocabulary, Time expressions, Frequency adverbs"
+    "title": "Can You Swim?",
+    "text": "Can you speak any other languages? Yes, I can speak a little French. Can you swim? Yes, I can swim quite well. I learned when I was five years old.",
+    "segments": ["Can you speak any other languages?", "Yes, I can speak a little French.", "Can you swim? Yes, I can swim quite well.", "I learned when I was five years old."],
+    "translation": "Você fala alguma outra língua? Sim, falo um pouco de francês. Você sabe nadar? Sim, sei nadar bem. Aprendi quando tinha cinco anos.",
+    "wordCount": 33,
+    "grammarFocus": "Modal can/cannot, Yes/No questions, When + past"
   },
   {
     "id": 10,
     "stage": 4,
-    "title": "Travel Plans",
-    "text": "Next summer I am going to travel to Europe. I will visit three countries. First, I will go to France. Then I will fly to Italy. Finally, I will take a train to Spain. I am very excited.",
-    "translation": "No próximo verão vou viajar para a Europa. Visitarei três países. Primeiro, irei à França. Depois voarei para a Itália. Finalmente, pegarei um trem para a Espanha. Estou muito animado.",
-    "wordCount": 44,
-    "grammarFocus": "Future tenses (will/going to), Sequencing words, Travel vocabulary"
+    "title": "Have You Ever Been?",
+    "text": "Have you ever been to New York? Yes, I have been there twice. It is a fantastic city. Have you ever tried American food? No, I have never tried it, but I would like to.",
+    "segments": ["Have you ever been to New York? Yes, I have been there twice.", "It is a fantastic city.", "Have you ever tried American food? No, I have never tried it, but I would like to."],
+    "translation": "Você já foi a Nova York? Sim, já estive lá duas vezes. É uma cidade fantástica. Você já experimentou comida americana? Não, nunca, mas gostaria.",
+    "wordCount": 38,
+    "grammarFocus": "Present Perfect (ever/never), Would like to"
   },
   {
     "id": 11,
     "stage": 4,
-    "title": "Health and Exercise",
-    "text": "I try to stay healthy. I exercise three times a week. I go to the gym on Monday, Wednesday, and Friday. I run on the treadmill and lift weights. After exercising, I always feel better.",
-    "translation": "Tento me manter saudável. Faço exercícios três vezes por semana. Vou à academia na segunda, quarta e sexta. Corro na esteira e levanto pesos. Depois de me exercitar, sempre me sinto melhor.",
-    "wordCount": 41,
-    "grammarFocus": "Frequency expressions, Days of the week, Health vocabulary"
+    "title": "Exam Rules",
+    "text": "You must not talk during the exam. You should arrive ten minutes early. Students must bring their own pens and pencils. You do not need to bring a dictionary.",
+    "segments": ["You must not talk during the exam.", "You should arrive ten minutes early.", "Students must bring their own pens and pencils.", "You do not need to bring a dictionary."],
+    "translation": "Você não deve falar durante o exame. Você deveria chegar dez minutos antes. Os alunos devem trazer suas próprias canetas e lápis. Você não precisa trazer um dicionário.",
+    "wordCount": 32,
+    "grammarFocus": "Modal must/should, Do not need to"
   },
   {
     "id": 12,
     "stage": 4,
-    "title": "The Weekend",
-    "text": "Last weekend was very nice. On Saturday morning, I cleaned my apartment. In the afternoon, I met my friends at a café. We talked for hours. On Sunday, I relaxed at home and watched a film.",
-    "translation": "O último fim de semana foi muito bom. No sábado de manhã, limpei meu apartamento. À tarde, encontrei meus amigos em um café. Conversamos por horas. No domingo, relaxei em casa e assisti um filme.",
-    "wordCount": 43,
-    "grammarFocus": "Simple Past, Time expressions (morning/afternoon), Weekend activities"
+    "title": "Weekend Plans",
+    "text": "What are you going to do at the weekend? I am going to visit my grandmother on Saturday. On Sunday, I am going to stay at home and rest. I am really looking forward to it.",
+    "segments": ["What are you going to do at the weekend?", "I am going to visit my grandmother on Saturday.", "On Sunday, I am going to stay at home and rest.", "I am really looking forward to it."],
+    "translation": "O que você vai fazer no fim de semana? Vou visitar minha avó no sábado. No domingo, vou ficar em casa e descansar. Estou muito animado com isso.",
+    "wordCount": 39,
+    "grammarFocus": "Going to future, Days of the week, Look forward to"
   },
   {
     "id": 13,
     "stage": 5,
-    "title": "A Childhood Memory",
-    "text": "When I was a child, I used to live in a small town. Every summer, I would visit my grandparents. They had a big garden with many trees. I used to climb those trees and play with my cousins.",
-    "translation": "Quando eu era criança, morava em uma cidade pequena. Todo verão, visitava meus avós. Eles tinham um grande jardim com muitas árvores. Eu costumava subir nessas árvores e brincar com meus primos.",
-    "wordCount": 46,
-    "grammarFocus": "Used to, Would (past habit), Past Continuous"
+    "title": "Childhood Habit",
+    "text": "When I was young, I used to walk to school every morning. The school was about two kilometres from our house. I used to stop at the baker's and buy a bread roll on the way. In those days, everything seemed simpler.",
+    "segments": ["When I was young, I used to walk to school every morning.", "The school was about two kilometres from our house.", "I used to stop at the baker's and buy a bread roll on the way.", "In those days, everything seemed simpler."],
+    "translation": "Quando eu era jovem, costumava caminhar até a escola toda manhã. A escola ficava a cerca de dois quilômetros de casa. Costumava parar na padaria e comprar um pãozinho no caminho. Naqueles dias, tudo parecia mais simples.",
+    "wordCount": 47,
+    "grammarFocus": "Used to (past habit), On the way, In those days"
   },
   {
     "id": 14,
     "stage": 5,
-    "title": "Technology",
-    "text": "Technology has changed our lives in many ways. We can now communicate with people all over the world instantly. We can find any information on the internet. However, some people think we spend too much time on our phones.",
-    "translation": "A tecnologia mudou nossas vidas de várias formas. Agora podemos nos comunicar com pessoas do mundo todo instantaneamente. Podemos encontrar qualquer informação na internet. Porém, algumas pessoas acham que passamos tempo demais nos celulares.",
-    "wordCount": 43,
-    "grammarFocus": "Present Perfect, Can (ability), However (contrast)"
+    "title": "The First Conditional",
+    "text": "If you study English every day, you will improve very quickly. If you make mistakes, do not worry about it. Everyone makes mistakes when they are learning. The important thing is to keep trying.",
+    "segments": ["If you study English every day, you will improve very quickly.", "If you make mistakes, do not worry about it.", "Everyone makes mistakes when they are learning.", "The important thing is to keep trying."],
+    "translation": "Se você estudar inglês todo dia, vai melhorar muito rapidamente. Se você cometer erros, não se preocupe. Todo mundo comete erros quando está aprendendo. O importante é continuar tentando.",
+    "wordCount": 38,
+    "grammarFocus": "First Conditional, Imperatives, The important thing is + infinitive"
   },
   {
     "id": 15,
     "stage": 5,
-    "title": "Environmental Concerns",
-    "text": "The environment is in danger. We must protect our planet. We should recycle more and use less plastic. If we do not act now, the situation will become worse. Everyone can make a difference by changing small habits.",
-    "translation": "O meio ambiente está em perigo. Devemos proteger nosso planeta. Deveríamos reciclar mais e usar menos plástico. Se não agirmos agora, a situação vai piorar. Todos podem fazer a diferença mudando pequenos hábitos.",
-    "wordCount": 43,
-    "grammarFocus": "Modal verbs (must/should), First Conditional, Environment vocabulary"
+    "title": "The Old Museum",
+    "text": "The museum, which was built in nineteen oh two, contains over fifty thousand objects. The collection includes paintings, sculptures, and ancient coins. The people who work there are very knowledgeable and helpful.",
+    "segments": ["The museum, which was built in nineteen oh two, contains over fifty thousand objects.", "The collection includes paintings, sculptures, and ancient coins.", "The people who work there are very knowledgeable and helpful."],
+    "translation": "O museu, construído em 1902, contém mais de cinquenta mil objetos. A coleção inclui pinturas, esculturas e moedas antigas. As pessoas que trabalham lá são muito conhecedoras e prestativas.",
+    "wordCount": 37,
+    "grammarFocus": "Relative clauses (which/who), Non-defining clauses"
   },
   {
     "id": 16,
     "stage": 6,
-    "title": "Job Interview",
-    "text": "I had a job interview yesterday. The interviewer asked me about my experience and qualifications. I told her that I had worked in marketing for five years. She seemed impressed. I hope I will get the job. They will call me next week.",
-    "translation": "Tive uma entrevista de emprego ontem. A entrevistadora perguntou sobre minha experiência e qualificações. Disse a ela que tinha trabalhado em marketing por cinco anos. Ela pareceu impressionada. Espero conseguir o emprego. Eles vão me ligar semana que vem.",
-    "wordCount": 49,
-    "grammarFocus": "Past Perfect, Reported Speech introduction, Job vocabulary"
+    "title": "Storm Damage",
+    "text": "The bridge was seriously damaged by the storm last night. Several roads were closed and hundreds of people were advised to stay at home. Emergency services worked through the night. The situation returned to normal by the following morning.",
+    "segments": ["The bridge was seriously damaged by the storm last night.", "Several roads were closed and hundreds of people were advised to stay at home.", "Emergency services worked through the night.", "The situation returned to normal by the following morning."],
+    "translation": "A ponte foi seriamente danificada pela tempestade na noite passada. Várias estradas foram fechadas e centenas de pessoas foram aconselhadas a ficar em casa. Os serviços de emergência trabalharam a noite toda. A situação voltou ao normal na manhã seguinte.",
+    "wordCount": 44,
+    "grammarFocus": "Passive Voice (past), By the following…, Through the night"
   },
   {
     "id": 17,
     "stage": 6,
-    "title": "A Trip Gone Wrong",
-    "text": "My flight was supposed to leave at eight, but it was delayed by three hours. When I finally arrived, I discovered that the hotel had lost my reservation. Fortunately, they found me another room. Despite the problems, I enjoyed my holiday.",
-    "translation": "Meu voo deveria sair às oito, mas atrasou três horas. Quando finalmente cheguei, descobri que o hotel havia perdido minha reserva. Felizmente, encontraram outro quarto para mim. Apesar dos problemas, aproveitei minhas férias.",
-    "wordCount": 46,
-    "grammarFocus": "Passive voice, Past Perfect, Despite + noun"
+    "title": "A Difficult Meeting",
+    "text": "The manager said that the project had been delayed by two weeks. She told us that we would have to work at the weekend to finish it on time. I asked whether she was joking, but she said she was completely serious.",
+    "segments": ["The manager said that the project had been delayed by two weeks.", "She told us that we would have to work at the weekend to finish it on time.", "I asked whether she was joking, but she said she was completely serious."],
+    "translation": "A gerente disse que o projeto tinha atrasado duas semanas. Ela nos disse que teríamos que trabalhar no fim de semana para terminá-lo no prazo. Perguntei se ela estava brincando, mas ela disse que estava completamente séria.",
+    "wordCount": 47,
+    "grammarFocus": "Reported Speech (said/told), Past Perfect Passive, Whether"
   },
   {
     "id": 18,
     "stage": 6,
-    "title": "Learning Languages",
-    "text": "I have been learning English for three years. At first, it was very difficult, but I have improved a lot. The most challenging part is pronunciation. I practice every day by listening to podcasts and watching films in English without subtitles.",
-    "translation": "Tenho aprendido inglês há três anos. No início era muito difícil, mas melhorei muito. A parte mais desafiadora é a pronúncia. Pratico todos os dias ouvindo podcasts e assistindo filmes em inglês sem legendas.",
+    "title": "A Letter of Apology",
+    "text": "I am writing to apologise for the error that was made with your order. The wrong items had been sent due to a fault with our system. We have now corrected the mistake and your order will arrive within three working days.",
+    "segments": ["I am writing to apologise for the error that was made with your order.", "The wrong items had been sent due to a fault with our system.", "We have now corrected the mistake and your order will arrive within three working days."],
+    "translation": "Escrevo para me desculpar pelo erro que ocorreu com seu pedido. Os itens errados tinham sido enviados devido a uma falha em nosso sistema. Já corrigimos o problema e seu pedido chegará em até três dias úteis.",
     "wordCount": 47,
-    "grammarFocus": "Present Perfect Continuous, Superlatives, By + gerund"
+    "grammarFocus": "Passive Voice, Past Perfect, Formal register, Within + time"
   },
   {
     "id": 19,
     "stage": 7,
-    "title": "The Future of Work",
-    "text": "By the year two thousand fifty, many jobs that exist today will have disappeared. Robots and artificial intelligence will be doing tasks that humans currently perform. However, new types of jobs will have emerged. Workers will need to constantly adapt and learn new skills.",
-    "translation": "Até o ano de dois mil e cinquenta, muitos empregos que existem hoje terão desaparecido. Robôs e inteligência artificial estarão fazendo tarefas que humanos atualmente realizam. Porém, novos tipos de trabalho terão surgido. Trabalhadores precisarão se adaptar constantemente e aprender novas habilidades.",
-    "wordCount": 50,
-    "grammarFocus": "Future Perfect, Future Continuous, Will need to"
+    "title": "Regrets",
+    "text": "If I had studied harder at school, I would have had far more opportunities in life. If I had taken that job offer in Paris, my career would be completely different now. It is no use dwelling on the past, however. We must focus on what we can still change.",
+    "segments": ["If I had studied harder at school, I would have had far more opportunities in life.", "If I had taken that job offer in Paris, my career would be completely different now.", "It is no use dwelling on the past, however.", "We must focus on what we can still change."],
+    "translation": "Se eu tivesse estudado mais na escola, teria tido muito mais oportunidades na vida. Se eu tivesse aceitado a oferta de emprego em Paris, minha carreira seria completamente diferente agora. Porém, não adianta ficar se lamentando pelo passado. Devemos focar no que ainda podemos mudar.",
+    "wordCount": 54,
+    "grammarFocus": "Third Conditional, Mixed Conditional, It is no use + gerund"
   },
   {
     "id": 20,
     "stage": 7,
-    "title": "A Scientific Discovery",
-    "text": "Scientists have recently made an important discovery. They have found evidence that water may exist on Mars. This discovery could mean that life once existed on the planet. If this is confirmed, it would be one of the most significant findings in history.",
-    "translation": "Cientistas recentemente fizeram uma descoberta importante. Encontraram evidências de que água pode existir em Marte. Esta descoberta pode significar que vida já existiu no planeta. Se isso for confirmado, seria uma das descobertas mais significativas da história.",
-    "wordCount": 50,
-    "grammarFocus": "Present Perfect, Modal verbs (may/could/would), Second Conditional"
+    "title": "The Cost of Living",
+    "text": "Inflation has risen sharply over the past two years, causing significant hardship for many families. Not only have food prices increased dramatically, but energy costs have also doubled. Rarely has the general population felt such severe financial pressure.",
+    "segments": ["Inflation has risen sharply over the past two years, causing significant hardship for many families.", "Not only have food prices increased dramatically, but energy costs have also doubled.", "Rarely has the general population felt such severe financial pressure."],
+    "translation": "A inflação subiu acentuadamente nos últimos dois anos, causando dificuldades significativas para muitas famílias. Não apenas os preços dos alimentos aumentaram dramaticamente, mas os custos de energia também dobraram. Raramente a população em geral sentiu uma pressão financeira tão severa.",
+    "wordCount": 44,
+    "grammarFocus": "Present Perfect, Inversion (Not only…, Rarely…), Participle clause"
   },
   {
     "id": 21,
     "stage": 7,
-    "title": "Cultural Differences",
-    "text": "When travelling to different countries, it is important to understand local customs. What might be considered polite in one culture could be offensive in another. For example, in some Asian countries, you should remove your shoes before entering a home.",
-    "translation": "Ao viajar para diferentes países, é importante entender os costumes locais. O que pode ser considerado educado em uma cultura pode ser ofensivo em outra. Por exemplo, em alguns países asiáticos, você deve tirar os sapatos antes de entrar em uma casa.",
-    "wordCount": 48,
-    "grammarFocus": "Gerund as subject, Modal verbs (might/could/should), Passive voice"
+    "title": "A Literary Review",
+    "text": "Having read the novel twice, I can say that it is one of the finest works of the decade. Written with extraordinary precision and emotional sensitivity, it explores universal themes of loss and renewal. What makes it truly remarkable is the author's ability to say so much with so few words.",
+    "segments": ["Having read the novel twice, I can say that it is one of the finest works of the decade.", "Written with extraordinary precision and emotional sensitivity, it explores universal themes of loss and renewal.", "What makes it truly remarkable is the author's ability to say so much with so few words."],
+    "translation": "Tendo lido o romance duas vezes, posso dizer que é uma das melhores obras da década. Escrito com extraordinária precisão e sensibilidade emocional, explora temas universais de perda e renovação. O que o torna verdadeiramente notável é a capacidade do autor de dizer tanto com tão poucas palavras.",
+    "wordCount": 54,
+    "grammarFocus": "Participle clauses (Having read / Written), Cleft sentence (What makes…)"
   },
   {
     "id": 22,
     "stage": 8,
-    "title": "The Power of Reading",
-    "text": "Reading has always been considered one of the best ways to improve one's vocabulary and general knowledge. Those who read regularly tend to have better concentration and memory. It is recommended that children be encouraged to read from an early age.",
-    "translation": "A leitura sempre foi considerada uma das melhores formas de melhorar o vocabulário e conhecimento geral. Aqueles que leem regularmente tendem a ter melhor concentração e memória. É recomendado que crianças sejam encorajadas a ler desde cedo.",
-    "wordCount": 48,
-    "grammarFocus": "Passive voice, Those who, Subjunctive (be encouraged)"
+    "title": "The Climate Debate",
+    "text": "The scientific evidence for human-caused climate change, though overwhelming, continues to be disputed by certain interest groups. It was only when extreme weather events became impossible to ignore that public opinion began to shift significantly. The question is no longer whether action is needed, but how swiftly and decisively it must be taken.",
+    "segments": ["The scientific evidence for human-caused climate change, though overwhelming, continues to be disputed by certain interest groups.", "It was only when extreme weather events became impossible to ignore that public opinion began to shift significantly.", "The question is no longer whether action is needed, but how swiftly and decisively it must be taken."],
+    "translation": "A evidência científica para as mudanças climáticas causadas pelo homem, embora avassaladora, continua sendo contestada por certos grupos de interesse. Foi somente quando eventos climáticos extremos se tornaram impossíveis de ignorar que a opinião pública começou a mudar significativamente. A questão não é mais se a ação é necessária, mas com que rapidez e decisão ela deve ser tomada.",
+    "wordCount": 57,
+    "grammarFocus": "Though (concession), It was only when…that (focus), No longer…but how"
   },
   {
     "id": 23,
     "stage": 8,
-    "title": "Economic Changes",
-    "text": "The global economy has undergone significant changes in recent decades. Many manufacturing jobs have been outsourced to countries where labour is cheaper. Meanwhile, the service sector has grown considerably. These shifts have had both positive and negative effects on different communities.",
-    "translation": "A economia global passou por mudanças significativas nas últimas décadas. Muitos empregos de manufatura foram terceirizados para países onde a mão de obra é mais barata. Enquanto isso, o setor de serviços cresceu consideravelmente. Essas mudanças tiveram efeitos positivos e negativos em diferentes comunidades.",
-    "wordCount": 48,
-    "grammarFocus": "Present Perfect Passive, Where clauses, Both...and"
+    "title": "Education for the Future",
+    "text": "Traditional education systems were designed for an industrial economy that no longer exists in its original form. Skills such as critical thinking, creativity, and adaptability are becoming far more valuable than the ability to memorise facts and reproduce them in examinations. Schools that fail to adapt to this new reality risk producing graduates who are ill-equipped for the challenges of the modern world.",
+    "segments": ["Traditional education systems were designed for an industrial economy that no longer exists in its original form.", "Skills such as critical thinking, creativity, and adaptability are becoming far more valuable than the ability to memorise facts and reproduce them in examinations.", "Schools that fail to adapt to this new reality risk producing graduates who are ill-equipped for the challenges of the modern world."],
+    "translation": "Os sistemas de educação tradicionais foram projetados para uma economia industrial que não existe mais em sua forma original. Habilidades como pensamento crítico, criatividade e adaptabilidade estão se tornando muito mais valiosas do que a capacidade de memorizar fatos e reproduzi-los em exames. As escolas que não conseguem se adaptar a essa nova realidade correm o risco de formar graduados que não estão preparados para os desafios do mundo moderno.",
+    "wordCount": 62,
+    "grammarFocus": "Passive (were designed for), No longer, Risk + gerund, Ill-equipped for"
   },
   {
     "id": 24,
     "stage": 8,
-    "title": "Mental Health Awareness",
-    "text": "In recent years, there has been a growing awareness of mental health issues. People are becoming more comfortable talking about anxiety and depression. Employers are being encouraged to provide support for their employees' wellbeing. This represents a significant shift in societal attitudes.",
-    "translation": "Nos últimos anos, tem havido uma crescente conscientização sobre questões de saúde mental. As pessoas estão se tornando mais confortáveis para falar sobre ansiedade e depressão. Empregadores estão sendo encorajados a fornecer suporte para o bem-estar de seus funcionários. Isso representa uma mudança significativa nas atitudes da sociedade.",
-    "wordCount": 48,
-    "grammarFocus": "There has been, Present Continuous Passive, Becoming + adjective"
+    "title": "Globalisation and Culture",
+    "text": "Globalisation has both enriched and endangered cultural diversity across the world. While it has made ideas, art forms, and technologies accessible across national borders, it has simultaneously led to the dominance of a relatively small number of cultural products. This dominance has come at the expense of countless local traditions that might otherwise have flourished.",
+    "segments": ["Globalisation has both enriched and endangered cultural diversity across the world.", "While it has made ideas, art forms, and technologies accessible across national borders, it has simultaneously led to the dominance of a relatively small number of cultural products.", "This dominance has come at the expense of countless local traditions that might otherwise have flourished."],
+    "translation": "A globalização tanto enriqueceu quanto ameaçou a diversidade cultural ao redor do mundo. Embora tenha tornado ideias, formas de arte e tecnologias acessíveis além das fronteiras nacionais, levou simultaneamente à dominância de um número relativamente pequeno de produtos culturais. Essa dominância veio às custas de incontáveis tradições locais que de outra forma poderiam ter florescido.",
+    "wordCount": 62,
+    "grammarFocus": "Both…and, While (contrast), Might otherwise have (past speculation)"
   },
   {
     "id": 25,
     "stage": 9,
-    "title": "Artificial Intelligence Ethics",
-    "text": "As artificial intelligence becomes more advanced, ethical questions are being raised about its use. Should machines be allowed to make decisions that affect human lives? Who is responsible when an autonomous vehicle causes an accident? These are issues that society will need to address carefully.",
-    "translation": "À medida que a inteligência artificial se torna mais avançada, questões éticas estão sendo levantadas sobre seu uso. Máquinas deveriam ser autorizadas a tomar decisões que afetam vidas humanas? Quem é responsável quando um veículo autônomo causa um acidente? Estas são questões que a sociedade precisará abordar cuidadosamente.",
-    "wordCount": 52,
-    "grammarFocus": "As + present simple, Should (ethics), That clauses, Questions in reported speech style"
+    "title": "Artificial Intelligence and Work",
+    "text": "The rapid development of artificial intelligence raises profound questions about the future of work and, more broadly, about human identity and purpose. It is estimated by some economists that up to forty percent of current jobs could be automated within the next two decades. Were this to occur without adequate social safety nets and retraining programmes, the consequences for society would be extraordinarily severe.",
+    "segments": ["The rapid development of artificial intelligence raises profound questions about the future of work and, more broadly, about human identity and purpose.", "It is estimated by some economists that up to forty percent of current jobs could be automated within the next two decades.", "Were this to occur without adequate social safety nets and retraining programmes, the consequences for society would be extraordinarily severe."],
+    "translation": "O rápido desenvolvimento da inteligência artificial levanta questões profundas sobre o futuro do trabalho e, de forma mais ampla, sobre a identidade e o propósito humanos. Alguns economistas estimam que até quarenta por cento dos empregos atuais poderiam ser automatizados nas próximas duas décadas. Caso isso ocorresse sem redes de segurança social adequadas e programas de requalificação, as consequências para a sociedade seriam extraordinariamente graves.",
+    "wordCount": 68,
+    "grammarFocus": "Passive impersonal (It is estimated), Were + infinitive (formal conditional)"
   },
   {
     "id": 26,
     "stage": 9,
-    "title": "Climate Change Solutions",
-    "text": "Unless drastic measures are taken immediately, the effects of climate change will become irreversible. Governments around the world must work together to reduce carbon emissions. Had we acted decades ago, the situation would not be as severe as it is today.",
-    "translation": "A menos que medidas drásticas sejam tomadas imediatamente, os efeitos das mudanças climáticas se tornarão irreversíveis. Governos ao redor do mundo devem trabalhar juntos para reduzir emissões de carbono. Se tivéssemos agido décadas atrás, a situação não seria tão severa como é hoje.",
-    "wordCount": 49,
-    "grammarFocus": "Unless + present, Third Conditional (Had we acted), As...as"
+    "title": "Language and Thought",
+    "text": "The relationship between language and thought is one of the most contested issues in cognitive science and philosophy. Some researchers argue that the language we speak fundamentally shapes the way we perceive and categorise reality, a view known as the Sapir-Whorf hypothesis. Others maintain that thought is largely independent of language, and that the two simply develop in parallel. The empirical evidence, however, suggests that the truth lies somewhere considerably more complex than either extreme position would allow.",
+    "segments": ["The relationship between language and thought is one of the most contested issues in cognitive science and philosophy.", "Some researchers argue that the language we speak fundamentally shapes the way we perceive and categorise reality, a view known as the Sapir-Whorf hypothesis.", "Others maintain that thought is largely independent of language, and that the two simply develop in parallel.", "The empirical evidence, however, suggests that the truth lies somewhere considerably more complex than either extreme position would allow."],
+    "translation": "A relação entre linguagem e pensamento é uma das questões mais contestadas na ciência cognitiva e filosofia. Alguns pesquisadores argumentam que a língua que falamos molda fundamentalmente a forma como percebemos e categorizamos a realidade, uma visão conhecida como hipótese de Sapir-Whorf. Outros sustentam que o pensamento é em grande parte independente da linguagem e que os dois simplesmente se desenvolvem em paralelo. As evidências empíricas, porém, sugerem que a verdade está em um lugar consideravelmente mais complexo do que qualquer posição extrema permitiria.",
+    "wordCount": 83,
+    "grammarFocus": "Embedded relative clauses, Others maintain, However (discourse marker), Than + noun phrase would allow"
   },
   {
     "id": 27,
     "stage": 9,
-    "title": "The Art World",
-    "text": "Contemporary art is often misunderstood by the general public. What some people consider to be meaningless or even ugly may be highly valued by critics and collectors. The worth of a piece of art cannot always be measured by its visual appeal alone.",
-    "translation": "A arte contemporânea é frequentemente mal compreendida pelo público geral. O que algumas pessoas consideram sem sentido ou até feio pode ser altamente valorizado por críticos e colecionadores. O valor de uma obra de arte nem sempre pode ser medido apenas por seu apelo visual.",
-    "wordCount": 51,
-    "grammarFocus": "Passive voice, What clauses as subject, Cannot + passive"
+    "title": "Wealth and Democracy",
+    "text": "The accumulation of extreme personal wealth, while perfectly legal, raises serious ethical questions about fairness and the health of democratic institutions. It is argued by political scientists that extreme economic inequality corrodes democracy by granting a small elite disproportionate influence over political decisions and public discourse. Whether progressive taxation alone is sufficient to address this structural imbalance effectively remains a matter of vigorous and unresolved debate.",
+    "segments": ["The accumulation of extreme personal wealth, while perfectly legal, raises serious ethical questions about fairness and the health of democratic institutions.", "It is argued by political scientists that extreme economic inequality corrodes democracy by granting a small elite disproportionate influence over political decisions and public discourse.", "Whether progressive taxation alone is sufficient to address this structural imbalance effectively remains a matter of vigorous and unresolved debate."],
+    "translation": "O acúmulo de riqueza pessoal extrema, embora perfeitamente legal, levanta sérias questões éticas sobre a equidade e a saúde das instituições democráticas. Cientistas políticos argumentam que a desigualdade econômica extrema corrói a democracia ao conceder a uma pequena elite influência desproporcional sobre as decisões políticas e o discurso público. Se a tributação progressiva por si só é suficiente para resolver esse desequilíbrio estrutural de forma eficaz permanece como objeto de debate acirrado e não resolvido.",
+    "wordCount": 72,
+    "grammarFocus": "Concessive (while + adjective), Impersonal passive, Whether…remains a matter of"
   },
   {
     "id": 28,
     "stage": 10,
-    "title": "Philosophical Perspectives",
-    "text": "Throughout history, philosophers have debated the nature of reality and consciousness. Some argue that what we perceive as real is merely an illusion created by our minds. Others maintain that there is an objective reality that exists independently of our perception of it.",
-    "translation": "Ao longo da história, filósofos têm debatido a natureza da realidade e da consciência. Alguns argumentam que o que percebemos como real é meramente uma ilusão criada por nossas mentes. Outros sustentam que existe uma realidade objetiva que existe independentemente de nossa percepção dela.",
-    "wordCount": 51,
-    "grammarFocus": "Present Perfect (debate), What clauses, That clauses, Independently of"
+    "title": "Memory and Identity",
+    "text": "The philosopher John Locke argued that personal identity is constituted not by the continuity of the body, but by the continuity of conscious memory. If this account is correct, then a person who has suffered total amnesia is, in a philosophically meaningful sense, no longer the same individual they once were. This view has far-reaching implications for how we conceptualise moral responsibility, legal punishment, and our very understanding of what it means to persist through time as a self.",
+    "segments": ["The philosopher John Locke argued that personal identity is constituted not by the continuity of the body, but by the continuity of conscious memory.", "If this account is correct, then a person who has suffered total amnesia is, in a philosophically meaningful sense, no longer the same individual they once were.", "This view has far-reaching implications for how we conceptualise moral responsibility, legal punishment, and our very understanding of what it means to persist through time as a self."],
+    "translation": "O filósofo John Locke argumentou que a identidade pessoal é constituída não pela continuidade do corpo, mas pela continuidade da memória consciente. Se essa explicação estiver correta, então uma pessoa que sofreu amnésia total não é mais, em um sentido filosoficamente significativo, o mesmo indivíduo que foi um dia. Essa visão tem implicações de grande alcance para como conceitualizamos a responsabilidade moral, a punição legal e nossa própria compreensão do que significa persistir no tempo como um eu.",
+    "wordCount": 84,
+    "grammarFocus": "Not by…but by (parallel structure), In a…sense, Far-reaching implications for"
   },
   {
     "id": 29,
     "stage": 10,
-    "title": "Medical Breakthroughs",
-    "text": "Recent advances in genetic research have opened up possibilities that were once thought impossible. Scientists are now able to edit genes to prevent certain hereditary diseases. While this technology offers tremendous potential benefits, it also raises concerns about where the boundaries should be drawn.",
-    "translation": "Avanços recentes em pesquisa genética abriram possibilidades que antes eram consideradas impossíveis. Cientistas agora são capazes de editar genes para prevenir certas doenças hereditárias. Embora esta tecnologia ofereça tremendos benefícios potenciais, também levanta preocupações sobre onde os limites devem ser estabelecidos.",
-    "wordCount": 51,
-    "grammarFocus": "Present Perfect, That + past passive, While (contrast), Where clauses"
+    "title": "The Limits of Science",
+    "text": "While the scientific method has proven extraordinarily successful at expanding our empirical knowledge of the natural world, it is not without its profound limitations. Questions of meaning, subjective value, and the ultimate nature of consciousness do not lend themselves easily to measurement or experimental verification. The philosopher of science Karl Popper famously proposed that a statement is only genuinely scientific if it is, in principle, falsifiable by evidence — a criterion that immediately places much of what we care about most in life beyond the domain of science.",
+    "segments": ["While the scientific method has proven extraordinarily successful at expanding our empirical knowledge of the natural world, it is not without its profound limitations.", "Questions of meaning, subjective value, and the ultimate nature of consciousness do not lend themselves easily to measurement or experimental verification.", "The philosopher of science Karl Popper famously proposed that a statement is only genuinely scientific if it is, in principle, falsifiable by evidence — a criterion that immediately places much of what we care about most in life beyond the domain of science."],
+    "translation": "Embora o método científico tenha se mostrado extraordinariamente bem-sucedido em expandir nosso conhecimento empírico do mundo natural, não está isento de limitações profundas. Questões de significado, valor subjetivo e a natureza última da consciência não se prestam facilmente à medição ou verificação experimental. O filósofo da ciência Karl Popper propôs que um enunciado só é genuinamente científico se for, em princípio, falsificável pela evidência — um critério que imediatamente coloca grande parte do que mais nos importa na vida além do domínio da ciência.",
+    "wordCount": 91,
+    "grammarFocus": "While (concession), Do not lend themselves to, Dash for elaboration, Places…beyond"
   },
   {
     "id": 30,
     "stage": 10,
-    "title": "Social Media Impact",
-    "text": "It cannot be denied that social media has fundamentally transformed the way people communicate and consume information. Never before have individuals had such immediate access to global events. Nevertheless, concerns have been raised about the spread of misinformation and its effects on democracy.",
-    "translation": "Não se pode negar que as redes sociais transformaram fundamentalmente a forma como as pessoas se comunicam e consomem informação. Nunca antes indivíduos tiveram acesso tão imediato a eventos globais. No entanto, preocupações foram levantadas sobre a disseminação de desinformação e seus efeitos na democracia.",
-    "wordCount": 50,
-    "grammarFocus": "It cannot be denied that, Never before + inversion, Present Perfect Passive"
+    "title": "What Literature Does",
+    "text": "What distinguishes literary language from ordinary practical communication is not merely the presence of unusual words or complex syntactic structures, but rather the extraordinary density and richness of meaning that it is capable of generating. A truly great novel does not simply narrate a sequence of events; it constructs an entire imaginative world that the reader inhabits and to which they may return repeatedly. It is precisely this capacity to produce experiences that resist simple paraphrase, and that yield new significance with each rereading, which defines the greatest achievements of the literary tradition.",
+    "segments": ["What distinguishes literary language from ordinary practical communication is not merely the presence of unusual words or complex syntactic structures, but rather the extraordinary density and richness of meaning that it is capable of generating.", "A truly great novel does not simply narrate a sequence of events; it constructs an entire imaginative world that the reader inhabits and to which they may return repeatedly.", "It is precisely this capacity to produce experiences that resist simple paraphrase, and that yield new significance with each rereading, which defines the greatest achievements of the literary tradition."],
+    "translation": "O que distingue a linguagem literária da comunicação prática comum não é meramente a presença de palavras incomuns ou estruturas sintáticas complexas, mas sim a extraordinária densidade e riqueza de significado que ela é capaz de gerar. Um romance verdadeiramente grande não narra simplesmente uma sequência de eventos; constrói um mundo imaginativo inteiro que o leitor habita e ao qual pode retornar repetidamente. É precisamente essa capacidade de produzir experiências que resistem à paráfrase simples, e que rendem novo significado a cada releitura, que define as maiores conquistas da tradição literária.",
+    "wordCount": 97,
+    "grammarFocus": "Not merely…but rather, Cleft (It is precisely…which), To which (formal relative)"
   },
   {
     "id": 31,
     "stage": 11,
-    "title": "Linguistic Diversity",
-    "text": "It is estimated that approximately seven thousand languages are spoken worldwide today. However, many of these are at risk of extinction, with some having fewer than a hundred speakers remaining. The loss of a language represents not only the disappearance of a means of communication but also the erasure of unique cultural knowledge.",
-    "translation": "Estima-se que aproximadamente sete mil línguas são faladas mundialmente hoje. No entanto, muitas delas estão em risco de extinção, com algumas tendo menos de cem falantes restantes. A perda de uma língua representa não apenas o desaparecimento de um meio de comunicação, mas também o apagamento de conhecimento cultural único.",
-    "wordCount": 60,
-    "grammarFocus": "It is estimated that, With + noun + gerund, Not only...but also"
+    "title": "The Paradox of Freedom",
+    "text": "Freedom, as the existentialist tradition has consistently insisted, is not simply the absence of external constraint or coercion. To be genuinely free is to be condemned to choose from among alternatives that are not pre-given, and to bear full moral responsibility for the consequences that flow from those choices. The burden of this radical responsibility is psychologically so great that many human beings, consciously or otherwise, seek to flee from their freedom by uncritically adopting the roles and identities prescribed for them by society, thereby exchanging authenticity for the comfort of conformity.",
+    "segments": ["Freedom, as the existentialist tradition has consistently insisted, is not simply the absence of external constraint or coercion.", "To be genuinely free is to be condemned to choose from among alternatives that are not pre-given, and to bear full moral responsibility for the consequences that flow from those choices.", "The burden of this radical responsibility is psychologically so great that many human beings, consciously or otherwise, seek to flee from their freedom by uncritically adopting the roles and identities prescribed for them by society, thereby exchanging authenticity for the comfort of conformity."],
+    "translation": "A liberdade, como a tradição existencialista tem consistentemente insistido, não é simplesmente a ausência de restrição ou coerção externa. Ser genuinamente livre é estar condenado a escolher entre alternativas que não são pré-dadas, e a assumir plena responsabilidade moral pelas consequências que decorrem dessas escolhas. O peso dessa responsabilidade radical é psicologicamente tão grande que muitos seres humanos, consciente ou inconscientemente, buscam fugir de sua liberdade adotando acriticamente os papéis e identidades prescritos pela sociedade, trocando assim a autenticidade pelo conforto da conformidade.",
+    "wordCount": 96,
+    "grammarFocus": "As + clause (non-defining), To be + infinitive (equational), Thereby + gerund, Prescribe for"
   },
   {
     "id": 32,
     "stage": 11,
-    "title": "Space Exploration",
-    "text": "The prospect of humans colonising other planets, which once seemed like pure science fiction, is now being seriously considered by space agencies and private companies alike. Were such a mission to succeed, it would mark a turning point in human history. The challenges, however, are immense and should not be underestimated.",
-    "translation": "A perspectiva de humanos colonizando outros planetas, que antes parecia pura ficção científica, agora está sendo seriamente considerada por agências espaciais e empresas privadas igualmente. Se tal missão tivesse sucesso, marcaria um ponto de virada na história humana. Os desafios, porém, são imensos e não devem ser subestimados.",
-    "wordCount": 56,
-    "grammarFocus": "Which clauses, Were + subject + to (formal conditional), Should not be + past participle"
+    "title": "Language and Power",
+    "text": "The French philosopher and historian Michel Foucault argued, with considerable persuasive force, that knowledge and power are so inextricably intertwined as to be, in the final analysis, inseparable. Whoever controls the institutional production of legitimate knowledge exercises, thereby, a profound and far-reaching degree of power over what it is possible to think, to say, and to imagine within a given society at a given historical moment. Language, on this account, is not a neutral medium of transparent expression, but rather a deeply contested arena in which power relations are ceaselessly enacted, reinforced, challenged, and sometimes subverted.",
+    "segments": ["The French philosopher and historian Michel Foucault argued, with considerable persuasive force, that knowledge and power are so inextricably intertwined as to be, in the final analysis, inseparable.", "Whoever controls the institutional production of legitimate knowledge exercises, thereby, a profound and far-reaching degree of power over what it is possible to think, to say, and to imagine within a given society at a given historical moment.", "Language, on this account, is not a neutral medium of transparent expression, but rather a deeply contested arena in which power relations are ceaselessly enacted, reinforced, challenged, and sometimes subverted."],
+    "translation": "O filósofo e historiador francês Michel Foucault argumentou, com considerável força persuasiva, que conhecimento e poder estão tão inextricavelmente entrelaçados que são, em última análise, inseparáveis. Quem controla a produção institucional do conhecimento legítimo exerce, com isso, um grau profundo e de amplo alcance de poder sobre o que é possível pensar, dizer e imaginar em uma dada sociedade em um dado momento histórico. A linguagem, nessa perspectiva, não é um meio neutro de expressão transparente, mas sim uma arena profundamente disputada na qual as relações de poder são incessantemente encenadas, reforçadas, desafiadas e, por vezes, subvertidas.",
+    "wordCount": 103,
+    "grammarFocus": "So…as to be (result), Whoever (subject), On this account, Not…but rather, In which + passive series"
   },
   {
     "id": 33,
     "stage": 11,
-    "title": "Economic Inequality",
-    "text": "The gap between the wealthy and the poor has been widening at an alarming rate. Were this trend to continue unchecked, social unrest would likely intensify. Economists argue that unless significant policy changes are implemented, the situation will only deteriorate further.",
-    "translation": "A distância entre ricos e pobres tem aumentado a uma taxa alarmante. Se esta tendência continuasse sem controle, a agitação social provavelmente se intensificaria. Economistas argumentam que, a menos que mudanças políticas significativas sejam implementadas, a situação só vai piorar ainda mais.",
-    "wordCount": 49,
-    "grammarFocus": "Present Perfect Continuous, Were this to (formal conditional), Unless + present"
+    "title": "The Puzzle of Time",
+    "text": "Time is, perhaps, the most elusive and philosophically intractable of all the fundamental concepts with which human beings must reckon. We live inescapably within it, carried forward by its current, yet we cannot step outside it in order to examine it with the detachment we would bring to any external object of inquiry. Saint Augustine famously confessed that he understood perfectly well what time was until someone asked him to explain it, at which point the concept dissolved into baffling obscurity. Whether time is a fundamental and irreducible feature of reality itself, or whether it is, more modestly, a framework that the human mind imposes upon a timeless universe, remains one of the deepest and most persistently unresolved questions that both philosophy and physics must face.",
+    "segments": ["Time is, perhaps, the most elusive and philosophically intractable of all the fundamental concepts with which human beings must reckon.", "We live inescapably within it, carried forward by its current, yet we cannot step outside it in order to examine it with the detachment we would bring to any external object of inquiry.", "Saint Augustine famously confessed that he understood perfectly well what time was until someone asked him to explain it, at which point the concept dissolved into baffling obscurity.", "Whether time is a fundamental and irreducible feature of reality itself, or whether it is, more modestly, a framework that the human mind imposes upon a timeless universe, remains one of the deepest and most persistently unresolved questions that both philosophy and physics must face."],
+    "translation": "O tempo é, talvez, o mais elusivo e filosoficamente intratável de todos os conceitos fundamentais com os quais os seres humanos precisam lidar. Vivemos inescapavelmente dentro dele, levados para frente por sua corrente, mas não podemos sair dele para examiná-lo com o distanciamento que traríamos a qualquer objeto externo de investigação. Santo Agostinho confessou célebre que entendia perfeitamente o que era o tempo até alguém pedir que o explicasse, momento em que o conceito se dissolvia em obscuridade desconcertante. Se o tempo é uma característica fundamental e irredutível da realidade em si, ou se é, mais modestamente, um quadro que a mente humana impõe a um universo atemporal, permanece uma das questões mais profundas e persistentemente não resolvidas que tanto a filosofia quanto a física devem enfrentar.",
+    "wordCount": 131,
+    "grammarFocus": "With which (formal relative), At which point, Whether…or whether, Both…and (ending)"
   },
   {
     "id": 34,
     "stage": 12,
-    "title": "The Nature of Consciousness",
-    "text": "The question of what constitutes consciousness remains one of the greatest mysteries in science. Despite decades of research, neuroscientists have yet to fully explain how the physical processes of the brain give rise to subjective experience. Some philosophers argue that this so-called hard problem may never be solved using conventional scientific methods.",
-    "translation": "A questão do que constitui a consciência permanece um dos maiores mistérios da ciência. Apesar de décadas de pesquisa, neurocientistas ainda não explicaram completamente como os processos físicos do cérebro dão origem à experiência subjetiva. Alguns filósofos argumentam que este chamado problema difícil pode nunca ser resolvido usando métodos científicos convencionais.",
-    "wordCount": 58,
-    "grammarFocus": "What clauses, Have yet to, How clauses, So-called"
+    "title": "Consciousness and the Hard Problem",
+    "text": "The so-called hard problem of consciousness, as articulated with compelling precision by the philosopher David Chalmers, concerns not the functional and mechanistic question of how the brain processes and integrates information — a problem that is, in principle, tractable by the methods of neuroscience — but rather the altogether more vertiginous and philosophically resistant question of why any such physical processing should give rise to subjective, first-person experience at all. Physicalist accounts of the mind, however technically sophisticated, consistently leave unexplained what philosophers call qualia: the irreducibly felt quality of what it is to see a particular shade of red, to experience sharp physical pain, or to perceive the passage of a moment in time. This so-called explanatory gap — the chasm between objective, third-person functional description and the irreducible subjectivity of inner experience — leads some of the most serious philosophers of mind to conclude, with varying degrees of reluctance, either that consciousness is an irreducible and non-physical feature of the universe, or that it constitutes a phenomenon that lies, at least in principle, forever beyond the reach of any purely scientific explanation.",
+    "segments": ["The so-called hard problem of consciousness, as articulated with compelling precision by the philosopher David Chalmers, concerns not the functional and mechanistic question of how the brain processes and integrates information — a problem that is, in principle, tractable by the methods of neuroscience — but rather the altogether more vertiginous and philosophically resistant question of why any such physical processing should give rise to subjective, first-person experience at all.", "Physicalist accounts of the mind, however technically sophisticated, consistently leave unexplained what philosophers call qualia: the irreducibly felt quality of what it is to see a particular shade of red, to experience sharp physical pain, or to perceive the passage of a moment in time.", "This so-called explanatory gap — the chasm between objective, third-person functional description and the irreducible subjectivity of inner experience — leads some of the most serious philosophers of mind to conclude, with varying degrees of reluctance, either that consciousness is an irreducible and non-physical feature of the universe, or that it constitutes a phenomenon that lies, at least in principle, forever beyond the reach of any purely scientific explanation."],
+    "translation": "O chamado problema difícil da consciência, articulado com precisão convincente pelo filósofo David Chalmers, não diz respeito à questão funcional e mecanicista de como o cérebro processa e integra informações — um problema que é, em princípio, tratável pelos métodos da neurociência — mas à questão muito mais vertiginosa e filosoficamente resistente de por que qualquer processamento físico deve dar origem à experiência subjetiva e em primeira pessoa. As explicações fisicalistas da mente, por mais tecnicamente sofisticadas que sejam, consistentemente deixam sem explicação o que os filósofos chamam de qualia: a qualidade irredutível e sentida do que é ver um tom específico de vermelho, experimentar uma dor física intensa ou perceber a passagem de um momento no tempo. Essa chamada lacuna explicativa — o abismo entre a descrição funcional objetiva em terceira pessoa e a subjetividade irredutível da experiência interior — leva alguns dos filósofos da mente mais sérios a concluir, com graus variados de relutância, que a consciência é um elemento irredutível e não físico do universo, ou que constitui um fenômeno que está, ao menos em princípio, para sempre além do alcance de qualquer explicação puramente científica.",
+    "wordCount": 179,
+    "grammarFocus": "Not…but rather (extended parallel), However + adjective (concessive), Either…or (complex), At least in principle"
   },
   {
     "id": 35,
     "stage": 12,
-    "title": "The Future of Democracy",
-    "text": "It has been argued that liberal democracy, far from being the inevitable endpoint of political development, may be more fragile than previously assumed. The rise of authoritarian populism in various parts of the world has led many scholars to reconsider their assumptions about the direction of history.",
-    "translation": "Tem sido argumentado que a democracia liberal, longe de ser o ponto final inevitável do desenvolvimento político, pode ser mais frágil do que anteriormente assumido. A ascensão do populismo autoritário em várias partes do mundo levou muitos estudiosos a reconsiderar suas suposições sobre a direção da história.",
-    "wordCount": 55,
-    "grammarFocus": "It has been argued that, Far from being, More...than + past participle, Has led...to"
+    "title": "Democracy Under Strain",
+    "text": "Liberal democracy, which a confident postwar consensus had assumed to represent something close to the final destination of political evolution, has in recent decades revealed a set of structural fragilities that its architects had perhaps insufficiently anticipated. The institutional mechanisms intended to protect democratic governance from authoritarian erosion — among them an independent judiciary, a free and pluralistic press, and a vigorous civil society — have proven, in country after country, to be susceptible to patient and incremental subversion from within. What has made this pattern particularly alarming to constitutional scholars and political theorists alike is that the erosion so often proceeds through ostensibly legitimate democratic processes: elected leaders exploit legal ambiguities, manipulate popular grievances, and gradually consolidate power in ways that systematically hollow out the very institutions that granted them their democratic mandate in the first place.",
+    "segments": ["Liberal democracy, which a confident postwar consensus had assumed to represent something close to the final destination of political evolution, has in recent decades revealed a set of structural fragilities that its architects had perhaps insufficiently anticipated.", "The institutional mechanisms intended to protect democratic governance from authoritarian erosion — among them an independent judiciary, a free and pluralistic press, and a vigorous civil society — have proven, in country after country, to be susceptible to patient and incremental subversion from within.", "What has made this pattern particularly alarming to constitutional scholars and political theorists alike is that the erosion so often proceeds through ostensibly legitimate democratic processes: elected leaders exploit legal ambiguities, manipulate popular grievances, and gradually consolidate power in ways that systematically hollow out the very institutions that granted them their democratic mandate in the first place."],
+    "translation": "A democracia liberal, que um consenso pós-guerra confiante havia assumido representar algo próximo ao destino final da evolução política, revelou nas últimas décadas um conjunto de fragilidades estruturais que seus arquitetos talvez não tivessem previsto suficientemente. Os mecanismos institucionais destinados a proteger a governança democrática da erosão autoritária — entre eles um judiciário independente, uma imprensa livre e pluralista e uma sociedade civil vigorosa — mostraram-se, em país após país, suscetíveis à subversão paciente e incremental por dentro. O que tornou esse padrão particularmente alarmante para estudiosos de direito constitucional e teóricos políticos é que a erosão tão frequentemente avança por meio de processos democráticos ostensivamente legítimos: líderes eleitos exploram ambiguidades legais, manipulam ressentimentos populares e consolidam gradualmente o poder de formas que esvaziam sistematicamente as próprias instituições que lhes concederam seu mandato democrático.",
+    "wordCount": 142,
+    "grammarFocus": "Non-defining relative (which…), Past Perfect speculation, Among them (apposition), What has made…is that, In the first place"
   },
   {
     "id": 36,
     "stage": 12,
-    "title": "Scientific Method",
-    "text": "The scientific method, upon which modern technological progress has been built, requires that hypotheses be tested through rigorous experimentation and that results be replicated before they can be accepted as valid. Were scientists to abandon these principles, the reliability of scientific knowledge would be severely compromised.",
-    "translation": "O método científico, sobre o qual o progresso tecnológico moderno foi construído, requer que hipóteses sejam testadas através de experimentação rigorosa e que resultados sejam replicados antes de poderem ser aceitos como válidos. Se cientistas abandonassem esses princípios, a confiabilidade do conhecimento científico seria severamente comprometida.",
-    "wordCount": 54,
-    "grammarFocus": "Upon which, Subjunctive (that...be tested), Were...to (formal conditional)"
+    "title": "The Impossibility of Interpretation",
+    "text": "Derrida's central and most provocative insight was that every text, by its very nature as a linguistic artefact embedded in an open-ended system of differential signs, generates meanings that inevitably exceed and perpetually subvert whatever intentions its author may have originally harboured. The attempt to arrest the movement of signification and establish a single, authoritative, and definitive interpretation is always already undermined by the irreducible play of differences that constitutes language as such; there is no Archimedean point outside the text from which meaning might be surveyed and fixed with finality. It follows, paradoxically and perhaps somewhat unsettlingly, that the text a reader encounters is never quite the text the author wrote, since it has already been transformed by its inscription into a linguistic system that exceeds any individual intention; and that criticism, far from merely illuminating a meaning that pre-exists its own arrival, necessarily and inescapably participates in the very production of the meanings it so confidently purports only to discover.",
+    "segments": ["Derrida's central and most provocative insight was that every text, by its very nature as a linguistic artefact embedded in an open-ended system of differential signs, generates meanings that inevitably exceed and perpetually subvert whatever intentions its author may have originally harboured.", "The attempt to arrest the movement of signification and establish a single, authoritative, and definitive interpretation is always already undermined by the irreducible play of differences that constitutes language as such; there is no Archimedean point outside the text from which meaning might be surveyed and fixed with finality.", "It follows, paradoxically and perhaps somewhat unsettlingly, that the text a reader encounters is never quite the text the author wrote, since it has already been transformed by its inscription into a linguistic system that exceeds any individual intention; and that criticism, far from merely illuminating a meaning that pre-exists its own arrival, necessarily and inescapably participates in the very production of the meanings it so confidently purports only to discover."],
+    "translation": "O insight central e mais provocativo de Derrida foi que todo texto, por sua própria natureza como artefato linguístico incorporado em um sistema aberto de signos diferenciais, gera significados que inevitavelmente excedem e perpetuamente subvertem quaisquer intenções que seu autor possa ter originalmente nutrido. A tentativa de deter o movimento da significação e estabelecer uma interpretação única, autoritativa e definitiva é sempre já minada pelo jogo irredutível das diferenças que constitui a linguagem como tal; não há ponto arquimediano fora do texto a partir do qual o significado pudesse ser examinado e fixado com finalidade. Segue-se, paradoxalmente e talvez de forma um tanto perturbadora, que o texto que um leitor encontra nunca é exatamente o texto que o autor escreveu, uma vez que já foi transformado por sua inscrição em um sistema linguístico que excede qualquer intenção individual; e que a crítica, longe de meramente iluminar um significado que pré-existe à sua própria chegada, necessária e inescapavelmente participa da própria produção dos significados que tão confiante pretende apenas descobrir.",
+    "wordCount": 162,
+    "grammarFocus": "By its very nature as, Always already, From which (formal relative), Far from + gerund, Purport to + infinitive"
   }
 ]

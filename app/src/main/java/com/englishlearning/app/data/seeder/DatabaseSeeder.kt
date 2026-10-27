@@ -373,6 +373,7 @@ class DatabaseSeeder @Inject constructor(
                 stage = exercise.stage,
                 title = exercise.title,
                 text = exercise.text,
+                segments = exercise.segments,
                 translation = exercise.translation,
                 wordCount = exercise.wordCount,
                 grammarFocus = exercise.grammarFocus,

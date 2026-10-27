@@ -13,6 +13,7 @@ data class DictationExercise(
     val stage: Int,
     val title: String,
     val text: String,
+    val segments: List<String> = emptyList(),
     val translation: String? = null,
     val wordCount: Int = 0,
     val grammarFocus: String? = null,

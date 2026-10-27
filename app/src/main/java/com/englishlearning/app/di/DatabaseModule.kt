@@ -67,7 +67,8 @@ object DatabaseModule {
                 EnglishLearningDatabase.MIGRATION_3_4,
                 EnglishLearningDatabase.MIGRATION_4_5,
                 EnglishLearningDatabase.MIGRATION_5_6,
-                EnglishLearningDatabase.MIGRATION_6_7
+                EnglishLearningDatabase.MIGRATION_6_7,
+                EnglishLearningDatabase.MIGRATION_7_8
             )
             .fallbackToDestructiveMigration()
             .build()

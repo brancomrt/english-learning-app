@@ -94,4 +94,17 @@ class Converters {
                 null
             }
         }
+
+    // ─── List<String> ─────────────────────────────────────────────────────────
+
+    /** Converte List<String> para String delimitada por "|||" ao gravar no banco. */
+    @TypeConverter
+    fun fromStringList(value: List<String>?): String =
+        value?.joinToString(separator = "|||") ?: ""
+
+    /** Converte String delimitada por "|||" para List<String> ao ler do banco. */
+    @TypeConverter
+    fun toStringList(value: String?): List<String> =
+        if (value.isNullOrBlank()) emptyList()
+        else value.split("|||").filter { it.isNotBlank() }
 }

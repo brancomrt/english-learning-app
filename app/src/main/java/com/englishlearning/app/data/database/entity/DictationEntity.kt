@@ -32,6 +32,10 @@ data class DictationExerciseEntity(
     /** Texto completo a ser ditado (parágrafo) */
     @ColumnInfo(name = "text")
     val text: String,
+
+    /** Segmentos do texto para repetição 3x estilo Callan (separados por "|||") */
+    @ColumnInfo(name = "segments")
+    val segments: List<String> = emptyList(),
     
     /** Tradução para português */
     @ColumnInfo(name = "translation")
