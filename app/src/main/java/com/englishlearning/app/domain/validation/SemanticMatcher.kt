@@ -55,8 +55,18 @@ class SemanticMatcher {
         "respond" to "answer",
         "error" to "mistake",
         "bug" to "issue",
-        "defect" to "issue"
+        "defect" to "issue",
+        "problem" to "issue",
+        "method" to "way",
+        "approach" to "way",
+        "cause" to "reason",
+        "timetable" to "schedule",
+        "colleague" to "coworker",
+        "boss" to "manager",
+        "client" to "customer"
     )
+
+    private val optionalFillers: Set<String> = setOf("a", "an", "the", "please")
 
     /**
      * Calcula score de similaridade entre dois textos normalizados.
@@ -93,10 +103,13 @@ class SemanticMatcher {
         return (jaccardScore * 0.6f + bigramScore * 0.4f).coerceIn(0f, 1f)
     }
 
-    private fun canonicalizeTokens(text: String): List<String> =
-        text.split(" ")
+    private fun canonicalizeTokens(text: String): List<String> {
+        val mapped = text.split(" ")
             .filter { it.isNotEmpty() }
             .map { token -> synonyms[token] ?: token }
+        val withoutFillers = mapped.filter { it !in optionalFillers }
+        return if (withoutFillers.isNotEmpty()) withoutFillers else mapped
+    }
 
     /**
      * Gera o conjunto de bigramas (pares de palavras consecutivas) de uma lista de tokens.

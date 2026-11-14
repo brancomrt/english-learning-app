@@ -72,7 +72,10 @@ class DatabaseSeeder @Inject constructor(
                 seedVocabulary()
                 seedGrammarLessons()
                 seedDictationExercises()
-                prefs.edit().putBoolean(KEY_DB_SEEDED, true).apply()
+                prefs.edit()
+                    .putBoolean(KEY_DB_SEEDED, true)
+                    .putInt(KEY_CONTENT_VERSION, CURRENT_CONTENT_VERSION)
+                    .apply()
                 Log.i(TAG, "Database seeding completed successfully.")
             } catch (e: Exception) {
                 // Seeding failure is non-fatal: the app will retry on the next launch.
@@ -83,6 +86,28 @@ class DatabaseSeeder @Inject constructor(
             // Verifica se a tabela de dictation_exercises precisa ser re-seedada
             // (pode acontecer após migração que dropa a tabela)
             checkAndSeedDictationIfEmpty()
+            syncExercisesIfContentUpdated()
+        }
+    }
+
+    /**
+     * Atualiza exercícios, respostas aceitas e dicas quando [CURRENT_CONTENT_VERSION]
+     * é incrementado, usando upsert para preservar o histórico de tentativas do usuário.
+     */
+    private suspend fun syncExercisesIfContentUpdated() {
+        val savedVersion = prefs.getInt(KEY_CONTENT_VERSION, 1)
+        if (savedVersion >= CURRENT_CONTENT_VERSION) return
+
+        Log.i(TAG, "Content update detected (v$savedVersion -> v$CURRENT_CONTENT_VERSION) — syncing exercises...")
+        try {
+            val exerciseFiles = listExerciseAssets()
+            for (fileName in exerciseFiles) {
+                seedExercisesFromFile("$EXERCISES_ASSET_DIR/$fileName", useUpsert = true)
+            }
+            prefs.edit().putInt(KEY_CONTENT_VERSION, CURRENT_CONTENT_VERSION).apply()
+            Log.i(TAG, "Content sync to v$CURRENT_CONTENT_VERSION completed.")
+        } catch (e: Exception) {
+            Log.e(TAG, "Content sync failed — will retry on next launch.", e)
         }
     }
     
@@ -177,7 +202,7 @@ class DatabaseSeeder @Inject constructor(
      * Processa um único arquivo de exercícios.
      * Em caso de erro de serialização, registra e retorna sem lançar exceção (req 11.4).
      */
-    private suspend fun seedExercisesFromFile(assetPath: String) {
+    private suspend fun seedExercisesFromFile(assetPath: String, useUpsert: Boolean = false) {
         val fileContent = readAsset(assetPath) ?: run {
             Log.w(TAG, "Exercise file not readable: $assetPath — skipping.")
             return
@@ -195,7 +220,11 @@ class DatabaseSeeder @Inject constructor(
         }
 
         val exerciseEntities = exercises.map { it.toEntity() }
-        db.exerciseDao().insertAll(exerciseEntities)
+        if (useUpsert) {
+            db.exerciseDao().upsertAll(exerciseEntities)
+        } else {
+            db.exerciseDao().insertAll(exerciseEntities)
+        }
 
         // Insert accepted answers, using the exercise's JSON id to link them.
         val answerEntities = exercises.flatMap { exercise ->
@@ -493,6 +522,8 @@ class DatabaseSeeder @Inject constructor(
         private const val TAG = "DatabaseSeeder"
         private const val PREFS_NAME = "app_prefs"
         private const val KEY_DB_SEEDED = "db_seeded"
+        private const val KEY_CONTENT_VERSION = "content_version"
+        private const val CURRENT_CONTENT_VERSION = 2
         private const val LEVELS_ASSET_PATH = "content/levels.json"
         private const val CATEGORIES_ASSET_PATH = "content/categories.json"
         private const val EXERCISES_ASSET_DIR = "content/exercises"

@@ -5,6 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
+import androidx.room.Upsert
 import com.englishlearning.app.data.database.entity.ExerciseEntity
 
 /**
@@ -63,6 +64,12 @@ interface ExerciseDao {
      */
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(exercises: List<ExerciseEntity>)
+
+    /**
+     * Insere ou atualiza exercícios sem acionar DELETE+CASCADE (preserva histórico de tentativas).
+     */
+    @Upsert
+    suspend fun upsertAll(exercises: List<ExerciseEntity>)
 
     /**
      * Conta exercícios de uma combinação nível + categoria.
