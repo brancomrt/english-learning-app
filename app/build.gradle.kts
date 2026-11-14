@@ -45,7 +45,7 @@ android {
         val variant = this
         variant.outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "english-learning-app.apk"
+            output.outputFileName = "english-learning-app-v${variant.versionName}.apk"
         }
     }
 
