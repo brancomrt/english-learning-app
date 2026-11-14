@@ -510,7 +510,7 @@
     "level_id": 3,
     "category_id": 7,
     "answer_text": "Yes, I've merged the branch into main.",
-    "context_text": null,
+    "context_text": "Scenario: You already completed the merge (affirmative).",
     "question_type": "YES_NO",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "Have you merged the branch yet?",

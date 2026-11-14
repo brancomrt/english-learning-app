@@ -418,7 +418,7 @@
     "level_id": 4,
     "category_id": 10,
     "answer_text": "Yes, the rollback was successful.",
-    "context_text": null,
+    "context_text": "Scenario: The rollback succeeded without issues (affirmative).",
     "question_type": "YES_NO",
     "exercise_mode": "ANSWER_FROM_QUESTION",
     "prompt_text": "Was the rollback successful?",
