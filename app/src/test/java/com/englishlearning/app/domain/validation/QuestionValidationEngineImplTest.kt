@@ -3,6 +3,7 @@ package com.englishlearning.app.domain.validation
 import com.englishlearning.app.domain.model.AcceptedAnswer
 import com.englishlearning.app.domain.model.ErrorType
 import com.englishlearning.app.domain.model.Exercise
+import com.englishlearning.app.domain.model.ExerciseMode
 import com.englishlearning.app.domain.model.Hint
 import com.englishlearning.app.domain.model.HintType
 import com.englishlearning.app.domain.model.QuestionType
@@ -256,6 +257,49 @@ class QuestionValidationEngineImplTest {
         val unrelatedScore = engine.scoreAnswer("What is the capital city of france", exercise)
 
         assertTrue(verbatimScore >= unrelatedScore)
+    }
+
+    @Test
+    fun `validate - accepts alternative acceptedAnswer with different QuestionType`() {
+        val exercise = makeExercise(
+            questionType = QuestionType.WH_HOW,
+            answers = listOf(
+                "How old are you?" to 0.85f,
+                "What is your age?" to 0.80f
+            )
+        )
+        val result = engine.validate("What is your age?", exercise)
+
+        assertEquals(ValidationStatus.CORRECT, result.status)
+        assertEquals("What is your age?", result.matchedAnswer?.questionText)
+    }
+
+    @Test
+    fun `validate - accepts synonym variation via SemanticMatcher`() {
+        val exercise = makeExercise(
+            questionType = QuestionType.WH_WHAT,
+            answers = listOf("What is your job?" to 0.85f)
+        )
+        val result = engine.validate("What is your profession?", exercise)
+
+        assertEquals(ValidationStatus.CORRECT, result.status)
+    }
+
+    @Test
+    fun `validate - ANSWER_FROM_QUESTION accepts full-sentence expansion of short answer`() {
+        val exercise = makeExercise(
+            questionType = QuestionType.YES_NO,
+            answers = listOf(
+                "Yes, I am." to 0.90f,
+                "No, I'm not." to 0.90f
+            )
+        ).copy(
+            promptText = "Are you married?",
+            exerciseMode = ExerciseMode.ANSWER_FROM_QUESTION
+        )
+        val result = engine.validate("Yes, I am married.", exercise)
+
+        assertEquals(ValidationStatus.CORRECT, result.status)
     }
 
     // -------------------------------------------------------------------

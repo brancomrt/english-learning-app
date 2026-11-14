@@ -13,6 +13,52 @@ package com.englishlearning.app.domain.validation
 class SemanticMatcher {
 
     /**
+     * Mapa conservador de sinônimos e equivalências comuns em inglês.
+     * Aplicado de forma simétrica em ambos os textos antes do cálculo de
+     * Jaccard e bigramas para aceitar variações naturais de vocabulário.
+     */
+    private val synonyms: Map<String, String> = mapOf(
+        "profession" to "job",
+        "occupation" to "job",
+        "career" to "job",
+        "price" to "cost",
+        "begin" to "start",
+        "commence" to "start",
+        "end" to "finish",
+        "complete" to "finish",
+        "large" to "big",
+        "little" to "small",
+        "tiny" to "small",
+        "film" to "movie",
+        "purchase" to "buy",
+        "assist" to "help",
+        "require" to "need",
+        "residence" to "home",
+        "talk" to "speak",
+        "town" to "city",
+        "glad" to "happy",
+        "unhappy" to "sad",
+        "correct" to "right",
+        "wrong" to "incorrect",
+        "fast" to "quick",
+        "rapid" to "quick",
+        "automobile" to "car",
+        "vehicle" to "car",
+        "kids" to "children",
+        "child" to "kid",
+        "phone" to "telephone",
+        "cellphone" to "phone",
+        "mobile" to "phone",
+        "photo" to "picture",
+        "image" to "picture",
+        "reply" to "answer",
+        "respond" to "answer",
+        "error" to "mistake",
+        "bug" to "issue",
+        "defect" to "issue"
+    )
+
+    /**
      * Calcula score de similaridade entre dois textos normalizados.
      *
      * Precondição: text1 e text2 são strings normalizadas (lowercase, sem pontuação extra)
@@ -24,8 +70,12 @@ class SemanticMatcher {
         if (text1 == text2) return 1.0f
         if (text1.isEmpty() || text2.isEmpty()) return 0.0f
 
-        val words1 = text1.split(" ").toSet()
-        val words2 = text2.split(" ").toSet()
+        val tokens1 = canonicalizeTokens(text1)
+        val tokens2 = canonicalizeTokens(text2)
+        if (tokens1 == tokens2) return 1.0f
+
+        val words1 = tokens1.toSet()
+        val words2 = tokens2.toSet()
 
         // Jaccard similarity: interseção / união dos conjuntos de palavras
         val intersection = words1.intersect(words2).size.toFloat()
@@ -33,8 +83,8 @@ class SemanticMatcher {
         val jaccardScore = intersection / union
 
         // Bigram similarity: interseção / max(tamanho) dos conjuntos de bigramas
-        val bigrams1 = toBigrams(text1)
-        val bigrams2 = toBigrams(text2)
+        val bigrams1 = toBigrams(tokens1)
+        val bigrams2 = toBigrams(tokens2)
         val bigramIntersection = bigrams1.intersect(bigrams2).size.toFloat()
         val bigramUnion = maxOf(bigrams1.size, bigrams2.size).toFloat()
         val bigramScore = if (bigramUnion > 0) bigramIntersection / bigramUnion else 0f
@@ -43,13 +93,16 @@ class SemanticMatcher {
         return (jaccardScore * 0.6f + bigramScore * 0.4f).coerceIn(0f, 1f)
     }
 
+    private fun canonicalizeTokens(text: String): List<String> =
+        text.split(" ")
+            .filter { it.isNotEmpty() }
+            .map { token -> synonyms[token] ?: token }
+
     /**
-     * Gera o conjunto de bigramas (pares de palavras consecutivas) de um texto.
+     * Gera o conjunto de bigramas (pares de palavras consecutivas) de uma lista de tokens.
      *
-     * Ex: "what is your name" → {"what is", "is your", "your name"}
+     * Ex: ["what", "is", "your", "name"] → {"what is", "is your", "your name"}
      */
-    private fun toBigrams(text: String): Set<String> {
-        val words = text.split(" ")
-        return words.zipWithNext { a, b -> "$a $b" }.toSet()
-    }
+    private fun toBigrams(words: List<String>): Set<String> =
+        words.zipWithNext { a, b -> "$a $b" }.toSet()
 }

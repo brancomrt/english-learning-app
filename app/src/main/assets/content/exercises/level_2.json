@@ -431,7 +431,7 @@
     "category_id": 5,
     "answer_text": "The SSD is faster than the HDD.",
     "context_text": null,
-    "question_type": "WH_WHAT",
+    "question_type": "WH_WHICH",
     "grammar_focus": "comparatives - tech comparison",
     "difficulty_score": 3,
     "xp_reward": 20,

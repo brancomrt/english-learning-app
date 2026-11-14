@@ -68,6 +68,18 @@
         "question_text": "Where are you from?",
         "is_primary": false,
         "match_threshold": 0.75
+      },
+      {
+        "id": 901,
+        "question_text": "What city do you live in?",
+        "is_primary": false,
+        "match_threshold": 0.8
+      },
+      {
+        "id": 902,
+        "question_text": "Do you live in São Paulo?",
+        "is_primary": false,
+        "match_threshold": 0.85
       }
     ],
     "hints": [
@@ -97,7 +109,7 @@
     "category_id": 1,
     "answer_text": "I am 28 years old.",
     "context_text": null,
-    "question_type": "WH_WHAT",
+    "question_type": "WH_HOW",
     "grammar_focus": "present simple - to be + age",
     "difficulty_score": 1,
     "xp_reward": 10,
@@ -1191,19 +1203,25 @@
         "id": 57,
         "question_text": "Yes, I am.",
         "is_primary": true,
-        "match_threshold": 0.9
+        "match_threshold": 0.85
       },
       {
         "id": 58,
         "question_text": "No, I'm not.",
         "is_primary": false,
-        "match_threshold": 0.9
+        "match_threshold": 0.85
       },
       {
-        "id": 59,
-        "question_text": "No, I am not.",
+        "id": 903,
+        "question_text": "Yes, I am married.",
         "is_primary": false,
-        "match_threshold": 0.9
+        "match_threshold": 0.8
+      },
+      {
+        "id": 904,
+        "question_text": "No, I'm single.",
+        "is_primary": false,
+        "match_threshold": 0.8
       }
     ],
     "hints": [
@@ -2175,7 +2193,7 @@
     "category_id": 1,
     "answer_text": "I wake up at seven o'clock every morning.",
     "context_text": null,
-    "question_type": "WH_WHEN",
+    "question_type": "WH_WHAT",
     "grammar_focus": "present simple - time",
     "difficulty_score": 1,
     "xp_reward": 10,
@@ -2589,7 +2607,7 @@
     "category_id": 1,
     "answer_text": "I prefer tea to coffee.",
     "context_text": null,
-    "question_type": "WH_WHAT",
+    "question_type": "YES_NO",
     "grammar_focus": "present simple - prefer",
     "difficulty_score": 1,
     "xp_reward": 10,
@@ -3003,7 +3021,7 @@
     "category_id": 2,
     "answer_text": "My office is on the third floor.",
     "context_text": null,
-    "question_type": "WH_WHERE",
+    "question_type": "WH_WHICH",
     "grammar_focus": "present simple - location, ordinal",
     "difficulty_score": 1,
     "xp_reward": 10,

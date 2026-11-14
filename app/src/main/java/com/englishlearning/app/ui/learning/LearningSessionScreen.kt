@@ -338,7 +338,10 @@ private fun ExerciseContent(
 
                 // Resposta revelada inline (antes de submeter)
                 if (state.answerRevealed && primaryAnswer != null && !hasResult) {
-                    AcceptedAnswerReveal(primaryAnswer = primaryAnswer)
+                    AcceptedAnswerReveal(
+                        primaryAnswer = primaryAnswer,
+                        acceptedAnswers = exercise.acceptedAnswers
+                    )
                     Spacer(modifier = Modifier.height(8.dp))
                     Button(
                         onClick = onNext,
@@ -363,6 +366,7 @@ private fun ExerciseContent(
                     attemptCount = state.attemptCount,
                     revealedHints = state.revealedHints,
                     primaryAnswer = primaryAnswer,
+                    acceptedAnswers = exercise.acceptedAnswers,
                     onNext = onNext,
                     onTryAgain = {
                         questionInput = ""

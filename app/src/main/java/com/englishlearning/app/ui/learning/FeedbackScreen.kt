@@ -136,7 +136,8 @@ fun FeedbackScreen(
     primaryAnswer: AcceptedAnswer?,
     onNext: () -> Unit,
     onTryAgain: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    acceptedAnswers: List<AcceptedAnswer> = emptyList()
 ) {
     // ------------------------------------------------------------------
     // Derived state
@@ -211,11 +212,27 @@ fun FeedbackScreen(
                 }
 
                 // ----------------------------------------------------------
+                // Other accepted formulations (shown on correct answer)
+                // ----------------------------------------------------------
+                if (isCorrect && acceptedAnswers.size > 1) {
+                    val matchedText = result.matchedAnswer?.questionText ?: primaryAnswer?.questionText
+                    val alternatives = remember(acceptedAnswers, matchedText) {
+                        distinctAlternatives(acceptedAnswers, excludeText = matchedText)
+                    }
+                    if (alternatives.isNotEmpty()) {
+                        AlternativeAnswersCard(alternatives = alternatives)
+                    }
+                }
+
+                // ----------------------------------------------------------
                 // Primary accepted answer reveal (Req. 3.6)
                 // Shown when attempts are exhausted and answer is not correct
                 // ----------------------------------------------------------
                 if (attemptsExhausted && primaryAnswer != null) {
-                    AcceptedAnswerReveal(primaryAnswer = primaryAnswer)
+                    AcceptedAnswerReveal(
+                        primaryAnswer = primaryAnswer,
+                        acceptedAnswers = acceptedAnswers
+                    )
                 }
 
                 // Spacer to push action buttons to the bottom when content is short
@@ -652,7 +669,13 @@ private fun HintItem(hint: Hint) {
  * usuário atingir o número máximo de tentativas sem acertar.
  */
 @Composable
-internal fun AcceptedAnswerReveal(primaryAnswer: AcceptedAnswer) {
+internal fun AcceptedAnswerReveal(
+    primaryAnswer: AcceptedAnswer,
+    acceptedAnswers: List<AcceptedAnswer> = emptyList()
+) {
+    val alternatives = remember(acceptedAnswers, primaryAnswer.questionText) {
+        distinctAlternatives(acceptedAnswers, excludeText = primaryAnswer.questionText)
+    }
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
@@ -689,12 +712,92 @@ internal fun AcceptedAnswerReveal(primaryAnswer: AcceptedAnswer) {
                 ),
                 color = MaterialTheme.colorScheme.onSecondaryContainer
             )
+            if (alternatives.isNotEmpty()) {
+                HorizontalDivider(
+                    modifier = Modifier.padding(vertical = 4.dp),
+                    color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.15f)
+                )
+                Text(
+                    text = "Outras formas aceitas:",
+                    style = MaterialTheme.typography.labelMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.85f)
+                )
+                alternatives.forEach { alt ->
+                    Text(
+                        text = "• ${alt.questionText}",
+                        style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic),
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                }
+            }
             Text(
-                text = "Estude essa estrutura e tente novamente na próxima sessão.",
+                text = "Estude essas estruturas e tente novamente na próxima sessão.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f)
             )
         }
+    }
+}
+
+@Composable
+private fun AlternativeAnswersCard(alternatives: List<AcceptedAnswer>) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.6f)
+        )
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp)
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(
+                    imageVector = Icons.Filled.Info,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.size(18.dp)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(
+                    text = "Outras formas também aceitas",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+            alternatives.forEach { alt ->
+                Text(
+                    text = "• ${alt.questionText}",
+                    style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic),
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+            }
+        }
+    }
+}
+
+private fun distinctAlternatives(
+    acceptedAnswers: List<AcceptedAnswer>,
+    excludeText: String?
+): List<AcceptedAnswer> {
+    val normalizeKey: (String) -> String = { text ->
+        text.lowercase()
+            .replace("'s", " is")
+            .replace("'re", " are")
+            .replace("'m", " am")
+            .replace("n't", " not")
+            .replace(Regex("[^a-z0-9\\s]"), "")
+            .replace(Regex("\\s+"), " ")
+            .trim()
+    }
+    val seen = mutableSetOf<String>()
+    excludeText?.let { seen.add(normalizeKey(it)) }
+    return acceptedAnswers.filter { answer ->
+        seen.add(normalizeKey(answer.questionText))
     }
 }
 

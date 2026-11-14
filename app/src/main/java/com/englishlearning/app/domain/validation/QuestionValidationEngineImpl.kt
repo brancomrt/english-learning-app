@@ -49,9 +49,13 @@ class QuestionValidationEngineImpl(
             return validateAnswer(normalized, exercise)
         }
 
-        // Passo 1: verificar tipo gramatical — Requisito 2.2, 2.3
+        // Passo 1: verificar tipo gramatical — aceita o tipo principal do exercício
+        // ou o tipo de qualquer resposta aceita alternativa (múltiplas formulações válidas)
         val detectedType = grammarParser.detectQuestionType(normalized)
-        if (detectedType != exercise.questionType) {
+        val acceptedTypes = exercise.acceptedAnswers
+            .map { grammarParser.detectQuestionType(textNormalizer.normalize(it.questionText)) }
+            .toSet()
+        if (detectedType != exercise.questionType && detectedType !in acceptedTypes) {
             return ValidationResult(
                 status = ValidationStatus.INCORRECT,
                 score = 0,
@@ -62,8 +66,8 @@ class QuestionValidationEngineImpl(
             )
         }
 
-        // Passo 2: verificar estrutura gramatical — Requisito 2.4
-        val structureResult = grammarParser.checkStructure(normalized, exercise.questionType)
+        // Passo 2: verificar estrutura gramatical para o tipo detectado — Requisito 2.4
+        val structureResult = grammarParser.checkStructure(normalized, detectedType)
 
         // Passo 3: matching semântico contra todas as respostas aceitas — Requisito 2.5, 2.6
         val bestMatch = exercise.acceptedAnswers
@@ -97,7 +101,10 @@ class QuestionValidationEngineImpl(
         val bestMatch = exercise.acceptedAnswers
             .map { accepted ->
                 val normalizedAccepted = textNormalizer.normalize(accepted.questionText)
-                Pair(accepted, semanticMatcher.score(normalized, normalizedAccepted))
+                val baseScore = semanticMatcher.score(normalized, normalizedAccepted)
+                val isExpansion = isNaturalAnswerExpansion(normalized, normalizedAccepted)
+                val effectiveScore = if (isExpansion) maxOf(baseScore, accepted.matchThreshold) else baseScore
+                Pair(accepted, effectiveScore)
             }
             .maxByOrNull { it.second }
             ?: return ValidationResult(
@@ -298,13 +305,16 @@ class QuestionValidationEngineImpl(
         }
 
         val detectedType = grammarParser.detectQuestionType(normalized)
+        val acceptedTypes = exercise.acceptedAnswers
+            .map { grammarParser.detectQuestionType(textNormalizer.normalize(it.questionText)) }
+            .toSet()
 
         // Tipo incorreto: exibir apenas primeira dica estrutural
-        if (detectedType != exercise.questionType) {
+        if (detectedType != exercise.questionType && detectedType !in acceptedTypes) {
             return sortedHints.take(1)
         }
 
-        val structureResult = grammarParser.checkStructure(normalized, exercise.questionType)
+        val structureResult = grammarParser.checkStructure(normalized, detectedType)
 
         // Estrutura incorreta: exibir até 2 dicas
         if (!structureResult.isValid) {
@@ -334,10 +344,26 @@ class QuestionValidationEngineImpl(
     ): Int {
         val normalized = textNormalizer.normalize(userQuestion)
 
-        val detectedType = grammarParser.detectQuestionType(normalized)
-        if (detectedType != exercise.questionType) return 0
+        if (exercise.exerciseMode == ExerciseMode.ANSWER_FROM_QUESTION) {
+            val best = exercise.acceptedAnswers.maxOfOrNull { accepted ->
+                val normalizedAccepted = textNormalizer.normalize(accepted.questionText)
+                val baseScore = semanticMatcher.score(normalized, normalizedAccepted)
+                if (isNaturalAnswerExpansion(normalized, normalizedAccepted)) {
+                    maxOf(baseScore, accepted.matchThreshold)
+                } else {
+                    baseScore
+                }
+            } ?: return 0
+            return minOf(100, (best * 100).toInt())
+        }
 
-        val structureResult = grammarParser.checkStructure(normalized, exercise.questionType)
+        val detectedType = grammarParser.detectQuestionType(normalized)
+        val acceptedTypes = exercise.acceptedAnswers
+            .map { grammarParser.detectQuestionType(textNormalizer.normalize(it.questionText)) }
+            .toSet()
+        if (detectedType != exercise.questionType && detectedType !in acceptedTypes) return 0
+
+        val structureResult = grammarParser.checkStructure(normalized, detectedType)
 
         val bestMatch = exercise.acceptedAnswers
             .map { accepted ->
@@ -348,6 +374,16 @@ class QuestionValidationEngineImpl(
 
         val (_, semanticScore) = bestMatch
         return calculateScore(semanticScore, structureResult, exercise)
+    }
+
+    /**
+     * Verifica se a resposta do usuário é uma expansão natural completa de uma
+     * resposta curta aceita (ex: "Yes, I am married." para "Yes, I am.").
+     */
+    private fun isNaturalAnswerExpansion(normalized: String, normalizedAccepted: String): Boolean {
+        val acceptedTokens = normalizedAccepted.split(" ").filter { it.isNotEmpty() }
+        return acceptedTokens.size >= 2 &&
+            (normalized == normalizedAccepted || normalized.startsWith("$normalizedAccepted "))
     }
 
     companion object {
