@@ -3084,6 +3084,18 @@
         "question_text": "How often do you have a team meeting?",
         "is_primary": false,
         "match_threshold": 0.8
+      },
+      {
+        "id": 905,
+        "question_text": "When do we have team meetings?",
+        "is_primary": false,
+        "match_threshold": 0.85
+      },
+      {
+        "id": 906,
+        "question_text": "When do we have a team meeting?",
+        "is_primary": false,
+        "match_threshold": 0.85
       }
     ],
     "hints": [

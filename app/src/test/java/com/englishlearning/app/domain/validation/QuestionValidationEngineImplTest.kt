@@ -302,6 +302,18 @@ class QuestionValidationEngineImplTest {
         assertEquals(ValidationStatus.CORRECT, result.status)
     }
 
+    @Test
+    fun `validate - accepts we or you when answerText uses we`() {
+        val exercise = makeExercise(
+            questionType = QuestionType.WH_WHEN,
+            answers = listOf("When do you have team meetings?" to 0.85f)
+        ).copy(answerText = "We have a team meeting every Tuesday morning.")
+
+        val result = engine.validate("When do we have team meetings?", exercise)
+
+        assertEquals(ValidationStatus.CORRECT, result.status)
+    }
+
     // -------------------------------------------------------------------
     // Constants
     // -------------------------------------------------------------------

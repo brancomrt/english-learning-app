@@ -73,7 +73,7 @@ class QuestionValidationEngineImpl(
         val bestMatch = exercise.acceptedAnswers
             .map { accepted ->
                 val normalizedAccepted = textNormalizer.normalize(accepted.questionText)
-                Pair(accepted, semanticMatcher.score(normalized, normalizedAccepted))
+                Pair(accepted, scoreQuestionMatch(normalized, normalizedAccepted, exercise))
             }
             .maxByOrNull { it.second }
 
@@ -367,7 +367,8 @@ class QuestionValidationEngineImpl(
 
         val bestMatch = exercise.acceptedAnswers
             .map { accepted ->
-                Pair(accepted, semanticMatcher.score(normalized, textNormalizer.normalize(accepted.questionText)))
+                val normalizedAccepted = textNormalizer.normalize(accepted.questionText)
+                Pair(accepted, scoreQuestionMatch(normalized, normalizedAccepted, exercise))
             }
             .maxByOrNull { it.second }
             ?: return 0
@@ -375,6 +376,36 @@ class QuestionValidationEngineImpl(
         val (_, semanticScore) = bestMatch
         return calculateScore(semanticScore, structureResult, exercise)
     }
+
+    /**
+     * Calcula a similaridade semântica entre a pergunta do usuário e uma resposta aceita.
+     * Quando a afirmação do exercício usa "we/our/us", permite alternância natural
+     * entre "we/our" e "you/your" na pergunta formulada.
+     */
+    private fun scoreQuestionMatch(
+        normalizedUser: String,
+        normalizedAccepted: String,
+        exercise: Exercise
+    ): Float {
+        val directScore = semanticMatcher.score(normalizedUser, normalizedAccepted)
+        if (!WE_PRONOUN_REGEX.containsMatchIn(exercise.answerText)) {
+            return directScore
+        }
+        val unifiedScore = semanticMatcher.score(
+            unifyWeYou(normalizedUser),
+            unifyWeYou(normalizedAccepted)
+        )
+        return maxOf(directScore, unifiedScore)
+    }
+
+    private fun unifyWeYou(text: String): String =
+        text.split(" ").joinToString(" ") { token ->
+            when (token) {
+                "we" -> "you"
+                "our" -> "your"
+                else -> token
+            }
+        }
 
     /**
      * Verifica se a resposta do usuário é uma expansão natural completa de uma
@@ -392,5 +423,7 @@ class QuestionValidationEngineImpl(
 
         /** Bônus adicionado ao score base quando a estrutura gramatical está correta. */
         const val STRUCTURE_BONUS = 10
+
+        private val WE_PRONOUN_REGEX = Regex("\\b(we|our|us)\\b", RegexOption.IGNORE_CASE)
     }
 }
