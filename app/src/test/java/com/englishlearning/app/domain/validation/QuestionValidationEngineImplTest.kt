@@ -314,6 +314,17 @@ class QuestionValidationEngineImplTest {
         assertEquals(ValidationStatus.CORRECT, result.status)
     }
 
+    @Test
+    fun `validate - accepts prepositional Wh-questions like At which and For whom`() {
+        val exercise = makeExercise(
+            questionType = QuestionType.WH_WHERE,
+            answers = listOf("At which stage did the pipeline fail?" to 0.85f)
+        )
+        val result = engine.validate("At which stage did the pipeline fail?", exercise)
+
+        assertEquals(ValidationStatus.CORRECT, result.status)
+    }
+
     // -------------------------------------------------------------------
     // Constants
     // -------------------------------------------------------------------

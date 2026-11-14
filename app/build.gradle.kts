@@ -15,8 +15,8 @@ android {
         applicationId = "com.englishlearning.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 48
-        versionName = "1.33.0"
+        versionCode = 49
+        versionName = "1.33.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 

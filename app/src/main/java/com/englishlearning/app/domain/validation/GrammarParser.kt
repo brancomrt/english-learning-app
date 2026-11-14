@@ -34,12 +34,17 @@ class GrammarParser {
         "what" to QuestionType.WH_WHAT,
         "where" to QuestionType.WH_WHERE,
         "when" to QuestionType.WH_WHEN,
+        "whom" to QuestionType.WH_WHO,
         "who" to QuestionType.WH_WHO,
         "why" to QuestionType.WH_WHY,
         "how much" to QuestionType.WH_HOW_MUCH,
         "how many" to QuestionType.WH_HOW_MANY,
         "how" to QuestionType.WH_HOW,
         "which" to QuestionType.WH_WHICH
+    )
+
+    private val leadingPrepositions: Set<String> = setOf(
+        "in", "on", "at", "by", "for", "from", "to", "with", "about", "during", "under", "through"
     )
 
     /**
@@ -65,11 +70,19 @@ class GrammarParser {
      */
     fun detectQuestionType(normalized: String): QuestionType {
         // Verificar Wh-questions (ordem por comprimento para "how much" antes de "how")
-        whWords.entries
-            .sortedByDescending { it.key.length }
-            .forEach { (word, type) ->
-                if (normalized.startsWith(word)) return type
+        val sortedWh = whWords.entries.sortedByDescending { it.key.length }
+        sortedWh.forEach { (word, type) ->
+            if (normalized.startsWith(word)) return type
+        }
+
+        // Verificar Wh-questions com preposição inicial (ex: "At which...", "For whom...", "In what...")
+        val firstWord = normalized.split(" ").firstOrNull() ?: ""
+        if (firstWord in leadingPrepositions && normalized.contains(" ")) {
+            val withoutPrep = normalized.substringAfter(" ")
+            sortedWh.forEach { (word, type) ->
+                if (withoutPrep.startsWith(word)) return type
             }
+        }
 
         // Verificar Tag questions (padrão: "..., aux + pronome?")
         if (isTagQuestion(normalized)) return QuestionType.TAG
@@ -78,7 +91,6 @@ class GrammarParser {
         if (isIndirectQuestion(normalized)) return QuestionType.INDIRECT
 
         // Verificar Yes/No question (começa com verbo auxiliar)
-        val firstWord = normalized.split(" ").firstOrNull() ?: ""
         return if (firstWord in auxVerbs) QuestionType.YES_NO
         else QuestionType.YES_NO // fallback
     }
@@ -143,8 +155,14 @@ class GrammarParser {
         tokens: List<String>,
         type: QuestionType
     ): StructureCheckResult {
+        val effectiveTokens = if (tokens.firstOrNull() in leadingPrepositions) {
+            tokens.drop(1)
+        } else {
+            tokens
+        }
+
         // Pergunta incompleta
-        if (tokens.size < 3) return StructureCheckResult(
+        if (effectiveTokens.size < 3) return StructureCheckResult(
             isValid = false,
             errorType = ErrorType.INVERTED_WORD_ORDER,
             corrections = listOf(
@@ -162,7 +180,7 @@ class GrammarParser {
             else -> 1
         }
 
-        val afterWh = tokens.drop(whWordTokenCount)
+        val afterWh = effectiveTokens.drop(whWordTokenCount)
 
         // A estrutura gramatical de WH-questions aceita duas formas:
         //  • WH + AUX + ...              ex: "Where do you live?"
